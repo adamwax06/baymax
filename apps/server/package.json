@@ -1,0 +1,14 @@
+{
+  "name": "@baymax/server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch src/index.ts"
+  },
+  "dependencies": {
+    "@baymax/core": "workspace:*",
+    "hono": "^4.6.0",
+    "zod": "^3.25.0"
+  }
+}

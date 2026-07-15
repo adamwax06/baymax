@@ -1,0 +1,10 @@
+{
+  "name": "@baymax/cli",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": { "health": "./src/index.ts" },
+  "dependencies": {
+    "@baymax/core": "workspace:*"
+  }
+}

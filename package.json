@@ -1,0 +1,18 @@
+{
+  "name": "baymax",
+  "private": true,
+  "workspaces": ["packages/*", "apps/*"],
+  "scripts": {
+    "dev": "bun --cwd apps/server dev",
+    "db:generate": "bun --cwd packages/core db:generate",
+    "seed": "bun scripts/seed.ts",
+    "health": "bun apps/cli/src/index.ts",
+    "test": "bun test",
+    "typecheck": "bunx tsc --noEmit"
+  },
+  "devDependencies": {
+    "@baymax/core": "workspace:*",
+    "typescript": "^5.8.0",
+    "bun-types": "^1.3.9"
+  }
+}

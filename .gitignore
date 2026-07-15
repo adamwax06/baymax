@@ -1,0 +1,7 @@
+node_modules/
+data/
+.DS_Store
+ios/*.xcodeproj/
+ios/Signing.xcconfig
+ios/Baymax/Info.plist
+ios/Baymax/Baymax.entitlements

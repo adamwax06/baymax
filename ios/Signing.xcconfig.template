@@ -1,0 +1,4 @@
+// cp Signing.xcconfig.template Signing.xcconfig, then fill in your team id
+// (Xcode > Settings > Accounts, or developer.apple.com membership page).
+// Signing.xcconfig is gitignored so `xcodegen generate` never clobbers it.
+DEVELOPMENT_TEAM = YOUR_TEAM_ID

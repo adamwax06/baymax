@@ -1,0 +1,35 @@
+# XcodeGen spec — the Xcode project is generated, never edited by hand.
+# All project config lives here (plus Signing.xcconfig for your team id).
+#
+#   cp Signing.xcconfig.template Signing.xcconfig   # fill in DEVELOPMENT_TEAM
+#   xcodegen generate                               # brew install xcodegen
+name: Baymax
+options:
+  bundleIdPrefix: com.adamwax
+  deploymentTarget:
+    iOS: "17.0"
+configFiles:
+  Debug: Signing.xcconfig
+  Release: Signing.xcconfig
+targets:
+  Baymax:
+    type: application
+    platform: iOS
+    sources: [Baymax]
+    entitlements:
+      path: Baymax/Baymax.entitlements
+      properties:
+        com.apple.developer.healthkit: true
+    info:
+      path: Baymax/Info.plist
+      properties:
+        UILaunchScreen: {}
+        NSHealthShareUsageDescription: Baymax reads your health data to sync it to your local database on your Mac.
+        NSLocalNetworkUsageDescription: Baymax sends health data to the baymax server running on your Mac over your local network.
+        NSAppTransportSecurity:
+          NSAllowsLocalNetworking: true
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.adamwax.baymax
+        CODE_SIGN_STYLE: Automatic
+        TARGETED_DEVICE_FAMILY: "1"
