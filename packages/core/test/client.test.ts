@@ -1,26 +1,15 @@
 import { afterAll, beforeAll, describe, expect, test } from "bun:test";
-import { mkdtempSync, rmSync } from "node:fs";
-import { tmpdir } from "node:os";
+import { rmSync } from "node:fs";
 import { join } from "node:path";
-import { HealthClient, ingestSamples, ingestWorkouts, migrateDb, openDb } from "../src/index.ts";
-import { generateFixtures, EIGHT_SLEEP, STRAVA } from "./fixtures.ts";
-
-const NOW = new Date(2026, 5, 20, 12, 0, 0).getTime();
+import { HealthClient } from "../src/index.ts";
+import { EIGHT_SLEEP, STRAVA, NOW, seedTempDb } from "./fixtures.ts";
 
 let dir: string;
-let dbPath: string;
 let client: HealthClient;
 
 beforeAll(() => {
-  dir = mkdtempSync(join(tmpdir(), "baymax-"));
-  dbPath = join(dir, "test.db");
-  const db = openDb({ path: dbPath });
-  migrateDb(db);
-  const fx = generateFixtures({ days: 8, now: NOW });
-  ingestSamples(db, { samples: fx.samples });
-  ingestWorkouts(db, { workouts: fx.workouts });
-  db.$client.close();
-  client = new HealthClient({ dbPath });
+  ({ dir } = seedTempDb("baymax-", { days: 8, now: NOW }));
+  client = new HealthClient({ dbPath: join(dir, "test.db") });
 });
 
 afterAll(() => {
@@ -47,7 +36,6 @@ describe("HealthClient", () => {
     const strava = client.sources().find((s) => s.source === STRAVA.bundleId)!;
     expect(strava.workouts).toBeGreaterThan(0);
     expect(strava.types).toContain("HKQuantityTypeIdentifierDistanceCycling");
-    expect(strava.types).toContain("HKWorkoutType");
   });
 
   test("metrics merge the registry with live counts", () => {

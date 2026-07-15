@@ -35,9 +35,10 @@ const { values } = parseArgs({
   },
 });
 
-function intOpt(name: "days" | "limit", fallback: number): number {
+// Returns undefined when the flag is absent — HealthClient owns all defaults.
+function intOpt(name: "days" | "limit"): number | undefined {
   const raw = values[name];
-  if (raw === undefined) return fallback;
+  if (raw === undefined) return undefined;
   const n = Number(raw);
   if (!Number.isInteger(n) || n < 1) fail(`--${name} must be a positive integer, got "${raw}"`);
   return n;
@@ -71,13 +72,13 @@ function run(client: HealthClient, cmd: string | undefined): unknown {
     case "metrics":
       return client.metrics();
     case "sleep":
-      return client.sleep({ days: intOpt("days", 7), source: values.source });
+      return client.sleep({ days: intOpt("days"), source: values.source });
     case "workouts":
-      return client.workouts({ days: intOpt("days", 30) });
+      return client.workouts({ days: intOpt("days") });
     case "samples":
-      return client.samples({ metric: requireOpt("type"), days: intOpt("days", 7), limit: intOpt("limit", 200) });
+      return client.samples({ metric: requireOpt("type"), days: intOpt("days"), limit: intOpt("limit") });
     case "trend":
-      return client.trend({ metric: requireOpt("metric"), days: intOpt("days", 30) });
+      return client.trend({ metric: requireOpt("metric"), days: intOpt("days") });
     default:
       fail(USAGE);
   }
@@ -144,7 +145,7 @@ function render(cmd: string, result: any): void {
       break;
     case "trend": {
       const note = result.source ? `  source: ${result.source}` : "";
-      console.log(`${result.metric} (${result.unit ?? "count"}, ${result.aggregation})${note}`);
+      console.log(`${result.metric} (${result.unit}, ${result.aggregation})${note}`);
       if (result.excludedSources?.length) {
         console.log(`excluded to avoid double counting: ${result.excludedSources.map((e: any) => `${e.source} (${e.total})`).join(", ")}`);
       }

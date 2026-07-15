@@ -8,14 +8,18 @@ enum AnchorStore {
     private static func key(_ type: HKSampleType) -> String { "anchor.\(type.identifier)" }
 
     static func load(for type: HKSampleType) -> HKQueryAnchor? {
-        guard let b64 = UserDefaults.standard.string(forKey: key(type)),
-              let data = Data(base64Encoded: b64) else { return nil }
+        let defaults = UserDefaults.standard
+        // String branch: legacy base64 format from pre-cleanup builds; deletable
+        // once every device has synced (save writes Data).
+        let data = defaults.data(forKey: key(type))
+            ?? defaults.string(forKey: key(type)).flatMap { Data(base64Encoded: $0) }
+        guard let data else { return nil }
         return try? NSKeyedUnarchiver.unarchivedObject(ofClass: HKQueryAnchor.self, from: data)
     }
 
     static func save(_ anchor: HKQueryAnchor, for type: HKSampleType) {
         guard let data = try? NSKeyedArchiver.archivedData(withRootObject: anchor, requiringSecureCoding: true) else { return }
-        UserDefaults.standard.set(data.base64EncodedString(), forKey: key(type))
+        UserDefaults.standard.set(data, forKey: key(type))
     }
 
     /// Forget all anchors: the next sync re-sends full history (harmless — the

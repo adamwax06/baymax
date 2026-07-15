@@ -1,28 +1,13 @@
 import { describe, expect, test } from "bun:test";
-import {
-  openDb,
-  migrateDb,
-  ingestSamples,
-  trend,
-  metricByName,
-  localDateStr,
-  type BaymaxDb,
-} from "../src/index.ts";
-import { generateFixtures, dayStartTs, WATCH, IPHONE } from "./fixtures.ts";
+import { ingestSamples, trend, metricByName, localDateStr } from "../src/index.ts";
+import { round1 } from "../src/time.ts";
+import { generateFixtures, dayStartTs, WATCH, IPHONE, freshDb, seededDb, NOW } from "./fixtures.ts";
 
-const NOW = new Date(2026, 5, 20, 12, 0, 0).getTime();
 const m = (name: string) => metricByName(name)!;
-
-function seededDb(days = 8): BaymaxDb {
-  const db = openDb({ path: ":memory:" });
-  migrateDb(db);
-  ingestSamples(db, { samples: generateFixtures({ days, now: NOW }).samples });
-  return db;
-}
 
 describe("trend", () => {
   test("sum metrics use the dominant source and report excluded sources", () => {
-    const db = seededDb();
+    const db = seededDb(8);
     const t = trend(db, m("steps"), { days: 7, now: NOW });
     expect(t.source).toBe(WATCH.bundleId); // watch fixture steps > iphone's
     expect(t.excludedSources).toHaveLength(1);
@@ -36,11 +21,11 @@ describe("trend", () => {
     const expected = fx.samples
       .filter((s) => s.type === "HKQuantityTypeIdentifierStepCount" && s.source === WATCH && localDateStr(s.start) === date)
       .reduce((sum, s) => sum + s.value!, 0);
-    expect(t.buckets.find((b) => b.date === date)!.value).toBe(Math.round(expected * 10) / 10);
+    expect(t.buckets.find((b) => b.date === date)!.value).toBe(round1(expected));
   });
 
   test("avg metrics include min/max/count per bucket", () => {
-    const t = trend(seededDb(), m("heart_rate"), { days: 5, now: NOW });
+    const t = trend(seededDb(8), m("heart_rate"), { days: 5, now: NOW });
     const full = t.buckets.find((b) => b.date === localDateStr(dayStartTs(NOW, 2)))!;
     expect(full.count).toBe(96);
     expect(full.min!).toBeLessThanOrEqual(full.value!);
@@ -48,7 +33,7 @@ describe("trend", () => {
   });
 
   test("latest metrics pick the last value per day and gap-fill with null", () => {
-    const t = trend(seededDb(), m("body_mass"), { days: 7, now: NOW });
+    const t = trend(seededDb(8), m("body_mass"), { days: 7, now: NOW });
     const withValue = t.buckets.filter((b) => b.value !== null);
     const without = t.buckets.filter((b) => b.value === null);
     expect(withValue.length).toBeGreaterThan(0);
@@ -63,8 +48,7 @@ describe("trend", () => {
   });
 
   test("a 23:30 local sample lands on its local date bucket", () => {
-    const db = openDb({ path: ":memory:" });
-    migrateDb(db);
+    const db = freshDb();
     const day = dayStartTs(NOW, 1);
     const ts = day + 23.5 * 3_600_000;
     ingestSamples(db, {
@@ -75,8 +59,7 @@ describe("trend", () => {
   });
 
   test("category sum metrics count events per day", () => {
-    const db = openDb({ path: ":memory:" });
-    migrateDb(db);
+    const db = freshDb();
     const day = dayStartTs(NOW, 1);
     ingestSamples(db, {
       samples: [0, 1].map((j) => ({
@@ -93,7 +76,7 @@ describe("trend", () => {
   });
 
   test("sleep trend buckets nights of the primary source and attaches all nights", () => {
-    const t = trend(seededDb(), m("sleep"), { days: 5, now: NOW });
+    const t = trend(seededDb(8), m("sleep"), { days: 5, now: NOW });
     expect(t.unit).toBe("min");
     expect(t.source).toBeDefined();
     expect(t.nights!.length).toBeGreaterThan(0);
@@ -103,8 +86,7 @@ describe("trend", () => {
   });
 
   test("no data at all still returns a full null-filled bucket range", () => {
-    const db = openDb({ path: ":memory:" });
-    migrateDb(db);
+    const db = freshDb();
     const t = trend(db, m("steps"), { days: 3, now: NOW });
     expect(t.buckets).toHaveLength(4);
     expect(t.buckets.every((b) => b.value === null)).toBe(true);

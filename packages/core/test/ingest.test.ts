@@ -1,15 +1,7 @@
 import { describe, expect, test } from "bun:test";
 import { sql } from "drizzle-orm";
-import { openDb, migrateDb, ingestSamples, ingestWorkouts, listWorkouts, type BaymaxDb } from "../src/index.ts";
-import { generateFixtures, WATCH, dayStartTs } from "./fixtures.ts";
-
-const NOW = new Date(2026, 5, 20, 12, 0, 0).getTime();
-
-function freshDb(): BaymaxDb {
-  const db = openDb({ path: ":memory:" });
-  migrateDb(db);
-  return db;
-}
+import { ingestSamples, ingestWorkouts, listWorkouts, type BaymaxDb } from "../src/index.ts";
+import { generateFixtures, WATCH, dayStartTs, freshDb, NOW } from "./fixtures.ts";
 
 const count = (db: BaymaxDb, table: string) =>
   (db.all<{ n: number }>(sql.raw(`select count(*) as n from ${table}`))[0] as { n: number }).n;

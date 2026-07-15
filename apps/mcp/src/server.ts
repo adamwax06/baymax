@@ -1,17 +1,8 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
-import { HealthClient, METRICS } from "@baymax/core";
+import { HealthClient, METRICS, SCHEMA_DOC } from "@baymax/core";
 import { z } from "zod";
 
 const METRIC_NAMES = METRICS.map((m) => m.name).join(", ");
-
-const DDL = `Tables:
-  sources(id, bundle_id, name) — the app that wrote the data (e.g. com.strava.stravaride)
-  devices(id, device_key, name, manufacturer, model, hardware_version, software_version)
-  samples(hk_uuid, type, value, unit, start_ts, end_ts, source_id, device_id, metadata)
-    type = full HealthKit identifier; start_ts/end_ts = epoch ms UTC;
-    category samples (e.g. sleep) store the raw int in value; metadata = raw HealthKit metadata JSON
-  workouts(hk_uuid, activity_type_raw, start_ts, end_ts, duration_s, distance_m, active_energy_kcal, source_id, device_id, metadata)
-Local-day bucketing: date(start_ts/1000, 'unixepoch', 'localtime')`;
 
 /** Build the MCP server. The DB is opened lazily so the server can start before the first sync. */
 export function createServer(dbPath?: string): McpServer {
@@ -21,8 +12,9 @@ export function createServer(dbPath?: string): McpServer {
   const server = new McpServer({ name: "baymax-health", version: "0.1.0" });
   const json = (result: unknown) => ({ content: [{ type: "text" as const, text: JSON.stringify(result, null, 2) }] });
 
+  // Optional on purpose: HealthClient owns the defaults; the prose documents them.
   const days = (def: number) =>
-    z.number().int().min(1).max(3650).default(def).describe("How many days back from now to include");
+    z.number().int().min(1).max(3650).optional().describe(`How many days back from now to include (default ${def})`);
 
   server.registerTool(
     "health_status",
@@ -64,7 +56,7 @@ export function createServer(dbPath?: string): McpServer {
         source: z.string().optional().describe("Filter to one source bundle id (see health_sources)"),
       },
     },
-    (args: { days: number; source?: string }) => json(health().sleep(args)),
+    (args: { days?: number; source?: string }) => json(health().sleep(args)),
   );
 
   server.registerTool(
@@ -73,7 +65,7 @@ export function createServer(dbPath?: string): McpServer {
       description: "Workouts with decoded activity type (running, cycling…), duration, distance, energy, source app, and raw HealthKit metadata (Strava workouts carry provider metadata here).",
       inputSchema: { days: days(30) },
     },
-    (args: { days: number }) => json(health().workouts(args)),
+    (args: { days?: number }) => json(health().workouts(args)),
   );
 
   server.registerTool(
@@ -83,10 +75,10 @@ export function createServer(dbPath?: string): McpServer {
       inputSchema: {
         metric: z.string().describe("Friendly metric name, e.g. heart_rate_variability"),
         days: days(7),
-        limit: z.number().int().min(1).max(10000).default(200),
+        limit: z.number().int().min(1).max(10000).optional().describe("Max rows (default 200)"),
       },
     },
-    (args: { metric: string; days: number; limit: number }) => json(health().samples(args)),
+    (args: { metric: string; days?: number; limit?: number }) => json(health().samples(args)),
   );
 
   server.registerTool(
@@ -99,13 +91,13 @@ export function createServer(dbPath?: string): McpServer {
         days: days(30),
       },
     },
-    (args: { metric: string; days: number }) => json(health().trend(args)),
+    (args: { metric: string; days?: number }) => json(health().trend(args)),
   );
 
   server.registerTool(
     "health_query",
     {
-      description: `Escape hatch: run read-only SQL (SELECT/WITH only, enforced plus a read-only connection) against the health database.\n${DDL}`,
+      description: `Escape hatch: run read-only SQL (SELECT/WITH only, enforced plus a read-only connection) against the health database.\n${SCHEMA_DOC}`,
       inputSchema: { sql: z.string().describe("A SELECT or WITH query") },
     },
     (args: { sql: string }) => json(health().sql(args.sql)),

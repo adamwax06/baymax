@@ -1,21 +1,9 @@
 import { and, eq, gte, type SQL } from "drizzle-orm";
 import type { BaymaxDb } from "./db.ts";
+import { SLEEP_ASLEEP_VALUES, SLEEP_IN_BED, SLEEP_STAGE_BY_VALUE, SLEEP_TYPE } from "./registry.ts";
 import { samples, sources } from "./schema.ts";
-import { DAY_MS, localDateStr, localDateTimeStr } from "./time.ts";
+import { DAY_MS, localDateStr, localDateTimeStr, round1 } from "./time.ts";
 import type { SleepNight } from "./types.ts";
-
-const SLEEP_TYPE = "HKCategoryTypeIdentifierSleepAnalysis";
-const IN_BED = 0;
-const STAGE_BY_VALUE: Record<number, keyof SleepNight["stages"]> = {
-  1: "unspecified",
-  2: "awake",
-  3: "core",
-  4: "deep",
-  5: "rem",
-};
-const ASLEEP_VALUES = new Set([1, 3, 4, 5]);
-
-const round1 = (n: number) => Math.round(n * 10) / 10;
 
 /**
  * Groups sleepAnalysis samples into noon-to-noon local "nights", per source.
@@ -68,9 +56,9 @@ export function deriveSleepNights(
     }
     const minutes = (r.endTs - r.startTs) / 60_000;
     const value = r.value;
-    if (value === IN_BED) n.inBedMinutes += minutes;
-    if (ASLEEP_VALUES.has(value)) n.asleepMinutes += minutes;
-    const stage = STAGE_BY_VALUE[value];
+    if (value === SLEEP_IN_BED) n.inBedMinutes += minutes;
+    if (SLEEP_ASLEEP_VALUES.has(value)) n.asleepMinutes += minutes;
+    const stage = SLEEP_STAGE_BY_VALUE[value];
     if (stage) n.stages[stage] += minutes;
     n._start = Math.min(n._start, r.startTs);
     n._end = Math.max(n._end, r.endTs);

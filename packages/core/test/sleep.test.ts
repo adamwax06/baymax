@@ -1,20 +1,10 @@
 import { describe, expect, test } from "bun:test";
-import { openDb, migrateDb, ingestSamples, deriveSleepNights, localDateStr, type BaymaxDb } from "../src/index.ts";
-import { generateFixtures, dayStartTs, WATCH, EIGHT_SLEEP } from "./fixtures.ts";
-
-const NOW = new Date(2026, 5, 20, 12, 0, 0).getTime();
-const SLEEP = "HKCategoryTypeIdentifierSleepAnalysis";
-
-function seededDb(days = 9): BaymaxDb {
-  const db = openDb({ path: ":memory:" });
-  migrateDb(db);
-  ingestSamples(db, { samples: generateFixtures({ days, now: NOW }).samples });
-  return db;
-}
+import { ingestSamples, deriveSleepNights, localDateStr, SLEEP_TYPE as SLEEP } from "../src/index.ts";
+import { dayStartTs, WATCH, EIGHT_SLEEP, freshDb, seededDb, NOW } from "./fixtures.ts";
 
 describe("deriveSleepNights", () => {
   test("one night per source per date, both sources reported, newest first", () => {
-    const nights = deriveSleepNights(seededDb(), { days: 7, now: NOW });
+    const nights = deriveSleepNights(seededDb(9), { days: 7, now: NOW });
     const watchNights = nights.filter((n) => n.source === WATCH.bundleId);
     const esNights = nights.filter((n) => n.source === EIGHT_SLEEP.bundleId);
     expect(watchNights.length).toBe(7);
@@ -25,8 +15,7 @@ describe("deriveSleepNights", () => {
   });
 
   test("post-midnight segments land on the night they belong to (noon-to-noon)", () => {
-    const db = openDb({ path: ":memory:" });
-    migrateDb(db);
+    const db = freshDb();
     const day = dayStartTs(NOW, 3);
     ingestSamples(db, {
       samples: [
@@ -43,8 +32,7 @@ describe("deriveSleepNights", () => {
   });
 
   test("an afternoon nap counts toward that day's night window", () => {
-    const db = openDb({ path: ":memory:" });
-    migrateDb(db);
+    const db = freshDb();
     const day = dayStartTs(NOW, 2);
     ingestSamples(db, {
       samples: [{ uuid: "nap", type: SLEEP, value: 1, start: day + 13 * 3_600_000, end: day + 14 * 3_600_000, source: WATCH }],
@@ -55,7 +43,7 @@ describe("deriveSleepNights", () => {
   });
 
   test("stage minutes sum to asleep minutes; efficiency only when inBed present", () => {
-    const nights = deriveSleepNights(seededDb(), { days: 3, now: NOW });
+    const nights = deriveSleepNights(seededDb(9), { days: 3, now: NOW });
     for (const n of nights) {
       const stageSum = n.stages.core + n.stages.deep + n.stages.rem + n.stages.unspecified;
       expect(Math.abs(stageSum - n.asleepMinutes)).toBeLessThan(0.5); // rounding tolerance
@@ -72,7 +60,7 @@ describe("deriveSleepNights", () => {
   });
 
   test("source filter returns only that source's nights", () => {
-    const nights = deriveSleepNights(seededDb(), { days: 7, source: EIGHT_SLEEP.bundleId, now: NOW });
+    const nights = deriveSleepNights(seededDb(9), { days: 7, source: EIGHT_SLEEP.bundleId, now: NOW });
     expect(nights.length).toBe(7);
     expect(nights.every((n) => n.source === EIGHT_SLEEP.bundleId)).toBe(true);
   });

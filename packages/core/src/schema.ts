@@ -36,6 +36,16 @@ export const samples = sqliteTable(
   (t) => [index("idx_samples_type_start").on(t.type, t.startTs)],
 );
 
+/** Human/agent-readable schema summary — keep in lockstep with the tables in this file. */
+export const SCHEMA_DOC = `Tables:
+  sources(id, bundle_id, name) — the app that wrote the data (e.g. com.strava.stravaride)
+  devices(id, device_key, name, manufacturer, model, hardware_version, software_version)
+  samples(hk_uuid, type, value, unit, start_ts, end_ts, source_id, device_id, metadata)
+    type = full HealthKit identifier; start_ts/end_ts = epoch ms UTC;
+    category samples (e.g. sleep) store the raw int in value; metadata = raw HealthKit metadata JSON
+  workouts(hk_uuid, activity_type_raw, start_ts, end_ts, duration_s, distance_m, active_energy_kcal, source_id, device_id, metadata)
+Local-day bucketing: date(start_ts/1000, 'unixepoch', 'localtime')`;
+
 export const workouts = sqliteTable(
   "workouts",
   {

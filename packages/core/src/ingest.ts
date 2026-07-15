@@ -10,6 +10,16 @@ export interface IngestResult {
 
 type Tx = Parameters<Parameters<BaymaxDb["transaction"]>[0]>[0];
 
+// Multi-row upsert chunks: bounded well under SQLite's parameter limit
+// (10 cols x 500 rows = 5000 params).
+const CHUNK = 500;
+
+function chunks<T>(items: T[]): T[][] {
+  const out: T[][] = [];
+  for (let i = 0; i < items.length; i += CHUNK) out.push(items.slice(i, i + CHUNK));
+  return out;
+}
+
 function getOrCreateSource(tx: Tx, cache: Map<string, number>, source: SourcePayload): number {
   const cached = cache.get(source.bundleId);
   if (cached !== undefined) return cached;
@@ -49,9 +59,8 @@ function metadataJson(metadata: Record<string, unknown> | null | undefined): str
 
 function chunkedDelete(tx: Tx, table: typeof samples | typeof workouts, uuids: string[]): number {
   let deleted = 0;
-  for (let i = 0; i < uuids.length; i += 500) {
-    tx.delete(table).where(inArray(table.hkUuid, uuids.slice(i, i + 500))).run();
-    deleted += (tx.all(sql`select changes() as c`) as { c: number }[])[0]!.c;
+  for (const chunk of chunks(uuids)) {
+    deleted += tx.delete(table).where(inArray(table.hkUuid, chunk)).returning({ uuid: table.hkUuid }).all().length;
   }
   return deleted;
 }
@@ -60,23 +69,36 @@ export function ingestSamples(db: BaymaxDb, batch: { samples: SamplePayload[]; d
   return db.transaction((tx) => {
     const sourceCache = new Map<string, number>();
     const deviceCache = new Map<string, number>();
-    for (const s of batch.samples) {
-      const row = {
-        type: s.type,
-        value: s.value ?? null,
-        unit: s.unit ?? null,
-        startTs: s.start,
-        endTs: s.end,
-        sourceId: getOrCreateSource(tx, sourceCache, s.source),
-        deviceId: getOrCreateDevice(tx, deviceCache, s.device),
-        metadata: metadataJson(s.metadata),
-      };
+    const rows = batch.samples.map((s) => ({
+      hkUuid: s.uuid,
+      type: s.type,
+      value: s.value ?? null,
+      unit: s.unit ?? null,
+      startTs: s.start,
+      endTs: s.end,
+      sourceId: getOrCreateSource(tx, sourceCache, s.source),
+      deviceId: getOrCreateDevice(tx, deviceCache, s.device),
+      metadata: metadataJson(s.metadata),
+    }));
+    for (const chunk of chunks(rows)) {
       tx.insert(samples)
-        .values({ hkUuid: s.uuid, ...row })
-        .onConflictDoUpdate({ target: samples.hkUuid, set: row })
+        .values(chunk)
+        .onConflictDoUpdate({
+          target: samples.hkUuid,
+          set: {
+            type: sql`excluded.type`,
+            value: sql`excluded.value`,
+            unit: sql`excluded.unit`,
+            startTs: sql`excluded.start_ts`,
+            endTs: sql`excluded.end_ts`,
+            sourceId: sql`excluded.source_id`,
+            deviceId: sql`excluded.device_id`,
+            metadata: sql`excluded.metadata`,
+          },
+        })
         .run();
     }
-    return { upserted: batch.samples.length, deleted: chunkedDelete(tx, samples, batch.deleted ?? []) };
+    return { upserted: rows.length, deleted: chunkedDelete(tx, samples, batch.deleted ?? []) };
   });
 }
 
@@ -84,23 +106,37 @@ export function ingestWorkouts(db: BaymaxDb, batch: { workouts: WorkoutPayload[]
   return db.transaction((tx) => {
     const sourceCache = new Map<string, number>();
     const deviceCache = new Map<string, number>();
-    for (const w of batch.workouts) {
-      const row = {
-        activityTypeRaw: w.activityTypeRaw,
-        startTs: w.start,
-        endTs: w.end,
-        durationS: w.duration,
-        distanceM: w.distanceMeters ?? null,
-        activeEnergyKcal: w.activeEnergyKcal ?? null,
-        sourceId: getOrCreateSource(tx, sourceCache, w.source),
-        deviceId: getOrCreateDevice(tx, deviceCache, w.device),
-        metadata: metadataJson(w.metadata),
-      };
+    const rows = batch.workouts.map((w) => ({
+      hkUuid: w.uuid,
+      activityTypeRaw: w.activityTypeRaw,
+      startTs: w.start,
+      endTs: w.end,
+      durationS: w.duration,
+      distanceM: w.distanceMeters ?? null,
+      activeEnergyKcal: w.activeEnergyKcal ?? null,
+      sourceId: getOrCreateSource(tx, sourceCache, w.source),
+      deviceId: getOrCreateDevice(tx, deviceCache, w.device),
+      metadata: metadataJson(w.metadata),
+    }));
+    for (const chunk of chunks(rows)) {
       tx.insert(workouts)
-        .values({ hkUuid: w.uuid, ...row })
-        .onConflictDoUpdate({ target: workouts.hkUuid, set: row })
+        .values(chunk)
+        .onConflictDoUpdate({
+          target: workouts.hkUuid,
+          set: {
+            activityTypeRaw: sql`excluded.activity_type_raw`,
+            startTs: sql`excluded.start_ts`,
+            endTs: sql`excluded.end_ts`,
+            durationS: sql`excluded.duration_s`,
+            distanceM: sql`excluded.distance_m`,
+            activeEnergyKcal: sql`excluded.active_energy_kcal`,
+            sourceId: sql`excluded.source_id`,
+            deviceId: sql`excluded.device_id`,
+            metadata: sql`excluded.metadata`,
+          },
+        })
         .run();
     }
-    return { upserted: batch.workouts.length, deleted: chunkedDelete(tx, workouts, batch.deleted ?? []) };
+    return { upserted: rows.length, deleted: chunkedDelete(tx, workouts, batch.deleted ?? []) };
   });
 }

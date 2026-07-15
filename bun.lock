@@ -35,7 +35,6 @@
       "dependencies": {
         "@baymax/core": "workspace:*",
         "hono": "^4.6.0",
-        "zod": "^3.25.0",
       },
     },
     "packages/core": {
@@ -43,6 +42,7 @@
       "version": "0.1.0",
       "dependencies": {
         "drizzle-orm": "^0.44.0",
+        "zod": "^3.25.0",
       },
       "devDependencies": {
         "drizzle-kit": "^0.31.0",

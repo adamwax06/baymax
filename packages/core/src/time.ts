@@ -1,5 +1,7 @@
 export const DAY_MS = 86_400_000;
 
+export const round1 = (n: number): number => Math.round(n * 10) / 10;
+
 const pad = (n: number) => String(n).padStart(2, "0");
 
 /** Local-timezone YYYY-MM-DD for an epoch-ms timestamp. */

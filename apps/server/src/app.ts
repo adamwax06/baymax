@@ -1,6 +1,5 @@
 import { Hono } from "hono";
-import { ingestSamples, ingestWorkouts, metricByHkType, type BaymaxDb } from "@baymax/core";
-import { sampleBatchZ, workoutBatchZ } from "./payloads.ts";
+import { ingestSamples, ingestWorkouts, metricByHkType, sampleBatchZ, workoutBatchZ, type BaymaxDb } from "@baymax/core";
 
 export function createApp(db: BaymaxDb): Hono {
   const app = new Hono();

@@ -1,23 +1,14 @@
 import { afterAll, beforeAll, describe, expect, test } from "bun:test";
-import { mkdtempSync, rmSync } from "node:fs";
-import { tmpdir } from "node:os";
+import { rmSync } from "node:fs";
 import { join } from "node:path";
-import { ingestSamples, ingestWorkouts, migrateDb, openDb } from "@baymax/core";
-import { generateFixtures } from "@baymax/core/test/fixtures.ts";
+import { seedTempDb } from "@baymax/core/test/fixtures.ts";
 
 const CLI = join(import.meta.dir, "..", "src", "index.ts");
 let dir: string;
 let dbPath: string;
 
 beforeAll(() => {
-  dir = mkdtempSync(join(tmpdir(), "baymax-cli-"));
-  dbPath = join(dir, "test.db");
-  const db = openDb({ path: dbPath });
-  migrateDb(db);
-  const fx = generateFixtures({ days: 5, now: Date.now() });
-  ingestSamples(db, { samples: fx.samples });
-  ingestWorkouts(db, { workouts: fx.workouts });
-  db.$client.close();
+  ({ dir, dbPath } = seedTempDb("baymax-cli-"));
 });
 
 afterAll(() => rmSync(dir, { recursive: true, force: true }));

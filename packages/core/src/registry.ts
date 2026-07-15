@@ -21,6 +21,11 @@ export interface MetricDef {
   categoryValues?: Record<number, string>;
 }
 
+export const SLEEP_TYPE = "HKCategoryTypeIdentifierSleepAnalysis";
+
+// The three structures below describe the same raw HealthKit sleep values —
+// keep them in lockstep. SLEEP_VALUES decodes names for display; the stage
+// map and asleep set drive night derivation in sleep.ts.
 const SLEEP_VALUES: Record<number, string> = {
   0: "inBed",
   1: "asleepUnspecified",
@@ -29,6 +34,16 @@ const SLEEP_VALUES: Record<number, string> = {
   4: "asleepDeep",
   5: "asleepREM",
 };
+
+export const SLEEP_IN_BED = 0;
+export const SLEEP_STAGE_BY_VALUE: Record<number, "unspecified" | "awake" | "core" | "deep" | "rem"> = {
+  1: "unspecified",
+  2: "awake",
+  3: "core",
+  4: "deep",
+  5: "rem",
+};
+export const SLEEP_ASLEEP_VALUES: ReadonlySet<number> = new Set([1, 3, 4, 5]);
 
 export const METRICS: readonly MetricDef[] = [
   { name: "heart_rate", hkType: "HKQuantityTypeIdentifierHeartRate", kind: "quantity", unit: "count/min", aggregation: "avg", description: "Heart rate (bpm), sampled continuously by Apple Watch" },
@@ -51,7 +66,7 @@ export const METRICS: readonly MetricDef[] = [
   { name: "bmi", hkType: "HKQuantityTypeIdentifierBodyMassIndex", kind: "quantity", unit: "count", aggregation: "latest", description: "Body mass index" },
   { name: "running_speed", hkType: "HKQuantityTypeIdentifierRunningSpeed", kind: "quantity", unit: "m/s", aggregation: "avg", description: "Running speed (m/s), recorded during running workouts" },
   { name: "running_power", hkType: "HKQuantityTypeIdentifierRunningPower", kind: "quantity", unit: "W", aggregation: "avg", description: "Running power (watts), recorded during running workouts" },
-  { name: "sleep", hkType: "HKCategoryTypeIdentifierSleepAnalysis", kind: "category", unit: null, aggregation: "sleep", description: "Sleep stages from Apple Watch and Eight Sleep. Queried as noon-to-noon nights, reported per source (never merged)", categoryValues: SLEEP_VALUES },
+  { name: "sleep", hkType: SLEEP_TYPE, kind: "category", unit: null, aggregation: "sleep", description: "Sleep stages from Apple Watch and Eight Sleep. Queried as noon-to-noon nights, reported per source (never merged)", categoryValues: SLEEP_VALUES },
   { name: "high_heart_rate_events", hkType: "HKCategoryTypeIdentifierHighHeartRateEvent", kind: "category", unit: null, aggregation: "sum", description: "High heart rate notifications (event count)" },
   { name: "low_heart_rate_events", hkType: "HKCategoryTypeIdentifierLowHeartRateEvent", kind: "category", unit: null, aggregation: "sum", description: "Low heart rate notifications (event count)" },
   { name: "irregular_rhythm_events", hkType: "HKCategoryTypeIdentifierIrregularHeartRhythmEvent", kind: "category", unit: null, aggregation: "sum", description: "Irregular rhythm notifications (event count)" },

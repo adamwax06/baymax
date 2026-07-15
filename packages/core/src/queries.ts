@@ -3,11 +3,10 @@ import { existsSync, statSync } from "node:fs";
 import type { BaymaxDb } from "./db.ts";
 import { METRICS, type MetricDef, workoutActivityName } from "./registry.ts";
 import { devices, samples, sources, workouts } from "./schema.ts";
-import { DAY_MS, localDateRange, localDateTimeStr } from "./time.ts";
+import { DAY_MS, localDateRange, localDateTimeStr, round1 } from "./time.ts";
 import { deriveSleepNights } from "./sleep.ts";
 import type { MetricInfo, SampleRow, SourceSummary, StatusResult, TrendResult, WorkoutRow } from "./types.ts";
 
-const round1 = (n: number) => Math.round(n * 10) / 10;
 const localDay = sql<string>`date(${samples.startTs} / 1000, 'unixepoch', 'localtime')`;
 
 export function trend(db: BaymaxDb, metric: MetricDef, opts: { days: number; now?: number }): TrendResult {
@@ -43,6 +42,8 @@ export function trend(db: BaymaxDb, metric: MetricDef, opts: { days: number; now
 
   if (metric.aggregation === "sum" && metric.kind === "category") {
     // Rare events (e.g. high HR notifications): count per day across all sources.
+    // TrendResult.unit is always the bucket-value unit ("count" here, "min" for sleep).
+    result.unit = "count";
     const rows = db.select({ date: localDay, count: sql<number>`count(*)` }).from(samples).where(inRange).groupBy(localDay).all();
     const byDate = new Map(rows.map((r) => [r.date, r.count]));
     result.buckets = dates.map((date) => ({ date, value: byDate.get(date) ?? null, count: byDate.get(date) ?? 0 }));
@@ -107,8 +108,8 @@ export function trend(db: BaymaxDb, metric: MetricDef, opts: { days: number; now
 
   // latest: SQLite returns the bare column from the max(end_ts) row per group
   const rows = db.all<{ date: string; value: number | null }>(sql`
-    select date(start_ts / 1000, 'unixepoch', 'localtime') as date, value, max(end_ts)
-    from samples where type = ${metric.hkType} and start_ts >= ${since} group by date
+    select ${localDay} as date, ${samples.value} as value, max(${samples.endTs})
+    from ${samples} where ${samples.type} = ${metric.hkType} and ${samples.startTs} >= ${since} group by date
   `);
   const byDate = new Map(rows.map((r) => [r.date, r.value]));
   result.buckets = dates.map((date) => {
@@ -260,7 +261,6 @@ export function listSources(db: BaymaxDb): SourceSummary[] {
       const s = samplesBySource.get(src.id);
       const w = workoutsBySource.get(src.id) ?? 0;
       const types = s?.types ? s.types.split(",").sort() : [];
-      if (w > 0) types.push("HKWorkoutType");
       return {
         source: src.bundleId,
         name: src.name,
@@ -275,22 +275,18 @@ export function listSources(db: BaymaxDb): SourceSummary[] {
 }
 
 export function statusSummary(db: BaymaxDb, dbPath: string): StatusResult {
-  const totals = db
-    .select({ count: sql<number>`count(*)`, earliest: sql<number>`min(${samples.startTs})`, latest: sql<number>`max(${samples.endTs})` })
-    .from(samples)
-    .get();
+  const stats = sampleTypeStats(db); // one scan feeds totals, range, and unregistered types
   const workoutCount = db.select({ count: sql<number>`count(*)` }).from(workouts).get();
   const registered = new Set(METRICS.map((m) => m.hkType));
+  const total = stats.reduce((n, s) => n + s.count, 0);
   return {
     dbPath,
     dbSizeBytes: dbPath !== ":memory:" && existsSync(dbPath) ? statSync(dbPath).size : null,
-    samples: totals?.count ?? 0,
+    samples: total,
     workouts: workoutCount?.count ?? 0,
-    earliestSample: totals?.count ? localDateTimeStr(totals.earliest) : null,
-    latestSample: totals?.count ? localDateTimeStr(totals.latest) : null,
+    earliestSample: total ? localDateTimeStr(Math.min(...stats.map((s) => s.earliest))) : null,
+    latestSample: total ? localDateTimeStr(Math.max(...stats.map((s) => s.latest))) : null,
     perSource: listSources(db).map(({ source, name, samples: s, workouts: w }) => ({ source, name, samples: s, workouts: w })),
-    unregisteredTypes: sampleTypeStats(db)
-      .filter((r) => !registered.has(r.type))
-      .map((r) => ({ hkType: r.type, count: r.count })),
+    unregisteredTypes: stats.filter((r) => !registered.has(r.type)).map((r) => ({ hkType: r.type, count: r.count })),
   };
 }

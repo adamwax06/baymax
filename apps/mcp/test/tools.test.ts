@@ -1,11 +1,8 @@
 import { afterAll, beforeAll, describe, expect, test } from "bun:test";
-import { mkdtempSync, rmSync } from "node:fs";
-import { tmpdir } from "node:os";
-import { join } from "node:path";
+import { rmSync } from "node:fs";
 import { Client } from "@modelcontextprotocol/sdk/client/index.js";
 import { InMemoryTransport } from "@modelcontextprotocol/sdk/inMemory.js";
-import { ingestSamples, ingestWorkouts, migrateDb, openDb } from "@baymax/core";
-import { generateFixtures } from "@baymax/core/test/fixtures.ts";
+import { seedTempDb } from "@baymax/core/test/fixtures.ts";
 import { createServer } from "../src/server.ts";
 
 let dir: string;
@@ -15,14 +12,8 @@ const textOf = (result: unknown) =>
   ((result as { content: { type: string; text: string }[] }).content)[0]!.text;
 
 beforeAll(async () => {
-  dir = mkdtempSync(join(tmpdir(), "baymax-mcp-"));
-  const dbPath = join(dir, "test.db");
-  const db = openDb({ path: dbPath });
-  migrateDb(db);
-  const fx = generateFixtures({ days: 5, now: Date.now() });
-  ingestSamples(db, { samples: fx.samples });
-  ingestWorkouts(db, { workouts: fx.workouts });
-  db.$client.close();
+  let dbPath: string;
+  ({ dir, dbPath } = seedTempDb("baymax-mcp-"));
 
   const [clientTransport, serverTransport] = InMemoryTransport.createLinkedPair();
   await createServer(dbPath).connect(serverTransport);

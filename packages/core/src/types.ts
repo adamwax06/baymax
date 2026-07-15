@@ -1,51 +1,14 @@
 import type { AggregationKind } from "./registry.ts";
 
-// ---- Wire payloads (mirrored by apps/server Zod schemas and ios/Baymax/Payloads.swift) ----
-
-export interface SourcePayload {
-  bundleId: string;
-  name?: string | null;
-}
-
-export interface DevicePayload {
-  name?: string | null;
-  manufacturer?: string | null;
-  model?: string | null;
-  hardwareVersion?: string | null;
-  softwareVersion?: string | null;
-}
-
-export interface SamplePayload {
-  uuid: string;
-  type: string;
-  value?: number | null;
-  unit?: string | null;
-  start: number; // epoch ms UTC
-  end: number;
-  source: SourcePayload;
-  device?: DevicePayload | null;
-  metadata?: Record<string, unknown> | null;
-}
-
-export interface WorkoutPayload {
-  uuid: string;
-  activityTypeRaw: number;
-  start: number;
-  end: number;
-  duration: number; // seconds
-  distanceMeters?: number | null;
-  activeEnergyKcal?: number | null;
-  source: SourcePayload;
-  device?: DevicePayload | null;
-  metadata?: Record<string, unknown> | null;
-}
+// Wire payload types are inferred from the Zod schemas in payloads.ts.
+export type { DevicePayload, SamplePayload, SourcePayload, WorkoutPayload } from "./payloads.ts";
 
 // ---- Query results ----
 
 export interface SampleRow {
   uuid: string;
   type: string;
-  metric: string | null; // friendly name if registered
+  metric: string;
   value: number | null;
   valueLabel: string | null; // decoded category name, e.g. "asleepDeep"
   unit: string | null;

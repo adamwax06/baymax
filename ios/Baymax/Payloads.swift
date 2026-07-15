@@ -1,8 +1,12 @@
 import Foundation
 import HealthKit
 
-// Codable mirrors of the Zod schemas in apps/server/src/payloads.ts.
+// Codable mirrors of the Zod schemas in packages/core/src/payloads.ts.
 // Timestamps are epoch milliseconds UTC.
+
+private extension Date {
+    var epochMillis: Int64 { Int64(timeIntervalSince1970 * 1000) }
+}
 
 struct SourcePayload: Encodable {
     let bundleId: String
@@ -61,8 +65,8 @@ struct SamplePayload: Encodable {
             type: sample.sampleType.identifier,
             value: value,
             unit: unit,
-            start: Int64(sample.startDate.timeIntervalSince1970 * 1000),
-            end: Int64(sample.endDate.timeIntervalSince1970 * 1000),
+            start: sample.startDate.epochMillis,
+            end: sample.endDate.epochMillis,
             source: SourcePayload(bundleId: source.bundleIdentifier, name: source.name),
             device: DevicePayload.from(sample.device),
             metadata: JSONValue.dict(sample.metadata)
@@ -93,8 +97,8 @@ struct WorkoutPayload: Encodable {
         let source = workout.sourceRevision.source
         uuid = workout.uuid.uuidString
         activityTypeRaw = Int(workout.workoutActivityType.rawValue)
-        start = Int64(workout.startDate.timeIntervalSince1970 * 1000)
-        end = Int64(workout.endDate.timeIntervalSince1970 * 1000)
+        start = workout.startDate.epochMillis
+        end = workout.endDate.epochMillis
         duration = workout.duration
         distanceMeters = distance?.doubleValue(for: .meter())
         activeEnergyKcal = energy?.doubleValue(for: .kilocalorie())
@@ -133,7 +137,7 @@ enum JSONValue: Encodable {
     static func from(_ any: Any) -> JSONValue {
         switch any {
         case let s as String: return .string(s)
-        case let d as Date: return .string(ISO8601DateFormatter().string(from: d))
+        case let d as Date: return .string(d.ISO8601Format())
         case let b as Bool: return .bool(b)
         case let n as NSNumber: return .number(n.doubleValue)
         default: return .string(String(describing: any))

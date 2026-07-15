@@ -1,5 +1,9 @@
+import { mkdtempSync } from "node:fs";
+import { tmpdir } from "node:os";
+import { join } from "node:path";
 import type { DevicePayload, SamplePayload, SourcePayload, WorkoutPayload } from "../src/types.ts";
 import { DAY_MS } from "../src/time.ts";
+import { ingestSamples, ingestWorkouts, migrateDb, openDb, type BaymaxDb } from "../src/index.ts";
 
 /**
  * Deterministic fixture generator emulating the three real-world sources.
@@ -57,6 +61,38 @@ const at = (dayTs: number, h: number, m = 0) => dayTs + h * 3_600_000 + m * 60_0
 export interface Fixtures {
   samples: SamplePayload[];
   workouts: WorkoutPayload[];
+}
+
+/** Fixed "now" shared by the deterministic unit tests. */
+export const NOW = new Date(2026, 5, 20, 12, 0, 0).getTime();
+
+/** Fresh migrated in-memory DB. */
+export function freshDb(): BaymaxDb {
+  const db = openDb({ path: ":memory:" });
+  migrateDb(db);
+  return db;
+}
+
+/** In-memory DB seeded with `days` of fixtures relative to NOW. */
+export function seededDb(days: number, opts: { workouts?: boolean } = {}): BaymaxDb {
+  const db = freshDb();
+  const fx = generateFixtures({ days, now: NOW });
+  ingestSamples(db, { samples: fx.samples });
+  if (opts.workouts) ingestWorkouts(db, { workouts: fx.workouts });
+  return db;
+}
+
+/** Seeded temp-file DB for tests that need a real path (CLI spawn, readonly HealthClient, MCP). */
+export function seedTempDb(prefix: string, opts: { days?: number; now?: number } = {}): { dir: string; dbPath: string } {
+  const dir = mkdtempSync(join(tmpdir(), prefix));
+  const dbPath = join(dir, "test.db");
+  const db = openDb({ path: dbPath });
+  migrateDb(db);
+  const fx = generateFixtures({ days: opts.days ?? 5, now: opts.now ?? Date.now() });
+  ingestSamples(db, { samples: fx.samples });
+  ingestWorkouts(db, { workouts: fx.workouts });
+  db.$client.close();
+  return { dir, dbPath };
 }
 
 export function generateFixtures(opts: { days: number; now: number; seed?: number }): Fixtures {
