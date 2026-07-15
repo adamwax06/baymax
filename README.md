@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/baymax.png" width="260" alt="Baymax, suited up">
+  <img src="branding/baymax-sketch.png" width="440" alt="Baymax helmet, pencil sketch">
 </p>
 
 # baymax
