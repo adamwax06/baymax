@@ -4,9 +4,9 @@ import { DAY_MS } from "../src/time.ts";
 /**
  * Deterministic fixture generator emulating the three real-world sources.
  * Emits ingest-payload-shaped data so the same generator drives unit tests,
- * server e2e tests, and scripts/seed.ts. Bundle ids for Apple sources follow
- * the real com.apple.health pattern; Eight Sleep's is a placeholder until the
- * first real sync confirms it.
+ * server e2e tests, and scripts/seed.ts. Bundle ids confirmed against the
+ * first real sync (July 2026): com.eightsleep.Eight, com.strava.stravaride;
+ * Apple sources follow the real com.apple.health.<UUID> pattern.
  */
 
 export const WATCH: SourcePayload = {
@@ -15,7 +15,7 @@ export const WATCH: SourcePayload = {
 };
 export const IPHONE: SourcePayload = { bundleId: "com.apple.health", name: "iPhone" };
 export const STRAVA: SourcePayload = { bundleId: "com.strava.stravaride", name: "Strava" };
-export const EIGHT_SLEEP: SourcePayload = { bundleId: "com.eightsleep.EightSleep", name: "Eight Sleep" };
+export const EIGHT_SLEEP: SourcePayload = { bundleId: "com.eightsleep.Eight", name: "Eight Sleep" };
 
 const WATCH_DEVICE: DevicePayload = {
   name: "Apple Watch",
