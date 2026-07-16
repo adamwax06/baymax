@@ -3,6 +3,12 @@
 // exists. All formulas are named in the output; nothing is a black box.
 
 export const KCAL_PER_LB = 3500;
+export const KG_PER_LB = 0.45359237;
+
+/** Epley estimated 1RM: lb × (1 + reps/30). The measure lift-goal pacing uses. */
+export function epley1RM(lb: number, reps: number): number {
+  return reps <= 1 ? lb : lb * (1 + reps / 30);
+}
 
 /** Mifflin-St Jeor BMR (kcal/day). */
 export function mifflinStJeor(kg: number, cm: number, ageYears: number, sex: "male" | "female"): number {

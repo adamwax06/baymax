@@ -46,7 +46,7 @@ export const SLEEP_STAGE_BY_VALUE: Record<number, "unspecified" | "awake" | "cor
 export const SLEEP_ASLEEP_VALUES: ReadonlySet<number> = new Set([1, 3, 4, 5]);
 
 export const METRICS: readonly MetricDef[] = [
-  { name: "heart_rate", hkType: "HKQuantityTypeIdentifierHeartRate", kind: "quantity", unit: "count/min", aggregation: "avg", description: "Heart rate (bpm), sampled continuously by Apple Watch" },
+  { name: "heart_rate", hkType: "HKQuantityTypeIdentifierHeartRate", kind: "quantity", unit: "count/min", aggregation: "avg", description: "Heart rate (bpm) from whatever wearable is active (check health_sources for provenance)" },
   { name: "resting_heart_rate", hkType: "HKQuantityTypeIdentifierRestingHeartRate", kind: "quantity", unit: "count/min", aggregation: "avg", description: "Daily resting heart rate (bpm)" },
   { name: "walking_heart_rate_avg", hkType: "HKQuantityTypeIdentifierWalkingHeartRateAverage", kind: "quantity", unit: "count/min", aggregation: "avg", description: "Average walking heart rate (bpm)" },
   { name: "heart_rate_variability", hkType: "HKQuantityTypeIdentifierHeartRateVariabilitySDNN", kind: "quantity", unit: "ms", aggregation: "avg", description: "Heart rate variability SDNN (ms), mostly measured during sleep" },
@@ -66,7 +66,7 @@ export const METRICS: readonly MetricDef[] = [
   { name: "bmi", hkType: "HKQuantityTypeIdentifierBodyMassIndex", kind: "quantity", unit: "count", aggregation: "latest", description: "Body mass index" },
   { name: "running_speed", hkType: "HKQuantityTypeIdentifierRunningSpeed", kind: "quantity", unit: "m/s", aggregation: "avg", description: "Running speed (m/s), recorded during running workouts" },
   { name: "running_power", hkType: "HKQuantityTypeIdentifierRunningPower", kind: "quantity", unit: "W", aggregation: "avg", description: "Running power (watts), recorded during running workouts" },
-  { name: "sleep", hkType: SLEEP_TYPE, kind: "category", unit: null, aggregation: "sleep", description: "Sleep stages from Apple Watch and Eight Sleep. Queried as noon-to-noon nights, reported per source (never merged)", categoryValues: SLEEP_VALUES },
+  { name: "sleep", hkType: SLEEP_TYPE, kind: "category", unit: null, aggregation: "sleep", description: "Sleep stages from sleep trackers (Eight Sleep, Watch, …). Queried as noon-to-noon nights, reported per source (never merged)", categoryValues: SLEEP_VALUES },
   { name: "high_heart_rate_events", hkType: "HKCategoryTypeIdentifierHighHeartRateEvent", kind: "category", unit: null, aggregation: "sum", description: "High heart rate notifications (event count)" },
   { name: "low_heart_rate_events", hkType: "HKCategoryTypeIdentifierLowHeartRateEvent", kind: "category", unit: null, aggregation: "sum", description: "Low heart rate notifications (event count)" },
   { name: "irregular_rhythm_events", hkType: "HKCategoryTypeIdentifierIrregularHeartRhythmEvent", kind: "category", unit: null, aggregation: "sum", description: "Irregular rhythm notifications (event count)" },

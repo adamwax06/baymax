@@ -5,7 +5,6 @@
 #   xcodegen generate                               # brew install xcodegen
 name: Baymax
 options:
-  bundleIdPrefix: com.adamwax
   deploymentTarget:
     iOS: "17.0"
 configFiles:

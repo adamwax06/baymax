@@ -9,6 +9,7 @@ import {
   defaultDbPath,
   ingestSamples,
   ingestWorkouts,
+  KG_PER_LB,
   migrateDb,
   openDb,
   type SamplePayload,
@@ -39,7 +40,6 @@ const bodyweightZ = z.array(z.object({ date: dateZ, lb: z.number().min(80).max(5
 
 const SOURCE = { bundleId: "weights-json", name: "Weights Log" };
 const STRENGTH_TRAINING = 50; // HKWorkoutActivityType.traditionalStrengthTraining
-const LB_TO_KG = 0.45359237;
 
 const localTs = (date: string, hour: number) => {
   const [y, m, d] = date.split("-").map(Number);
@@ -70,7 +70,7 @@ const bodyWeight = (await load(bodyweightPath, bodyweightZ, false)) ?? [];
 const samples: SamplePayload[] = bodyWeight.map((b) => ({
   uuid: `weights-bw-${b.date}`,
   type: "HKQuantityTypeIdentifierBodyMass",
-  value: Math.round(b.lb * LB_TO_KG * 100) / 100,
+  value: Math.round(b.lb * KG_PER_LB * 100) / 100,
   unit: "kg",
   start: localTs(b.date, 12),
   end: localTs(b.date, 12),

@@ -1,10 +1,8 @@
 import { beforeAll, describe, expect, test } from "bun:test";
 import { migrateDb, openDb, statusSummary, type BaymaxDb } from "@baymax/core";
-import { generateFixtures } from "@baymax/core/test/fixtures.ts";
+import { generateFixtures, NOW } from "@baymax/core/test/fixtures.ts";
 import { createApp } from "../src/app.ts";
 import type { Hono } from "hono";
-
-const NOW = new Date(2026, 5, 20, 12, 0, 0).getTime();
 
 let db: BaymaxDb;
 let app: Hono;

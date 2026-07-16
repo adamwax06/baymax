@@ -76,6 +76,13 @@ both files so there's no wrong command to run.
   17:00 local, 60 min), with `{type, gym, exercises, notes}` preserved in the
   workout's `metadata` JSON.
 
+(`weights.json` keeps its `{"sessions": [...]}` wrapper — room for future
+sibling keys — while the other logs are bare arrays.)
+
+`lifts()` / `health_lifts` / `health lifts` expose per-entry `e1rmLb` — an
+Epley estimated 1RM (`lb × (1 + reps/30)` on the best set). That's the measure
+lift-goal pace notes in `data/goals.json` are denominated in.
+
 Example progression query (CLI: `sqlite3 data/baymax.db` or the MCP
 `health_query` tool):
 

@@ -12,7 +12,7 @@ export interface SampleRow {
   value: number | null;
   valueLabel: string | null; // decoded category name, e.g. "asleepDeep"
   unit: string | null;
-  start: string; // ISO local
+  start: string; // local "YYYY-MM-DD HH:MM"
   end: string;
   startTs: number;
   endTs: number;
@@ -84,17 +84,18 @@ export interface LiftEntry {
   exercise: string;
   sets: LiftSet[];
   topLb: number | null;
+  e1rmLb: number | null; // Epley estimated 1RM off the best set
   totalReps: number;
   volumeLb: number; // sum of lb×reps (perSide weights counted once)
   notes?: string;
 }
 
 export interface OverviewResult {
-  latestData: string | null; // freshness: newest sample in the DB
+  latestSample: string | null; // freshness: newest sample in the DB
   sleep: { nights: SleepNight[]; avgAsleepMinutes: number | null; source?: string };
   workouts: WorkoutRow[];
   weight: { kg: number; lb: number; date: string } | null;
-  steps: { dailyAvg: number | null; days: TrendBucket[] };
+  steps: { dailyAvg: number | null; buckets: TrendBucket[] };
 }
 
 export interface NutritionResult {

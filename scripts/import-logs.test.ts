@@ -65,6 +65,7 @@ describe("import-logs", () => {
     const bench = client.lifts({ exercise: "bench", days: 3650 });
     expect(bench).toHaveLength(1);
     expect(bench[0]!.topLb).toBe(160);
+    expect(bench[0]!.e1rmLb).toBe(192); // Epley: 160 × (1 + 6/30)
     expect(bench[0]!.totalReps).toBe(12);
     expect(bench[0]!.volumeLb).toBe(1920);
     const all = client.lifts({ days: 3650 });

@@ -25,7 +25,7 @@ Watch / Strava / Eight Sleep → Apple Health → ios/ app → apps/server (Hono
 | `scripts/seed.ts` | Fixture data → `data/baymax.db` so everything works without a phone |
 | `docs/weights.md` | Format of `data/weights.json` (gym sessions) + `data/bodyweight.json` (weigh-ins) — hand-edited sources of truth (committed on purpose; editable via the GitHub app, then `git pull` + import) |
 | `docs/nutrition.md` | The nutrition loop: `data/profile.json` (who Adam is — **includes binding allergy list**), `data/goals.json` (targets), `data/nutrition.json` (daily kcal log) → adaptive TDEE-based calorie/protein targets via `health nutrition` / `health_nutrition` |
-| `data/` | gitignored; `baymax.db` lives here (override with `BAYMAX_DB`) |
+| `data/` | `baymax.db` (gitignored, local-only) plus five committed JSON logs: weights, bodyweight, goals, nutrition, profile. The JSON logs are located next to the DB, so `BAYMAX_DB` relocates both |
 
 ## Commands
 
@@ -36,14 +36,14 @@ bunx tsc --noEmit               # strict typecheck
 bun run seed [--reset]          # fixture data (60 days: watch, iphone, strava, eight sleep)
 bun run dev                     # ingest server on 0.0.0.0:4321 (prints the LAN URL for the app)
 bun run health <cmd>            # or `cd apps/cli && bun link` for a global `health`
-bun scripts/import-logs.ts      # sync weights.json + bodyweight.json into the DB (docs/weights.md)
+bun run import                  # import weights.json + bodyweight.json into the DB (docs/weights.md)
 sqlite3 data/baymax.db          # raw SQL (CLI has no query subcommand on purpose)
 bun run db:generate             # regenerate Drizzle migration after a schema change (rare)
 ```
 
-CLI: `health overview | lifts --exercise bench | status | sources | metrics |
-sleep --days 7 | workouts --days 30 | samples --type heart_rate --days 2 |
-trend --metric steps --days 90`, all with `--json`.
+CLI: `health overview | nutrition | lifts --exercise bench | status | sources |
+metrics | sleep --days 7 | workouts --days 30 | samples --metric heart_rate
+--days 2 | trend --metric steps --days 90`, all with `--json`.
 
 ## Data model (frozen — extend via the registry, not the schema)
 
@@ -58,6 +58,10 @@ workouts(hk_uuid PK, activity_type_raw, start_ts, end_ts, duration_s, distance_m
 Conventions:
 - **Timestamps** are epoch **milliseconds UTC** (`start_ts`/`end_ts`). Day
   bucketing happens at query time via `date(start_ts/1000,'unixepoch','localtime')`.
+- **Units boundary**: the DB stores HealthKit-native units (body mass in **kg**);
+  the hand-edited JSON logs and coaching outputs (nutrition, lifts, goals) are
+  imperial (**lb**). Convert with `KG_PER_LB` from `@baymax/core` — never inline
+  the constant.
 - **`type`** is the full HealthKit identifier (`HKQuantityTypeIdentifierHeartRate`).
 - **Category samples** (sleep stages, HR events) store the raw int in `value`;
   names are decoded on read via the registry (`categoryValues`). Workout
@@ -89,8 +93,8 @@ discover candidates.
 ## Sync flow (iPhone app)
 
 Per type, the app runs `HKAnchoredObjectQueryDescriptor` in pages of 2000,
-POSTs each page, and persists the new anchor (UserDefaults, base64
-NSKeyedArchiver) **only after the server acks with 2xx**. Interrupted syncs
+POSTs each page, and persists the new anchor (NSKeyedArchiver Data in
+UserDefaults) **only after the server acks with 2xx**. Interrupted syncs
 resume from the last acked page; replays are harmless (upsert). First sync
 sends full history — dense heart rate can take a few minutes. "Reset Sync
 Anchors" in the app re-sends everything, also harmless.
@@ -106,7 +110,8 @@ in-bed sleep), **Eight Sleep** (`com.eightsleep.Eight`, active, full sleep
 stages + HR + respiratory rate), **WHOOP** (Feb–Mar 2026, HR + unstaged sleep +
 workouts with "WHOOP Strain" metadata), **Oura** (Dec 2023, full stages),
 **Strava** (`com.strava.stravaride`, workouts with `strava://activities/<id>`
-in metadata), and a Bluetooth HR strap (`com.apple.BTLEServer`). **No Apple
+in metadata), a Bluetooth HR strap (`com.apple.BTLEServer`), and trivial
+manual sources (Health app, MacroFactor: 3 samples total). **No Apple
 Watch data exists** — Watch-specific registry types (HRV, VO2 max, exercise
 minutes…) have 0 records but stay registered so data flows if one shows up.
 
@@ -139,9 +144,11 @@ Then prune registry entries that stay empty and add types that show up under
 `.mcp.json` registers `baymax-health` (stdio, `bun apps/mcp/src/index.ts`).
 Tools: **`health_overview`** (start here — one call returns recent sleep,
 workouts, weight, steps, freshness), **`health_lifts`** (strength progression
-from the gym log), `health_status`, `health_sources`, `health_metrics`,
-`health_sleep`, `health_workouts`, `health_samples`, `health_trend`, and
-`health_query` (read-only SELECT/WITH; the tool description embeds the DDL).
+incl. Epley `e1rmLb` — the measure lift-goal pacing uses), **`health_nutrition`**
+(adaptive calorie/protein targets for the body-weight goal), `health_status`,
+`health_sources`, `health_metrics`, `health_sleep`, `health_workouts`,
+`health_samples`, `health_trend`, and `health_query` (read-only SELECT/WITH;
+the tool description embeds the DDL).
 Tool descriptions carry intent phrases ("how's my recovery" → overview), so
 map user questions to tools before reaching for SQL.
 

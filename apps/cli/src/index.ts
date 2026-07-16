@@ -13,7 +13,7 @@ Usage:
   health metrics                                 available metrics + live counts
   health sleep    [--days 7] [--source <bundle>] nights per source (noon-to-noon)
   health workouts [--days 30]
-  health samples  --type <metric> [--days 7] [--limit 200]
+  health samples  --metric <metric> [--days 7] [--limit 200]   (--type also accepted)
   health trend    --metric <metric> [--days 30]  daily buckets
 
 Options:
@@ -86,7 +86,11 @@ function run(client: HealthClient, cmd: string | undefined): unknown {
     case "workouts":
       return client.workouts({ days: intOpt("days") });
     case "samples":
-      return client.samples({ metric: requireOpt("type"), days: intOpt("days"), limit: intOpt("limit") });
+      return client.samples({
+        metric: values.metric ?? values.type ?? fail("Missing --metric. Run `health metrics` to see what's available."),
+        days: intOpt("days"),
+        limit: intOpt("limit"),
+      });
     case "trend":
       return client.trend({ metric: requireOpt("metric"), days: intOpt("days") });
     default:
@@ -97,7 +101,7 @@ function run(client: HealthClient, cmd: string | undefined): unknown {
 function render(cmd: string, result: any): void {
   switch (cmd) {
     case "overview": {
-      console.log(`data through: ${result.latestData ?? "-"}`);
+      console.log(`data through: ${result.latestSample ?? "-"}`);
       console.log(`sleep (7d): avg ${result.sleep.avgAsleepMinutes ?? "-"} min asleep over ${result.sleep.nights.length} night-rows`);
       console.log(`weight: ${result.weight ? `${result.weight.lb} lb (${result.weight.date})` : "-"}`);
       console.log(`steps (7d): avg ${result.steps.dailyAvg ?? "-"}/day`);

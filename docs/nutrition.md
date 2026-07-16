@@ -9,7 +9,8 @@ tool output; the model coaches, the code computes.
 - `data/profile.json` — who Adam is: birthdate, height, sex, activity factor,
   and `diet`. **`diet` is binding for every agent**: `allergies` are medical —
   never suggest these foods and check "may contain / shared facility" labels
-  when curating foods.json; `avoid` is ingredient-level; `explicitlyOk` lists
+  when curating any food list (e.g. the planned `foods.json`); `avoid` is
+  ingredient-level; `explicitlyOk` lists
   edge cases that are safe (don't over-restrict). Read it before suggesting
   ANY food, meal, or product, in any context.
 - `data/goals.json` — what Adam is chasing (bare array). The nutrition loop
@@ -23,9 +24,14 @@ tool output; the model coaches, the code computes.
 ]
 ```
 
-`kcal` is required; other macros optional. Weigh-ins come from the existing
-`data/bodyweight.json` → import pipeline (or any scale app writing to Apple
-Health).
+`kcal` is required; other macros are optional and logged for the future
+(currently only `kcal` is consumed).
+
+**Read semantics differ, on purpose**: `nutrition.json`, `profile.json`, and
+`goals.json` are read live at query time — edits are visible immediately.
+Weigh-ins in `bodyweight.json` flow through the database, so they only count
+after `bun run import`. Log weight → import → ask. All of these files are
+located next to the database, so a `BAYMAX_DB` override relocates them too.
 
 ## How targets are computed (`health nutrition` / `health_nutrition`)
 

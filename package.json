@@ -6,6 +6,7 @@
     "dev": "bun --cwd apps/server dev",
     "db:generate": "bun --cwd packages/core db:generate",
     "seed": "bun scripts/seed.ts",
+    "import": "bun scripts/import-logs.ts",
     "health": "bun apps/cli/src/index.ts",
     "test": "bun test",
     "typecheck": "bunx tsc --noEmit"

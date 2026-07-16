@@ -73,7 +73,7 @@ describe("HealthClient", () => {
 
   test("overview bundles sleep, workouts, weight, and steps in one call", () => {
     const o = client.overview({ now: NOW });
-    expect(o.latestData).not.toBeNull();
+    expect(o.latestSample).not.toBeNull();
     expect(o.sleep.avgAsleepMinutes!).toBeGreaterThan(300);
     expect(o.sleep.nights.length).toBeGreaterThan(0);
     expect(o.workouts.length).toBeGreaterThan(0);

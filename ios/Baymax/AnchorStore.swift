@@ -8,12 +8,7 @@ enum AnchorStore {
     private static func key(_ type: HKSampleType) -> String { "anchor.\(type.identifier)" }
 
     static func load(for type: HKSampleType) -> HKQueryAnchor? {
-        let defaults = UserDefaults.standard
-        // String branch: legacy base64 format from pre-cleanup builds; deletable
-        // once every device has synced (save writes Data).
-        let data = defaults.data(forKey: key(type))
-            ?? defaults.string(forKey: key(type)).flatMap { Data(base64Encoded: $0) }
-        guard let data else { return nil }
+        guard let data = UserDefaults.standard.data(forKey: key(type)) else { return nil }
         return try? NSKeyedUnarchiver.unarchivedObject(ofClass: HKQueryAnchor.self, from: data)
     }
 

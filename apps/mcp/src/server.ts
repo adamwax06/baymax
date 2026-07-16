@@ -30,7 +30,7 @@ export function createServer(dbPath?: string): McpServer {
     "health_lifts",
     {
       description:
-        'Strength progression — "how\'s my bench", "am I getting stronger", "what did I lift last week", "squat history". Dated entries per exercise with full structured sets (lb, reps, perSide for dumbbell pairs, bodyweight flag), top set, total reps, and volume. Exercise matches by case-insensitive substring ("bench" matches "Bench Press"). Data comes from the hand-edited gym log (docs/weights.md).',
+        'Strength progression — "how\'s my bench", "am I on pace for my lift goal", "am I getting stronger". Dated entries per exercise with full structured sets (lb, reps, perSide for dumbbell pairs, bodyweight flag), top set, e1rmLb (Epley estimated 1RM off the best set — the measure lift-goal pacing in data/goals.json uses), total reps, and volume. Exercise matches by case-insensitive substring ("bench" matches "Bench Press"). Data comes from the hand-edited gym log (docs/weights.md).',
       inputSchema: {
         exercise: z.string().optional().describe('Filter, e.g. "bench" or "squat"; omit for all exercises'),
         days: days(365),

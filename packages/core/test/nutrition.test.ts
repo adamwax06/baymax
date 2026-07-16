@@ -1,5 +1,5 @@
 import { afterAll, beforeAll, describe, expect, test } from "bun:test";
-import { rmSync, writeFileSync } from "node:fs";
+import { copyFileSync, mkdirSync, rmSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { HealthClient, ingestSamples, migrateDb, openDb } from "../src/index.ts";
 import { ageYears, empiricalTdee, mifflinStJeor, slopePerDay, targetKcal, proteinTarget } from "../src/nutrition.ts";
@@ -64,11 +64,11 @@ describe("HealthClient.nutrition", () => {
   test("empirical mode activates with enough paired data and solves TDEE", () => {
     // Own clean DB: the shared fixtures contain body_mass samples that would pollute the trend.
     const dir2 = join(dir, "empirical");
-    require("node:fs").mkdirSync(dir2);
+    mkdirSync(dir2);
     const dbPath = join(dir2, "test.db");
     const iso = (i: number) => new Date(NOW - i * day).toISOString().slice(0, 10);
-    writeFileSync(join(dir2, "goals.json"), require("node:fs").readFileSync(join(dir, "goals.json")));
-    writeFileSync(join(dir2, "profile.json"), require("node:fs").readFileSync(join(dir, "profile.json")));
+    copyFileSync(join(dir, "goals.json"), join(dir2, "goals.json"));
+    copyFileSync(join(dir, "profile.json"), join(dir2, "profile.json"));
     writeFileSync(join(dir2, "nutrition.json"), JSON.stringify(Array.from({ length: 18 }, (_, i) => ({ date: iso(i), kcal: 3000 }))));
     const db = openDb({ path: dbPath });
     migrateDb(db);
