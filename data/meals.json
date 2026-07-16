@@ -1,1 +1,210 @@
-[]
+[
+  {
+    "id": "pre-lift-carb",
+    "name": "Pre-lift toast + honey + fruit",
+    "items": [
+      {
+        "food": "bread-italian",
+        "g": 90
+      },
+      {
+        "food": "honey",
+        "g": 25
+      },
+      {
+        "food": "mandarin",
+        "count": 1
+      }
+    ],
+    "notes": "eat 45-75 min before training"
+  },
+  {
+    "id": "post-lift-smoothie",
+    "name": "Post-lift yogurt-oat-mango smoothie",
+    "items": [
+      {
+        "food": "greek-yogurt-whole",
+        "g": 300
+      },
+      {
+        "food": "oats-dry",
+        "g": 70
+      },
+      {
+        "food": "mango",
+        "g": 200
+      },
+      {
+        "food": "honey",
+        "g": 15
+      },
+      {
+        "food": "chia",
+        "g": 15
+      }
+    ],
+    "notes": "blender; oats go in dry"
+  },
+  {
+    "id": "chicken-rice-bowl",
+    "name": "Chicken rice bowl",
+    "items": [
+      {
+        "food": "chicken-breast-cooked",
+        "g": 200
+      },
+      {
+        "food": "white-rice-dry",
+        "g": 130
+      },
+      {
+        "food": "spinach",
+        "g": 80
+      },
+      {
+        "food": "sriracha",
+        "g": 20
+      }
+    ],
+    "notes": "rice cooker + frozen cooked chicken; rice weighed dry"
+  },
+  {
+    "id": "beef-potato-dinner",
+    "name": "Beef + potato dinner",
+    "items": [
+      {
+        "food": "ground-beef-85",
+        "g": 150
+      },
+      {
+        "food": "potato",
+        "g": 400
+      },
+      {
+        "food": "spinach",
+        "g": 80
+      },
+      {
+        "food": "butter",
+        "g": 8
+      }
+    ],
+    "notes": "beef weighed raw"
+  },
+  {
+    "id": "yogurt-nightcap",
+    "name": "Yogurt + berries nightcap",
+    "items": [
+      {
+        "food": "greek-yogurt-whole",
+        "g": 250
+      },
+      {
+        "food": "blueberries",
+        "g": 150
+      },
+      {
+        "food": "honey",
+        "g": 10
+      }
+    ],
+    "notes": "pre-sleep casein-rich feeding"
+  },
+  {
+    "id": "rest-scramble",
+    "name": "Rest-day egg scramble wrap",
+    "items": [
+      {
+        "food": "egg",
+        "count": 4
+      },
+      {
+        "food": "mozzarella-shredded",
+        "g": 25
+      },
+      {
+        "food": "flour-tortilla",
+        "g": 90
+      },
+      {
+        "food": "spinach",
+        "g": 60
+      }
+    ]
+  },
+  {
+    "id": "rest-yogurt-bowl",
+    "name": "Rest-day yogurt pistachio bowl",
+    "items": [
+      {
+        "food": "greek-yogurt-whole",
+        "g": 300
+      },
+      {
+        "food": "strawberries",
+        "g": 150
+      },
+      {
+        "food": "chia",
+        "g": 15
+      },
+      {
+        "food": "pistachios",
+        "g": 20
+      },
+      {
+        "food": "mandarin",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "id": "rest-thigh-bowl",
+    "name": "Rest-day chicken thigh bowl",
+    "items": [
+      {
+        "food": "chicken-thigh",
+        "g": 275
+      },
+      {
+        "food": "white-rice-dry",
+        "g": 100
+      },
+      {
+        "food": "spinach",
+        "g": 100
+      },
+      {
+        "food": "olive-oil",
+        "g": 8
+      },
+      {
+        "food": "sriracha",
+        "g": 20
+      }
+    ],
+    "notes": "pan-cook thighs; weigh raw; rice dry"
+  },
+  {
+    "id": "rest-beef-plate",
+    "name": "Rest-day beef + sweet potato plate",
+    "items": [
+      {
+        "food": "ground-beef-85",
+        "g": 175
+      },
+      {
+        "food": "sweet-potato",
+        "g": 350
+      },
+      {
+        "food": "mozzarella-shredded",
+        "g": 20
+      },
+      {
+        "food": "butter",
+        "g": 5
+      }
+    ]
+  }
+]
