@@ -11,6 +11,6 @@
     "metric": "body_mass",
     "targetLb": 180,
     "ratePerWeekLb": 0.5,
-    "notes": "instrumental to bench-225; keep lean (~0.5 lb/wk)"
+    "notes": "instrumental to bench-225; keep lean (~0.5 lb/wk = 0.30% BW/wk). Macro split (Iraki 2019 + Morton 2018): ~2980 kcal (TDEE+250), protein 150-155g (2.0 g/kg) in 4 feedings of 31-42g incl. post-training and pre-sleep, fat ~75g (1.0 g/kg), carbs ~420g (5.5 g/kg), fiber ~40g. Creatine 5g/day (label-check for allergens). kcal target auto-corrects via health_nutrition once empirical."
   }
 ]
