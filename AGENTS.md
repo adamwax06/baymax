@@ -25,6 +25,7 @@ Watch / Strava / Eight Sleep → Apple Health → ios/ app → apps/server (Hono
 | `scripts/seed.ts` | Fixture data → `data/baymax.db` so everything works without a phone |
 | `docs/weights.md` | Format of `data/weights.json` (gym sessions) + `data/bodyweight.json` (weigh-ins) — hand-edited sources of truth (committed on purpose; editable via the GitHub app, then `git pull` + import) |
 | `docs/nutrition.md` | The nutrition loop: `data/profile.json` (who Adam is — **includes binding allergy list**), `data/goals.json` (targets), `data/nutrition.json` (daily kcal log) → adaptive TDEE-based calorie/protein targets via `health nutrition` / `health_nutrition` |
+| `docs/goals.md` | Goal flavors (lift / body weight / run), the e1RM pacing convention, and the "am I on pace?" recipe |
 | `data/` | `baymax.db` (gitignored, local-only) plus five committed JSON logs: weights, bodyweight, goals, nutrition, profile. The JSON logs are located next to the DB, so `BAYMAX_DB` relocates both |
 
 ## Commands
@@ -44,6 +45,12 @@ bun run db:generate             # regenerate Drizzle migration after a schema ch
 CLI: `health overview | nutrition | lifts --exercise bench | status | sources |
 metrics | sleep --days 7 | workouts --days 30 | samples --metric heart_rate
 --days 2 | trend --metric steps --days 90`, all with `--json`.
+
+Daily logging flows (what to touch, and whether an import is needed):
+- **Weigh-in** → append to `data/bodyweight.json`, then `bun run import`
+- **Gym session** → add to `data/weights.json`, then `bun run import`
+- **Food eaten** → append `{date, kcal}` to `data/nutrition.json` — live, no import
+- **Goal/profile change** → edit `data/goals.json` / `data/profile.json` — live, no import
 
 ## Data model (frozen — extend via the registry, not the schema)
 
@@ -163,6 +170,9 @@ map user questions to tools before reaching for SQL.
 - **Unit mismatch warning in server logs**: a SyncedTypes.swift HKUnit doesn't
   match its registry `unit` string. Data still ingests with the unit the phone sent.
 - **`No database at …`**: run `bun run seed` or sync from the phone.
+- **First sync after rebuilding from a pre-July-16-2026 build re-sends full
+  history**: the anchor storage format changed (base64 → Data); old anchors
+  read as nil. Harmless — everything dedupes — just slow once.
 - **Xcode project feels wrong**: never edit `Baymax.xcodeproj` (gitignored);
   edit `ios/project.yml` and re-run `xcodegen generate`. Signing lives in
   `Signing.xcconfig` so regeneration keeps your team id.
