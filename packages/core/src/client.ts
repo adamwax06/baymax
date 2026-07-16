@@ -171,7 +171,10 @@ export class HealthClient {
     const logged = intake.filter((e) => daysAgo(e.date) <= 21 * 86_400_000);
     const loggedDays14 = intake.filter((e) => daysAgo(e.date) <= 14 * 86_400_000).length;
 
-    const slope28 = slopePerDay(weighIns.filter((w) => now - w.ts <= 28 * 86_400_000));
+    // A trend needs enough points to mean something; two weigh-ins a day apart
+    // once produced an "observed rate" of -27 lb/week.
+    const monthPoints = weighIns.filter((w) => now - w.ts <= 28 * 86_400_000);
+    const slope28 = monthPoints.length >= 4 ? slopePerDay(monthPoints) : null;
     const observedRatePerWeekLb = slope28 !== null ? Math.round(slope28 * 7 * 100) / 100 : null;
 
     const notes: string[] = [];
