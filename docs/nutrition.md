@@ -7,12 +7,11 @@ tool output; the model coaches, the code computes.
 ## Files (committed, hand- or agent-edited)
 
 - `data/profile.json` — who Adam is: birthdate, height, sex, activity factor,
-  and `diet`. **`diet` is binding for every agent**: `allergies` are medical —
-  never suggest these foods and check "may contain / shared facility" labels
-  when curating any food list (e.g. the planned `foods.json`); `avoid` is
-  ingredient-level; `explicitlyOk` lists
-  edge cases that are safe (don't over-restrict). Read it before suggesting
-  ANY food, meal, or product, in any context.
+  and `diet`. **`diet` is binding for every agent** — read it before
+  suggesting ANY food, meal, or product, in any context. Tier semantics:
+  `allergies` are medical (never suggest; check "may contain / shared
+  facility" labels when curating any food list), `avoid` is ingredient-level,
+  `explicitlyOk` marks safe edge cases (don't over-restrict).
 - `data/goals.json` — what Adam is chasing (bare array). The nutrition loop
   uses the `body_mass` goal: `targetLb` + `ratePerWeekLb`.
 - `data/nutrition.json` — daily intake, one line per day, appended by you or
@@ -54,8 +53,11 @@ repo root as `FDC_API_KEY` (gitignored; Bun auto-loads it —
 `Bun.env.FDC_API_KEY`). Search endpoint:
 
 ```
-GET https://api.nal.usda.gov/fdc/v1/foods/search?api_key=$FDC_API_KEY&query=<terms>&dataType=Branded
+GET https://api.nal.usda.gov/fdc/v1/foods/search?api_key=$FDC_API_KEY&query=<terms>&dataType=Foundation,SR%20Legacy
 ```
+
+(`dataType=Branded` for packaged products — see the playbook below for
+which database to use when.)
 
 Convention: FDC is queried at **curation time** (building the planned
 `foods.json`, estimating a logged deviation) and results are cached into
@@ -91,5 +93,6 @@ Rules of thumb:
 
 Energy balance (~3500 kcal/lb) is an approximation; water weight makes daily
 scale readings noisy (the trend uses least-squares over the window, and
-"current weight" is a 7-day average). The estimator is only as good as
+"current weight" is a 7-day average — or the latest weigh-in when the last
+week is empty, with a staleness note). The estimator is only as good as
 logging adherence — the tool tells you when it's blind.
