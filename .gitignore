@@ -2,7 +2,6 @@ node_modules/
 .env
 data/*
 !data/weights.json
-!data/bodyweight.json
 !data/goals.json
 !data/nutrition.json
 !data/profile.json

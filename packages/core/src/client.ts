@@ -163,7 +163,7 @@ export class HealthClient {
         ? round1(weighIns.at(-1)!.value)
         : null;
     if (currentWeightLb === null) {
-      throw new Error("No weigh-ins found — append one to data/bodyweight.json and run `bun run import` (see docs/nutrition.md)");
+      throw new Error("No weigh-ins found — add one in the Apple Health app (or tell Siri), then sync from the Baymax app");
     }
 
     const daysAgo = (date: string) => now - new Date(date + "T12:00:00").getTime();

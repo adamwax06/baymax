@@ -1,27 +1,17 @@
-# Weights + bodyweight log format
+# Weights log format
 
-Two hand-edited files are the **source of truth** (committed by deliberate
-choice — edit from the GitHub app on your phone, or locally):
+`data/weights.json` (hand-edited, committed by deliberate choice — edit from
+the GitHub app on your phone, or locally) is the **source of truth** for gym
+sessions. After editing: `git pull` if you edited on GitHub, then
+`bun scripts/import-logs.ts`. The file is authoritative: imports upsert by
+date-keyed UUID *and* delete sessions no longer present — so edits, fixes,
+and deletions all sync on the next run. Re-running is always safe.
 
-- `data/weights.json` — gym sessions
-- `data/bodyweight.json` — manual weigh-ins (a bare array; append one line)
-
-After editing: `git pull` if you edited on GitHub, then
-`bun scripts/import-logs.ts` to sync both into the health database. The files
-are authoritative: imports upsert by date-keyed UUID *and* delete anything
-previously imported that's no longer present — so edits, fixes, and deletions
-all sync on the next run. Re-running is always safe, and one command covers
-both files so there's no wrong command to run.
+(Weigh-ins are NOT a file: they live in Apple Health — enter in the Health
+app or via Siri — and arrive through the normal phone sync. See
+docs/nutrition.md.)
 
 ## Shape
-
-`data/bodyweight.json`:
-
-```json
-[
-  { "date": "2026-07-14", "lb": 168.4 }
-]
-```
 
 `data/weights.json`:
 
@@ -70,8 +60,6 @@ both files so there's no wrong command to run.
 
 ## How it lands in the database
 
-- `bodyweight.json` entries → `body_mass` samples (lb→kg, original lb kept in
-  metadata), source `weights-json` ("Weights Log"), timestamped noon local.
 - `sessions` → `workouts` rows (traditional_strength_training, default
   17:00 local, 60 min), with `{type, gym, exercises, notes}` preserved in the
   workout's `metadata` JSON.

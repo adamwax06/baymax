@@ -1,20 +1,11 @@
 #!/usr/bin/env bun
-// Imports the gym log (data/weights.json) and manual weigh-ins
-// (data/bodyweight.json) into the health database — see docs/weights.md.
-// The files are the source of truth: rows previously imported but no longer
-// present are removed, so edits and deletions sync on re-import.
-// Usage: bun scripts/import-logs.ts [weights.json] [bodyweight.json]
+// Imports the gym log (data/weights.json) into the health database — see
+// docs/weights.md. The file is the source of truth: sessions previously
+// imported but no longer present are removed, so edits and deletions sync
+// on re-import. (Weigh-ins live in Apple Health and arrive via phone sync.)
+// Usage: bun scripts/import-logs.ts [weights.json]
 import { z } from "zod";
-import {
-  defaultDbPath,
-  ingestSamples,
-  ingestWorkouts,
-  KG_PER_LB,
-  migrateDb,
-  openDb,
-  type SamplePayload,
-  type WorkoutPayload,
-} from "@baymax/core";
+import { defaultDbPath, ingestWorkouts, migrateDb, openDb, type WorkoutPayload } from "@baymax/core";
 
 const dateZ = z.string().regex(/^\d{4}-\d{2}-\d{2}$/, "dates are YYYY-MM-DD");
 const setZ = z.object({
@@ -36,7 +27,6 @@ const sessionZ = z.object({
   notes: z.string().optional(),
 });
 const weightsZ = z.object({ sessions: z.array(sessionZ) });
-const bodyweightZ = z.array(z.object({ date: dateZ, lb: z.number().min(80).max(500) }));
 
 const SOURCE = { bundleId: "weights-json", name: "Weights Log" };
 const STRENGTH_TRAINING = 50; // HKWorkoutActivityType.traditionalStrengthTraining
@@ -46,37 +36,19 @@ const localTs = (date: string, hour: number) => {
   return new Date(y!, m! - 1, d!, hour).getTime();
 };
 
-async function load<T>(path: string, schema: z.ZodType<T>, required: boolean): Promise<T | undefined> {
-  const file = Bun.file(path);
-  if (!(await file.exists())) {
-    if (!required) return undefined;
-    console.error(`No file at ${path} (see docs/weights.md)`);
-    process.exit(1);
-  }
-  const parsed = schema.safeParse(await file.json());
-  if (!parsed.success) {
-    console.error(`${path} failed validation:`);
-    for (const issue of parsed.error.issues) console.error(`  ${issue.path.join(".")}: ${issue.message}`);
-    process.exit(1);
-  }
-  return parsed.data;
+const path = Bun.argv[2] ?? "data/weights.json";
+const file = Bun.file(path);
+if (!(await file.exists())) {
+  console.error(`No file at ${path} (see docs/weights.md)`);
+  process.exit(1);
 }
-
-const weightsPath = Bun.argv[2] ?? "data/weights.json";
-const bodyweightPath = Bun.argv[3] ?? "data/bodyweight.json";
-const { sessions } = (await load(weightsPath, weightsZ, true))!;
-const bodyWeight = (await load(bodyweightPath, bodyweightZ, false)) ?? [];
-
-const samples: SamplePayload[] = bodyWeight.map((b) => ({
-  uuid: `weights-bw-${b.date}`,
-  type: "HKQuantityTypeIdentifierBodyMass",
-  value: Math.round(b.lb * KG_PER_LB * 100) / 100,
-  unit: "kg",
-  start: localTs(b.date, 12),
-  end: localTs(b.date, 12),
-  source: SOURCE,
-  metadata: { lb: b.lb },
-}));
+const parsed = weightsZ.safeParse(await file.json());
+if (!parsed.success) {
+  console.error(`${path} failed validation:`);
+  for (const issue of parsed.error.issues) console.error(`  ${issue.path.join(".")}: ${issue.message}`);
+  process.exit(1);
+}
+const { sessions } = parsed.data;
 
 const perDate = new Map<string, number>();
 const workouts: WorkoutPayload[] = sessions.map((s) => {
@@ -102,20 +74,15 @@ const workouts: WorkoutPayload[] = sessions.map((s) => {
 const db = openDb();
 migrateDb(db);
 
-// Source-of-truth sync: anything we imported before that is gone from the file gets deleted.
-const current = (table: string) =>
-  (db.$client.query(`SELECT hk_uuid FROM ${table} WHERE hk_uuid LIKE 'weights-%'`).values() as string[][]).map((r) => r[0]!);
-const keepSamples = new Set(samples.map((s) => s.uuid));
-const keepWorkouts = new Set(workouts.map((w) => w.uuid));
-const staleSamples = current("samples").filter((u) => !keepSamples.has(u));
-const staleWorkouts = current("workouts").filter((u) => !keepWorkouts.has(u));
-
-const sr = ingestSamples(db, { samples, deleted: staleSamples });
-const wr = ingestWorkouts(db, { workouts, deleted: staleWorkouts });
+// Source-of-truth sync: sessions imported before but gone from the file get deleted.
+const current = (db.$client.query(`SELECT hk_uuid FROM workouts WHERE hk_uuid LIKE 'weights-%'`).values() as string[][]).map(
+  (r) => r[0]!,
+);
+const keep = new Set(workouts.map((w) => w.uuid));
+const wr = ingestWorkouts(db, { workouts, deleted: current.filter((u) => !keep.has(u)) });
 db.$client.close();
 
 const setCount = sessions.reduce((n, s) => n + s.exercises.reduce((m, e) => m + e.sets.reduce((k, g) => k + g.reps.length, 0), 0), 0);
-console.log(`Imported ${weightsPath} + ${bodyWeight.length ? bodyweightPath : "(no bodyweight file)"} → ${defaultDbPath()}`);
-console.log(`  sessions: ${wr.upserted} (${setCount} sets)  body weight: ${sr.upserted}`);
-if (sr.deleted || wr.deleted) console.log(`  removed (no longer in file): ${wr.deleted} sessions, ${sr.deleted} body weight`);
+console.log(`Imported ${path} → ${defaultDbPath()}`);
+console.log(`  sessions: ${wr.upserted} (${setCount} sets)${wr.deleted ? `  removed: ${wr.deleted}` : ""}`);
 console.log(`Check: bun run health workouts --days 30`);

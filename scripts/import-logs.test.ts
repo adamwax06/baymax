@@ -22,13 +22,9 @@ const weights = {
     { date: "2026-07-03", exercises: [{ name: "Squat", sets: [{ lb: 195, reps: [6, 6] }] }] },
   ],
 };
-const bodyweight = [{ date: "2026-07-01", lb: 168.4 }];
-
-function run(json: unknown, bw: unknown = bodyweight) {
+function run(json: unknown) {
   Bun.write(jsonPath, JSON.stringify(json));
-  const bwPath = join(dir, "bodyweight.json");
-  Bun.write(bwPath, JSON.stringify(bw));
-  return Bun.spawnSync(["bun", SCRIPT, jsonPath, bwPath], { env: { ...process.env, BAYMAX_DB: dbPath } });
+  return Bun.spawnSync(["bun", SCRIPT, jsonPath], { env: { ...process.env, BAYMAX_DB: dbPath } });
 }
 
 beforeAll(() => {
@@ -40,7 +36,7 @@ beforeAll(() => {
 afterAll(() => rmSync(dir, { recursive: true, force: true }));
 
 describe("import-logs", () => {
-  test("imports sessions and body weight with full set detail", () => {
+  test("imports sessions with full set detail", () => {
     const proc = run(weights);
     expect(proc.exitCode).toBe(0);
 
@@ -52,11 +48,6 @@ describe("import-logs", () => {
     expect(push.metadata!.type).toBe("push");
     const exercises = push.metadata!.exercises as { name: string; sets: { lb?: number; reps: number[] }[] }[];
     expect(exercises[0]!.sets[0]).toEqual({ lb: 160, reps: [6, 6] });
-
-    const bw = client.samples({ metric: "body_mass", days: 3650 });
-    expect(bw).toHaveLength(1);
-    expect(bw[0]!.value).toBeCloseTo(76.38, 1); // 168.4 lb in kg
-    expect(bw[0]!.sourceName).toBe("Weights Log");
     client.close();
   });
 

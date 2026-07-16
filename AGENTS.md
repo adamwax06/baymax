@@ -30,7 +30,7 @@ data/goals.json + profile.json + nutrition.json ──── read live at query 
 | `docs/nutrition.md` | The nutrition loop: `data/profile.json` (who Adam is — **includes binding allergy list**), `data/goals.json` (targets), `data/nutrition.json` (daily kcal log) → adaptive TDEE-based calorie/protein targets via `health nutrition` / `health_nutrition` |
 | `docs/goals.md` | Goal flavors (lift / body weight / run), the e1RM pacing convention, and the "am I on pace?" recipe |
 | `docs/foods.md` | Data model for `data/foods.json` (per-100g ingredient registry, FDC provenance, `weighed` state) and `data/meals.json` (recipe book) — totals always derived, never stored |
-| `data/` | `baymax.db` (gitignored, local-only) plus five committed JSON logs: weights, bodyweight, goals, nutrition, profile. The JSON logs are located next to the DB, so `BAYMAX_DB` relocates both |
+| `data/` | `baymax.db` (gitignored, local-only) plus six committed JSON files: weights, goals, nutrition, profile, foods, meals. Located next to the DB, so `BAYMAX_DB` relocates both. (Weigh-ins live in Apple Health, not a file) |
 
 ## Commands
 
@@ -41,7 +41,7 @@ bunx tsc --noEmit               # strict typecheck
 bun run seed [--reset]          # fixture data (60 days: watch, iphone, strava, eight sleep)
 bun run dev                     # ingest server on 0.0.0.0:4321 (prints the LAN URL for the app)
 bun run health <cmd>            # or `cd apps/cli && bun link` for a global `health`
-bun run import                  # import weights.json + bodyweight.json into the DB (docs/weights.md)
+bun run import                  # import weights.json (gym log) into the DB (docs/weights.md)
 sqlite3 data/baymax.db          # raw SQL (CLI has no query subcommand on purpose)
 bun run db:generate             # regenerate Drizzle migration after a schema change (rare)
 ```
@@ -51,7 +51,8 @@ metrics | sleep --days 7 | workouts --days 30 | samples --metric heart_rate
 --days 2 | trend --metric steps --days 90`, all with `--json`.
 
 Daily logging flows (what to touch, and whether an import is needed):
-- **Weigh-in** → append to `data/bodyweight.json`, then `bun run import`
+- **Weigh-in** → enter in the Apple Health app (or tell Siri "log my weight …"),
+  arrives on the next Baymax phone sync
 - **Gym session** → add to `data/weights.json`, then `bun run import`
 - **Food eaten** → append `{date, kcal}` to `data/nutrition.json` — live, no import
 - **Goal/profile change** → edit `data/goals.json` / `data/profile.json` — live, no import

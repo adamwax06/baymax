@@ -6,16 +6,16 @@
 
 Healthmaxxing. A local, agent-first personal health platform with two data
 streams: Apple Health (Apple Watch, Strava, Eight Sleep → iPhone sync app)
-and hand-edited JSON logs (gym sessions, weigh-ins, food, goals) — all landing
+and hand-edited JSON logs (gym sessions, food, goals) — all landing
 in a SQLite database on your Mac, exposed to coding agents through a typed
 SDK, a CLI, and MCP tools. On top: an adaptive nutrition controller that
 solves your real TDEE from your own intake + scale data and prescribes
 calories toward your goals. No cloud, no accounts.
 
 ```
-Watch / Strava / Eight Sleep → Apple Health → iPhone app ─┐
-gym log · weigh-ins · food (hand-edited JSON) ─ import ───┤→ SQLite → SDK → CLI + MCP
-goals · profile · allergies (JSON, read live) ────────────┘
+Watch / Strava / Eight Sleep / weigh-ins → Apple Health → iPhone app ─┐
+gym log (hand-edited JSON) ─────────────────────── bun run import ────┤→ SQLite → SDK → CLI + MCP
+food · goals · profile · allergies (JSON, read live) ─────────────────┘
 ```
 
 ## Quickstart (no phone needed)

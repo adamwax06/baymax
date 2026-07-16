@@ -28,10 +28,11 @@ tool output; the model coaches, the code computes.
 `kcal` is required; other macros are optional and logged for the future
 (currently only `kcal` is consumed).
 
-**Read semantics differ, on purpose**: `nutrition.json`, `profile.json`, and
-`goals.json` are read live at query time — edits are visible immediately.
-Weigh-ins in `bodyweight.json` flow through the database, so they only count
-after `bun run import`. Log weight → import → ask. All of these files are
+**Read semantics**: `nutrition.json`, `profile.json`, and `goals.json` are
+read live at query time — edits are visible immediately. **Weigh-ins live in
+Apple Health** (enter in the Health app or tell Siri "log my weight …") and
+arrive via the next Baymax phone sync — the app also holds a one-time
+"Backfill Body Weight" migration button, already used. All of these files are
 located next to the database, so a `BAYMAX_DB` override relocates them too.
 
 ## How targets are computed (`health nutrition` / `health_nutrition`)
