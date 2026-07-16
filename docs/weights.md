@@ -48,7 +48,10 @@ fixes, and deletions all sync on the next run. Re-running is always safe.
   free-form strings. Per-exercise `"notes"` is also allowed for anything the
   structure can't say (assisted reps, equipment quirks).
 - **`name`** is free-form and is the analysis key: entries with the same name
-  chart as one progression. Names were migrated exactly as written in the old
+  chart as one progression. Conventions (standardized July 2026): `Unilateral`
+  for one-arm/one-leg variants, `DB` for dumbbell, equipment qualifiers in
+  trailing parens — e.g. `Unilateral DB Preacher Curl`, `Tricep Pushdown
+  (Precor)`. Reuse existing names when logging (grep this file first). Names were migrated exactly as written in the old
   Apple Notes — different machines at different gyms intentionally have
   different names. Rename freely in this file to merge or split histories;
   re-import rewrites the database to match.
