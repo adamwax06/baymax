@@ -28,7 +28,9 @@ describe("MCP server", () => {
     const { tools } = await client.listTools();
     const names = tools.map((t) => t.name).sort();
     expect(names).toEqual([
+      "health_lifts",
       "health_metrics",
+      "health_overview",
       "health_query",
       "health_samples",
       "health_sleep",

@@ -40,8 +40,9 @@ sqlite3 data/baymax.db          # raw SQL (CLI has no query subcommand on purpos
 bun run db:generate             # regenerate Drizzle migration after a schema change (rare)
 ```
 
-CLI: `health status | sources | metrics | sleep --days 7 | workouts --days 30 |
-samples --type heart_rate --days 2 | trend --metric steps --days 90`, all with `--json`.
+CLI: `health overview | lifts --exercise bench | status | sources | metrics |
+sleep --days 7 | workouts --days 30 | samples --type heart_rate --days 2 |
+trend --metric steps --days 90`, all with `--json`.
 
 ## Data model (frozen — extend via the registry, not the schema)
 
@@ -135,9 +136,13 @@ Then prune registry entries that stay empty and add types that show up under
 ## MCP
 
 `.mcp.json` registers `baymax-health` (stdio, `bun apps/mcp/src/index.ts`).
-Tools: `health_status`, `health_sources`, `health_metrics`, `health_sleep`,
-`health_workouts`, `health_samples`, `health_trend`, and `health_query`
-(read-only SELECT/WITH; the tool description embeds the DDL).
+Tools: **`health_overview`** (start here — one call returns recent sleep,
+workouts, weight, steps, freshness), **`health_lifts`** (strength progression
+from the gym log), `health_status`, `health_sources`, `health_metrics`,
+`health_sleep`, `health_workouts`, `health_samples`, `health_trend`, and
+`health_query` (read-only SELECT/WITH; the tool description embeds the DDL).
+Tool descriptions carry intent phrases ("how's my recovery" → overview), so
+map user questions to tools before reaching for SQL.
 
 ## Troubleshooting
 

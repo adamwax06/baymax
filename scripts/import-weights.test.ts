@@ -58,6 +58,19 @@ describe("import-weights", () => {
     client.close();
   });
 
+  test("lifts() surfaces strength progression from workout metadata", () => {
+    const client = new HealthClient({ dbPath });
+    const bench = client.lifts({ exercise: "bench", days: 3650 });
+    expect(bench).toHaveLength(1);
+    expect(bench[0]!.topLb).toBe(160);
+    expect(bench[0]!.totalReps).toBe(12);
+    expect(bench[0]!.volumeLb).toBe(1920);
+    const all = client.lifts({ days: 3650 });
+    expect(all.map((l) => l.exercise).sort()).toEqual(["Bench Press", "Pullups", "Squat"]);
+    expect(all.find((l) => l.exercise === "Pullups")!.topLb).toBeNull();
+    client.close();
+  });
+
   test("re-import is idempotent; removed entries are deleted (source of truth)", () => {
     expect(run(weights).exitCode).toBe(0); // replay: no dupes
     const pruned = { ...weights, sessions: weights.sessions.slice(0, 1) };

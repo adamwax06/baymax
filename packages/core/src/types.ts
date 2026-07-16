@@ -72,6 +72,31 @@ export interface TrendResult {
   nights?: SleepNight[];
 }
 
+export interface LiftSet {
+  lb?: number;
+  perSide?: boolean;
+  bodyweight?: boolean;
+  reps: number[];
+}
+
+export interface LiftEntry {
+  date: string; // local YYYY-MM-DD
+  exercise: string;
+  sets: LiftSet[];
+  topLb: number | null;
+  totalReps: number;
+  volumeLb: number; // sum of lb×reps (perSide weights counted once)
+  notes?: string;
+}
+
+export interface OverviewResult {
+  latestData: string | null; // freshness: newest sample in the DB
+  sleep: { nights: SleepNight[]; avgAsleepMinutes: number | null; source?: string };
+  workouts: WorkoutRow[];
+  weight: { kg: number; lb: number; date: string } | null;
+  steps: { dailyAvg: number | null; days: TrendBucket[] };
+}
+
 export interface SourceSummary {
   source: string;
   name: string | null;

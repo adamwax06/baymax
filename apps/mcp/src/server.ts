@@ -17,10 +17,33 @@ export function createServer(dbPath?: string): McpServer {
     z.number().int().min(1).max(3650).optional().describe(`How many days back from now to include (default ${def})`);
 
   server.registerTool(
+    "health_overview",
+    {
+      description:
+        'START HERE for broad or vague questions — "how am I doing", "how\'s my recovery", "what\'s my current state", "catch me up". One call returns the full current picture: last 7 nights of sleep (stages, per source), last 7 days of workouts, latest body weight, daily steps, and how fresh the data is. Returns raw inputs for you to interpret — no synthetic scores.',
+      inputSchema: {},
+    },
+    () => json(health().overview()),
+  );
+
+  server.registerTool(
+    "health_lifts",
+    {
+      description:
+        'Strength progression — "how\'s my bench", "am I getting stronger", "what did I lift last week", "squat history". Dated entries per exercise with full structured sets (lb, reps, perSide for dumbbell pairs, bodyweight flag), top set, total reps, and volume. Exercise matches by case-insensitive substring ("bench" matches "Bench Press"). Data comes from the hand-edited gym log (docs/weights.md).',
+      inputSchema: {
+        exercise: z.string().optional().describe('Filter, e.g. "bench" or "squat"; omit for all exercises'),
+        days: days(365),
+      },
+    },
+    (args: { exercise?: string; days?: number }) => json(health().lifts(args)),
+  );
+
+  server.registerTool(
     "health_status",
     {
       description:
-        "Overview of the local Apple Health database: sample/workout totals, per-source counts, date range, and any HealthKit types present but not yet in the metric registry.",
+        'Database health — "is my data syncing", "what\'s in the database". Sample/workout totals, per-source counts, date range, and any HealthKit types present but not yet in the metric registry.',
       inputSchema: {},
     },
     () => json(health().status()),
@@ -50,7 +73,7 @@ export function createServer(dbPath?: string): McpServer {
     "health_sleep",
     {
       description:
-        "Sleep nights, one row per (night, source) — Apple Watch and Eight Sleep are reported separately, never merged. A night is the noon-to-noon local window and is dated by the evening it started. Minutes per stage (core/deep/rem/awake), bedtime/waketime, and efficiency (asleep/inBed) when the source records in-bed time.",
+        '"How am I sleeping", "how was last night", "sleep quality lately". Sleep nights, one row per (night, source) — Apple Watch and Eight Sleep are reported separately, never merged. A night is the noon-to-noon local window and is dated by the evening it started. Minutes per stage (core/deep/rem/awake), bedtime/waketime, and efficiency (asleep/inBed) when the source records in-bed time.',
       inputSchema: {
         days: days(7),
         source: z.string().optional().describe("Filter to one source bundle id (see health_sources)"),
@@ -62,7 +85,7 @@ export function createServer(dbPath?: string): McpServer {
   server.registerTool(
     "health_workouts",
     {
-      description: "Workouts with decoded activity type (running, cycling…), duration, distance, energy, source app, and raw HealthKit metadata (Strava workouts carry provider metadata here).",
+      description: '"What workouts have I done", "did I train this week", "show my runs". Workouts with decoded activity type (running, cycling, strength…), duration, distance, energy, source app, and raw metadata (Strava links, gym-log set detail). For strength progression specifically, prefer health_lifts.',
       inputSchema: { days: days(30) },
     },
     (args: { days?: number }) => json(health().workouts(args)),
@@ -85,7 +108,7 @@ export function createServer(dbPath?: string): McpServer {
     "health_trend",
     {
       description:
-        `Daily buckets for one metric over a date range (local-time days, gaps null-filled). Aggregation depends on the metric: sum (steps, energy — uses only the dominant source and lists excludedSources to avoid iPhone+Watch double counting), avg (heart rate, HRV — includes min/max/count), latest (weight, VO2 max), or sleep (asleep minutes per night plus full night detail). Metrics: ${METRIC_NAMES}`,
+        `"How has my weight changed", "steps over the last month", "heart rate trend". Daily buckets for one metric over a date range (local-time days, gaps null-filled). Aggregation depends on the metric: sum (steps, energy — uses only the dominant source and lists excludedSources to avoid iPhone+Watch double counting), avg (heart rate, HRV — includes min/max/count), latest (weight, VO2 max), or sleep (asleep minutes per night plus full night detail). Metrics: ${METRIC_NAMES}`,
       inputSchema: {
         metric: z.string().describe("Friendly metric name, e.g. weight is body_mass"),
         days: days(30),

@@ -5,6 +5,8 @@ import { HealthClient, METRICS } from "@baymax/core";
 const USAGE = `baymax health CLI
 
 Usage:
+  health overview                                the full current picture in one call
+  health lifts    [--exercise bench] [--days 365] strength progression from the gym log
   health status                                  totals, sources, freshness
   health sources                                 what each app/device contributed
   health metrics                                 available metrics + live counts
@@ -28,6 +30,7 @@ const { values } = parseArgs({
     days: { type: "string" },
     type: { type: "string" },
     metric: { type: "string" },
+    exercise: { type: "string" },
     source: { type: "string" },
     limit: { type: "string" },
     db: { type: "string" },
@@ -65,6 +68,10 @@ try {
 
 function run(client: HealthClient, cmd: string | undefined): unknown {
   switch (cmd) {
+    case "overview":
+      return client.overview();
+    case "lifts":
+      return client.lifts({ exercise: values.exercise, days: intOpt("days") });
     case "status":
       return client.status();
     case "sources":
@@ -86,6 +93,26 @@ function run(client: HealthClient, cmd: string | undefined): unknown {
 
 function render(cmd: string, result: any): void {
   switch (cmd) {
+    case "overview": {
+      console.log(`data through: ${result.latestData ?? "-"}`);
+      console.log(`sleep (7d): avg ${result.sleep.avgAsleepMinutes ?? "-"} min asleep over ${result.sleep.nights.length} night-rows`);
+      console.log(`weight: ${result.weight ? `${result.weight.lb} lb (${result.weight.date})` : "-"}`);
+      console.log(`steps (7d): avg ${result.steps.dailyAvg ?? "-"}/day`);
+      console.log(`workouts (7d): ${result.workouts.length}`);
+      console.table(result.workouts.map((w: any) => ({ start: w.start, activity: w.activity, min: w.durationMin })));
+      break;
+    }
+    case "lifts":
+      console.table(
+        result.map((l: any) => ({
+          date: l.date,
+          exercise: l.exercise,
+          top: l.topLb ?? "BW",
+          sets: l.sets.map((s: any) => `${s.bodyweight ? "BW" : (s.lb ?? "?") + (s.perSide ? "ps" : "")}x${s.reps.join(",")}`).join(" | "),
+          volume: l.volumeLb,
+        })),
+      );
+      break;
     case "status": {
       console.log(`db: ${result.dbPath} (${result.dbSizeBytes != null ? `${(result.dbSizeBytes / 1024 / 1024).toFixed(1)} MB` : "?"})`);
       console.log(`samples: ${result.samples}  workouts: ${result.workouts}`);

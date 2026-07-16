@@ -71,6 +71,16 @@ describe("HealthClient", () => {
     expect(t.buckets.some((b) => b.value !== null)).toBe(true);
   });
 
+  test("overview bundles sleep, workouts, weight, and steps in one call", () => {
+    const o = client.overview({ now: NOW });
+    expect(o.latestData).not.toBeNull();
+    expect(o.sleep.avgAsleepMinutes!).toBeGreaterThan(300);
+    expect(o.sleep.nights.length).toBeGreaterThan(0);
+    expect(o.workouts.length).toBeGreaterThan(0);
+    expect(o.weight!.lb).toBeGreaterThan(150);
+    expect(o.steps.dailyAvg!).toBeGreaterThan(1000);
+  });
+
   test("unknown metric names get a helpful error", () => {
     expect(() => client.trend({ metric: "chakra_alignment" })).toThrow(/Available:/);
   });
