@@ -6,7 +6,7 @@
     "activityFactor": 1.5
   },
   "goals": [
-    { "id": "bench-225", "lift": "Bench Press", "target": { "lb": 225, "reps": 1 }, "notes": "the destination — lean bulk is the vehicle" },
+    { "id": "bench-225", "lift": "Bench Press", "target": { "lb": 225, "reps": 1 }, "deadline": "2027-01-15", "notes": "the destination — lean bulk is the vehicle. Adam's bet: 6 months. Pace: e1RM 204 by Aug 25, 210 by Oct 1, 215 by Nov 1, 219 by Dec 1, 223 by Jan 1. The risk window is Oct-Dec (historical layoff season)." },
     { "id": "weight-180", "metric": "body_mass", "targetLb": 180, "ratePerWeekLb": 0.5, "notes": "instrumental to bench-225; keep lean (~0.5 lb/wk)" }
   ]
 }
