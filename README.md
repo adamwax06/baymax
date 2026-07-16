@@ -30,5 +30,7 @@ bun run health nutrition                      # adaptive calorie/protein targets
 ```
 
 For real Apple Health data: `bun run dev` on the Mac, build `ios/` onto your
-iPhone, tap Sync. Everything else — repo map, data model, logging flows,
-how to add a metric, troubleshooting — is in **[AGENTS.md](AGENTS.md)**.
+iPhone, tap Sync. Adopting this for yourself (it ships with the author's
+data): **[docs/onboarding.md](docs/onboarding.md)**. Everything else — repo
+map, data model, logging flows, how to add a metric, troubleshooting — is in
+**[AGENTS.md](AGENTS.md)**.
