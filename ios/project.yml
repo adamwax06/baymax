@@ -24,6 +24,7 @@ targets:
       properties:
         UILaunchScreen: {}
         NSHealthShareUsageDescription: Baymax reads your health data to sync it to your local database on your Mac.
+        NSHealthUpdateUsageDescription: Baymax writes body weight entries to Apple Health (one-time backfill of your logged weigh-ins).
         NSLocalNetworkUsageDescription: Baymax sends health data to the baymax server running on your Mac over your local network.
         NSAppTransportSecurity:
           NSAllowsLocalNetworking: true
