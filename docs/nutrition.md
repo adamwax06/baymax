@@ -80,7 +80,9 @@ Rules of thumb:
   fetch `/v1/food/{fdcId}` for the full record before caching.
 - **Normalize everything cached into foods.json to per-100g** (Branded records
   carry both per-serving and per-100g; per-100g matches food-scale grams).
-- Energy = nutrient `1008` (kcal); ignore the kJ twin. Beware label rounding
+- Energy = nutrient `1008` (kcal) for Branded/SR — but **Foundation records
+  file kcal under the Atwater IDs `2047`/`2048`**; check all three. Ignore
+  the kJ twin. Beware label rounding
   on Branded small servings (protein "0g" on a 5g serving) — per-100g values
   suffer less.
 - Branded is messy: stale/discontinued products, wrong brand owners, fuzzy

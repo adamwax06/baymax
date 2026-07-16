@@ -6,6 +6,8 @@ data/*
 !data/goals.json
 !data/nutrition.json
 !data/profile.json
+!data/foods.json
+!data/meals.json
 .DS_Store
 ios/*.xcodeproj/
 ios/Signing.xcconfig

@@ -26,6 +26,7 @@ Watch / Strava / Eight Sleep → Apple Health → ios/ app → apps/server (Hono
 | `docs/weights.md` | Format of `data/weights.json` (gym sessions) + `data/bodyweight.json` (weigh-ins) — hand-edited sources of truth (committed on purpose; editable via the GitHub app, then `git pull` + import) |
 | `docs/nutrition.md` | The nutrition loop: `data/profile.json` (who Adam is — **includes binding allergy list**), `data/goals.json` (targets), `data/nutrition.json` (daily kcal log) → adaptive TDEE-based calorie/protein targets via `health nutrition` / `health_nutrition` |
 | `docs/goals.md` | Goal flavors (lift / body weight / run), the e1RM pacing convention, and the "am I on pace?" recipe |
+| `docs/foods.md` | Data model for `data/foods.json` (per-100g ingredient registry, FDC provenance, `weighed` state) and `data/meals.json` (recipe book) — totals always derived, never stored |
 | `data/` | `baymax.db` (gitignored, local-only) plus five committed JSON logs: weights, bodyweight, goals, nutrition, profile. The JSON logs are located next to the DB, so `BAYMAX_DB` relocates both |
 
 ## Commands
