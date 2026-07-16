@@ -3,8 +3,9 @@
 `data/weights.json` (gitignored — it's health data) is the **source of truth**
 for gym sessions and manual body-weight entries. You edit it by hand after a
 workout, then run `bun scripts/import-weights.ts` to load it into the health
-database. Imports are idempotent (date-keyed upserts): re-running is always
-safe, and editing an old entry just overwrites it on the next import.
+database. The file is authoritative: imports upsert by date-keyed UUID *and*
+delete anything previously imported that's no longer in the file — so edits,
+fixes, and deletions all sync on the next run. Re-running is always safe.
 
 ## Shape
 
@@ -53,8 +54,8 @@ safe, and editing an old entry just overwrites it on the next import.
 
 ## How it lands in the database
 
-- `bodyWeight` → `body_mass` samples (lb→kg), source `com.apple.notes`,
-  timestamped noon local.
+- `bodyWeight` → `body_mass` samples (lb→kg, original lb kept in metadata),
+  source `weights-json` ("Weights Log"), timestamped noon local.
 - `sessions` → `workouts` rows (traditional_strength_training, default
   17:00 local, 60 min), with `{type, gym, exercises, notes}` preserved in the
   workout's `metadata` JSON.

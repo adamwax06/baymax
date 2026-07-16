@@ -13,6 +13,7 @@
   "devDependencies": {
     "@baymax/core": "workspace:*",
     "typescript": "^5.8.0",
-    "bun-types": "^1.3.9"
+    "bun-types": "^1.3.9",
+    "zod": "^3.25.0"
   }
 }
