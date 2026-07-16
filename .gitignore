@@ -2,6 +2,8 @@ node_modules/
 data/*
 !data/weights.json
 !data/bodyweight.json
+!data/goals.json
+!data/nutrition.json
 .DS_Store
 ios/*.xcodeproj/
 ios/Signing.xcconfig

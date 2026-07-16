@@ -30,6 +30,7 @@ describe("MCP server", () => {
     expect(names).toEqual([
       "health_lifts",
       "health_metrics",
+      "health_nutrition",
       "health_overview",
       "health_query",
       "health_samples",

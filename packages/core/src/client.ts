@@ -1,4 +1,7 @@
+import { readFileSync, existsSync } from "node:fs";
+import { dirname, join } from "node:path";
 import { defaultDbPath, openDb, type BaymaxDb } from "./db.ts";
+import { ageYears, empiricalTdee, mifflinStJeor, proteinTarget, slopePerDay, targetKcal } from "./nutrition.ts";
 import { metricByName, METRICS } from "./registry.ts";
 import { deriveSleepNights } from "./sleep.ts";
 import { listSources, listWorkouts, metricsInfo, rawSamples, statusSummary, trend } from "./queries.ts";
@@ -6,6 +9,7 @@ import type {
   LiftEntry,
   LiftSet,
   MetricInfo,
+  NutritionResult,
   OverviewResult,
   SampleRow,
   SleepNight,
@@ -109,6 +113,85 @@ export class HealthClient {
         dailyAvg: stepValues.length ? round(stepValues.reduce((a, b) => a + b, 0) / stepValues.length) : null,
         days: steps.buckets,
       },
+    };
+  }
+
+  /**
+   * Adaptive calorie/protein targets for the body-weight goal in data/goals.json.
+   * Seeds from Mifflin-St Jeor; switches to an empirical energy-balance TDEE once
+   * the last 21 days contain ≥12 logged intake days and ≥5 weigh-ins.
+   */
+  nutrition(opts: { now?: number } = {}): NutritionResult {
+    const now = opts.now ?? Date.now();
+    const dataDir = dirname(this.dbPath);
+    const goalsPath = join(dataDir, "goals.json");
+    if (!existsSync(goalsPath)) {
+      throw new Error(`No goals file at ${goalsPath} (see docs/nutrition.md)`);
+    }
+    const { profile, goals } = JSON.parse(readFileSync(goalsPath, "utf8"));
+    const goal = goals.find((g: { metric: string }) => g.metric === "body_mass");
+    if (!goal) throw new Error("No body_mass goal in goals.json");
+    const nutritionPath = join(dataDir, "nutrition.json");
+    const intake: { date: string; kcal: number }[] = existsSync(nutritionPath)
+      ? JSON.parse(readFileSync(nutritionPath, "utf8"))
+      : [];
+
+    const weighIns = this.samples({ metric: "body_mass", days: 45, limit: 10000, now })
+      .map((s) => ({ ts: s.startTs, value: s.value! * 2.20462, date: s.start.slice(0, 10) }))
+      .sort((a, b) => a.ts - b.ts);
+    const last7 = weighIns.filter((w) => now - w.ts <= 7 * 86_400_000);
+    const currentWeightLb = last7.length
+      ? Math.round((last7.reduce((a, w) => a + w.value, 0) / last7.length) * 10) / 10
+      : weighIns.length
+        ? Math.round(weighIns.at(-1)!.value * 10) / 10
+        : null;
+
+    const window = 21 * 86_400_000;
+    const inWindow = weighIns.filter((w) => now - w.ts <= window);
+    const logged = intake.filter((e) => now - new Date(e.date + "T12:00:00").getTime() <= window);
+    const loggedDays14 = intake.filter((e) => now - new Date(e.date + "T12:00:00").getTime() <= 14 * 86_400_000).length;
+
+    const slope28 = slopePerDay(weighIns.filter((w) => now - w.ts <= 28 * 86_400_000));
+    const observedRatePerWeekLb = slope28 !== null ? Math.round(slope28 * 7 * 100) / 100 : null;
+
+    const notes: string[] = [];
+    const weightForCalc = currentWeightLb ?? 169;
+    let mode: NutritionResult["mode"] = "seed";
+    let method: string;
+    let tdee: number;
+
+    const windowSlope = slopePerDay(inWindow);
+    if (logged.length >= 12 && inWindow.length >= 5 && windowSlope !== null) {
+      mode = "empirical";
+      const avgKcal = logged.reduce((a, e) => a + e.kcal, 0) / logged.length;
+      tdee = Math.round(empiricalTdee(avgKcal, windowSlope));
+      method = `energy balance over ${logged.length} logged days + ${inWindow.length} weigh-ins (21d window)`;
+    } else {
+      const age = ageYears(profile.birthdate, now);
+      const bmr = mifflinStJeor(weightForCalc * 0.45359237, profile.heightIn * 2.54, age, profile.sex);
+      tdee = Math.round(bmr * profile.activityFactor);
+      method = `Mifflin-St Jeor × ${profile.activityFactor} activity (seed — switches to measured TDEE at 12 logged days + 5 weigh-ins per 21d)`;
+      notes.push(`empirical progress: ${logged.length}/12 logged days, ${inWindow.length}/5 weigh-ins in the last 21 days`);
+    }
+
+    if (!weighIns.length) notes.push("no weigh-ins in the last 45 days — the loop is blind without the scale");
+    else {
+      const staleDays = Math.floor((now - weighIns.at(-1)!.ts) / 86_400_000);
+      if (staleDays > 3) notes.push(`last weigh-in is ${staleDays} days old`);
+    }
+
+    return {
+      mode,
+      method,
+      tdee,
+      targetKcal: targetKcal(tdee, goal.ratePerWeekLb),
+      proteinG: proteinTarget(weightForCalc),
+      goal: { targetLb: goal.targetLb, ratePerWeekLb: goal.ratePerWeekLb },
+      currentWeightLb,
+      lastWeighIn: weighIns.at(-1)?.date ?? null,
+      observedRatePerWeekLb,
+      loggedDays14,
+      notes,
     };
   }
 

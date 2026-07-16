@@ -97,6 +97,21 @@ export interface OverviewResult {
   steps: { dailyAvg: number | null; days: TrendBucket[] };
 }
 
+export interface NutritionResult {
+  /** "seed" = Mifflin-St Jeor estimate; "empirical" = solved from your own intake + scale data. */
+  mode: "seed" | "empirical";
+  method: string;
+  tdee: number;
+  targetKcal: number;
+  proteinG: number;
+  goal: { targetLb: number; ratePerWeekLb: number };
+  currentWeightLb: number | null;
+  lastWeighIn: string | null;
+  observedRatePerWeekLb: number | null; // 28-day least-squares slope
+  loggedDays14: number; // intake entries in the last 14 days
+  notes: string[];
+}
+
 export interface SourceSummary {
   source: string;
   name: string | null;

@@ -1,0 +1,11 @@
+{
+  "profile": {
+    "birthdate": "2006-06-19",
+    "heightIn": 72.5,
+    "sex": "male",
+    "activityFactor": 1.5
+  },
+  "goals": [
+    { "id": "weight-180", "metric": "body_mass", "targetLb": 180, "ratePerWeekLb": 0.5 }
+  ]
+}

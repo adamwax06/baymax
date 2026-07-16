@@ -40,6 +40,16 @@ export function createServer(dbPath?: string): McpServer {
   );
 
   server.registerTool(
+    "health_nutrition",
+    {
+      description:
+        '"What should I eat today", "how many calories", "am I on track for 180". Adaptive calorie + protein targets for the body-weight goal in data/goals.json: seeded from Mifflin-St Jeor, automatically switching to an empirically measured TDEE (energy balance over logged intake in data/nutrition.json + weigh-ins) once 21 days contain enough data. Returns TDEE, target kcal, protein, observed vs target rate, logging adherence, and honest staleness notes. Methods are named in the output. Log intake by appending {date, kcal} lines to data/nutrition.json.',
+      inputSchema: {},
+    },
+    () => json(health().nutrition()),
+  );
+
+  server.registerTool(
     "health_status",
     {
       description:

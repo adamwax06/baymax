@@ -6,6 +6,7 @@ const USAGE = `baymax health CLI
 
 Usage:
   health overview                                the full current picture in one call
+  health nutrition                               calorie/protein targets for your goal
   health lifts    [--exercise bench] [--days 365] strength progression from the gym log
   health status                                  totals, sources, freshness
   health sources                                 what each app/device contributed
@@ -72,6 +73,8 @@ function run(client: HealthClient, cmd: string | undefined): unknown {
       return client.overview();
     case "lifts":
       return client.lifts({ exercise: values.exercise, days: intOpt("days") });
+    case "nutrition":
+      return client.nutrition();
     case "status":
       return client.status();
     case "sources":
@@ -100,6 +103,15 @@ function render(cmd: string, result: any): void {
       console.log(`steps (7d): avg ${result.steps.dailyAvg ?? "-"}/day`);
       console.log(`workouts (7d): ${result.workouts.length}`);
       console.table(result.workouts.map((w: any) => ({ start: w.start, activity: w.activity, min: w.durationMin })));
+      break;
+    }
+    case "nutrition": {
+      console.log(`mode: ${result.mode}  (${result.method})`);
+      console.log(`TDEE: ${result.tdee} kcal  →  eat ${result.targetKcal} kcal/day, ${result.proteinG}g protein`);
+      console.log(`goal: ${result.goal.targetLb} lb at ${result.goal.ratePerWeekLb > 0 ? "+" : ""}${result.goal.ratePerWeekLb} lb/wk`);
+      console.log(`current: ${result.currentWeightLb ?? "?"} lb (last weigh-in ${result.lastWeighIn ?? "never"})  observed rate: ${result.observedRatePerWeekLb ?? "?"} lb/wk`);
+      console.log(`intake logged: ${result.loggedDays14}/14 recent days`);
+      for (const n of result.notes) console.log(`note: ${n}`);
       break;
     }
     case "lifts":
