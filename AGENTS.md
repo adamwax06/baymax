@@ -1,13 +1,16 @@
 # baymax — agent guide
 
-Local personal health data platform. Apple Watch SE, Strava, and Eight Sleep
-write into Apple Health; a minimal iPhone app syncs everything to a local
-server which stores it in SQLite; agents read it through a typed SDK, the
-`health` CLI, or MCP tools.
+Local personal health data platform with two inbound streams: Apple Health
+(Watch/Strava/Eight Sleep via a minimal iPhone sync app) and hand-edited JSON
+logs (gym sessions, weigh-ins, food intake, goals, profile). Everything lands
+in or joins against SQLite; agents read it through a typed SDK, the `health`
+CLI, or MCP tools. The nutrition loop prescribes calories/macros from goals
+and measured data (docs/nutrition.md).
 
 ```
-Watch / Strava / Eight Sleep → Apple Health → ios/ app → apps/server (Hono, :4321) → data/baymax.db
-                                                                                          ↓
+Watch / Strava / Eight Sleep → Apple Health → ios/ app → apps/server (Hono, :4321) ─┐
+data/weights.json + bodyweight.json ──────────── bun run import ────────────────────┤→ data/baymax.db
+data/goals.json + profile.json + nutrition.json ──── read live at query time ───────┼──────↓
                                                               @baymax/core HealthClient (SDK)
                                                                                           ↓
                                                                        apps/cli + apps/mcp

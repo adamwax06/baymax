@@ -14,6 +14,8 @@ tool output; the model coaches, the code computes.
   `explicitlyOk` marks safe edge cases (don't over-restrict).
 - `data/goals.json` — what Adam is chasing (bare array). The nutrition loop
   uses the `body_mass` goal: `targetLb` + `ratePerWeekLb`.
+- `data/foods.json` + `data/meals.json` — the ingredient registry and recipe
+  book (empty until the staples list lands); model in docs/foods.md.
 - `data/nutrition.json` — daily intake, one line per day, appended by you or
   by an agent you told what you ate:
 
