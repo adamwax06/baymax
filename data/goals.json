@@ -6,6 +6,7 @@
     "activityFactor": 1.5
   },
   "goals": [
-    { "id": "weight-180", "metric": "body_mass", "targetLb": 180, "ratePerWeekLb": 0.5 }
+    { "id": "bench-225", "lift": "Bench Press", "target": { "lb": 225, "reps": 1 }, "notes": "the destination — lean bulk is the vehicle" },
+    { "id": "weight-180", "metric": "body_mass", "targetLb": 180, "ratePerWeekLb": 0.5, "notes": "instrumental to bench-225; keep lean (~0.5 lb/wk)" }
   ]
 }
