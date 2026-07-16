@@ -1,29 +1,16 @@
-{
-  "profile": {
-    "birthdate": "2006-06-19",
-    "heightIn": 72.5,
-    "sex": "male",
-    "activityFactor": 1.5,
-    "diet": {
-      "allergies": [
-        "ALL tree nuts EXCEPT pistachio and chestnut (both safe)",
-        "peanuts",
-        "finned fish (salmon, tuna, cod, etc.) AND fish oil — including supplements/softgels and fish-oil-fortified products (some milks, juices, 'omega-3' foods). Shellfish IS safe",
-        "legumes: beans, peas, chickpeas, lentils — EXCEPT whole soy (tofu, edamame), which is safe. Watch for hidden pea protein / chickpea flour / lentil flour in protein powders, bars, pastas, and 'high-protein' products",
-        "watermelon",
-        "banana",
-        "avocado",
-        "bell peppers — SPECIFICALLY bell peppers: jalapeños, chilis, cayenne, paprika, hot sauce, and salsa are all safe"
-      ],
-      "avoid": [
-        "soy protein isolate/concentrate (common in protein powders and bars) — questionable, not confirmed; whole soy like tofu and edamame is fine"
-      ],
-      "explicitlyOk": ["pistachios", "chestnuts", "shellfish", "tofu", "edamame", "coconut", "sesame/tahini", "sunflower seeds", "kiwi", "mango", "papaya", "jalapeños/hot sauce/paprika/salsa"],
-      "note": "Everything in allergies is a medical allergy: when curating foods.json or suggesting any food, check 'may contain' / shared-facility warnings for ALL allergy entries — not just ingredient lists. Pea protein is the biggest hidden risk in fitness foods. The avoid list is ingredient-level only."
-    }
+[
+  {
+    "id": "bench-225",
+    "lift": "Bench Press",
+    "target": { "lb": 225, "reps": 1 },
+    "deadline": "2027-01-15",
+    "notes": "the destination — lean bulk is the vehicle. Adam's bet: 6 months. Pace: e1RM 204 by Aug 25, 210 by Oct 1, 215 by Nov 1, 219 by Dec 1, 223 by Jan 1. The risk window is Oct-Dec (historical layoff season)."
   },
-  "goals": [
-    { "id": "bench-225", "lift": "Bench Press", "target": { "lb": 225, "reps": 1 }, "deadline": "2027-01-15", "notes": "the destination — lean bulk is the vehicle. Adam's bet: 6 months. Pace: e1RM 204 by Aug 25, 210 by Oct 1, 215 by Nov 1, 219 by Dec 1, 223 by Jan 1. The risk window is Oct-Dec (historical layoff season)." },
-    { "id": "weight-180", "metric": "body_mass", "targetLb": 180, "ratePerWeekLb": 0.5, "notes": "instrumental to bench-225; keep lean (~0.5 lb/wk)" }
-  ]
-}
+  {
+    "id": "weight-180",
+    "metric": "body_mass",
+    "targetLb": 180,
+    "ratePerWeekLb": 0.5,
+    "notes": "instrumental to bench-225; keep lean (~0.5 lb/wk)"
+  }
+]

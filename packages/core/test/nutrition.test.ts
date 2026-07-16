@@ -42,12 +42,10 @@ describe("HealthClient.nutrition", () => {
   beforeAll(() => {
     ({ dir } = seedTempDb("baymax-nutrition-", { days: 5, now: NOW }));
     writeFileSync(
-      join(dir, "goals.json"),
-      JSON.stringify({
-        profile: { birthdate: "2006-06-19", heightIn: 72.5, sex: "male", activityFactor: 1.5 },
-        goals: [{ id: "weight-180", metric: "body_mass", targetLb: 180, ratePerWeekLb: 0.5 }],
-      }),
+      join(dir, "profile.json"),
+      JSON.stringify({ birthdate: "2006-06-19", heightIn: 72.5, sex: "male", activityFactor: 1.5 }),
     );
+    writeFileSync(join(dir, "goals.json"), JSON.stringify([{ id: "weight-180", metric: "body_mass", targetLb: 180, ratePerWeekLb: 0.5 }]));
   });
 
   afterAll(() => rmSync(dir, { recursive: true, force: true }));
@@ -70,6 +68,7 @@ describe("HealthClient.nutrition", () => {
     const dbPath = join(dir2, "test.db");
     const iso = (i: number) => new Date(NOW - i * day).toISOString().slice(0, 10);
     writeFileSync(join(dir2, "goals.json"), require("node:fs").readFileSync(join(dir, "goals.json")));
+    writeFileSync(join(dir2, "profile.json"), require("node:fs").readFileSync(join(dir, "profile.json")));
     writeFileSync(join(dir2, "nutrition.json"), JSON.stringify(Array.from({ length: 18 }, (_, i) => ({ date: iso(i), kcal: 3000 }))));
     const db = openDb({ path: dbPath });
     migrateDb(db);

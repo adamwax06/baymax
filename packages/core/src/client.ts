@@ -124,12 +124,14 @@ export class HealthClient {
   nutrition(opts: { now?: number } = {}): NutritionResult {
     const now = opts.now ?? Date.now();
     const dataDir = dirname(this.dbPath);
+    const profilePath = join(dataDir, "profile.json");
     const goalsPath = join(dataDir, "goals.json");
-    if (!existsSync(goalsPath)) {
-      throw new Error(`No goals file at ${goalsPath} (see docs/nutrition.md)`);
+    if (!existsSync(profilePath) || !existsSync(goalsPath)) {
+      throw new Error(`Missing ${existsSync(profilePath) ? goalsPath : profilePath} (see docs/nutrition.md)`);
     }
-    const { profile, goals } = JSON.parse(readFileSync(goalsPath, "utf8"));
-    const goal = goals.find((g: { metric: string }) => g.metric === "body_mass");
+    const profile = JSON.parse(readFileSync(profilePath, "utf8"));
+    const goals: { metric?: string }[] = JSON.parse(readFileSync(goalsPath, "utf8"));
+    const goal = goals.find((g) => g.metric === "body_mass") as { targetLb: number; ratePerWeekLb: number } | undefined;
     if (!goal) throw new Error("No body_mass goal in goals.json");
     const nutritionPath = join(dataDir, "nutrition.json");
     const intake: { date: string; kcal: number }[] = existsSync(nutritionPath)

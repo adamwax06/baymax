@@ -4,6 +4,7 @@ data/*
 !data/bodyweight.json
 !data/goals.json
 !data/nutrition.json
+!data/profile.json
 .DS_Store
 ios/*.xcodeproj/
 ios/Signing.xcconfig
