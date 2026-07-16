@@ -46,6 +46,23 @@ The tool reports which mode it's in, the method, observed vs target rate,
 adherence, and staleness notes. It never invents scores and never switches
 modes silently.
 
+## Food label data (FDA FoodData Central)
+
+Nutrition facts for branded products (incl. Trader Joe's and Kirkland items)
+come from the free FDA FoodData Central API. The key lives in `.env` at the
+repo root as `FDC_API_KEY` (gitignored; Bun auto-loads it —
+`Bun.env.FDC_API_KEY`). Search endpoint:
+
+```
+GET https://api.nal.usda.gov/fdc/v1/foods/search?api_key=$FDC_API_KEY&query=<terms>&dataType=Branded
+```
+
+Convention: FDC is queried at **curation time** (building the planned
+`foods.json`, estimating a logged deviation) and results are cached into
+files — never a live dependency at meal-planning or query time. Branded data
+is messy (stale entries, odd brand owners): a human-reviewable cached entry
+beats a live lookup. `DEMO_KEY` works for one-off checks (30 req/hr).
+
 ## Honest limits
 
 Energy balance (~3500 kcal/lb) is an approximation; water weight makes daily
