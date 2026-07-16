@@ -1,8 +1,9 @@
 # Weights log format
 
-`data/weights.json` (gitignored — it's health data) is the **source of truth**
-for gym sessions and manual body-weight entries. You edit it by hand after a
-workout, then run `bun scripts/import-weights.ts` to load it into the health
+`data/weights.json` is the **source of truth** for gym sessions and manual
+body-weight entries (committed by deliberate choice — edit it from the GitHub
+app on your phone, or locally). After editing: `git pull` if you edited on
+GitHub, then `bun scripts/import-weights.ts` to load it into the health
 database. The file is authoritative: imports upsert by date-keyed UUID *and*
 delete anything previously imported that's no longer in the file — so edits,
 fixes, and deletions all sync on the next run. Re-running is always safe.

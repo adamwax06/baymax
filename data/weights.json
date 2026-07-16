@@ -1,0 +1,8601 @@
+{
+  "bodyWeight": [
+    {
+      "date": "2021-02-09",
+      "lb": 143.5
+    },
+    {
+      "date": "2021-02-16",
+      "lb": 141.5
+    },
+    {
+      "date": "2022-07-04",
+      "lb": 148.5
+    },
+    {
+      "date": "2022-07-17",
+      "lb": 148
+    },
+    {
+      "date": "2022-09-10",
+      "lb": 147
+    },
+    {
+      "date": "2025-08-21",
+      "lb": 170.2
+    },
+    {
+      "date": "2025-08-22",
+      "lb": 168.8
+    },
+    {
+      "date": "2025-08-24",
+      "lb": 169.2
+    },
+    {
+      "date": "2025-08-25",
+      "lb": 170.8
+    },
+    {
+      "date": "2025-08-26",
+      "lb": 168.4
+    },
+    {
+      "date": "2025-08-28",
+      "lb": 170
+    },
+    {
+      "date": "2025-08-29",
+      "lb": 168.6
+    },
+    {
+      "date": "2025-09-01",
+      "lb": 169.4
+    },
+    {
+      "date": "2025-09-03",
+      "lb": 169
+    },
+    {
+      "date": "2025-09-22",
+      "lb": 168
+    },
+    {
+      "date": "2025-09-25",
+      "lb": 166.8
+    },
+    {
+      "date": "2025-09-29",
+      "lb": 167
+    },
+    {
+      "date": "2025-09-30",
+      "lb": 168.2
+    },
+    {
+      "date": "2025-10-05",
+      "lb": 168.6
+    },
+    {
+      "date": "2025-10-14",
+      "lb": 169
+    },
+    {
+      "date": "2025-10-16",
+      "lb": 170
+    },
+    {
+      "date": "2025-12-11",
+      "lb": 167.4
+    },
+    {
+      "date": "2025-12-14",
+      "lb": 165.4
+    },
+    {
+      "date": "2026-01-14",
+      "lb": 173.4
+    },
+    {
+      "date": "2026-01-20",
+      "lb": 170.6
+    },
+    {
+      "date": "2026-01-23",
+      "lb": 172.6
+    },
+    {
+      "date": "2026-01-24",
+      "lb": 171.4
+    },
+    {
+      "date": "2026-01-27",
+      "lb": 172.6
+    },
+    {
+      "date": "2026-01-29",
+      "lb": 173.2
+    },
+    {
+      "date": "2026-01-30",
+      "lb": 172.4
+    },
+    {
+      "date": "2026-02-02",
+      "lb": 175.6
+    },
+    {
+      "date": "2026-02-05",
+      "lb": 172.2
+    },
+    {
+      "date": "2026-02-06",
+      "lb": 172
+    },
+    {
+      "date": "2026-02-10",
+      "lb": 170.8
+    },
+    {
+      "date": "2026-02-12",
+      "lb": 173.8
+    },
+    {
+      "date": "2026-02-13",
+      "lb": 173.6
+    },
+    {
+      "date": "2026-02-15",
+      "lb": 170
+    },
+    {
+      "date": "2026-02-16",
+      "lb": 173.8
+    },
+    {
+      "date": "2026-02-24",
+      "lb": 169.8
+    },
+    {
+      "date": "2026-04-06",
+      "lb": 168.6
+    },
+    {
+      "date": "2026-04-07",
+      "lb": 166.8
+    },
+    {
+      "date": "2026-04-12",
+      "lb": 165.6
+    },
+    {
+      "date": "2026-04-13",
+      "lb": 166.6
+    },
+    {
+      "date": "2026-04-14",
+      "lb": 167.2
+    },
+    {
+      "date": "2026-04-15",
+      "lb": 168
+    },
+    {
+      "date": "2026-04-16",
+      "lb": 166.6
+    },
+    {
+      "date": "2026-04-17",
+      "lb": 165.6
+    },
+    {
+      "date": "2026-04-18",
+      "lb": 165.8
+    },
+    {
+      "date": "2026-04-24",
+      "lb": 168.4
+    }
+  ],
+  "sessions": [
+    {
+      "date": "2022-07-04",
+      "exercises": [
+        {
+          "name": "Bench",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                6,
+                3.5
+              ],
+              "lb": 105
+            }
+          ]
+        },
+        {
+          "name": "Shoulder Press",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                6.5
+              ],
+              "lb": 75
+            }
+          ]
+        },
+        {
+          "name": "Row",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                8,
+                8
+              ],
+              "lb": 110
+            }
+          ]
+        },
+        {
+          "name": "Pulldown",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                7,
+                5
+              ],
+              "lb": 115
+            }
+          ]
+        },
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 140
+            }
+          ],
+          "notes": "X; X - knee injury"
+        }
+      ]
+    },
+    {
+      "date": "2022-07-08",
+      "exercises": [
+        {
+          "name": "Bench",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                8,
+                7,
+                5
+              ],
+              "lb": 105
+            }
+          ]
+        },
+        {
+          "name": "Shoulder Press",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                8
+              ],
+              "lb": 90
+            }
+          ]
+        },
+        {
+          "name": "Row",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                8,
+                8,
+                7
+              ],
+              "lb": 110
+            }
+          ]
+        },
+        {
+          "name": "Pulldown",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                8,
+                6
+              ],
+              "lb": 115
+            }
+          ]
+        },
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "reps": [
+                8,
+                6
+              ],
+              "lb": 145
+            },
+            {
+              "reps": [
+                8,
+                7
+              ],
+              "lb": 140
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2022-07-17",
+      "exercises": [
+        {
+          "name": "Bench",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                8,
+                8,
+                6
+              ],
+              "lb": 105
+            }
+          ]
+        },
+        {
+          "name": "Row",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                8,
+                6
+              ],
+              "lb": 120
+            }
+          ]
+        },
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                5
+              ],
+              "lb": 140
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2022-07-22",
+      "exercises": [
+        {
+          "name": "Bench",
+          "sets": [
+            {
+              "reps": [
+                8,
+                6
+              ],
+              "lb": 110
+            },
+            {
+              "reps": [
+                6,
+                3
+              ],
+              "lb": 105
+            }
+          ]
+        },
+        {
+          "name": "Row",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                8,
+                8
+              ],
+              "lb": 120
+            }
+          ]
+        },
+        {
+          "name": "Pulldown",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                8,
+                7
+              ],
+              "lb": 115
+            }
+          ]
+        },
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                6
+              ],
+              "lb": 140
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2022-09-10",
+      "exercises": [
+        {
+          "name": "Bench",
+          "sets": [
+            {
+              "reps": [
+                1
+              ],
+              "lb": 145
+            }
+          ]
+        },
+        {
+          "name": "Row",
+          "sets": [
+            {
+              "reps": [
+                1
+              ],
+              "lb": 135
+            }
+          ]
+        },
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "reps": [
+                1
+              ],
+              "lb": 175
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2022-09-11",
+      "exercises": [
+        {
+          "name": "Bench",
+          "sets": [
+            {
+              "reps": [
+                12,
+                8,
+                5
+              ],
+              "lb": 95
+            }
+          ]
+        },
+        {
+          "name": "DB OHP",
+          "sets": [
+            {
+              "reps": [
+                12,
+                11,
+                9,
+                8
+              ],
+              "lb": 50
+            }
+          ]
+        },
+        {
+          "name": "Row",
+          "sets": [
+            {
+              "reps": [
+                12,
+                12,
+                12,
+                9
+              ],
+              "lb": 90
+            }
+          ]
+        },
+        {
+          "name": "Lat Pulldown",
+          "sets": [
+            {
+              "reps": [
+                12,
+                7,
+                9
+              ],
+              "lb": 100
+            }
+          ]
+        },
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "reps": [
+                12,
+                12,
+                12
+              ],
+              "lb": 105
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2022-09-17",
+      "exercises": [
+        {
+          "name": "Bench",
+          "sets": [
+            {
+              "reps": [
+                12,
+                8,
+                7
+              ],
+              "lb": 95
+            }
+          ]
+        },
+        {
+          "name": "DB OHP",
+          "sets": [
+            {
+              "reps": [
+                8,
+                5,
+                5,
+                5
+              ],
+              "lb": 60
+            }
+          ]
+        },
+        {
+          "name": "Row",
+          "sets": [
+            {
+              "reps": [
+                12,
+                12,
+                12,
+                12
+              ],
+              "lb": 95
+            }
+          ]
+        },
+        {
+          "name": "Pulldown",
+          "sets": [
+            {
+              "reps": [
+                8
+              ],
+              "lb": 110
+            },
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 100
+            }
+          ]
+        },
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "reps": [
+                12,
+                12,
+                12
+              ],
+              "lb": 115
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2022-10-01",
+      "exercises": [
+        {
+          "name": "Bench",
+          "sets": [
+            {
+              "reps": [
+                10,
+                9,
+                6
+              ],
+              "lb": 100
+            }
+          ]
+        },
+        {
+          "name": "Row",
+          "sets": [
+            {
+              "reps": [
+                10,
+                10,
+                10,
+                10
+              ],
+              "lb": 105
+            }
+          ]
+        },
+        {
+          "name": "Pulldown",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 115
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2022-10-21",
+      "exercises": [
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                8,
+                8
+              ],
+              "lb": 135
+            }
+          ]
+        },
+        {
+          "name": "Bench",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                5,
+                5
+              ],
+              "lb": 105
+            }
+          ]
+        },
+        {
+          "name": "Row",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                8,
+                8
+              ],
+              "lb": 105
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2022-11-04",
+      "exercises": [
+        {
+          "name": "Bench",
+          "sets": [
+            {
+              "reps": [
+                6,
+                6,
+                5,
+                3
+              ],
+              "lb": 115
+            }
+          ]
+        },
+        {
+          "name": "Row",
+          "sets": [
+            {
+              "reps": [
+                6,
+                6
+              ],
+              "lb": 120
+            },
+            {
+              "reps": [
+                6,
+                6
+              ],
+              "lb": 125
+            }
+          ]
+        },
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "reps": [
+                6,
+                6,
+                6
+              ],
+              "lb": 155
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2022-11-13",
+      "exercises": [
+        {
+          "name": "Row",
+          "sets": [
+            {
+              "reps": [
+                6,
+                6,
+                6,
+                5
+              ],
+              "lb": 125
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2022-12-10",
+      "exercises": [
+        {
+          "name": "Bench",
+          "sets": [
+            {
+              "reps": [
+                8,
+                6,
+                5,
+                5
+              ],
+              "lb": 105
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-05-22",
+      "exercises": [
+        {
+          "name": "Back Squat",
+          "sets": [
+            {
+              "reps": [
+                6,
+                4
+              ],
+              "lb": 185
+            }
+          ]
+        },
+        {
+          "name": "Seated Calf Raises",
+          "sets": [
+            {
+              "reps": [
+                5,
+                6,
+                6
+              ],
+              "lb": 90
+            }
+          ]
+        },
+        {
+          "name": "Seated Hamstring",
+          "sets": [
+            {
+              "reps": [
+                11,
+                11,
+                11
+              ],
+              "lb": 100
+            }
+          ]
+        },
+        {
+          "name": "Sissy Squats",
+          "sets": [
+            {
+              "reps": [
+                13,
+                10
+              ],
+              "bodyweight": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-05-24",
+      "exercises": [
+        {
+          "name": "Incline Dumbell Press",
+          "sets": [
+            {
+              "reps": [
+                9,
+                9
+              ],
+              "lb": 105
+            }
+          ]
+        },
+        {
+          "name": "Tricep Pushdown + Press",
+          "sets": [
+            {
+              "reps": [
+                7
+              ],
+              "lb": 57.5
+            }
+          ],
+          "notes": "some amount"
+        },
+        {
+          "name": "Machine Lateral Raises",
+          "sets": [
+            {
+              "reps": [
+                6,
+                5
+              ],
+              "lb": 85
+            }
+          ]
+        },
+        {
+          "name": "Incline Cable Chest Flies",
+          "sets": [
+            {
+              "reps": [
+                10,
+                8
+              ],
+              "lb": 30
+            }
+          ]
+        },
+        {
+          "name": "Dips",
+          "sets": [
+            {
+              "reps": [
+                5,
+                8
+              ],
+              "bodyweight": true
+            }
+          ]
+        },
+        {
+          "name": "Hanging Leg Raises",
+          "sets": [
+            {
+              "reps": [
+                14,
+                9
+              ],
+              "bodyweight": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-05-26",
+      "exercises": [
+        {
+          "name": "Seated Calf Raises",
+          "sets": [
+            {
+              "reps": [
+                7,
+                7,
+                5
+              ],
+              "lb": 90
+            }
+          ]
+        },
+        {
+          "name": "Seated Hamstring",
+          "sets": [
+            {
+              "reps": [
+                10,
+                6
+              ],
+              "lb": 110
+            }
+          ]
+        },
+        {
+          "name": "Sissy Squats",
+          "sets": [
+            {
+              "reps": [
+                13,
+                11
+              ],
+              "bodyweight": true
+            }
+          ]
+        },
+        {
+          "name": "Barbell RDL w/ Straps",
+          "sets": [
+            {
+              "reps": [
+                9,
+                6
+              ],
+              "lb": 225
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-05-28",
+      "exercises": [
+        {
+          "name": "Incline Dumbell Press",
+          "sets": [
+            {
+              "reps": [
+                7,
+                7
+              ],
+              "lb": 110
+            }
+          ]
+        },
+        {
+          "name": "Tricep Pushdown + Press",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 57.5
+            }
+          ],
+          "notes": "rest-pause: 8 + 4"
+        },
+        {
+          "name": "Machine Lateral Raises",
+          "sets": [
+            {
+              "reps": [
+                7,
+                5,
+                4
+              ],
+              "lb": 85
+            }
+          ]
+        },
+        {
+          "name": "Pec Flies",
+          "sets": [
+            {
+              "reps": [
+                8,
+                6
+              ],
+              "lb": 115
+            }
+          ]
+        },
+        {
+          "name": "Triceps Press",
+          "sets": [
+            {
+              "reps": [
+                10,
+                8
+              ],
+              "lb": 150
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-05-29",
+      "exercises": [
+        {
+          "name": "JPG’s",
+          "sets": [
+            {
+              "reps": [
+                7,
+                6
+              ],
+              "lb": 62.5
+            }
+          ]
+        },
+        {
+          "name": "DB Bicep Curls",
+          "sets": [
+            {
+              "reps": [
+                9,
+                6
+              ],
+              "lb": 60
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Cable Lat Pullover",
+          "sets": [
+            {
+              "reps": [
+                5,
+                5
+              ],
+              "lb": 27.5
+            }
+          ]
+        },
+        {
+          "name": "Cable Curl",
+          "sets": [
+            {
+              "reps": [
+                8,
+                5
+              ],
+              "lb": 47.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-05-30",
+      "exercises": [
+        {
+          "name": "Back Squat",
+          "sets": [
+            {
+              "reps": [
+                7,
+                4
+              ],
+              "lb": 185
+            }
+          ]
+        },
+        {
+          "name": "Seated Calf Raises",
+          "sets": [
+            {
+              "reps": [
+                8,
+                9,
+                7
+              ],
+              "lb": 90
+            }
+          ]
+        },
+        {
+          "name": "Seated Hamstring",
+          "sets": [
+            {
+              "reps": [
+                10,
+                9,
+                6
+              ],
+              "lb": 115
+            }
+          ]
+        },
+        {
+          "name": "Cable Tibia Raises",
+          "sets": [
+            {
+              "reps": [
+                8,
+                10
+              ],
+              "lb": 42.5
+            }
+          ]
+        },
+        {
+          "name": "Seated Leg Extensions",
+          "sets": [
+            {
+              "reps": [
+                10,
+                10
+              ],
+              "lb": 190
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-06-02",
+      "exercises": [
+        {
+          "name": "Seated Chest Press",
+          "sets": [
+            {
+              "reps": [
+                7,
+                6
+              ],
+              "lb": 145
+            }
+          ]
+        },
+        {
+          "name": "Cable Pushdowns(handles, right side)",
+          "sets": [
+            {
+              "reps": [
+                6,
+                8
+              ],
+              "lb": 60
+            }
+          ]
+        },
+        {
+          "name": "Cable Lateral Raise(right side)",
+          "sets": [
+            {
+              "reps": [
+                6,
+                5,
+                5
+              ],
+              "lb": 30
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Skull Crusher",
+          "sets": [
+            {
+              "reps": [
+                9,
+                7
+              ],
+              "lb": 20
+            }
+          ]
+        },
+        {
+          "name": "Decline Pushups(leg extensions)",
+          "sets": [
+            {
+              "reps": [
+                11,
+                7
+              ],
+              "bodyweight": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-06-03",
+      "exercises": [
+        {
+          "name": "DB Bicep Curls",
+          "sets": [
+            {
+              "reps": [
+                11,
+                7
+              ],
+              "lb": 60
+            }
+          ]
+        },
+        {
+          "name": "Pullups",
+          "sets": [
+            {
+              "reps": [
+                3,
+                3
+              ],
+              "bodyweight": true
+            }
+          ]
+        },
+        {
+          "name": "Single Arm Cable Rear Delt Fly",
+          "sets": [
+            {
+              "reps": [
+                10,
+                6
+              ],
+              "lb": 30
+            }
+          ]
+        },
+        {
+          "name": "Double Handle Cable Curl",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 80
+            }
+          ]
+        },
+        {
+          "name": "Machine Row",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7
+              ],
+              "lb": 120
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-06-04",
+      "exercises": [
+        {
+          "name": "Back Squat",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7
+              ],
+              "lb": 185
+            }
+          ]
+        },
+        {
+          "name": "Sissy Squats",
+          "sets": [
+            {
+              "reps": [
+                13,
+                11
+              ],
+              "bodyweight": true
+            }
+          ]
+        },
+        {
+          "name": "Cable Tibia Raises",
+          "sets": [],
+          "notes": "sets not fully logged: \"44 for\""
+        },
+        {
+          "name": "Smith Machine Calf Raises",
+          "sets": [
+            {
+              "reps": [
+                13,
+                13,
+                12
+              ],
+              "lb": 225
+            }
+          ]
+        },
+        {
+          "name": "Single DB RDL",
+          "sets": [
+            {
+              "reps": [
+                10,
+                10,
+                10
+              ],
+              "lb": 40
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-06-05",
+      "exercises": [
+        {
+          "name": "Seated Chest Press",
+          "sets": [
+            {
+              "reps": [
+                11,
+                8
+              ],
+              "lb": 145
+            }
+          ]
+        },
+        {
+          "name": "Cable Pushdowns(handles, right side)",
+          "sets": [
+            {
+              "reps": [
+                10,
+                9
+              ],
+              "lb": 60
+            }
+          ]
+        },
+        {
+          "name": "Cable Lateral Raise(right side)",
+          "sets": [
+            {
+              "reps": [
+                9,
+                7,
+                6
+              ],
+              "lb": 30
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Skull Crusher",
+          "sets": [
+            {
+              "reps": [
+                10,
+                6
+              ],
+              "lb": 20
+            }
+          ]
+        },
+        {
+          "name": "Decline Pushups(leg extensions)",
+          "sets": [
+            {
+              "reps": [
+                13
+              ],
+              "bodyweight": true
+            }
+          ],
+          "notes": "bench; cable flies 40’s for 7, 6,"
+        }
+      ],
+      "gym": "rut"
+    },
+    {
+      "date": "2025-06-08",
+      "exercises": [
+        {
+          "name": "JPG’s",
+          "sets": [
+            {
+              "reps": [
+                10
+              ],
+              "lb": 90
+            },
+            {
+              "reps": [
+                6
+              ],
+              "lb": 110
+            }
+          ]
+        },
+        {
+          "name": "DB Bicep Curls",
+          "sets": [
+            {
+              "reps": [
+                5,
+                4
+              ],
+              "lb": 70
+            }
+          ]
+        },
+        {
+          "name": "Single Arm Cable Rear Delt Fly",
+          "sets": [
+            {
+              "reps": [
+                10,
+                10
+              ],
+              "lb": 30
+            }
+          ]
+        },
+        {
+          "name": "Double Handle Cable Curl",
+          "sets": [
+            {
+              "reps": [
+                11
+              ],
+              "lb": 90
+            },
+            {
+              "reps": [
+                7
+              ],
+              "lb": 100
+            }
+          ]
+        },
+        {
+          "name": "Machine Row",
+          "sets": [
+            {
+              "reps": [
+                7,
+                8
+              ],
+              "lb": 125
+            }
+          ]
+        },
+        {
+          "name": "Cable High Row",
+          "sets": [
+            {
+              "reps": [
+                7,
+                8
+              ],
+              "lb": 190
+            }
+          ]
+        }
+      ],
+      "gym": "rut"
+    },
+    {
+      "date": "2025-06-09",
+      "exercises": [
+        {
+          "name": "Seated Hamstring",
+          "sets": [
+            {
+              "reps": [
+                10
+              ],
+              "lb": 150
+            },
+            {
+              "reps": [
+                3
+              ],
+              "lb": 165
+            }
+          ]
+        },
+        {
+          "name": "Barbell RDL w/ Straps",
+          "sets": [
+            {
+              "reps": [
+                5,
+                5
+              ],
+              "lb": 245
+            }
+          ],
+          "notes": "wo straps"
+        },
+        {
+          "name": "Seated Leg Extensions",
+          "sets": [
+            {
+              "reps": [
+                8,
+                10,
+                9
+              ],
+              "lb": 202.5
+            }
+          ]
+        },
+        {
+          "name": "Smith Machine Calf Raises",
+          "sets": [
+            {
+              "reps": [
+                11
+              ],
+              "lb": 245
+            },
+            {
+              "reps": [
+                11
+              ],
+              "lb": 265
+            },
+            {
+              "reps": [
+                11
+              ],
+              "lb": 295
+            }
+          ]
+        }
+      ],
+      "gym": "hearst"
+    },
+    {
+      "date": "2025-06-10",
+      "exercises": [
+        {
+          "name": "Tricep Pushdown + Press",
+          "sets": [
+            {
+              "reps": [
+                5
+              ],
+              "lb": 62.5
+            },
+            {
+              "reps": [
+                7,
+                4
+              ],
+              "lb": 59
+            }
+          ],
+          "notes": "rest-pause: 7 + 8"
+        },
+        {
+          "name": "Pec Flies",
+          "sets": [
+            {
+              "reps": [
+                8,
+                6
+              ],
+              "lb": 120
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Skull Crusher",
+          "sets": [
+            {
+              "reps": [
+                6,
+                5
+              ],
+              "lb": 25
+            }
+          ]
+        },
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "reps": [
+                6,
+                4
+              ],
+              "lb": 155
+            }
+          ]
+        },
+        {
+          "name": "Benched Dumbell Lateral Raises",
+          "sets": [
+            {
+              "reps": [
+                10
+              ],
+              "lb": 10,
+              "perSide": true
+            },
+            {
+              "reps": [
+                10,
+                9
+              ],
+              "lb": 12.5,
+              "perSide": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-06-11",
+      "exercises": [
+        {
+          "name": "JPG’s",
+          "sets": [
+            {
+              "reps": [
+                10
+              ],
+              "lb": 100
+            },
+            {
+              "reps": [
+                7
+              ],
+              "lb": 110
+            }
+          ]
+        },
+        {
+          "name": "DB Bicep Curls",
+          "sets": [
+            {
+              "reps": [
+                7,
+                6
+              ],
+              "lb": 70
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Cable Lat Pullover",
+          "sets": [
+            {
+              "reps": [
+                7,
+                6
+              ],
+              "lb": 45
+            }
+          ]
+        },
+        {
+          "name": "Pullups",
+          "sets": [
+            {
+              "reps": [
+                5,
+                5
+              ],
+              "bodyweight": true
+            }
+          ]
+        },
+        {
+          "name": "Single Arm Cable Rear Delt Fly",
+          "sets": [
+            {
+              "reps": [
+                6,
+                5
+              ],
+              "lb": 35
+            }
+          ]
+        },
+        {
+          "name": "Double Handle Cable Curl",
+          "sets": [
+            {
+              "reps": [
+                7,
+                5
+              ],
+              "lb": 100
+            }
+          ]
+        },
+        {
+          "name": "Machine Row",
+          "sets": [
+            {
+              "reps": [
+                7,
+                5,
+                5
+              ],
+              "lb": 125
+            }
+          ]
+        }
+      ],
+      "gym": "rut"
+    },
+    {
+      "date": "2025-06-15",
+      "exercises": [
+        {
+          "name": "Back Squat",
+          "sets": [
+            {
+              "reps": [
+                8,
+                4
+              ],
+              "lb": 195
+            }
+          ]
+        },
+        {
+          "name": "Seated Hamstring",
+          "sets": [],
+          "notes": "sets not fully logged: \"157.5 for\""
+        }
+      ],
+      "gym": "hearst"
+    },
+    {
+      "date": "2025-06-16",
+      "exercises": [
+        {
+          "name": "Tricep Pushdown + Press",
+          "sets": [
+            {
+              "reps": [
+                10,
+                9
+              ],
+              "lb": 62.5
+            }
+          ]
+        },
+        {
+          "name": "Pec Flies",
+          "sets": [
+            {
+              "reps": [
+                11
+              ],
+              "lb": 120
+            },
+            {
+              "reps": [
+                5
+              ],
+              "lb": 135
+            }
+          ]
+        },
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "reps": [
+                7,
+                4
+              ],
+              "lb": 155
+            }
+          ]
+        },
+        {
+          "name": "Benched Dumbell Lateral Raises",
+          "sets": [
+            {
+              "reps": [
+                10
+              ],
+              "lb": 12.5,
+              "perSide": true
+            },
+            {
+              "reps": [
+                7,
+                6
+              ],
+              "lb": 15,
+              "perSide": true
+            }
+          ]
+        },
+        {
+          "name": "Katana’s",
+          "sets": [
+            {
+              "reps": [
+                6,
+                4
+              ],
+              "lb": 38
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-06-17",
+      "exercises": [
+        {
+          "name": "DB Bicep Curls",
+          "sets": [
+            {
+              "reps": [
+                7,
+                6
+              ],
+              "lb": 70
+            }
+          ]
+        },
+        {
+          "name": "Pullups",
+          "sets": [
+            {
+              "reps": [
+                6,
+                3
+              ],
+              "bodyweight": true
+            }
+          ]
+        },
+        {
+          "name": "Double Handle Cable Curl",
+          "sets": [
+            {
+              "reps": [
+                6,
+                5
+              ],
+              "lb": 47.5
+            }
+          ]
+        },
+        {
+          "name": "Barbell Row",
+          "sets": [
+            {
+              "reps": [
+                6,
+                8,
+                7
+              ],
+              "lb": 135
+            }
+          ]
+        },
+        {
+          "name": "Machine Rear Delt Fly",
+          "sets": [
+            {
+              "reps": [
+                6,
+                4
+              ],
+              "lb": 157.5
+            },
+            {
+              "reps": [
+                4
+              ],
+              "lb": 142.5
+            }
+          ]
+        },
+        {
+          "name": "Cable Row",
+          "sets": [
+            {
+              "reps": [
+                10
+              ],
+              "lb": 82.5
+            },
+            {
+              "reps": [
+                9
+              ],
+              "lb": 92.5
+            }
+          ]
+        }
+      ],
+      "gym": "hearst"
+    },
+    {
+      "date": "2025-06-20",
+      "exercises": [
+        {
+          "name": "Single DB RDL",
+          "sets": [
+            {
+              "reps": [
+                10,
+                10,
+                10
+              ],
+              "lb": 50
+            }
+          ]
+        },
+        {
+          "name": "Seated Leg Press",
+          "sets": [
+            {
+              "reps": [
+                10,
+                8
+              ],
+              "lb": 270
+            }
+          ]
+        },
+        {
+          "name": "Seated Calf Raises on Leg Press",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7,
+                7
+              ],
+              "lb": 310
+            }
+          ]
+        },
+        {
+          "name": "Pistol Squats",
+          "sets": [
+            {
+              "reps": [
+                5,
+                4,
+                4
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-06-21",
+      "exercises": [
+        {
+          "name": "Incline Cable Chest Flies",
+          "sets": [
+            {
+              "reps": [
+                7,
+                6
+              ],
+              "lb": 100
+            }
+          ]
+        },
+        {
+          "name": "Cable Curl",
+          "sets": [
+            {
+              "reps": [
+                7,
+                5
+              ],
+              "lb": 52.5
+            }
+          ]
+        },
+        {
+          "name": "Seated Chest Press",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7
+              ],
+              "lb": 155
+            }
+          ]
+        },
+        {
+          "name": "Cable Pushdowns(handles, right side)",
+          "sets": [
+            {
+              "reps": [
+                11
+              ],
+              "lb": 70
+            },
+            {
+              "reps": [
+                5
+              ],
+              "lb": 80
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Skull Crusher",
+          "sets": [
+            {
+              "reps": [
+                6,
+                6
+              ],
+              "lb": 25
+            }
+          ]
+        },
+        {
+          "name": "Benched Dumbell Lateral Raises",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                6
+              ],
+              "lb": 15
+            }
+          ]
+        }
+      ],
+      "gym": "sojo"
+    },
+    {
+      "date": "2025-06-22",
+      "exercises": [
+        {
+          "name": "JPG’s",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7
+              ],
+              "lb": 110
+            }
+          ]
+        },
+        {
+          "name": "DB Bicep Curls",
+          "sets": [
+            {
+              "reps": [
+                5,
+                4
+              ],
+              "lb": 70
+            }
+          ]
+        },
+        {
+          "name": "Pullups",
+          "sets": [
+            {
+              "reps": [
+                6,
+                4
+              ],
+              "bodyweight": true
+            }
+          ]
+        },
+        {
+          "name": "Single Arm Cable Rear Delt Fly",
+          "sets": [
+            {
+              "reps": [
+                8,
+                5
+              ],
+              "lb": 35
+            },
+            {
+              "reps": [
+                5
+              ],
+              "lb": 30
+            }
+          ]
+        },
+        {
+          "name": "Double Handle Cable Curl",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7,
+                6
+              ],
+              "lb": 100
+            }
+          ]
+        },
+        {
+          "name": "Machine Row",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7,
+                7
+              ],
+              "lb": 125
+            }
+          ]
+        }
+      ],
+      "gym": "rut"
+    },
+    {
+      "date": "2025-06-23",
+      "exercises": [
+        {
+          "name": "Barbell RDL w/ Straps",
+          "sets": [
+            {
+              "reps": [
+                7,
+                5
+              ],
+              "lb": 245
+            }
+          ],
+          "notes": "w strats"
+        },
+        {
+          "name": "Single leg",
+          "sets": [
+            {
+              "reps": [
+                9,
+                8
+              ],
+              "lb": 90
+            }
+          ]
+        },
+        {
+          "name": "Smith Machine Calf Raises",
+          "sets": [
+            {
+              "reps": [
+                11,
+                10,
+                9
+              ],
+              "lb": 295
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-06-24",
+      "exercises": [
+        {
+          "name": "Incline Cable Chest Flies",
+          "sets": [
+            {
+              "reps": [
+                9
+              ],
+              "lb": 100
+            }
+          ]
+        },
+        {
+          "name": "Seated Chest Press",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7
+              ],
+              "lb": 155
+            }
+          ]
+        },
+        {
+          "name": "Cable Pushdowns(handles, right side)",
+          "sets": [
+            {
+              "reps": [
+                7,
+                6
+              ],
+              "lb": 80
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Skull Crusher",
+          "sets": [
+            {
+              "reps": [
+                8,
+                5
+              ],
+              "lb": 25
+            }
+          ]
+        },
+        {
+          "name": "Single Arm Cable Rear Delt Fly",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                8
+              ],
+              "lb": 12.5
+            }
+          ]
+        },
+        {
+          "name": "Benched Dumbell Lateral Raises",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                7
+              ],
+              "lb": 15,
+              "perSide": true
+            }
+          ]
+        }
+      ],
+      "gym": "sojo"
+    },
+    {
+      "date": "2025-06-25",
+      "exercises": [
+        {
+          "name": "JPG’s",
+          "sets": [
+            {
+              "reps": [
+                8,
+                6
+              ],
+              "lb": 62.5
+            }
+          ]
+        },
+        {
+          "name": "DB Bicep Curls",
+          "sets": [
+            {
+              "reps": [
+                7,
+                6
+              ],
+              "lb": 70
+            }
+          ]
+        },
+        {
+          "name": "Pullups",
+          "sets": [
+            {
+              "reps": [
+                7,
+                5
+              ],
+              "bodyweight": true
+            }
+          ]
+        },
+        {
+          "name": "Double Handle Cable Curl",
+          "sets": [
+            {
+              "reps": [
+                8,
+                6
+              ],
+              "lb": 47.5
+            }
+          ]
+        },
+        {
+          "name": "Cable Row",
+          "sets": [
+            {
+              "reps": [
+                10
+              ],
+              "lb": 92.5
+            },
+            {
+              "reps": [
+                10
+              ],
+              "lb": 99
+            },
+            {
+              "reps": [
+                8
+              ],
+              "lb": 100.5
+            }
+          ]
+        }
+      ],
+      "gym": "hearst"
+    },
+    {
+      "date": "2025-06-27",
+      "exercises": [
+        {
+          "name": "Tricep Pushdown + Press",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7
+              ],
+              "lb": 67.5
+            }
+          ],
+          "notes": "rest-pause: 7 + 6"
+        },
+        {
+          "name": "Pec Flies",
+          "sets": [
+            {
+              "reps": [
+                9,
+                5
+              ],
+              "lb": 135
+            }
+          ]
+        },
+        {
+          "name": "Cable Lateral Raise(right side)",
+          "sets": [
+            {
+              "reps": [
+                9,
+                9,
+                7
+              ],
+              "lb": 12.5,
+              "perSide": true
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Skull Crusher",
+          "sets": [
+            {
+              "reps": [
+                8,
+                6
+              ],
+              "lb": 25
+            }
+          ]
+        },
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "reps": [
+                6,
+                6
+              ],
+              "lb": 155
+            }
+          ]
+        }
+      ],
+      "gym": "hearst"
+    },
+    {
+      "date": "2025-07-09",
+      "exercises": [
+        {
+          "name": "Tricep Pushdown + Press",
+          "sets": [
+            {
+              "reps": [
+                6,
+                4
+              ],
+              "lb": 69
+            }
+          ],
+          "notes": "rest-pause: 4 + 6"
+        },
+        {
+          "name": "Dips",
+          "sets": [
+            {
+              "reps": [
+                8,
+                5
+              ],
+              "bodyweight": true
+            }
+          ]
+        },
+        {
+          "name": "Pec Flies",
+          "sets": [
+            {
+              "reps": [
+                7,
+                4
+              ],
+              "lb": 142.5
+            }
+          ]
+        },
+        {
+          "name": "Cable Lateral Raise(right side)",
+          "sets": [
+            {
+              "reps": [
+                7,
+                6,
+                4
+              ],
+              "lb": 14,
+              "perSide": true
+            }
+          ]
+        },
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "reps": [
+                9,
+                8
+              ],
+              "lb": 155
+            }
+          ]
+        }
+      ],
+      "gym": "hearst"
+    },
+    {
+      "date": "2025-07-11",
+      "exercises": [
+        {
+          "name": "DB Bicep Curls",
+          "sets": [
+            {
+              "reps": [
+                7,
+                6
+              ],
+              "lb": 70
+            },
+            {
+              "reps": [
+                7
+              ],
+              "lb": 60
+            }
+          ]
+        },
+        {
+          "name": "Pullups",
+          "sets": [
+            {
+              "reps": [
+                8,
+                5,
+                4
+              ],
+              "bodyweight": true
+            }
+          ]
+        },
+        {
+          "name": "Pullups",
+          "sets": [
+            {
+              "reps": [
+                9,
+                6
+              ],
+              "bodyweight": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-07-18",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "reps": [
+                5,
+                4
+              ],
+              "lb": 165
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-07-21",
+      "exercises": [
+        {
+          "name": "DB Bicep Curls",
+          "sets": [
+            {
+              "reps": [
+                7,
+                5
+              ],
+              "lb": 70
+            }
+          ]
+        },
+        {
+          "name": "Machine Rear Delt Fly",
+          "sets": [
+            {
+              "reps": [
+                7,
+                5
+              ],
+              "lb": 157.5
+            },
+            {
+              "reps": [
+                5
+              ],
+              "lb": 142.5
+            }
+          ]
+        },
+        {
+          "name": "Single Arm Cable Row",
+          "sets": [
+            {
+              "reps": [
+                7,
+                6
+              ],
+              "lb": 57.5
+            }
+          ]
+        },
+        {
+          "name": "Cable Lat Pullover",
+          "sets": [
+            {
+              "reps": [
+                6,
+                5
+              ],
+              "lb": 52.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-07-22",
+      "exercises": [
+        {
+          "name": "Back Squat",
+          "sets": [
+            {
+              "reps": [
+                8,
+                4
+              ],
+              "lb": 195
+            }
+          ]
+        },
+        {
+          "name": "Single leg",
+          "sets": [],
+          "notes": "sets not fully logged: \"90 for\""
+        },
+        {
+          "name": "Smith Machine Calf Raises",
+          "sets": [
+            {
+              "reps": [
+                9,
+                8,
+                7
+              ],
+              "lb": 305
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-07-23",
+      "exercises": [
+        {
+          "name": "Tricep Pushdown + Press",
+          "sets": [
+            {
+              "reps": [
+                6,
+                5
+              ],
+              "lb": 69
+            }
+          ],
+          "notes": "rest-pause: 5 + 5"
+        },
+        {
+          "name": "Cable Lateral Raise(right side)",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                7
+              ],
+              "lb": 14,
+              "perSide": true
+            }
+          ]
+        },
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "reps": [
+                8,
+                6
+              ],
+              "lb": 165
+            }
+          ]
+        }
+      ],
+      "gym": "hearst"
+    },
+    {
+      "date": "2025-07-24",
+      "exercises": [
+        {
+          "name": "JPG’s",
+          "sets": [
+            {
+              "reps": [
+                9,
+                7
+              ],
+              "lb": 120
+            }
+          ]
+        },
+        {
+          "name": "DB Bicep Curls",
+          "sets": [
+            {
+              "reps": [
+                5,
+                3
+              ],
+              "lb": 70
+            }
+          ]
+        },
+        {
+          "name": "Pullups",
+          "sets": [
+            {
+              "reps": [
+                9,
+                6
+              ],
+              "bodyweight": true
+            }
+          ]
+        },
+        {
+          "name": "Single Arm Cable Rear Delt Fly",
+          "sets": [
+            {
+              "reps": [
+                9,
+                7,
+                6
+              ],
+              "lb": 35
+            }
+          ]
+        },
+        {
+          "name": "Double Handle Cable Curl",
+          "sets": [
+            {
+              "reps": [
+                7,
+                6,
+                6
+              ],
+              "lb": 110
+            }
+          ]
+        },
+        {
+          "name": "Machine Row",
+          "sets": [
+            {
+              "reps": [
+                6,
+                5
+              ],
+              "lb": 135
+            },
+            {
+              "reps": [
+                4
+              ],
+              "lb": 125
+            }
+          ]
+        }
+      ],
+      "gym": "rut"
+    },
+    {
+      "date": "2025-07-29",
+      "exercises": [
+        {
+          "name": "Barbell RDL w/ Straps",
+          "sets": [
+            {
+              "reps": [
+                6
+              ],
+              "lb": 255
+            }
+          ],
+          "notes": "w straps"
+        },
+        {
+          "name": "Smith Machine Calf Raises",
+          "sets": [
+            {
+              "reps": [
+                10,
+                8,
+                7
+              ],
+              "lb": 305
+            }
+          ]
+        },
+        {
+          "name": "Pistol Squats",
+          "sets": [
+            {
+              "reps": [
+                7,
+                5,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Nordic Curls",
+          "sets": [],
+          "notes": "sets not fully logged: \"BW for\""
+        }
+      ]
+    },
+    {
+      "date": "2025-07-31",
+      "exercises": [
+        {
+          "name": "Tricep Pushdown + Press",
+          "sets": [
+            {
+              "reps": [
+                7,
+                5
+              ],
+              "lb": 69
+            }
+          ],
+          "notes": "rest-pause: 5 + 6"
+        },
+        {
+          "name": "Incline Cable Chest Flies",
+          "sets": [
+            {
+              "reps": [
+                9,
+                8
+              ],
+              "lb": 51
+            }
+          ]
+        },
+        {
+          "name": "Cable Lateral Raise(right side)",
+          "sets": [
+            {
+              "reps": [
+                6,
+                5,
+                5
+              ],
+              "lb": 15.5,
+              "perSide": true
+            }
+          ]
+        },
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "reps": [
+                4,
+                4
+              ],
+              "lb": 175
+            }
+          ]
+        },
+        {
+          "name": "Katana’s",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7
+              ],
+              "lb": 38
+            }
+          ]
+        }
+      ],
+      "gym": "hearst"
+    },
+    {
+      "date": "2025-08-01",
+      "exercises": [
+        {
+          "name": "DB Bicep Curls",
+          "sets": [
+            {
+              "reps": [
+                8,
+                6
+              ],
+              "lb": 70
+            }
+          ]
+        },
+        {
+          "name": "Pullups",
+          "sets": [
+            {
+              "reps": [
+                9,
+                6
+              ],
+              "bodyweight": true
+            }
+          ]
+        },
+        {
+          "name": "Machine Rear Delt Fly",
+          "sets": [
+            {
+              "reps": [
+                7,
+                6,
+                5
+              ],
+              "lb": 157.5
+            }
+          ]
+        },
+        {
+          "name": "Single Arm Cable Row",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7
+              ],
+              "lb": 57.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-08-02",
+      "exercises": [
+        {
+          "name": "Cable Lateral Raise(right side)",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                7
+              ],
+              "lb": 35
+            }
+          ]
+        }
+      ],
+      "gym": "rut"
+    },
+    {
+      "date": "2025-08-03",
+      "exercises": [
+        {
+          "name": "Incline Cable Chest Flies",
+          "sets": [
+            {
+              "reps": [
+                9
+              ],
+              "lb": 110
+            }
+          ]
+        },
+        {
+          "name": "Seated Chest Press",
+          "sets": [
+            {
+              "reps": [
+                5,
+                4
+              ],
+              "lb": 175
+            }
+          ]
+        },
+        {
+          "name": "Cable Pushdowns(handles, right side)",
+          "sets": [
+            {
+              "reps": [
+                7,
+                7
+              ],
+              "lb": 80
+            }
+          ]
+        }
+      ],
+      "gym": "sojo"
+    },
+    {
+      "date": "2025-08-21",
+      "exercises": [
+        {
+          "name": "Pullups",
+          "sets": [
+            {
+              "reps": [
+                6,
+                5
+              ],
+              "bodyweight": true
+            }
+          ]
+        },
+        {
+          "name": "Mag Cable Row",
+          "sets": [
+            {
+              "reps": [
+                6,
+                6
+              ],
+              "lb": 165
+            }
+          ]
+        },
+        {
+          "name": "Bayesian Curls",
+          "sets": [
+            {
+              "reps": [
+                7,
+                7
+              ],
+              "lb": 45
+            }
+          ]
+        },
+        {
+          "name": "Single Lat Pulldown",
+          "sets": [
+            {
+              "reps": [
+                10
+              ],
+              "lb": 42.5,
+              "perSide": true
+            },
+            {
+              "reps": [
+                10
+              ],
+              "lb": 47.5,
+              "perSide": true
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Preacher Curl",
+          "sets": [
+            {
+              "reps": [
+                7,
+                3
+              ],
+              "lb": 25,
+              "perSide": true
+            }
+          ],
+          "notes": "rest-pause: 7 + 4(assisted); rest-pause: 3 + 4"
+        }
+      ]
+    },
+    {
+      "date": "2025-08-22",
+      "exercises": [
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "reps": [
+                4
+              ],
+              "lb": 205
+            },
+            {
+              "reps": [
+                5
+              ],
+              "lb": 185
+            }
+          ]
+        },
+        {
+          "name": "Seated Leg Curl",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                8
+              ],
+              "lb": 120
+            }
+          ]
+        },
+        {
+          "name": "Seated Leg Press Calf Raises",
+          "sets": [
+            {
+              "reps": [
+                9,
+                8,
+                7
+              ],
+              "lb": 250
+            }
+          ]
+        },
+        {
+          "name": "Bulgarian Split Squats",
+          "sets": [
+            {
+              "reps": [
+                6,
+                5
+              ],
+              "lb": 40,
+              "perSide": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-08-24",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "reps": [
+                6,
+                4
+              ],
+              "lb": 175
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Tricep Pushdown",
+          "sets": [
+            {
+              "reps": [
+                8,
+                6
+              ],
+              "lb": 45,
+              "perSide": true
+            }
+          ]
+        },
+        {
+          "name": "Cable Lateral Raise",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7,
+                5
+              ],
+              "lb": 35,
+              "perSide": true
+            }
+          ]
+        },
+        {
+          "name": "Cable Pushdown w Rope",
+          "sets": [
+            {
+              "reps": [
+                9,
+                7
+              ],
+              "lb": 100
+            }
+          ]
+        },
+        {
+          "name": "Incline Fly",
+          "sets": [
+            {
+              "reps": [
+                8,
+                6
+              ],
+              "lb": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-08-25",
+      "exercises": [
+        {
+          "name": "Mag Cable Row",
+          "sets": [
+            {
+              "reps": [
+                6,
+                5
+              ],
+              "lb": 170
+            }
+          ]
+        },
+        {
+          "name": "Mag Lat Pulldown",
+          "sets": [
+            {
+              "reps": [
+                7,
+                5
+              ],
+              "lb": 150
+            }
+          ]
+        },
+        {
+          "name": "Cable Curl",
+          "sets": [
+            {
+              "reps": [
+                5,
+                5
+              ],
+              "lb": 52.5
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Preacher Curl",
+          "sets": [
+            {
+              "reps": [
+                8,
+                6
+              ],
+              "lb": 25,
+              "perSide": true
+            }
+          ],
+          "notes": "rest-pause: 6 + 3"
+        },
+        {
+          "name": "Cable Rear Delt Fly",
+          "sets": [
+            {
+              "reps": [
+                10
+              ],
+              "lb": 25,
+              "perSide": true
+            },
+            {
+              "reps": [
+                10
+              ],
+              "lb": 30,
+              "perSide": true
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Row",
+          "sets": [
+            {
+              "reps": [
+                7,
+                6
+              ],
+              "lb": 80,
+              "perSide": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-08-26",
+      "exercises": [
+        {
+          "name": "RDL’s",
+          "sets": [
+            {
+              "reps": [
+                7,
+                6
+              ],
+              "lb": 225
+            }
+          ]
+        },
+        {
+          "name": "Seated Leg Curl",
+          "sets": [
+            {
+              "reps": [
+                6,
+                5
+              ],
+              "lb": 130
+            }
+          ]
+        },
+        {
+          "name": "Seated Leg Press Calf Raises Free Weight",
+          "sets": [
+            {
+              "reps": [
+                10
+              ],
+              "lb": 315
+            },
+            {
+              "reps": [
+                8,
+                9
+              ],
+              "lb": 365
+            }
+          ]
+        },
+        {
+          "name": "Leg Extensions",
+          "sets": [
+            {
+              "reps": [
+                7,
+                6,
+                5
+              ],
+              "lb": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-08-28",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "reps": [
+                5
+              ],
+              "lb": 175
+            },
+            {
+              "reps": [
+                6
+              ],
+              "lb": 165
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Tricep Pushdown",
+          "sets": [
+            {
+              "reps": [
+                8,
+                9
+              ],
+              "lb": 27.5,
+              "perSide": true
+            }
+          ]
+        },
+        {
+          "name": "Incline Dumbell Lateral Raise",
+          "sets": [
+            {
+              "reps": [
+                4
+              ],
+              "lb": 20,
+              "perSide": true
+            },
+            {
+              "reps": [
+                9
+              ],
+              "lb": 15,
+              "perSide": true
+            }
+          ]
+        },
+        {
+          "name": "Cable Pushdown w Rope",
+          "sets": [
+            {
+              "reps": [
+                7,
+                6
+              ],
+              "lb": 100
+            }
+          ]
+        },
+        {
+          "name": "Cable Fly",
+          "sets": [
+            {
+              "reps": [
+                7,
+                6
+              ],
+              "lb": 60
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-08-29",
+      "exercises": [
+        {
+          "name": "Pullups",
+          "sets": [
+            {
+              "reps": [
+                8,
+                6
+              ],
+              "bodyweight": true
+            }
+          ]
+        },
+        {
+          "name": "Mag Cable Row",
+          "sets": [
+            {
+              "reps": [
+                6,
+                6
+              ],
+              "lb": 165
+            },
+            {
+              "reps": [
+                4
+              ],
+              "lb": 155
+            }
+          ]
+        },
+        {
+          "name": "Bayesian Curls",
+          "sets": [
+            {
+              "reps": [
+                6
+              ],
+              "lb": 45
+            }
+          ]
+        },
+        {
+          "name": "Arm Curl Machine",
+          "sets": [
+            {
+              "reps": [
+                7,
+                7
+              ],
+              "lb": 80
+            }
+          ]
+        },
+        {
+          "name": "Single Lat Pulldown",
+          "sets": [
+            {
+              "reps": [
+                6
+              ],
+              "lb": 120,
+              "perSide": true
+            },
+            {
+              "reps": [
+                8
+              ],
+              "lb": 100
+            }
+          ],
+          "notes": "precor"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-01",
+      "exercises": [
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "reps": [
+                8,
+                5
+              ],
+              "lb": 195
+            }
+          ]
+        },
+        {
+          "name": "Seated Leg Curl",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                6
+              ],
+              "lb": 130
+            }
+          ]
+        },
+        {
+          "name": "Seated Leg Press Calf Raises",
+          "sets": [
+            {
+              "reps": [
+                7,
+                6,
+                5
+              ],
+              "lb": 260
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Leg Extensions",
+          "sets": [
+            {
+              "reps": [
+                5
+              ],
+              "lb": 50
+            },
+            {
+              "reps": [
+                6
+              ],
+              "lb": 40
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-09-03",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "reps": [
+                6,
+                4
+              ],
+              "lb": 175
+            }
+          ]
+        },
+        {
+          "name": "Dumbell Lateral Raise",
+          "sets": [
+            {
+              "reps": [
+                7,
+                7,
+                6
+              ],
+              "lb": 20,
+              "perSide": true
+            }
+          ]
+        },
+        {
+          "name": "Cable Pushdown w Rope",
+          "sets": [
+            {
+              "reps": [
+                9,
+                7
+              ],
+              "lb": 100
+            }
+          ]
+        },
+        {
+          "name": "Cable Fly",
+          "sets": [
+            {
+              "reps": [
+                7,
+                5
+              ],
+              "lb": 60
+            }
+          ]
+        },
+        {
+          "name": "Dips",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7
+              ],
+              "bodyweight": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-09-22",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "reps": [
+                7,
+                3
+              ],
+              "lb": 165
+            }
+          ],
+          "notes": "wtf?"
+        },
+        {
+          "name": "Unilateral Tricep Pushdown",
+          "sets": [
+            {
+              "reps": [
+                4
+              ],
+              "lb": 45
+            },
+            {
+              "reps": [
+                6
+              ],
+              "lb": 40
+            }
+          ],
+          "notes": "precor"
+        },
+        {
+          "name": "Dumbell Lateral Raise",
+          "sets": [
+            {
+              "reps": [
+                9,
+                7,
+                8
+              ],
+              "lb": 20,
+              "perSide": true
+            }
+          ]
+        },
+        {
+          "name": "Cable Pushdown w Rope",
+          "sets": [
+            {
+              "reps": [
+                5
+              ],
+              "lb": 110
+            },
+            {
+              "reps": [
+                5,
+                4
+              ],
+              "lb": 100
+            }
+          ],
+          "notes": "precor"
+        },
+        {
+          "name": "Cable Fly",
+          "sets": [
+            {
+              "reps": [
+                7,
+                6
+              ],
+              "lb": 50,
+              "perSide": true
+            }
+          ],
+          "notes": "precor"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-25",
+      "exercises": [
+        {
+          "name": "Pullups",
+          "sets": [
+            {
+              "reps": [
+                9,
+                6
+              ],
+              "bodyweight": true
+            }
+          ]
+        },
+        {
+          "name": "Mag Cable Row",
+          "sets": [
+            {
+              "reps": [
+                7,
+                6,
+                5
+              ],
+              "lb": 155
+            }
+          ]
+        },
+        {
+          "name": "Arm Curl Machine",
+          "sets": [
+            {
+              "reps": [
+                6,
+                4
+              ],
+              "lb": 85
+            }
+          ]
+        },
+        {
+          "name": "Rear Delt Fly Machine",
+          "sets": [
+            {
+              "reps": [
+                8,
+                6
+              ],
+              "lb": 40
+            }
+          ]
+        },
+        {
+          "name": "Single Lat Pulldown",
+          "sets": [
+            {
+              "reps": [
+                6,
+                5
+              ],
+              "lb": 62.5,
+              "perSide": true
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Preacher Curl",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7,
+                6
+              ],
+              "lb": 25,
+              "perSide": true
+            }
+          ]
+        }
+      ],
+      "gym": "lifestyle"
+    },
+    {
+      "date": "2025-09-29",
+      "exercises": [
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "reps": [
+                7,
+                5
+              ],
+              "lb": 195
+            }
+          ]
+        },
+        {
+          "name": "Seated Leg Curl",
+          "sets": [
+            {
+              "reps": [
+                7
+              ],
+              "lb": 140
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-09-30",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "reps": [
+                1
+              ],
+              "lb": 185
+            },
+            {
+              "reps": [
+                3
+              ],
+              "lb": 165
+            },
+            {
+              "reps": [
+                6
+              ],
+              "lb": 155
+            }
+          ]
+        },
+        {
+          "name": "Cable Pushdown w Rope",
+          "sets": [
+            {
+              "reps": [
+                6
+              ],
+              "lb": 160
+            },
+            {
+              "reps": [
+                5
+              ],
+              "lb": 150
+            }
+          ],
+          "notes": "precor straight bar"
+        }
+      ]
+    },
+    {
+      "date": "2025-10-05",
+      "exercises": [
+        {
+          "name": "Pullups",
+          "sets": [
+            {
+              "reps": [
+                8,
+                5
+              ],
+              "bodyweight": true
+            }
+          ]
+        },
+        {
+          "name": "Mag Cable Row",
+          "sets": [
+            {
+              "reps": [
+                6,
+                6,
+                6
+              ],
+              "lb": 155
+            }
+          ]
+        },
+        {
+          "name": "Arm Curl Machine",
+          "sets": [
+            {
+              "reps": [
+                5
+              ],
+              "lb": 85
+            }
+          ],
+          "notes": "sets not fully logged: \"70 for\""
+        },
+        {
+          "name": "Rear Delt Fly Machine",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                7
+              ],
+              "lb": 40
+            }
+          ]
+        },
+        {
+          "name": "Single Lat Pulldown",
+          "sets": [
+            {
+              "reps": [
+                7,
+                6
+              ],
+              "lb": 110
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Preacher Curl",
+          "sets": [
+            {
+              "reps": [
+                7,
+                4
+              ],
+              "lb": 30,
+              "perSide": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-10-14",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "reps": [
+                6,
+                3
+              ],
+              "lb": 175
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Tricep Pushdown",
+          "sets": [
+            {
+              "reps": [
+                4
+              ],
+              "lb": 50,
+              "perSide": true
+            },
+            {
+              "reps": [
+                4,
+                4
+              ],
+              "lb": 45,
+              "perSide": true
+            }
+          ],
+          "notes": "precor"
+        },
+        {
+          "name": "Incline Dumbell Lateral Raise",
+          "sets": [
+            {
+              "reps": [
+                4,
+                4,
+                8
+              ],
+              "lb": 20,
+              "perSide": true
+            }
+          ],
+          "notes": "standing"
+        },
+        {
+          "name": "Cable Pushdown w Rope",
+          "sets": [
+            {
+              "reps": [
+                4
+              ],
+              "lb": 150
+            },
+            {
+              "reps": [
+                7
+              ],
+              "lb": 130
+            }
+          ],
+          "notes": "precor straight bar"
+        },
+        {
+          "name": "Fly Machine",
+          "sets": [
+            {
+              "reps": [
+                7,
+                4
+              ],
+              "lb": 60
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-10-16",
+      "exercises": [
+        {
+          "name": "Pullups",
+          "sets": [
+            {
+              "reps": [
+                6,
+                5
+              ],
+              "bodyweight": true
+            }
+          ]
+        },
+        {
+          "name": "Mag Cable Row",
+          "sets": [
+            {
+              "reps": [
+                7,
+                7,
+                4
+              ],
+              "lb": 155
+            }
+          ]
+        },
+        {
+          "name": "Rear Delt Fly Machine",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                5
+              ],
+              "lb": 45
+            }
+          ]
+        },
+        {
+          "name": "Preacher Curl",
+          "sets": [
+            {
+              "reps": [
+                8,
+                5,
+                3
+              ],
+              "lb": 60
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2025-10-18",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "reps": [
+                3
+              ],
+              "lb": 175
+            },
+            {
+              "reps": [
+                4
+              ],
+              "lb": 165
+            }
+          ]
+        },
+        {
+          "name": "Dumbell Lateral Raise",
+          "sets": [
+            {
+              "reps": [
+                6,
+                5
+              ],
+              "lb": 25,
+              "perSide": true
+            }
+          ]
+        },
+        {
+          "name": "Cable Pushdown w Rope",
+          "sets": [
+            {
+              "reps": [
+                6,
+                5
+              ],
+              "lb": 67.5
+            }
+          ],
+          "notes": "life fitness"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-11",
+      "exercises": [
+        {
+          "name": "Lat Pulldown",
+          "sets": [
+            {
+              "reps": [
+                6,
+                4
+              ],
+              "lb": 145
+            }
+          ]
+        },
+        {
+          "name": "Cable Mag Row",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 135
+            }
+          ]
+        },
+        {
+          "name": "Machine Arm Curl",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 60
+            }
+          ]
+        },
+        {
+          "name": "Rear Delt Fly",
+          "sets": [
+            {
+              "reps": [
+                8,
+                6
+              ],
+              "lb": 40
+            }
+          ]
+        },
+        {
+          "name": "JPG Lat Pulldown",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 37.5
+            }
+          ]
+        },
+        {
+          "name": "Single Arm Preacher(Dumbell)",
+          "sets": [
+            {
+              "reps": [
+                8,
+                6
+              ],
+              "lb": 15,
+              "perSide": true
+            }
+          ]
+        }
+      ],
+      "type": "pull"
+    },
+    {
+      "date": "2025-12-14",
+      "exercises": [
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "reps": [
+                5
+              ],
+              "lb": 185
+            }
+          ],
+          "notes": "hamstring felt weird"
+        },
+        {
+          "name": "Lying Leg Curl",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7,
+                4
+              ],
+              "lb": 50
+            }
+          ]
+        },
+        {
+          "name": "Single Leg Extension",
+          "sets": [
+            {
+              "reps": [
+                7,
+                6,
+                5
+              ],
+              "lb": 50
+            }
+          ]
+        }
+      ],
+      "type": "legs"
+    },
+    {
+      "date": "2025-12-19",
+      "exercises": [
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "reps": [
+                7,
+                4
+              ],
+              "lb": 185
+            }
+          ]
+        },
+        {
+          "name": "Leg Press Calf Raises",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 190
+            }
+          ]
+        },
+        {
+          "name": "Single Leg Extension",
+          "sets": [
+            {
+              "reps": [
+                6,
+                6
+              ],
+              "lb": 105
+            }
+          ]
+        },
+        {
+          "name": "Seated Leg Curl",
+          "sets": [
+            {
+              "reps": [
+                5,
+                4
+              ],
+              "lb": 135
+            }
+          ]
+        }
+      ],
+      "type": "legs"
+    },
+    {
+      "date": "2025-12-21",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "reps": [
+                6,
+                4
+              ],
+              "lb": 155
+            }
+          ]
+        },
+        {
+          "name": "Tricep Pushdown + Press",
+          "sets": [
+            {
+              "reps": [
+                9,
+                6
+              ],
+              "lb": 52.5
+            }
+          ],
+          "notes": "rest-pause: 9 + 6; rest-pause: 6 + 6"
+        },
+        {
+          "name": "Cable Lateral Raises",
+          "sets": [
+            {
+              "reps": [
+                4
+              ],
+              "lb": 14
+            },
+            {
+              "reps": [
+                6
+              ],
+              "lb": 12.5
+            }
+          ]
+        },
+        {
+          "name": "Upper Chest Flies",
+          "sets": [
+            {
+              "reps": [
+                5,
+                4
+              ],
+              "lb": 54
+            }
+          ]
+        },
+        {
+          "name": "Single Arm Pushdown",
+          "sets": [
+            {
+              "reps": [
+                5
+              ],
+              "lb": 17.5
+            }
+          ]
+        }
+      ],
+      "type": "push"
+    },
+    {
+      "date": "2025-12-23",
+      "exercises": [
+        {
+          "name": "Pullups",
+          "sets": [
+            {
+              "reps": [
+                4,
+                3
+              ],
+              "bodyweight": true
+            }
+          ]
+        },
+        {
+          "name": "Cable Row LA Fitness",
+          "sets": [
+            {
+              "reps": [
+                7,
+                5,
+                4
+              ],
+              "lb": 130
+            }
+          ]
+        },
+        {
+          "name": "Machine Arm Curl",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                6
+              ],
+              "lb": 70
+            }
+          ]
+        },
+        {
+          "name": "Rear Delt Fly",
+          "sets": [
+            {
+              "reps": [
+                6,
+                5,
+                4
+              ],
+              "lb": 115
+            }
+          ]
+        },
+        {
+          "name": "JPG Lat Pulldown",
+          "sets": [
+            {
+              "reps": [
+                5
+              ],
+              "lb": 52.5
+            },
+            {
+              "reps": [
+                4
+              ],
+              "lb": 47.5
+            }
+          ]
+        },
+        {
+          "name": "Single Arm Preacher(Dumbell)",
+          "sets": [
+            {
+              "reps": [
+                4,
+                4
+              ],
+              "lb": 20,
+              "perSide": true
+            }
+          ]
+        }
+      ],
+      "type": "pull",
+      "gym": "la fitness glassboro"
+    },
+    {
+      "date": "2025-12-26",
+      "exercises": [
+        {
+          "name": "Leg Press Calf Raises",
+          "sets": [
+            {
+              "reps": [
+                6,
+                6,
+                3
+              ],
+              "lb": 235
+            }
+          ]
+        },
+        {
+          "name": "Single Leg Extension",
+          "sets": [
+            {
+              "reps": [
+                6
+              ],
+              "lb": 135
+            }
+          ],
+          "notes": "sets not fully logged: \"115 for\""
+        },
+        {
+          "name": "Seated Leg Curl",
+          "sets": [
+            {
+              "reps": [
+                6,
+                5
+              ],
+              "lb": 145
+            }
+          ]
+        }
+      ],
+      "type": "legs"
+    },
+    {
+      "date": "2025-12-27",
+      "exercises": [
+        {
+          "name": "Machine Arm Curl",
+          "sets": [
+            {
+              "reps": [
+                8
+              ],
+              "lb": 80
+            },
+            {
+              "reps": [
+                4
+              ],
+              "lb": 95
+            }
+          ]
+        },
+        {
+          "name": "Bayesian Unilateral Curl",
+          "sets": [
+            {
+              "reps": [
+                6,
+                5
+              ],
+              "lb": 25,
+              "perSide": true
+            }
+          ]
+        }
+      ],
+      "type": "pull"
+    },
+    {
+      "date": "2025-12-28",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "reps": [
+                3
+              ],
+              "lb": 155
+            },
+            {
+              "reps": [
+                8
+              ],
+              "lb": 135
+            }
+          ]
+        },
+        {
+          "name": "Tricep Pushdown + Press",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 62.5
+            }
+          ]
+        },
+        {
+          "name": "Machine Lateral Raises",
+          "sets": [
+            {
+              "reps": [
+                8
+              ],
+              "lb": 85
+            },
+            {
+              "reps": [
+                5
+              ],
+              "lb": 95
+            }
+          ]
+        },
+        {
+          "name": "Pec Deck",
+          "sets": [
+            {
+              "reps": [
+                3
+              ],
+              "lb": 160
+            },
+            {
+              "reps": [
+                3
+              ],
+              "lb": 145
+            }
+          ]
+        }
+      ],
+      "type": "push"
+    },
+    {
+      "date": "2026-01-02",
+      "exercises": [
+        {
+          "name": "Machine Lat Pulldown",
+          "sets": [
+            {
+              "reps": [
+                8,
+                6
+              ],
+              "lb": 145
+            }
+          ]
+        },
+        {
+          "name": "Machine Row",
+          "sets": [
+            {
+              "reps": [
+                6,
+                4
+              ],
+              "lb": 270
+            }
+          ]
+        },
+        {
+          "name": "Machine Arm Curl",
+          "sets": [
+            {
+              "reps": [
+                7,
+                6
+              ],
+              "lb": 95
+            }
+          ]
+        },
+        {
+          "name": "Bayesian Unilateral Curl",
+          "sets": [
+            {
+              "reps": [
+                7,
+                5
+              ],
+              "lb": 50
+            }
+          ]
+        },
+        {
+          "name": "Rear Delt Fly",
+          "sets": [
+            {
+              "reps": [
+                8
+              ],
+              "lb": 115
+            },
+            {
+              "reps": [
+                5
+              ],
+              "lb": 130
+            }
+          ]
+        }
+      ],
+      "type": "pull"
+    },
+    {
+      "date": "2026-01-03",
+      "exercises": [
+        {
+          "name": "Leg Press Calf Raises",
+          "sets": [
+            {
+              "reps": [
+                8,
+                6
+              ],
+              "lb": 235
+            }
+          ]
+        },
+        {
+          "name": "Single Leg Extension",
+          "sets": [
+            {
+              "reps": [
+                7,
+                7
+              ],
+              "lb": 130
+            }
+          ]
+        },
+        {
+          "name": "Seated Leg Curl",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 145
+            }
+          ]
+        }
+      ],
+      "type": "legs"
+    },
+    {
+      "date": "2026-01-04",
+      "exercises": [
+        {
+          "name": "Tricep Pushdown + Press",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7
+              ],
+              "lb": 67.5
+            }
+          ]
+        },
+        {
+          "name": "Machine Lateral Raises",
+          "sets": [
+            {
+              "reps": [
+                7,
+                5
+              ],
+              "lb": 95
+            }
+          ]
+        },
+        {
+          "name": "Incline Smith Bench Press",
+          "sets": [
+            {
+              "reps": [
+                3
+              ],
+              "lb": 145
+            },
+            {
+              "reps": [
+                5
+              ],
+              "lb": 135
+            }
+          ]
+        }
+      ],
+      "type": "push"
+    },
+    {
+      "date": "2026-01-11",
+      "exercises": [
+        {
+          "name": "Dumbell Bench Press",
+          "sets": [
+            {
+              "reps": [
+                6,
+                5
+              ],
+              "lb": 130
+            }
+          ]
+        },
+        {
+          "name": "Tricep Pushdown + Press",
+          "sets": [
+            {
+              "reps": [
+                6,
+                4
+              ],
+              "lb": 72.5
+            }
+          ]
+        },
+        {
+          "name": "Cable Lateral Raises",
+          "sets": [
+            {
+              "reps": [
+                5,
+                4
+              ],
+              "lb": 15
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Overhead",
+          "sets": [
+            {
+              "reps": [
+                6,
+                5
+              ],
+              "lb": 20,
+              "perSide": true
+            }
+          ]
+        }
+      ],
+      "type": "push"
+    },
+    {
+      "date": "2026-01-14",
+      "exercises": [
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "reps": [
+                5,
+                4
+              ],
+              "lb": 205
+            }
+          ]
+        },
+        {
+          "name": "Leg Press Calf Raises",
+          "sets": [
+            {
+              "reps": [
+                6,
+                5,
+                4
+              ],
+              "lb": 240
+            }
+          ]
+        },
+        {
+          "name": "Lying Leg Curl",
+          "sets": [
+            {
+              "reps": [
+                8
+              ],
+              "lb": 55
+            },
+            {
+              "reps": [
+                4
+              ],
+              "lb": 60
+            }
+          ]
+        }
+      ],
+      "type": "legs"
+    },
+    {
+      "date": "2026-01-15",
+      "exercises": [
+        {
+          "name": "Tricep Pushdown + Press",
+          "sets": [
+            {
+              "reps": [
+                9,
+                7,
+                8
+              ],
+              "lb": 100
+            }
+          ]
+        },
+        {
+          "name": "Converging Chest Press",
+          "sets": [
+            {
+              "reps": [
+                7,
+                7,
+                5
+              ],
+              "lb": 120
+            }
+          ]
+        },
+        {
+          "name": "Dumbell Lateral Raises",
+          "sets": [
+            {
+              "reps": [
+                10
+              ],
+              "lb": 20,
+              "perSide": true
+            },
+            {
+              "reps": [
+                7,
+                7
+              ],
+              "lb": 25,
+              "perSide": true
+            }
+          ]
+        }
+      ],
+      "type": "push"
+    },
+    {
+      "date": "2026-01-16",
+      "exercises": [
+        {
+          "name": "Unilateral Overhead",
+          "sets": [
+            {
+              "reps": [
+                6,
+                3
+              ],
+              "lb": 40,
+              "perSide": true
+            }
+          ]
+        }
+      ],
+      "type": "push"
+    },
+    {
+      "date": "2026-01-20",
+      "exercises": [
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "reps": [
+                7,
+                4
+              ],
+              "lb": 205
+            }
+          ]
+        },
+        {
+          "name": "Seated Leg Press Calf Raises",
+          "sets": [
+            {
+              "reps": [
+                6,
+                6
+              ],
+              "lb": 270
+            }
+          ]
+        },
+        {
+          "name": "Hamstring Curl",
+          "sets": [
+            {
+              "reps": [
+                4,
+                4,
+                4
+              ],
+              "lb": 60
+            }
+          ]
+        }
+      ],
+      "type": "legs"
+    },
+    {
+      "date": "2026-01-22",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7
+              ],
+              "lb": 155
+            }
+          ]
+        },
+        {
+          "name": "Precor Tricep Pushdown",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 120
+            }
+          ]
+        },
+        {
+          "name": "DB Lateral Raises",
+          "sets": [
+            {
+              "reps": [
+                4,
+                4
+              ],
+              "lb": 60
+            },
+            {
+              "reps": [
+                8
+              ],
+              "lb": 50
+            }
+          ]
+        },
+        {
+          "name": "Machine Fly",
+          "sets": [
+            {
+              "reps": [
+                5,
+                4
+              ]
+            }
+          ],
+          "notes": "6th level"
+        },
+        {
+          "name": "Unilateral Cable Overhead",
+          "sets": [
+            {
+              "reps": [
+                3
+              ],
+              "lb": 50,
+              "perSide": true
+            },
+            {
+              "reps": [
+                6
+              ],
+              "lb": 40,
+              "perSide": true
+            }
+          ]
+        }
+      ],
+      "type": "push"
+    },
+    {
+      "date": "2026-01-23",
+      "exercises": [
+        {
+          "name": "Black Mag Lat Pulldown",
+          "sets": [
+            {
+              "reps": [
+                8,
+                6
+              ],
+              "lb": 160
+            }
+          ]
+        },
+        {
+          "name": "Preacher Curl EZ Bar",
+          "sets": [
+            {
+              "reps": [
+                8
+              ],
+              "lb": 50
+            },
+            {
+              "reps": [
+                8
+              ],
+              "lb": 60
+            }
+          ]
+        },
+        {
+          "name": "Black Mag Cable Row",
+          "sets": [
+            {
+              "reps": [
+                6,
+                5,
+                5
+              ],
+              "lb": 155
+            }
+          ]
+        },
+        {
+          "name": "Unilateral JPG",
+          "sets": [
+            {
+              "reps": [
+                8
+              ],
+              "lb": 52.5,
+              "perSide": true
+            },
+            {
+              "reps": [
+                5,
+                4
+              ],
+              "lb": 62.5,
+              "perSide": true
+            }
+          ]
+        },
+        {
+          "name": "Unlateral Bayesian Curl(precor)",
+          "sets": [
+            {
+              "reps": [
+                4,
+                4
+              ],
+              "lb": 50
+            }
+          ]
+        },
+        {
+          "name": "DB Forearm Curls",
+          "sets": [
+            {
+              "reps": [
+                9,
+                8
+              ],
+              "lb": 30,
+              "perSide": true
+            }
+          ]
+        }
+      ],
+      "type": "pull"
+    },
+    {
+      "date": "2026-01-24",
+      "exercises": [
+        {
+          "name": "RDL",
+          "sets": [
+            {
+              "reps": [
+                7,
+                4
+              ],
+              "lb": 225
+            }
+          ]
+        },
+        {
+          "name": "Seated Leg Press Calf Raises",
+          "sets": [
+            {
+              "reps": [
+                7,
+                6
+              ],
+              "lb": 270
+            }
+          ]
+        },
+        {
+          "name": "Bulgarian Split Squats",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 80
+            }
+          ]
+        },
+        {
+          "name": "Hamstring Curl",
+          "sets": [
+            {
+              "reps": [
+                3
+              ],
+              "lb": 60
+            },
+            {
+              "reps": [
+                3
+              ],
+              "lb": 50
+            }
+          ]
+        }
+      ],
+      "type": "legs"
+    },
+    {
+      "date": "2026-01-27",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "reps": [
+                6,
+                5
+              ],
+              "lb": 165
+            }
+          ]
+        },
+        {
+          "name": "Precor Tricep Pushdown",
+          "sets": [
+            {
+              "reps": [
+                7,
+                6
+              ],
+              "lb": 130
+            }
+          ]
+        },
+        {
+          "name": "DB Lateral Raises",
+          "sets": [
+            {
+              "reps": [
+                9,
+                7,
+                6
+              ],
+              "lb": 50
+            }
+          ]
+        },
+        {
+          "name": "Machine Fly",
+          "sets": [
+            {
+              "reps": [
+                8,
+                5
+              ]
+            }
+          ],
+          "notes": "6th level"
+        },
+        {
+          "name": "Unilateral Cable Overhead",
+          "sets": [
+            {
+              "reps": [
+                7,
+                4
+              ],
+              "lb": 40,
+              "perSide": true
+            }
+          ]
+        }
+      ],
+      "type": "push"
+    },
+    {
+      "date": "2026-01-29",
+      "exercises": [
+        {
+          "name": "Black Mag Lat Pulldown",
+          "sets": [
+            {
+              "reps": [
+                7,
+                5
+              ],
+              "lb": 170
+            }
+          ]
+        },
+        {
+          "name": "Preacher Curl EZ Bar",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 60
+            }
+          ]
+        },
+        {
+          "name": "Black Mag Cable Row",
+          "sets": [
+            {
+              "reps": [
+                7,
+                5,
+                5
+              ],
+              "lb": 155
+            }
+          ]
+        },
+        {
+          "name": "Unilateral JPG",
+          "sets": [
+            {
+              "reps": [
+                7,
+                5
+              ],
+              "lb": 62.5,
+              "perSide": true
+            }
+          ]
+        },
+        {
+          "name": "Unlateral Bayesian Curl(precor)",
+          "sets": [
+            {
+              "reps": [
+                6,
+                5
+              ],
+              "lb": 50
+            }
+          ]
+        },
+        {
+          "name": "DB Forearm Curls",
+          "sets": [
+            {
+              "reps": [
+                8,
+                6
+              ],
+              "lb": 35,
+              "perSide": true
+            }
+          ]
+        }
+      ],
+      "type": "pull"
+    },
+    {
+      "date": "2026-01-30",
+      "exercises": [
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "reps": [
+                7,
+                5
+              ],
+              "lb": 205
+            }
+          ]
+        },
+        {
+          "name": "Seated Leg Press Calf Raises",
+          "sets": [
+            {
+              "reps": [
+                8,
+                6,
+                3
+              ],
+              "lb": 270
+            }
+          ]
+        },
+        {
+          "name": "Hamstring Curl",
+          "sets": [
+            {
+              "reps": [
+                4,
+                4
+              ],
+              "lb": 60
+            }
+          ]
+        }
+      ],
+      "type": "legs"
+    },
+    {
+      "date": "2026-02-01",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "reps": [
+                6,
+                4
+              ],
+              "lb": 165
+            }
+          ]
+        }
+      ],
+      "type": "push"
+    },
+    {
+      "date": "2026-02-05",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "reps": [
+                7,
+                5
+              ],
+              "lb": 165
+            }
+          ]
+        },
+        {
+          "name": "Precor Tricep Pushdown",
+          "sets": [
+            {
+              "reps": [
+                6,
+                6
+              ],
+              "lb": 140
+            }
+          ]
+        },
+        {
+          "name": "DB Lateral Raises",
+          "sets": [
+            {
+              "reps": [
+                7,
+                5,
+                4
+              ],
+              "lb": 60
+            }
+          ]
+        },
+        {
+          "name": "Machine Fly",
+          "sets": [
+            {
+              "reps": [
+                8,
+                5
+              ]
+            }
+          ],
+          "notes": "6th level"
+        },
+        {
+          "name": "Unilateral Cable Overhead",
+          "sets": [
+            {
+              "reps": [
+                7,
+                5
+              ],
+              "lb": 40,
+              "perSide": true
+            }
+          ]
+        }
+      ],
+      "type": "push"
+    },
+    {
+      "date": "2026-02-06",
+      "exercises": [
+        {
+          "name": "Black Mag Lat Pulldown",
+          "sets": [
+            {
+              "reps": [
+                8,
+                6
+              ],
+              "lb": 170
+            }
+          ]
+        },
+        {
+          "name": "Preacher Curl EZ Bar",
+          "sets": [
+            {
+              "reps": [
+                7,
+                7
+              ],
+              "lb": 70
+            }
+          ]
+        },
+        {
+          "name": "Black Mag Cable Row",
+          "sets": [
+            {
+              "reps": [
+                7,
+                7,
+                6
+              ],
+              "lb": 155
+            }
+          ]
+        },
+        {
+          "name": "Unilateral JPG",
+          "sets": [
+            {
+              "reps": [
+                6,
+                5
+              ],
+              "lb": 62.5,
+              "perSide": true
+            }
+          ]
+        },
+        {
+          "name": "Unlateral Bayesian Curl(precor)",
+          "sets": [
+            {
+              "reps": [
+                7,
+                6
+              ],
+              "lb": 50,
+              "perSide": true
+            }
+          ]
+        }
+      ],
+      "type": "pull"
+    },
+    {
+      "date": "2026-02-10",
+      "exercises": [
+        {
+          "name": "RDL",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 225
+            }
+          ]
+        },
+        {
+          "name": "Seated Leg Press Calf Raises",
+          "sets": [
+            {
+              "reps": [
+                4,
+                4,
+                4
+              ],
+              "lb": 280
+            }
+          ]
+        },
+        {
+          "name": "Quad Extension",
+          "sets": [
+            {
+              "reps": [
+                5,
+                5,
+                5
+              ],
+              "lb": 145
+            }
+          ]
+        },
+        {
+          "name": "Hamstring Curl",
+          "sets": [
+            {
+              "reps": [
+                5
+              ],
+              "lb": 65
+            },
+            {
+              "reps": [
+                5,
+                4
+              ],
+              "lb": 60
+            }
+          ]
+        }
+      ],
+      "type": "legs"
+    },
+    {
+      "date": "2026-02-12",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "reps": [
+                5,
+                4
+              ],
+              "lb": 175
+            }
+          ]
+        },
+        {
+          "name": "Precor Tricep Pushdown",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7
+              ],
+              "lb": 140
+            }
+          ]
+        },
+        {
+          "name": "DB Lateral Raises",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7,
+                7
+              ],
+              "lb": 60
+            }
+          ]
+        },
+        {
+          "name": "Machine Fly",
+          "sets": [
+            {
+              "reps": [
+                8,
+                5
+              ]
+            }
+          ],
+          "notes": "6th level"
+        },
+        {
+          "name": "Unilateral Cable Overhead",
+          "sets": [
+            {
+              "reps": [
+                8,
+                6
+              ],
+              "lb": 40,
+              "perSide": true
+            }
+          ]
+        }
+      ],
+      "type": "push"
+    },
+    {
+      "date": "2026-02-13",
+      "exercises": [
+        {
+          "name": "Black Mag Lat Pulldown",
+          "sets": [
+            {
+              "reps": [
+                8
+              ],
+              "lb": 175
+            },
+            {
+              "reps": [
+                3
+              ],
+              "lb": 185
+            }
+          ]
+        },
+        {
+          "name": "Preacher Curl EZ Bar",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7
+              ],
+              "lb": 70
+            }
+          ]
+        },
+        {
+          "name": "Black Mag Cable Row",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7,
+                6
+              ],
+              "lb": 155
+            }
+          ]
+        },
+        {
+          "name": "Unilateral JPG",
+          "sets": [
+            {
+              "reps": [
+                7,
+                5
+              ],
+              "lb": 62.5,
+              "perSide": true
+            }
+          ]
+        },
+        {
+          "name": "Unlateral Bayesian Curl(precor)",
+          "sets": [
+            {
+              "reps": [
+                8,
+                6
+              ],
+              "lb": 50,
+              "perSide": true
+            }
+          ]
+        }
+      ],
+      "type": "pull"
+    },
+    {
+      "date": "2026-02-15",
+      "exercises": [
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "reps": [
+                4,
+                2
+              ],
+              "lb": 225
+            }
+          ]
+        },
+        {
+          "name": "Seated Leg Press Calf Raises",
+          "sets": [
+            {
+              "reps": [
+                5,
+                5,
+                4
+              ],
+              "lb": 280
+            }
+          ]
+        },
+        {
+          "name": "Quad Extension",
+          "sets": [],
+          "notes": "sets not fully logged: \"145 for\""
+        },
+        {
+          "name": "Bulgarian Split Squats",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 90
+            }
+          ]
+        }
+      ],
+      "type": "legs"
+    },
+    {
+      "date": "2026-02-16",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "reps": [
+                5,
+                3
+              ],
+              "lb": 175
+            }
+          ]
+        },
+        {
+          "name": "Precor Tricep Pushdown",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 140
+            }
+          ]
+        },
+        {
+          "name": "DB Lateral Raises",
+          "sets": [
+            {
+              "reps": [
+                6,
+                6,
+                6
+              ],
+              "lb": 70
+            }
+          ]
+        },
+        {
+          "name": "Machine Fly",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7
+              ]
+            }
+          ],
+          "notes": "6th level"
+        },
+        {
+          "name": "Unilateral Cable Overhead",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7
+              ],
+              "lb": 40,
+              "perSide": true
+            }
+          ]
+        }
+      ],
+      "type": "push"
+    },
+    {
+      "date": "2026-02-24",
+      "exercises": [
+        {
+          "name": "Black Mag Lat Pulldown",
+          "sets": [
+            {
+              "reps": [
+                6,
+                4
+              ],
+              "lb": 185
+            }
+          ]
+        }
+      ],
+      "type": "pull"
+    },
+    {
+      "date": "2026-03-15",
+      "exercises": [
+        {
+          "name": "Lat Pulldown",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7
+              ],
+              "lb": 160
+            }
+          ]
+        },
+        {
+          "name": "Cable Curl",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 50
+            }
+          ]
+        },
+        {
+          "name": "Machine Row",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7,
+                6
+              ],
+              "lb": 145
+            }
+          ]
+        },
+        {
+          "name": "Single Dumbell Preacher Curl",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 25,
+              "perSide": true
+            }
+          ]
+        },
+        {
+          "name": "JPG",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7
+              ],
+              "lb": 63
+            }
+          ]
+        }
+      ],
+      "type": "pull"
+    },
+    {
+      "date": "2026-03-16",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "reps": [
+                6,
+                4
+              ],
+              "lb": 165
+            }
+          ]
+        },
+        {
+          "name": "Tricep Pushdown",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 67
+            }
+          ]
+        },
+        {
+          "name": "DB Lateral Raise",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                8
+              ],
+              "lb": 30
+            }
+          ]
+        },
+        {
+          "name": "Incline Flies (8 down 3 out)",
+          "sets": [
+            {
+              "reps": [
+                5
+              ],
+              "lb": 66
+            },
+            {
+              "reps": [
+                7
+              ],
+              "lb": 60
+            }
+          ]
+        }
+      ],
+      "type": "push"
+    },
+    {
+      "date": "2026-03-17",
+      "exercises": [
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "reps": [
+                4
+              ],
+              "lb": 220
+            },
+            {
+              "reps": [
+                6
+              ],
+              "lb": 200
+            }
+          ]
+        },
+        {
+          "name": "Leg Press Calf Raises",
+          "sets": [
+            {
+              "reps": [
+                7,
+                6,
+                6
+              ],
+              "lb": 450
+            }
+          ]
+        },
+        {
+          "name": "Hamstring Curl",
+          "sets": [
+            {
+              "reps": [
+                5,
+                5,
+                5
+              ],
+              "lb": 120
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Quad Extension",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 105
+            }
+          ]
+        }
+      ],
+      "type": "legs"
+    },
+    {
+      "date": "2026-03-19",
+      "exercises": [
+        {
+          "name": "Lat Pulldown",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 160
+            }
+          ]
+        },
+        {
+          "name": "Cable Curl",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 53
+            }
+          ]
+        },
+        {
+          "name": "Machine Row",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                7
+              ],
+              "lb": 145
+            }
+          ]
+        },
+        {
+          "name": "Single Dumbell Preacher Curl",
+          "sets": [
+            {
+              "reps": [
+                7,
+                8
+              ],
+              "lb": 30,
+              "perSide": true
+            }
+          ]
+        },
+        {
+          "name": "JPG",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 63
+            }
+          ]
+        }
+      ],
+      "type": "pull"
+    },
+    {
+      "date": "2026-03-20",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "reps": [
+                7,
+                4
+              ],
+              "lb": 165
+            }
+          ]
+        },
+        {
+          "name": "Tricep Pushdown",
+          "sets": [
+            {
+              "reps": [
+                6,
+                6
+              ],
+              "lb": 73
+            }
+          ]
+        },
+        {
+          "name": "DB Lateral Raise",
+          "sets": [
+            {
+              "reps": [
+                5,
+                4,
+                3
+              ],
+              "lb": 35
+            }
+          ]
+        },
+        {
+          "name": "Incline Flies (8 down 3 out)",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7
+              ],
+              "lb": 60
+            }
+          ]
+        }
+      ],
+      "type": "push"
+    },
+    {
+      "date": "2026-03-22",
+      "exercises": [
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 200
+            }
+          ]
+        },
+        {
+          "name": "Leg Press Calf Raises",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7,
+                6
+              ],
+              "lb": 450
+            }
+          ]
+        },
+        {
+          "name": "Hamstring Curl",
+          "sets": [
+            {
+              "reps": [
+                7,
+                6,
+                5
+              ],
+              "lb": 120
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Quad Extension",
+          "sets": [
+            {
+              "reps": [
+                7,
+                6
+              ],
+              "lb": 120
+            }
+          ]
+        }
+      ],
+      "type": "legs"
+    },
+    {
+      "date": "2026-03-23",
+      "exercises": [
+        {
+          "name": "Lat Pulldown",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 165
+            }
+          ]
+        },
+        {
+          "name": "Cable Curl",
+          "sets": [
+            {
+              "reps": [
+                7,
+                5
+              ],
+              "lb": 57
+            }
+          ]
+        },
+        {
+          "name": "Machine Row",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7,
+                6
+              ],
+              "lb": 150
+            }
+          ]
+        },
+        {
+          "name": "Single Dumbell Preacher Curl",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7
+              ],
+              "lb": 30,
+              "perSide": true
+            }
+          ]
+        },
+        {
+          "name": "JPG",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7
+              ],
+              "lb": 67
+            }
+          ]
+        }
+      ],
+      "type": "pull"
+    },
+    {
+      "date": "2026-03-24",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "reps": [
+                7,
+                5
+              ],
+              "lb": 165
+            }
+          ]
+        },
+        {
+          "name": "Tricep Pushdown",
+          "sets": [
+            {
+              "reps": [
+                7,
+                6
+              ],
+              "lb": 73
+            }
+          ]
+        },
+        {
+          "name": "DB Lateral Raise",
+          "sets": [
+            {
+              "reps": [
+                6,
+                5,
+                5
+              ],
+              "lb": 35
+            }
+          ]
+        },
+        {
+          "name": "Incline Flies (8 down 3 out)",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 60
+            }
+          ]
+        }
+      ],
+      "type": "push"
+    },
+    {
+      "date": "2026-03-28",
+      "exercises": [
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "reps": [
+                7,
+                5
+              ],
+              "lb": 215
+            }
+          ]
+        },
+        {
+          "name": "Leg Press Calf Raises",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                7
+              ],
+              "lb": 450
+            }
+          ]
+        },
+        {
+          "name": "Hamstring Curl",
+          "sets": [
+            {
+              "reps": [
+                8,
+                6,
+                5
+              ],
+              "lb": 120
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Quad Extension",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 120
+            }
+          ]
+        }
+      ],
+      "type": "legs"
+    },
+    {
+      "date": "2026-03-29",
+      "exercises": [
+        {
+          "name": "Lat Pulldown",
+          "sets": [
+            {
+              "reps": [
+                6,
+                5
+              ],
+              "lb": 175
+            }
+          ]
+        },
+        {
+          "name": "Cable Curl",
+          "sets": [
+            {
+              "reps": [
+                8,
+                6
+              ],
+              "lb": 57
+            }
+          ]
+        },
+        {
+          "name": "Machine Row",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                8
+              ],
+              "lb": 150
+            }
+          ]
+        },
+        {
+          "name": "Single Dumbell Preacher Curl",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 30,
+              "perSide": true
+            }
+          ]
+        },
+        {
+          "name": "JPG",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 67
+            }
+          ]
+        }
+      ],
+      "type": "pull"
+    },
+    {
+      "date": "2026-03-30",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "reps": [
+                7,
+                6
+              ],
+              "lb": 165
+            }
+          ]
+        },
+        {
+          "name": "Tricep Pushdown",
+          "sets": [
+            {
+              "reps": [
+                8,
+                6
+              ],
+              "lb": 73
+            }
+          ]
+        },
+        {
+          "name": "DB Lateral Raise",
+          "sets": [
+            {
+              "reps": [
+                6,
+                6,
+                5
+              ],
+              "lb": 35
+            }
+          ]
+        },
+        {
+          "name": "Incline Flies (8 down 3 out)",
+          "sets": [
+            {
+              "reps": [
+                7,
+                6
+              ],
+              "lb": 66
+            }
+          ]
+        }
+      ],
+      "type": "push"
+    },
+    {
+      "date": "2026-04-01",
+      "exercises": [
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 215
+            }
+          ]
+        },
+        {
+          "name": "Leg Press Calf Raises",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                8
+              ],
+              "lb": 450
+            }
+          ]
+        },
+        {
+          "name": "Hamstring Curl",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                7
+              ],
+              "lb": 120
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Quad Extension",
+          "sets": [
+            {
+              "reps": [
+                7,
+                6
+              ],
+              "lb": 130
+            }
+          ]
+        }
+      ],
+      "type": "legs"
+    },
+    {
+      "date": "2026-04-02",
+      "exercises": [
+        {
+          "name": "Lat Pulldown",
+          "sets": [
+            {
+              "reps": [
+                7,
+                6
+              ],
+              "lb": 175
+            }
+          ]
+        },
+        {
+          "name": "Cable Curl",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 57
+            }
+          ]
+        },
+        {
+          "name": "Machine Row",
+          "sets": [
+            {
+              "reps": [
+                7,
+                7,
+                6
+              ],
+              "lb": 160
+            }
+          ]
+        },
+        {
+          "name": "Single Dumbell Preacher Curl",
+          "sets": [
+            {
+              "reps": [
+                5,
+                5
+              ],
+              "lb": 35,
+              "perSide": true
+            }
+          ]
+        },
+        {
+          "name": "JPG",
+          "sets": [
+            {
+              "reps": [
+                7,
+                6
+              ],
+              "lb": 70
+            }
+          ]
+        }
+      ],
+      "type": "pull"
+    },
+    {
+      "date": "2026-04-03",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "reps": [
+                8,
+                6
+              ],
+              "lb": 165
+            }
+          ]
+        },
+        {
+          "name": "Tricep Pushdown",
+          "sets": [
+            {
+              "reps": [
+                8,
+                6
+              ],
+              "lb": 73
+            }
+          ]
+        },
+        {
+          "name": "DB Lateral Raise",
+          "sets": [
+            {
+              "reps": [
+                6,
+                6,
+                6
+              ],
+              "lb": 35
+            }
+          ]
+        }
+      ],
+      "type": "push"
+    },
+    {
+      "date": "2026-04-05",
+      "exercises": [
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "reps": [
+                7,
+                5
+              ],
+              "lb": 225
+            }
+          ]
+        },
+        {
+          "name": "Leg Press Calf Raises",
+          "sets": [
+            {
+              "reps": [
+                7,
+                7,
+                7
+              ],
+              "lb": 500
+            }
+          ]
+        },
+        {
+          "name": "Hamstring Curl",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                7
+              ],
+              "lb": 120
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Quad Extension",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 130
+            }
+          ]
+        }
+      ],
+      "type": "legs"
+    },
+    {
+      "date": "2026-04-07",
+      "exercises": [
+        {
+          "name": "Lat Pulldown",
+          "sets": [
+            {
+              "reps": [
+                7,
+                7
+              ],
+              "lb": 175
+            }
+          ]
+        },
+        {
+          "name": "Cable Curl",
+          "sets": [
+            {
+              "reps": [
+                6,
+                5
+              ],
+              "lb": 60
+            }
+          ]
+        },
+        {
+          "name": "Machine Row",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                6
+              ],
+              "lb": 160
+            }
+          ]
+        },
+        {
+          "name": "Single Dumbell Preacher Curl",
+          "sets": [
+            {
+              "reps": [
+                5,
+                5
+              ],
+              "lb": 35,
+              "perSide": true
+            }
+          ]
+        },
+        {
+          "name": "JPG",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7
+              ],
+              "lb": 70
+            }
+          ]
+        }
+      ],
+      "type": "pull"
+    },
+    {
+      "date": "2026-04-12",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "reps": [
+                7,
+                5
+              ],
+              "lb": 165
+            }
+          ]
+        },
+        {
+          "name": "Tricep Pushdown",
+          "sets": [
+            {
+              "reps": [
+                8,
+                6
+              ],
+              "lb": 73
+            }
+          ]
+        }
+      ],
+      "type": "push"
+    },
+    {
+      "date": "2026-04-14",
+      "exercises": [
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7
+              ],
+              "lb": 225
+            }
+          ]
+        },
+        {
+          "name": "Leg Press Calf Raises",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                7
+              ],
+              "lb": 500
+            }
+          ]
+        },
+        {
+          "name": "Hamstring Curl",
+          "sets": [
+            {
+              "reps": [
+                7,
+                7,
+                4
+              ],
+              "lb": 130
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Quad Extension",
+          "sets": [
+            {
+              "reps": [
+                6,
+                5
+              ],
+              "lb": 150
+            }
+          ]
+        }
+      ],
+      "type": "legs"
+    },
+    {
+      "date": "2026-04-15",
+      "exercises": [
+        {
+          "name": "Lat Pulldown",
+          "sets": [
+            {
+              "reps": [
+                4,
+                3
+              ],
+              "lb": 190
+            }
+          ]
+        },
+        {
+          "name": "Cable Curl",
+          "sets": [
+            {
+              "reps": [
+                6,
+                6
+              ],
+              "lb": 60
+            }
+          ]
+        },
+        {
+          "name": "Machine Row",
+          "sets": [
+            {
+              "reps": [
+                6,
+                5,
+                5
+              ],
+              "lb": 175
+            }
+          ]
+        },
+        {
+          "name": "Single Dumbell Preacher Curl",
+          "sets": [
+            {
+              "reps": [
+                6,
+                6
+              ],
+              "lb": 35,
+              "perSide": true
+            }
+          ]
+        },
+        {
+          "name": "JPG",
+          "sets": [
+            {
+              "reps": [
+                6
+              ],
+              "lb": 77
+            }
+          ]
+        }
+      ],
+      "type": "pull"
+    },
+    {
+      "date": "2026-04-16",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "reps": [
+                5,
+                3
+              ],
+              "lb": 175
+            }
+          ]
+        },
+        {
+          "name": "Tricep Pushdown",
+          "sets": [
+            {
+              "reps": [
+                6,
+                6
+              ],
+              "lb": 77
+            }
+          ]
+        },
+        {
+          "name": "DB Lateral Raise",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                8
+              ],
+              "lb": 20,
+              "perSide": true
+            }
+          ]
+        },
+        {
+          "name": "Incline Flies (8 down 3 out)",
+          "sets": [
+            {
+              "reps": [
+                6,
+                5
+              ],
+              "lb": 74
+            }
+          ]
+        },
+        {
+          "name": "Single Arm DB Skull Crusher",
+          "sets": [
+            {
+              "reps": [
+                8
+              ],
+              "lb": 20
+            }
+          ]
+        }
+      ],
+      "type": "push"
+    },
+    {
+      "date": "2026-04-18",
+      "exercises": [
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "reps": [
+                6,
+                2
+              ],
+              "lb": 235
+            }
+          ]
+        },
+        {
+          "name": "Leg Press Calf Raises",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                7
+              ],
+              "lb": 500
+            }
+          ]
+        },
+        {
+          "name": "Hamstring Curl",
+          "sets": [
+            {
+              "reps": [
+                8,
+                6,
+                5
+              ],
+              "lb": 130
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Quad Extension",
+          "sets": [
+            {
+              "reps": [
+                6,
+                5
+              ],
+              "lb": 150
+            }
+          ]
+        }
+      ],
+      "type": "legs"
+    },
+    {
+      "date": "2026-04-20",
+      "exercises": [
+        {
+          "name": "Lat Pulldown",
+          "sets": [
+            {
+              "reps": [
+                5,
+                4
+              ],
+              "lb": 190
+            }
+          ]
+        },
+        {
+          "name": "Cable Curl",
+          "sets": [
+            {
+              "reps": [
+                7,
+                6
+              ],
+              "lb": 60
+            }
+          ]
+        },
+        {
+          "name": "Machine Row",
+          "sets": [
+            {
+              "reps": [
+                6,
+                6,
+                5
+              ],
+              "lb": 175
+            }
+          ]
+        },
+        {
+          "name": "Single Dumbell Preacher Curl",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 35,
+              "perSide": true
+            }
+          ]
+        },
+        {
+          "name": "JPG",
+          "sets": [
+            {
+              "reps": [
+                6,
+                6
+              ],
+              "lb": 77
+            }
+          ]
+        }
+      ],
+      "type": "pull"
+    },
+    {
+      "date": "2026-04-23",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "reps": [
+                5,
+                4
+              ],
+              "lb": 175
+            }
+          ]
+        },
+        {
+          "name": "Tricep Pushdown",
+          "sets": [
+            {
+              "reps": [
+                7,
+                7
+              ],
+              "lb": 77
+            }
+          ]
+        },
+        {
+          "name": "Incline Flies (8 down 3 out)",
+          "sets": [
+            {
+              "reps": [
+                6,
+                5
+              ],
+              "lb": 74
+            }
+          ]
+        },
+        {
+          "name": "Single Arm DB Skull Crusher",
+          "sets": [
+            {
+              "reps": [
+                6
+              ],
+              "lb": 25
+            }
+          ]
+        }
+      ],
+      "type": "push"
+    },
+    {
+      "date": "2026-04-25",
+      "exercises": [
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "reps": [
+                6,
+                4
+              ],
+              "lb": 235
+            }
+          ]
+        },
+        {
+          "name": "Leg Press Calf Raises",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                8
+              ],
+              "lb": 500
+            }
+          ]
+        },
+        {
+          "name": "Hamstring Curl",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7,
+                6
+              ],
+              "lb": 130
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Quad Extension",
+          "sets": [
+            {
+              "reps": [
+                6,
+                6
+              ],
+              "lb": 150
+            }
+          ]
+        }
+      ],
+      "type": "legs"
+    },
+    {
+      "date": "2026-04-26",
+      "exercises": [
+        {
+          "name": "Lat Pulldown",
+          "sets": [
+            {
+              "reps": [
+                5,
+                4
+              ],
+              "lb": 190
+            }
+          ]
+        },
+        {
+          "name": "Cable Curl",
+          "sets": [
+            {
+              "reps": [
+                7,
+                7
+              ],
+              "lb": 60
+            }
+          ]
+        },
+        {
+          "name": "Machine Row",
+          "sets": [
+            {
+              "reps": [
+                7,
+                7,
+                6
+              ],
+              "lb": 175
+            }
+          ]
+        },
+        {
+          "name": "Single Dumbell Preacher Curl",
+          "sets": [
+            {
+              "reps": [
+                5
+              ],
+              "lb": 40,
+              "perSide": true
+            }
+          ]
+        },
+        {
+          "name": "Single Arm Lat Pullover",
+          "sets": [
+            {
+              "reps": [
+                8
+              ],
+              "lb": 23,
+              "perSide": true
+            }
+          ]
+        }
+      ],
+      "type": "pull"
+    },
+    {
+      "date": "2026-04-29",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "reps": [
+                5,
+                4
+              ],
+              "lb": 175
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Cable Pusdown",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7
+              ],
+              "lb": 27
+            }
+          ]
+        },
+        {
+          "name": "DB Lateral Raise",
+          "sets": [
+            {
+              "reps": [
+                4,
+                4,
+                3
+              ],
+              "lb": 25,
+              "perSide": true
+            }
+          ]
+        },
+        {
+          "name": "Incline Flies (8 down 3 out)",
+          "sets": [
+            {
+              "reps": [
+                7,
+                5
+              ],
+              "lb": 74
+            }
+          ]
+        },
+        {
+          "name": "Single Arm DB Skull Crusher",
+          "sets": [
+            {
+              "reps": [
+                5,
+                5
+              ],
+              "lb": 25
+            }
+          ]
+        }
+      ],
+      "type": "push"
+    },
+    {
+      "date": "2026-05-05",
+      "exercises": [
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "reps": [
+                6,
+                4
+              ],
+              "lb": 235
+            }
+          ]
+        },
+        {
+          "name": "Leg Press Calf Raises",
+          "sets": [
+            {
+              "reps": [
+                5,
+                5,
+                3
+              ],
+              "lb": 550
+            }
+          ]
+        },
+        {
+          "name": "Hamstring Curl",
+          "sets": [
+            {
+              "reps": [
+                7,
+                5,
+                3
+              ],
+              "lb": 130
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Quad Extension",
+          "sets": [
+            {
+              "reps": [
+                6,
+                5
+              ],
+              "lb": 150
+            }
+          ]
+        }
+      ],
+      "type": "legs"
+    },
+    {
+      "date": "2026-05-06",
+      "exercises": [
+        {
+          "name": "Lat Pulldown",
+          "sets": [
+            {
+              "reps": [
+                5,
+                2
+              ],
+              "lb": 190
+            }
+          ]
+        },
+        {
+          "name": "Cable Curl",
+          "sets": [
+            {
+              "reps": [
+                7,
+                7
+              ],
+              "lb": 60
+            }
+          ]
+        },
+        {
+          "name": "Machine Row",
+          "sets": [
+            {
+              "reps": [
+                3,
+                4
+              ],
+              "lb": 175
+            }
+          ]
+        }
+      ],
+      "type": "pull"
+    },
+    {
+      "date": "2026-05-07",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "reps": [
+                5,
+                4
+              ],
+              "lb": 175
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Cable Pusdown",
+          "sets": [
+            {
+              "reps": [
+                7,
+                5
+              ],
+              "lb": 30
+            }
+          ]
+        },
+        {
+          "name": "DB Lateral Raise",
+          "sets": [
+            {
+              "reps": [
+                6,
+                6,
+                5
+              ],
+              "lb": 25,
+              "perSide": true
+            }
+          ]
+        },
+        {
+          "name": "Incline Flies (8 down 3 out)",
+          "sets": [
+            {
+              "reps": [
+                6,
+                5
+              ],
+              "lb": 66
+            }
+          ]
+        },
+        {
+          "name": "Single Arm DB Skull Crusher",
+          "sets": [],
+          "notes": "sets not fully logged: \"25 for\""
+        }
+      ],
+      "type": "push"
+    },
+    {
+      "date": "2026-05-10",
+      "exercises": [
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "reps": [
+                5,
+                2
+              ],
+              "lb": 245
+            }
+          ]
+        },
+        {
+          "name": "Leg Press Calf Raises",
+          "sets": [
+            {
+              "reps": [
+                6,
+                6,
+                5
+              ],
+              "lb": 550
+            }
+          ]
+        },
+        {
+          "name": "Hamstring Curl",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                8
+              ],
+              "lb": 130
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Quad Extension",
+          "sets": [
+            {
+              "reps": [
+                7,
+                6
+              ],
+              "lb": 150
+            }
+          ]
+        }
+      ],
+      "type": "legs"
+    },
+    {
+      "date": "2026-05-11",
+      "exercises": [
+        {
+          "name": "Lat Pulldown",
+          "sets": [
+            {
+              "reps": [
+                6,
+                2
+              ],
+              "lb": 190
+            }
+          ]
+        },
+        {
+          "name": "Cable Curl",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7
+              ],
+              "lb": 60
+            }
+          ]
+        },
+        {
+          "name": "Machine Row",
+          "sets": [
+            {
+              "reps": [
+                7,
+                6,
+                5
+              ],
+              "lb": 175
+            }
+          ]
+        },
+        {
+          "name": "Single Dumbell Preacher Curl",
+          "sets": [
+            {
+              "reps": [
+                6,
+                5
+              ],
+              "lb": 40,
+              "perSide": true
+            }
+          ]
+        },
+        {
+          "name": "Single Arm Lat Pullover",
+          "sets": [
+            {
+              "reps": [
+                10,
+                7
+              ],
+              "lb": 27,
+              "perSide": true
+            }
+          ]
+        }
+      ],
+      "type": "pull"
+    },
+    {
+      "date": "2026-05-12",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "reps": [
+                5,
+                5
+              ],
+              "lb": 175
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Cable Pusdown",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 30
+            }
+          ]
+        },
+        {
+          "name": "DB Lateral Raise",
+          "sets": [
+            {
+              "reps": [
+                6,
+                6
+              ],
+              "lb": 25,
+              "perSide": true
+            }
+          ]
+        }
+      ],
+      "type": "push"
+    },
+    {
+      "date": "2026-05-17",
+      "exercises": [
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "reps": [
+                4,
+                2
+              ],
+              "lb": 245
+            }
+          ]
+        },
+        {
+          "name": "Leg Press Calf Raises",
+          "sets": [
+            {
+              "reps": [
+                7,
+                7,
+                5
+              ],
+              "lb": 550
+            }
+          ]
+        },
+        {
+          "name": "Hamstring Curl",
+          "sets": [
+            {
+              "reps": [
+                6,
+                5,
+                3
+              ],
+              "lb": 140
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Quad Extension",
+          "sets": [
+            {
+              "reps": [
+                7,
+                7
+              ],
+              "lb": 150
+            }
+          ]
+        }
+      ],
+      "type": "legs"
+    },
+    {
+      "date": "2026-05-25",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "reps": [
+                5,
+                3
+              ],
+              "lb": 175
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Cable Pusdown",
+          "sets": [],
+          "notes": "sets not fully logged: \"33 for\""
+        },
+        {
+          "name": "Incline Flies (8 down 3 out)",
+          "sets": [],
+          "notes": "sets not fully logged: \"66 for\""
+        }
+      ],
+      "type": "push"
+    },
+    {
+      "date": "2026-06-30",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 135
+            }
+          ]
+        },
+        {
+          "name": "Tricep Pushdown (unilateral)",
+          "sets": [
+            {
+              "reps": [
+                8,
+                6
+              ],
+              "lb": 20
+            }
+          ]
+        },
+        {
+          "name": "DB Lateral Raises",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                8
+              ],
+              "lb": 20,
+              "perSide": true
+            }
+          ]
+        },
+        {
+          "name": "Incline Flies",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 46
+            }
+          ]
+        },
+        {
+          "name": "DB Skull Crushers",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 20
+            }
+          ]
+        }
+      ],
+      "type": "push"
+    },
+    {
+      "date": "2026-07-01",
+      "exercises": [
+        {
+          "name": "Lat Pulldown",
+          "sets": [
+            {
+              "reps": [
+                8,
+                5
+              ],
+              "lb": 160
+            }
+          ]
+        },
+        {
+          "name": "Cable Curl",
+          "sets": [
+            {
+              "reps": [
+                8,
+                6
+              ],
+              "lb": 53
+            }
+          ]
+        },
+        {
+          "name": "Row",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                8
+              ],
+              "lb": 130
+            }
+          ]
+        },
+        {
+          "name": "Unilateral DB Curl",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 30,
+              "perSide": true
+            }
+          ]
+        }
+      ],
+      "type": "pull"
+    },
+    {
+      "date": "2026-07-04",
+      "exercises": [
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "reps": [
+                8
+              ],
+              "lb": 185
+            }
+          ]
+        },
+        {
+          "name": "Calf Raises",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7,
+                7
+              ],
+              "lb": 450
+            }
+          ]
+        },
+        {
+          "name": "Hamstring Curl",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                8
+              ],
+              "lb": 105
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Quad Extension",
+          "sets": [
+            {
+              "reps": [
+                8
+              ],
+              "lb": 120
+            }
+          ]
+        }
+      ],
+      "type": "legs"
+    },
+    {
+      "date": "2026-07-05",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 145
+            }
+          ]
+        },
+        {
+          "name": "Tricep Pushdown (unilateral)",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 20
+            }
+          ]
+        },
+        {
+          "name": "DB Lateral Raises",
+          "sets": [
+            {
+              "reps": [
+                10,
+                10
+              ],
+              "lb": 20,
+              "perSide": true
+            }
+          ]
+        }
+      ],
+      "type": "push"
+    },
+    {
+      "date": "2026-07-07",
+      "exercises": [
+        {
+          "name": "Lat Pulldown",
+          "sets": [
+            {
+              "reps": [
+                8,
+                6
+              ],
+              "lb": 160
+            }
+          ]
+        },
+        {
+          "name": "Cable Curl",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7
+              ],
+              "lb": 53
+            }
+          ]
+        },
+        {
+          "name": "Row",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                7
+              ],
+              "lb": 145
+            }
+          ]
+        },
+        {
+          "name": "Unilateral DB Curl",
+          "sets": [
+            {
+              "reps": [
+                5
+              ],
+              "lb": 35,
+              "perSide": true
+            }
+          ]
+        }
+      ],
+      "type": "pull"
+    },
+    {
+      "date": "2026-07-08",
+      "exercises": [
+        {
+          "name": "DB Skull Crushers",
+          "sets": [
+            {
+              "reps": [
+                6
+              ],
+              "lb": 25
+            }
+          ]
+        },
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 185
+            }
+          ]
+        },
+        {
+          "name": "Calf Raises",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                6
+              ],
+              "lb": 450
+            }
+          ]
+        },
+        {
+          "name": "Hamstring Curl",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                5
+              ],
+              "lb": 120
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Quad Extension",
+          "sets": [
+            {
+              "reps": [
+                8,
+                6
+              ],
+              "lb": 120
+            }
+          ]
+        }
+      ],
+      "type": "push/legs"
+    },
+    {
+      "date": "2026-07-09",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7
+              ],
+              "lb": 155
+            }
+          ]
+        },
+        {
+          "name": "Tricep Pushdown (unilateral)",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 23
+            }
+          ]
+        },
+        {
+          "name": "DB Lateral Raises",
+          "sets": [
+            {
+              "reps": [
+                10,
+                10,
+                9
+              ],
+              "lb": 20,
+              "perSide": true
+            }
+          ]
+        },
+        {
+          "name": "Incline Flies",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 54
+            }
+          ]
+        }
+      ],
+      "type": "push"
+    },
+    {
+      "date": "2026-07-10",
+      "exercises": [
+        {
+          "name": "Lat Pulldown",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7
+              ],
+              "lb": 160
+            }
+          ]
+        },
+        {
+          "name": "Cable Curl",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 53
+            }
+          ]
+        },
+        {
+          "name": "Row",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                8
+              ],
+              "lb": 145
+            }
+          ]
+        },
+        {
+          "name": "Unilateral DB Curl",
+          "sets": [
+            {
+              "reps": [
+                8
+              ],
+              "lb": 35,
+              "perSide": true
+            }
+          ]
+        }
+      ],
+      "type": "pull"
+    },
+    {
+      "date": "2026-07-12",
+      "exercises": [
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "reps": [
+                6,
+                6
+              ],
+              "lb": 195
+            }
+          ]
+        },
+        {
+          "name": "Calf Raises",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 450
+            }
+          ]
+        },
+        {
+          "name": "Hamstring Curl",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                8
+              ],
+              "lb": 120
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Quad Extension",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 120
+            }
+          ]
+        }
+      ],
+      "type": "legs"
+    },
+    {
+      "date": "2026-07-13",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "reps": [
+                6,
+                6
+              ],
+              "lb": 160
+            }
+          ]
+        },
+        {
+          "name": "Tricep Pushdown (unilateral)",
+          "sets": [
+            {
+              "reps": [
+                4
+              ],
+              "lb": 27
+            },
+            {
+              "reps": [
+                7
+              ],
+              "lb": 23
+            }
+          ]
+        },
+        {
+          "name": "DB Lateral Raises",
+          "sets": [
+            {
+              "reps": [
+                10,
+                10,
+                10
+              ],
+              "lb": 20,
+              "perSide": true
+            }
+          ]
+        },
+        {
+          "name": "Incline Flies",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 60
+            }
+          ]
+        },
+        {
+          "name": "DB Skull Crushers",
+          "sets": [
+            {
+              "reps": [
+                6,
+                5
+              ],
+              "lb": 25
+            }
+          ]
+        }
+      ],
+      "type": "push"
+    },
+    {
+      "date": "2026-07-14",
+      "exercises": [
+        {
+          "name": "Lat Pulldown",
+          "sets": [
+            {
+              "reps": [
+                8,
+                5
+              ],
+              "lb": 160
+            }
+          ]
+        },
+        {
+          "name": "Cable Curl",
+          "sets": [
+            {
+              "reps": [
+                7,
+                6
+              ],
+              "lb": 57
+            }
+          ]
+        },
+        {
+          "name": "Row",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7,
+                6
+              ],
+              "lb": 155
+            }
+          ]
+        },
+        {
+          "name": "Unilateral DB Curl",
+          "sets": [
+            {
+              "reps": [
+                8,
+                5
+              ],
+              "lb": 35,
+              "perSide": true
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Lat Pullover",
+          "sets": [
+            {
+              "reps": [
+                10,
+                10
+              ],
+              "lb": 23
+            }
+          ]
+        }
+      ],
+      "type": "pull"
+    }
+  ]
+}
