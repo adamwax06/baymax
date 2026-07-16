@@ -6,7 +6,7 @@
     "activityFactor": 1.5,
     "diet": {
       "allergies": [
-        "ALL tree nuts EXCEPT pistachio (pistachios are safe and liked)",
+        "ALL tree nuts EXCEPT pistachio and chestnut (both safe)",
         "peanuts",
         "finned fish (salmon, tuna, cod, etc.) AND fish oil — including supplements/softgels and fish-oil-fortified products (some milks, juices, 'omega-3' foods). Shellfish IS safe",
         "legumes: beans, peas, chickpeas, lentils — EXCEPT whole soy (tofu, edamame), which is safe. Watch for hidden pea protein / chickpea flour / lentil flour in protein powders, bars, pastas, and 'high-protein' products",
@@ -18,7 +18,7 @@
       "avoid": [
         "soy protein isolate/concentrate (common in protein powders and bars) — questionable, not confirmed; whole soy like tofu and edamame is fine"
       ],
-      "explicitlyOk": ["pistachios", "shellfish", "tofu", "edamame", "coconut", "sesame/tahini", "sunflower seeds"],
+      "explicitlyOk": ["pistachios", "chestnuts", "shellfish", "tofu", "edamame", "coconut", "sesame/tahini", "sunflower seeds", "kiwi", "mango", "papaya", "jalapeños/hot sauce/paprika/salsa"],
       "note": "Everything in allergies is a medical allergy: when curating foods.json or suggesting any food, check 'may contain' / shared-facility warnings for ALL allergy entries — not just ingredient lists. Pea protein is the biggest hidden risk in fitness foods. The avoid list is ingredient-level only."
     }
   },
