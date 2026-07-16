@@ -8,6 +8,11 @@ tool output; the model coaches, the code computes.
 
 - `data/goals.json` — profile (birthdate, height, sex, activity factor) and
   goals. The nutrition loop uses the `body_mass` goal: `targetLb` + `ratePerWeekLb`.
+  **`profile.diet` is binding for every agent**: `allergies` are medical —
+  never suggest these foods and check "may contain / shared facility" labels
+  when curating foods.json; `avoid` is ingredient-level; `explicitlyOk` lists
+  edge cases that are safe (don't over-restrict). Read it before suggesting
+  ANY food, meal, or product, in any context.
 - `data/nutrition.json` — daily intake, one line per day, appended by you or
   by an agent you told what you ate:
 

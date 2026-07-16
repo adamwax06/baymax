@@ -3,7 +3,22 @@
     "birthdate": "2006-06-19",
     "heightIn": 72.5,
     "sex": "male",
-    "activityFactor": 1.5
+    "activityFactor": 1.5,
+    "diet": {
+      "allergies": [
+        "ALL tree nuts EXCEPT pistachio (pistachios are safe and liked)",
+        "peanuts",
+        "finned fish (salmon, tuna, cod, etc.) — shellfish IS safe"
+      ],
+      "avoid": [
+        "legumes: beans, peas, chickpeas, lentils",
+        "soy protein isolate/concentrate (common in protein powders and bars) — whole soy like tofu and edamame is fine",
+        "watermelon",
+        "banana"
+      ],
+      "explicitlyOk": ["pistachios", "shellfish", "tofu", "edamame", "coconut", "sesame/tahini", "sunflower seeds"],
+      "note": "Allergies are medical (true allergy): when curating foods.json or suggesting any food, check 'may contain' / shared-facility warnings for nuts and finned fish — not just ingredient lists. The avoid list is ingredient-level only."
+    }
   },
   "goals": [
     { "id": "bench-225", "lift": "Bench Press", "target": { "lb": 225, "reps": 1 }, "deadline": "2027-01-15", "notes": "the destination — lean bulk is the vehicle. Adam's bet: 6 months. Pace: e1RM 204 by Aug 25, 210 by Oct 1, 215 by Nov 1, 219 by Dec 1, 223 by Jan 1. The risk window is Oct-Dec (historical layoff season)." },
