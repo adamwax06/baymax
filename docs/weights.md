@@ -11,6 +11,12 @@ and deletions all sync on the next run. Re-running is always safe.
 app or via Siri — and arrive through the normal phone sync. See
 docs/nutrition.md.)
 
+Why sets stay a file (decided 2026-07): HealthKit has no exercise/set/rep/load
+model — only workout envelopes — so Apple Health cannot be the source of truth
+for lifting. When a Watch records strength sessions, its envelope (duration,
+HR, energy) complements this ledger rather than replacing it; pair by time
+overlap, never migrate set detail into HealthKit metadata blobs.
+
 ## Shape
 
 `data/weights.json`:
