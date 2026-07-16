@@ -59,9 +59,33 @@ GET https://api.nal.usda.gov/fdc/v1/foods/search?api_key=$FDC_API_KEY&query=<ter
 
 Convention: FDC is queried at **curation time** (building the planned
 `foods.json`, estimating a logged deviation) and results are cached into
-files — never a live dependency at meal-planning or query time. Branded data
-is messy (stale entries, odd brand owners): a human-reviewable cached entry
-beats a live lookup. `DEMO_KEY` works for one-off checks (30 req/hr).
+files — never a live dependency at meal-planning or query time. `DEMO_KEY`
+works for one-off checks (30 req/hr); our key allows 3,600/hr (read the
+`X-RateLimit-Remaining` header).
+
+### FDC playbook (it's five databases in one — pick the right one)
+
+| dataType | What | Use for |
+|---|---|---|
+| `Foundation` | Generic whole foods, USDA lab-analyzed, per 100g, richest profiles | **First choice for staples**: chicken thighs, eggs, rice, potatoes |
+| `SR Legacy` | Classic USDA database, frozen 2018, per 100g | Fallback when Foundation lacks the food |
+| `Branded` | ~380k label-derived products (incl. Trader Joe's, Kirkland) | Packaged/store-brand items only |
+| `Survey (FNDDS)` | Foods as-eaten with cooking method ("chicken, grilled") | Estimating restaurant/deviation meals |
+
+Rules of thumb:
+- Search generic staples with `dataType=Foundation,SR Legacy`; only use
+  `Branded` for actual packaged products. Search returns abridged nutrients —
+  fetch `/v1/food/{fdcId}` for the full record before caching.
+- **Normalize everything cached into foods.json to per-100g** (Branded records
+  carry both per-serving and per-100g; per-100g matches food-scale grams).
+- Energy = nutrient `1008` (kcal); ignore the kJ twin. Beware label rounding
+  on Branded small servings (protein "0g" on a 5g serving) — per-100g values
+  suffer less.
+- Branded is messy: stale/discontinued products, wrong brand owners, fuzzy
+  search relevance. Always eyeball the match and verify against the physical
+  label before trusting it for an allergy-constrained pantry.
+- Bulk needs (thousands of records) → download their CSV dumps instead of
+  hammering the API. Our scale (~30 staples) never gets close.
 
 ## Honest limits
 
