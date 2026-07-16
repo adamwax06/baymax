@@ -17,7 +17,8 @@
     "avoid": [
       "soy protein isolate/concentrate (common in protein powders and bars) — questionable, not confirmed; whole soy like tofu and edamame is fine"
     ],
-    "explicitlyOk": ["pistachios", "chestnuts", "shellfish", "tofu", "edamame", "coconut", "sesame/tahini", "sunflower seeds", "kiwi", "mango", "papaya", "jalapeños/hot sauce/paprika/salsa"],
+    "explicitlyOk": ["pistachios", "chestnuts", "shellfish", "tofu", "edamame", "coconut", "sesame/tahini", "sunflower seeds", "kiwi", "mango", "papaya", "jalapeños/hot sauce/paprika/salsa", "refined avocado oil"],
+    "sharedKitchen": "Adam shares the kitchen — items in the home (almond milk, nut pesto, walnut snacks) may belong to others. Never infer safety from kitchen contents; only profile.diet governs. Cross-contact awareness applies to shared surfaces/utensils.",
     "note": "Everything in allergies is a medical allergy: when curating data/foods.json (docs/foods.md) or suggesting any food, check 'may contain' / shared-facility warnings for ALL allergy entries — not just ingredient lists. Pea protein is the biggest hidden risk in fitness foods. The avoid list is ingredient-level only."
   }
 }
