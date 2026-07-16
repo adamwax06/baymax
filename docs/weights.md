@@ -7,9 +7,11 @@ choice — edit from the GitHub app on your phone, or locally):
 - `data/bodyweight.json` — manual weigh-ins (a bare array; append one line)
 
 After editing: `git pull` if you edited on GitHub, then
-`bun scripts/import-weights.ts` to load both into the health database. The file is authoritative: imports upsert by date-keyed UUID *and*
-delete anything previously imported that's no longer in the file — so edits,
-fixes, and deletions all sync on the next run. Re-running is always safe.
+`bun scripts/import-logs.ts` to sync both into the health database. The files
+are authoritative: imports upsert by date-keyed UUID *and* delete anything
+previously imported that's no longer present — so edits, fixes, and deletions
+all sync on the next run. Re-running is always safe, and one command covers
+both files so there's no wrong command to run.
 
 ## Shape
 

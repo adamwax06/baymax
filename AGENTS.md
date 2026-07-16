@@ -35,7 +35,7 @@ bunx tsc --noEmit               # strict typecheck
 bun run seed [--reset]          # fixture data (60 days: watch, iphone, strava, eight sleep)
 bun run dev                     # ingest server on 0.0.0.0:4321 (prints the LAN URL for the app)
 bun run health <cmd>            # or `cd apps/cli && bun link` for a global `health`
-bun scripts/import-weights.ts   # sync data/weights.json (gym log, docs/weights.md) into the DB
+bun scripts/import-logs.ts      # sync weights.json + bodyweight.json into the DB (docs/weights.md)
 sqlite3 data/baymax.db          # raw SQL (CLI has no query subcommand on purpose)
 bun run db:generate             # regenerate Drizzle migration after a schema change (rare)
 ```

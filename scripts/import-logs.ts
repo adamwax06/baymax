@@ -3,7 +3,7 @@
 // (data/bodyweight.json) into the health database — see docs/weights.md.
 // The files are the source of truth: rows previously imported but no longer
 // present are removed, so edits and deletions sync on re-import.
-// Usage: bun scripts/import-weights.ts [weights.json] [bodyweight.json]
+// Usage: bun scripts/import-logs.ts [weights.json] [bodyweight.json]
 import { z } from "zod";
 import {
   defaultDbPath,

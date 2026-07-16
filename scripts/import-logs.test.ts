@@ -4,7 +4,7 @@ import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { HealthClient } from "@baymax/core";
 
-const SCRIPT = join(import.meta.dir, "import-weights.ts");
+const SCRIPT = join(import.meta.dir, "import-logs.ts");
 let dir: string;
 let dbPath: string;
 let jsonPath: string;
@@ -39,7 +39,7 @@ beforeAll(() => {
 
 afterAll(() => rmSync(dir, { recursive: true, force: true }));
 
-describe("import-weights", () => {
+describe("import-logs", () => {
   test("imports sessions and body weight with full set detail", () => {
     const proc = run(weights);
     expect(proc.exitCode).toBe(0);
