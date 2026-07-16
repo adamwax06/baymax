@@ -10,7 +10,6 @@ let dbPath: string;
 let jsonPath: string;
 
 const weights = {
-  bodyWeight: [{ date: "2026-07-01", lb: 168.4 }],
   sessions: [
     {
       date: "2026-07-01",
@@ -23,10 +22,13 @@ const weights = {
     { date: "2026-07-03", exercises: [{ name: "Squat", sets: [{ lb: 195, reps: [6, 6] }] }] },
   ],
 };
+const bodyweight = [{ date: "2026-07-01", lb: 168.4 }];
 
-function run(json: unknown) {
+function run(json: unknown, bw: unknown = bodyweight) {
   Bun.write(jsonPath, JSON.stringify(json));
-  return Bun.spawnSync(["bun", SCRIPT, jsonPath], { env: { ...process.env, BAYMAX_DB: dbPath } });
+  const bwPath = join(dir, "bodyweight.json");
+  Bun.write(bwPath, JSON.stringify(bw));
+  return Bun.spawnSync(["bun", SCRIPT, jsonPath, bwPath], { env: { ...process.env, BAYMAX_DB: dbPath } });
 }
 
 beforeAll(() => {
@@ -82,7 +84,7 @@ describe("import-weights", () => {
   });
 
   test("validation fails loudly with the exact path", () => {
-    const proc = run({ bodyWeight: [], sessions: [{ date: "07/01/26", exercises: [{ name: "Bench", sets: [] }] }] });
+    const proc = run({ sessions: [{ date: "07/01/26", exercises: [{ name: "Bench", sets: [] }] }] });
     expect(proc.exitCode).toBe(1);
     expect(proc.stderr.toString()).toContain("sessions.0.date");
   });

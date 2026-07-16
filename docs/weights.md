@@ -1,20 +1,30 @@
-# Weights log format
+# Weights + bodyweight log format
 
-`data/weights.json` is the **source of truth** for gym sessions and manual
-body-weight entries (committed by deliberate choice — edit it from the GitHub
-app on your phone, or locally). After editing: `git pull` if you edited on
-GitHub, then `bun scripts/import-weights.ts` to load it into the health
-database. The file is authoritative: imports upsert by date-keyed UUID *and*
+Two hand-edited files are the **source of truth** (committed by deliberate
+choice — edit from the GitHub app on your phone, or locally):
+
+- `data/weights.json` — gym sessions
+- `data/bodyweight.json` — manual weigh-ins (a bare array; append one line)
+
+After editing: `git pull` if you edited on GitHub, then
+`bun scripts/import-weights.ts` to load both into the health database. The file is authoritative: imports upsert by date-keyed UUID *and*
 delete anything previously imported that's no longer in the file — so edits,
 fixes, and deletions all sync on the next run. Re-running is always safe.
 
 ## Shape
 
+`data/bodyweight.json`:
+
+```json
+[
+  { "date": "2026-07-14", "lb": 168.4 }
+]
+```
+
+`data/weights.json`:
+
 ```json
 {
-  "bodyWeight": [
-    { "date": "2026-07-14", "lb": 168.4 }
-  ],
   "sessions": [
     {
       "date": "2026-07-13",
@@ -58,8 +68,8 @@ fixes, and deletions all sync on the next run. Re-running is always safe.
 
 ## How it lands in the database
 
-- `bodyWeight` → `body_mass` samples (lb→kg, original lb kept in metadata),
-  source `weights-json` ("Weights Log"), timestamped noon local.
+- `bodyweight.json` entries → `body_mass` samples (lb→kg, original lb kept in
+  metadata), source `weights-json` ("Weights Log"), timestamped noon local.
 - `sessions` → `workouts` rows (traditional_strength_training, default
   17:00 local, 60 min), with `{type, gym, exercises, notes}` preserved in the
   workout's `metadata` JSON.

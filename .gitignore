@@ -1,6 +1,7 @@
 node_modules/
 data/*
 !data/weights.json
+!data/bodyweight.json
 .DS_Store
 ios/*.xcodeproj/
 ios/Signing.xcconfig

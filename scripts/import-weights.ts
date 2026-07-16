@@ -1,8 +1,9 @@
 #!/usr/bin/env bun
-// Imports data/weights.json (see docs/weights.md) into the health database.
-// The JSON is the source of truth: rows previously imported but no longer in
-// the file are removed, so edits and deletions sync on re-import.
-// Usage: bun scripts/import-weights.ts [path/to/weights.json]
+// Imports the gym log (data/weights.json) and manual weigh-ins
+// (data/bodyweight.json) into the health database — see docs/weights.md.
+// The files are the source of truth: rows previously imported but no longer
+// present are removed, so edits and deletions sync on re-import.
+// Usage: bun scripts/import-weights.ts [weights.json] [bodyweight.json]
 import { z } from "zod";
 import {
   defaultDbPath,
@@ -33,10 +34,8 @@ const sessionZ = z.object({
   exercises: z.array(exerciseZ).min(1),
   notes: z.string().optional(),
 });
-const fileZ = z.object({
-  bodyWeight: z.array(z.object({ date: dateZ, lb: z.number().min(80).max(500) })),
-  sessions: z.array(sessionZ),
-});
+const weightsZ = z.object({ sessions: z.array(sessionZ) });
+const bodyweightZ = z.array(z.object({ date: dateZ, lb: z.number().min(80).max(500) }));
 
 const SOURCE = { bundleId: "weights-json", name: "Weights Log" };
 const STRENGTH_TRAINING = 50; // HKWorkoutActivityType.traditionalStrengthTraining
@@ -47,19 +46,26 @@ const localTs = (date: string, hour: number) => {
   return new Date(y!, m! - 1, d!, hour).getTime();
 };
 
-const path = Bun.argv[2] ?? "data/weights.json";
-const file = Bun.file(path);
-if (!(await file.exists())) {
-  console.error(`No weights file at ${path} (see docs/weights.md)`);
-  process.exit(1);
+async function load<T>(path: string, schema: z.ZodType<T>, required: boolean): Promise<T | undefined> {
+  const file = Bun.file(path);
+  if (!(await file.exists())) {
+    if (!required) return undefined;
+    console.error(`No file at ${path} (see docs/weights.md)`);
+    process.exit(1);
+  }
+  const parsed = schema.safeParse(await file.json());
+  if (!parsed.success) {
+    console.error(`${path} failed validation:`);
+    for (const issue of parsed.error.issues) console.error(`  ${issue.path.join(".")}: ${issue.message}`);
+    process.exit(1);
+  }
+  return parsed.data;
 }
-const parsed = fileZ.safeParse(await file.json());
-if (!parsed.success) {
-  console.error(`${path} failed validation:`);
-  for (const issue of parsed.error.issues) console.error(`  ${issue.path.join(".")}: ${issue.message}`);
-  process.exit(1);
-}
-const { bodyWeight, sessions } = parsed.data;
+
+const weightsPath = Bun.argv[2] ?? "data/weights.json";
+const bodyweightPath = Bun.argv[3] ?? "data/bodyweight.json";
+const { sessions } = (await load(weightsPath, weightsZ, true))!;
+const bodyWeight = (await load(bodyweightPath, bodyweightZ, false)) ?? [];
 
 const samples: SamplePayload[] = bodyWeight.map((b) => ({
   uuid: `weights-bw-${b.date}`,
@@ -109,7 +115,7 @@ const wr = ingestWorkouts(db, { workouts, deleted: staleWorkouts });
 db.$client.close();
 
 const setCount = sessions.reduce((n, s) => n + s.exercises.reduce((m, e) => m + e.sets.reduce((k, g) => k + g.reps.length, 0), 0), 0);
-console.log(`Imported ${path} → ${defaultDbPath()}`);
+console.log(`Imported ${weightsPath} + ${bodyWeight.length ? bodyweightPath : "(no bodyweight file)"} → ${defaultDbPath()}`);
 console.log(`  sessions: ${wr.upserted} (${setCount} sets)  body weight: ${sr.upserted}`);
 if (sr.deleted || wr.deleted) console.log(`  removed (no longer in file): ${wr.deleted} sessions, ${sr.deleted} body weight`);
 console.log(`Check: bun run health workouts --days 30`);
