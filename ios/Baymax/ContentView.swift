@@ -60,9 +60,12 @@ struct ContentView: View {
                 }
 
                 Section {
+                    Button("Backfill Body Weight into Health") {
+                        Task { await engine.backfillBodyWeight(serverURL: serverURL) }
+                    }
                     Button("Reset Sync Anchors", role: .destructive) { engine.resetAnchors() }
                 } footer: {
-                    Text("Next sync re-sends full history. Safe: the server deduplicates by HealthKit UUID.")
+                    Text("Backfill writes logged weigh-ins from the server into Apple Health (one-time, safe to re-tap). Reset re-sends full history on next sync. Both safe: the server deduplicates by HealthKit UUID.")
                 }
             }
             .navigationTitle("Baymax")

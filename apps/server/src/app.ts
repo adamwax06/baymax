@@ -1,10 +1,19 @@
+import { existsSync, readFileSync } from "node:fs";
+import { dirname, join } from "node:path";
 import { Hono } from "hono";
-import { ingestSamples, ingestWorkouts, metricByHkType, sampleBatchZ, workoutBatchZ, type BaymaxDb } from "@baymax/core";
+import { defaultDbPath, ingestSamples, ingestWorkouts, metricByHkType, sampleBatchZ, workoutBatchZ, type BaymaxDb } from "@baymax/core";
 
 export function createApp(db: BaymaxDb): Hono {
   const app = new Hono();
 
   app.get("/v1/ping", (c) => c.json({ ok: true, service: "baymax" }));
+
+  // One-time migration aid: the app pulls these and writes them into
+  // HealthKit, making Apple Health the source of truth for body weight.
+  app.get("/v1/backfill/bodyweight", (c) => {
+    const path = join(dirname(defaultDbPath()), "bodyweight.json");
+    return c.json(existsSync(path) ? JSON.parse(readFileSync(path, "utf8")) : []);
+  });
 
   app.post("/v1/ingest/samples", async (c) => {
     const parsed = sampleBatchZ.safeParse(await c.req.json().catch(() => null));

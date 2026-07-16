@@ -24,6 +24,17 @@ describe("server", () => {
     expect(await res.json()).toEqual({ ok: true, service: "baymax" });
   });
 
+  test("bodyweight backfill endpoint serves entries (or empty when absent)", async () => {
+    const res = await app.request("/v1/backfill/bodyweight");
+    expect(res.status).toBe(200);
+    const entries = (await res.json()) as { date: string; lb: number }[];
+    expect(Array.isArray(entries)).toBe(true);
+    for (const e of entries.slice(0, 3)) {
+      expect(e.date).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+      expect(e.lb).toBeGreaterThan(80);
+    }
+  });
+
   test("ingests sample and workout batches", async () => {
     const sres = await post("/v1/ingest/samples", { samples: fx.samples });
     expect(sres.status).toBe(200);

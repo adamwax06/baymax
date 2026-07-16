@@ -32,11 +32,60 @@ final class SyncEngine: ObservableObject {
             return
         }
         do {
-            try await store.requestAuthorization(toShare: [], read: SyncedTypes.readTypes)
+            try await store.requestAuthorization(toShare: SyncedTypes.shareTypes, read: SyncedTypes.readTypes)
             statusLine = "Health access requested"
             lastError = nil
         } catch {
             lastError = error.localizedDescription
+        }
+    }
+
+    /// One-time migration: pull logged weigh-ins from the server and write
+    /// them into HealthKit (kg, noon local). Dedup-guarded by a metadata date
+    /// key, so re-tapping is always safe.
+    func backfillBodyWeight(serverURL: String) async {
+        struct Entry: Decodable {
+            let date: String
+            let lb: Double
+        }
+        lastError = nil
+        do {
+            guard let url = URL(string: serverURL)?.appendingPathComponent("v1/backfill/bodyweight") else {
+                throw ApiClient.ApiError(message: "Invalid server URL")
+            }
+            let (data, _) = try await URLSession.shared.data(from: url)
+            let entries = try JSONDecoder().decode([Entry].self, from: data)
+
+            let bodyMass = HKQuantityType(.bodyMass)
+            let existing = HKSampleQueryDescriptor(
+                predicates: [.quantitySample(type: bodyMass, predicate: HKQuery.predicateForObjects(withMetadataKey: "baymaxDate"))],
+                sortDescriptors: []
+            )
+            let alreadyWritten = Set((try await existing.result(for: store)).compactMap { $0.metadata?["baymaxDate"] as? String })
+
+            var formatter = DateComponents()
+            var saved = 0
+            for entry in entries where !alreadyWritten.contains(entry.date) {
+                let parts = entry.date.split(separator: "-").compactMap { Int($0) }
+                guard parts.count == 3 else { continue }
+                formatter.year = parts[0]
+                formatter.month = parts[1]
+                formatter.day = parts[2]
+                formatter.hour = 12
+                guard let noon = Calendar.current.date(from: formatter) else { continue }
+                let sample = HKQuantitySample(
+                    type: bodyMass,
+                    quantity: HKQuantity(unit: .gramUnit(with: .kilo), doubleValue: entry.lb * 0.45359237),
+                    start: noon,
+                    end: noon,
+                    metadata: ["baymaxDate": entry.date, "baymaxLb": entry.lb]
+                )
+                try await store.save(sample)
+                saved += 1
+            }
+            statusLine = "Backfilled \(saved) weigh-ins (\(entries.count - saved) already present) — now tap Sync"
+        } catch {
+            lastError = "Backfill failed: \(error.localizedDescription)"
         }
     }
 

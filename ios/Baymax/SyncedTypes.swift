@@ -44,6 +44,10 @@ enum SyncedTypes {
         return types
     }
 
+    /// Write access: only body mass, for the one-time weigh-in backfill and
+    /// so Apple Health can be the source of truth for weight going forward.
+    static var shareTypes: Set<HKSampleType> { [HKQuantityType(.bodyMass)] }
+
     static func unit(for id: HKQuantityTypeIdentifier) -> HKUnit? {
         quantities.first { $0.id == id }?.unit
     }
