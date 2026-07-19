@@ -13,6 +13,7 @@
     "seed": "bun scripts/seed.ts",
     "import": "bun scripts/import-logs.ts",
     "tj": "bun scripts/tj.ts",
+    "intake": "bun scripts/log-intake.ts",
     "health": "bun apps/cli/src/index.ts",
     "test": "bun test",
     "typecheck": "bunx tsc --noEmit"
