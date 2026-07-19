@@ -206,5 +206,32 @@
         "g": 5
       }
     ]
+  },
+  {
+    "id": "cocoa-berry-yogurt-bowl",
+    "name": "Cocoa berry yogurt bowl",
+    "items": [
+      {
+        "food": "greek-yogurt-whole",
+        "g": 300
+      },
+      {
+        "food": "cocoa-powder",
+        "g": 8
+      },
+      {
+        "food": "raspberries",
+        "g": 150
+      },
+      {
+        "food": "honey",
+        "g": 15
+      },
+      {
+        "food": "chia",
+        "g": 15
+      }
+    ],
+    "notes": "Adam favorite. Fruit swappable: raspberries, blueberries, or blackberries (all in foods.json) \u2014 log whichever was used"
   }
 ]

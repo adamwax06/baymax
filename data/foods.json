@@ -173,7 +173,7 @@
     "fdcType": "SR Legacy",
     "weighed": "raw",
     "store": "any",
-    "notes": "optional buy — cheap calories+protein without powder",
+    "notes": "optional buy \u2014 cheap calories+protein without powder",
     "per100g": {
       "protein": 3.15,
       "fat": 3.25,
@@ -510,7 +510,7 @@
     "fdcType": "SR Legacy",
     "weighed": "raw",
     "store": "costco",
-    "notes": "the one legal nut — check shared-line warning on the specific bag",
+    "notes": "the one legal nut \u2014 check shared-line warning on the specific bag",
     "per100g": {
       "protein": 20.16,
       "fat": 45.32,
@@ -535,7 +535,7 @@
     "fdcType": "SR Legacy",
     "weighed": "dry",
     "store": "any",
-    "notes": "primary ALA (omega-3) source — already owned, 3lb bag",
+    "notes": "primary ALA (omega-3) source \u2014 already owned, 3lb bag",
     "per100g": {
       "protein": 16.54,
       "fat": 30.74,
@@ -599,5 +599,78 @@
       "vitC": 26.9
     },
     "allergyChecked": "2026-07-16"
+  },
+  {
+    "id": "raspberries",
+    "name": "Raspberries",
+    "fdcId": 167755,
+    "fdcType": "SR Legacy",
+    "weighed": "raw",
+    "store": "any",
+    "per100g": {
+      "protein": 1.2,
+      "fat": 0.65,
+      "carbs": 11.94,
+      "kcal": 52,
+      "fiber": 6.5,
+      "calcium": 25,
+      "iron": 0.69,
+      "magnesium": 22,
+      "potassium": 151,
+      "sodium": 1,
+      "zinc": 0.42,
+      "vitD": 0,
+      "vitC": 26.2
+    },
+    "allergyChecked": "2026-07-19"
+  },
+  {
+    "id": "blackberries",
+    "name": "Blackberries",
+    "fdcId": 173946,
+    "fdcType": "SR Legacy",
+    "weighed": "raw",
+    "store": "any",
+    "per100g": {
+      "protein": 1.39,
+      "fat": 0.49,
+      "carbs": 9.61,
+      "kcal": 43,
+      "fiber": 5.3,
+      "calcium": 29,
+      "iron": 0.62,
+      "magnesium": 20,
+      "potassium": 162,
+      "sodium": 1,
+      "zinc": 0.53,
+      "vitD": 0,
+      "vitC": 21
+    },
+    "allergyChecked": "2026-07-19"
+  },
+  {
+    "id": "cocoa-powder",
+    "name": "Cocoa powder, unsweetened",
+    "fdcId": 169593,
+    "fdcType": "SR Legacy",
+    "weighed": "dry",
+    "store": "any",
+    "notes": "plain unsweetened only \u2014 label-check drink mixes for additives",
+    "per100g": {
+      "protein": 19.6,
+      "fat": 13.7,
+      "carbs": 57.9,
+      "kcal": 228,
+      "fiber": 37,
+      "calcium": 128,
+      "iron": 13.86,
+      "magnesium": 499,
+      "potassium": 1524,
+      "sodium": 21,
+      "zinc": 6.81,
+      "vitD": 0,
+      "vitC": 0
+    },
+    "allergyChecked": "2026-07-19"
   }
 ]
