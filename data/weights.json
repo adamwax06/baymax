@@ -1259,7 +1259,7 @@
               "bodyweight": true
             }
           ],
-          "notes": "bench; cable flies 40’s for 7, 6,"
+          "notes": "bench; cable flies 40\u2019s for 7, 6,"
         }
       ],
       "gym": "rut"
@@ -8454,6 +8454,142 @@
         }
       ],
       "type": "legs"
+    },
+    {
+      "date": "2026-07-17",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "reps": [
+                8,
+                5
+              ],
+              "lb": 159.5
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Tricep Pushdown",
+          "sets": [
+            {
+              "reps": [
+                10,
+                6
+              ],
+              "lb": 23
+            }
+          ]
+        },
+        {
+          "name": "DB Lateral Raise",
+          "sets": [
+            {
+              "reps": [
+                6,
+                6,
+                4
+              ],
+              "lb": 25,
+              "perSide": true
+            }
+          ]
+        },
+        {
+          "name": "Incline Fly",
+          "sets": [
+            {
+              "reps": [
+                8,
+                6
+              ],
+              "lb": 66
+            }
+          ]
+        },
+        {
+          "name": "DB Skull Crusher",
+          "sets": [
+            {
+              "reps": [
+                6,
+                5
+              ],
+              "lb": 25
+            }
+          ]
+        }
+      ],
+      "type": "push"
+    },
+    {
+      "date": "2026-07-18",
+      "exercises": [
+        {
+          "name": "Lat Pulldown",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7
+              ],
+              "lb": 160
+            }
+          ]
+        },
+        {
+          "name": "Cable Curl",
+          "sets": [
+            {
+              "reps": [
+                8,
+                6
+              ],
+              "lb": 57
+            }
+          ]
+        },
+        {
+          "name": "Row",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                7
+              ],
+              "lb": 155
+            }
+          ]
+        },
+        {
+          "name": "Unilateral DB Curl",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 35,
+              "perSide": true
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Lat Pullover",
+          "sets": [
+            {
+              "reps": [
+                10,
+                9
+              ],
+              "lb": 27
+            }
+          ]
+        }
+      ],
+      "type": "pull"
     }
   ]
 }
