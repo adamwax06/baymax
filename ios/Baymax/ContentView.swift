@@ -60,6 +60,9 @@ struct ContentView: View {
                 }
 
                 Section {
+                    Button("Write Nutrition into Health") {
+                        Task { await engine.syncNutrition(serverURL: serverURL) }
+                    }
                     Button("Backfill Body Weight into Health") {
                         Task { await engine.backfillBodyWeight(serverURL: serverURL) }
                     }

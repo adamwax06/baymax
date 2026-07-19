@@ -89,6 +89,73 @@ final class SyncEngine: ObservableObject {
         }
     }
 
+    /// Mirror plan-derived intake days from the server into HealthKit as
+    /// dietary samples (noon local). Dedup-guarded by the baymaxDate metadata
+    /// key; a day whose value changed (nightly re-log) is deleted and
+    /// rewritten, so re-tapping is always safe.
+    func syncNutrition(serverURL: String) async {
+        struct Day: Decodable {
+            let date: String
+            let kcal: Double
+            let protein: Double
+            let carbs: Double
+            let fat: Double
+        }
+        lastError = nil
+        do {
+            guard let url = URL(string: serverURL)?.appendingPathComponent("v1/nutrition") else {
+                throw ApiClient.ApiError(message: "Invalid server URL")
+            }
+            let (data, _) = try await URLSession.shared.data(from: url)
+            let days = try JSONDecoder().decode([Day].self, from: data)
+
+            let nutrients: [(type: HKQuantityType, unit: HKUnit, value: (Day) -> Double)] = [
+                (HKQuantityType(.dietaryEnergyConsumed), .kilocalorie(), { $0.kcal }),
+                (HKQuantityType(.dietaryProtein), .gram(), { $0.protein }),
+                (HKQuantityType(.dietaryCarbohydrates), .gram(), { $0.carbs }),
+                (HKQuantityType(.dietaryFatTotal), .gram(), { $0.fat }),
+            ]
+            var written = 0
+            for n in nutrients {
+                let existing = try await HKSampleQueryDescriptor(
+                    predicates: [.quantitySample(type: n.type, predicate: HKQuery.predicateForObjects(withMetadataKey: "baymaxDate"))],
+                    sortDescriptors: []
+                ).result(for: store)
+                var byDate = [String: HKQuantitySample]()
+                for s in existing {
+                    if let d = s.metadata?["baymaxDate"] as? String { byDate[d] = s }
+                }
+                for day in days {
+                    let value = n.value(day)
+                    if let old = byDate[day.date] {
+                        if abs(old.quantity.doubleValue(for: n.unit) - value) < 0.5 { continue }
+                        try await store.delete(old)
+                    }
+                    let parts = day.date.split(separator: "-").compactMap { Int($0) }
+                    guard parts.count == 3 else { continue }
+                    var comps = DateComponents()
+                    comps.year = parts[0]
+                    comps.month = parts[1]
+                    comps.day = parts[2]
+                    comps.hour = 12
+                    guard let noon = Calendar.current.date(from: comps) else { continue }
+                    let sample = HKQuantitySample(
+                        type: n.type,
+                        quantity: HKQuantity(unit: n.unit, doubleValue: value),
+                        start: noon,
+                        end: noon,
+                        metadata: ["baymaxDate": day.date]
+                    )
+                    try await store.save(sample)
+                    written += 1
+                }
+            }
+            statusLine = "Nutrition: \(written) samples written/updated across \(days.count) day(s)"
+        } catch {
+            lastError = "Nutrition sync failed: \(error.localizedDescription)"
+        }
+    }
+
     func testConnection(serverURL: String) async {
         do {
             try await api(serverURL).ping()

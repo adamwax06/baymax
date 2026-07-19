@@ -15,6 +15,13 @@ export function createApp(db: BaymaxDb): Hono {
     return c.json(existsSync(path) ? JSON.parse(readFileSync(path, "utf8")) : []);
   });
 
+  // Plan-derived intake days (data/nutrition.json); the app mirrors these
+  // into HealthKit as dietary samples so Apple Health shows cals/macros.
+  app.get("/v1/nutrition", (c) => {
+    const path = join(dirname(defaultDbPath()), "nutrition.json");
+    return c.json(existsSync(path) ? JSON.parse(readFileSync(path, "utf8")) : []);
+  });
+
   app.post("/v1/ingest/samples", async (c) => {
     const parsed = sampleBatchZ.safeParse(await c.req.json().catch(() => null));
     if (!parsed.success) return c.json({ error: parsed.error.flatten() }, 400);

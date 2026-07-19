@@ -44,9 +44,17 @@ enum SyncedTypes {
         return types
     }
 
-    /// Write access: only body mass, for the one-time weigh-in backfill and
-    /// so Apple Health can be the source of truth for weight going forward.
-    static var shareTypes: Set<HKSampleType> { [HKQuantityType(.bodyMass)] }
+    /// Write access: body mass (weigh-in backfill) plus the dietary types the
+    /// nutrition mirror writes (plan-derived intake from the server).
+    static var shareTypes: Set<HKSampleType> {
+        [
+            HKQuantityType(.bodyMass),
+            HKQuantityType(.dietaryEnergyConsumed),
+            HKQuantityType(.dietaryProtein),
+            HKQuantityType(.dietaryCarbohydrates),
+            HKQuantityType(.dietaryFatTotal),
+        ]
+    }
 
     static func unit(for id: HKQuantityTypeIdentifier) -> HKUnit? {
         quantities.first { $0.id == id }?.unit
