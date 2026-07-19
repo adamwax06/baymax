@@ -1,9 +1,11 @@
 # Weights log format
 
-`data/weights.json` (hand-edited, committed by deliberate choice — edit from
-the GitHub app on your phone, or locally) is the **source of truth** for gym
-sessions. After editing: `git pull` if you edited on GitHub, then
-`bun scripts/import-logs.ts`. The file is authoritative: imports upsert by
+`data/weights.json` (committed by deliberate choice) is the **source of
+truth** for gym sessions. Two write paths, same file: the iPhone app's Log
+tab (prefills your last session of that day type, queues offline at the gym,
+and the server appends + re-imports on save — `POST /v1/log/workout`), or
+hand-editing (from the GitHub app on your phone, or locally). After a hand
+edit: `git pull` if you edited on GitHub, then `bun scripts/import-logs.ts`. The file is authoritative: imports upsert by
 date-keyed UUID *and* delete sessions no longer present — so edits, fixes,
 and deletions all sync on the next run. Re-running is always safe.
 

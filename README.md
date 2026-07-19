@@ -13,9 +13,10 @@ solves your real TDEE from your own intake + scale data and prescribes
 calories toward your goals. No cloud, no accounts.
 
 ```
-Watch / Strava / Eight Sleep / weigh-ins → Apple Health → iPhone app ─┐
-gym log (hand-edited JSON) ─────────────────────── bun run import ────┤→ SQLite → SDK → CLI + MCP
-food · goals · profile · allergies (JSON, read live) ─────────────────┘
+Watch / Strava / Eight Sleep / weigh-ins → Apple Health ⇄ iPhone app ─┐
+gym log (app Log tab or hand-edited JSON) ──────── bun run import ────┤→ SQLite → SDK → CLI + MCP
+food · goals · profile · inventory (JSON, read live) ─────────────────┘
+        ↑ plan-derived intake (bun run intake) mirrors back into Apple Health
 ```
 
 ## Quickstart (no phone needed)
@@ -30,7 +31,9 @@ bun run health nutrition                      # adaptive calorie/protein targets
 ```
 
 For real Apple Health data: `bun run dev` on the Mac, build `ios/` onto your
-iPhone, tap Sync. Adopting this for yourself (it ships with the author's
+iPhone (iOS 26), tap Sync. The app is a Liquid Glass companion: live intake/
+sleep/steps/weight tiles, in-gym workout logging with an offline queue, and
+a nutrition mirror into Apple Health. Adopting this for yourself (it ships with the author's
 data): **[docs/onboarding.md](docs/onboarding.md)**. Everything else — repo
 map, data model, logging flows, how to add a metric, troubleshooting — is in
 **[AGENTS.md](AGENTS.md)**.

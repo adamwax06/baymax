@@ -16,17 +16,26 @@ tool output; the model coaches, the code computes.
   uses the `body_mass` goal: `targetLb` + `ratePerWeekLb`.
 - `data/foods.json` + `data/meals.json` — the ingredient registry and recipe
   book (empty until the staples list lands); model in docs/foods.md.
-- `data/nutrition.json` — daily intake, one line per day, appended by you or
-  by an agent you told what you ate:
+- `data/nutrition.json` — daily intake, one entry per day. Written by
+  `bun run intake <mealId>...` (idempotent per date), which sums the planned
+  meals' full nutrient profile — macros, fiber, and every micro present in
+  foods.json:
 
 ```json
 [
-  { "date": "2026-07-16", "kcal": 2950, "protein": 155 }
+  { "date": "2026-07-19", "kcal": 3055, "protein": 193, "carbs": 390,
+    "fat": 84, "fiber": 42.1, "calcium": 1664.5, "...": "...",
+    "meals": ["rest-scramble", "..."], "method": "plan-derived" }
 ]
 ```
 
-`kcal` is required; other macros are optional and logged for the future
-(currently only `kcal` is consumed).
+`kcal` is required; everything else is extra (currently only `kcal` is
+consumed by the TDEE math). **Adherence protocol (July 2026): no food-logging
+apps.** Adam eats the planned meals as exactly as he can and reports
+deviations — the day's plan is the intake record, honestly tagged
+`method: "plan-derived"`. The iPhone app's "Write Nutrition → Health" button
+mirrors logged days into Apple Health as dietary samples (13 HealthKit types;
+ALA has no HK type and stays here).
 
 **Read semantics**: `nutrition.json`, `profile.json`, and `goals.json` are
 read live at query time — edits are visible immediately. **Weigh-ins live in

@@ -11,7 +11,7 @@ the committed JSON files — replace it with yours.)
   registry (allergies are binding for every agent; see docs/nutrition.md)
 - `data/goals.json` — your targets (docs/goals.md)
 - `data/weights.json` → `{"sessions": []}`, `data/nutrition.json` → `[]`,
-  `data/foods.json` / `data/meals.json` → `[]`
+  `data/foods.json` / `data/meals.json` / `data/inventory.json` → `[]`
 - `ios/project.yml` — your bundle id; `ios/Signing.xcconfig` — your team id
 - `.env` — your own free FDC API key (docs/nutrition.md)
 
