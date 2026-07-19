@@ -53,6 +53,15 @@ enum SyncedTypes {
             HKQuantityType(.dietaryProtein),
             HKQuantityType(.dietaryCarbohydrates),
             HKQuantityType(.dietaryFatTotal),
+            HKQuantityType(.dietaryFiber),
+            HKQuantityType(.dietaryCalcium),
+            HKQuantityType(.dietaryIron),
+            HKQuantityType(.dietaryMagnesium),
+            HKQuantityType(.dietaryPotassium),
+            HKQuantityType(.dietarySodium),
+            HKQuantityType(.dietaryZinc),
+            HKQuantityType(.dietaryVitaminD),
+            HKQuantityType(.dietaryVitaminC),
         ]
     }
 

@@ -100,6 +100,16 @@ final class SyncEngine: ObservableObject {
             let protein: Double
             let carbs: Double
             let fat: Double
+            // Micros are optional: older entries may predate their aggregation.
+            let fiber: Double?
+            let calcium: Double?
+            let iron: Double?
+            let magnesium: Double?
+            let potassium: Double?
+            let sodium: Double?
+            let zinc: Double?
+            let vitD: Double?
+            let vitC: Double?
         }
         lastError = nil
         do {
@@ -109,11 +119,22 @@ final class SyncEngine: ObservableObject {
             let (data, _) = try await URLSession.shared.data(from: url)
             let days = try JSONDecoder().decode([Day].self, from: data)
 
-            let nutrients: [(type: HKQuantityType, unit: HKUnit, value: (Day) -> Double)] = [
+            // Units follow foods.json/FDC: g macros+fiber, mg minerals+vitC, µg vitD.
+            // ALA is logged server-side but has no HealthKit type, so it stays there.
+            let nutrients: [(type: HKQuantityType, unit: HKUnit, value: (Day) -> Double?)] = [
                 (HKQuantityType(.dietaryEnergyConsumed), .kilocalorie(), { $0.kcal }),
                 (HKQuantityType(.dietaryProtein), .gram(), { $0.protein }),
                 (HKQuantityType(.dietaryCarbohydrates), .gram(), { $0.carbs }),
                 (HKQuantityType(.dietaryFatTotal), .gram(), { $0.fat }),
+                (HKQuantityType(.dietaryFiber), .gram(), { $0.fiber }),
+                (HKQuantityType(.dietaryCalcium), .gramUnit(with: .milli), { $0.calcium }),
+                (HKQuantityType(.dietaryIron), .gramUnit(with: .milli), { $0.iron }),
+                (HKQuantityType(.dietaryMagnesium), .gramUnit(with: .milli), { $0.magnesium }),
+                (HKQuantityType(.dietaryPotassium), .gramUnit(with: .milli), { $0.potassium }),
+                (HKQuantityType(.dietarySodium), .gramUnit(with: .milli), { $0.sodium }),
+                (HKQuantityType(.dietaryZinc), .gramUnit(with: .milli), { $0.zinc }),
+                (HKQuantityType(.dietaryVitaminD), .gramUnit(with: .micro), { $0.vitD }),
+                (HKQuantityType(.dietaryVitaminC), .gramUnit(with: .milli), { $0.vitC }),
             ]
             var written = 0
             for n in nutrients {
@@ -126,9 +147,9 @@ final class SyncEngine: ObservableObject {
                     if let d = s.metadata?["baymaxDate"] as? String { byDate[d] = s }
                 }
                 for day in days {
-                    let value = n.value(day)
+                    guard let value = n.value(day) else { continue }
                     if let old = byDate[day.date] {
-                        if abs(old.quantity.doubleValue(for: n.unit) - value) < 0.5 { continue }
+                        if abs(old.quantity.doubleValue(for: n.unit) - value) < 0.05 { continue }
                         try await store.delete(old)
                     }
                     let parts = day.date.split(separator: "-").compactMap { Int($0) }
