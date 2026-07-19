@@ -12,13 +12,15 @@ enum Palette {
 }
 
 struct ContentView: View {
+    @AppStorage("selectedTab") private var selectedTab = 0 // reopen where you left off
+
     var body: some View {
-        TabView {
-            Tab("Home", systemImage: "house.fill") { HomeView() }
-            Tab("Chat", systemImage: "message.fill") { ComingSoonView(title: "Chat") }
-            Tab("Log", systemImage: "plus.circle.fill") { ComingSoonView(title: "Log") }
-            Tab("Insights", systemImage: "chart.bar.fill") { ComingSoonView(title: "Insights") }
-            Tab("You", systemImage: "person.fill") { ComingSoonView(title: "You") }
+        TabView(selection: $selectedTab) {
+            Tab("Home", systemImage: "house.fill", value: 0) { HomeView() }
+            Tab("Chat", systemImage: "message.fill", value: 1) { ComingSoonView(title: "Chat") }
+            Tab("Log", systemImage: "plus.circle.fill", value: 2) { LogView() }
+            Tab("Insights", systemImage: "chart.bar.fill", value: 3) { ComingSoonView(title: "Insights") }
+            Tab("You", systemImage: "person.fill", value: 4) { ComingSoonView(title: "You") }
         }
         .tint(Palette.red)
     }
