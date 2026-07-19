@@ -6,7 +6,7 @@
 name: Baymax
 options:
   deploymentTarget:
-    iOS: "17.0"
+    iOS: "26.0" # Liquid Glass (glassEffect/glass button styles) is iOS 26+
 configFiles:
   Debug: Signing.xcconfig
   Release: Signing.xcconfig

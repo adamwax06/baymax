@@ -1,10 +1,11 @@
 import { existsSync, readFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { Hono } from "hono";
-import { defaultDbPath, ingestSamples, ingestWorkouts, metricByHkType, sampleBatchZ, workoutBatchZ, type BaymaxDb } from "@baymax/core";
+import { defaultDbPath, HealthClient, ingestSamples, ingestWorkouts, metricByHkType, sampleBatchZ, workoutBatchZ, type BaymaxDb } from "@baymax/core";
 
 export function createApp(db: BaymaxDb): Hono {
   const app = new Hono();
+  let health: HealthClient | undefined;
 
   app.get("/v1/ping", (c) => c.json({ ok: true, service: "baymax" }));
 
@@ -20,6 +21,28 @@ export function createApp(db: BaymaxDb): Hono {
   app.get("/v1/nutrition", (c) => {
     const path = join(dirname(defaultDbPath()), "nutrition.json");
     return c.json(existsSync(path) ? JSON.parse(readFileSync(path, "utf8")) : []);
+  });
+
+  // Home-screen tiles: sleep, steps, weight, workouts (core SDK overview).
+  app.get("/v1/overview", (c) => {
+    return c.json((health ??= new HealthClient({ dbPath: defaultDbPath() })).overview());
+  });
+
+  // The app's Today card: calorie/protein targets + what's logged for today.
+  app.get("/v1/today", (c) => {
+    const path = join(dirname(defaultDbPath()), "nutrition.json");
+    const today = new Date().toLocaleDateString("sv-SE");
+    const logged = existsSync(path)
+      ? (JSON.parse(readFileSync(path, "utf8")) as { date: string }[]).find((e) => e.date === today) ?? null
+      : null;
+    let targetKcal: number | null = null;
+    let proteinG: number | null = null;
+    try {
+      const n = (health ??= new HealthClient({ dbPath: defaultDbPath() })).nutrition();
+      targetKcal = n.targetKcal;
+      proteinG = n.proteinG;
+    } catch {} // no goal configured — card just shows logged totals
+    return c.json({ date: today, targetKcal, proteinG, logged });
   });
 
   app.post("/v1/ingest/samples", async (c) => {

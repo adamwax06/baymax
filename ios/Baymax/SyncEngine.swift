@@ -13,6 +13,62 @@ final class SyncEngine: ObservableObject {
     @Published var lastError: String?
     @Published var lastSync: Date?
     @Published var counts: [String: Int] = [:] // type identifier -> records sent (cumulative)
+    @Published var today: TodayStatus?
+
+    struct TodayStatus: Decodable {
+        struct Logged: Decodable {
+            let kcal: Double
+            let protein: Double
+            let carbs: Double
+            let fat: Double
+        }
+        let targetKcal: Double?
+        let proteinG: Double?
+        let logged: Logged?
+    }
+
+    @Published var overview: OverviewStatus?
+
+    struct OverviewStatus: Decodable {
+        struct Weight: Decodable {
+            let lb: Double
+            let date: String
+        }
+        struct Steps: Decodable {
+            struct Bucket: Decodable {
+                let date: String
+                let value: Double?
+            }
+            let dailyAvg: Double?
+            let buckets: [Bucket]
+        }
+        struct Sleep: Decodable {
+            struct Night: Decodable {
+                let waketime: String // nights carry bedtime/waketime, not a date field
+                let asleepMinutes: Double
+                var date: String { String(waketime.prefix(10)) }
+            }
+            let nights: [Night]
+            let avgAsleepMinutes: Double?
+        }
+        let weight: Weight?
+        let steps: Steps
+        let sleep: Sleep
+        let workouts: [Workout]
+
+        struct Workout: Decodable {}
+    }
+
+    /// Refresh the Home tiles (best-effort: failures just leave them empty).
+    func fetchToday(serverURL: String) async {
+        guard let base = URL(string: serverURL) else { return }
+        if let (data, _) = try? await URLSession.shared.data(from: base.appendingPathComponent("v1/today")) {
+            today = try? JSONDecoder().decode(TodayStatus.self, from: data)
+        }
+        if let (data, _) = try? await URLSession.shared.data(from: base.appendingPathComponent("v1/overview")) {
+            overview = try? JSONDecoder().decode(OverviewStatus.self, from: data)
+        }
+    }
 
     /// Types sorted for a stable UI and deterministic sync order.
     let types = SyncedTypes.readTypes.sorted { $0.identifier < $1.identifier }
@@ -202,6 +258,7 @@ final class SyncEngine: ObservableObject {
             }
             lastSync = Date()
             defaults.set(lastSync, forKey: "lastSync")
+            await fetchToday(serverURL: serverURL)
         } catch {
             lastError = error.localizedDescription
         }
