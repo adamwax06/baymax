@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "date": "2026-07-19",
+    "kcal": 3055,
+    "protein": 193,
+    "carbs": 390,
+    "fat": 84,
+    "fiber": 42,
+    "meals": [
+      "rest-scramble",
+      "cocoa-berry-yogurt-bowl",
+      "pre-lift-carb",
+      "post-lift-smoothie",
+      "chicken-rice-bowl"
+    ],
+    "method": "plan-derived"
+  }
+]

@@ -316,7 +316,7 @@
     "name": "Flour tortilla",
     "fdcId": 167535,
     "fdcType": "SR Legacy",
-    "weighed": "raw",
+    "weighed": "each",
     "store": "any",
     "per100g": {
       "protein": 8.01,
@@ -333,7 +333,9 @@
       "vitD": 0,
       "vitC": 0
     },
-    "allergyChecked": "2026-07-16"
+    "allergyChecked": "2026-07-16",
+    "unitG": 64,
+    "notes": "TJ Organic 8ct bag: 510g/8 = 64g each"
   },
   {
     "id": "honey",
@@ -670,6 +672,23 @@
       "zinc": 6.81,
       "vitD": 0,
       "vitC": 0
+    },
+    "allergyChecked": "2026-07-19"
+  },
+  {
+    "id": "ground-beef-96",
+    "name": "Ground beef 96/4, raw",
+    "fdcId": null,
+    "fdcType": null,
+    "weighed": "raw",
+    "store": "tj",
+    "notes": "TODO: backfill fdcId (FDC DEMO_KEY rate-limited 7/19); macros from TJ label (130 kcal/24g protein per 4oz)",
+    "per100g": {
+      "protein": 21.4,
+      "fat": 3.6,
+      "carbs": 0,
+      "kcal": 116,
+      "fiber": 0
     },
     "allergyChecked": "2026-07-19"
   }

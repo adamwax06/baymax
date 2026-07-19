@@ -4,6 +4,7 @@ data/*
 !data/weights.json
 !data/goals.json
 !data/nutrition.json
+!data/inventory.json
 !data/profile.json
 !data/foods.json
 !data/meals.json

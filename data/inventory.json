@@ -1,0 +1,146 @@
+[
+  {
+    "food": "greek-yogurt-whole",
+    "g": 907,
+    "asOf": "2026-07-19",
+    "note": "1x 32oz tub (TJ 7/19). Plan needs 1400g through Tue \u2014 short ~500g"
+  },
+  {
+    "food": "ground-beef-85",
+    "g": 454,
+    "asOf": "2026-07-19",
+    "note": "1lb organic grass-fed (TJ 7/19)"
+  },
+  {
+    "food": "ground-beef-96",
+    "g": 454,
+    "asOf": "2026-07-19",
+    "note": "1lb 96/4 (TJ 7/19) \u2014 leaner than logged 85/15; add ~10g butter to that dinner"
+  },
+  {
+    "food": "chicken-thigh",
+    "g": 454,
+    "asOf": "2026-07-19",
+    "note": "1lb boneless skinless (TJ 7/19)"
+  },
+  {
+    "food": "mozzarella-shredded",
+    "g": 340,
+    "asOf": "2026-07-19",
+    "note": "12oz LITE shreds (TJ 7/19) \u2014 leaner than logged"
+  },
+  {
+    "food": "oats-dry",
+    "g": 907,
+    "asOf": "2026-07-19",
+    "note": "32oz GF rolled oats (TJ 7/19)"
+  },
+  {
+    "food": "bread-italian",
+    "g": 450,
+    "asOf": "2026-07-19",
+    "note": "sourdough batard (TJ 7/19) \u2014 stands in for Italian loaf"
+  },
+  {
+    "food": "potato",
+    "g": 450,
+    "asOf": "2026-07-19",
+    "note": "2 loose gold (TJ 7/19), ESTIMATE by eye \u2014 plan needs 800g through Tue"
+  },
+  {
+    "food": "sweet-potato",
+    "g": 650,
+    "asOf": "2026-07-19",
+    "note": "1 orange + 1 Japanese, loose (TJ 7/19), ESTIMATE"
+  },
+  {
+    "food": "spinach",
+    "g": 170,
+    "asOf": "2026-07-19",
+    "note": "1x 6oz bag (TJ 7/19) \u2014 plan needs 480g through Tue"
+  },
+  {
+    "food": "blueberries",
+    "g": 510,
+    "asOf": "2026-07-19",
+    "note": "18oz clamshell (TJ 7/19)"
+  },
+  {
+    "food": "raspberries",
+    "g": 340,
+    "asOf": "2026-07-19",
+    "note": "12oz (TJ 7/19)"
+  },
+  {
+    "food": "mango",
+    "g": 454,
+    "asOf": "2026-07-19",
+    "note": "organic frozen chunks (TJ 7/19), bag size assumed 16oz"
+  },
+  {
+    "food": "mandarin",
+    "count": 8,
+    "asOf": "2026-07-19",
+    "note": "Josie's 2lb bag (TJ 7/19), ~8 fruit ESTIMATE"
+  },
+  {
+    "food": "egg",
+    "count": 8,
+    "asOf": "2026-07-19",
+    "note": "UNVERIFIED \u2014 'have at home' minus 4 used in today's scramble; count the carton"
+  },
+  {
+    "food": "chicken-breast-cooked",
+    "g": 400,
+    "asOf": "2026-07-19",
+    "note": "UNVERIFIED \u2014 Costco frozen bites 'at home'; plan needs 400g for 2 rice bowls, check the bag"
+  },
+  {
+    "food": "white-rice-dry",
+    "g": 500,
+    "asOf": "2026-07-19",
+    "note": "UNVERIFIED pantry estimate"
+  },
+  {
+    "food": "honey",
+    "g": 200,
+    "asOf": "2026-07-19",
+    "note": "UNVERIFIED pantry estimate"
+  },
+  {
+    "food": "chia",
+    "g": 400,
+    "asOf": "2026-07-19",
+    "note": "UNVERIFIED \u2014 3lb bag per foods.json note, amount left unknown"
+  },
+  {
+    "food": "sriracha",
+    "g": 300,
+    "asOf": "2026-07-19",
+    "note": "UNVERIFIED pantry estimate"
+  },
+  {
+    "food": "butter",
+    "g": 200,
+    "asOf": "2026-07-19",
+    "note": "UNVERIFIED pantry estimate"
+  },
+  {
+    "food": "olive-oil",
+    "g": 400,
+    "asOf": "2026-07-19",
+    "note": "UNVERIFIED pantry estimate"
+  },
+  {
+    "food": "cocoa-powder",
+    "g": 100,
+    "asOf": "2026-07-19",
+    "note": "confirmed on hand 7/19, amount UNVERIFIED estimate"
+  },
+  {
+    "food": "flour-tortilla",
+    "count": 8,
+    "asOf": "2026-07-19",
+    "note": "TJ Organic 8ct, 510g bag = 64g each (meals.json wrap assumes 90g \u2014 one tortilla runs ~80 kcal light); best by Aug 6"
+  }
+]
