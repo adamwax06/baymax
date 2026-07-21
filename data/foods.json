@@ -691,5 +691,154 @@
       "fiber": 0
     },
     "allergyChecked": "2026-07-19"
+  },
+  {
+    "id": "oat-milk",
+    "name": "Oat milk, original",
+    "fdcId": null,
+    "fdcType": "Branded (category average)",
+    "note": "generic original oat milk avg (Oatly-like); replace with actual carton label. ALLERGY: verify no pea protein on label before first use",
+    "per100g": {
+      "protein": 1.3,
+      "fat": 1.8,
+      "carbs": 6.7,
+      "kcal": 48
+    }
+  },
+  {
+    "id": "rotisserie-chicken",
+    "name": "Shredded rotisserie chicken (refrigerated)",
+    "store": "traderjoes",
+    "fdcId": 171445,
+    "fdcType": "SR Legacy",
+    "weighed": "cooked",
+    "per100g": {
+      "kcal": 144,
+      "protein": 28.04,
+      "fat": 3.57,
+      "carbs": 0,
+      "fiber": 0,
+      "calcium": 13,
+      "iron": 0.46,
+      "magnesium": 25,
+      "potassium": 284,
+      "sodium": 328,
+      "zinc": 0.87,
+      "vitD": 0,
+      "vitC": 0
+    },
+    "allergyChecked": "2026-07-21",
+    "notes": "Jared haul 7/20; FDC rotisserie breast meat-only proxy \u2014 verify TJ label"
+  },
+  {
+    "id": "focaccia",
+    "name": "Focaccia, Italian flatbread",
+    "store": "traderjoes",
+    "fdcId": 167945,
+    "fdcType": "SR Legacy",
+    "weighed": "raw",
+    "per100g": {
+      "kcal": 249,
+      "protein": 8.77,
+      "fat": 7.89,
+      "carbs": 35.82,
+      "fiber": 1.8,
+      "calcium": 35,
+      "iron": 3.16,
+      "magnesium": 20,
+      "potassium": 114,
+      "sodium": 561,
+      "zinc": 1.33,
+      "vitD": 0,
+      "vitC": 0
+    },
+    "allergyChecked": "2026-07-21",
+    "notes": "Jared haul 7/20"
+  },
+  {
+    "id": "pineapple",
+    "name": "Pineapple, raw (fresh chunks; freeze for smoothies)",
+    "store": "traderjoes",
+    "fdcId": 169124,
+    "fdcType": "SR Legacy",
+    "weighed": "raw",
+    "per100g": {
+      "kcal": 50,
+      "protein": 0.54,
+      "fat": 0.12,
+      "carbs": 13.12,
+      "fiber": 1.4,
+      "calcium": 13,
+      "iron": 0.29,
+      "magnesium": 12,
+      "potassium": 109,
+      "sodium": 1,
+      "zinc": 0.12,
+      "vitD": 0,
+      "vitC": 47.8
+    },
+    "allergyChecked": "2026-07-21",
+    "notes": "Jared haul 7/20"
+  },
+  {
+    "id": "medjool-dates",
+    "name": "Medjool dates, pitted",
+    "store": "traderjoes",
+    "fdcId": 168191,
+    "fdcType": "SR Legacy",
+    "weighed": "each",
+    "unitG": 24,
+    "per100g": {
+      "kcal": 277,
+      "protein": 1.81,
+      "fat": 0.15,
+      "carbs": 74.97,
+      "fiber": 6.7,
+      "calcium": 64,
+      "iron": 0.9,
+      "magnesium": 54,
+      "potassium": 696,
+      "sodium": 1,
+      "zinc": 0.44,
+      "vitD": 0,
+      "vitC": 0
+    },
+    "allergyChecked": "2026-07-21",
+    "notes": "Jared haul 7/20; ~24g each pitted"
+  },
+  {
+    "id": "pico",
+    "name": "Pico de gallo (fresh salsa)",
+    "store": "traderjoes",
+    "fdcId": 174524,
+    "fdcType": "SR Legacy",
+    "weighed": "raw",
+    "per100g": {
+      "kcal": 25,
+      "protein": 1.0,
+      "fat": 0.2,
+      "carbs": 5.5,
+      "fiber": 1.2,
+      "sodium": 300
+    },
+    "allergyChecked": "2026-07-21",
+    "notes": "Jared haul 7/20. per100g ESTIMATE pending FDC fetch (rate-limited); nutritionally trivial. No bell pepper in TJ pico (tomato/onion/jalapeno/cilantro) \u2014 verify tub label"
+  },
+  {
+    "id": "buffalo-sauce",
+    "name": "Buffalo sauce, zero sugar",
+    "store": "traderjoes",
+    "fdcId": 174527,
+    "fdcType": "SR Legacy",
+    "weighed": "raw",
+    "per100g": {
+      "kcal": 15,
+      "protein": 0.5,
+      "fat": 0.5,
+      "carbs": 1.5,
+      "sodium": 2500
+    },
+    "allergyChecked": "2026-07-21",
+    "notes": "Jared haul 7/20. per100g ESTIMATE pending FDC fetch (rate-limited); cayenne-based, safe per profile (bell pepper only)"
   }
 ]

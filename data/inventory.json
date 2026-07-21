@@ -1,9 +1,9 @@
 [
   {
     "food": "greek-yogurt-whole",
-    "g": 907,
-    "asOf": "2026-07-19",
-    "note": "1x 32oz tub (TJ 7/19). Plan needs 1400g through Tue \u2014 short ~500g"
+    "g": 1800,
+    "asOf": "2026-07-20",
+    "note": "restocked 7/20 per Adam, amount UNVERIFIED \u2014 assume ~1 tub + prior remainder"
   },
   {
     "food": "ground-beef-85",
@@ -37,15 +37,15 @@
   },
   {
     "food": "bread-italian",
-    "g": 450,
-    "asOf": "2026-07-19",
-    "note": "sourdough batard (TJ 7/19) \u2014 stands in for Italian loaf"
+    "g": 680,
+    "asOf": "2026-07-20",
+    "note": "Jared haul 7/20 (granola dictation, sizes UNVERIFIED \u2014 assume typical TJ package): sliced sourdough, assume 24oz"
   },
   {
     "food": "potato",
-    "g": 450,
-    "asOf": "2026-07-19",
-    "note": "2 loose gold (TJ 7/19), ESTIMATE by eye \u2014 plan needs 800g through Tue"
+    "g": 1810,
+    "asOf": "2026-07-20",
+    "note": "Jared haul 7/20 (granola dictation, sizes UNVERIFIED \u2014 assume typical TJ package): assume 3lb bag + ~450g on hand"
   },
   {
     "food": "sweet-potato",
@@ -55,9 +55,9 @@
   },
   {
     "food": "spinach",
-    "g": 170,
-    "asOf": "2026-07-19",
-    "note": "1x 6oz bag (TJ 7/19) \u2014 plan needs 480g through Tue"
+    "g": 240,
+    "asOf": "2026-07-20",
+    "note": "Jared haul 7/20 (granola dictation, sizes UNVERIFIED \u2014 assume typical TJ package): assume 1x 6oz bag + ~70g left after 7/20 lunch"
   },
   {
     "food": "blueberries",
@@ -67,27 +67,27 @@
   },
   {
     "food": "raspberries",
-    "g": 340,
-    "asOf": "2026-07-19",
+    "g": 220,
+    "asOf": "2026-07-20",
     "note": "12oz (TJ 7/19)"
   },
   {
     "food": "mango",
     "g": 454,
-    "asOf": "2026-07-19",
-    "note": "organic frozen chunks (TJ 7/19), bag size assumed 16oz"
+    "asOf": "2026-07-20",
+    "note": "Jared haul 7/20 (granola dictation, sizes UNVERIFIED \u2014 assume typical TJ package): mango \u2014 fresh or frozen unknown; if fresh, cube+freeze for smoothies"
   },
   {
     "food": "mandarin",
-    "count": 8,
-    "asOf": "2026-07-19",
+    "count": 7,
+    "asOf": "2026-07-20",
     "note": "Josie's 2lb bag (TJ 7/19), ~8 fruit ESTIMATE"
   },
   {
     "food": "egg",
-    "count": 8,
-    "asOf": "2026-07-19",
-    "note": "UNVERIFIED \u2014 'have at home' minus 4 used in today's scramble; count the carton"
+    "count": 17,
+    "asOf": "2026-07-20",
+    "note": "Jared haul 7/20 (granola dictation, sizes UNVERIFIED \u2014 assume typical TJ package): assume 1 dozen + 5 on hand"
   },
   {
     "food": "chicken-breast-cooked",
@@ -103,9 +103,9 @@
   },
   {
     "food": "honey",
-    "g": 200,
-    "asOf": "2026-07-19",
-    "note": "UNVERIFIED pantry estimate"
+    "g": 150,
+    "asOf": "2026-07-20",
+    "note": "Adam says enough on hand 7/20, amount UNVERIFIED"
   },
   {
     "food": "chia",
@@ -140,7 +140,25 @@
   {
     "food": "flour-tortilla",
     "count": 8,
-    "asOf": "2026-07-19",
-    "note": "TJ Organic 8ct, 510g bag = 64g each (meals.json wrap assumes 90g \u2014 one tortilla runs ~80 kcal light); best by Aug 6"
+    "asOf": "2026-07-20",
+    "note": "Jared haul 7/20 (granola dictation, sizes UNVERIFIED \u2014 assume typical TJ package): tortillas, assume 8ct"
+  },
+  {
+    "food": "strawberries",
+    "g": 907,
+    "asOf": "2026-07-20",
+    "note": "Jared haul 7/20 (granola dictation, sizes UNVERIFIED \u2014 assume typical TJ package): assume 2lb clamshell"
+  },
+  {
+    "food": "pineapple",
+    "g": 454,
+    "asOf": "2026-07-20",
+    "note": "Jared haul 7/20 (granola dictation, sizes UNVERIFIED \u2014 assume typical TJ package): fresh chunks \u2014 FREEZE TONIGHT for tomorrow smoothie"
+  },
+  {
+    "food": "misc-jared-7-20",
+    "count": 1,
+    "asOf": "2026-07-20",
+    "note": "Jared haul 7/20 (granola dictation, sizes UNVERIFIED \u2014 assume typical TJ package): also jalapenos, buffalo sauce (zero sugar), apple juice, oat milk, grapes, pico, shredded rotisserie chicken, medjool dates, dried mango, focaccia, GUACAMOLE (avocado \u2014 ALLERGY, Adam must not eat; it is Jared/roommate food)"
   }
 ]

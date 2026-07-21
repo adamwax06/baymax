@@ -24,26 +24,30 @@
     "items": [
       {
         "food": "greek-yogurt-whole",
-        "g": 300
+        "g": 200
       },
       {
-        "food": "oats-dry",
-        "g": 70
+        "food": "oat-milk",
+        "g": 200
       },
       {
         "food": "mango",
         "g": 200
       },
       {
+        "food": "oats-dry",
+        "g": 35
+      },
+      {
         "food": "honey",
-        "g": 15
+        "g": 30
       },
       {
         "food": "chia",
         "g": 15
       }
     ],
-    "notes": "blender; oats go in dry"
+    "notes": "v4 (7/21): oat milk cut 250\u2192200g after v3 overflowed. Taste APPROVED at v3 \u2014 ratios settled. Blend order fix: liquid+oats+chia first ~30s to grind the chia, then yogurt+fruit. Fruit: frozen mango or pineapple. NEVER banana (allergy)"
   },
   {
     "id": "chicken-rice-bowl",
@@ -233,5 +237,90 @@
       }
     ],
     "notes": "Adam favorite. Fruit swappable: raspberries, blueberries, or blackberries (all in foods.json) \u2014 log whichever was used"
+  },
+  {
+    "id": "buffalo-chicken-wrap",
+    "name": "Buffalo chicken wrap",
+    "items": [
+      {
+        "food": "rotisserie-chicken",
+        "g": 175
+      },
+      {
+        "food": "flour-tortilla",
+        "count": 1
+      },
+      {
+        "food": "mozzarella-shredded",
+        "g": 30
+      },
+      {
+        "food": "spinach",
+        "g": 60
+      },
+      {
+        "food": "buffalo-sauce",
+        "g": 30
+      },
+      {
+        "food": "pico",
+        "g": 50
+      }
+    ],
+    "notes": "shredded rotisserie chicken warmed with buffalo sauce; pico on top"
+  },
+  {
+    "id": "focaccia-chicken-melt",
+    "name": "Focaccia chicken melt",
+    "items": [
+      {
+        "food": "focaccia",
+        "g": 160
+      },
+      {
+        "food": "rotisserie-chicken",
+        "g": 200
+      },
+      {
+        "food": "mozzarella-shredded",
+        "g": 40
+      },
+      {
+        "food": "pico",
+        "g": 100
+      },
+      {
+        "food": "spinach",
+        "g": 40
+      }
+    ],
+    "notes": "open-face under broiler until cheese melts; pico after"
+  },
+  {
+    "id": "tropical-yogurt-bowl",
+    "name": "Tropical yogurt bowl",
+    "items": [
+      {
+        "food": "greek-yogurt-whole",
+        "g": 300
+      },
+      {
+        "food": "pineapple",
+        "g": 200
+      },
+      {
+        "food": "medjool-dates",
+        "count": 2
+      },
+      {
+        "food": "chia",
+        "g": 15
+      },
+      {
+        "food": "pistachios",
+        "g": 15
+      }
+    ],
+    "notes": "pineapple fresh or frozen; dates chopped"
   }
 ]
