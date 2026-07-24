@@ -6,7 +6,7 @@ import SwiftUI
 // appends and re-imports.
 
 struct LogView: View {
-    @AppStorage("serverURL") private var serverURL = "http://192.168.1.10:4321"
+    @AppStorage("serverURL") private var serverURL = "http://192.168.86.80:4321"
     @Environment(\.colorScheme) private var colorScheme
 
     @State private var template: Template?
@@ -16,6 +16,8 @@ struct LogView: View {
     @State private var errorText: String?
     @State private var saving = false
     @State private var pendingCount = UserDefaults.standard.stringArray(forKey: "pendingWorkouts")?.count ?? 0
+    @State private var showCustomName = false
+    @State private var customName = ""
 
     private let coreTypes = ["push", "pull", "legs"]
 
@@ -131,6 +133,7 @@ struct LogView: View {
                     drafts.append(DraftExercise(name: name, sets: [DraftSet(lb: "", reps: "", perSide: false, bodyweight: false)]))
                 }
             }
+            Button("Custom…") { showCustomName = true }
         } label: {
             Label("Add exercise", systemImage: "plus.circle.fill")
                 .font(.subheadline.weight(.semibold))
@@ -138,6 +141,17 @@ struct LogView: View {
                 .frame(maxWidth: .infinity)
                 .padding(.vertical, 12)
                 .glassEffect(.regular, in: .capsule)
+        }
+        .alert("New exercise", isPresented: $showCustomName) {
+            TextField("Name", text: $customName)
+            Button("Add") {
+                let name = customName.trimmingCharacters(in: .whitespaces)
+                if !name.isEmpty {
+                    drafts.append(DraftExercise(name: name, sets: [DraftSet(lb: "", reps: "", perSide: false, bodyweight: false)]))
+                }
+                customName = ""
+            }
+            Button("Cancel", role: .cancel) { customName = "" }
         }
     }
 

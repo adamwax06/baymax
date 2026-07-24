@@ -8592,6 +8592,130 @@
       "type": "pull"
     },
     {
+      "date": "2026-07-19",
+      "exercises": [
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8
+              ],
+              "lb": 200
+            }
+          ]
+        },
+        {
+          "name": "Leg Press Calf Raises",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                7
+              ],
+              "lb": 450
+            }
+          ]
+        },
+        {
+          "name": "Hamstring Curl",
+          "sets": [
+            {
+              "reps": [
+                8,
+                8,
+                6
+              ],
+              "lb": 125
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Leg Extension",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7
+              ],
+              "lb": 125
+            }
+          ]
+        }
+      ],
+      "type": "legs"
+    },
+    {
+      "date": "2026-07-20",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "reps": [
+                8,
+                5
+              ],
+              "lb": 160
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Tricep Pushdown",
+          "sets": [
+            {
+              "reps": [
+                10,
+                7
+              ],
+              "lb": 23
+            }
+          ]
+        },
+        {
+          "name": "DB Lateral Raise",
+          "sets": [
+            {
+              "reps": [
+                6,
+                6,
+                5
+              ],
+              "lb": 25,
+              "perSide": true
+            }
+          ]
+        },
+        {
+          "name": "Incline Fly",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7
+              ],
+              "lb": 66
+            }
+          ]
+        },
+        {
+          "name": "DB Skull Crusher",
+          "sets": [
+            {
+              "reps": [
+                6,
+                6
+              ],
+              "lb": 25
+            }
+          ]
+        }
+      ],
+      "type": "push"
+    },
+    {
       "date": "2026-07-21",
       "exercises": [
         {
@@ -8658,6 +8782,57 @@
         }
       ],
       "type": "pull"
+    },
+    {
+      "date": "2026-07-24",
+      "type": "push",
+      "gym": "lisbon-hotel",
+      "exercises": [
+        {
+          "name": "DB Bench Press",
+          "sets": [
+            {
+              "lb": 48.5,
+              "perSide": true,
+              "reps": [
+                12,
+                12,
+                12
+              ]
+            }
+          ],
+          "notes": "22kg DBs, slow eccentric \u2014 hotel gym max"
+        },
+        {
+          "name": "Unilateral Tricep Pushdown",
+          "sets": [
+            {
+              "lb": 26.5,
+              "reps": [
+                10,
+                10
+              ]
+            }
+          ],
+          "notes": "12kg cable stack; reps approximate ('like normal')"
+        },
+        {
+          "name": "DB Lateral Raise",
+          "sets": [
+            {
+              "lb": 26.5,
+              "perSide": true,
+              "reps": [
+                8,
+                8,
+                8
+              ]
+            }
+          ],
+          "notes": "12kg DBs"
+        }
+      ],
+      "notes": "Lisbon hotel gym (DBs to 22kg, 2x25kg cable handles). Plus misc extra push volume, unlogged. kg converted to lb."
     }
   ]
 }

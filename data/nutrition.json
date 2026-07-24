@@ -1,11 +1,11 @@
 [
   {
     "date": "2026-07-19",
-    "kcal": 3055,
-    "protein": 193,
-    "carbs": 390,
-    "fat": 84,
-    "fiber": 42.1,
+    "kcal": 3445,
+    "protein": 209,
+    "carbs": 427,
+    "fat": 103,
+    "fiber": 44.1,
     "calcium": 1664.5,
     "iron": 23.3,
     "magnesium": 640.3,
@@ -22,6 +22,188 @@
       "post-lift-smoothie",
       "chicken-rice-bowl"
     ],
-    "method": "plan-derived"
+    "method": "plan-derived+deviations",
+    "deviations": [
+      {
+        "desc": "1 slice Domino's large stuffed cheesy crust pepperoni (estimated)",
+        "kcal": 390,
+        "protein": 16,
+        "carbs": 37,
+        "fat": 19,
+        "fiber": 2
+      }
+    ]
+  },
+  {
+    "date": "2026-07-20",
+    "kcal": 3079,
+    "protein": 187,
+    "carbs": 356,
+    "fat": 107,
+    "fiber": 33.8,
+    "calcium": 1009.7,
+    "iron": 10.7,
+    "magnesium": 340.7,
+    "potassium": 2514.6,
+    "sodium": 4336.4,
+    "zinc": 9.4,
+    "vitD": 3.0,
+    "vitC": 130.9,
+    "ala": 2.7,
+    "meals": [],
+    "method": "calendar-derived as-eaten (Adam confirmed 7/21: ate exactly what the calendar shows)",
+    "deviations": [
+      {
+        "desc": "Kirkland breaded chicken chunks ~270g (label-estimated)",
+        "kcal": 521,
+        "protein": 53,
+        "carbs": 42,
+        "fat": 22
+      },
+      {
+        "desc": "Restaurant chicken tikka masala + rice plate (estimated, replaced beef+potato dinner)",
+        "kcal": 875,
+        "protein": 46,
+        "carbs": 85,
+        "fat": 36
+      }
+    ],
+    "notes": "micros undercount slightly: nugget/tikka estimates carry macros+sodium only"
+  },
+  {
+    "date": "2026-07-21",
+    "kcal": 2985,
+    "protein": 177,
+    "carbs": 377,
+    "fat": 93,
+    "fiber": 27.6,
+    "calcium": 1108.1,
+    "iron": 15.6,
+    "magnesium": 364.5,
+    "potassium": 2833.9,
+    "sodium": 4468.8,
+    "zinc": 11.7,
+    "vitD": 2.8,
+    "vitC": 95.4,
+    "ala": 2.8,
+    "meals": [
+      "focaccia-chicken-melt"
+    ],
+    "method": "calendar-derived as-eaten",
+    "deviations": [
+      {
+        "desc": "Shrimp poke bowl, whole (takeout, estimated large)",
+        "kcal": 850,
+        "protein": 40,
+        "carbs": 120,
+        "fat": 25
+      },
+      {
+        "desc": "Egg scramble wrap only 65% eaten (too full)",
+        "kcal": -198,
+        "protein": -12,
+        "carbs": -11,
+        "fat": -11
+      },
+      {
+        "desc": "3 medjool dates pre-dinner",
+        "kcal": 199,
+        "protein": 1,
+        "carbs": 54,
+        "fat": 0
+      }
+    ],
+    "notes": "kcal/macros are full-day derived totals (deviations already included, listed for provenance). Smoothie was v3 (250g oat milk). Planned run replaced by 20-min walk; toast skipped."
+  },
+  {
+    "date": "2026-07-22",
+    "kcal": 1733,
+    "protein": 125,
+    "carbs": 169,
+    "fat": 65,
+    "meals": [
+      "cocoa-berry-yogurt-bowl",
+      "buffalo-chicken-wrap"
+    ],
+    "method": "calendar-derived + travel estimates",
+    "deviations": [
+      {
+        "desc": "TAP in-flight dinner: chicken + rice, side salad, bread roll (estimated)",
+        "kcal": 700,
+        "protein": 30,
+        "carbs": 80,
+        "fat": 28
+      }
+    ],
+    "notes": "SFO->LIS travel day; cocoa bowl was strawberry variant (same derived macros). Light day by design."
+  },
+  {
+    "date": "2026-07-23",
+    "kcal": 2800,
+    "protein": 91,
+    "carbs": 250,
+    "fat": 96,
+    "meals": [],
+    "method": "travel estimates (Adam's report, no plan)",
+    "deviations": [
+      {
+        "desc": "TAP breakfast: sandwich + muffin (estimated)",
+        "kcal": 700,
+        "protein": 18,
+        "carbs": 90,
+        "fat": 30
+      },
+      {
+        "desc": "Sourdough slice + prosciutto + sharp cheese (estimated)",
+        "kcal": 365,
+        "protein": 18,
+        "carbs": 33,
+        "fat": 18
+      },
+      {
+        "desc": "Honest Greens steak chimichurri + smashed potatoes (estimated, no published data)",
+        "kcal": 850,
+        "protein": 55,
+        "carbs": 45,
+        "fat": 48
+      },
+      {
+        "desc": "~375ml white wine (~285) + ~375ml Moscatel de Setubal (fortified+sweet, ~600)",
+        "kcal": 885,
+        "protein": 0,
+        "carbs": 78,
+        "fat": 0
+      }
+    ],
+    "notes": "Lisbon day 1. Alcohol kcal mostly from ethanol (not in macros); carbs field carries moscatel sugar. Days bucketed to Lisbon local time."
+  },
+  {
+    "date": "2026-07-24",
+    "kcal": 264,
+    "protein": 5,
+    "carbs": 34,
+    "fat": 13,
+    "fiber": 3.1,
+    "meals": [],
+    "method": "travel estimates (Adam's report, no plan)",
+    "deviations": [
+      {
+        "desc": "Jupiter Lisboa passion fruit mousse, estimated ~85g small buffet serving (USDA FNDDS mousse proxy)",
+        "kcal": 180,
+        "protein": 3.6,
+        "carbs": 13.8,
+        "fat": 12.9,
+        "fiber": 0.5
+      },
+      {
+        "desc": "Half of Jupiter Lisboa fresh fruit tray, estimated ~150g mixed fruit, no dressing",
+        "kcal": 84,
+        "protein": 1.1,
+        "carbs": 20.2,
+        "fat": 0.3,
+        "fiber": 2.6
+      }
+    ],
+    "notes": "Partial day so far. Hotel does not publish serving weights or nutrition; estimates use USDA FNDDS 2705698 (mousse) and 2709288 (mixed fresh fruit). Fruit composition was not reported, including whether it contained watermelon from the profile allergy list."
   }
 ]
