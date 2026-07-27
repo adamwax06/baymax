@@ -8833,6 +8833,80 @@
         }
       ],
       "notes": "Lisbon hotel gym (DBs to 22kg, 2x25kg cable handles). Plus misc extra push volume, unlogged. kg converted to lb."
+    },
+    {
+      "date": "2026-07-27",
+      "type": "pull",
+      "gym": "lisbon",
+      "exercises": [
+        {
+          "name": "Lat Pulldown",
+          "sets": [
+            {
+              "lb": 160,
+              "reps": [
+                8,
+                8
+              ]
+            }
+          ],
+          "notes": "rep PR at this weight"
+        },
+        {
+          "name": "Cable Curl",
+          "sets": [
+            {
+              "lb": 60,
+              "reps": [
+                5,
+                4
+              ]
+            }
+          ],
+          "notes": "load PR"
+        },
+        {
+          "name": "Row",
+          "sets": [
+            {
+              "lb": 160,
+              "reps": [
+                8,
+                8,
+                8
+              ]
+            }
+          ],
+          "notes": "weight PR (prev 155)"
+        },
+        {
+          "name": "Unilateral DB Curl",
+          "sets": [
+            {
+              "lb": 38.6,
+              "perSide": true,
+              "reps": [
+                6,
+                6
+              ]
+            }
+          ],
+          "notes": "17.5kg DBs \u2014 gym's increments, lighter than usual 40lb"
+        },
+        {
+          "name": "Unilateral Lat Pullover",
+          "sets": [
+            {
+              "lb": 30,
+              "reps": [
+                10,
+                3
+              ]
+            }
+          ]
+        }
+      ],
+      "notes": "Real gym in Lisbon (via Cade), not the hotel dumbbell/cable setup \u2014 weight stack available."
     }
   ]
 }

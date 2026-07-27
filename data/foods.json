@@ -713,22 +713,22 @@
     "fdcType": "SR Legacy",
     "weighed": "cooked",
     "per100g": {
-      "kcal": 144,
-      "protein": 28.04,
-      "fat": 3.57,
-      "carbs": 0,
+      "kcal": 167,
+      "protein": 18.6,
+      "fat": 9.8,
+      "carbs": 2.7,
       "fiber": 0,
       "calcium": 13,
       "iron": 0.46,
       "magnesium": 25,
       "potassium": 284,
-      "sodium": 328,
+      "sodium": 236,
       "zinc": 0.87,
       "vitD": 0,
       "vitC": 0
     },
-    "allergyChecked": "2026-07-21",
-    "notes": "Jared haul 7/20; FDC rotisserie breast meat-only proxy \u2014 verify TJ label"
+    "allergyChecked": "2026-07-27",
+    "notes": "Verified label, Pingo Doce Frango Churrasco (Lisbon, 7/27/26): 167kcal/P18.6/F9.8/C2.7 per100g, salt 0.6g/100g. Label 'pode conter' (may-contain/cross-contact): leite, soja, ovo, PEIXE, gluten, aipo, mostarda, casca de frutos secos, AMENDOIM, sesamo, moluscos \u2014 fish/peanut/tree-nut cross-contact warning. Adam ate most of this batch 7/27 with no reaction; avoid rebuying this specific product without re-checking label."
   },
   {
     "id": "focaccia",
