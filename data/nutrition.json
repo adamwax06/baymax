@@ -179,13 +179,13 @@
   },
   {
     "date": "2026-07-24",
-    "kcal": 264,
-    "protein": 5,
-    "carbs": 34,
-    "fat": 13,
+    "kcal": 2314,
+    "protein": 64,
+    "carbs": 241,
+    "fat": 118,
     "fiber": 3.1,
     "meals": [],
-    "method": "travel estimates (Adam's report, no plan)",
+    "method": "calendar-derived AM + travel estimates PM",
     "deviations": [
       {
         "desc": "Jupiter Lisboa passion fruit mousse, estimated ~85g small buffet serving (USDA FNDDS mousse proxy)",
@@ -202,8 +202,111 @@
         "carbs": 20.2,
         "fat": 0.3,
         "fiber": 2.6
+      },
+      {
+        "desc": "Meatballs & pasta, Ristorante Mattarello (strozzapreti della mamma, estimated)",
+        "kcal": 950,
+        "protein": 40,
+        "carbs": 100,
+        "fat": 40
+      },
+      {
+        "desc": "Tiramisu, Mattarello",
+        "kcal": 450,
+        "protein": 7,
+        "carbs": 45,
+        "fat": 26
+      },
+      {
+        "desc": "Pastel de nata (late night)",
+        "kcal": 300,
+        "protein": 6,
+        "carbs": 22,
+        "fat": 21
+      },
+      {
+        "desc": "Larger pastry, unspecified (late night, estimated)",
+        "kcal": 350,
+        "protein": 6,
+        "carbs": 40,
+        "fat": 18
       }
     ],
-    "notes": "Partial day so far. Hotel does not publish serving weights or nutrition; estimates use USDA FNDDS 2705698 (mousse) and 2709288 (mixed fresh fruit). Fruit composition was not reported, including whether it contained watermelon from the profile allergy list."
+    "notes": "Partial day so far. Hotel does not publish serving weights or nutrition; estimates use USDA FNDDS 2705698 (mousse) and 2709288 (mixed fresh fruit). Fruit composition was not reported, including whether it contained watermelon from the profile allergy list. Day 2 Lisbon: Italian dinner + late pastries."
+  },
+  {
+    "date": "2026-07-25",
+    "kcal": 2637,
+    "protein": 86,
+    "carbs": 266,
+    "fat": 85,
+    "meals": [],
+    "method": "travel estimates (Adam's recall)",
+    "deviations": [
+      {
+        "desc": "Greek yogurt bowl with agave (breakfast)",
+        "kcal": 246,
+        "protein": 22,
+        "carbs": 24,
+        "fat": 11
+      },
+      {
+        "desc": "2 thin rice crackers with agave",
+        "kcal": 80,
+        "protein": 1,
+        "carbs": 18,
+        "fat": 0
+      },
+      {
+        "desc": "Babybel cheese",
+        "kcal": 70,
+        "protein": 5,
+        "carbs": 0,
+        "fat": 6
+      },
+      {
+        "desc": "Octopus, sweet potato, spinach \u2014 Incomum (signature dish, estimated)",
+        "kcal": 680,
+        "protein": 45,
+        "carbs": 45,
+        "fat": 30
+      },
+      {
+        "desc": "Gelato",
+        "kcal": 250,
+        "protein": 5,
+        "carbs": 32,
+        "fat": 11
+      },
+      {
+        "desc": "More pastries, late night (estimated)",
+        "kcal": 500,
+        "protein": 8,
+        "carbs": 55,
+        "fat": 27
+      },
+      {
+        "desc": "~half Malibu cocktail",
+        "kcal": 180,
+        "protein": 0,
+        "carbs": 20,
+        "fat": 0
+      },
+      {
+        "desc": "Long Island iced tea",
+        "kcal": 280,
+        "protein": 0,
+        "carbs": 30,
+        "fat": 0
+      },
+      {
+        "desc": "Moscatel (estimated ~1 glass)",
+        "kcal": 300,
+        "protein": 0,
+        "carbs": 38,
+        "fat": 0
+      }
+    ],
+    "notes": "Lisbon day 3. Heavy pastry + alcohol day, all estimated from recall \u2014 treat totals as rough. Agave used as honey-macro proxy."
   }
 ]
