@@ -322,5 +322,32 @@
       }
     ],
     "notes": "pineapple fresh or frozen; dates chopped"
+  },
+  {
+    "id": "cocoa-granola-yogurt-bowl",
+    "name": "Cocoa granola yogurt bowl",
+    "items": [
+      {
+        "food": "greek-yogurt-whole",
+        "g": 300
+      },
+      {
+        "food": "cocoa-powder",
+        "g": 1
+      },
+      {
+        "food": "granola-very-berry",
+        "g": 30
+      },
+      {
+        "food": "honey",
+        "g": 30
+      },
+      {
+        "food": "chia",
+        "g": 15
+      }
+    ],
+    "notes": "No-fruit variant of cocoa-berry-yogurt-bowl for when fruit's out \u2014 granola instead, cocoa just a dusting (1g). 7/29 in-the-moment version."
   }
 ]

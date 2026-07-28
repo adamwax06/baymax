@@ -840,5 +840,20 @@
     },
     "allergyChecked": "2026-07-21",
     "notes": "Jared haul 7/20. per100g ESTIMATE pending FDC fetch (rate-limited); cayenne-based, safe per profile (bell pepper only)"
+  },
+  {
+    "id": "granola-very-berry",
+    "name": "Very Berry Granola (Trader Joe's)",
+    "store": "traderjoes",
+    "fdcType": "label",
+    "weighed": "dry",
+    "per100g": {
+      "kcal": 433,
+      "protein": 10,
+      "carbs": 75,
+      "fat": 11.7
+    },
+    "allergyChecked": "2026-07-29",
+    "notes": "label serving: 60g=260kcal/6gP/45gC/7gF. Verify ingredients for tree nuts before rebuying if allergy-relevant batch changes."
   }
 ]
