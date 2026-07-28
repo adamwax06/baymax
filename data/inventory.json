@@ -1,158 +1,210 @@
 [
   {
     "food": "greek-yogurt-whole",
-    "g": 1800,
-    "asOf": "2026-07-20",
-    "note": "restocked 7/20 per Adam, amount UNVERIFIED \u2014 assume ~1 tub + prior remainder"
-  },
-  {
-    "food": "ground-beef-85",
-    "g": 454,
-    "asOf": "2026-07-19",
-    "note": "1lb organic grass-fed (TJ 7/19)"
+    "g": 700,
+    "asOf": "2026-07-29",
+    "note": "2 tubs in fridge door, amount UNVERIFIED — fridge audit 7/29"
   },
   {
     "food": "ground-beef-96",
     "g": 454,
-    "asOf": "2026-07-19",
-    "note": "1lb 96/4 (TJ 7/19) \u2014 leaner than logged 85/15; add ~10g butter to that dinner"
+    "asOf": "2026-07-29",
+    "note": "1 chub in fridge, freshness/age unverified — fridge audit 7/29"
   },
   {
-    "food": "chicken-thigh",
-    "g": 454,
-    "asOf": "2026-07-19",
-    "note": "1lb boneless skinless (TJ 7/19)"
+    "food": "rotisserie-chicken",
+    "g": 300,
+    "asOf": "2026-07-29",
+    "note": "Adam confirms on hand, amount UNVERIFIED (not clearly visible in audit photos)"
   },
   {
     "food": "mozzarella-shredded",
-    "g": 340,
-    "asOf": "2026-07-19",
-    "note": "12oz LITE shreds (TJ 7/19) \u2014 leaner than logged"
-  },
-  {
-    "food": "oats-dry",
-    "g": 907,
-    "asOf": "2026-07-19",
-    "note": "32oz GF rolled oats (TJ 7/19)"
-  },
-  {
-    "food": "bread-italian",
-    "g": 680,
-    "asOf": "2026-07-20",
-    "note": "Jared haul 7/20 (granola dictation, sizes UNVERIFIED \u2014 assume typical TJ package): sliced sourdough, assume 24oz"
-  },
-  {
-    "food": "potato",
-    "g": 1810,
-    "asOf": "2026-07-20",
-    "note": "Jared haul 7/20 (granola dictation, sizes UNVERIFIED \u2014 assume typical TJ package): assume 3lb bag + ~450g on hand"
-  },
-  {
-    "food": "sweet-potato",
-    "g": 650,
-    "asOf": "2026-07-19",
-    "note": "1 orange + 1 Japanese, loose (TJ 7/19), ESTIMATE"
+    "g": 300,
+    "asOf": "2026-07-29",
+    "note": "1 bag Kirkland lite shreds, amount UNVERIFIED — fridge audit 7/29"
   },
   {
     "food": "spinach",
-    "g": 240,
-    "asOf": "2026-07-20",
-    "note": "Jared haul 7/20 (granola dictation, sizes UNVERIFIED \u2014 assume typical TJ package): assume 1x 6oz bag + ~70g left after 7/20 lunch"
+    "g": 170,
+    "asOf": "2026-07-29",
+    "note": "1 bag Earthbound Farm, amount UNVERIFIED — fridge audit 7/29"
   },
   {
-    "food": "blueberries",
-    "g": 510,
-    "asOf": "2026-07-19",
-    "note": "18oz clamshell (TJ 7/19)"
+    "food": "egg",
+    "count": 10,
+    "asOf": "2026-07-29",
+    "note": "ESTIMATE from carton fill level — fridge audit 7/29"
   },
   {
-    "food": "raspberries",
-    "g": 220,
-    "asOf": "2026-07-20",
-    "note": "12oz (TJ 7/19)"
+    "food": "oats-dry",
+    "g": 700,
+    "asOf": "2026-07-29",
+    "note": "1 bag rolled oats, amount UNVERIFIED — pantry audit 7/29"
+  },
+  {
+    "food": "bread-italian",
+    "g": 500,
+    "asOf": "2026-07-29",
+    "note": "1 loaf Rustic Italian, amount UNVERIFIED — pantry audit 7/29"
+  },
+  {
+    "food": "flour-tortilla",
+    "count": 6,
+    "asOf": "2026-07-29",
+    "note": "1 bag, count UNVERIFIED — pantry audit 7/29"
   },
   {
     "food": "mango",
     "g": 454,
-    "asOf": "2026-07-20",
-    "note": "Jared haul 7/20 (granola dictation, sizes UNVERIFIED \u2014 assume typical TJ package): mango \u2014 fresh or frozen unknown; if fresh, cube+freeze for smoothies"
+    "asOf": "2026-07-29",
+    "note": "frozen Kirkland mango chunks, 16oz bag — freezer audit 7/29"
   },
   {
-    "food": "mandarin",
-    "count": 7,
-    "asOf": "2026-07-20",
-    "note": "Josie's 2lb bag (TJ 7/19), ~8 fruit ESTIMATE"
-  },
-  {
-    "food": "egg",
-    "count": 17,
-    "asOf": "2026-07-20",
-    "note": "Jared haul 7/20 (granola dictation, sizes UNVERIFIED \u2014 assume typical TJ package): assume 1 dozen + 5 on hand"
-  },
-  {
-    "food": "chicken-breast-cooked",
-    "g": 400,
-    "asOf": "2026-07-19",
-    "note": "UNVERIFIED \u2014 Costco frozen bites 'at home'; plan needs 400g for 2 rice bowls, check the bag"
-  },
-  {
-    "food": "white-rice-dry",
-    "g": 500,
-    "asOf": "2026-07-19",
-    "note": "UNVERIFIED pantry estimate"
-  },
-  {
-    "food": "honey",
-    "g": 150,
-    "asOf": "2026-07-20",
-    "note": "Adam says enough on hand 7/20, amount UNVERIFIED"
-  },
-  {
-    "food": "chia",
-    "g": 400,
-    "asOf": "2026-07-19",
-    "note": "UNVERIFIED \u2014 3lb bag per foods.json note, amount left unknown"
-  },
-  {
-    "food": "sriracha",
-    "g": 300,
-    "asOf": "2026-07-19",
-    "note": "UNVERIFIED pantry estimate"
+    "food": "medjool-dates",
+    "count": 15,
+    "asOf": "2026-07-29",
+    "note": "Sun-Date pitted medjool bag, count UNVERIFIED — pantry audit 7/29"
   },
   {
     "food": "butter",
-    "g": 200,
-    "asOf": "2026-07-19",
-    "note": "UNVERIFIED pantry estimate"
+    "g": 150,
+    "asOf": "2026-07-29",
+    "note": "in fridge door, amount UNVERIFIED — fridge audit 7/29"
+  },
+  {
+    "food": "oat-milk",
+    "g": 800,
+    "asOf": "2026-07-29",
+    "note": "Trader Joe's non-dairy oat beverage, carton mostly full — fridge audit 7/29"
+  },
+  {
+    "food": "whole-milk",
+    "g": 900,
+    "asOf": "2026-07-29",
+    "note": "actually Lucerne 2% reduced fat, not whole — mapped to closest registered id, carton mostly full"
+  },
+  {
+    "food": "honey",
+    "g": 300,
+    "asOf": "2026-07-29",
+    "note": "large amber bottle in pantry, amount UNVERIFIED — pantry audit 7/29"
+  },
+  {
+    "food": "white-rice-dry",
+    "g": 900,
+    "asOf": "2026-07-29",
+    "note": "bag in pantry, amount UNVERIFIED — pantry audit 7/29"
   },
   {
     "food": "olive-oil",
     "g": 400,
-    "asOf": "2026-07-19",
-    "note": "UNVERIFIED pantry estimate"
+    "asOf": "2026-07-29",
+    "note": "tall green bottle, amount UNVERIFIED — pantry audit 7/29"
   },
   {
-    "food": "cocoa-powder",
-    "g": 100,
-    "asOf": "2026-07-19",
-    "note": "confirmed on hand 7/19, amount UNVERIFIED estimate"
+    "food": "sriracha",
+    "g": 200,
+    "asOf": "2026-07-29",
+    "note": "bottle in fridge door, amount UNVERIFIED — fridge audit 7/29"
   },
   {
-    "food": "flour-tortilla",
-    "count": 8,
-    "asOf": "2026-07-20",
-    "note": "Jared haul 7/20 (granola dictation, sizes UNVERIFIED \u2014 assume typical TJ package): tortillas, assume 8ct"
+    "name": "hamburger buns",
+    "asOf": "2026-07-29",
+    "note": "pantry, amount unverified, not registered in foods.json"
   },
   {
-    "food": "strawberries",
-    "g": 907,
-    "asOf": "2026-07-20",
-    "note": "Jared haul 7/20 (granola dictation, sizes UNVERIFIED \u2014 assume typical TJ package): assume 2lb clamshell"
+    "name": "brioche buns",
+    "asOf": "2026-07-29",
+    "note": "pantry, amount unverified, not registered in foods.json"
   },
   {
-    "food": "misc-jared-7-20",
-    "count": 1,
-    "asOf": "2026-07-20",
-    "note": "Jared haul 7/20 (granola dictation, sizes UNVERIFIED \u2014 assume typical TJ package): also jalapenos, buffalo sauce (zero sugar), apple juice, oat milk, grapes, pico, shredded rotisserie chicken, medjool dates, dried mango, focaccia, GUACAMOLE (avocado \u2014 ALLERGY, Adam must not eat; it is Jared/roommate food)"
+    "name": "pasta (boxed)",
+    "asOf": "2026-07-29",
+    "note": "pantry, amount/shape unverified, not registered in foods.json"
+  },
+  {
+    "name": "Very Berry granola",
+    "asOf": "2026-07-29",
+    "note": "pantry, amount unverified, not registered in foods.json"
+  },
+  {
+    "name": "sesame seeds",
+    "asOf": "2026-07-29",
+    "note": "pantry, amount unverified, not registered in foods.json"
+  },
+  {
+    "name": "coarse salt",
+    "asOf": "2026-07-29",
+    "note": "pantry, not diet-tracked"
+  },
+  {
+    "name": "marinara sauce",
+    "asOf": "2026-07-29",
+    "note": "fridge, jar(s), amount unverified, not registered in foods.json"
+  },
+  {
+    "name": "salsa",
+    "asOf": "2026-07-29",
+    "note": "fridge, jar, amount unverified, not registered in foods.json"
+  },
+  {
+    "name": "mustard",
+    "asOf": "2026-07-29",
+    "note": "pantry, not diet-tracked (condiment)"
+  },
+  {
+    "name": "Panang curry sauce",
+    "asOf": "2026-07-29",
+    "note": "pantry, jar, not registered in foods.json"
+  },
+  {
+    "name": "balsamic vinegar",
+    "asOf": "2026-07-29",
+    "note": "pantry, not diet-tracked (condiment)"
+  },
+  {
+    "name": "red wine",
+    "asOf": "2026-07-29",
+    "note": "pantry, 1 bottle"
+  },
+  {
+    "name": "Kirkland raw chicken breast fillets",
+    "asOf": "2026-07-29",
+    "note": "freezer, large bag — good candidate to register in foods.json if a recipe uses it"
+  },
+  {
+    "name": "unlabeled large meat cut",
+    "asOf": "2026-07-29",
+    "note": "freezer — Adam thinks skirt or flank steak, unverified"
+  },
+  {
+    "name": "frozen green beans",
+    "asOf": "2026-07-29",
+    "note": "freezer, amount unverified, not registered in foods.json"
+  },
+  {
+    "name": "frozen dumplings/potstickers",
+    "asOf": "2026-07-29",
+    "note": "freezer, brand/count unverified, not registered in foods.json"
+  },
+  {
+    "name": "Bibigo mandarin chicken fried rice",
+    "asOf": "2026-07-29",
+    "note": "freezer, frozen meal, not registered in foods.json"
+  },
+  {
+    "name": "Crazy Cuisine orange chicken",
+    "asOf": "2026-07-29",
+    "note": "freezer, frozen meal, not registered in foods.json"
+  },
+  {
+    "name": "frozen chicken tenders",
+    "asOf": "2026-07-29",
+    "note": "freezer, brand/count unverified, not registered in foods.json"
+  },
+  {
+    "name": "Kirkland energy drink variety pack",
+    "asOf": "2026-07-29",
+    "note": "pantry, not diet-tracked"
   }
 ]
