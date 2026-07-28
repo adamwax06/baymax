@@ -308,5 +308,92 @@
       }
     ],
     "notes": "Lisbon day 3. Heavy pastry + alcohol day, all estimated from recall \u2014 treat totals as rough. Agave used as honey-macro proxy."
+  },
+  {
+    "date": "2026-07-27",
+    "kcal": 3587,
+    "protein": 223,
+    "carbs": 269,
+    "fat": 174,
+    "meals": [],
+    "method": "travel estimates + verified label",
+    "deviations": [
+      {
+        "desc": "Camar\u00e3o (shrimp) bowl, Hygge Kaffe, no cashews (curry couscous, prawns, pineapple, yogurt sauce)",
+        "kcal": 580,
+        "protein": 32,
+        "carbs": 55,
+        "fat": 20
+      },
+      {
+        "desc": "Rotisserie chicken, ~3/4 of 844g bag (Pingo Doce Frango Churrasco, verified label)",
+        "kcal": 1057,
+        "protein": 118,
+        "carbs": 17,
+        "fat": 62
+      },
+      {
+        "desc": "Kebab dinner, Bullpen Market (Campo Pequeno, Lisbon)",
+        "kcal": 850,
+        "protein": 38,
+        "carbs": 70,
+        "fat": 45
+      },
+      {
+        "desc": "LH454 meal 2: pasta bolognese, bread+butter, dessert + one unrecalled component",
+        "kcal": 1100,
+        "protein": 35,
+        "carbs": 127,
+        "fat": 47
+      }
+    ],
+    "notes": "Lisbon day 5 \u2014 pull day at a real gym via Cade (Row + Cable Curl PRs). Kebab dinner + flight meal 1 (bolognese) both landed same Lisbon-local evening/night before the date rolled over."
+  },
+  {
+    "date": "2026-07-28",
+    "kcal": 1962,
+    "protein": 64,
+    "carbs": 269,
+    "fat": 69,
+    "meals": [],
+    "method": "travel estimates (Adam's recall; Lufthansa doesn't publish per-flight nutrition data)",
+    "deviations": [
+      {
+        "desc": "Coke Zero",
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0
+      },
+      {
+        "desc": "LH454 meal 1: butter chicken + rice (no green beans), bread+butter, apple fritter (no almond topping)",
+        "kcal": 1110,
+        "protein": 37,
+        "carbs": 117,
+        "fat": 52
+      },
+      {
+        "desc": "LH454 snack: pretzel-stick bag + chocolate cookie sandwich",
+        "kcal": 340,
+        "protein": 5,
+        "carbs": 56,
+        "fat": 12
+      },
+      {
+        "desc": "5 medjool dates, home",
+        "kcal": 332,
+        "protein": 2,
+        "carbs": 90,
+        "fat": 0
+      },
+      {
+        "desc": "Trader Joe's jerky, a few pieces",
+        "kcal": 180,
+        "protein": 20,
+        "carbs": 6,
+        "fat": 5
+      }
+    ],
+    "notes": "Lisbon->SFO travel day, LH454 (11h15m, FRA-SFO). Butter chicken meal + snack + home arrival food."
   }
 ]
