@@ -31,6 +31,7 @@ data/goals.json + profile.json + nutrition.json ──── read live at query 
 | `docs/goals.md` | Goal flavors (lift / body weight / run), the e1RM pacing convention, and the "am I on pace?" recipe |
 | `docs/foods.md` | Data model for `data/foods.json` (per-100g ingredient registry, FDC provenance, `weighed` state) and `data/meals.json` (recipe book) — totals always derived, never stored |
 | `docs/onboarding.md` | Adopting baymax with your own data: what to personalize, routing live data into Apple Health, backfilling history (the bodyweight backfill is the reusable template) |
+| `docs/doordash.md` | Adam's DoorDash CLI (`dd-cli`) access — chat-driven ordering flow, allergy cross-check, known upstream gaps (no macro data, missing apt number on `address list`) |
 | `data/` | `baymax.db` (gitignored, local-only) plus seven committed JSON files: weights, goals, nutrition, profile, foods, meals, inventory (kitchen on-hand snapshot for grocery lists — a cache of reality, updated on hauls/fridge audits, never a ledger). Located next to the DB, so `BAYMAX_DB` relocates both. (Weigh-ins live in Apple Health, not a file) |
 
 ## Commands
