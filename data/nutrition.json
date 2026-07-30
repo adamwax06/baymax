@@ -398,10 +398,10 @@
   },
   {
     "date": "2026-07-29",
-    "kcal": 2827,
-    "protein": 156,
-    "carbs": 394,
-    "fat": 73,
+    "kcal": 3033,
+    "protein": 164,
+    "carbs": 429,
+    "fat": 78,
     "meals": [],
     "method": "plan-derived+deviations",
     "deviations": [
@@ -441,11 +441,18 @@
         "fat": 4
       },
       {
-        "desc": "Beef rice skillet, not pasta marinara as planned (ground-beef-96 150g, white-rice-dry 55g — swapped for pasta, out of stock; mozzarella-shredded 40g; sriracha 20g — swapped for marinara, moldy)",
-        "kcal": 518,
-        "protein": 46,
-        "carbs": 51,
+        "desc": "Beef rice skillet, not pasta marinara as planned (ground-beef-96 150g, white-rice-dry 55g — swapped for pasta, out of stock; mozzarella-shredded 40g; Trader Joe's Sriracha & Roasted Garlic BBQ Sauce 20g — swapped for marinara, moldy; label macros, not plain sriracha)",
+        "kcal": 534,
+        "protein": 45,
+        "carbs": 56,
         "fat": 14
+      },
+      {
+        "desc": "Vanilla latte, NEMA building machine, ~12:00pm (estimated — no label, sized like a 12oz/tall)",
+        "kcal": 190,
+        "protein": 9,
+        "carbs": 30,
+        "fat": 5
       }
     ],
     "notes": "Legs lift day (done, 5-6pm — Squat 205x8,8, Leg Press Calf Raises 470x8,8,6, Hamstring Curl 125x8,8,5, Unilateral Leg Extension 125x8,8, all per weights.json). Full day logged. Dinner improvised: no pasta (rice sub), moldy marinara (sriracha sub) — discard that marinara jar."
