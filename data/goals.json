@@ -12,5 +12,12 @@
     "targetLb": 180,
     "ratePerWeekLb": 0.5,
     "notes": "instrumental to bench-225; keep lean (~0.5 lb/wk = 0.30% BW/wk). Macro split (Iraki 2019 + Morton 2018): ~2980 kcal (TDEE+250), protein 150-155g (2.0 g/kg) in 4 feedings of 31-42g incl. post-training and pre-sleep, fat ~75g (1.0 g/kg), carbs ~420g (5.5 g/kg), fiber ~40g. Creatine 5g/day (label-check for allergens). kcal target auto-corrects via health_nutrition once empirical."
+  },
+  {
+    "id": "squat-315",
+    "lift": "Squat",
+    "target": { "lb": 315, "reps": 1 },
+    "deadline": "2027-01-01",
+    "notes": "Primary deadline Jan 1, 2027, aligned with reaching ~180 lb on the 0.5 lb/wk lean bulk. Stretch test Dec 1, 2026 only if 285x3 or 295x2 and a clean 305 single are achieved first. Pace by e1RM: regain ~285 by Sep 1, reach ~295 by Oct 1, ~305 by Nov 15, and become 315-ready by Dec 15. Rebuild in the 6-8 rep range, then transition primary work toward 4-6 reps, 2-4 reps, and finally heavy singles while retaining controlled backoff volume."
   }
 ]
