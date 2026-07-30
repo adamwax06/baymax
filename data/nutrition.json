@@ -395,5 +395,52 @@
       }
     ],
     "notes": "Lisbon->SFO travel day, LH454 (11h15m, FRA-SFO). Butter chicken meal + snack + home arrival food."
+  },
+  {
+    "date": "2026-07-29",
+    "kcal": 2309,
+    "protein": 110,
+    "carbs": 343,
+    "fat": 59,
+    "meals": [],
+    "method": "plan-derived+deviations (day in progress — dinner pending, will update after)",
+    "deviations": [
+      {
+        "desc": "Mango yogurt granola bowl (greek-yogurt-whole 250g, mango 170g, granola-very-berry 70g, honey 20g) — actual portions ran higher than planned",
+        "kcal": 702,
+        "protein": 30,
+        "carbs": 106,
+        "fat": 20
+      },
+      {
+        "desc": "Panang curry chicken bowl (Kirkland chicken thigh 200g, panang curry sauce ~100g, white rice 80g dry, spinach 60g)",
+        "kcal": 728,
+        "protein": 47,
+        "carbs": 74,
+        "fat": 26
+      },
+      {
+        "desc": "Honey-date toast (bread-italian 90g, honey 10g, 1 medjool date)",
+        "kcal": 330,
+        "protein": 9,
+        "carbs": 70,
+        "fat": 2
+      },
+      {
+        "desc": "Trader Joe's steamed chicken soup dumplings, 6ct/170g tray (post-lift) — label macros",
+        "kcal": 250,
+        "protein": 16,
+        "carbs": 29,
+        "fat": 7
+      },
+      {
+        "desc": "Lucerne 2% reduced-fat milk 200g + 3 medjool dates (72g)",
+        "kcal": 299,
+        "protein": 8,
+        "carbs": 64,
+        "fat": 4
+      }
+    ],
+    "notes": "Legs lift day (done, 5-6pm — Squat 205x8,8 both clean per weights.json, Adam's note says 215 next session; other 3 exercises not logged). Beef pasta marinara skillet dinner at 10pm still to come — not yet logged."
   }
 ]

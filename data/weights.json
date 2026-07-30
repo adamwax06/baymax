@@ -8924,9 +8924,49 @@
             }
           ],
           "notes": "two clean sets; increase to 215 next session"
+        },
+        {
+          "name": "Leg Press Calf Raises",
+          "sets": [
+            {
+              "lb": 470,
+              "reps": [
+                8,
+                8,
+                6
+              ]
+            }
+          ],
+          "notes": "jumped from 450 (stuck at 8,8,7 for three sessions) straight to 470"
+        },
+        {
+          "name": "Hamstring Curl",
+          "sets": [
+            {
+              "lb": 125,
+              "reps": [
+                8,
+                8,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Leg Extension",
+          "sets": [
+            {
+              "lb": 125,
+              "reps": [
+                8,
+                8
+              ]
+            }
+          ],
+          "notes": "cleaned both sets at 125 \u2014 ready to bump next session"
         }
       ],
-      "notes": "Trained approximately 5:15\u20136:15pm. Only the confirmed squat result was logged; remaining movements were not reported."
+      "notes": "Trained approximately 5:15\u20136:15pm."
     }
   ]
 }
