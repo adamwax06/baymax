@@ -8907,6 +8907,26 @@
         }
       ],
       "notes": "Real gym in Lisbon (via Cade), not the hotel dumbbell/cable setup \u2014 weight stack available."
+    },
+    {
+      "date": "2026-07-29",
+      "type": "legs",
+      "exercises": [
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "lb": 205,
+              "reps": [
+                8,
+                8
+              ]
+            }
+          ],
+          "notes": "two clean sets; increase to 215 next session"
+        }
+      ],
+      "notes": "Trained approximately 5:15\u20136:15pm. Only the confirmed squat result was logged; remaining movements were not reported."
     }
   ]
 }
