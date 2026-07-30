@@ -7,6 +7,13 @@ in or joins against SQLite; agents read it through a typed SDK, the `health`
 CLI, or MCP tools. The nutrition loop prescribes calories/macros from goals
 and measured data (docs/nutrition.md).
 
+## Automations
+
+Use native Codex Scheduled tasks for reminders, monitors, check-ins, and
+recurring workflows. For automations that need Baymax data, run them against
+this local project so they can use the repository and local database. Do not
+route Baymax automations through an app connector's reminder system.
+
 ```
 Watch / Strava / Eight Sleep / weigh-ins → Apple Health → ios/ app → apps/server (:4321) ─┐
 data/weights.json (gym log) ───────────────────── bun run import ─────────────────────────┤→ data/baymax.db
