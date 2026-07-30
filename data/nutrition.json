@@ -398,10 +398,10 @@
   },
   {
     "date": "2026-07-29",
-    "kcal": 2849,
-    "protein": 160,
+    "kcal": 2827,
+    "protein": 156,
     "carbs": 394,
-    "fat": 74,
+    "fat": 73,
     "meals": [],
     "method": "plan-derived+deviations",
     "deviations": [
@@ -441,13 +441,13 @@
         "fat": 4
       },
       {
-        "desc": "Beef pasta marinara skillet (ground-beef-96 150g, boxed pasta 55g dry, marinara sauce 100g, mozzarella-shredded 40g) — eaten exactly as planned",
-        "kcal": 540,
-        "protein": 50,
+        "desc": "Beef rice skillet, not pasta marinara as planned (ground-beef-96 150g, white-rice-dry 55g — swapped for pasta, out of stock; mozzarella-shredded 40g; sriracha 20g — swapped for marinara, moldy)",
+        "kcal": 518,
+        "protein": 46,
         "carbs": 51,
-        "fat": 15
+        "fat": 14
       }
     ],
-    "notes": "Legs lift day (done, 5-6pm — Squat 205x8,8, Leg Press Calf Raises 470x8,8,6, Hamstring Curl 125x8,8,5, Unilateral Leg Extension 125x8,8, all per weights.json). Full day logged."
+    "notes": "Legs lift day (done, 5-6pm — Squat 205x8,8, Leg Press Calf Raises 470x8,8,6, Hamstring Curl 125x8,8,5, Unilateral Leg Extension 125x8,8, all per weights.json). Full day logged. Dinner improvised: no pasta (rice sub), moldy marinara (sriracha sub) — discard that marinara jar."
   }
 ]
