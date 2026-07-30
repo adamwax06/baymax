@@ -398,12 +398,12 @@
   },
   {
     "date": "2026-07-29",
-    "kcal": 2309,
-    "protein": 110,
-    "carbs": 343,
-    "fat": 59,
+    "kcal": 2849,
+    "protein": 160,
+    "carbs": 394,
+    "fat": 74,
     "meals": [],
-    "method": "plan-derived+deviations (day in progress — dinner pending, will update after)",
+    "method": "plan-derived+deviations",
     "deviations": [
       {
         "desc": "Mango yogurt granola bowl (greek-yogurt-whole 250g, mango 170g, granola-very-berry 70g, honey 20g) — actual portions ran higher than planned",
@@ -439,8 +439,15 @@
         "protein": 8,
         "carbs": 64,
         "fat": 4
+      },
+      {
+        "desc": "Beef pasta marinara skillet (ground-beef-96 150g, boxed pasta 55g dry, marinara sauce 100g, mozzarella-shredded 40g) — eaten exactly as planned",
+        "kcal": 540,
+        "protein": 50,
+        "carbs": 51,
+        "fat": 15
       }
     ],
-    "notes": "Legs lift day (done, 5-6pm — Squat 205x8,8 both clean per weights.json, Adam's note says 215 next session; other 3 exercises not logged). Beef pasta marinara skillet dinner at 10pm still to come — not yet logged."
+    "notes": "Legs lift day (done, 5-6pm — Squat 205x8,8, Leg Press Calf Raises 470x8,8,6, Hamstring Curl 125x8,8,5, Unilateral Leg Extension 125x8,8, all per weights.json). Full day logged."
   }
 ]
