@@ -459,10 +459,10 @@
   },
   {
     "date": "2026-07-30",
-    "kcal": 1905,
-    "protein": 110,
-    "carbs": 180,
-    "fat": 83,
+    "kcal": 2469,
+    "protein": 129,
+    "carbs": 291,
+    "fat": 93,
     "meals": [],
     "method": "plan-derived+deviations",
     "deviations": [
@@ -486,6 +486,20 @@
         "protein": 9,
         "carbs": 70,
         "fat": 2
+      },
+      {
+        "desc": "Cocoa date oat bowl, post-lift (estimated: oats-dry 60g, cocoa-powder 8g, 3 medjool dates — correct amounts if off)",
+        "kcal": 444,
+        "protein": 11,
+        "carbs": 99,
+        "fat": 5
+      },
+      {
+        "desc": "Glass of Lucerne 2% reduced-fat milk (~240g)",
+        "kcal": 120,
+        "protein": 8,
+        "carbs": 12,
+        "fat": 5
       },
       {
         "desc": "Doppio Zero bistec/bistecca dinner (estimated — restaurant steak plate w/ olive oil + sides, no published data)",
