@@ -1,528 +1,547 @@
 [
-  {
-    "date": "2026-07-19",
-    "kcal": 3445,
-    "protein": 209,
-    "carbs": 427,
-    "fat": 103,
-    "fiber": 44.1,
-    "calcium": 1664.5,
-    "iron": 23.3,
-    "magnesium": 640.3,
-    "potassium": 4085.8,
-    "sodium": 2390.3,
-    "zinc": 17.4,
-    "vitD": 4.3,
-    "vitC": 181.1,
-    "ala": 5.6,
-    "meals": [
-      "rest-scramble",
-      "cocoa-berry-yogurt-bowl",
-      "pre-lift-carb",
-      "post-lift-smoothie",
-      "chicken-rice-bowl"
-    ],
-    "method": "plan-derived+deviations",
-    "deviations": [
-      {
-        "desc": "1 slice Domino's large stuffed cheesy crust pepperoni (estimated)",
-        "kcal": 390,
-        "protein": 16,
-        "carbs": 37,
-        "fat": 19,
-        "fiber": 2
-      }
-    ]
-  },
-  {
-    "date": "2026-07-20",
-    "kcal": 3079,
-    "protein": 187,
-    "carbs": 356,
-    "fat": 107,
-    "fiber": 33.8,
-    "calcium": 1009.7,
-    "iron": 10.7,
-    "magnesium": 340.7,
-    "potassium": 2514.6,
-    "sodium": 4336.4,
-    "zinc": 9.4,
-    "vitD": 3.0,
-    "vitC": 130.9,
-    "ala": 2.7,
-    "meals": [],
-    "method": "calendar-derived as-eaten (Adam confirmed 7/21: ate exactly what the calendar shows)",
-    "deviations": [
-      {
-        "desc": "Kirkland breaded chicken chunks ~270g (label-estimated)",
-        "kcal": 521,
-        "protein": 53,
-        "carbs": 42,
-        "fat": 22
-      },
-      {
-        "desc": "Restaurant chicken tikka masala + rice plate (estimated, replaced beef+potato dinner)",
-        "kcal": 875,
-        "protein": 46,
-        "carbs": 85,
-        "fat": 36
-      }
-    ],
-    "notes": "micros undercount slightly: nugget/tikka estimates carry macros+sodium only"
-  },
-  {
-    "date": "2026-07-21",
-    "kcal": 2985,
-    "protein": 177,
-    "carbs": 377,
-    "fat": 93,
-    "fiber": 27.6,
-    "calcium": 1108.1,
-    "iron": 15.6,
-    "magnesium": 364.5,
-    "potassium": 2833.9,
-    "sodium": 4468.8,
-    "zinc": 11.7,
-    "vitD": 2.8,
-    "vitC": 95.4,
-    "ala": 2.8,
-    "meals": [
-      "focaccia-chicken-melt"
-    ],
-    "method": "calendar-derived as-eaten",
-    "deviations": [
-      {
-        "desc": "Shrimp poke bowl, whole (takeout, estimated large)",
-        "kcal": 850,
-        "protein": 40,
-        "carbs": 120,
-        "fat": 25
-      },
-      {
-        "desc": "Egg scramble wrap only 65% eaten (too full)",
-        "kcal": -198,
-        "protein": -12,
-        "carbs": -11,
-        "fat": -11
-      },
-      {
-        "desc": "3 medjool dates pre-dinner",
-        "kcal": 199,
-        "protein": 1,
-        "carbs": 54,
-        "fat": 0
-      }
-    ],
-    "notes": "kcal/macros are full-day derived totals (deviations already included, listed for provenance). Smoothie was v3 (250g oat milk). Planned run replaced by 20-min walk; toast skipped."
-  },
-  {
-    "date": "2026-07-22",
-    "kcal": 1733,
-    "protein": 125,
-    "carbs": 169,
-    "fat": 65,
-    "meals": [
-      "cocoa-berry-yogurt-bowl",
-      "buffalo-chicken-wrap"
-    ],
-    "method": "calendar-derived + travel estimates",
-    "deviations": [
-      {
-        "desc": "TAP in-flight dinner: chicken + rice, side salad, bread roll (estimated)",
-        "kcal": 700,
-        "protein": 30,
-        "carbs": 80,
-        "fat": 28
-      }
-    ],
-    "notes": "SFO->LIS travel day; cocoa bowl was strawberry variant (same derived macros). Light day by design."
-  },
-  {
-    "date": "2026-07-23",
-    "kcal": 2800,
-    "protein": 91,
-    "carbs": 250,
-    "fat": 96,
-    "meals": [],
-    "method": "travel estimates (Adam's report, no plan)",
-    "deviations": [
-      {
-        "desc": "TAP breakfast: sandwich + muffin (estimated)",
-        "kcal": 700,
-        "protein": 18,
-        "carbs": 90,
-        "fat": 30
-      },
-      {
-        "desc": "Sourdough slice + prosciutto + sharp cheese (estimated)",
-        "kcal": 365,
-        "protein": 18,
-        "carbs": 33,
-        "fat": 18
-      },
-      {
-        "desc": "Honest Greens steak chimichurri + smashed potatoes (estimated, no published data)",
-        "kcal": 850,
-        "protein": 55,
-        "carbs": 45,
-        "fat": 48
-      },
-      {
-        "desc": "~375ml white wine (~285) + ~375ml Moscatel de Setubal (fortified+sweet, ~600)",
-        "kcal": 885,
-        "protein": 0,
-        "carbs": 78,
-        "fat": 0
-      }
-    ],
-    "notes": "Lisbon day 1. Alcohol kcal mostly from ethanol (not in macros); carbs field carries moscatel sugar. Days bucketed to Lisbon local time."
-  },
-  {
-    "date": "2026-07-24",
-    "kcal": 2314,
-    "protein": 64,
-    "carbs": 241,
-    "fat": 118,
-    "fiber": 3.1,
-    "meals": [],
-    "method": "calendar-derived AM + travel estimates PM",
-    "deviations": [
-      {
-        "desc": "Jupiter Lisboa passion fruit mousse, estimated ~85g small buffet serving (USDA FNDDS mousse proxy)",
-        "kcal": 180,
-        "protein": 3.6,
-        "carbs": 13.8,
-        "fat": 12.9,
-        "fiber": 0.5
-      },
-      {
-        "desc": "Half of Jupiter Lisboa fresh fruit tray, estimated ~150g mixed fruit, no dressing",
-        "kcal": 84,
-        "protein": 1.1,
-        "carbs": 20.2,
-        "fat": 0.3,
-        "fiber": 2.6
-      },
-      {
-        "desc": "Meatballs & pasta, Ristorante Mattarello (strozzapreti della mamma, estimated)",
-        "kcal": 950,
-        "protein": 40,
-        "carbs": 100,
-        "fat": 40
-      },
-      {
-        "desc": "Tiramisu, Mattarello",
-        "kcal": 450,
-        "protein": 7,
-        "carbs": 45,
-        "fat": 26
-      },
-      {
-        "desc": "Pastel de nata (late night)",
-        "kcal": 300,
-        "protein": 6,
-        "carbs": 22,
-        "fat": 21
-      },
-      {
-        "desc": "Larger pastry, unspecified (late night, estimated)",
-        "kcal": 350,
-        "protein": 6,
-        "carbs": 40,
-        "fat": 18
-      }
-    ],
-    "notes": "Partial day so far. Hotel does not publish serving weights or nutrition; estimates use USDA FNDDS 2705698 (mousse) and 2709288 (mixed fresh fruit). Fruit composition was not reported, including whether it contained watermelon from the profile allergy list. Day 2 Lisbon: Italian dinner + late pastries."
-  },
-  {
-    "date": "2026-07-25",
-    "kcal": 2637,
-    "protein": 86,
-    "carbs": 266,
-    "fat": 85,
-    "meals": [],
-    "method": "travel estimates (Adam's recall)",
-    "deviations": [
-      {
-        "desc": "Greek yogurt bowl with agave (breakfast)",
-        "kcal": 246,
-        "protein": 22,
-        "carbs": 24,
-        "fat": 11
-      },
-      {
-        "desc": "2 thin rice crackers with agave",
-        "kcal": 80,
-        "protein": 1,
-        "carbs": 18,
-        "fat": 0
-      },
-      {
-        "desc": "Babybel cheese",
-        "kcal": 70,
-        "protein": 5,
-        "carbs": 0,
-        "fat": 6
-      },
-      {
-        "desc": "Octopus, sweet potato, spinach \u2014 Incomum (signature dish, estimated)",
-        "kcal": 680,
-        "protein": 45,
-        "carbs": 45,
-        "fat": 30
-      },
-      {
-        "desc": "Gelato",
-        "kcal": 250,
-        "protein": 5,
-        "carbs": 32,
-        "fat": 11
-      },
-      {
-        "desc": "More pastries, late night (estimated)",
-        "kcal": 500,
-        "protein": 8,
-        "carbs": 55,
-        "fat": 27
-      },
-      {
-        "desc": "~half Malibu cocktail",
-        "kcal": 180,
-        "protein": 0,
-        "carbs": 20,
-        "fat": 0
-      },
-      {
-        "desc": "Long Island iced tea",
-        "kcal": 280,
-        "protein": 0,
-        "carbs": 30,
-        "fat": 0
-      },
-      {
-        "desc": "Moscatel (estimated ~1 glass)",
-        "kcal": 300,
-        "protein": 0,
-        "carbs": 38,
-        "fat": 0
-      }
-    ],
-    "notes": "Lisbon day 3. Heavy pastry + alcohol day, all estimated from recall \u2014 treat totals as rough. Agave used as honey-macro proxy."
-  },
-  {
-    "date": "2026-07-27",
-    "kcal": 3587,
-    "protein": 223,
-    "carbs": 269,
-    "fat": 174,
-    "meals": [],
-    "method": "travel estimates + verified label",
-    "deviations": [
-      {
-        "desc": "Camar\u00e3o (shrimp) bowl, Hygge Kaffe, no cashews (curry couscous, prawns, pineapple, yogurt sauce)",
-        "kcal": 580,
-        "protein": 32,
-        "carbs": 55,
-        "fat": 20
-      },
-      {
-        "desc": "Rotisserie chicken, ~3/4 of 844g bag (Pingo Doce Frango Churrasco, verified label)",
-        "kcal": 1057,
-        "protein": 118,
-        "carbs": 17,
-        "fat": 62
-      },
-      {
-        "desc": "Kebab dinner, Bullpen Market (Campo Pequeno, Lisbon)",
-        "kcal": 850,
-        "protein": 38,
-        "carbs": 70,
-        "fat": 45
-      },
-      {
-        "desc": "LH454 meal 2: pasta bolognese, bread+butter, dessert + one unrecalled component",
-        "kcal": 1100,
-        "protein": 35,
-        "carbs": 127,
-        "fat": 47
-      }
-    ],
-    "notes": "Lisbon day 5 \u2014 pull day at a real gym via Cade (Row + Cable Curl PRs). Kebab dinner + flight meal 1 (bolognese) both landed same Lisbon-local evening/night before the date rolled over."
-  },
-  {
-    "date": "2026-07-28",
-    "kcal": 1962,
-    "protein": 64,
-    "carbs": 269,
-    "fat": 69,
-    "meals": [],
-    "method": "travel estimates (Adam's recall; Lufthansa doesn't publish per-flight nutrition data)",
-    "deviations": [
-      {
-        "desc": "Coke Zero",
-        "kcal": 0,
-        "protein": 0,
-        "carbs": 0,
-        "fat": 0
-      },
-      {
-        "desc": "LH454 meal 1: butter chicken + rice (no green beans), bread+butter, apple fritter (no almond topping)",
-        "kcal": 1110,
-        "protein": 37,
-        "carbs": 117,
-        "fat": 52
-      },
-      {
-        "desc": "LH454 snack: pretzel-stick bag + chocolate cookie sandwich",
-        "kcal": 340,
-        "protein": 5,
-        "carbs": 56,
-        "fat": 12
-      },
-      {
-        "desc": "5 medjool dates, home",
-        "kcal": 332,
-        "protein": 2,
-        "carbs": 90,
-        "fat": 0
-      },
-      {
-        "desc": "Trader Joe's jerky, a few pieces",
-        "kcal": 180,
-        "protein": 20,
-        "carbs": 6,
-        "fat": 5
-      }
-    ],
-    "notes": "Lisbon->SFO travel day, LH454 (11h15m, FRA-SFO). Butter chicken meal + snack + home arrival food."
-  },
-  {
-    "date": "2026-07-29",
-    "kcal": 3033,
-    "protein": 164,
-    "carbs": 429,
-    "fat": 78,
-    "meals": [],
-    "method": "plan-derived+deviations",
-    "deviations": [
-      {
-        "desc": "Mango yogurt granola bowl (greek-yogurt-whole 250g, mango 170g, granola-very-berry 70g, honey 20g) — actual portions ran higher than planned",
-        "kcal": 702,
-        "protein": 30,
-        "carbs": 106,
-        "fat": 20
-      },
-      {
-        "desc": "Panang curry chicken bowl (Kirkland chicken thigh 200g, panang curry sauce ~100g, white rice 80g dry, spinach 60g)",
-        "kcal": 728,
-        "protein": 47,
-        "carbs": 74,
-        "fat": 26
-      },
-      {
-        "desc": "Honey-date toast (bread-italian 90g, honey 10g, 1 medjool date)",
-        "kcal": 330,
-        "protein": 9,
-        "carbs": 70,
-        "fat": 2
-      },
-      {
-        "desc": "Trader Joe's steamed chicken soup dumplings, 6ct/170g tray (post-lift) — label macros",
-        "kcal": 250,
-        "protein": 16,
-        "carbs": 29,
-        "fat": 7
-      },
-      {
-        "desc": "Lucerne 2% reduced-fat milk 200g + 3 medjool dates (72g)",
-        "kcal": 299,
-        "protein": 8,
-        "carbs": 64,
-        "fat": 4
-      },
-      {
-        "desc": "Beef rice skillet, not pasta marinara as planned (ground-beef-96 150g, white-rice-dry 55g — swapped for pasta, out of stock; mozzarella-shredded 40g; Trader Joe's Sriracha & Roasted Garlic BBQ Sauce 20g — swapped for marinara, moldy; label macros, not plain sriracha)",
-        "kcal": 534,
-        "protein": 45,
-        "carbs": 56,
-        "fat": 14
-      },
-      {
-        "desc": "Vanilla latte, NEMA building machine, ~12:00pm (estimated — no label, sized like a 12oz/tall)",
-        "kcal": 190,
-        "protein": 9,
-        "carbs": 30,
-        "fat": 5
-      }
-    ],
-    "notes": "Legs lift day (done, 5-6pm — Squat 205x8,8, Leg Press Calf Raises 470x8,8,6, Hamstring Curl 125x8,8,5, Unilateral Leg Extension 125x8,8, all per weights.json). Full day logged. Dinner improvised: no pasta (rice sub), moldy marinara (sriracha sub) — discard that marinara jar."
-  },
-  {
-    "date": "2026-07-30",
-    "kcal": 3220,
-    "protein": 148,
-    "carbs": 368,
-    "fat": 126,
-    "meals": [],
-    "method": "plan-derived+deviations",
-    "deviations": [
-      {
-        "desc": "Egg scramble wrap (4 eggs 200g, mozzarella-shredded 25g, flour tortilla ×1 64g, spinach 60g)",
-        "kcal": 566,
-        "protein": 38,
-        "carbs": 37,
-        "fat": 29
-      },
-      {
-        "desc": "Kirkland Signature Sparkling Energy Drink, sugar-free, mango/tropical — label macros",
-        "kcal": 10,
-        "protein": 0,
-        "carbs": 1,
-        "fat": 0
-      },
-      {
-        "desc": "Honey-date toast, pre-lift (bread-italian 90g, honey 10g, 1 medjool date)",
-        "kcal": 330,
-        "protein": 9,
-        "carbs": 70,
-        "fat": 2
-      },
-      {
-        "desc": "Cocoa date oat bowl, post-lift (estimated: oats-dry 60g, cocoa-powder 8g, 3 medjool dates — correct amounts if off)",
-        "kcal": 444,
-        "protein": 11,
-        "carbs": 99,
-        "fat": 5
-      },
-      {
-        "desc": "Glass of Lucerne 2% reduced-fat milk (~240g)",
-        "kcal": 120,
-        "protein": 8,
-        "carbs": 12,
-        "fat": 5
-      },
-      {
-        "desc": "Doppio Zero Fettuccine Oxtail (estimated — homemade egg fettuccine, braised oxtail, Chianti reduction, Parmesan; no published nutrition)",
-        "kcal": 1000,
-        "protein": 48,
-        "carbs": 90,
-        "fat": 45
-      },
-      {
-        "desc": "Doppio Zero Polpettine small plate (estimated — meatballs in spicy tomato sauce with grilled bread; no published nutrition)",
-        "kcal": 600,
-        "protein": 32,
-        "carbs": 40,
-        "fat": 32
-      },
-      {
-        "desc": "Salt & Straw Chocolate Gooey Brownie ice cream, small portion (shop estimate 110–190 kcal; logged at midpoint; macros estimated)",
-        "kcal": 150,
-        "protein": 2,
-        "carbs": 19,
-        "fat": 8
-      }
-    ],
-    "notes": "Push lift day (done, 12:30-1:30pm). Dinner actual: Doppio Zero Fettuccine Oxtail + Polpettine; replaced planned bistecca and milk+dates. Dessert: small Salt & Straw Chocolate Gooey Brownie portion. Full day logged."
-  }
+ {
+  "date": "2026-07-19",
+  "kcal": 3445,
+  "protein": 209,
+  "carbs": 427,
+  "fat": 103,
+  "fiber": 44.1,
+  "calcium": 1664.5,
+  "iron": 23.3,
+  "magnesium": 640.3,
+  "potassium": 4085.8,
+  "sodium": 2390.3,
+  "zinc": 17.4,
+  "vitD": 4.3,
+  "vitC": 181.1,
+  "ala": 5.6,
+  "meals": [
+   "rest-scramble",
+   "cocoa-berry-yogurt-bowl",
+   "pre-lift-carb",
+   "post-lift-smoothie",
+   "chicken-rice-bowl"
+  ],
+  "method": "plan-derived+deviations",
+  "deviations": [
+   {
+    "desc": "1 slice Domino's large stuffed cheesy crust pepperoni (estimated)",
+    "kcal": 390,
+    "protein": 16,
+    "carbs": 37,
+    "fat": 19,
+    "fiber": 2
+   }
+  ]
+ },
+ {
+  "date": "2026-07-20",
+  "kcal": 3079,
+  "protein": 187,
+  "carbs": 356,
+  "fat": 107,
+  "fiber": 33.8,
+  "calcium": 1009.7,
+  "iron": 10.7,
+  "magnesium": 340.7,
+  "potassium": 2514.6,
+  "sodium": 4336.4,
+  "zinc": 9.4,
+  "vitD": 3.0,
+  "vitC": 130.9,
+  "ala": 2.7,
+  "meals": [],
+  "method": "calendar-derived as-eaten (Adam confirmed 7/21: ate exactly what the calendar shows)",
+  "deviations": [
+   {
+    "desc": "Kirkland breaded chicken chunks ~270g (label-estimated)",
+    "kcal": 521,
+    "protein": 53,
+    "carbs": 42,
+    "fat": 22
+   },
+   {
+    "desc": "Restaurant chicken tikka masala + rice plate (estimated, replaced beef+potato dinner)",
+    "kcal": 875,
+    "protein": 46,
+    "carbs": 85,
+    "fat": 36
+   }
+  ],
+  "notes": "micros undercount slightly: nugget/tikka estimates carry macros+sodium only"
+ },
+ {
+  "date": "2026-07-21",
+  "kcal": 2985,
+  "protein": 177,
+  "carbs": 377,
+  "fat": 93,
+  "fiber": 27.6,
+  "calcium": 1108.1,
+  "iron": 15.6,
+  "magnesium": 364.5,
+  "potassium": 2833.9,
+  "sodium": 4468.8,
+  "zinc": 11.7,
+  "vitD": 2.8,
+  "vitC": 95.4,
+  "ala": 2.8,
+  "meals": [
+   "focaccia-chicken-melt"
+  ],
+  "method": "calendar-derived as-eaten",
+  "deviations": [
+   {
+    "desc": "Shrimp poke bowl, whole (takeout, estimated large)",
+    "kcal": 850,
+    "protein": 40,
+    "carbs": 120,
+    "fat": 25
+   },
+   {
+    "desc": "Egg scramble wrap only 65% eaten (too full)",
+    "kcal": -198,
+    "protein": -12,
+    "carbs": -11,
+    "fat": -11
+   },
+   {
+    "desc": "3 medjool dates pre-dinner",
+    "kcal": 199,
+    "protein": 1,
+    "carbs": 54,
+    "fat": 0
+   }
+  ],
+  "notes": "kcal/macros are full-day derived totals (deviations already included, listed for provenance). Smoothie was v3 (250g oat milk). Planned run replaced by 20-min walk; toast skipped."
+ },
+ {
+  "date": "2026-07-22",
+  "kcal": 1733,
+  "protein": 125,
+  "carbs": 169,
+  "fat": 65,
+  "meals": [
+   "cocoa-berry-yogurt-bowl",
+   "buffalo-chicken-wrap"
+  ],
+  "method": "calendar-derived + travel estimates",
+  "deviations": [
+   {
+    "desc": "TAP in-flight dinner: chicken + rice, side salad, bread roll (estimated)",
+    "kcal": 700,
+    "protein": 30,
+    "carbs": 80,
+    "fat": 28
+   }
+  ],
+  "notes": "SFO->LIS travel day; cocoa bowl was strawberry variant (same derived macros). Light day by design."
+ },
+ {
+  "date": "2026-07-23",
+  "kcal": 2800,
+  "protein": 91,
+  "carbs": 250,
+  "fat": 96,
+  "meals": [],
+  "method": "travel estimates (Adam's report, no plan)",
+  "deviations": [
+   {
+    "desc": "TAP breakfast: sandwich + muffin (estimated)",
+    "kcal": 700,
+    "protein": 18,
+    "carbs": 90,
+    "fat": 30
+   },
+   {
+    "desc": "Sourdough slice + prosciutto + sharp cheese (estimated)",
+    "kcal": 365,
+    "protein": 18,
+    "carbs": 33,
+    "fat": 18
+   },
+   {
+    "desc": "Honest Greens steak chimichurri + smashed potatoes (estimated, no published data)",
+    "kcal": 850,
+    "protein": 55,
+    "carbs": 45,
+    "fat": 48
+   },
+   {
+    "desc": "~375ml white wine (~285) + ~375ml Moscatel de Setubal (fortified+sweet, ~600)",
+    "kcal": 885,
+    "protein": 0,
+    "carbs": 78,
+    "fat": 0
+   }
+  ],
+  "notes": "Lisbon day 1. Alcohol kcal mostly from ethanol (not in macros); carbs field carries moscatel sugar. Days bucketed to Lisbon local time."
+ },
+ {
+  "date": "2026-07-24",
+  "kcal": 2314,
+  "protein": 64,
+  "carbs": 241,
+  "fat": 118,
+  "fiber": 3.1,
+  "meals": [],
+  "method": "calendar-derived AM + travel estimates PM",
+  "deviations": [
+   {
+    "desc": "Jupiter Lisboa passion fruit mousse, estimated ~85g small buffet serving (USDA FNDDS mousse proxy)",
+    "kcal": 180,
+    "protein": 3.6,
+    "carbs": 13.8,
+    "fat": 12.9,
+    "fiber": 0.5
+   },
+   {
+    "desc": "Half of Jupiter Lisboa fresh fruit tray, estimated ~150g mixed fruit, no dressing",
+    "kcal": 84,
+    "protein": 1.1,
+    "carbs": 20.2,
+    "fat": 0.3,
+    "fiber": 2.6
+   },
+   {
+    "desc": "Meatballs & pasta, Ristorante Mattarello (strozzapreti della mamma, estimated)",
+    "kcal": 950,
+    "protein": 40,
+    "carbs": 100,
+    "fat": 40
+   },
+   {
+    "desc": "Tiramisu, Mattarello",
+    "kcal": 450,
+    "protein": 7,
+    "carbs": 45,
+    "fat": 26
+   },
+   {
+    "desc": "Pastel de nata (late night)",
+    "kcal": 300,
+    "protein": 6,
+    "carbs": 22,
+    "fat": 21
+   },
+   {
+    "desc": "Larger pastry, unspecified (late night, estimated)",
+    "kcal": 350,
+    "protein": 6,
+    "carbs": 40,
+    "fat": 18
+   }
+  ],
+  "notes": "Partial day so far. Hotel does not publish serving weights or nutrition; estimates use USDA FNDDS 2705698 (mousse) and 2709288 (mixed fresh fruit). Fruit composition was not reported, including whether it contained watermelon from the profile allergy list. Day 2 Lisbon: Italian dinner + late pastries."
+ },
+ {
+  "date": "2026-07-25",
+  "kcal": 2637,
+  "protein": 86,
+  "carbs": 266,
+  "fat": 85,
+  "meals": [],
+  "method": "travel estimates (Adam's recall)",
+  "deviations": [
+   {
+    "desc": "Greek yogurt bowl with agave (breakfast)",
+    "kcal": 246,
+    "protein": 22,
+    "carbs": 24,
+    "fat": 11
+   },
+   {
+    "desc": "2 thin rice crackers with agave",
+    "kcal": 80,
+    "protein": 1,
+    "carbs": 18,
+    "fat": 0
+   },
+   {
+    "desc": "Babybel cheese",
+    "kcal": 70,
+    "protein": 5,
+    "carbs": 0,
+    "fat": 6
+   },
+   {
+    "desc": "Octopus, sweet potato, spinach \u2014 Incomum (signature dish, estimated)",
+    "kcal": 680,
+    "protein": 45,
+    "carbs": 45,
+    "fat": 30
+   },
+   {
+    "desc": "Gelato",
+    "kcal": 250,
+    "protein": 5,
+    "carbs": 32,
+    "fat": 11
+   },
+   {
+    "desc": "More pastries, late night (estimated)",
+    "kcal": 500,
+    "protein": 8,
+    "carbs": 55,
+    "fat": 27
+   },
+   {
+    "desc": "~half Malibu cocktail",
+    "kcal": 180,
+    "protein": 0,
+    "carbs": 20,
+    "fat": 0
+   },
+   {
+    "desc": "Long Island iced tea",
+    "kcal": 280,
+    "protein": 0,
+    "carbs": 30,
+    "fat": 0
+   },
+   {
+    "desc": "Moscatel (estimated ~1 glass)",
+    "kcal": 300,
+    "protein": 0,
+    "carbs": 38,
+    "fat": 0
+   }
+  ],
+  "notes": "Lisbon day 3. Heavy pastry + alcohol day, all estimated from recall \u2014 treat totals as rough. Agave used as honey-macro proxy."
+ },
+ {
+  "date": "2026-07-27",
+  "kcal": 3587,
+  "protein": 223,
+  "carbs": 269,
+  "fat": 174,
+  "meals": [],
+  "method": "travel estimates + verified label",
+  "deviations": [
+   {
+    "desc": "Camar\u00e3o (shrimp) bowl, Hygge Kaffe, no cashews (curry couscous, prawns, pineapple, yogurt sauce)",
+    "kcal": 580,
+    "protein": 32,
+    "carbs": 55,
+    "fat": 20
+   },
+   {
+    "desc": "Rotisserie chicken, ~3/4 of 844g bag (Pingo Doce Frango Churrasco, verified label)",
+    "kcal": 1057,
+    "protein": 118,
+    "carbs": 17,
+    "fat": 62
+   },
+   {
+    "desc": "Kebab dinner, Bullpen Market (Campo Pequeno, Lisbon)",
+    "kcal": 850,
+    "protein": 38,
+    "carbs": 70,
+    "fat": 45
+   },
+   {
+    "desc": "LH454 meal 2: pasta bolognese, bread+butter, dessert + one unrecalled component",
+    "kcal": 1100,
+    "protein": 35,
+    "carbs": 127,
+    "fat": 47
+   }
+  ],
+  "notes": "Lisbon day 5 \u2014 pull day at a real gym via Cade (Row + Cable Curl PRs). Kebab dinner + flight meal 1 (bolognese) both landed same Lisbon-local evening/night before the date rolled over."
+ },
+ {
+  "date": "2026-07-28",
+  "kcal": 1962,
+  "protein": 64,
+  "carbs": 269,
+  "fat": 69,
+  "meals": [],
+  "method": "travel estimates (Adam's recall; Lufthansa doesn't publish per-flight nutrition data)",
+  "deviations": [
+   {
+    "desc": "Coke Zero",
+    "kcal": 0,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0
+   },
+   {
+    "desc": "LH454 meal 1: butter chicken + rice (no green beans), bread+butter, apple fritter (no almond topping)",
+    "kcal": 1110,
+    "protein": 37,
+    "carbs": 117,
+    "fat": 52
+   },
+   {
+    "desc": "LH454 snack: pretzel-stick bag + chocolate cookie sandwich",
+    "kcal": 340,
+    "protein": 5,
+    "carbs": 56,
+    "fat": 12
+   },
+   {
+    "desc": "5 medjool dates, home",
+    "kcal": 332,
+    "protein": 2,
+    "carbs": 90,
+    "fat": 0
+   },
+   {
+    "desc": "Trader Joe's jerky, a few pieces",
+    "kcal": 180,
+    "protein": 20,
+    "carbs": 6,
+    "fat": 5
+   }
+  ],
+  "notes": "Lisbon->SFO travel day, LH454 (11h15m, FRA-SFO). Butter chicken meal + snack + home arrival food."
+ },
+ {
+  "date": "2026-07-29",
+  "kcal": 3033,
+  "protein": 164,
+  "carbs": 429,
+  "fat": 78,
+  "meals": [],
+  "method": "plan-derived+deviations",
+  "deviations": [
+   {
+    "desc": "Mango yogurt granola bowl (greek-yogurt-whole 250g, mango 170g, granola-very-berry 70g, honey 20g) \u2014 actual portions ran higher than planned",
+    "kcal": 702,
+    "protein": 30,
+    "carbs": 106,
+    "fat": 20
+   },
+   {
+    "desc": "Panang curry chicken bowl (Kirkland chicken thigh 200g, panang curry sauce ~100g, white rice 80g dry, spinach 60g)",
+    "kcal": 728,
+    "protein": 47,
+    "carbs": 74,
+    "fat": 26
+   },
+   {
+    "desc": "Honey-date toast (bread-italian 90g, honey 10g, 1 medjool date)",
+    "kcal": 330,
+    "protein": 9,
+    "carbs": 70,
+    "fat": 2
+   },
+   {
+    "desc": "Trader Joe's steamed chicken soup dumplings, 6ct/170g tray (post-lift) \u2014 label macros",
+    "kcal": 250,
+    "protein": 16,
+    "carbs": 29,
+    "fat": 7
+   },
+   {
+    "desc": "Lucerne 2% reduced-fat milk 200g + 3 medjool dates (72g)",
+    "kcal": 299,
+    "protein": 8,
+    "carbs": 64,
+    "fat": 4
+   },
+   {
+    "desc": "Beef rice skillet, not pasta marinara as planned (ground-beef-96 150g, white-rice-dry 55g \u2014 swapped for pasta, out of stock; mozzarella-shredded 40g; Trader Joe's Sriracha & Roasted Garlic BBQ Sauce 20g \u2014 swapped for marinara, moldy; label macros, not plain sriracha)",
+    "kcal": 534,
+    "protein": 45,
+    "carbs": 56,
+    "fat": 14
+   },
+   {
+    "desc": "Vanilla latte, NEMA building machine, ~12:00pm (estimated \u2014 no label, sized like a 12oz/tall)",
+    "kcal": 190,
+    "protein": 9,
+    "carbs": 30,
+    "fat": 5
+   }
+  ],
+  "notes": "Legs lift day (done, 5-6pm \u2014 Squat 205x8,8, Leg Press Calf Raises 470x8,8,6, Hamstring Curl 125x8,8,5, Unilateral Leg Extension 125x8,8, all per weights.json). Full day logged. Dinner improvised: no pasta (rice sub), moldy marinara (sriracha sub) \u2014 discard that marinara jar."
+ },
+ {
+  "date": "2026-07-30",
+  "kcal": 3220,
+  "protein": 148,
+  "carbs": 368,
+  "fat": 126,
+  "meals": [],
+  "method": "plan-derived+deviations",
+  "deviations": [
+   {
+    "desc": "Egg scramble wrap (4 eggs 200g, mozzarella-shredded 25g, flour tortilla \u00d71 64g, spinach 60g)",
+    "kcal": 566,
+    "protein": 38,
+    "carbs": 37,
+    "fat": 29
+   },
+   {
+    "desc": "Kirkland Signature Sparkling Energy Drink, sugar-free, mango/tropical \u2014 label macros",
+    "kcal": 10,
+    "protein": 0,
+    "carbs": 1,
+    "fat": 0
+   },
+   {
+    "desc": "Honey-date toast, pre-lift (bread-italian 90g, honey 10g, 1 medjool date)",
+    "kcal": 330,
+    "protein": 9,
+    "carbs": 70,
+    "fat": 2
+   },
+   {
+    "desc": "Cocoa date oat bowl, post-lift (estimated: oats-dry 60g, cocoa-powder 8g, 3 medjool dates \u2014 correct amounts if off)",
+    "kcal": 444,
+    "protein": 11,
+    "carbs": 99,
+    "fat": 5
+   },
+   {
+    "desc": "Glass of Lucerne 2% reduced-fat milk (~240g)",
+    "kcal": 120,
+    "protein": 8,
+    "carbs": 12,
+    "fat": 5
+   },
+   {
+    "desc": "Doppio Zero Fettuccine Oxtail (estimated \u2014 homemade egg fettuccine, braised oxtail, Chianti reduction, Parmesan; no published nutrition)",
+    "kcal": 1000,
+    "protein": 48,
+    "carbs": 90,
+    "fat": 45
+   },
+   {
+    "desc": "Doppio Zero Polpettine small plate (estimated \u2014 meatballs in spicy tomato sauce with grilled bread; no published nutrition)",
+    "kcal": 600,
+    "protein": 32,
+    "carbs": 40,
+    "fat": 32
+   },
+   {
+    "desc": "Salt & Straw Chocolate Gooey Brownie ice cream, small portion (shop estimate 110\u2013190 kcal; logged at midpoint; macros estimated)",
+    "kcal": 150,
+    "protein": 2,
+    "carbs": 19,
+    "fat": 8
+   }
+  ],
+  "notes": "Push lift day (done, 12:30-1:30pm). Dinner actual: Doppio Zero Fettuccine Oxtail + Polpettine; replaced planned bistecca and milk+dates. Dessert: small Salt & Straw Chocolate Gooey Brownie portion. Full day logged."
+ },
+ {
+  "date": "2026-07-31",
+  "kcal": 691,
+  "protein": 63,
+  "carbs": 41,
+  "fat": 33,
+  "meals": [],
+  "method": "plan-derived+deviations",
+  "deviations": [
+   {
+    "desc": "Kirkland breaded chicken filets 330g (kirkland-breaded-tenders macros) + Chick-fil-A sauce packet 28g \u2014 replaced planned grilled breast 200g + sriracha 20g in chicken rice bowl; rice/spinach not yet reported",
+    "kcal": 691,
+    "protein": 63,
+    "carbs": 41,
+    "fat": 33
+   }
+  ],
+  "notes": "Partial day so far \u2014 only the filet dinner deviation logged; compile full day tonight."
+ }
 ]
