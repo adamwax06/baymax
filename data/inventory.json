@@ -66,9 +66,10 @@
     "note": "pantry (TJ sriracha BBQ + sriracha bottle) — photo audit 7/31"
   },
   {
-    "name": "steak (unlabeled cut, looks like carne asada / skirt)",
+    "food": "ground-beef-96",
+    "g": 200,
     "asOf": "2026-07-31",
-    "note": "fridge middle shelf, red Costco-style pack, ~1-1.5 lb, cut UNVERIFIED — photo audit 7/31"
+    "note": "Adam corrected: the red fridge pack is ~200g ground beef, in fridge ~2 days — USE BY TONIGHT (raw ground beef fridge limit)"
   },
   {
     "name": "covered tray in fridge (unidentified, NOT Adam's polpettine)",
