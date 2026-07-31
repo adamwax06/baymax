@@ -1,210 +1,133 @@
 [
   {
-    "food": "greek-yogurt-whole",
-    "g": 700,
-    "asOf": "2026-07-29",
-    "note": "2 tubs in fridge door, amount UNVERIFIED — fridge audit 7/29"
-  },
-  {
-    "food": "ground-beef-96",
-    "g": 454,
-    "asOf": "2026-07-29",
-    "note": "1 chub in fridge, freshness/age unverified — fridge audit 7/29"
-  },
-  {
-    "food": "rotisserie-chicken",
-    "g": 300,
-    "asOf": "2026-07-29",
-    "note": "Adam confirms on hand, amount UNVERIFIED (not clearly visible in audit photos)"
-  },
-  {
-    "food": "mozzarella-shredded",
-    "g": 300,
-    "asOf": "2026-07-29",
-    "note": "1 bag Kirkland lite shreds, amount UNVERIFIED — fridge audit 7/29"
-  },
-  {
-    "food": "spinach",
-    "g": 170,
-    "asOf": "2026-07-29",
-    "note": "1 bag Earthbound Farm, amount UNVERIFIED — fridge audit 7/29"
-  },
-  {
     "food": "egg",
     "count": 10,
-    "asOf": "2026-07-29",
-    "note": "ESTIMATE from carton fill level — fridge audit 7/29"
-  },
-  {
-    "food": "oats-dry",
-    "g": 700,
-    "asOf": "2026-07-29",
-    "note": "1 bag rolled oats, amount UNVERIFIED — pantry audit 7/29"
-  },
-  {
-    "food": "bread-italian",
-    "g": 500,
-    "asOf": "2026-07-29",
-    "note": "1 loaf Rustic Italian, amount UNVERIFIED — pantry audit 7/29"
-  },
-  {
-    "food": "flour-tortilla",
-    "count": 6,
-    "asOf": "2026-07-29",
-    "note": "1 bag, count UNVERIFIED — pantry audit 7/29"
-  },
-  {
-    "food": "mango",
-    "g": 454,
-    "asOf": "2026-07-29",
-    "note": "frozen Kirkland mango chunks, 16oz bag — freezer audit 7/29"
-  },
-  {
-    "food": "medjool-dates",
-    "count": 15,
-    "asOf": "2026-07-29",
-    "note": "Sun-Date pitted medjool bag, count UNVERIFIED — pantry audit 7/29"
-  },
-  {
-    "food": "butter",
-    "g": 150,
-    "asOf": "2026-07-29",
-    "note": "in fridge door, amount UNVERIFIED — fridge audit 7/29"
+    "asOf": "2026-07-31",
+    "note": "ESTIMATE from carton fill — photo audit 7/31"
   },
   {
     "food": "oat-milk",
-    "g": 800,
-    "asOf": "2026-07-29",
-    "note": "Trader Joe's non-dairy oat beverage, carton mostly full — fridge audit 7/29"
+    "g": 600,
+    "asOf": "2026-07-31",
+    "note": "TJ non-dairy oat beverage, amount UNVERIFIED — photo audit 7/31"
   },
   {
     "food": "whole-milk",
-    "g": 900,
-    "asOf": "2026-07-29",
-    "note": "actually Lucerne 2% reduced fat, not whole — mapped to closest registered id, carton mostly full"
+    "g": 700,
+    "asOf": "2026-07-31",
+    "note": "Lucerne 2% (mapped to closest id), amount UNVERIFIED — photo audit 7/31"
   },
   {
-    "food": "honey",
-    "g": 300,
-    "asOf": "2026-07-29",
-    "note": "large amber bottle in pantry, amount UNVERIFIED — pantry audit 7/29"
+    "food": "mozzarella-shredded",
+    "g": 250,
+    "asOf": "2026-07-31",
+    "note": "actually Kirkland Mexican-style cheese blend, mapped to closest id — photo audit 7/31"
+  },
+  {
+    "food": "bread-italian",
+    "g": 400,
+    "asOf": "2026-07-31",
+    "note": "Kirkland loaf in pantry, amount UNVERIFIED — photo audit 7/31"
+  },
+  {
+    "food": "oats-dry",
+    "g": 600,
+    "asOf": "2026-07-31",
+    "note": "bag in pantry, amount UNVERIFIED — photo audit 7/31"
   },
   {
     "food": "white-rice-dry",
-    "g": 900,
-    "asOf": "2026-07-29",
-    "note": "bag in pantry, amount UNVERIFIED — pantry audit 7/29"
+    "g": 800,
+    "asOf": "2026-07-31",
+    "note": "bag at pantry bottom, amount UNVERIFIED — photo audit 7/31"
+  },
+  {
+    "food": "potato",
+    "g": 1200,
+    "asOf": "2026-07-31",
+    "note": "bagged potatoes next to microwave, ~4-6 spuds, UNVERIFIED — photo audit 7/31"
+  },
+  {
+    "food": "honey",
+    "g": 500,
+    "asOf": "2026-07-31",
+    "note": "large jug in pantry — photo audit 7/31"
   },
   {
     "food": "olive-oil",
-    "g": 400,
-    "asOf": "2026-07-29",
-    "note": "tall green bottle, amount UNVERIFIED — pantry audit 7/29"
+    "g": 350,
+    "asOf": "2026-07-31",
+    "note": "green bottle in pantry — photo audit 7/31"
   },
   {
     "food": "sriracha",
     "g": 200,
-    "asOf": "2026-07-29",
-    "note": "bottle in fridge door, amount UNVERIFIED — fridge audit 7/29"
+    "asOf": "2026-07-31",
+    "note": "pantry (TJ sriracha BBQ + sriracha bottle) — photo audit 7/31"
   },
   {
-    "name": "hamburger buns",
-    "asOf": "2026-07-29",
-    "note": "pantry, amount unverified, not registered in foods.json"
+    "name": "steak (unlabeled cut, looks like carne asada / skirt)",
+    "asOf": "2026-07-31",
+    "note": "fridge middle shelf, red Costco-style pack, ~1-1.5 lb, cut UNVERIFIED — photo audit 7/31"
   },
   {
-    "name": "brioche buns",
-    "asOf": "2026-07-29",
-    "note": "pantry, amount unverified, not registered in foods.json"
+    "name": "polpettine (cooked, leftover)",
+    "asOf": "2026-07-31",
+    "note": "fridge, tray under plastic wrap, ~5-6 meatballs from 7/30 dinner — photo audit 7/31"
   },
   {
-    "name": "pasta (boxed)",
-    "asOf": "2026-07-29",
-    "note": "pantry, amount/shape unverified, not registered in foods.json"
+    "name": "Kirkland frozen shrimp 50-70",
+    "asOf": "2026-07-31",
+    "note": "bag in fridge (thawing?) — shellfish is SAFE per profile — photo audit 7/31"
   },
   {
-    "name": "Very Berry granola",
-    "asOf": "2026-07-29",
-    "note": "pantry, amount unverified, not registered in foods.json"
-  },
-  {
-    "name": "sesame seeds",
-    "asOf": "2026-07-29",
-    "note": "pantry, amount unverified, not registered in foods.json"
-  },
-  {
-    "name": "coarse salt",
-    "asOf": "2026-07-29",
-    "note": "pantry, not diet-tracked"
-  },
-  {
-    "name": "marinara sauce",
-    "asOf": "2026-07-29",
-    "note": "fridge, jar(s), amount unverified, not registered in foods.json"
-  },
-  {
-    "name": "salsa",
-    "asOf": "2026-07-29",
-    "note": "fridge, jar, amount unverified, not registered in foods.json"
-  },
-  {
-    "name": "mustard",
-    "asOf": "2026-07-29",
-    "note": "pantry, not diet-tracked (condiment)"
-  },
-  {
-    "name": "Panang curry sauce",
-    "asOf": "2026-07-29",
-    "note": "pantry, jar, not registered in foods.json"
-  },
-  {
-    "name": "balsamic vinegar",
-    "asOf": "2026-07-29",
-    "note": "pantry, not diet-tracked (condiment)"
-  },
-  {
-    "name": "red wine",
-    "asOf": "2026-07-29",
-    "note": "pantry, 1 bottle"
+    "name": "Kirkland lightly breaded chicken chunks",
+    "asOf": "2026-07-31",
+    "note": "freezer, fully cooked, 22g protein/serving, 1.36kg bag opened — photo audit 7/31"
   },
   {
     "name": "Kirkland raw chicken breast fillets",
-    "asOf": "2026-07-29",
-    "note": "freezer, large bag — good candidate to register in foods.json if a recipe uses it"
+    "asOf": "2026-07-31",
+    "note": "freezer, no-added-salt bag — photo audit 7/31"
   },
   {
-    "name": "unlabeled large meat cut",
-    "asOf": "2026-07-29",
-    "note": "freezer — Adam thinks skirt or flank steak, unverified"
+    "name": "Crazy Cuizine mandarin orange chicken",
+    "asOf": "2026-07-31",
+    "note": "freezer, boxed — photo audit 7/31"
   },
   {
-    "name": "frozen green beans",
-    "asOf": "2026-07-29",
-    "note": "freezer, amount unverified, not registered in foods.json"
+    "name": "frozen fries",
+    "asOf": "2026-07-31",
+    "note": "freezer, blue bag, amount unverified — photo audit 7/31"
   },
   {
-    "name": "frozen dumplings/potstickers",
-    "asOf": "2026-07-29",
-    "note": "freezer, brand/count unverified, not registered in foods.json"
+    "name": "Ben & Jerry's Half Baked pint",
+    "asOf": "2026-07-31",
+    "note": "freezer — photo audit 7/31"
   },
   {
-    "name": "Bibigo mandarin chicken fried rice",
-    "asOf": "2026-07-29",
-    "note": "freezer, frozen meal, not registered in foods.json"
+    "name": "pickled jalapeños",
+    "asOf": "2026-07-31",
+    "note": "fridge door, jar — safe per profile (jalapeños ok) — photo audit 7/31"
   },
   {
-    "name": "Crazy Cuisine orange chicken",
-    "asOf": "2026-07-29",
-    "note": "freezer, frozen meal, not registered in foods.json"
+    "name": "mayo, ketchup, marinara, alfredo/carbonara jar, jam, BBQ sauce, balsamic, mustard",
+    "asOf": "2026-07-31",
+    "note": "condiments/sauces across fridge + pantry, not diet-tracked — photo audit 7/31"
   },
   {
-    "name": "frozen chicken tenders",
-    "asOf": "2026-07-29",
-    "note": "freezer, brand/count unverified, not registered in foods.json"
+    "name": "deli meat pouch + misc crisper produce",
+    "asOf": "2026-07-31",
+    "note": "fridge lower shelf/drawers, contents UNVERIFIED from photos — photo audit 7/31"
   },
   {
     "name": "Kirkland energy drink variety pack",
-    "asOf": "2026-07-29",
-    "note": "pantry, not diet-tracked"
+    "asOf": "2026-07-31",
+    "note": "pantry, not diet-tracked — photo audit 7/31"
+  },
+  {
+    "name": "DO NOT USE — Silk almond milk (tree nut), Banza chickpea pasta (legume), Kirkland pesto (pine nuts)",
+    "asOf": "2026-07-31",
+    "note": "in shared kitchen, presumed roommates' — all three are Adam allergens; cross-contact awareness on shared surfaces"
   }
 ]
