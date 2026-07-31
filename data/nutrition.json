@@ -459,10 +459,10 @@
   },
   {
     "date": "2026-07-30",
-    "kcal": 3070,
-    "protein": 146,
-    "carbs": 349,
-    "fat": 118,
+    "kcal": 3220,
+    "protein": 148,
+    "carbs": 368,
+    "fat": 126,
     "meals": [],
     "method": "plan-derived+deviations",
     "deviations": [
@@ -514,8 +514,15 @@
         "protein": 32,
         "carbs": 40,
         "fat": 32
+      },
+      {
+        "desc": "Salt & Straw Chocolate Gooey Brownie ice cream, small portion (shop estimate 110–190 kcal; logged at midpoint; macros estimated)",
+        "kcal": 150,
+        "protein": 2,
+        "carbs": 19,
+        "fat": 8
       }
     ],
-    "notes": "Push lift day (done, 12:30-1:30pm). Dinner actual: Doppio Zero Fettuccine Oxtail + Polpettine; replaced planned bistecca and milk+dates. Salt & Straw dessert pending."
+    "notes": "Push lift day (done, 12:30-1:30pm). Dinner actual: Doppio Zero Fettuccine Oxtail + Polpettine; replaced planned bistecca and milk+dates. Dessert: small Salt & Straw Chocolate Gooey Brownie portion. Full day logged."
   }
 ]
