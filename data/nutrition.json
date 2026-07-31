@@ -459,10 +459,10 @@
   },
   {
     "date": "2026-07-30",
-    "kcal": 1635,
-    "protein": 105,
-    "carbs": 172,
-    "fat": 60,
+    "kcal": 1905,
+    "protein": 110,
+    "carbs": 180,
+    "fat": 83,
     "meals": [],
     "method": "plan-derived+deviations",
     "deviations": [
@@ -488,11 +488,11 @@
         "fat": 2
       },
       {
-        "desc": "Bistec dinner — freezer skirt/flank steak, est. ~250g raw (cut and weight unverified; correct if weighed)",
-        "kcal": 430,
-        "protein": 50,
-        "carbs": 0,
-        "fat": 25
+        "desc": "Doppio Zero bistec/bistecca dinner (estimated — restaurant steak plate w/ olive oil + sides, no published data)",
+        "kcal": 700,
+        "protein": 55,
+        "carbs": 8,
+        "fat": 48
       },
       {
         "desc": "Lucerne 2% reduced-fat milk 200g + 3 medjool dates (72g)",
@@ -502,6 +502,6 @@
         "fat": 4
       }
     ],
-    "notes": "Push lift day (done, 12:30-1:30pm). Dinner: bistec at home (Doppio Zero plan dropped). Full day logged."
+    "notes": "Push lift day (done, 12:30-1:30pm). Dinner: bistec at Doppio Zero as planned, milk+dates nightcap at home. Full day logged."
   }
 ]
