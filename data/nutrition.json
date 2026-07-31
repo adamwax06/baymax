@@ -456,5 +456,52 @@
       }
     ],
     "notes": "Legs lift day (done, 5-6pm — Squat 205x8,8, Leg Press Calf Raises 470x8,8,6, Hamstring Curl 125x8,8,5, Unilateral Leg Extension 125x8,8, all per weights.json). Full day logged. Dinner improvised: no pasta (rice sub), moldy marinara (sriracha sub) — discard that marinara jar."
+  },
+  {
+    "date": "2026-07-30",
+    "kcal": 1635,
+    "protein": 105,
+    "carbs": 172,
+    "fat": 60,
+    "meals": [],
+    "method": "plan-derived+deviations",
+    "deviations": [
+      {
+        "desc": "Egg scramble wrap (4 eggs 200g, mozzarella-shredded 25g, flour tortilla ×1 64g, spinach 60g)",
+        "kcal": 566,
+        "protein": 38,
+        "carbs": 37,
+        "fat": 29
+      },
+      {
+        "desc": "Kirkland Signature Sparkling Energy Drink, sugar-free, mango/tropical — label macros",
+        "kcal": 10,
+        "protein": 0,
+        "carbs": 1,
+        "fat": 0
+      },
+      {
+        "desc": "Honey-date toast, pre-lift (bread-italian 90g, honey 10g, 1 medjool date)",
+        "kcal": 330,
+        "protein": 9,
+        "carbs": 70,
+        "fat": 2
+      },
+      {
+        "desc": "Bistec dinner — freezer skirt/flank steak, est. ~250g raw (cut and weight unverified; correct if weighed)",
+        "kcal": 430,
+        "protein": 50,
+        "carbs": 0,
+        "fat": 25
+      },
+      {
+        "desc": "Lucerne 2% reduced-fat milk 200g + 3 medjool dates (72g)",
+        "kcal": 299,
+        "protein": 8,
+        "carbs": 64,
+        "fat": 4
+      }
+    ],
+    "notes": "Push lift day (done, 12:30-1:30pm). Dinner: bistec at home (Doppio Zero plan dropped). Full day logged."
   }
 ]
