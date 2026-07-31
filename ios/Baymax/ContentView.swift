@@ -179,7 +179,7 @@ struct HomeView: View {
     }
 
     private var sleepTile: some View {
-        let night = engine.overview?.sleep.nights.last
+        let night = engine.overview?.sleep.nights.first
         let minutes = night?.asleepMinutes
         return tile(
             icon: "bed.double.fill",
