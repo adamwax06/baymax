@@ -9035,6 +9035,74 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-07-31",
+      "type": "pull",
+      "exercises": [
+        {
+          "name": "Lat Pulldown",
+          "sets": [
+            {
+              "lb": 170,
+              "reps": [
+                8,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cable Curl",
+          "sets": [
+            {
+              "lb": 60,
+              "reps": [
+                6,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Row",
+          "sets": [
+            {
+              "lb": 170,
+              "reps": [
+                7,
+                6,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Unilateral DB Curl",
+          "sets": [
+            {
+              "lb": 40,
+              "perSide": true,
+              "reps": [
+                6,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Lat Pullover",
+          "sets": [
+            {
+              "lb": 30,
+              "reps": [
+                10,
+                8
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
