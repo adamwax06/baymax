@@ -459,10 +459,10 @@
   },
   {
     "date": "2026-07-30",
-    "kcal": 2469,
-    "protein": 129,
-    "carbs": 291,
-    "fat": 93,
+    "kcal": 3070,
+    "protein": 146,
+    "carbs": 349,
+    "fat": 118,
     "meals": [],
     "method": "plan-derived+deviations",
     "deviations": [
@@ -502,20 +502,20 @@
         "fat": 5
       },
       {
-        "desc": "Doppio Zero bistec/bistecca dinner (estimated — restaurant steak plate w/ olive oil + sides, no published data)",
-        "kcal": 700,
-        "protein": 55,
-        "carbs": 8,
-        "fat": 48
+        "desc": "Doppio Zero Fettuccine Oxtail (estimated — homemade egg fettuccine, braised oxtail, Chianti reduction, Parmesan; no published nutrition)",
+        "kcal": 1000,
+        "protein": 48,
+        "carbs": 90,
+        "fat": 45
       },
       {
-        "desc": "Lucerne 2% reduced-fat milk 200g + 3 medjool dates (72g)",
-        "kcal": 299,
-        "protein": 8,
-        "carbs": 64,
-        "fat": 4
+        "desc": "Doppio Zero Polpettine small plate (estimated — meatballs in spicy tomato sauce with grilled bread; no published nutrition)",
+        "kcal": 600,
+        "protein": 32,
+        "carbs": 40,
+        "fat": 32
       }
     ],
-    "notes": "Push lift day (done, 12:30-1:30pm). Dinner: bistec at Doppio Zero as planned, milk+dates nightcap at home. Full day logged."
+    "notes": "Push lift day (done, 12:30-1:30pm). Dinner actual: Doppio Zero Fettuccine Oxtail + Polpettine; replaced planned bistecca and milk+dates. Salt & Straw dessert pending."
   }
 ]
