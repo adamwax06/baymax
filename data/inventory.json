@@ -82,9 +82,10 @@
     "note": "bag in fridge (thawing?) — shellfish is SAFE per profile — photo audit 7/31"
   },
   {
-    "name": "Kirkland lightly breaded chicken tenders",
+    "food": "kirkland-breaded-tenders",
+    "g": 1000,
     "asOf": "2026-07-31",
-    "note": "freezer, fully cooked, 22g protein/serving, 1.36kg bag opened — Adam corrected: tenders, not chunks"
+    "note": "freezer, fully cooked, bag opened, amount UNVERIFIED — label registered in foods.json 7/31 (84g = 140kcal/16P)"
   },
   {
     "name": "Kirkland raw chicken breast fillets",

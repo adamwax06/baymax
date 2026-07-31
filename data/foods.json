@@ -1,5 +1,22 @@
 [
   {
+    "id": "kirkland-breaded-tenders",
+    "name": "Kirkland lightly breaded chicken breast chunks/tenders, fully cooked (frozen)",
+    "store": "costco",
+    "brand": "Kirkland Signature",
+    "fdcType": "label",
+    "weighed": "cooked",
+    "per100g": {
+      "kcal": 167,
+      "protein": 19,
+      "fat": 6,
+      "carbs": 10.7,
+      "sodium": 631
+    },
+    "allergyChecked": "2026-07-31",
+    "notes": "label: 84g serving = 140kcal/16P/5F/9C. Contains milk, egg, wheat; paprika + celery seed + refined soybean oil all safe per profile. Verify bag's may-contain line on next purchase."
+  },
+  {
     "id": "chicken-thigh",
     "name": "Chicken thigh, boneless skinless, raw",
     "fdcId": 2646171,
