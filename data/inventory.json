@@ -1,135 +1,135 @@
 [
-  {
-    "food": "egg",
-    "count": 10,
-    "asOf": "2026-07-31",
-    "note": "ESTIMATE from carton fill — photo audit 7/31"
-  },
-  {
-    "food": "oat-milk",
-    "g": 600,
-    "asOf": "2026-07-31",
-    "note": "TJ non-dairy oat beverage, amount UNVERIFIED — photo audit 7/31"
-  },
-  {
-    "food": "whole-milk",
-    "g": 700,
-    "asOf": "2026-07-31",
-    "note": "Lucerne 2% (mapped to closest id), amount UNVERIFIED — photo audit 7/31"
-  },
-  {
-    "food": "mozzarella-shredded",
-    "g": 250,
-    "asOf": "2026-07-31",
-    "note": "actually Kirkland Mexican-style cheese blend, mapped to closest id — photo audit 7/31"
-  },
-  {
-    "food": "bread-italian",
-    "g": 400,
-    "asOf": "2026-07-31",
-    "note": "Kirkland loaf in pantry, amount UNVERIFIED — photo audit 7/31"
-  },
-  {
-    "food": "oats-dry",
-    "g": 600,
-    "asOf": "2026-07-31",
-    "note": "bag in pantry, amount UNVERIFIED — photo audit 7/31"
-  },
-  {
-    "food": "white-rice-dry",
-    "g": 800,
-    "asOf": "2026-07-31",
-    "note": "bag at pantry bottom, amount UNVERIFIED — photo audit 7/31"
-  },
-  {
-    "food": "potato",
-    "g": 1200,
-    "asOf": "2026-07-31",
-    "note": "bagged potatoes next to microwave, ~4-6 spuds, UNVERIFIED — photo audit 7/31"
-  },
-  {
-    "food": "honey",
-    "g": 500,
-    "asOf": "2026-07-31",
-    "note": "large jug in pantry — photo audit 7/31"
-  },
-  {
-    "food": "olive-oil",
-    "g": 350,
-    "asOf": "2026-07-31",
-    "note": "green bottle in pantry — photo audit 7/31"
-  },
-  {
-    "food": "sriracha",
-    "g": 200,
-    "asOf": "2026-07-31",
-    "note": "pantry (TJ sriracha BBQ + sriracha bottle) — photo audit 7/31"
-  },
-  {
-    "food": "ground-beef-96",
-    "g": 200,
-    "asOf": "2026-07-31",
-    "note": "Adam corrected: the red fridge pack is ~200g ground beef, in fridge ~2 days — USE BY TONIGHT (raw ground beef fridge limit)"
-  },
-  {
-    "name": "covered tray in fridge (unidentified, NOT Adam's polpettine)",
-    "asOf": "2026-07-31",
-    "note": "middle shelf under plastic wrap — Adam says not his; presumed roommate's, do not plan around it"
-  },
-  {
-    "name": "Kirkland frozen shrimp 50-70",
-    "asOf": "2026-07-31",
-    "note": "bag in fridge (thawing?) — shellfish is SAFE per profile — photo audit 7/31"
-  },
-  {
-    "food": "kirkland-breaded-tenders",
-    "g": 1000,
-    "asOf": "2026-07-31",
-    "note": "freezer, fully cooked, bag opened, amount UNVERIFIED — label registered in foods.json 7/31 (84g = 140kcal/16P)"
-  },
-  {
-    "name": "Kirkland raw chicken breast fillets",
-    "asOf": "2026-07-31",
-    "note": "freezer, no-added-salt bag — photo audit 7/31"
-  },
-  {
-    "name": "Crazy Cuizine mandarin orange chicken",
-    "asOf": "2026-07-31",
-    "note": "freezer, boxed — photo audit 7/31"
-  },
-  {
-    "name": "frozen fries",
-    "asOf": "2026-07-31",
-    "note": "freezer, blue bag, amount unverified — photo audit 7/31"
-  },
-  {
-    "name": "Ben & Jerry's Half Baked pint",
-    "asOf": "2026-07-31",
-    "note": "freezer — photo audit 7/31"
-  },
-  {
-    "name": "pickled jalapeños",
-    "asOf": "2026-07-31",
-    "note": "fridge door, jar — safe per profile (jalapeños ok) — photo audit 7/31"
-  },
-  {
-    "name": "mayo, ketchup, marinara, alfredo/carbonara jar, jam, BBQ sauce, balsamic, mustard",
-    "asOf": "2026-07-31",
-    "note": "condiments/sauces across fridge + pantry, not diet-tracked — photo audit 7/31"
-  },
-  {
-    "name": "deli meat pouch + misc crisper produce",
-    "asOf": "2026-07-31",
-    "note": "fridge lower shelf/drawers, contents UNVERIFIED from photos — photo audit 7/31"
-  },
-  {
-    "name": "Kirkland energy drink variety pack",
-    "asOf": "2026-07-31",
-    "note": "pantry, not diet-tracked — photo audit 7/31"
-  },
-  {
-    "name": "DO NOT USE — Silk almond milk (tree nut), Banza chickpea pasta (legume), Kirkland pesto (pine nuts)",
-    "asOf": "2026-07-31",
-    "note": "in shared kitchen, presumed roommates' — all three are Adam allergens; cross-contact awareness on shared surfaces"
-  }
+ {
+  "food": "egg",
+  "count": 10,
+  "asOf": "2026-07-31",
+  "note": "ESTIMATE from carton fill \u2014 photo audit 7/31"
+ },
+ {
+  "food": "oat-milk",
+  "g": 600,
+  "asOf": "2026-07-31",
+  "note": "TJ non-dairy oat beverage, amount UNVERIFIED \u2014 photo audit 7/31"
+ },
+ {
+  "food": "whole-milk",
+  "g": 700,
+  "asOf": "2026-07-31",
+  "note": "Lucerne 2% (mapped to closest id), amount UNVERIFIED \u2014 photo audit 7/31"
+ },
+ {
+  "food": "mozzarella-shredded",
+  "g": 250,
+  "asOf": "2026-07-31",
+  "note": "actually Kirkland Mexican-style cheese blend, mapped to closest id \u2014 photo audit 7/31"
+ },
+ {
+  "food": "bread-italian",
+  "g": 400,
+  "asOf": "2026-07-31",
+  "note": "Kirkland loaf in pantry, amount UNVERIFIED \u2014 photo audit 7/31"
+ },
+ {
+  "food": "oats-dry",
+  "g": 600,
+  "asOf": "2026-07-31",
+  "note": "bag in pantry, amount UNVERIFIED \u2014 photo audit 7/31"
+ },
+ {
+  "food": "white-rice-dry",
+  "g": 800,
+  "asOf": "2026-07-31",
+  "note": "bag at pantry bottom, amount UNVERIFIED \u2014 photo audit 7/31"
+ },
+ {
+  "food": "potato",
+  "g": 1200,
+  "asOf": "2026-07-31",
+  "note": "bagged potatoes next to microwave, ~4-6 spuds, UNVERIFIED \u2014 photo audit 7/31"
+ },
+ {
+  "food": "honey",
+  "g": 500,
+  "asOf": "2026-07-31",
+  "note": "large jug in pantry \u2014 photo audit 7/31"
+ },
+ {
+  "food": "olive-oil",
+  "g": 350,
+  "asOf": "2026-07-31",
+  "note": "green bottle in pantry \u2014 photo audit 7/31"
+ },
+ {
+  "food": "sriracha",
+  "g": 200,
+  "asOf": "2026-07-31",
+  "note": "pantry (TJ sriracha BBQ + sriracha bottle) \u2014 photo audit 7/31"
+ },
+ {
+  "food": "ground-beef-96",
+  "g": 200,
+  "asOf": "2026-07-31",
+  "note": "moved to freezer 7/31 raw (was 2 days in fridge) \u2014 thaw and cook same day, use within ~2 months"
+ },
+ {
+  "name": "covered tray in fridge (unidentified, NOT Adam's polpettine)",
+  "asOf": "2026-07-31",
+  "note": "middle shelf under plastic wrap \u2014 Adam says not his; presumed roommate's, do not plan around it"
+ },
+ {
+  "name": "Kirkland frozen shrimp 50-70",
+  "asOf": "2026-07-31",
+  "note": "bag in fridge (thawing?) \u2014 shellfish is SAFE per profile \u2014 photo audit 7/31"
+ },
+ {
+  "food": "kirkland-breaded-tenders",
+  "g": 1000,
+  "asOf": "2026-07-31",
+  "note": "freezer, fully cooked, bag opened, amount UNVERIFIED \u2014 label registered in foods.json 7/31 (84g = 140kcal/16P)"
+ },
+ {
+  "name": "Kirkland raw chicken breast fillets",
+  "asOf": "2026-07-31",
+  "note": "freezer, no-added-salt bag \u2014 photo audit 7/31"
+ },
+ {
+  "name": "Crazy Cuizine mandarin orange chicken",
+  "asOf": "2026-07-31",
+  "note": "freezer, boxed \u2014 photo audit 7/31"
+ },
+ {
+  "name": "frozen fries",
+  "asOf": "2026-07-31",
+  "note": "freezer, blue bag, amount unverified \u2014 photo audit 7/31"
+ },
+ {
+  "name": "Ben & Jerry's Half Baked pint",
+  "asOf": "2026-07-31",
+  "note": "freezer \u2014 photo audit 7/31"
+ },
+ {
+  "name": "pickled jalape\u00f1os",
+  "asOf": "2026-07-31",
+  "note": "fridge door, jar \u2014 safe per profile (jalape\u00f1os ok) \u2014 photo audit 7/31"
+ },
+ {
+  "name": "mayo, ketchup, marinara, alfredo/carbonara jar, jam, BBQ sauce, balsamic, mustard",
+  "asOf": "2026-07-31",
+  "note": "condiments/sauces across fridge + pantry, not diet-tracked \u2014 photo audit 7/31"
+ },
+ {
+  "name": "deli meat pouch + misc crisper produce",
+  "asOf": "2026-07-31",
+  "note": "fridge lower shelf/drawers, contents UNVERIFIED from photos \u2014 photo audit 7/31"
+ },
+ {
+  "name": "Kirkland energy drink variety pack",
+  "asOf": "2026-07-31",
+  "note": "pantry, not diet-tracked \u2014 photo audit 7/31"
+ },
+ {
+  "name": "DO NOT USE \u2014 Silk almond milk (tree nut), Banza chickpea pasta (legume), Kirkland pesto (pine nuts)",
+  "asOf": "2026-07-31",
+  "note": "in shared kitchen, presumed roommates' \u2014 all three are Adam allergens; cross-contact awareness on shared surfaces"
+ }
 ]
