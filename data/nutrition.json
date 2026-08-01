@@ -527,10 +527,10 @@
  },
  {
   "date": "2026-07-31",
-  "kcal": 1726,
-  "protein": 116,
-  "carbs": 152,
-  "fat": 76,
+  "kcal": 1626,
+  "protein": 111,
+  "carbs": 141,
+  "fat": 71,
   "meals": [],
   "method": "plan-derived+deviations",
   "deviations": [
@@ -542,11 +542,11 @@
     "fat": 33
    },
    {
-    "desc": "Nojo Ramen Tavern dinner out w/ parents (replaced beef+potato dinner): Tan-Tan Spicy Miso Paitan (spicy ground chicken, toasted sesame, arugula, green onion, dashi egg, spice bomb \u2014 menu confirms sesame-based, no peanut) + 3 of 5pc gyoza (cabbage/pork/chicken/nira/garlic) + 3 edamame pods \u2014 estimated from menu ingredients",
-    "kcal": 1035,
-    "protein": 53,
-    "carbs": 111,
-    "fat": 43
+    "desc": "Nojo Ramen Tavern dinner out w/ parents (replaced beef+potato dinner): Tan-Tan Spicy Miso Paitan (spicy ground chicken, toasted sesame, arugula, green onion, dashi egg, spice bomb \u2014 menu confirms sesame-based, no peanut) + 3 of 5pc gyoza (cabbage/pork/chicken/nira/garlic) + 3 edamame pods \u2014 estimated from menu ingredients + published tantanmen counts (bowl ~750, range 600-900)",
+    "kcal": 935,
+    "protein": 48,
+    "carbs": 100,
+    "fat": 38
    }
   ],
   "notes": "Partial day so far \u2014 tender-bowl deviation + Nojo dinner logged; morning meals (scramble/latte/pre-lift toast, per calendar) to fold in at tonight's compile. Ground beef NOT cooked \u2014 must freeze tonight."
