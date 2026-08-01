@@ -527,10 +527,10 @@
  },
  {
   "date": "2026-07-31",
-  "kcal": 691,
-  "protein": 63,
-  "carbs": 41,
-  "fat": 33,
+  "kcal": 1826,
+  "protein": 111,
+  "carbs": 155,
+  "fat": 86,
   "meals": [],
   "method": "plan-derived+deviations",
   "deviations": [
@@ -540,8 +540,15 @@
     "protein": 63,
     "carbs": 41,
     "fat": 33
+   },
+   {
+    "desc": "Nojo Ramen Tower dinner out w/ parents (replaced beef+potato dinner): tan tan spicy ramen + 3 gyoza + 3 edamame pods \u2014 estimated, no published nutrition; no reaction despite tan tan's usual peanut risk (presumed sesame-based)",
+    "kcal": 1135,
+    "protein": 48,
+    "carbs": 114,
+    "fat": 53
    }
   ],
-  "notes": "Partial day so far \u2014 only the filet dinner deviation logged; compile full day tonight."
+  "notes": "Partial day so far \u2014 tender-bowl deviation + Nojo dinner logged; morning meals (scramble/latte/pre-lift toast, per calendar) to fold in at tonight's compile. Ground beef NOT cooked \u2014 must freeze tonight."
  }
 ]
