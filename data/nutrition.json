@@ -527,10 +527,10 @@
  },
  {
   "date": "2026-07-31",
-  "kcal": 1626,
-  "protein": 111,
-  "carbs": 141,
-  "fat": 71,
+  "kcal": 3452,
+  "protein": 187,
+  "carbs": 408,
+  "fat": 118,
   "meals": [],
   "method": "plan-derived+deviations",
   "deviations": [
@@ -549,6 +549,6 @@
     "fat": 38
    }
   ],
-  "notes": "Partial day so far \u2014 tender-bowl deviation + Nojo dinner logged; morning meals (scramble/latte/pre-lift toast, per calendar) to fold in at tonight's compile. Ground beef NOT cooked \u2014 must freeze tonight."
+  "notes": "Full day logged. Morning per calendar (scramble 786, latte 250 est 16oz, pre-lift toast 309); pull lift done 2:30-4pm; tender bowl as-eaten 1,172 (330g filets + 130g rice dry + CFA packet, confirmed rice eaten); Nojo Ramen Tavern dinner out 935 est. Nightcap cancelled to offset. ~165 over the 3,285 planned day. Ground beef NOT cooked \u2014 freeze it or it's trash."
  }
 ]
