@@ -889,5 +889,23 @@
   },
   "allergyChecked": "2026-07-31",
   "notes": "label: 28g packet = 140kcal/0P/13F/6C/170mg sodium. Soybean oil (refined), egg yolk, honey, mustard, tomato, paprika \u2014 all safe per profile"
+ },
+ {
+  "id": "shrimp-raw",
+  "name": "Shrimp, raw, peeled (Kirkland 50-70 frozen)",
+  "fdcId": 175179,
+  "fdcType": "SR Legacy",
+  "weighed": "raw",
+  "store": "costco",
+  "brand": "Kirkland Signature",
+  "per100g": {
+   "kcal": 85,
+   "protein": 20.1,
+   "carbs": 0,
+   "fat": 0.5,
+   "sodium": 119
+  },
+  "allergyChecked": "2026-07-31",
+  "notes": "shellfish \u2014 explicitly safe per profile"
  }
 ]
