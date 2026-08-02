@@ -550,5 +550,91 @@
    }
   ],
   "notes": "Full day logged. Morning per calendar (scramble 786, latte 250 est 16oz, pre-lift toast 309); pull lift done 2:30-4pm; tender bowl as-eaten 1,172 (330g filets + 130g rice dry + CFA packet, confirmed rice eaten); Nojo Ramen Tavern dinner out 935 est. Nightcap cancelled to offset. ~165 over the 3,285 planned day. Ground beef NOT cooked \u2014 freeze it or it's trash."
+ },
+ {
+  "date": "2026-08-01",
+  "kcal": 3785,
+  "protein": 117,
+  "carbs": 404,
+  "fat": 77,
+  "fiber": 5,
+  "sodium": 60,
+  "meals": [],
+  "method": "as-eaten (verified label + restaurant/drink estimates)",
+  "deviations": [
+   {
+    "desc": "Nature Valley Double Chocolate Peanut-Free Chewy Granola Bar, 1 bar (25g) \u2014 UPC 016000345874, verified physical label",
+    "kcal": 100,
+    "protein": 2,
+    "carbs": 19,
+    "fat": 3,
+    "fiber": 5,
+    "sodium": 60
+   },
+   {
+    "desc": "Scoma's Sausalito Mary's grilled chicken breast sandwich, no avocado and no slaw (photo-based restaurant estimate; full sandwich with roll, cheese, mayo, lettuce, tomato)",
+    "kcal": 825,
+    "protein": 60,
+    "carbs": 65,
+    "fat": 30
+   },
+   {
+    "desc": "Honey-date toast, pre-lift (usual portion: Italian bread 90g, honey 10g, 1 medjool date)",
+    "kcal": 330,
+    "protein": 9,
+    "carbs": 70,
+    "fat": 2
+   },
+   {
+    "desc": "Monster Energy Zero Ultra (white), 1 can - estimated label macros",
+    "kcal": 10,
+    "protein": 0,
+    "carbs": 3,
+    "fat": 0
+   },
+   {
+    "desc": "Farmhouse Kitchen Thai chicken Thai fried rice, standard chicken portion (restaurant estimate; double-chicken add-on not confirmed)",
+    "kcal": 1000,
+    "protein": 45,
+    "carbs": 130,
+    "fat": 32
+   },
+   {
+    "desc": "Farmhouse Kitchen Thai Lod Chong pandan-coconut cocktail (estimated)",
+    "kcal": 300,
+    "protein": 1,
+    "carbs": 32,
+    "fat": 10
+   },
+   {
+    "desc": "Farmhouse Kitchen Thai Golden Hour cocktail (estimated; exact recipe/pour unavailable)",
+    "kcal": 220,
+    "protein": 0,
+    "carbs": 20,
+    "fat": 0
+   },
+   {
+    "desc": "Tequila soda, 1 drink (estimated standard pour)",
+    "kcal": 100,
+    "protein": 0,
+    "carbs": 0,
+    "fat": 0
+   },
+   {
+    "desc": "Long Island iced tea, 2 cocktails (estimated restaurant pours)",
+    "kcal": 600,
+    "protein": 0,
+    "carbs": 50,
+    "fat": 0
+   },
+   {
+    "desc": "Soju, approximately one coffee cup (~8-10 fl oz; estimated)",
+    "kcal": 300,
+    "protein": 0,
+    "carbs": 15,
+    "fat": 0
+   }
+  ],
+  "notes": "Full day logged. Legs lift completed (Squat 215x8,8 plus accessories, per weights.json). Restaurant food and cocktail pours are midpoint estimates; alcohol contributes substantial ethanol calories that are not represented in protein/carbs/fat. Fiber, sodium, and micronutrients are undercounted because only the packaged bar had verified values. Farmhouse fried rice is logged as standard chicken; correct if double chicken was actually served."
  }
 ]
