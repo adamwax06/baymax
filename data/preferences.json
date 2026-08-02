@@ -1,0 +1,36 @@
+{
+ "timezone": "America/Los_Angeles",
+ "preferredStores": ["costco", "trader-joes"],
+ "nutrition": {
+  "mealsPerDay": 5,
+  "calorieTolerance": 150,
+  "fiberFloorG": 35,
+  "repeatPenalty": 30,
+  "proteinUpperMultiplier": 1.35,
+  "requiredTrainingMeals": ["pre-lift-carb", "post-lift-smoothie"],
+  "restDayExcludedMeals": ["pre-lift-carb", "post-lift-smoothie"]
+ },
+ "training": {
+  "split": ["push", "pull", "legs"],
+  "weeklyPattern": [true, true, true, false, true, true, true],
+  "preferredStart": "17:00",
+  "alternateStarts": ["12:00", "18:30"],
+  "durationMin": 60,
+  "calendarBufferMin": 30
+ },
+ "mealTiming": {
+  "trainingBaseTimes": ["09:00", "12:30", "20:00"],
+  "restTimes": ["09:00", "12:30", "16:00", "19:30", "22:30"],
+  "preWorkoutMinutes": 75,
+  "postWorkoutMinutes": 15,
+  "eventDurationMin": 30
+ },
+ "grocery": {
+  "inventoryMaxAgeDays": 2,
+  "untrustedNotePatterns": ["unverified", "estimate", "do not use", "presumed"],
+  "priceMaxAgeDays": 30,
+  "requireAllergenVerified": true,
+  "allowUnknownNutrition": false,
+  "substitutions": "none"
+ }
+}

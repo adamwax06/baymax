@@ -907,5 +907,67 @@
   },
   "allergyChecked": "2026-07-31",
   "notes": "shellfish \u2014 explicitly safe per profile"
+ },
+ {
+  "id": "kirkland-greek-yogurt-nonfat",
+  "name": "Kirkland Signature organic Greek yogurt, plain nonfat",
+  "store": "costco",
+  "brand": "Kirkland Signature",
+  "fdcType": "label",
+  "weighed": "raw",
+  "per100g": {
+   "kcal": 58.82,
+   "protein": 10.59,
+   "fat": 0,
+   "carbs": 4.12,
+   "fiber": 0,
+   "calcium": 111.76,
+   "potassium": 111.76,
+   "sodium": 35.29,
+   "iron": 0,
+   "vitD": 0
+  },
+  "allergyChecked": "2026-08-02",
+  "notes": "Costco item 1048072 label: 170g = 100 kcal, 18g protein, 0g fat, 7g carbs. Ingredients and allergen statement reviewed; contains milk. No profile-listed allergen or may-contain warning shown."
+ },
+ {
+  "id": "kirkland-oat-beverage",
+  "name": "Kirkland Signature organic oat non-dairy beverage",
+  "store": "costco",
+  "brand": "Kirkland Signature",
+  "fdcType": "label",
+  "weighed": "raw",
+  "per100g": {
+   "kcal": 54.17,
+   "protein": 0.83,
+   "fat": 2.08,
+   "carbs": 7.92,
+   "fiber": 0.42,
+   "sodium": 47.92
+  },
+  "allergyChecked": "2026-08-02",
+  "notes": "Costco item 1272413 current listing: 240mL = 130 kcal, 2g protein, 5g fat, 19g carbs, 1g fiber, 115mg sodium. Ingredients reviewed; no profile-listed allergen. Per-100g conversion treats 1mL as 1g."
+ },
+ {
+  "id": "kirkland-organic-ground-beef-85",
+  "name": "Kirkland Signature organic ground beef 85/15, raw",
+  "store": "costco",
+  "brand": "Kirkland Signature",
+  "fdcType": "label",
+  "weighed": "raw",
+  "per100g": {
+   "kcal": 214.29,
+   "protein": 18.75,
+   "fat": 15.18,
+   "carbs": 0,
+   "fiber": 0,
+   "calcium": 0,
+   "iron": 1.88,
+   "potassium": 294.64,
+   "sodium": 66.96,
+   "vitD": 0
+  },
+  "allergyChecked": "2026-08-02",
+  "notes": "Costco item 598881 label: 112g = 240 kcal, 21g protein, 17g fat, 0g carbs, 75mg sodium, 2.1mg iron, 330mg potassium. Single-ingredient raw beef."
  }
 ]

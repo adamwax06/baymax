@@ -16,6 +16,12 @@ out to `dd-cli` directly (`search` → `menu`/`restaurant-item-details` → `car
 server/iOS changes — full in-app ordering (search/menu/cart screens) was
 scoped and explicitly deferred.
 
+`bun run sunday-plan --dry-run` can now produce a Costco grocery proposal
+from planned meals. It deliberately stops before cart creation. The generated
+artifact carries the Costco product id, package count, current price estimate,
+and `substitutionPolicy: "none"`; a future apply command can resolve the
+DoorDash item id and build the cart without changing planner behavior.
+
 Every candidate item gets cross-checked against `data/profile.json` allergies
 before being proposed — restaurant items are less controlled than home-cooked
 `meals.json` recipes. `restaurant-item-details` exposes swappable

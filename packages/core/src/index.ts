@@ -16,4 +16,24 @@ export { SCHEMA_DOC } from "./schema.ts";
 export { KG_PER_LB } from "./nutrition.ts";
 export { HealthClient } from "./client.ts";
 export { localDateStr } from "./time.ts";
+export {
+  createWeeklyPlan,
+  groceryStoreZ,
+  mealNutrition,
+  planningBusyIntervalZ,
+  planningExtraDayZ,
+  planningFoodZ,
+  planningInventoryZ,
+  planningMealZ,
+  planningPreferencesZ,
+  planningProductZ,
+  type PlanningBusyInterval,
+  type PlanningExtraDay,
+  type PlanningFood,
+  type PlanningInventory,
+  type PlanningMeal,
+  type PlanningPreferences,
+  type PlanningProduct,
+  type WeeklyPlanInput,
+} from "./planning.ts";
 export type * from "./types.ts";

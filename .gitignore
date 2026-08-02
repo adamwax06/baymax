@@ -8,6 +8,11 @@ data/*
 !data/profile.json
 !data/foods.json
 !data/meals.json
+!data/preferences.json
+!data/products.json
+!data/plans/
+!data/plans/*.json
+!data/plans/*.md
 .DS_Store
 ios/*.xcodeproj/
 ios/Signing.xcconfig
