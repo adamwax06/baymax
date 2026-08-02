@@ -28,6 +28,7 @@ bun run import                                # the committed gym + weigh-in log
 bun run health overview                       # the full picture in one call
 bun run health lifts --exercise bench         # 4 years of strength progression
 bun run health nutrition                      # adaptive calorie/protein targets
+bun run sunday-plan --dry-run                 # next week's lifts, meals, and groceries
 ```
 
 For real Apple Health data: `bun run dev` on the Mac, build `ios/` onto your
@@ -37,3 +38,7 @@ a nutrition mirror into Apple Health. Adopting this for yourself (it ships with 
 data): **[docs/onboarding.md](docs/onboarding.md)**. Everything else — repo
 map, data model, logging flows, how to add a metric, troubleshooting — is in
 **[AGENTS.md](AGENTS.md)**.
+
+The Sunday planner is local and proposal-only: it materializes an auditable
+weekly artifact but does not touch Google Calendar or spend money. See
+**[docs/sunday-planner.md](docs/sunday-planner.md)**.

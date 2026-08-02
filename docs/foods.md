@@ -1,20 +1,26 @@
 # Foods & meals data model
 
-Two committed, hand/agent-edited files, same family as the other logs
-(bare arrays, read live, no DB import). Composition chain:
+The food and meal registries are committed, hand/agent-edited bare arrays,
+read live with no DB import. The weekly planner joins them with product,
+inventory, and preference data:
 
 ```
 foods.json (ingredients, per-100g)
    ↑ referenced by id
 meals.json (recipe book: food × grams)
-   ↑ referenced by id
-mealplan.json (planned: days composing meals — future file)
+   ↓ selected by the deterministic planner
+plans/<ISO-week>.json (generated weekly snapshot)
 nutrition.json (actual: today just {date, kcal}; may later log meal refs)
+
+products.json (store package → food id) ─┐
+inventory.json (trusted quantity on hand) ├→ weekly grocery proposal
+preferences.json (targets + scheduling) ──┘
 ```
 
-Totals (macros/micros for a meal, day, or plan) are **never stored** —
-always derived from `foods.per100g × grams / 100` at read time, same
-never-store-deriveables rule as the rest of the platform.
+Meal and day totals are always derived from `foods.per100g × grams / 100`.
+Generated plan artifacts materialize those totals as an audit snapshot, but
+they are not hand-edited or treated as source data; regeneration replaces
+them from the registries and current health target.
 
 ## `data/foods.json` — the ingredient registry
 
@@ -77,6 +83,20 @@ never-store-deriveables rule as the rest of the platform.
 - Meals are reusable units — the plan and (eventually) the intake log
   reference them by id. A one-off meal can live inline in the plan; only
   repeated meals earn an entry here.
+
+## `data/products.json` — exact purchasable packages
+
+Each record maps one store SKU/package to a `foods.json` id. Package size is
+used for ceiling/quantity math; price is an estimate with an as-of date.
+`allergenStatus: "verified"` is required by the default planner. Nutrition
+provenance is explicit: `exact-label`, `generic-food`, or `unknown`. A generic
+mapping is allowed in the proposal but produces a warning so exact label
+capture remains visible work. `substitutionPolicy` is currently always
+`none`.
+
+Costco products may be delivery-capable. Trader Joe's products produce a
+manual shopping list because there is no ordering adapter in this slice.
+See `docs/sunday-planner.md` for the planning and approval flow.
 
 ## Derivation rules (for whatever computes totals)
 

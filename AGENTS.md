@@ -37,9 +37,10 @@ data/goals.json + profile.json + nutrition.json ──── read live at query 
 | `docs/nutrition.md` | The nutrition loop: `data/profile.json` (who Adam is — **includes binding allergy list**), `data/goals.json` (targets), `data/nutrition.json` (daily kcal log) → adaptive TDEE-based calorie/protein targets via `health nutrition` / `health_nutrition` |
 | `docs/goals.md` | Goal flavors (lift / body weight / run), the e1RM pacing convention, and the "am I on pace?" recipe |
 | `docs/foods.md` | Data model for `data/foods.json` (per-100g ingredient registry, FDC provenance, `weighed` state) and `data/meals.json` (recipe book) — totals always derived, never stored |
+| `docs/sunday-planner.md` | Deterministic weekly planner: health targets → lifts/meals → inventory-aware Costco + Trader Joe's grocery proposals, with Calendar and checkout safety boundaries |
 | `docs/onboarding.md` | Adopting baymax with your own data: what to personalize, routing live data into Apple Health, backfilling history (the bodyweight backfill is the reusable template) |
 | `docs/doordash.md` | Adam's DoorDash CLI (`dd-cli`) access — chat-driven ordering flow, allergy cross-check, known upstream gaps (no macro data, missing apt number on `address list`) |
-| `data/` | `baymax.db` (gitignored, local-only) plus seven committed JSON files: weights, goals, nutrition, profile, foods, meals, inventory (kitchen on-hand snapshot for grocery lists — a cache of reality, updated on hauls/fridge audits, never a ledger). Located next to the DB, so `BAYMAX_DB` relocates both. (Weigh-ins live in Apple Health, not a file) |
+| `data/` | `baymax.db` (gitignored, local-only), nine committed JSON inputs (weights, goals, nutrition, profile, foods, meals, inventory, preferences, products), and generated `plans/` artifacts. Inventory is a cache of reality, updated on hauls/fridge audits, never a ledger. Located next to the DB, so `BAYMAX_DB` relocates everything. (Weigh-ins live in Apple Health, not a file) |
 
 ## Commands
 
@@ -53,6 +54,7 @@ bun run health <cmd>            # or `cd apps/cli && bun link` for a global `hea
 bun run import                  # import weights.json (gym log) into the DB (docs/weights.md)
 bun run intake <mealId>...      # log a day's plan-derived intake to nutrition.json (docs/nutrition.md)
 bun run tj <search terms>       # Trader Joe's product/price search at Adam's store (via Chrome; /tj skill)
+bun run sunday-plan --dry-run   # proposed lifts, meals, groceries → data/plans/<ISO-week>.json
 sqlite3 data/baymax.db          # raw SQL (CLI has no query subcommand on purpose)
 bun run db:generate             # regenerate Drizzle migration after a schema change (rare)
 ```
@@ -71,6 +73,8 @@ Daily logging flows (what to touch, and whether an import is needed):
   meals and reports deviations — the plan IS the intake record. The app's
   "Write Nutrition → Health" mirrors logged days into Apple Health
 - **Goal/profile change** → edit `data/goals.json` / `data/profile.json` — live, no import
+- **Weekly plan** → `bun run sunday-plan --dry-run`; inspect the artifact before
+  any Calendar write or DoorDash preview. Checkout always needs explicit approval
 
 ## Data model (frozen — extend via the registry, not the schema)
 

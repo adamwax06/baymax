@@ -23,11 +23,11 @@
     "name": "Post-lift yogurt-oat-mango smoothie",
     "items": [
       {
-        "food": "greek-yogurt-whole",
+        "food": "kirkland-greek-yogurt-nonfat",
         "g": 200
       },
       {
-        "food": "oat-milk",
+        "food": "kirkland-oat-beverage",
         "g": 200
       },
       {
@@ -36,15 +36,15 @@
       },
       {
         "food": "oats-dry",
-        "g": 35
+        "g": 84
       },
       {
         "food": "honey",
-        "g": 30
+        "g": 14
       },
       {
         "food": "chia",
-        "g": 15
+        "g": 25
       }
     ],
     "notes": "v4 (7/21): oat milk cut 250\u2192200g after v3 overflowed. Taste APPROVED at v3 \u2014 ratios settled. Blend order fix: liquid+oats+chia first ~30s to grind the chia, then yogurt+fruit. Fruit: frozen mango or pineapple. NEVER banana (allergy)"
@@ -55,11 +55,11 @@
     "items": [
       {
         "food": "chicken-breast-cooked",
-        "g": 200
+        "g": 150
       },
       {
         "food": "white-rice-dry",
-        "g": 130
+        "g": 103
       },
       {
         "food": "spinach",
@@ -77,7 +77,7 @@
     "name": "Beef + potato dinner",
     "items": [
       {
-        "food": "ground-beef-85",
+        "food": "kirkland-organic-ground-beef-85",
         "g": 150
       },
       {
@@ -100,7 +100,7 @@
     "name": "Yogurt + berries nightcap",
     "items": [
       {
-        "food": "greek-yogurt-whole",
+        "food": "kirkland-greek-yogurt-nonfat",
         "g": 250
       },
       {
@@ -141,8 +141,8 @@
     "name": "Rest-day yogurt pistachio bowl",
     "items": [
       {
-        "food": "greek-yogurt-whole",
-        "g": 300
+        "food": "kirkland-greek-yogurt-nonfat",
+        "g": 200
       },
       {
         "food": "strawberries",
@@ -157,6 +157,10 @@
         "g": 20
       },
       {
+        "food": "honey",
+        "g": 19
+      },
+      {
         "food": "mandarin",
         "count": 2
       }
@@ -168,11 +172,11 @@
     "items": [
       {
         "food": "chicken-thigh",
-        "g": 275
+        "g": 200
       },
       {
         "food": "white-rice-dry",
-        "g": 100
+        "g": 80
       },
       {
         "food": "spinach",
@@ -194,7 +198,7 @@
     "name": "Rest-day beef + sweet potato plate",
     "items": [
       {
-        "food": "ground-beef-85",
+        "food": "kirkland-organic-ground-beef-85",
         "g": 175
       },
       {
@@ -216,8 +220,8 @@
     "name": "Cocoa berry yogurt bowl",
     "items": [
       {
-        "food": "greek-yogurt-whole",
-        "g": 300
+        "food": "kirkland-greek-yogurt-nonfat",
+        "g": 200
       },
       {
         "food": "cocoa-powder",
@@ -229,7 +233,7 @@
       },
       {
         "food": "honey",
-        "g": 15
+        "g": 34
       },
       {
         "food": "chia",
@@ -243,16 +247,16 @@
     "name": "Buffalo chicken wrap",
     "items": [
       {
-        "food": "rotisserie-chicken",
-        "g": 175
+        "food": "chicken-breast-cooked",
+        "g": 125
       },
       {
         "food": "flour-tortilla",
-        "count": 1
+        "count": 1.5
       },
       {
         "food": "mozzarella-shredded",
-        "g": 30
+        "g": 23
       },
       {
         "food": "spinach",
@@ -275,11 +279,11 @@
     "items": [
       {
         "food": "focaccia",
-        "g": 160
+        "g": 233
       },
       {
-        "food": "rotisserie-chicken",
-        "g": 200
+        "food": "chicken-breast-cooked",
+        "g": 90
       },
       {
         "food": "mozzarella-shredded",
@@ -301,8 +305,8 @@
     "name": "Tropical yogurt bowl",
     "items": [
       {
-        "food": "greek-yogurt-whole",
-        "g": 300
+        "food": "kirkland-greek-yogurt-nonfat",
+        "g": 200
       },
       {
         "food": "pineapple",
@@ -310,7 +314,7 @@
       },
       {
         "food": "medjool-dates",
-        "count": 2
+        "count": 3
       },
       {
         "food": "chia",
@@ -328,8 +332,8 @@
     "name": "Cocoa granola yogurt bowl",
     "items": [
       {
-        "food": "greek-yogurt-whole",
-        "g": 300
+        "food": "kirkland-greek-yogurt-nonfat",
+        "g": 200
       },
       {
         "food": "cocoa-powder",
@@ -341,7 +345,7 @@
       },
       {
         "food": "honey",
-        "g": 30
+        "g": 49
       },
       {
         "food": "chia",
@@ -349,5 +353,28 @@
       }
     ],
     "notes": "No-fruit variant of cocoa-berry-yogurt-bowl for when fruit's out \u2014 granola instead, cocoa just a dusting (1g). 7/29 in-the-moment version."
+  },
+  {
+    "id": "kirkland-chunks-rice-bowl",
+    "name": "Kirkland chicken chunks rice bowl",
+    "items": [
+      {
+        "food": "kirkland-breaded-tenders",
+        "g": 200
+      },
+      {
+        "food": "white-rice-dry",
+        "g": 83
+      },
+      {
+        "food": "spinach",
+        "g": 80
+      },
+      {
+        "food": "sriracha",
+        "g": 20
+      }
+    ],
+    "notes": "Chicken is weighed cooked from the frozen Kirkland bag; rice is weighed dry. Uses the physical-label nutrition entry checked 2026-07-31."
   }
 ]
