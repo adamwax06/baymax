@@ -9160,6 +9160,74 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-08-03",
+      "type": "push",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "lb": 165,
+              "reps": [
+                7,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Tricep Pushdown",
+          "sets": [
+            {
+              "lb": 27,
+              "reps": [
+                5,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "name": "DB Lateral Raise",
+          "sets": [
+            {
+              "lb": 25,
+              "perSide": true,
+              "reps": [
+                8,
+                7,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Incline Fly",
+          "sets": [
+            {
+              "lb": 74,
+              "reps": [
+                7,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "name": "DB Skull Crusher",
+          "sets": [
+            {
+              "lb": 25,
+              "reps": [
+                6,
+                6
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

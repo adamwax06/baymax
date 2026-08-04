@@ -1,19 +1,19 @@
 [
  {
   "date": "2026-07-19",
-  "kcal": 3445,
-  "protein": 209,
-  "carbs": 427,
-  "fat": 103,
-  "fiber": 44.1,
-  "calcium": 1664.5,
-  "iron": 23.3,
-  "magnesium": 640.3,
-  "potassium": 4085.8,
-  "sodium": 2390.3,
-  "zinc": 17.4,
+  "kcal": 3397,
+  "protein": 208,
+  "carbs": 415,
+  "fat": 102,
+  "fiber": 42.9,
+  "calcium": 1655.7,
+  "iron": 23.2,
+  "magnesium": 632.3,
+  "potassium": 3951.4,
+  "sodium": 2389.5,
+  "zinc": 17.3,
   "vitD": 4.3,
-  "vitC": 181.1,
+  "vitC": 152,
   "ala": 5.6,
   "meals": [
    "rest-scramble",
@@ -32,7 +32,8 @@
     "fat": 19,
     "fiber": 2
    }
-  ]
+  ],
+  "notes": "Retroactively corrected 8/3: post-lift smoothie used 120g mango, not the original 200g recipe."
  },
  {
   "date": "2026-07-20",
@@ -636,5 +637,71 @@
    }
   ],
   "notes": "Full day logged. Legs lift completed (Squat 215x8,8 plus accessories, per weights.json). Restaurant food and cocktail pours are midpoint estimates; alcohol contributes substantial ethanol calories that are not represented in protein/carbs/fat. Fiber, sodium, and micronutrients are undercounted because only the packaged bar had verified values. Farmhouse fried rice is logged as standard chicken; correct if double chicken was actually served."
+ },
+ {
+  "date": "2026-08-02",
+  "kcal": 1813,
+  "protein": 93,
+  "carbs": 264,
+  "fat": 41,
+  "meals": [],
+  "method": "calendar-derived as-eaten",
+  "deviations": [
+   {
+    "desc": "Cocoa granola yogurt bowl: 200g nonfat Greek yogurt, 1g cocoa, 30g Very Berry granola, 49g honey, 15g chia",
+    "kcal": 472,
+    "protein": 27,
+    "carbs": 78,
+    "fat": 8
+   },
+   {
+    "desc": "Kirkland oat milk, 325g, immediately after yogurt bowl",
+    "kcal": 176,
+    "protein": 3,
+    "carbs": 23,
+    "fat": 7
+   },
+   {
+    "desc": "Crazy Cuizine Mandarin Orange Chicken 250g + white rice 90g dry; no spinach",
+    "kcal": 797,
+    "protein": 30,
+    "carbs": 135,
+    "fat": 13
+   },
+   {
+    "desc": "Half portion buffalo chicken + egg wraps; remaining half saved",
+    "kcal": 368,
+    "protein": 33,
+    "carbs": 28,
+    "fat": 13
+   }
+  ],
+  "notes": "Recovered 8/3 from six explicit Google Calendar records for 8/2: four items marked eaten and two later meals marked skipped due to fullness. Calories and protein are exact calendar totals; carbs and fat for the yogurt bowl and oat milk are derived from the recorded ingredient portions/product-label proxies. Full day logged."
+ },
+ {
+  "date": "2026-08-03",
+  "kcal": 3497,
+  "protein": 196,
+  "carbs": 459,
+  "fat": 97,
+  "meals": [],
+  "method": "calendar-plan-derived+deviations (in progress)",
+  "deviations": [
+   {
+    "desc": "Vanilla latte, NEMA building machine, ~11:45am (estimated — no label, sized like a 12oz/tall; same estimate as 7/29)",
+    "kcal": 190,
+    "protein": 9,
+    "carbs": 30,
+    "fat": 5
+   },
+   {
+    "desc": "Chicken rice bowl as planned except no spinach: one chicken breast filet (treated as planned 150g cooked chicken) + 153g white rice dry + 20g sriracha; omitted 80g spinach",
+    "kcal": 832,
+    "protein": 58,
+    "carbs": 127,
+    "fat": 7
+   }
+  ],
+  "notes": "Projected full day from the 8/3 calendar under the plan-is-intake adherence protocol. Calendar base corrected to 3,325 kcal / 189g protein after the smoothie mango was reduced 200\u2192120g; added the latte and removed 80g spinach (~18 kcal / 2.3g protein). Remaining calendar meals are assumed unless Adam reports another deviation. Carb/fat totals are approximate because the customized calendar events store calories/protein, not full macros, and the latte has no label."
  }
 ]

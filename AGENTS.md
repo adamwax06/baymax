@@ -68,8 +68,9 @@ Daily logging flows (what to touch, and whether an import is needed):
   the gym and auto-imports on save) — or hand-edit `data/weights.json` + `bun run import`
 - **Food eaten** → `bun run intake <mealIds>` writes the plan-derived day to
   `data/nutrition.json` (live, no import). Protocol: Adam eats the planned
-  meals and reports deviations — the plan IS the intake record. The app's
-  "Write Nutrition → Health" mirrors logged days into Apple Health
+  meals and reports deviations — the plan IS the intake record. Every normal
+  app sync mirrors the full logged snapshot through today into Apple Health;
+  "Write Nutrition → Health" remains as a manual retry
 - **Goal/profile change** → edit `data/goals.json` / `data/profile.json` — live, no import
 
 ## Data model (frozen — extend via the registry, not the schema)

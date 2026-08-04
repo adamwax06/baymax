@@ -146,10 +146,12 @@ final class SyncEngine: ObservableObject {
     }
 
     /// Mirror plan-derived intake days from the server into HealthKit as
-    /// dietary samples (noon local). Dedup-guarded by the baymaxDate metadata
-    /// key; a day whose value changed (nightly re-log) is deleted and
-    /// rewritten, so re-tapping is always safe.
-    func syncNutrition(serverURL: String) async {
+    /// dietary samples (noon local). Only the historical snapshot through the
+    /// phone's current local day is written. Dedup-guarded by the baymaxDate
+    /// metadata key; a day whose value changed (nightly re-log) is deleted and
+    /// rewritten, so every normal sync and manual retry is safe.
+    @discardableResult
+    func syncNutrition(serverURL: String) async -> Bool {
         struct Day: Decodable {
             let date: String
             let kcal: Double
@@ -173,7 +175,14 @@ final class SyncEngine: ObservableObject {
                 throw ApiClient.ApiError(message: "Invalid server URL")
             }
             let (data, _) = try await URLSession.shared.data(from: url)
-            let days = try JSONDecoder().decode([Day].self, from: data)
+            let decodedDays = try JSONDecoder().decode([Day].self, from: data)
+            let dateFormatter = DateFormatter()
+            dateFormatter.calendar = Calendar(identifier: .gregorian)
+            dateFormatter.locale = Locale(identifier: "en_US_POSIX")
+            dateFormatter.timeZone = .current
+            dateFormatter.dateFormat = "yyyy-MM-dd"
+            let today = dateFormatter.string(from: Date())
+            let days = decodedDays.filter { $0.date <= today }.sorted { $0.date < $1.date }
 
             // Units follow foods.json/FDC: g macros+fiber, mg minerals+vitC, µg vitD.
             // ALA is logged server-side but has no HealthKit type, so it stays there.
@@ -228,8 +237,10 @@ final class SyncEngine: ObservableObject {
                 }
             }
             statusLine = "Nutrition: \(written) samples written/updated across \(days.count) day(s)"
+            return true
         } catch {
             lastError = "Nutrition sync failed: \(error.localizedDescription)"
+            return false
         }
     }
 
@@ -247,15 +258,18 @@ final class SyncEngine: ObservableObject {
         guard !syncing else { return }
         syncing = true
         lastError = nil
+        var completedStatus = "Sync complete"
         defer {
             syncing = false
-            statusLine = lastError == nil ? "Sync complete" : statusLine
+            statusLine = lastError == nil ? completedStatus : statusLine
         }
         do {
             let api = try api(serverURL)
             for type in types {
                 try await sync(type: type, api: api)
             }
+            guard await syncNutrition(serverURL: serverURL) else { return }
+            completedStatus = "Sync complete · \(statusLine)"
             lastSync = Date()
             defaults.set(lastSync, forKey: "lastSync")
             await fetchToday(serverURL: serverURL)

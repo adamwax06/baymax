@@ -32,7 +32,7 @@
       },
       {
         "food": "mango",
-        "g": 200
+        "g": 120
       },
       {
         "food": "oats-dry",
@@ -47,7 +47,7 @@
         "g": 15
       }
     ],
-    "notes": "v4 (7/21): oat milk cut 250\u2192200g after v3 overflowed. Taste APPROVED at v3 \u2014 ratios settled. Blend order fix: liquid+oats+chia first ~30s to grind the chia, then yogurt+fruit. Fruit: frozen mango or pineapple. NEVER banana (allergy)"
+    "notes": "v5 (8/3): mango cut 200\u2192120g to fit the blender. v4 (7/21): oat milk cut 250\u2192200g after v3 overflowed. Taste APPROVED at v3. Blend order: liquid+oats+chia first ~30s to grind the chia, then yogurt+fruit. Mango: 120g max; log pineapple swaps at the actual amount. NEVER banana (allergy)"
   },
   {
     "id": "chicken-rice-bowl",
