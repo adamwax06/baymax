@@ -64,4 +64,22 @@ describe("deriveSleepNights", () => {
     expect(nights.length).toBe(7);
     expect(nights.every((n) => n.source === EIGHT_SLEEP.bundleId)).toBe(true);
   });
+
+  test("deduplicates identical provider segments that have different HealthKit UUIDs", () => {
+    const db = freshDb();
+    const day = dayStartTs(NOW, 2);
+    const segment = { type: SLEEP, value: 4, start: day + 23 * 3_600_000, end: day + 24 * 3_600_000, source: EIGHT_SLEEP };
+    ingestSamples(db, {
+      samples: [
+        { uuid: "eight-replay-a", ...segment, metadata: { contentHashV1: "same-content" } },
+        { uuid: "eight-replay-b", ...segment, metadata: { contentHashV1: "same-content" } },
+        { uuid: "eight-replay-c", ...segment, metadata: { contentHashV1: "same-content" } },
+      ],
+    });
+
+    const nights = deriveSleepNights(db, { days: 7, now: NOW });
+    expect(nights).toHaveLength(1);
+    expect(nights[0]!.asleepMinutes).toBe(60);
+    expect(nights[0]!.stages.deep).toBe(60);
+  });
 });

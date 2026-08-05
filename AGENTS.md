@@ -103,7 +103,9 @@ Conventions:
   the rest in `excludedSources`. Never SUM across sources for these.
 - **Sleep nights** are derived at query time (never stored): noon-to-noon local
   windows, dated by the evening the night started, one row per (night, source).
-  Apple Watch and Eight Sleep are never merged.
+  Apple Watch and Eight Sleep are never merged. Exact same-source segments
+  (same value/start/end) are counted once because providers can replay them
+  under fresh HealthKit UUIDs; every raw row remains preserved in SQLite.
 
 ## How to add a metric (the whole recipe)
 
@@ -131,7 +133,7 @@ Deletions: HealthKit reports deleted objects per anchor page; the server
 removes those `hk_uuid`s. Deletions that happened before the first sync are
 invisible (no anchor to diff against).
 
-## Real-data facts (first sync, July 2026)
+## Real-data facts (first sync July 2026; updated August 2026)
 
 370k samples back to Aug 2021. Real sources: iPhone (steps/distance/energy/
 in-bed sleep), **Eight Sleep** (`com.eightsleep.Eight`, active, full sleep
@@ -139,13 +141,14 @@ stages + HR + respiratory rate), **WHOOP** (Feb–Mar 2026, HR + unstaged sleep 
 workouts with "WHOOP Strain" metadata), **Oura** (Dec 2023, full stages),
 **Strava** (`com.strava.stravaride`, workouts with `strava://activities/<id>`
 in metadata), a Bluetooth HR strap (`com.apple.BTLEServer`), and trivial
-manual sources (Health app, MacroFactor: 3 samples total). **No Apple
-Watch data exists** — Watch-specific registry types (HRV, VO2 max, exercise
-minutes…) have 0 records but stay registered so data flows if one shows up.
+manual sources (Health app, MacroFactor: 3 samples total). The first sync had
+no Apple Watch data; by Aug 4 an **Apple Watch SE 3** was active with history
+back to Jan 2026, including HRV, resting HR, sleep stages, exercise/stand
+minutes, workouts, and the first VO2 max sample.
 
 ## The inspection step
 
-The registry's 24 types are deliberately generous because **you can't discover
+The registry's 37 types are deliberately generous because **you can't discover
 what you never request**. To re-inspect after new devices/apps appear:
 
 ```bash

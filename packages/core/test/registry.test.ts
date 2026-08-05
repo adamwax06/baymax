@@ -1,5 +1,5 @@
 import { describe, expect, test } from "bun:test";
-import { METRICS, metricByName, workoutActivityName } from "../src/index.ts";
+import { METRICS, metricByHkType, metricByName, workoutActivityName } from "../src/index.ts";
 
 describe("registry", () => {
   test("friendly names are unique", () => {
@@ -24,6 +24,11 @@ describe("registry", () => {
 
   test("sleep decodes its category values", () => {
     expect(metricByName("sleep")!.categoryValues![4]).toBe("asleepDeep");
+  });
+
+  test("dietary metrics resolve by friendly name and HealthKit type", () => {
+    expect(metricByName("dietary_energy")?.unit).toBe("kcal");
+    expect(metricByHkType("HKQuantityTypeIdentifierDietaryVitaminD")?.unit).toBe("mcg");
   });
 
   test("workout activity names decode with fallback", () => {

@@ -56,6 +56,10 @@ describe("HealthClient", () => {
     expect(es?.device).toBe("Eight Sleep Pod");
   });
 
+  test("samples accepts a full HealthKit type identifier", () => {
+    expect(client.samples({ metric: "HKQuantityTypeIdentifierStepCount", days: 7, now: NOW }).length).toBeGreaterThan(0);
+  });
+
   test("workouts decode activity names", () => {
     const rides = client.workouts({ days: 8, now: NOW }).filter((w) => w.activity === "cycling");
     expect(rides.length).toBeGreaterThan(0);
