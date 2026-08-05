@@ -221,7 +221,7 @@
       },
       {
         "food": "cocoa-powder",
-        "g": 8
+        "g": 1
       },
       {
         "food": "raspberries",
@@ -236,7 +236,7 @@
         "g": 15
       }
     ],
-    "notes": "Adam favorite. Fruit swappable: raspberries, blueberries, or blackberries (all in foods.json) \u2014 log whichever was used"
+    "notes": "Adam favorite. Cocoa is just a 1g dusting. Fruit swappable: raspberries, blueberries, or blackberries (all in foods.json) \u2014 log whichever was used"
   },
   {
     "id": "buffalo-chicken-wrap",

@@ -703,5 +703,40 @@
    }
   ],
   "notes": "Projected full day from the 8/3 calendar under the plan-is-intake adherence protocol. Calendar base corrected to 3,325 kcal / 189g protein after the smoothie mango was reduced 200\u2192120g; added the latte and removed 80g spinach (~18 kcal / 2.3g protein). Remaining calendar meals are assumed unless Adam reports another deviation. Carb/fat totals are approximate because the customized calendar events store calories/protein, not full macros, and the latte has no label."
+ },
+ {
+  "date": "2026-08-04",
+  "kcal": 3108,
+  "protein": 205,
+  "carbs": 386,
+  "fat": 91,
+  "fiber": 46,
+  "meals": [],
+  "method": "calendar-plan-derived+deviations",
+  "deviations": [
+   {
+    "desc": "Vanilla latte, NEMA building machine (calendar marked eaten; estimated like a 12oz/tall)",
+    "kcal": 190,
+    "protein": 9,
+    "carbs": 30,
+    "fat": 5
+   },
+   {
+    "desc": "Rest-day rotisserie chicken bowl as planned except omitted 80g dry white rice",
+    "kcal": -296,
+    "protein": -6,
+    "carbs": -64,
+    "fat": -1
+   },
+   {
+    "desc": "Dinner replacing planned beef + potato plate: 240g cooked white rice + 70g sauteed broccoli + 335g mixed chicken thighs, potatoes, and vindaloo sauce (mixed portion estimated from a prepared chicken-thigh vindaloo reference because component weights were not separated)",
+    "kcal": 817,
+    "protein": 57,
+    "carbs": 84,
+    "fat": 30,
+    "fiber": 6
+   }
+  ],
+  "notes": "Full day logged under the plan-is-intake protocol: all other Aug 4 calendar meals assumed eaten as scheduled. Planned calendar base was 3,292 kcal / 193g protein including the latte. Removed the earlier 80g dry rice and the planned 705 kcal beef dinner, then added the reported dinner. Cooked-rice and broccoli values are USDA-style estimates; the 335g mixed vindaloo portion is the main uncertainty, so daily carbs/fat are approximate. No separate unreported saute oil was added."
  }
 ]

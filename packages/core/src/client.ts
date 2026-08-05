@@ -4,7 +4,7 @@ import { z } from "zod";
 import { defaultDbPath, openDb, type BaymaxDb } from "./db.ts";
 import { round1 } from "./time.ts";
 import { ageYears, empiricalTdee, epley1RM, KG_PER_LB, mifflinStJeor, proteinTarget, slopePerDay, targetKcal } from "./nutrition.ts";
-import { metricByName, METRICS } from "./registry.ts";
+import { metricByHkType, metricByName, METRICS } from "./registry.ts";
 import { deriveSleepNights } from "./sleep.ts";
 import { listSources, listWorkouts, metricsInfo, rawSamples, statusSummary, trend } from "./queries.ts";
 import type {
@@ -232,7 +232,7 @@ export class HealthClient {
   }
 
   private requireMetric(name: string) {
-    const metric = metricByName(name);
+    const metric = metricByName(name) ?? metricByHkType(name);
     if (!metric) {
       throw new Error(`Unknown metric "${name}". Available: ${METRICS.map((m) => m.name).join(", ")}`);
     }

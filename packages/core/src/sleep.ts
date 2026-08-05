@@ -33,8 +33,17 @@ export function deriveSleepNights(
     .all();
 
   const acc = new Map<string, SleepNight & { _start: number; _end: number }>();
+  // Some providers replay the same logical sleep segment under fresh
+  // HealthKit UUIDs. Eight Sleep currently does this two to five times per
+  // segment with identical source/value/timestamps/metadata. Preserve every
+  // raw row in SQLite, but count an exact same-source segment only once when
+  // deriving a night.
+  const seenSegments = new Set<string>();
   for (const r of rows) {
     if (r.value == null) continue;
+    const segmentKey = `${r.source}|${r.value}|${r.startTs}|${r.endTs}`;
+    if (seenSegments.has(segmentKey)) continue;
+    seenSegments.add(segmentKey);
     const night = localDateStr(r.startTs - DAY_MS / 2);
     const key = `${night}|${r.source}`;
     let n = acc.get(key);

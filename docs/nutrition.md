@@ -35,8 +35,10 @@ apps.** Adam eats the planned meals as exactly as he can and reports
 deviations — the day's plan is the intake record, honestly tagged
 `method: "plan-derived"`. Every normal iPhone sync mirrors the complete
 logged snapshot through the phone's current local day into Apple Health as
-dietary samples (13 HealthKit types; ALA has no HK type and stays here). The
-"Write Nutrition → Health" button remains as an idempotent manual retry.
+dietary samples, then reads those 13 types back into SQLite during the same
+sync so they are available through `health samples` and `health trend` (ALA
+has no HealthKit type and stays here). The "Write Nutrition → Health"
+button remains as an idempotent manual retry.
 
 **Read semantics**: `nutrition.json`, `profile.json`, and `goals.json` are
 read live at query time — edits are visible immediately. **Weigh-ins live in

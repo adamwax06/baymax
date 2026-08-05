@@ -265,11 +265,18 @@ final class SyncEngine: ObservableObject {
         }
         do {
             let api = try api(serverURL)
+            // Sync Now is the user gesture for any newly registered types.
+            // HealthKit only presents authorization UI when the requested set
+            // has changed; otherwise this returns immediately.
+            try await store.requestAuthorization(toShare: SyncedTypes.shareTypes, read: SyncedTypes.readTypes)
+            // Write the server's nutrition snapshot first so the dietary
+            // HealthKit types below are uploaded during this same sync.
+            guard await syncNutrition(serverURL: serverURL) else { return }
+            let nutritionStatus = statusLine
             for type in types {
                 try await sync(type: type, api: api)
             }
-            guard await syncNutrition(serverURL: serverURL) else { return }
-            completedStatus = "Sync complete · \(statusLine)"
+            completedStatus = "Sync complete · \(nutritionStatus)"
             lastSync = Date()
             defaults.set(lastSync, forKey: "lastSync")
             await fetchToday(serverURL: serverURL)
