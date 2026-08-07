@@ -31,6 +31,14 @@ describe("registry", () => {
     expect(metricByHkType("HKQuantityTypeIdentifierDietaryVitaminD")?.unit).toBe("mcg");
   });
 
+  test("clinical backfill metrics use canonical HealthKit units", () => {
+    expect(metricByName("height")?.unit).toBe("m");
+    expect(metricByName("body_temperature")?.unit).toBe("degC");
+    expect(metricByName("blood_pressure_systolic")?.unit).toBe("mmHg");
+    expect(metricByName("blood_pressure_diastolic")?.unit).toBe("mmHg");
+    expect(metricByName("blood_glucose")?.unit).toBe("mg/dL");
+  });
+
   test("workout activity names decode with fallback", () => {
     expect(workoutActivityName(37)).toBe("running");
     expect(workoutActivityName(13)).toBe("cycling");

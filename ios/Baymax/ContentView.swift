@@ -344,6 +344,7 @@ struct HomeView: View {
             opButton("Test connection") { await engine.testConnection(serverURL: serverURL) }
             opButton("Request Health access") { await engine.requestAccess() }
             opButton("Write nutrition → Health") { await engine.syncNutrition(serverURL: serverURL) }
+            opButton("Backfill clinical measurements") { await engine.backfillClinicalMeasurements(serverURL: serverURL) }
             opButton("Backfill body weight") { await engine.backfillBodyWeight(serverURL: serverURL) }
             Button {
                 engine.resetAnchors()

@@ -38,10 +38,14 @@ For history trapped in spreadsheets, notes, or non-syncing apps:
   `bun run dev`, tap **Backfill Body Weight into Health** in the app, Sync,
   then delete the file. Dedup-guarded; safe to re-tap. This writes real
   HealthKit samples, so Apple Health becomes the permanent home.
-- **Other sample types** (historical heart rate, sleep, etc.): copy the
-  ~40-line pattern — `GET /v1/backfill/bodyweight` in `apps/server/src/app.ts`
-  plus `backfillBodyWeight` in `ios/Baymax/SyncEngine.swift`. Add the type to
-  `SyncedTypes.shareTypes`; `NSHealthUpdateUsageDescription` is already set.
+- **Clinical-record measurements**: archive provider exports under
+  `data/clinical/`, parse them into the shared normalized payload, then use
+  **Backfill clinical measurements** in the app. The existing writer supports
+  height, weight, BMI, blood pressure, temperature, pulse, respiratory rate,
+  oxygen saturation, and blood glucose with stable HealthKit sync IDs and provenance. See
+  `docs/clinical.md`. Diagnoses, medications, allergies, immunizations, and
+  narrative notes remain local because they cannot be recreated as ordinary
+  HealthKit quantity samples.
 - **Lifting history**: does NOT go into Apple Health (no set/rep/load model
   exists there — docs/weights.md). Structure it into `data/weights.json`
   instead; any format an agent can read can be converted (this repo's history

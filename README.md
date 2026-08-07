@@ -17,6 +17,7 @@ Watch / Strava / Eight Sleep / weigh-ins → Apple Health ⇄ iPhone app ─┐
 gym log (app Log tab or hand-edited JSON) ──────── bun run import ────┤→ SQLite → SDK → CLI + MCP
 food · goals · profile · inventory (JSON, read live) ─────────────────┘
         ↑ plan-derived intake (bun run intake) mirrors back into Apple Health
+clinical exports → local parser → reviewed measurements → Apple Health ↗
 ```
 
 ## Quickstart (no phone needed)
@@ -28,6 +29,7 @@ bun run import                                # the committed gym + weigh-in log
 bun run health overview                       # the full picture in one call
 bun run health lifts --exercise bench         # 4 years of strength progression
 bun run health nutrition                      # adaptive calorie/protein targets
+bun run clinical:import --check               # validate local clinical-record backfill
 ```
 
 For real Apple Health data: `bun run dev` on the Mac, build `ios/` onto your

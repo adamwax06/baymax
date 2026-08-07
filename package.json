@@ -12,6 +12,7 @@
     "db:generate": "bun --cwd packages/core db:generate",
     "seed": "bun scripts/seed.ts",
     "import": "bun scripts/import-logs.ts",
+    "clinical:import": "bun scripts/import-clinical.ts",
     "tj": "bun scripts/tj.ts",
     "intake": "bun scripts/log-intake.ts",
     "health": "bun apps/cli/src/index.ts",

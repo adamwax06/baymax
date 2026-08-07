@@ -34,6 +34,11 @@ enum SyncedTypes {
         (.vo2Max, HKUnit(from: "ml/kg*min")),
         (.respiratoryRate, HKUnit.count().unitDivided(by: .minute())),
         (.oxygenSaturation, .percent()),
+        (.bloodGlucose, HKUnit(from: "mg/dL")),
+        (.bodyTemperature, .degreeCelsius()),
+        (.bloodPressureSystolic, .millimeterOfMercury()),
+        (.bloodPressureDiastolic, .millimeterOfMercury()),
+        (.height, .meter()),
         (.bodyMass, .gramUnit(with: .kilo)),
         (.bodyFatPercentage, .percent()),
         (.bodyMassIndex, .count()),
@@ -57,11 +62,20 @@ enum SyncedTypes {
         return types
     }
 
-    /// Write access: body mass (weigh-in backfill) plus the dietary types the
-    /// nutrition mirror writes (plan-derived intake from the server).
+    /// Write access: historical clinical measurements and the dietary types
+    /// the nutrition mirror writes (plan-derived intake from the server).
     static var shareTypes: Set<HKSampleType> {
         [
+            HKQuantityType(.heartRate),
+            HKQuantityType(.respiratoryRate),
+            HKQuantityType(.oxygenSaturation),
+            HKQuantityType(.bloodGlucose),
+            HKQuantityType(.bodyTemperature),
+            HKQuantityType(.bloodPressureSystolic),
+            HKQuantityType(.bloodPressureDiastolic),
+            HKQuantityType(.height),
             HKQuantityType(.bodyMass),
+            HKQuantityType(.bodyMassIndex),
             HKQuantityType(.dietaryEnergyConsumed),
             HKQuantityType(.dietaryProtein),
             HKQuantityType(.dietaryCarbohydrates),

@@ -35,6 +35,15 @@ describe("server", () => {
     }
   });
 
+  test("clinical backfill endpoint is empty and actionable before normalization", async () => {
+    const isolated = createApp(db, { dataDir: `/tmp/baymax-clinical-missing-${process.pid}` });
+    const res = await isolated.request("/v1/backfill/clinical");
+    expect(res.status).toBe(200);
+    const payload = (await res.json()) as { measurements: unknown[]; report: { warnings: string[] } };
+    expect(payload.measurements).toEqual([]);
+    expect(payload.report.warnings).toContain("Run bun run clinical:import");
+  });
+
   test("ingests sample and workout batches", async () => {
     const sres = await post("/v1/ingest/samples", { samples: fx.samples });
     expect(sres.status).toBe(200);

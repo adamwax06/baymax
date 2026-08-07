@@ -9296,6 +9296,62 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-08-05",
+      "type": "legs",
+      "exercises": [
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "lb": 225,
+              "reps": [
+                6,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Leg Press Calf Raises",
+          "sets": [
+            {
+              "lb": 470,
+              "reps": [
+                8,
+                8,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hamstring Curl",
+          "sets": [
+            {
+              "lb": 125,
+              "reps": [
+                8,
+                8,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Leg Extension",
+          "sets": [
+            {
+              "lb": 130,
+              "reps": [
+                8,
+                7
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

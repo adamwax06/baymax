@@ -135,7 +135,22 @@
    "zinc": 0.47,
    "vitD": 0
   },
-  "allergyChecked": "2026-07-16"
+ "allergyChecked": "2026-07-16"
+ },
+ {
+  "id": "greek-yogurt-nonfat",
+  "name": "Greek yogurt, plain, nonfat",
+  "fdcType": "label",
+  "weighed": "raw",
+  "store": "costco",
+  "brand": "Kirkland Signature",
+  "per100g": {
+   "kcal": 58.82,
+   "protein": 10.59,
+   "carbs": 4.12,
+   "fat": 0
+  },
+  "notes": "label serving: 170g=100kcal/18gP/7gC/0gF; used by the August 6 calendar plan"
  },
  {
   "id": "shrimp",

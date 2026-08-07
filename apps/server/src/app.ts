@@ -2,25 +2,45 @@ import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { Hono } from "hono";
 import { z } from "zod";
-import { defaultDbPath, HealthClient, ingestSamples, ingestWorkouts, metricByHkType, sampleBatchZ, workoutBatchZ, type BaymaxDb } from "@baymax/core";
+import { clinicalBackfillFileZ, defaultDbPath, HealthClient, ingestSamples, ingestWorkouts, metricByHkType, sampleBatchZ, workoutBatchZ, type BaymaxDb } from "@baymax/core";
 
-export function createApp(db: BaymaxDb): Hono {
+export function createApp(db: BaymaxDb, options: { dataDir?: string } = {}): Hono {
   const app = new Hono();
   let health: HealthClient | undefined;
+  const dataDir = options.dataDir ?? dirname(defaultDbPath());
 
   app.get("/v1/ping", (c) => c.json({ ok: true, service: "baymax" }));
 
   // One-time migration aid: the app pulls these and writes them into
   // HealthKit, making Apple Health the source of truth for body weight.
   app.get("/v1/backfill/bodyweight", (c) => {
-    const path = join(dirname(defaultDbPath()), "bodyweight.json");
+    const path = join(dataDir, "bodyweight.json");
     return c.json(existsSync(path) ? JSON.parse(readFileSync(path, "utf8")) : []);
+  });
+
+  // Parsed, provenance-bearing measurements from local clinical records. The
+  // iPhone writes only this allowlisted quantity payload into HealthKit; PDFs,
+  // diagnoses, allergies, and other chart content remain local-only.
+  app.get("/v1/backfill/clinical", (c) => {
+    const path = join(dataDir, "clinical", "normalized", "apple-health.json");
+    if (!existsSync(path)) {
+      return c.json({
+        schemaVersion: 1,
+        generatedAt: "1970-01-01T00:00:00.000Z",
+        parser: "clinical-archive-v1",
+        measurements: [],
+        report: { acquisitions: 0, embeddedVitalSets: 0, reviewedVitalSets: 0, measurements: 0, warnings: ["Run bun run clinical:import"] },
+      });
+    }
+    const parsed = clinicalBackfillFileZ.safeParse(JSON.parse(readFileSync(path, "utf8")));
+    if (!parsed.success) return c.json({ error: "Invalid normalized clinical backfill", detail: parsed.error.flatten() }, 500);
+    return c.json(parsed.data);
   });
 
   // Plan-derived intake days (data/nutrition.json); the app mirrors these
   // into HealthKit as dietary samples so Apple Health shows cals/macros.
   app.get("/v1/nutrition", (c) => {
-    const path = join(dirname(defaultDbPath()), "nutrition.json");
+    const path = join(dataDir, "nutrition.json");
     return c.json(existsSync(path) ? JSON.parse(readFileSync(path, "utf8")) : []);
   });
 
@@ -31,7 +51,7 @@ export function createApp(db: BaymaxDb): Hono {
 
   // The app's Today card: calorie/protein targets + what's logged for today.
   app.get("/v1/today", (c) => {
-    const path = join(dirname(defaultDbPath()), "nutrition.json");
+    const path = join(dataDir, "nutrition.json");
     const today = new Date().toLocaleDateString("sv-SE");
     const logged = existsSync(path)
       ? (JSON.parse(readFileSync(path, "utf8")) as { date: string }[]).find((e) => e.date === today) ?? null
@@ -49,7 +69,7 @@ export function createApp(db: BaymaxDb): Hono {
   // ---- in-app workout logging (Log tab) ----
   // weights.json stays the source of truth: POST appends a session there and
   // re-runs the importer, exactly like the hand-edited flow (docs/weights.md).
-  const weightsPath = () => join(dirname(defaultDbPath()), "weights.json");
+  const weightsPath = () => join(dataDir, "weights.json");
   const sessionZ = z.object({
     date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
     type: z.string().optional(),

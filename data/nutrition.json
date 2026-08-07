@@ -685,7 +685,7 @@
   "carbs": 459,
   "fat": 97,
   "meals": [],
-  "method": "calendar-plan-derived+deviations (in progress)",
+  "method": "calendar-plan-derived+deviations",
   "deviations": [
    {
     "desc": "Vanilla latte, NEMA building machine, ~11:45am (estimated — no label, sized like a 12oz/tall; same estimate as 7/29)",
@@ -738,5 +738,107 @@
    }
   ],
   "notes": "Full day logged under the plan-is-intake protocol: all other Aug 4 calendar meals assumed eaten as scheduled. Planned calendar base was 3,292 kcal / 193g protein including the latte. Removed the earlier 80g dry rice and the planned 705 kcal beef dinner, then added the reported dinner. Cooked-rice and broccoli values are USDA-style estimates; the 335g mixed vindaloo portion is the main uncertainty, so daily carbs/fat are approximate. No separate unreported saute oil was added."
+ },
+ {
+  "date": "2026-08-05",
+  "kcal": 3901,
+  "protein": 187,
+  "carbs": 526,
+  "fat": 123,
+  "fiber": 45,
+  "meals": [],
+  "method": "calendar-plan-derived+photo-estimated deviation",
+  "deviations": [
+   {
+    "desc": "Vanilla latte around noon, estimated using the usual NEMA-machine 12oz/tall proxy",
+    "kcal": 190,
+    "protein": 9,
+    "carbs": 30,
+    "fat": 5
+   },
+   {
+    "desc": "Dinner replacing the planned focaccia chicken melt: photo-estimated homemade single cheeseburger on a brioche-style bun with tomato, grilled onions, ketchup, and visible mayo/butter-style spread. Midpoint assumes ~150g raw-equivalent 85/15 beef, one cheese slice, ~90g bun, and ~15g spread; plausible range 750-1,050 kcal.",
+    "kcal": 890,
+    "protein": 44,
+    "carbs": 56,
+    "fat": 51,
+    "fiber": 3
+   },
+   {
+    "desc": "Large, thick chocolate-chunk cookie, photo-estimated without a scale or label; plausible range 400-650 kcal.",
+    "kcal": 500,
+    "protein": 6,
+    "carbs": 65,
+    "fat": 25,
+    "fiber": 3
+   }
+  ],
+  "notes": "Full day logged under the plan-is-intake protocol: Adam confirmed every Aug 5 calendar meal was eaten except the planned focaccia chicken melt, which was replaced by the photographed burger; the noon latte and photographed cookie were also added as eaten. Daily carbs, fat, and fiber are derived from calendar ingredient portions and standard food-registry values. Burger size/spread and cookie size/recipe are the main uncertainties, giving an estimated daily energy range of 3,661-4,211 kcal around the 3,901 kcal midpoint."
+ },
+ {
+  "date": "2026-08-06",
+  "kcal": 3084,
+  "protein": 184,
+  "carbs": 343,
+  "fat": 120,
+  "meals": [],
+  "method": "calendar-plan-derived+deviations (in progress)",
+  "deviations": [
+   {
+    "desc": "Added 35g Very Berry granola to the 9:00am cocoa berry yogurt bowl",
+    "kcal": 152,
+    "protein": 3.5,
+    "carbs": 26.3,
+    "fat": 4.1
+   },
+   {
+    "desc": "Skipped the deferred savory egg and cheese toast (2 large eggs, 50g Italian bread, 15g shredded mozzarella, and 10g sriracha) to begin the overnight fast for the August 7 Rythm collection",
+    "kcal": -327,
+    "protein": -21,
+    "carbs": -28,
+    "fat": -14,
+    "fiber": -1.3
+   },
+   {
+    "desc": "Replaced the planned focaccia chicken melt (888 kcal / 63g protein) with Popeyes: 5 spicy handcrafted tenders, 1 biscuit, and 1 Sweet Heat sauce. Restaurant macros estimated from the Popeyes January 2026 nutrition guide; the Bayou Buffalo sauce was for Nanda and is excluded.",
+    "kcal": 950,
+    "protein": 61,
+    "carbs": 84,
+    "fat": 46,
+    "fiber": 3
+   },
+   {
+    "desc": "Modified the planned Kirkland chicken chunks rice bowl: started 206g Kirkland lightly breaded chicken breast chunks with 30g Chick-fil-A sauce at 6:15pm; ate the planned 83g dry rice later without the planned 80g spinach, and omitted the planned 20g sriracha",
+    "kcal": 801,
+    "protein": 45,
+    "carbs": 95,
+    "fat": 27,
+    "fiber": 0.1
+   },
+   {
+    "desc": "Moved the planned beef + sweet potato plate to about 9:20pm, but discarded the 350g sweet potato after its interior appeared green; the 5g butter went with the discarded potato and no honey was consumed. Ate the planned 175g beef and 20g mozzarella.",
+    "kcal": -337,
+    "protein": -5.5,
+    "carbs": -70.4,
+    "fat": -4.2,
+    "fiber": -10.5
+   },
+   {
+    "desc": "Added 300g mango to the 9:30pm beef meal; omitted the planned 400mL oat milk to begin the overnight fast for the August 7 Rythm collection",
+    "kcal": 180,
+    "protein": 2.5,
+    "carbs": 44.9,
+    "fat": 1.1,
+    "fiber": 4.8
+   },
+   {
+    "desc": "Vanilla latte earlier in the day, estimated using the usual NEMA-machine 12oz/tall proxy",
+    "kcal": 190,
+    "protein": 9,
+    "carbs": 30,
+    "fat": 5
+   }
+  ],
+  "notes": "Full day logged under the plan-is-intake protocol. Totals were re-derived from the exact August 6 calendar quantities and foods.json label/FDC values. The deferred egg and cheese toast and 400mL oat milk were skipped to begin the overnight fast for the August 7 Rythm collection. A vanilla latte earlier in the day was added using the usual NEMA-machine estimate. The planned sweet potato and its butter were discarded because the potato appeared green inside, and no honey was consumed. Popeyes uses the recorded January 2026 nutrition-guide macros. The rice, beef, mozzarella, and 300g mango were confirmed eaten. Final day: 3,084 kcal / 184g protein / 343g carbs / 120g fat."
  }
 ]

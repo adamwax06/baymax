@@ -145,6 +145,158 @@ final class SyncEngine: ObservableObject {
         }
     }
 
+    /// Write parser-reviewed measurements from local clinical records into
+    /// HealthKit. Stable sync identifiers make re-running the backfill safe;
+    /// blood-pressure components are saved together as one correlation.
+    func backfillClinicalMeasurements(serverURL: String) async {
+        struct Payload: Decodable {
+            struct Measurement: Decodable {
+                struct Provenance: Decodable {
+                    let provider: String
+                    let sourceFile: String
+                    let sourceSha256: String
+                    let extraction: String
+                }
+
+                let id: String
+                let syncVersion: Int
+                let type: String
+                let value: Double
+                let unit: String
+                let localStart: String
+                let localEnd: String
+                let timeZone: String
+                let groupId: String?
+                let provenance: Provenance
+            }
+
+            let measurements: [Measurement]
+        }
+
+        lastError = nil
+        do {
+            guard let url = URL(string: serverURL)?.appendingPathComponent("v1/backfill/clinical") else {
+                throw ApiClient.ApiError(message: "Invalid server URL")
+            }
+            let (data, response) = try await URLSession.shared.data(from: url)
+            guard let http = response as? HTTPURLResponse, (200..<300).contains(http.statusCode) else {
+                throw ApiClient.ApiError(message: "Clinical backfill endpoint returned an error")
+            }
+            let entries = try JSONDecoder().decode(Payload.self, from: data).measurements
+            guard !entries.isEmpty else {
+                statusLine = "No clinical measurements found — run bun run clinical:import"
+                return
+            }
+
+            try await store.requestAuthorization(toShare: SyncedTypes.shareTypes, read: SyncedTypes.readTypes)
+
+            let quantityTypes = Set(entries.map { HKQuantityType(HKQuantityTypeIdentifier(rawValue: $0.type)) })
+            var alreadyWritten = Set<String>()
+            for type in quantityTypes {
+                let existing = try await HKSampleQueryDescriptor(
+                    predicates: [.quantitySample(type: type, predicate: HKQuery.predicateForObjects(withMetadataKey: "baymaxClinicalId"))],
+                    sortDescriptors: []
+                ).result(for: store)
+                alreadyWritten.formUnion(existing.compactMap { $0.metadata?["baymaxClinicalId"] as? String })
+            }
+
+            func date(for local: String, timeZone: String) throws -> Date {
+                let formatter = DateFormatter()
+                formatter.calendar = Calendar(identifier: .gregorian)
+                formatter.locale = Locale(identifier: "en_US_POSIX")
+                formatter.timeZone = TimeZone(identifier: timeZone)
+                formatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss"
+                guard let date = formatter.date(from: local) else {
+                    throw ApiClient.ApiError(message: "Invalid clinical measurement date: \(local)")
+                }
+                return date
+            }
+
+            func metadata(for entry: Payload.Measurement) -> [String: Any] {
+                [
+                    HKMetadataKeyExternalUUID: entry.id,
+                    HKMetadataKeySyncIdentifier: entry.id,
+                    HKMetadataKeySyncVersion: entry.syncVersion,
+                    HKMetadataKeyTimeZone: entry.timeZone,
+                    HKMetadataKeyWasUserEntered: true,
+                    "baymaxClinicalId": entry.id,
+                    "baymaxClinicalProvider": entry.provenance.provider,
+                    "baymaxClinicalSourceFile": entry.provenance.sourceFile,
+                    "baymaxClinicalSourceSHA256": entry.provenance.sourceSha256,
+                    "baymaxClinicalExtraction": entry.provenance.extraction,
+                ]
+            }
+
+            func sample(for entry: Payload.Measurement) throws -> HKQuantitySample {
+                let identifier = HKQuantityTypeIdentifier(rawValue: entry.type)
+                let type = HKQuantityType(identifier)
+                guard let unit = SyncedTypes.unit(for: identifier), unit.unitString == entry.unit else {
+                    throw ApiClient.ApiError(message: "Unsupported clinical type or unit: \(entry.type) \(entry.unit)")
+                }
+                let start = try date(for: entry.localStart, timeZone: entry.timeZone)
+                let end = try date(for: entry.localEnd, timeZone: entry.timeZone)
+                return HKQuantitySample(
+                    type: type,
+                    quantity: HKQuantity(unit: unit, doubleValue: entry.value),
+                    start: start,
+                    end: end,
+                    metadata: metadata(for: entry)
+                )
+            }
+
+            let systolicId = HKQuantityTypeIdentifier.bloodPressureSystolic.rawValue
+            let diastolicId = HKQuantityTypeIdentifier.bloodPressureDiastolic.rawValue
+            let pressureEntries = entries.filter { $0.type == systolicId || $0.type == diastolicId }
+            let pressureGroups = Dictionary(grouping: pressureEntries) { $0.groupId ?? "" }
+            var saved = 0
+            var skipped = 0
+
+            for (groupId, group) in pressureGroups {
+                guard !groupId.isEmpty,
+                      let systolic = group.first(where: { $0.type == systolicId }),
+                      let diastolic = group.first(where: { $0.type == diastolicId }) else {
+                    throw ApiClient.ApiError(message: "Clinical blood pressure is missing its paired measurement")
+                }
+                let present = group.filter { alreadyWritten.contains($0.id) }.count
+                if present == 2 {
+                    skipped += 2
+                    continue
+                }
+                if present != 0 {
+                    throw ApiClient.ApiError(message: "A clinical blood-pressure pair is only partially present in HealthKit")
+                }
+                let systolicSample = try sample(for: systolic)
+                let diastolicSample = try sample(for: diastolic)
+                var correlationMetadata = metadata(for: systolic)
+                correlationMetadata[HKMetadataKeyExternalUUID] = groupId
+                correlationMetadata[HKMetadataKeySyncIdentifier] = groupId
+                correlationMetadata["baymaxClinicalId"] = groupId
+                let correlation = HKCorrelation(
+                    type: HKCorrelationType(.bloodPressure),
+                    start: systolicSample.startDate,
+                    end: systolicSample.endDate,
+                    objects: Set<HKSample>([systolicSample, diastolicSample]),
+                    metadata: correlationMetadata
+                )
+                try await store.save(correlation)
+                saved += 2
+            }
+
+            for entry in entries where entry.type != systolicId && entry.type != diastolicId {
+                if alreadyWritten.contains(entry.id) {
+                    skipped += 1
+                    continue
+                }
+                try await store.save(sample(for: entry))
+                saved += 1
+            }
+
+            statusLine = "Clinical backfill: \(saved) written, \(skipped) already present — now tap Sync"
+        } catch {
+            lastError = "Clinical backfill failed: \(error.localizedDescription)"
+        }
+    }
+
     /// Mirror plan-derived intake days from the server into HealthKit as
     /// dietary samples (noon local). Only the historical snapshot through the
     /// phone's current local day is written. Dedup-guarded by the baymaxDate

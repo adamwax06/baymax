@@ -16,4 +16,19 @@ export { SCHEMA_DOC } from "./schema.ts";
 export { KG_PER_LB } from "./nutrition.ts";
 export { HealthClient } from "./client.ts";
 export { localDateStr } from "./time.ts";
+export {
+  assertUniqueClinicalMeasurements,
+  clinicalBackfillFileZ,
+  clinicalMeasurementZ,
+  clinicalMetricZ,
+  parseLehighChartText,
+  parseReviewedClinicalFile,
+  reviewedClinicalFileZ,
+  type ClinicalBackfillFile,
+  type ClinicalMeasurement,
+  type ClinicalMetric,
+  type ClinicalSource,
+  type ParsedLehighChart,
+  type ReviewedClinicalFile,
+} from "./clinical.ts";
 export type * from "./types.ts";
