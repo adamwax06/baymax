@@ -46,6 +46,11 @@ For history trapped in spreadsheets, notes, or non-syncing apps:
   `docs/clinical.md`. Diagnoses, medications, allergies, immunizations, and
   narrative notes remain local because they cannot be recreated as ordinary
   HealthKit quantity samples.
+- **General laboratory panels**: keep the untouched PDF/CSV/ZIP in the same
+  local clinical archive. Provider-specific parsers write validated history to
+  `data/clinical/normalized/labs.json`, queryable with `health labs` and
+  `health lab-trend`. These results remain local because Apple does not expose
+  writable quantity types for most lab markers.
 - **Lifting history**: does NOT go into Apple Health (no set/rep/load model
   exists there — docs/weights.md). Structure it into `data/weights.json`
   instead; any format an agent can read can be converted (this repo's history

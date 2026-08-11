@@ -50,6 +50,33 @@ export function createServer(dbPath?: string): McpServer {
   );
 
   server.registerTool(
+    "health_labs",
+    {
+      description:
+        'Local clinical laboratory results — "show my labs", "what was my ApoB", "which Rythm results were out of range". Returns source-reported marker labels, canonical markerKey values, numeric values and units, verbatim reference ranges, source status, collection date, provider, and hash-backed provenance. These are local-only clinical results, not writable HealthKit quantities. Omit marker for the full panel; marker matches labels or markerKey by case-insensitive substring.',
+      inputSchema: {
+        marker: z.string().optional().describe('Optional filter such as "apob", "fructosamine", or "cholesterol"'),
+        days: days(3650),
+        limit: z.number().int().min(1).max(10000).optional().describe("Max rows (default 200)"),
+      },
+    },
+    (args: { marker?: string; days?: number; limit?: number }) => json(health().labs(args)),
+  );
+
+  server.registerTool(
+    "health_lab_trend",
+    {
+      description:
+        'Chronological history for exactly one laboratory marker — "trend my ApoB", "fructosamine over time". Accepts a canonical markerKey or an unambiguous label substring and returns dated values, units, source statuses, reference ranges, and providers. Fails helpfully when a query is unknown or matches multiple markers.',
+      inputSchema: {
+        marker: z.string().min(1).describe('One marker, preferably its markerKey such as "apob" or "vitamin_d"'),
+        days: days(3650),
+      },
+    },
+    (args: { marker: string; days?: number }) => json(health().labTrend(args)),
+  );
+
+  server.registerTool(
     "health_status",
     {
       description:

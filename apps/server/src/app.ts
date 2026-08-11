@@ -4,10 +4,11 @@ import { Hono } from "hono";
 import { z } from "zod";
 import { clinicalBackfillFileZ, defaultDbPath, HealthClient, ingestSamples, ingestWorkouts, metricByHkType, sampleBatchZ, workoutBatchZ, type BaymaxDb } from "@baymax/core";
 
-export function createApp(db: BaymaxDb, options: { dataDir?: string } = {}): Hono {
+export function createApp(db: BaymaxDb, options: { dataDir?: string; dbPath?: string } = {}): Hono {
   const app = new Hono();
   let health: HealthClient | undefined;
   const dataDir = options.dataDir ?? dirname(defaultDbPath());
+  const healthClient = () => (health ??= new HealthClient({ dbPath: options.dbPath ?? defaultDbPath(), dataDir }));
 
   app.get("/v1/ping", (c) => c.json({ ok: true, service: "baymax" }));
 
@@ -44,9 +45,31 @@ export function createApp(db: BaymaxDb, options: { dataDir?: string } = {}): Hon
     return c.json(existsSync(path) ? JSON.parse(readFileSync(path, "utf8")) : []);
   });
 
+  const labQueryZ = z.object({
+    marker: z.string().min(1).optional(),
+    days: z.coerce.number().int().min(1).max(3650).optional(),
+    limit: z.coerce.number().int().min(1).max(10000).optional(),
+  });
+
+  app.get("/v1/labs", (c) => {
+    const parsed = labQueryZ.safeParse(c.req.query());
+    if (!parsed.success) return c.json({ error: parsed.error.flatten() }, 400);
+    return c.json(healthClient().labs(parsed.data));
+  });
+
+  app.get("/v1/labs/trend", (c) => {
+    const parsed = labQueryZ.extend({ marker: z.string().min(1) }).omit({ limit: true }).safeParse(c.req.query());
+    if (!parsed.success) return c.json({ error: parsed.error.flatten() }, 400);
+    try {
+      return c.json(healthClient().labTrend(parsed.data));
+    } catch (error) {
+      return c.json({ error: error instanceof Error ? error.message : String(error) }, 400);
+    }
+  });
+
   // Home-screen tiles: sleep, steps, weight, workouts (core SDK overview).
   app.get("/v1/overview", (c) => {
-    return c.json((health ??= new HealthClient({ dbPath: defaultDbPath() })).overview());
+    return c.json(healthClient().overview());
   });
 
   // The app's Today card: calorie/protein targets + what's logged for today.
@@ -59,7 +82,7 @@ export function createApp(db: BaymaxDb, options: { dataDir?: string } = {}): Hon
     let targetKcal: number | null = null;
     let proteinG: number | null = null;
     try {
-      const n = (health ??= new HealthClient({ dbPath: defaultDbPath() })).nutrition();
+      const n = healthClient().nutrition();
       targetKcal = n.targetKcal;
       proteinG = n.proteinG;
     } catch {} // no goal configured — card just shows logged totals

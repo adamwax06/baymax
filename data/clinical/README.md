@@ -17,7 +17,9 @@ clinical/
         extracted/               # optional local OCR/search sidecars
         structured-record.local.json
         reviewed-observations.local.json
-  normalized/                    # validated, derived HealthKit backfill payloads
+  normalized/
+    apple-health.json           # validated HealthKit backfill quantities
+    labs.json                   # validated local-only general lab history
 ```
 
 Preserve original exports byte-for-byte. Give organized copies descriptive
@@ -31,4 +33,5 @@ complete PDF plus all separately downloadable images or attachments.
 The provider archive and Apple Health workflow are documented in
 `docs/clinical.md`. Run `bun run clinical:import --check` to verify the archive
 without writing derived output, or `bun run clinical:import` to refresh
-`normalized/apple-health.json`.
+`normalized/apple-health.json` and `normalized/labs.json`. Query general labs
+with `bun run health labs` or `bun run health lab-trend --marker <markerKey>`.

@@ -17,6 +17,17 @@ export { KG_PER_LB } from "./nutrition.ts";
 export { HealthClient } from "./client.ts";
 export { localDateStr } from "./time.ts";
 export {
+  assertUniqueLabResults,
+  labArchiveZ,
+  labMarkerKey,
+  labResultZ,
+  labStatusZ,
+  parseRythmLabCsv,
+  type LabArchive,
+  type LabResult,
+  type LabStatus,
+} from "./labs.ts";
+export {
   assertUniqueClinicalMeasurements,
   clinicalBackfillFileZ,
   clinicalMeasurementZ,

@@ -6,8 +6,10 @@ import { round1 } from "./time.ts";
 import { ageYears, empiricalTdee, epley1RM, KG_PER_LB, mifflinStJeor, proteinTarget, slopePerDay, targetKcal } from "./nutrition.ts";
 import { metricByHkType, metricByName, METRICS } from "./registry.ts";
 import { deriveSleepNights } from "./sleep.ts";
+import { labArchiveZ, type LabResult } from "./labs.ts";
 import { listSources, listWorkouts, metricsInfo, rawSamples, statusSummary, trend } from "./queries.ts";
 import type {
+  LabTrendResult,
   LiftEntry,
   LiftSet,
   MetricInfo,
@@ -48,10 +50,12 @@ function readValidated<T>(path: string, schema: z.ZodType<T>, required: boolean)
  */
 export class HealthClient {
   readonly dbPath: string;
+  readonly dataDir: string;
   private db: BaymaxDb;
 
-  constructor(opts: { dbPath?: string } = {}) {
+  constructor(opts: { dbPath?: string; dataDir?: string } = {}) {
     this.dbPath = opts.dbPath ?? defaultDbPath();
+    this.dataDir = opts.dataDir ?? dirname(this.dbPath);
     this.db = openDb({ path: this.dbPath, readonly: true });
   }
 
@@ -85,6 +89,63 @@ export class HealthClient {
 
   trend(opts: { metric: string; days?: number; now?: number }): TrendResult {
     return trend(this.db, this.requireMetric(opts.metric), { days: opts.days ?? 30, now: opts.now });
+  }
+
+  /** Local-only clinical laboratory results; these are not writable HealthKit types. */
+  labs(opts: { marker?: string; days?: number; limit?: number; now?: number } = {}): LabResult[] {
+    const path = join(this.dataDir, "clinical", "normalized", "labs.json");
+    const archive = readValidated(path, labArchiveZ, false);
+    if (!archive) return [];
+    const days = opts.days ?? 3650;
+    const now = opts.now ?? Date.now();
+    const needle = opts.marker?.trim().toLowerCase();
+    const oldest = now - days * 86_400_000;
+    return archive.results
+      .filter((result) => {
+        const ts = new Date(`${result.collectedOn}T12:00:00`).getTime();
+        const markerMatches = !needle || result.markerKey.toLowerCase().includes(needle) || result.marker.toLowerCase().includes(needle);
+        return markerMatches && ts >= oldest && ts <= now + 86_400_000;
+      })
+      .sort((a, b) => b.collectedOn.localeCompare(a.collectedOn) || a.marker.localeCompare(b.marker))
+      .slice(0, opts.limit ?? 200);
+  }
+
+  /** Chronological series for one unambiguous laboratory marker. */
+  labTrend(opts: { marker: string; days?: number; now?: number }): LabTrendResult {
+    const days = opts.days ?? 3650;
+    const all = this.labs({ days, limit: 10_000, now: opts.now });
+    const needle = opts.marker.trim().toLowerCase();
+    if (!needle) throw new Error("Lab marker is required");
+    const available = new Map(all.map((result) => [result.markerKey, result.marker]));
+    const exact = all.filter((result) => result.markerKey.toLowerCase() === needle || result.marker.toLowerCase() === needle);
+    const matched = exact.length
+      ? exact
+      : all.filter((result) => result.markerKey.toLowerCase().includes(needle) || result.marker.toLowerCase().includes(needle));
+    const keys = [...new Set(matched.map((result) => result.markerKey))];
+    if (keys.length === 0) {
+      throw new Error(`Unknown lab marker "${opts.marker}". Available: ${[...available.entries()].map(([key, label]) => `${key} (${label})`).join(", ")}`);
+    }
+    if (keys.length > 1) {
+      throw new Error(`Ambiguous lab marker "${opts.marker}". Matches: ${keys.map((key) => `${key} (${available.get(key)})`).join(", ")}`);
+    }
+    const results = matched
+      .filter((result) => result.markerKey === keys[0])
+      .sort((a, b) => a.collectedOn.localeCompare(b.collectedOn));
+    const units = [...new Set(results.map((result) => result.unit))];
+    return {
+      markerKey: keys[0]!,
+      marker: results[0]!.marker,
+      unit: units.length === 1 ? units[0]! : null,
+      days,
+      points: results.map((result) => ({
+        date: result.collectedOn,
+        value: result.value,
+        unit: result.unit,
+        status: result.status,
+        referenceRange: result.referenceRange,
+        provider: result.provider,
+      })),
+    };
   }
 
   /** Strength progression: flattens structured set detail out of workout metadata (see docs/weights.md). */
@@ -146,12 +207,11 @@ export class HealthClient {
    */
   nutrition(opts: { now?: number } = {}): NutritionResult {
     const now = opts.now ?? Date.now();
-    const dataDir = dirname(this.dbPath);
-    const profile = readValidated(join(dataDir, "profile.json"), profileZ, true)!;
-    const goals = readValidated(join(dataDir, "goals.json"), goalsZ, true)!;
+    const profile = readValidated(join(this.dataDir, "profile.json"), profileZ, true)!;
+    const goals = readValidated(join(this.dataDir, "goals.json"), goalsZ, true)!;
     const goal = goals.map((g) => bodyGoalZ.safeParse(g)).find((r) => r.success)?.data;
     if (!goal) throw new Error("No body_mass goal in goals.json (needs metric, targetLb, ratePerWeekLb)");
-    const intake = readValidated(join(dataDir, "nutrition.json"), intakeZ, false) ?? [];
+    const intake = readValidated(join(this.dataDir, "nutrition.json"), intakeZ, false) ?? [];
 
     const weighIns = this.samples({ metric: "body_mass", days: 3650, limit: 10000, now })
       .map((s) => ({ ts: s.startTs, value: s.value! / KG_PER_LB, date: s.start.slice(0, 10) }))

@@ -840,5 +840,81 @@
    }
   ],
   "notes": "Full day logged under the plan-is-intake protocol. Totals were re-derived from the exact August 6 calendar quantities and foods.json label/FDC values. The deferred egg and cheese toast and 400mL oat milk were skipped to begin the overnight fast for the August 7 Rythm collection. A vanilla latte earlier in the day was added using the usual NEMA-machine estimate. The planned sweet potato and its butter were discarded because the potato appeared green inside, and no honey was consumed. Popeyes uses the recorded January 2026 nutrition-guide macros. The rice, beef, mozzarella, and 300g mango were confirmed eaten. Final day: 3,084 kcal / 184g protein / 343g carbs / 120g fat."
+ },
+ {
+  "date": "2026-08-07",
+  "kcal": 2800,
+  "protein": 170,
+  "carbs": 357,
+  "fat": 81,
+  "fiber": 44.7,
+  "calcium": 1845.6,
+  "iron": 19.6,
+  "magnesium": 543.3,
+  "potassium": 4321.6,
+  "sodium": 2754.9,
+  "zinc": 15.1,
+  "vitD": 3,
+  "vitC": 127.9,
+  "ala": 5.6,
+  "meals": [],
+  "method": "calendar-plan-derived+deviation",
+  "deviations": [
+   {
+    "desc": "Skipped the planned 175g 85/15 ground beef from the late beef + sweet-potato plate because it was too close to bedtime; the planned sweet potato, mozzarella, and butter were eaten",
+    "kcal": -376,
+   "protein": -32.5,
+   "carbs": 0,
+    "fat": -26.3,
+    "fiber": 0
+   }
+  ],
+  "notes": "Full August 7 day logged under the plan-is-intake protocol: all five scheduled calendar meals were eaten except the ground beef in the 11:15pm plate. Totals were re-derived from the exact calendar quantities and foods.json values. The unregistered 50g marinara portion uses USDA SR Legacy ready-to-serve marinara (FDC 171192) as a proxy. Final day: 2,800 kcal / 170g protein / 357g carbs / 81g fat / 44.7g fiber."
+ },
+ {
+  "date": "2026-08-10",
+  "kcal": 2758,
+  "protein": 141,
+  "carbs": 298,
+  "fat": 111.6,
+  "fiber": 19.1,
+  "sodium": 3960,
+  "caffeineMg": 150,
+  "meals": [],
+  "method": "restaurant-estimated (in progress)",
+  "deviations": [
+   {
+    "desc": "Chipotle steak burrito with flour tortilla, cilantro-lime brown rice, tomatillo-green chili salsa, roasted chili-corn salsa, queso blanco, and romaine lettuce; estimated from Chipotle's March 2025 US nutrition guide using standard portions. No beans, guacamole, sour cream, cheese, or fajita vegetables reported.",
+    "kcal": 900,
+    "protein": 41,
+    "carbs": 112,
+    "fat": 31.5,
+    "fiber": 10,
+    "sodium": 1960
+   },
+   {
+    "desc": "One 16 fl oz Monster Zero Ultra (white can); current manufacturer listing reports 10 calories, 0g sugar, and 150mg caffeine.",
+    "kcal": 10,
+    "caffeineMg": 150
+   },
+   {
+    "desc": "RT Rotisserie rice bowl with lamb, garlic aioli, and extra rotisserie chicken: chicken-fat rice, pickled onions, Napa cabbage, cucumber, radish, sesame/pumpkin/sunflower/flax seed mix, and herbs. Restaurant-estimated midpoint; assumes standard lamb and extra-chicken portions plus about 2 Tbsp aioli. Plausible range 1,000-1,400 kcal because RT does not publish nutrition or serving weights.",
+    "kcal": 1200,
+    "protein": 62,
+    "carbs": 82,
+    "fat": 69,
+    "fiber": 4,
+    "sodium": 2000
+   },
+   {
+    "desc": "9:45pm strawberry granola yogurt bowl: 275g nonfat Greek yogurt, 72g Very Berry granola, 110g frozen strawberries, 33g honey, and 8g chia; scaled to 55% of the original bowl because only 275g yogurt was available",
+    "kcal": 648,
+    "protein": 38,
+    "carbs": 104,
+    "fat": 11.1,
+    "fiber": 5.1
+   }
+  ],
+  "notes": "August 10 intake is in progress. Restaurant portions vary; rice, steak, queso, lamb, chicken, rendered fat, and aioli portions are the main uncertainties. Chipotle uses a shared service line, so cross-contact with Adam's bean, avocado, and bell-pepper allergies is possible even though none of those ingredients were ordered. RT's published menu identifies sesame in the bowl's seed mix and pasteurized egg yolk in the garlic aioli; both are compatible with the recorded allergy profile, but the restaurant does not publish a complete cross-contact statement. The 9:45pm yogurt bowl is plan-derived from registered foods and was scaled to the 275g yogurt actually available; frozen strawberries replaced raspberries."
  }
 ]

@@ -8,6 +8,8 @@ Usage:
   health overview                                the full current picture in one call
   health nutrition                               calorie/protein targets for your goal
   health lifts    [--exercise bench] [--days 365] strength progression from the gym log
+  health labs     [--marker apob] [--days 3650] [--limit 200] clinical lab results, newest first
+  health lab-trend --marker apob [--days 3650]   chronological series for one lab marker
   health status                                  totals, sources, freshness
   health sources                                 what each app/device contributed
   health metrics                                 available metrics + live counts
@@ -31,6 +33,7 @@ const { values } = parseArgs({
     days: { type: "string" },
     type: { type: "string" },
     metric: { type: "string" },
+    marker: { type: "string" },
     exercise: { type: "string" },
     source: { type: "string" },
     limit: { type: "string" },
@@ -53,7 +56,7 @@ function fail(message: string): never {
   process.exit(1);
 }
 
-function requireOpt(name: "type" | "metric"): string {
+function requireOpt(name: "type" | "metric" | "marker"): string {
   return values[name] ?? fail(`Missing --${name}. Run \`health metrics\` to see what's available.`);
 }
 
@@ -73,6 +76,10 @@ function run(client: HealthClient, cmd: string | undefined): unknown {
       return client.overview();
     case "lifts":
       return client.lifts({ exercise: values.exercise, days: intOpt("days") });
+    case "labs":
+      return client.labs({ marker: values.marker, days: intOpt("days"), limit: intOpt("limit") });
+    case "lab-trend":
+      return client.labTrend({ marker: requireOpt("marker"), days: intOpt("days") });
     case "nutrition":
       return client.nutrition();
     case "status":
@@ -126,6 +133,32 @@ function render(cmd: string, result: any): void {
           top: l.topLb ?? "BW",
           sets: l.sets.map((s: any) => `${s.bodyweight ? "BW" : (s.lb ?? "?") + (s.perSide ? "ps" : "")}x${s.reps.join(",")}`).join(" | "),
           volume: l.volumeLb,
+        })),
+      );
+      break;
+    case "labs":
+      console.table(
+        result.map((entry: any) => ({
+          date: entry.collectedOn,
+          marker: entry.marker,
+          value: entry.value,
+          unit: entry.unit,
+          range: entry.referenceRange.text,
+          status: entry.status,
+          provider: entry.provider,
+        })),
+      );
+      break;
+    case "lab-trend":
+      console.log(`${result.markerKey} — ${result.marker}${result.unit ? ` (${result.unit})` : ""}`);
+      console.table(
+        result.points.map((point: any) => ({
+          date: point.date,
+          value: point.value,
+          unit: point.unit,
+          range: point.referenceRange.text,
+          status: point.status,
+          provider: point.provider,
         })),
       );
       break;

@@ -1,7 +1,7 @@
 import { afterAll, beforeAll, describe, expect, test } from "bun:test";
 import { rmSync } from "node:fs";
 import { join } from "node:path";
-import { seedTempDb } from "@baymax/core/test/fixtures.ts";
+import { seedTempDb, writeLabFixture } from "@baymax/core/test/fixtures.ts";
 
 const CLI = join(import.meta.dir, "..", "src", "index.ts");
 let dir: string;
@@ -9,6 +9,7 @@ let dbPath: string;
 
 beforeAll(() => {
   ({ dir, dbPath } = seedTempDb("baymax-cli-"));
+  writeLabFixture(dir);
 });
 
 afterAll(() => rmSync(dir, { recursive: true, force: true }));
@@ -31,6 +32,16 @@ describe("health CLI", () => {
     const { code, stdout } = health("sleep", "--days", "3");
     expect(code).toBe(0);
     expect(stdout).toContain("night");
+  });
+
+  test("labs and lab-trend expose the local clinical sidecar", () => {
+    const panel = health("labs", "--marker", "apob", "--json");
+    expect(panel.code).toBe(0);
+    expect(JSON.parse(panel.stdout)).toHaveLength(2);
+
+    const trend = health("lab-trend", "--marker", "apob", "--json");
+    expect(trend.code).toBe(0);
+    expect(JSON.parse(trend.stdout).points).toHaveLength(2);
   });
 
   test("unknown command prints usage and fails", () => {

@@ -1,4 +1,5 @@
 import type { AggregationKind } from "./registry.ts";
+import type { LabResult, LabStatus } from "./labs.ts";
 
 // Wire payload types are inferred from the Zod schemas in payloads.ts.
 export type { DevicePayload, SamplePayload, SourcePayload, WorkoutPayload } from "./payloads.ts";
@@ -111,6 +112,23 @@ export interface NutritionResult {
   observedRatePerWeekLb: number | null; // 28-day least-squares slope
   loggedDays14: number; // intake entries in the last 14 days
   notes: string[];
+}
+
+export interface LabTrendPoint {
+  date: string;
+  value: number;
+  unit: string;
+  status: LabStatus;
+  referenceRange: LabResult["referenceRange"];
+  provider: string;
+}
+
+export interface LabTrendResult {
+  markerKey: string;
+  marker: string;
+  unit: string | null;
+  days: number;
+  points: LabTrendPoint[];
 }
 
 export interface SourceSummary {

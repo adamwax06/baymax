@@ -2,13 +2,14 @@ import { afterAll, beforeAll, describe, expect, test } from "bun:test";
 import { rmSync } from "node:fs";
 import { join } from "node:path";
 import { HealthClient } from "../src/index.ts";
-import { EIGHT_SLEEP, STRAVA, NOW, seedTempDb } from "./fixtures.ts";
+import { EIGHT_SLEEP, STRAVA, NOW, seedTempDb, writeLabFixture } from "./fixtures.ts";
 
 let dir: string;
 let client: HealthClient;
 
 beforeAll(() => {
   ({ dir } = seedTempDb("baymax-", { days: 8, now: NOW }));
+  writeLabFixture(dir);
   client = new HealthClient({ dbPath: join(dir, "test.db") });
 });
 
@@ -73,6 +74,20 @@ describe("HealthClient", () => {
     const t = client.trend({ metric: "heart_rate_variability", days: 7, now: NOW });
     expect(t.aggregation).toBe("avg");
     expect(t.buckets.some((b) => b.value !== null)).toBe(true);
+  });
+
+  test("labs preserve source ranges and expose chronological marker trends", () => {
+    const labs = client.labs({ marker: "apob", days: 30, now: NOW });
+    expect(labs).toHaveLength(2);
+    expect(labs[0]!.value).toBe(94.6);
+    expect(labs[0]!.referenceRange).toEqual({ text: "0 - 90", low: 0, high: 90 });
+    expect(labs[0]!.provenance.extraction).toBe("embedded-csv");
+
+    const trend = client.labTrend({ marker: "ApoB", days: 30, now: NOW });
+    expect(trend.markerKey).toBe("apob");
+    expect(trend.unit).toBe("mg/dL");
+    expect(trend.points.map((point) => point.value)).toEqual([90, 94.6]);
+    expect(() => client.labTrend({ marker: "lipoprotein magic", now: NOW })).toThrow(/Available:/);
   });
 
   test("overview bundles sleep, workouts, weight, and steps in one call", () => {

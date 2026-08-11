@@ -21,9 +21,13 @@ data/clinical/sources/<provider>/<acquired-date>/
   extracted/...                       # optional OCR/search sidecars
   structured-record.local.json        # optional non-HealthKit extraction
   reviewed-observations.local.json    # visually confirmed quantities
+
+data/clinical/normalized/
+  apple-health.json                   # writable HealthKit quantities only
+  labs.json                           # local-only general lab history
 ```
 
-`bun run clinical:import` performs four guarded steps:
+`bun run clinical:import` performs five guarded steps:
 
 1. Select the latest acquisition for each provider and verify every archived
    original against its manifest byte count and SHA-256 hash.
@@ -34,6 +38,10 @@ data/clinical/sources/<provider>/<acquired-date>/
 4. Validate units, timestamps, plausible machine-safety bounds, unique stable
    IDs, and the output schema before writing
    `data/clinical/normalized/apple-health.json`.
+5. Parse structured general-lab exports into
+   `data/clinical/normalized/labs.json`. The Rythm adapter reads every CSV in
+   the archived ZIP, preserves the source label/unit/range/status verbatim,
+   and records the archive hash, CSV member, and row number for every result.
 
 The Lehigh export produces 45 measurements across seven vital sets. The
 Advocare abstract release adds 89 visually reviewed measurements across 15
@@ -41,23 +49,42 @@ dated sets: longitudinal pediatric/adolescent vitals plus one fasting blood
 glucose result. The combined payload contains 134 measurements. Blood pressure
 is written to HealthKit as a systolic/diastolic correlation.
 
+The August 2026 Rythm archive adds 25 general lab results from one collection.
+They are written only to the local lab history, not the Apple Health payload.
+
 Supported types are height, body mass, BMI, systolic and diastolic blood
 pressure, body temperature, respiratory rate, oxygen saturation, and heart
 rate, plus blood glucose. Values are converted to the canonical units in the
 metric registry before they reach the phone.
 
-General lab panels, allergies, diagnoses, medications, immunizations,
-screenings, and narrative notes stay in the local structured extraction.
+General lab panels stay in the local lab history; allergies, diagnoses,
+medications, immunizations, screenings, and narrative notes stay in local
+structured extraction.
 HealthKit clinical-record objects are read-only to third-party apps, so Baymax
 cannot recreate them as allergy, condition, medication, immunization, or lab
 FHIR records. Blood glucose is the only lab value in this release with a
 matching writable HealthKit quantity type.
 
+General laboratory results remain queryable through the typed SDK without
+entering the HealthKit-shaped SQLite tables:
+
+```bash
+bun run health labs --json
+bun run health labs --marker apob
+bun run health lab-trend --marker fructosamine --json
+```
+
+The corresponding MCP tools are `health_labs` and `health_lab_trend`; the
+server exposes `GET /v1/labs` and `GET /v1/labs/trend?marker=<markerKey>`.
+Source statuses are authoritative. Do not infer status solely from the printed
+range: some providers use target bands where a value below the printed lower
+bound is still marked optimal.
+
 ## Run the backfill
 
 ```bash
 bun run clinical:import --check   # verify and show counts; write nothing
-bun run clinical:import           # refresh normalized/apple-health.json
+bun run clinical:import           # refresh normalized/apple-health.json + labs.json
 bun run dev
 ```
 

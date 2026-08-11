@@ -1,6 +1,7 @@
-import { mkdtempSync } from "node:fs";
+import { mkdirSync, mkdtempSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
+import type { LabArchive } from "../src/labs.ts";
 import type { DevicePayload, SamplePayload, SourcePayload, WorkoutPayload } from "../src/types.ts";
 import { DAY_MS } from "../src/time.ts";
 import { ingestSamples, ingestWorkouts, migrateDb, openDb, type BaymaxDb } from "../src/index.ts";
@@ -93,6 +94,68 @@ export function seedTempDb(prefix: string, opts: { days?: number; now?: number }
   ingestWorkouts(db, { workouts: fx.workouts });
   db.$client.close();
   return { dir, dbPath };
+}
+
+/** Deterministic local-lab sidecar for SDK/CLI/MCP/server tests. */
+export function writeLabFixture(dataDir: string): void {
+  const path = join(dataDir, "clinical", "normalized", "labs.json");
+  const sourceSha256 = "a".repeat(64);
+  const base = {
+    precision: "date" as const,
+    provider: "Fixture Lab",
+    provenance: {
+      sourceFile: "sources/fixture/originals/labs.zip",
+      sourceSha256,
+      archiveMember: "fixture.csv",
+      extraction: "embedded-csv" as const,
+    },
+  };
+  const archive: LabArchive = {
+    schemaVersion: 1,
+    generatedAt: "2026-06-20T12:00:00.000Z",
+    parser: "clinical-labs-v1",
+    results: [
+      {
+        ...base,
+        id: "baymax.lab.fixture.2026-06-01.apob.1",
+        markerKey: "apob",
+        marker: "ApoB",
+        value: 90,
+        unit: "mg/dL",
+        referenceRange: { text: "0 - 90", low: 0, high: 90 },
+        status: "average",
+        collectedOn: "2026-06-01",
+        provenance: { ...base.provenance, row: 2 },
+      },
+      {
+        ...base,
+        id: "baymax.lab.fixture.2026-06-19.apob.2",
+        markerKey: "apob",
+        marker: "ApoB",
+        value: 94.6,
+        unit: "mg/dL",
+        referenceRange: { text: "0 - 90", low: 0, high: 90 },
+        status: "outOfRange",
+        collectedOn: "2026-06-19",
+        provenance: { ...base.provenance, row: 3 },
+      },
+      {
+        ...base,
+        id: "baymax.lab.fixture.2026-06-19.hdl.3",
+        markerKey: "hdl_cholesterol",
+        marker: "HDL Cholesterol",
+        value: 60.6,
+        unit: "mg/dL",
+        referenceRange: { text: "40 - 120", low: 40, high: 120 },
+        status: "optimal",
+        collectedOn: "2026-06-19",
+        provenance: { ...base.provenance, row: 4 },
+      },
+    ],
+    report: { acquisitions: 1, csvMembers: 1, results: 3, warnings: [] },
+  };
+  mkdirSync(join(dataDir, "clinical", "normalized"), { recursive: true });
+  writeFileSync(path, `${JSON.stringify(archive, null, 2)}\n`);
 }
 
 export function generateFixtures(opts: { days: number; now: number; seed?: number }): Fixtures {

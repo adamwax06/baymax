@@ -3,11 +3,15 @@ import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 
 import { basename, dirname, join, relative, resolve } from "node:path";
 import { z } from "zod";
 import {
+  assertUniqueLabResults,
   assertUniqueClinicalMeasurements,
   clinicalBackfillFileZ,
+  labArchiveZ,
   parseLehighChartText,
+  parseRythmLabCsv,
   parseReviewedClinicalFile,
   type ClinicalSource,
+  type LabResult,
 } from "@baymax/core";
 
 const manifestZ = z.object({
@@ -38,9 +42,32 @@ function extractPdfText(path: string): string {
   return result.stdout.toString();
 }
 
+function zipCsvMembers(path: string): string[] {
+  const result = Bun.spawnSync(["unzip", "-Z1", path]);
+  if (result.exitCode !== 0) {
+    const detail = result.stderr.toString().trim();
+    throw new Error(`Could not list CSV files in ${basename(path)}${detail ? `: ${detail}` : ""}`);
+  }
+  return result.stdout
+    .toString()
+    .split(/\r?\n/)
+    .filter((name) => name.toLowerCase().endsWith(".csv"))
+    .sort();
+}
+
+function extractZipMember(path: string, member: string): string {
+  const result = Bun.spawnSync(["unzip", "-p", path, member]);
+  if (result.exitCode !== 0) {
+    const detail = result.stderr.toString().trim();
+    throw new Error(`Could not read ${member} from ${basename(path)}${detail ? `: ${detail}` : ""}`);
+  }
+  return result.stdout.toString();
+}
+
 const repoRoot = resolve(import.meta.dir, "..");
 const sourcesRoot = join(repoRoot, "data/clinical/sources");
 const outputPath = resolve(argValue("--output") ?? join(repoRoot, "data/clinical/normalized/apple-health.json"));
+const labOutputPath = resolve(argValue("--lab-output") ?? join(repoRoot, "data/clinical/normalized/labs.json"));
 const checkOnly = Bun.argv.includes("--check");
 
 function latestAcquisitionDirs(): string[] {
@@ -65,9 +92,12 @@ const sourceDirs = sourceArg ? [resolve(sourceArg)] : latestAcquisitionDirs();
 if (sourceDirs.length === 0) throw new Error(`No clinical acquisitions found under ${sourcesRoot}`);
 
 const measurements = [] as ReturnType<typeof parseReviewedClinicalFile>["measurements"];
+const labResults: LabResult[] = [];
 const warnings: string[] = [];
 let embeddedVitalSets = 0;
 let reviewedVitalSets = 0;
+let labAcquisitions = 0;
+let csvMembers = 0;
 
 for (const sourceDir of sourceDirs) {
   const manifestPath = join(sourceDir, "manifest.local.json");
@@ -108,12 +138,28 @@ for (const sourceDir of sourceDirs) {
     warnings.push(...chart.warnings.map((warning) => `${acquisitionLabel}: ${warning}`));
   }
 
+  if (providerSlug === "rythm-health") {
+    const archives = manifest.files.filter((file) => file.kind === "rythm-csv-archive");
+    if (archives.length === 0) throw new Error("The Rythm manifest has no rythm-csv-archive file");
+    labAcquisitions += 1;
+    for (const archive of archives) {
+      const absolutePath = join(sourceDir, archive.path);
+      const source = sources.get(archive.path)!;
+      const members = zipCsvMembers(absolutePath);
+      if (members.length === 0) throw new Error(`${acquisitionLabel}: ${archive.path} contains no CSV files`);
+      for (const member of members) {
+        labResults.push(...parseRythmLabCsv(extractZipMember(absolutePath, member), source, member));
+        csvMembers += 1;
+      }
+    }
+  }
+
   const reviewedPath = join(sourceDir, "reviewed-observations.local.json");
   if (existsSync(reviewedPath)) {
     const reviewed = parseReviewedClinicalFile(JSON.parse(readFileSync(reviewedPath, "utf8")), sources);
     measurements.push(...reviewed.measurements);
     reviewedVitalSets += reviewed.vitalSets;
-  } else {
+  } else if (providerSlug !== "rythm-health") {
     warnings.push(`${acquisitionLabel}: no reviewed-observations.local.json found`);
   }
 }
@@ -122,6 +168,8 @@ measurements.sort(
   (a, b) => a.localStart.localeCompare(b.localStart) || a.type.localeCompare(b.type),
 );
 assertUniqueClinicalMeasurements(measurements);
+labResults.sort((a, b) => a.collectedOn.localeCompare(b.collectedOn) || a.marker.localeCompare(b.marker));
+assertUniqueLabResults(labResults);
 
 const output = clinicalBackfillFileZ.parse({
   schemaVersion: 1,
@@ -137,22 +185,41 @@ const output = clinicalBackfillFileZ.parse({
   },
 });
 
+const labOutput = labArchiveZ.parse({
+  schemaVersion: 1,
+  generatedAt: new Date().toISOString(),
+  parser: "clinical-labs-v1",
+  results: labResults,
+  report: {
+    acquisitions: labAcquisitions,
+    csvMembers,
+    results: labResults.length,
+    warnings: [],
+  },
+});
+
 if (!checkOnly) {
   mkdirSync(dirname(outputPath), { recursive: true });
   writeFileSync(outputPath, `${JSON.stringify(output, null, 2)}\n`);
+  mkdirSync(dirname(labOutputPath), { recursive: true });
+  writeFileSync(labOutputPath, `${JSON.stringify(labOutput, null, 2)}\n`);
 }
 
 const counts = Object.groupBy(measurements, (measurement) => measurement.metric);
+const labCounts = Object.groupBy(labResults, (result) => result.status);
 console.log(
   JSON.stringify(
     {
       mode: checkOnly ? "check" : "write",
       output: checkOnly ? null : outputPath,
+      labOutput: checkOnly ? null : labOutputPath,
       acquisitions: sourceDirs.map((sourceDir) => relative(sourcesRoot, sourceDir)),
       embeddedVitalSets,
       reviewedVitalSets,
       measurements: measurements.length,
       byMetric: Object.fromEntries(Object.entries(counts).map(([metric, entries]) => [metric, entries?.length ?? 0])),
+      labResults: labResults.length,
+      byLabStatus: Object.fromEntries(Object.entries(labCounts).map(([status, entries]) => [status, entries?.length ?? 0])),
       warnings,
     },
     null,

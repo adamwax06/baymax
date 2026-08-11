@@ -1,5 +1,5 @@
 import { describe, expect, test } from "bun:test";
-import { parseLehighChartText, parseReviewedClinicalFile, type ClinicalSource } from "../src/index.ts";
+import { parseLehighChartText, parseReviewedClinicalFile, parseRythmLabCsv, type ClinicalSource } from "../src/index.ts";
 
 const source: ClinicalSource = {
   provider: "Lehigh University Health & Wellness Center",
@@ -9,6 +9,33 @@ const source: ClinicalSource = {
 };
 
 describe("clinical record parsing", () => {
+  test("parses Rythm CSV rows without reinterpreting source status or ranges", () => {
+    const csv = `marker,value,unit,reference_range,status,time
+Fructosamine,326,umol/L,205 - 285,outOfRange,2026-08-07
+"Triglycerides/HDL Ratio",1.03,pct,1.25 - 2.5,optimal,2026-08-07
+`;
+    const parsed = parseRythmLabCsv(csv, { ...source, provider: "Rythm Health", providerSlug: "rythm-health" }, "results.csv");
+    expect(parsed).toHaveLength(2);
+    expect(parsed[0]!.markerKey).toBe("fructosamine");
+    expect(parsed[0]!.referenceRange).toEqual({ text: "205 - 285", low: 205, high: 285 });
+    expect(parsed[0]!.provenance.row).toBe(2);
+    expect(parsed[1]!.markerKey).toBe("triglycerides_hdl_ratio");
+    expect(parsed[1]!.value).toBeLessThan(parsed[1]!.referenceRange.low!);
+    expect(parsed[1]!.status).toBe("optimal");
+  });
+
+  test("rejects changed Rythm columns and unsupported source statuses", () => {
+    const rythm = { ...source, provider: "Rythm Health", providerSlug: "rythm-health" };
+    expect(() => parseRythmLabCsv("marker,value\nApoB,90\n", rythm, "bad.csv")).toThrow(/unsupported header/);
+    expect(() =>
+      parseRythmLabCsv(
+        "marker,value,unit,reference_range,status,time\nApoB,90,mg/dL,0 - 90,kindOfFine,2026-08-07\n",
+        rythm,
+        "bad.csv",
+      ),
+    ).toThrow();
+  });
+
   test("parses every dated Lehigh vital set and converts to HealthKit units", () => {
     const text = `
 Encounter Date: 01/31/25 02:45 PM

@@ -2,7 +2,7 @@ import { afterAll, beforeAll, describe, expect, test } from "bun:test";
 import { rmSync } from "node:fs";
 import { Client } from "@modelcontextprotocol/sdk/client/index.js";
 import { InMemoryTransport } from "@modelcontextprotocol/sdk/inMemory.js";
-import { seedTempDb } from "@baymax/core/test/fixtures.ts";
+import { seedTempDb, writeLabFixture } from "@baymax/core/test/fixtures.ts";
 import { createServer } from "../src/server.ts";
 
 let dir: string;
@@ -14,6 +14,7 @@ const textOf = (result: unknown) =>
 beforeAll(async () => {
   let dbPath: string;
   ({ dir, dbPath } = seedTempDb("baymax-mcp-"));
+  writeLabFixture(dir);
 
   const [clientTransport, serverTransport] = InMemoryTransport.createLinkedPair();
   await createServer(dbPath).connect(serverTransport);
@@ -28,6 +29,8 @@ describe("MCP server", () => {
     const { tools } = await client.listTools();
     const names = tools.map((t) => t.name).sort();
     expect(names).toEqual([
+      "health_lab_trend",
+      "health_labs",
       "health_lifts",
       "health_metrics",
       "health_nutrition",
@@ -55,6 +58,16 @@ describe("MCP server", () => {
     expect(trend.aggregation).toBe("sum");
     expect(trend.source).toBeDefined();
     expect(trend.excludedSources).toHaveLength(1);
+  });
+
+  test("health_labs and health_lab_trend return local clinical results", async () => {
+    const panel = await client.callTool({ name: "health_labs", arguments: { marker: "apob" } });
+    const labs = JSON.parse(textOf(panel));
+    expect(labs).toHaveLength(2);
+    expect(labs[0].markerKey).toBe("apob");
+
+    const series = await client.callTool({ name: "health_lab_trend", arguments: { marker: "apob" } });
+    expect(JSON.parse(textOf(series)).points.map((point: { value: number }) => point.value)).toEqual([90, 94.6]);
   });
 
   test("health_query runs SELECT and errors on writes", async () => {

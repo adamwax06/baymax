@@ -1,6 +1,7 @@
 import { beforeAll, describe, expect, test } from "bun:test";
+import { rmSync } from "node:fs";
 import { migrateDb, openDb, statusSummary, type BaymaxDb } from "@baymax/core";
-import { generateFixtures, NOW } from "@baymax/core/test/fixtures.ts";
+import { generateFixtures, NOW, seedTempDb, writeLabFixture } from "@baymax/core/test/fixtures.ts";
 import { createApp } from "../src/app.ts";
 import type { Hono } from "hono";
 
@@ -42,6 +43,23 @@ describe("server", () => {
     const payload = (await res.json()) as { measurements: unknown[]; report: { warnings: string[] } };
     expect(payload.measurements).toEqual([]);
     expect(payload.report.warnings).toContain("Run bun run clinical:import");
+  });
+
+  test("lab endpoints expose the validated local sidecar", async () => {
+    const { dir, dbPath } = seedTempDb("baymax-server-labs-", { now: NOW });
+    try {
+      writeLabFixture(dir);
+      const labApp = createApp(db, { dataDir: dir, dbPath });
+      const panel = await labApp.request("/v1/labs?marker=apob&days=3650");
+      expect(panel.status).toBe(200);
+      expect(((await panel.json()) as unknown[])).toHaveLength(2);
+
+      const trend = await labApp.request("/v1/labs/trend?marker=apob&days=3650");
+      expect(trend.status).toBe(200);
+      expect(((await trend.json()) as { points: unknown[] }).points).toHaveLength(2);
+    } finally {
+      rmSync(dir, { recursive: true, force: true });
+    }
   });
 
   test("ingests sample and workout batches", async () => {
