@@ -1,135 +1,117 @@
 [
  {
   "food": "egg",
-  "count": 10,
-  "asOf": "2026-07-31",
-  "note": "ESTIMATE from carton fill \u2014 photo audit 7/31"
- },
- {
-  "food": "oat-milk",
-  "g": 600,
-  "asOf": "2026-07-31",
-  "note": "TJ non-dairy oat beverage, amount UNVERIFIED \u2014 photo audit 7/31"
+  "asOf": "2026-08-11",
+  "note": "Carton visible in the fridge; count unverified. After the Souvla dinner replaced the Aug 11 pre-sleep meal, only the 3 eggs planned for Aug 12 remain."
  },
  {
   "food": "whole-milk",
-  "g": 700,
-  "asOf": "2026-07-31",
-  "note": "Lucerne 2% (mapped to closest id), amount UNVERIFIED \u2014 photo audit 7/31"
+  "asOf": "2026-08-11",
+  "note": "Dairy-milk containers are visible but are not Adam's available milk. Use 0g in the Aug 11-12 plan."
+ },
+ {
+  "food": "oat-milk",
+  "asOf": "2026-08-11",
+  "note": "Trader Joe's and Kirkland oat-beverage cartons visible. Adam confirmed the photographed Trader Joe's carton is dated October 12, 2026; its matching ingredient list contains no pea/legume protein, soy isolate, tree nuts, peanuts, fish, or fish oil. Adam used 250g for the Aug 11 top-off; 600g remain planned for Aug 12."
  },
  {
   "food": "mozzarella-shredded",
-  "g": 250,
-  "asOf": "2026-07-31",
-  "note": "actually Kirkland Mexican-style cheese blend, mapped to closest id \u2014 photo audit 7/31"
+  "asOf": "2026-08-11",
+  "note": "Cheese is visible in the fridge drawer; exact type and amount unverified. The Aug 11 plan uses 25g, mapped to the closest registered cheese entry."
  },
  {
-  "food": "bread-italian",
-  "g": 400,
-  "asOf": "2026-07-31",
-  "note": "Kirkland loaf in pantry, amount UNVERIFIED \u2014 photo audit 7/31"
+  "name": "DO NOT USE — spoiled bread",
+  "asOf": "2026-08-11",
+  "note": "Adam reported the bread in the house is bad and will not replace it before the trip. Excluded from all plans."
  },
  {
   "food": "oats-dry",
-  "g": 600,
-  "asOf": "2026-07-31",
-  "note": "bag in pantry, amount UNVERIFIED \u2014 photo audit 7/31"
+  "asOf": "2026-08-11",
+  "note": "Large rolled-oats bag visible in the pantry. Adam does not want oats, so the Aug 11-12 plan uses 0g."
  },
  {
   "food": "white-rice-dry",
-  "g": 800,
-  "asOf": "2026-07-31",
-  "note": "bag at pantry bottom, amount UNVERIFIED \u2014 photo audit 7/31"
- },
- {
-  "food": "potato",
-  "g": 1200,
-  "asOf": "2026-07-31",
-  "note": "bagged potatoes next to microwave, ~4-6 spuds, UNVERIFIED \u2014 photo audit 7/31"
+  "asOf": "2026-08-11",
+  "note": "Large white-rice bag visible in the pantry. Adam already ate rice earlier on Aug 11, so it is excluded from every remaining pre-trip meal."
  },
  {
   "food": "honey",
-  "g": 500,
-  "asOf": "2026-07-31",
-  "note": "large jug in pantry \u2014 photo audit 7/31"
+  "asOf": "2026-08-11",
+  "note": "Large Kirkland jug visible in the pantry. The Souvla dinner replaced the Aug 11 pre-sleep meal, so the remaining Aug 11-12 plan uses 0g."
  },
  {
   "food": "olive-oil",
-  "g": 350,
-  "asOf": "2026-07-31",
-  "note": "green bottle in pantry \u2014 photo audit 7/31"
+  "asOf": "2026-08-11",
+  "note": "Large green bottle visible above the microwave. The Souvla dinner replaced the remaining Aug 11 home meal, so the remaining pre-trip plan uses 0g."
  },
  {
   "food": "sriracha",
-  "g": 200,
-  "asOf": "2026-07-31",
-  "note": "pantry (TJ sriracha BBQ + sriracha bottle) \u2014 photo audit 7/31"
+  "asOf": "2026-08-11",
+  "note": "Sriracha bottles and Trader Joe's Sriracha BBQ sauce visible. The Souvla dinner replaced the remaining Aug 11 home meal, so no additional sriracha is planned before the trip."
  },
  {
-  "food": "ground-beef-96",
-  "g": 200,
-  "asOf": "2026-07-31",
-  "note": "frozen 7/31, moving back to fridge tonight to thaw \u2014 cook morning of 8/1 (beef & egg skillet), do not refreeze raw"
- },
- {
-  "name": "covered tray in fridge (unidentified, NOT Adam's polpettine)",
-  "asOf": "2026-07-31",
-  "note": "middle shelf under plastic wrap \u2014 Adam says not his; presumed roommate's, do not plan around it"
- },
- {
-  "name": "Kirkland frozen shrimp 50-70",
-  "asOf": "2026-07-31",
-  "note": "bag in fridge (thawing?) \u2014 shellfish is SAFE per profile \u2014 photo audit 7/31"
+  "food": "ground-beef-85",
+  "asOf": "2026-08-11",
+  "note": "Kirkland organic ground-beef packs visible in the freezer; exact lean percentage should be confirmed on the pack. Not needed before the Aug 12 Anaheim flight; leave frozen."
  },
  {
   "food": "kirkland-breaded-tenders",
-  "g": 1000,
-  "asOf": "2026-07-31",
-  "note": "freezer, fully cooked, bag opened, amount UNVERIFIED \u2014 label registered in foods.json 7/31 (84g = 140kcal/16P)"
+  "asOf": "2026-08-11",
+  "note": "Opened bag visible in the freezer. Adam chose oat milk and strawberries instead of the Aug 11 chicken top-off; 240g remain planned for Aug 12. Current registered label is 84g = 140 kcal / 16g protein."
  },
  {
-  "name": "Kirkland raw chicken breast fillets",
-  "asOf": "2026-07-31",
-  "note": "freezer, no-added-salt bag \u2014 photo audit 7/31"
+  "name": "raw chicken breast tenderloins",
+  "asOf": "2026-08-11",
+  "note": "Perdue chicken-breast tenderloins visible in the freezer. Souvla replaced the Aug 11 home chicken meal; no longer needed before the Aug 12 flight."
  },
  {
-  "name": "Crazy Cuizine mandarin orange chicken",
-  "asOf": "2026-07-31",
-  "note": "freezer, boxed \u2014 photo audit 7/31"
+  "food": "chicken-thigh",
+  "asOf": "2026-08-11",
+  "note": "Kirkland organic boneless skinless chicken thighs visible in the freezer. Not needed before the Aug 12 Anaheim flight; leave frozen."
  },
  {
-  "name": "frozen fries",
-  "asOf": "2026-07-31",
-  "note": "freezer, blue bag, amount unverified \u2014 photo audit 7/31"
+  "food": "spinach",
+  "asOf": "2026-08-11",
+  "note": "Two large baby-spinach tubs visible in the fridge. The Aug 11 rice bowl used 80g; Souvla replaced the remaining spinach meal, so none is additionally planned before Disneyland."
  },
  {
-  "name": "Ben & Jerry's Half Baked pint",
-  "asOf": "2026-07-31",
-  "note": "freezer \u2014 photo audit 7/31"
+  "food": "strawberries",
+  "asOf": "2026-08-11",
+  "note": "Frozen strawberry bag visible. Adam used 165g for the Aug 11 top-off; another 150g remain planned for Aug 12."
  },
  {
-  "name": "pickled jalape\u00f1os",
-  "asOf": "2026-07-31",
-  "note": "fridge door, jar \u2014 safe per profile (jalape\u00f1os ok) \u2014 photo audit 7/31"
+  "food": "chia",
+  "asOf": "2026-08-11",
+  "note": "Seed bag visible in the pantry and previously registered. After the Souvla dinner replaced the Aug 11 pre-sleep meal, 15g remain planned for Aug 12."
  },
  {
-  "name": "mayo, ketchup, marinara, alfredo/carbonara jar, jam, BBQ sauce, balsamic, mustard",
-  "asOf": "2026-07-31",
-  "note": "condiments/sauces across fridge + pantry, not diet-tracked \u2014 photo audit 7/31"
+  "food": "medjool-dates",
+  "asOf": "2026-08-11",
+  "note": "Tub visible in the pantry. Adam chose oat milk and strawberries instead of dates for the Aug 11 top-off; 8 dates remain planned for Aug 12."
  },
  {
-  "name": "deli meat pouch + misc crisper produce",
-  "asOf": "2026-07-31",
-  "note": "fridge lower shelf/drawers, contents UNVERIFIED from photos \u2014 photo audit 7/31"
+  "food": "butter",
+  "asOf": "2026-08-11",
+  "note": "Butter visible in the fridge drawer; not needed for the Aug 11-12 plan."
+ },
+ {
+  "name": "pickled jalapeños, ketchup, mayonnaise, mustard, Chick-fil-A sauces, marinara, Alfredo sauce, jam, and other condiments",
+  "asOf": "2026-08-11",
+  "note": "Visible across the fridge door and pantry; not diet-tracked unless explicitly weighed. Jalapeños and hot sauces are safe under the profile's bell-pepper-specific allergy."
  },
  {
   "name": "Kirkland energy drink variety pack",
-  "asOf": "2026-07-31",
-  "note": "pantry, not diet-tracked \u2014 photo audit 7/31"
+  "asOf": "2026-08-11",
+  "note": "Visible in the pantry; not included in the meal plan."
  },
  {
-  "name": "DO NOT USE \u2014 Silk almond milk (tree nut), Banza chickpea pasta (legume), Kirkland pesto (pine nuts)",
-  "asOf": "2026-07-31",
-  "note": "in shared kitchen, presumed roommates' \u2014 all three are Adam allergens; cross-contact awareness on shared surfaces"
+  "name": "DO NOT USE — walnuts, Banza chickpea pasta, and Silk almond milk",
+  "asOf": "2026-08-11",
+  "note": "Visible in the shared kitchen and excluded under Adam's tree-nut and legume allergies. Avoid cross-contact from shared surfaces and utensils."
+ },
+ {
+  "name": "HOLD FOR LABEL CHECK — Panang curry sauce",
+  "asOf": "2026-08-11",
+  "note": "Visible above the microwave. Do not use until the ingredient and may-contain labels are checked for finned fish/fish sauce, peanuts, tree nuts, and legumes."
  }
 ]

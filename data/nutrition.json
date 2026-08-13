@@ -881,7 +881,7 @@
   "sodium": 3960,
   "caffeineMg": 150,
   "meals": [],
-  "method": "restaurant-estimated (in progress)",
+  "method": "calendar-confirmed+restaurant-estimated",
   "deviations": [
    {
     "desc": "Chipotle steak burrito with flour tortilla, cilantro-lime brown rice, tomatillo-green chili salsa, roasted chili-corn salsa, queso blanco, and romaine lettuce; estimated from Chipotle's March 2025 US nutrition guide using standard portions. No beans, guacamole, sour cream, cheese, or fajita vegetables reported.",
@@ -915,6 +915,100 @@
     "fiber": 5.1
    }
   ],
-  "notes": "August 10 intake is in progress. Restaurant portions vary; rice, steak, queso, lamb, chicken, rendered fat, and aioli portions are the main uncertainties. Chipotle uses a shared service line, so cross-contact with Adam's bean, avocado, and bell-pepper allergies is possible even though none of those ingredients were ordered. RT's published menu identifies sesame in the bowl's seed mix and pasteurized egg yolk in the garlic aioli; both are compatible with the recorded allergy profile, but the restaurant does not publish a complete cross-contact statement. The 9:45pm yogurt bowl is plan-derived from registered foods and was scaled to the 275g yogurt actually available; frozen strawberries replaced raspberries."
+  "notes": "Full August 10 day confirmed from the meals on Google Calendar. Restaurant portions vary; rice, steak, queso, lamb, chicken, rendered fat, and aioli portions are the main uncertainties. Chipotle uses a shared service line, so cross-contact with Adam's bean, avocado, and bell-pepper allergies is possible even though none of those ingredients were ordered. RT's published menu identifies sesame in the bowl's seed mix and pasteurized egg yolk in the garlic aioli; both are compatible with the recorded allergy profile, but the restaurant does not publish a complete cross-contact statement. The 9:45pm yogurt bowl is plan-derived from registered foods and was scaled to the 275g yogurt actually available; frozen strawberries replaced raspberries. Final estimated day: 2,758 kcal / 141g protein / 298g carbs / 111.6g fat / 19.1g fiber."
+ },
+ {
+  "date": "2026-08-11",
+  "kcal": 2684,
+  "protein": 146,
+  "carbs": 320,
+  "fat": 106.6,
+  "fiber": 23.2,
+  "meals": [],
+  "method": "calendar-confirmed+restaurant-estimated",
+  "deviations": [
+   {
+    "desc": "11:30am egg + chicken rice bowl from the calendar: 2 eggs, 160g Kirkland breaded chicken, 100g dry white rice, 25g shredded cheese, 80g spinach, and 20g sriracha.",
+    "kcal": 893,
+    "protein": 59,
+    "carbs": 107,
+    "fat": 26,
+    "fiber": 2
+   },
+   {
+    "desc": "2:30pm pre-lift meal from the calendar: 6 Medjool dates, 300g Trader Joe's oat beverage, and 150g strawberries.",
+    "kcal": 560,
+    "protein": 6,
+    "carbs": 131,
+    "fat": 7,
+    "fiber": 14
+   },
+   {
+    "desc": "Souvla dinner replacing both remaining home meals: feta-brined half rotisserie chicken with granch, one order of Greek fries, and ketchup. Chicken estimated as two official 5oz Souvla chicken servings; granch estimated at 2 tbsp; fries use the Souvla-branded 295 kcal listing; ketchup estimated at 2 tbsp.",
+    "kcal": 1083,
+    "protein": 78,
+    "carbs": 60,
+    "fat": 68,
+    "fiber": 3
+   },
+   {
+    "desc": "10:00pm oat-milk strawberry top-off after Souvla: 250g Trader Joe's oat beverage and 165g frozen strawberries. Replaces the planned 6 dates and 60g Kirkland breaded chicken.",
+    "kcal": 148,
+    "protein": 3,
+    "carbs": 22,
+    "fat": 5.6,
+    "fiber": 4.4
+   }
+  ],
+  "notes": "August 11 logged from confirmed calendar meals plus Souvla dinner. Souvla's official nutrition lists 5oz free-range chicken at 355 kcal / 37g protein / 23g fat and granch at 22 kcal per tablespoon; the current official sheet omits fries, so the fries use the Souvla-branded 295 kcal listing and ketchup is estimated at 34 kcal for 2 tbsp. Restaurant serving size and sauce amount remain uncertain. The official allergen guide says Greek fries contain dairy and soy, granch contains dairy/corn/onion-garlic/sesame, meat marinade contains corn/onion-garlic/sesame, and Greek mix seasoning contains bell peppers plus a shared-machinery warning for tree nuts and soy; it is unclear whether Greek mix was used on this plate. Final day after the confirmed 250g oat-milk and 165g strawberry top-off: 2,684 kcal / 146g protein / 320g carbs / 106.6g fat / 23.2g fiber."
+ },
+ {
+  "date": "2026-08-12",
+  "kcal": 3230,
+  "protein": 188,
+  "carbs": 351,
+  "fat": 117,
+  "fiber": 19,
+  "sodium": 5300,
+  "meals": [],
+  "method": "reported-as-eaten+restaurant-estimated (in progress)",
+  "deviations": [
+   {
+    "desc": "Around noon at LAX Terminal 6: The Kitchen by Wolfgang Puck crispy chicken sandwich, likely with apple slaw, plus potato chips and a pickle; restaurant identified from the reported orange-and-black appearance and approximately $25 price. Estimated midpoint; plausible range 800-1,100 kcal.",
+    "kcal": 950,
+    "protein": 35,
+    "carbs": 95,
+    "fat": 48,
+    "fiber": 5,
+    "sodium": 1900
+   },
+   {
+    "desc": "7:00pm at Lucky Fortune Cookery in Disney California Adventure: fish- and peanut/tree-nut-allergy-friendly Beef Birria Ramen with consomme, house-made birria, ramen noodles, soft-boiled egg, Monterey Jack, cilantro, onions, and radish. Restaurant-estimated midpoint; plausible range 750-1,100 kcal because Disney does not publish nutrition or serving weights.",
+    "kcal": 900,
+    "protein": 50,
+    "carbs": 95,
+    "fat": 35,
+    "fiber": 4,
+    "sodium": 2500
+   },
+   {
+    "desc": "One Mickey's Premium Vanilla Ice Cream Bar with chocolatey coating at Disney California Adventure; packaged-product nutrition listing.",
+    "kcal": 330,
+   "protein": 3,
+   "carbs": 31,
+   "fat": 22,
+   "fiber": 2
+   },
+   {
+    "desc": "Late-night Disneyland Hotel room service: approximately two kids' grilled chicken breast meals, each with about 5 oz cooked chicken breast, roughly 3/4 cup brown rice, one mandarin, and one small mixed-fruit cup. Photo- and report-estimated; plausible combined range 850-1,250 kcal depending on chicken and rice portions and how much fruit was eaten.",
+    "kcal": 1050,
+    "protein": 100,
+    "carbs": 130,
+    "fat": 12,
+    "fiber": 8,
+    "sodium": 900
+   }
+  ],
+  "notes": "August 12 log. Adam confirmed he ate nothing pre-flight; both planned pre-flight calendar meals were removed and are excluded from intake. The LAX sandwich estimate is based on a breaded chicken patty, bun, apple slaw/sauce, potato chips, and pickle. The Beef Birria Ramen estimate is based on ramen noodles, birria beef, consomme, egg, Monterey Jack, corn, onions, cilantro, and radish; Disney's current allergy menu omits roasted corn from the fish-allergy-friendly description, so the estimate assumes the allergy-prepared serving may omit it. Disney lists the allergy-prepared ramen for both fish and peanut/tree-nut allergies, but complete ingredient and cross-contact safety for Adam's other medical allergies still depends on the Special Diets-trained Cast Member. The Mickey bar uses the current commonly listed 330-kcal packaged-bar macros; the wrapper remains authoritative if it differs. The two room-service meals are photo-estimated from the visible chicken, rice, mandarin, and mixed-fruit portions; chicken and rice serving weights are the main uncertainty. Final estimated total: 3,230 kcal / 188g protein / 351g carbs / 117g fat / 19g fiber."
  }
 ]

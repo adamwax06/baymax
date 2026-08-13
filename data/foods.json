@@ -726,16 +726,26 @@
  },
  {
   "id": "oat-milk",
-  "name": "Oat milk, original",
+  "name": "Trader Joe's Non-Dairy Oat Beverage with Vitamins A, D & B12",
   "fdcId": null,
-  "fdcType": "Branded (category average)",
-  "note": "generic original oat milk avg (Oatly-like); replace with actual carton label. ALLERGY: verify no pea protein on label before first use",
+  "fdcType": "label",
+  "weighed": "raw",
+  "store": "traderjoes",
+  "brand": "Trader Joe's",
   "per100g": {
-   "protein": 1.3,
-   "fat": 1.8,
-   "carbs": 6.7,
-   "kcal": 48
-  }
+   "protein": 0.83,
+   "fat": 2.08,
+   "carbs": 3.75,
+   "kcal": 37.5,
+   "fiber": 0.42,
+   "calcium": 45.83,
+   "iron": 0.25,
+   "potassium": 62.5,
+   "sodium": 70.83,
+   "vitD": 1.21
+  },
+  "allergyChecked": "2026-08-11",
+  "notes": "Carton: 240mL = 90kcal/2P/5F/9C/1g fiber. Matching current ingredient list contains oats and sunflower oil but no tree nuts, peanuts, pea/legume protein, soy isolate, fish, or fish oil. Adam confirmed the photographed carton is dated October 12, 2026."
  },
  {
   "id": "rotisserie-chicken",
