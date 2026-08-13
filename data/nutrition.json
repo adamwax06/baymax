@@ -1010,5 +1010,44 @@
    }
   ],
   "notes": "August 12 log. Adam confirmed he ate nothing pre-flight; both planned pre-flight calendar meals were removed and are excluded from intake. The LAX sandwich estimate is based on a breaded chicken patty, bun, apple slaw/sauce, potato chips, and pickle. The Beef Birria Ramen estimate is based on ramen noodles, birria beef, consomme, egg, Monterey Jack, corn, onions, cilantro, and radish; Disney's current allergy menu omits roasted corn from the fish-allergy-friendly description, so the estimate assumes the allergy-prepared serving may omit it. Disney lists the allergy-prepared ramen for both fish and peanut/tree-nut allergies, but complete ingredient and cross-contact safety for Adam's other medical allergies still depends on the Special Diets-trained Cast Member. The Mickey bar uses the current commonly listed 330-kcal packaged-bar macros; the wrapper remains authoritative if it differs. The two room-service meals are photo-estimated from the visible chicken, rice, mandarin, and mixed-fruit portions; chicken and rice serving weights are the main uncertainty. Final estimated total: 3,230 kcal / 188g protein / 351g carbs / 117g fat / 19g fiber."
+ },
+ {
+  "date": "2026-08-13",
+  "kcal": 2795,
+  "protein": 146,
+  "carbs": 295,
+  "fat": 108.5,
+  "fiber": 14,
+  "caffeineMg": 150,
+  "meals": [],
+  "method": "reported-as-eaten+plan-derived restaurant estimate (in progress)",
+  "deviations": [
+   {
+    "desc": "Tangaroa Terrace Hawaiian Platter with marinated short rib and jasmine rice, reported eaten before the pull workout. Sides, sauce amount, and whether extra rice was served remain unconfirmed.",
+    "kcal": 1100,
+    "protein": 55,
+    "carbs": 120,
+    "fat": 43,
+    "fiber": 5
+   },
+   {
+    "desc": "Pre-lift top-off: one 16 fl oz Monster Zero Ultra (white can) and one sealed Corn Flakes cereal cup, assumed eaten dry. Cereal package serving size remains authoritative.",
+    "kcal": 145,
+    "protein": 3,
+    "carbs": 32,
+    "fat": 0.5,
+    "fiber": 1,
+    "caffeineMg": 150
+   },
+   {
+    "desc": "PLANNED 5:30pm team dinner at Naples Ristorante e Bar: Bistecca di Manzo (12 oz T-bone) with roasted potatoes and broccoli, plus cleared house-made focaccia and/or an extra side of roasted potatoes as appetite permits. Midpoint estimate; confirm what was actually eaten after dinner.",
+    "kcal": 1550,
+    "protein": 88,
+    "carbs": 143,
+    "fat": 65,
+    "fiber": 8
+   }
+  ],
+  "notes": "August 13 is in progress. The Hawaiian platter and Monster/Corn Flakes are reported as eaten. Naples dinner is plan-derived and must be reconciled after the meal. The current plan projects 2,795 kcal / 146g protein, close to the 3,030 kcal / 152g protein target; restaurant portions create a broad plausible day range of roughly 2,470-3,120 kcal. At Naples, request a Special Diets-trained Cast Member and verify the steak, black-pepper sauce, potatoes, broccoli and focaccia against every profile allergy; keep sauce on the side and do not share unverified family-style dishes."
  }
 ]

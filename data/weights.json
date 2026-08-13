@@ -9612,6 +9612,67 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-08-13",
+      "type": "pull",
+      "gym": "Disneyland Hotel",
+      "exercises": [
+        {
+          "name": "Pullups",
+          "sets": [
+            {
+              "bodyweight": true,
+              "reps": [8, 6, 4]
+            }
+          ]
+        },
+        {
+          "name": "Hammer Curl (Cable)",
+          "sets": [
+            {
+              "lb": 50,
+              "reps": [6, 5]
+            },
+            {
+              "lb": 40,
+              "reps": [7]
+            }
+          ],
+          "notes": "Hotel cable setup; Adam described the movement as a weird hammer curl."
+        },
+        {
+          "name": "Smith Machine Barbell Row",
+          "sets": [
+            {
+              "lb": 120,
+              "reps": [6, 9, 6]
+            }
+          ],
+          "notes": "120 lb in plates; Smith bar starting resistance unknown and excluded from lb. Forearms were limiting after pullups and curls."
+        },
+        {
+          "name": "Unilateral DB Preacher Curl",
+          "sets": [
+            {
+              "lb": 40,
+              "perSide": true,
+              "reps": [5, 6]
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Lat Pullover",
+          "sets": [
+            {
+              "lb": 30,
+              "perSide": true,
+              "reps": [8, 4]
+            }
+          ]
+        }
+      ],
+      "notes": "Hotel-equipment pull session. Completed before team dinner."
     }
   ]
 }
