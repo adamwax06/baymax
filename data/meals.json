@@ -47,7 +47,7 @@
         "g": 15
       }
     ],
-    "notes": "v5 (8/3): mango cut 200\u2192120g to fit the blender. v4 (7/21): oat milk cut 250\u2192200g after v3 overflowed. Taste APPROVED at v3. Blend order: liquid+oats+chia first ~30s to grind the chia, then yogurt+fruit. Mango: 120g max; log pineapple swaps at the actual amount. NEVER banana (allergy)"
+    "notes": "v5 (8/3): mango cut 200→120g to fit the blender. v4 (7/21): oat milk cut 250→200g after v3 overflowed. Taste APPROVED at v3. Blend order: liquid+oats+chia first ~30s to grind the chia, then yogurt+fruit. Mango: 120g max; log pineapple swaps at the actual amount. NEVER banana (allergy)"
   },
   {
     "id": "chicken-rice-bowl",
@@ -236,7 +236,7 @@
         "g": 15
       }
     ],
-    "notes": "Adam favorite. Cocoa is just a 1g dusting. Fruit swappable: raspberries, blueberries, or blackberries (all in foods.json) \u2014 log whichever was used"
+    "notes": "Adam favorite. Cocoa is just a 1g dusting. Fruit swappable: raspberries, blueberries, or blackberries (all in foods.json) — log whichever was used"
   },
   {
     "id": "buffalo-chicken-wrap",
@@ -352,6 +352,6 @@
         "g": 15
       }
     ],
-    "notes": "No-fruit variant of cocoa-berry-yogurt-bowl for when fruit's out \u2014 granola instead, cocoa just a dusting (1g). 7/29 in-the-moment version."
+    "notes": "No-fruit variant of cocoa-berry-yogurt-bowl for when fruit's out — granola instead, cocoa just a dusting (1g). 7/29 in-the-moment version."
   }
 ]

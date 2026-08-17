@@ -7,12 +7,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                6,
-                3.5
-              ],
+              "reps": [8, 8, 6, 3.5],
               "lb": 105
             }
           ]
@@ -21,11 +16,7 @@
           "name": "Shoulder Press",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                6.5
-              ],
+              "reps": [8, 8, 6.5],
               "lb": 75
             }
           ]
@@ -34,12 +25,7 @@
           "name": "Row",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                8,
-                8
-              ],
+              "reps": [8, 8, 8, 8],
               "lb": 110
             }
           ]
@@ -48,12 +34,7 @@
           "name": "Lat Pulldown",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                7,
-                5
-              ],
+              "reps": [8, 8, 7, 5],
               "lb": 115
             }
           ]
@@ -62,10 +43,7 @@
           "name": "Squat",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 140
             }
           ],
@@ -80,13 +58,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                8,
-                7,
-                5
-              ],
+              "reps": [8, 8, 8, 7, 5],
               "lb": 105
             }
           ]
@@ -95,11 +67,7 @@
           "name": "Shoulder Press",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                8
-              ],
+              "reps": [8, 8, 8],
               "lb": 90
             }
           ]
@@ -108,13 +76,7 @@
           "name": "Row",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                8,
-                8,
-                7
-              ],
+              "reps": [8, 8, 8, 8, 7],
               "lb": 110
             }
           ]
@@ -123,12 +85,7 @@
           "name": "Lat Pulldown",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                8,
-                6
-              ],
+              "reps": [8, 8, 8, 6],
               "lb": 115
             }
           ]
@@ -137,17 +94,11 @@
           "name": "Squat",
           "sets": [
             {
-              "reps": [
-                8,
-                6
-              ],
+              "reps": [8, 6],
               "lb": 145
             },
             {
-              "reps": [
-                8,
-                7
-              ],
+              "reps": [8, 7],
               "lb": 140
             }
           ]
@@ -161,13 +112,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                8,
-                8,
-                6
-              ],
+              "reps": [8, 8, 8, 8, 6],
               "lb": 105
             }
           ]
@@ -176,12 +121,7 @@
           "name": "Row",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                8,
-                6
-              ],
+              "reps": [8, 8, 8, 6],
               "lb": 120
             }
           ]
@@ -190,11 +130,7 @@
           "name": "Squat",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                5
-              ],
+              "reps": [8, 8, 5],
               "lb": 140
             }
           ]
@@ -208,17 +144,11 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                8,
-                6
-              ],
+              "reps": [8, 6],
               "lb": 110
             },
             {
-              "reps": [
-                6,
-                3
-              ],
+              "reps": [6, 3],
               "lb": 105
             }
           ]
@@ -227,12 +157,7 @@
           "name": "Row",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                8,
-                8
-              ],
+              "reps": [8, 8, 8, 8],
               "lb": 120
             }
           ]
@@ -241,12 +166,7 @@
           "name": "Lat Pulldown",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                8,
-                7
-              ],
+              "reps": [8, 8, 8, 7],
               "lb": 115
             }
           ]
@@ -255,11 +175,7 @@
           "name": "Squat",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                6
-              ],
+              "reps": [8, 8, 6],
               "lb": 140
             }
           ]
@@ -273,9 +189,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                1
-              ],
+              "reps": [1],
               "lb": 145
             }
           ]
@@ -284,9 +198,7 @@
           "name": "Row",
           "sets": [
             {
-              "reps": [
-                1
-              ],
+              "reps": [1],
               "lb": 135
             }
           ]
@@ -295,9 +207,7 @@
           "name": "Squat",
           "sets": [
             {
-              "reps": [
-                1
-              ],
+              "reps": [1],
               "lb": 175
             }
           ]
@@ -311,11 +221,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                12,
-                8,
-                5
-              ],
+              "reps": [12, 8, 5],
               "lb": 95
             }
           ]
@@ -324,12 +230,7 @@
           "name": "DB OHP",
           "sets": [
             {
-              "reps": [
-                12,
-                11,
-                9,
-                8
-              ],
+              "reps": [12, 11, 9, 8],
               "lb": 50
             }
           ]
@@ -338,12 +239,7 @@
           "name": "Row",
           "sets": [
             {
-              "reps": [
-                12,
-                12,
-                12,
-                9
-              ],
+              "reps": [12, 12, 12, 9],
               "lb": 90
             }
           ]
@@ -352,11 +248,7 @@
           "name": "Lat Pulldown",
           "sets": [
             {
-              "reps": [
-                12,
-                7,
-                9
-              ],
+              "reps": [12, 7, 9],
               "lb": 100
             }
           ]
@@ -365,11 +257,7 @@
           "name": "Squat",
           "sets": [
             {
-              "reps": [
-                12,
-                12,
-                12
-              ],
+              "reps": [12, 12, 12],
               "lb": 105
             }
           ]
@@ -383,11 +271,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                12,
-                8,
-                7
-              ],
+              "reps": [12, 8, 7],
               "lb": 95
             }
           ]
@@ -396,12 +280,7 @@
           "name": "DB OHP",
           "sets": [
             {
-              "reps": [
-                8,
-                5,
-                5,
-                5
-              ],
+              "reps": [8, 5, 5, 5],
               "lb": 60
             }
           ]
@@ -410,12 +289,7 @@
           "name": "Row",
           "sets": [
             {
-              "reps": [
-                12,
-                12,
-                12,
-                12
-              ],
+              "reps": [12, 12, 12, 12],
               "lb": 95
             }
           ]
@@ -424,16 +298,11 @@
           "name": "Lat Pulldown",
           "sets": [
             {
-              "reps": [
-                8
-              ],
+              "reps": [8],
               "lb": 110
             },
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 100
             }
           ]
@@ -442,11 +311,7 @@
           "name": "Squat",
           "sets": [
             {
-              "reps": [
-                12,
-                12,
-                12
-              ],
+              "reps": [12, 12, 12],
               "lb": 115
             }
           ]
@@ -460,11 +325,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                10,
-                9,
-                6
-              ],
+              "reps": [10, 9, 6],
               "lb": 100
             }
           ]
@@ -473,12 +334,7 @@
           "name": "Row",
           "sets": [
             {
-              "reps": [
-                10,
-                10,
-                10,
-                10
-              ],
+              "reps": [10, 10, 10, 10],
               "lb": 105
             }
           ]
@@ -487,10 +343,7 @@
           "name": "Lat Pulldown",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 115
             }
           ]
@@ -504,12 +357,7 @@
           "name": "Squat",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                8,
-                8
-              ],
+              "reps": [8, 8, 8, 8],
               "lb": 135
             }
           ]
@@ -518,12 +366,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                5,
-                5
-              ],
+              "reps": [8, 8, 5, 5],
               "lb": 105
             }
           ]
@@ -532,12 +375,7 @@
           "name": "Row",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                8,
-                8
-              ],
+              "reps": [8, 8, 8, 8],
               "lb": 105
             }
           ]
@@ -551,12 +389,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                6,
-                6,
-                5,
-                3
-              ],
+              "reps": [6, 6, 5, 3],
               "lb": 115
             }
           ]
@@ -565,17 +398,11 @@
           "name": "Row",
           "sets": [
             {
-              "reps": [
-                6,
-                6
-              ],
+              "reps": [6, 6],
               "lb": 120
             },
             {
-              "reps": [
-                6,
-                6
-              ],
+              "reps": [6, 6],
               "lb": 125
             }
           ]
@@ -584,11 +411,7 @@
           "name": "Squat",
           "sets": [
             {
-              "reps": [
-                6,
-                6,
-                6
-              ],
+              "reps": [6, 6, 6],
               "lb": 155
             }
           ]
@@ -602,12 +425,7 @@
           "name": "Row",
           "sets": [
             {
-              "reps": [
-                6,
-                6,
-                6,
-                5
-              ],
+              "reps": [6, 6, 6, 5],
               "lb": 125
             }
           ]
@@ -621,12 +439,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                8,
-                6,
-                5,
-                5
-              ],
+              "reps": [8, 6, 5, 5],
               "lb": 105
             }
           ]
@@ -640,10 +453,7 @@
           "name": "Squat",
           "sets": [
             {
-              "reps": [
-                6,
-                4
-              ],
+              "reps": [6, 4],
               "lb": 185
             }
           ]
@@ -652,11 +462,7 @@
           "name": "Seated Calf Raises",
           "sets": [
             {
-              "reps": [
-                5,
-                6,
-                6
-              ],
+              "reps": [5, 6, 6],
               "lb": 90
             }
           ]
@@ -665,11 +471,7 @@
           "name": "Seated Leg Curl",
           "sets": [
             {
-              "reps": [
-                11,
-                11,
-                11
-              ],
+              "reps": [11, 11, 11],
               "lb": 100
             }
           ]
@@ -678,10 +480,7 @@
           "name": "Sissy Squats",
           "sets": [
             {
-              "reps": [
-                13,
-                10
-              ],
+              "reps": [13, 10],
               "bodyweight": true
             }
           ]
@@ -695,10 +494,7 @@
           "name": "Incline DB Press",
           "sets": [
             {
-              "reps": [
-                9,
-                9
-              ],
+              "reps": [9, 9],
               "lb": 105
             }
           ]
@@ -707,9 +503,7 @@
           "name": "Tricep Pushdown + Press",
           "sets": [
             {
-              "reps": [
-                7
-              ],
+              "reps": [7],
               "lb": 57.5
             }
           ],
@@ -719,10 +513,7 @@
           "name": "Machine Lateral Raise",
           "sets": [
             {
-              "reps": [
-                6,
-                5
-              ],
+              "reps": [6, 5],
               "lb": 85
             }
           ]
@@ -731,10 +522,7 @@
           "name": "Incline Cable Fly",
           "sets": [
             {
-              "reps": [
-                10,
-                8
-              ],
+              "reps": [10, 8],
               "lb": 30
             }
           ]
@@ -743,10 +531,7 @@
           "name": "Dips",
           "sets": [
             {
-              "reps": [
-                5,
-                8
-              ],
+              "reps": [5, 8],
               "bodyweight": true
             }
           ]
@@ -755,10 +540,7 @@
           "name": "Hanging Leg Raises",
           "sets": [
             {
-              "reps": [
-                14,
-                9
-              ],
+              "reps": [14, 9],
               "bodyweight": true
             }
           ]
@@ -772,11 +554,7 @@
           "name": "Seated Calf Raises",
           "sets": [
             {
-              "reps": [
-                7,
-                7,
-                5
-              ],
+              "reps": [7, 7, 5],
               "lb": 90
             }
           ]
@@ -785,10 +563,7 @@
           "name": "Seated Leg Curl",
           "sets": [
             {
-              "reps": [
-                10,
-                6
-              ],
+              "reps": [10, 6],
               "lb": 110
             }
           ]
@@ -797,10 +572,7 @@
           "name": "Sissy Squats",
           "sets": [
             {
-              "reps": [
-                13,
-                11
-              ],
+              "reps": [13, 11],
               "bodyweight": true
             }
           ]
@@ -809,10 +581,7 @@
           "name": "Barbell RDL",
           "sets": [
             {
-              "reps": [
-                9,
-                6
-              ],
+              "reps": [9, 6],
               "lb": 225
             }
           ]
@@ -826,10 +595,7 @@
           "name": "Incline DB Press",
           "sets": [
             {
-              "reps": [
-                7,
-                7
-              ],
+              "reps": [7, 7],
               "lb": 110
             }
           ]
@@ -838,10 +604,7 @@
           "name": "Tricep Pushdown + Press",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 57.5
             }
           ],
@@ -851,11 +614,7 @@
           "name": "Machine Lateral Raise",
           "sets": [
             {
-              "reps": [
-                7,
-                5,
-                4
-              ],
+              "reps": [7, 5, 4],
               "lb": 85
             }
           ]
@@ -864,10 +623,7 @@
           "name": "Pec Flies",
           "sets": [
             {
-              "reps": [
-                8,
-                6
-              ],
+              "reps": [8, 6],
               "lb": 115
             }
           ]
@@ -876,10 +632,7 @@
           "name": "Triceps Press",
           "sets": [
             {
-              "reps": [
-                10,
-                8
-              ],
+              "reps": [10, 8],
               "lb": 150
             }
           ]
@@ -893,10 +646,7 @@
           "name": "JPG",
           "sets": [
             {
-              "reps": [
-                7,
-                6
-              ],
+              "reps": [7, 6],
               "lb": 62.5
             }
           ]
@@ -905,10 +655,7 @@
           "name": "DB Bicep Curl",
           "sets": [
             {
-              "reps": [
-                9,
-                6
-              ],
+              "reps": [9, 6],
               "lb": 60
             }
           ]
@@ -917,10 +664,7 @@
           "name": "Unilateral Lat Pullover",
           "sets": [
             {
-              "reps": [
-                5,
-                5
-              ],
+              "reps": [5, 5],
               "lb": 27.5
             }
           ]
@@ -929,10 +673,7 @@
           "name": "Cable Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                5
-              ],
+              "reps": [8, 5],
               "lb": 47.5
             }
           ]
@@ -946,10 +687,7 @@
           "name": "Squat",
           "sets": [
             {
-              "reps": [
-                7,
-                4
-              ],
+              "reps": [7, 4],
               "lb": 185
             }
           ]
@@ -958,11 +696,7 @@
           "name": "Seated Calf Raises",
           "sets": [
             {
-              "reps": [
-                8,
-                9,
-                7
-              ],
+              "reps": [8, 9, 7],
               "lb": 90
             }
           ]
@@ -971,11 +705,7 @@
           "name": "Seated Leg Curl",
           "sets": [
             {
-              "reps": [
-                10,
-                9,
-                6
-              ],
+              "reps": [10, 9, 6],
               "lb": 115
             }
           ]
@@ -984,10 +714,7 @@
           "name": "Cable Tibia Raises",
           "sets": [
             {
-              "reps": [
-                8,
-                10
-              ],
+              "reps": [8, 10],
               "lb": 42.5
             }
           ]
@@ -996,10 +723,7 @@
           "name": "Leg Extension",
           "sets": [
             {
-              "reps": [
-                10,
-                10
-              ],
+              "reps": [10, 10],
               "lb": 190
             }
           ]
@@ -1013,10 +737,7 @@
           "name": "Seated Chest Press",
           "sets": [
             {
-              "reps": [
-                7,
-                6
-              ],
+              "reps": [7, 6],
               "lb": 145
             }
           ]
@@ -1025,10 +746,7 @@
           "name": "Unilateral Cable Pushdown (handles)",
           "sets": [
             {
-              "reps": [
-                6,
-                8
-              ],
+              "reps": [6, 8],
               "lb": 60
             }
           ]
@@ -1037,11 +755,7 @@
           "name": "Cable Lateral Raise",
           "sets": [
             {
-              "reps": [
-                6,
-                5,
-                5
-              ],
+              "reps": [6, 5, 5],
               "lb": 30
             }
           ]
@@ -1050,10 +764,7 @@
           "name": "Unilateral DB Skull Crusher",
           "sets": [
             {
-              "reps": [
-                9,
-                7
-              ],
+              "reps": [9, 7],
               "lb": 20
             }
           ]
@@ -1062,10 +773,7 @@
           "name": "Decline Pushups",
           "sets": [
             {
-              "reps": [
-                11,
-                7
-              ],
+              "reps": [11, 7],
               "bodyweight": true
             }
           ]
@@ -1079,10 +787,7 @@
           "name": "DB Bicep Curl",
           "sets": [
             {
-              "reps": [
-                11,
-                7
-              ],
+              "reps": [11, 7],
               "lb": 60
             }
           ]
@@ -1091,10 +796,7 @@
           "name": "Pullups",
           "sets": [
             {
-              "reps": [
-                3,
-                3
-              ],
+              "reps": [3, 3],
               "bodyweight": true
             }
           ]
@@ -1103,10 +805,7 @@
           "name": "Unilateral Cable Rear Delt Fly",
           "sets": [
             {
-              "reps": [
-                10,
-                6
-              ],
+              "reps": [10, 6],
               "lb": 30
             }
           ]
@@ -1115,10 +814,7 @@
           "name": "Double Handle Cable Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 80
             }
           ]
@@ -1127,10 +823,7 @@
           "name": "Machine Row",
           "sets": [
             {
-              "reps": [
-                8,
-                7
-              ],
+              "reps": [8, 7],
               "lb": 120
             }
           ]
@@ -1144,10 +837,7 @@
           "name": "Squat",
           "sets": [
             {
-              "reps": [
-                8,
-                7
-              ],
+              "reps": [8, 7],
               "lb": 185
             }
           ]
@@ -1156,10 +846,7 @@
           "name": "Sissy Squats",
           "sets": [
             {
-              "reps": [
-                13,
-                11
-              ],
+              "reps": [13, 11],
               "bodyweight": true
             }
           ]
@@ -1173,11 +860,7 @@
           "name": "Smith Machine Calf Raises",
           "sets": [
             {
-              "reps": [
-                13,
-                13,
-                12
-              ],
+              "reps": [13, 13, 12],
               "lb": 225
             }
           ]
@@ -1186,11 +869,7 @@
           "name": "Unilateral DB RDL",
           "sets": [
             {
-              "reps": [
-                10,
-                10,
-                10
-              ],
+              "reps": [10, 10, 10],
               "lb": 40
             }
           ]
@@ -1204,10 +883,7 @@
           "name": "Seated Chest Press",
           "sets": [
             {
-              "reps": [
-                11,
-                8
-              ],
+              "reps": [11, 8],
               "lb": 145
             }
           ]
@@ -1216,10 +892,7 @@
           "name": "Unilateral Cable Pushdown (handles)",
           "sets": [
             {
-              "reps": [
-                10,
-                9
-              ],
+              "reps": [10, 9],
               "lb": 60
             }
           ]
@@ -1228,11 +901,7 @@
           "name": "Cable Lateral Raise",
           "sets": [
             {
-              "reps": [
-                9,
-                7,
-                6
-              ],
+              "reps": [9, 7, 6],
               "lb": 30
             }
           ]
@@ -1241,10 +910,7 @@
           "name": "Unilateral DB Skull Crusher",
           "sets": [
             {
-              "reps": [
-                10,
-                6
-              ],
+              "reps": [10, 6],
               "lb": 20
             }
           ]
@@ -1253,13 +919,11 @@
           "name": "Decline Pushups",
           "sets": [
             {
-              "reps": [
-                13
-              ],
+              "reps": [13],
               "bodyweight": true
             }
           ],
-          "notes": "bench; cable flies 40\u2019s for 7, 6,"
+          "notes": "bench; cable flies 40’s for 7, 6,"
         }
       ],
       "gym": "rut"
@@ -1271,15 +935,11 @@
           "name": "JPG",
           "sets": [
             {
-              "reps": [
-                10
-              ],
+              "reps": [10],
               "lb": 90
             },
             {
-              "reps": [
-                6
-              ],
+              "reps": [6],
               "lb": 110
             }
           ]
@@ -1288,10 +948,7 @@
           "name": "DB Bicep Curl",
           "sets": [
             {
-              "reps": [
-                5,
-                4
-              ],
+              "reps": [5, 4],
               "lb": 70
             }
           ]
@@ -1300,10 +957,7 @@
           "name": "Unilateral Cable Rear Delt Fly",
           "sets": [
             {
-              "reps": [
-                10,
-                10
-              ],
+              "reps": [10, 10],
               "lb": 30
             }
           ]
@@ -1312,15 +966,11 @@
           "name": "Double Handle Cable Curl",
           "sets": [
             {
-              "reps": [
-                11
-              ],
+              "reps": [11],
               "lb": 90
             },
             {
-              "reps": [
-                7
-              ],
+              "reps": [7],
               "lb": 100
             }
           ]
@@ -1329,10 +979,7 @@
           "name": "Machine Row",
           "sets": [
             {
-              "reps": [
-                7,
-                8
-              ],
+              "reps": [7, 8],
               "lb": 125
             }
           ]
@@ -1341,10 +988,7 @@
           "name": "Cable High Row",
           "sets": [
             {
-              "reps": [
-                7,
-                8
-              ],
+              "reps": [7, 8],
               "lb": 190
             }
           ]
@@ -1359,15 +1003,11 @@
           "name": "Seated Leg Curl",
           "sets": [
             {
-              "reps": [
-                10
-              ],
+              "reps": [10],
               "lb": 150
             },
             {
-              "reps": [
-                3
-              ],
+              "reps": [3],
               "lb": 165
             }
           ]
@@ -1376,10 +1016,7 @@
           "name": "Barbell RDL",
           "sets": [
             {
-              "reps": [
-                5,
-                5
-              ],
+              "reps": [5, 5],
               "lb": 245
             }
           ],
@@ -1389,11 +1026,7 @@
           "name": "Leg Extension",
           "sets": [
             {
-              "reps": [
-                8,
-                10,
-                9
-              ],
+              "reps": [8, 10, 9],
               "lb": 202.5
             }
           ]
@@ -1402,21 +1035,15 @@
           "name": "Smith Machine Calf Raises",
           "sets": [
             {
-              "reps": [
-                11
-              ],
+              "reps": [11],
               "lb": 245
             },
             {
-              "reps": [
-                11
-              ],
+              "reps": [11],
               "lb": 265
             },
             {
-              "reps": [
-                11
-              ],
+              "reps": [11],
               "lb": 295
             }
           ]
@@ -1431,16 +1058,11 @@
           "name": "Tricep Pushdown + Press",
           "sets": [
             {
-              "reps": [
-                5
-              ],
+              "reps": [5],
               "lb": 62.5
             },
             {
-              "reps": [
-                7,
-                4
-              ],
+              "reps": [7, 4],
               "lb": 59
             }
           ],
@@ -1450,10 +1072,7 @@
           "name": "Pec Flies",
           "sets": [
             {
-              "reps": [
-                8,
-                6
-              ],
+              "reps": [8, 6],
               "lb": 120
             }
           ]
@@ -1462,10 +1081,7 @@
           "name": "Unilateral DB Skull Crusher",
           "sets": [
             {
-              "reps": [
-                6,
-                5
-              ],
+              "reps": [6, 5],
               "lb": 25
             }
           ]
@@ -1474,10 +1090,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                6,
-                4
-              ],
+              "reps": [6, 4],
               "lb": 155
             }
           ]
@@ -1486,17 +1099,12 @@
           "name": "Incline DB Lateral Raise",
           "sets": [
             {
-              "reps": [
-                10
-              ],
+              "reps": [10],
               "lb": 10,
               "perSide": true
             },
             {
-              "reps": [
-                10,
-                9
-              ],
+              "reps": [10, 9],
               "lb": 12.5,
               "perSide": true
             }
@@ -1511,15 +1119,11 @@
           "name": "JPG",
           "sets": [
             {
-              "reps": [
-                10
-              ],
+              "reps": [10],
               "lb": 100
             },
             {
-              "reps": [
-                7
-              ],
+              "reps": [7],
               "lb": 110
             }
           ]
@@ -1528,10 +1132,7 @@
           "name": "DB Bicep Curl",
           "sets": [
             {
-              "reps": [
-                7,
-                6
-              ],
+              "reps": [7, 6],
               "lb": 70
             }
           ]
@@ -1540,10 +1141,7 @@
           "name": "Unilateral Lat Pullover",
           "sets": [
             {
-              "reps": [
-                7,
-                6
-              ],
+              "reps": [7, 6],
               "lb": 45
             }
           ]
@@ -1552,10 +1150,7 @@
           "name": "Pullups",
           "sets": [
             {
-              "reps": [
-                5,
-                5
-              ],
+              "reps": [5, 5],
               "bodyweight": true
             }
           ]
@@ -1564,10 +1159,7 @@
           "name": "Unilateral Cable Rear Delt Fly",
           "sets": [
             {
-              "reps": [
-                6,
-                5
-              ],
+              "reps": [6, 5],
               "lb": 35
             }
           ]
@@ -1576,10 +1168,7 @@
           "name": "Double Handle Cable Curl",
           "sets": [
             {
-              "reps": [
-                7,
-                5
-              ],
+              "reps": [7, 5],
               "lb": 100
             }
           ]
@@ -1588,11 +1177,7 @@
           "name": "Machine Row",
           "sets": [
             {
-              "reps": [
-                7,
-                5,
-                5
-              ],
+              "reps": [7, 5, 5],
               "lb": 125
             }
           ]
@@ -1607,10 +1192,7 @@
           "name": "Squat",
           "sets": [
             {
-              "reps": [
-                8,
-                4
-              ],
+              "reps": [8, 4],
               "lb": 195
             }
           ]
@@ -1630,10 +1212,7 @@
           "name": "Tricep Pushdown + Press",
           "sets": [
             {
-              "reps": [
-                10,
-                9
-              ],
+              "reps": [10, 9],
               "lb": 62.5
             }
           ]
@@ -1642,15 +1221,11 @@
           "name": "Pec Flies",
           "sets": [
             {
-              "reps": [
-                11
-              ],
+              "reps": [11],
               "lb": 120
             },
             {
-              "reps": [
-                5
-              ],
+              "reps": [5],
               "lb": 135
             }
           ]
@@ -1659,10 +1234,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                7,
-                4
-              ],
+              "reps": [7, 4],
               "lb": 155
             }
           ]
@@ -1671,17 +1243,12 @@
           "name": "Incline DB Lateral Raise",
           "sets": [
             {
-              "reps": [
-                10
-              ],
+              "reps": [10],
               "lb": 12.5,
               "perSide": true
             },
             {
-              "reps": [
-                7,
-                6
-              ],
+              "reps": [7, 6],
               "lb": 15,
               "perSide": true
             }
@@ -1691,10 +1258,7 @@
           "name": "Katanas",
           "sets": [
             {
-              "reps": [
-                6,
-                4
-              ],
+              "reps": [6, 4],
               "lb": 38
             }
           ]
@@ -1708,10 +1272,7 @@
           "name": "DB Bicep Curl",
           "sets": [
             {
-              "reps": [
-                7,
-                6
-              ],
+              "reps": [7, 6],
               "lb": 70
             }
           ]
@@ -1720,10 +1281,7 @@
           "name": "Pullups",
           "sets": [
             {
-              "reps": [
-                6,
-                3
-              ],
+              "reps": [6, 3],
               "bodyweight": true
             }
           ]
@@ -1732,10 +1290,7 @@
           "name": "Double Handle Cable Curl",
           "sets": [
             {
-              "reps": [
-                6,
-                5
-              ],
+              "reps": [6, 5],
               "lb": 47.5
             }
           ]
@@ -1744,11 +1299,7 @@
           "name": "Barbell Row",
           "sets": [
             {
-              "reps": [
-                6,
-                8,
-                7
-              ],
+              "reps": [6, 8, 7],
               "lb": 135
             }
           ]
@@ -1757,16 +1308,11 @@
           "name": "Machine Rear Delt Fly",
           "sets": [
             {
-              "reps": [
-                6,
-                4
-              ],
+              "reps": [6, 4],
               "lb": 157.5
             },
             {
-              "reps": [
-                4
-              ],
+              "reps": [4],
               "lb": 142.5
             }
           ]
@@ -1775,15 +1321,11 @@
           "name": "Cable Row",
           "sets": [
             {
-              "reps": [
-                10
-              ],
+              "reps": [10],
               "lb": 82.5
             },
             {
-              "reps": [
-                9
-              ],
+              "reps": [9],
               "lb": 92.5
             }
           ]
@@ -1798,11 +1340,7 @@
           "name": "Unilateral DB RDL",
           "sets": [
             {
-              "reps": [
-                10,
-                10,
-                10
-              ],
+              "reps": [10, 10, 10],
               "lb": 50
             }
           ]
@@ -1811,10 +1349,7 @@
           "name": "Seated Leg Press",
           "sets": [
             {
-              "reps": [
-                10,
-                8
-              ],
+              "reps": [10, 8],
               "lb": 270
             }
           ]
@@ -1823,11 +1358,7 @@
           "name": "Seated Leg Press Calf Raises",
           "sets": [
             {
-              "reps": [
-                8,
-                7,
-                7
-              ],
+              "reps": [8, 7, 7],
               "lb": 310
             }
           ]
@@ -1836,11 +1367,7 @@
           "name": "Pistol Squats",
           "sets": [
             {
-              "reps": [
-                5,
-                4,
-                4
-              ]
+              "reps": [5, 4, 4]
             }
           ]
         }
@@ -1853,10 +1380,7 @@
           "name": "Incline Cable Fly",
           "sets": [
             {
-              "reps": [
-                7,
-                6
-              ],
+              "reps": [7, 6],
               "lb": 100
             }
           ]
@@ -1865,10 +1389,7 @@
           "name": "Cable Curl",
           "sets": [
             {
-              "reps": [
-                7,
-                5
-              ],
+              "reps": [7, 5],
               "lb": 52.5
             }
           ]
@@ -1877,10 +1398,7 @@
           "name": "Seated Chest Press",
           "sets": [
             {
-              "reps": [
-                8,
-                7
-              ],
+              "reps": [8, 7],
               "lb": 155
             }
           ]
@@ -1889,15 +1407,11 @@
           "name": "Unilateral Cable Pushdown (handles)",
           "sets": [
             {
-              "reps": [
-                11
-              ],
+              "reps": [11],
               "lb": 70
             },
             {
-              "reps": [
-                5
-              ],
+              "reps": [5],
               "lb": 80
             }
           ]
@@ -1906,10 +1420,7 @@
           "name": "Unilateral DB Skull Crusher",
           "sets": [
             {
-              "reps": [
-                6,
-                6
-              ],
+              "reps": [6, 6],
               "lb": 25
             }
           ]
@@ -1918,11 +1429,7 @@
           "name": "Incline DB Lateral Raise",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                6
-              ],
+              "reps": [8, 8, 6],
               "lb": 15
             }
           ]
@@ -1937,10 +1444,7 @@
           "name": "JPG",
           "sets": [
             {
-              "reps": [
-                8,
-                7
-              ],
+              "reps": [8, 7],
               "lb": 110
             }
           ]
@@ -1949,10 +1453,7 @@
           "name": "DB Bicep Curl",
           "sets": [
             {
-              "reps": [
-                5,
-                4
-              ],
+              "reps": [5, 4],
               "lb": 70
             }
           ]
@@ -1961,10 +1462,7 @@
           "name": "Pullups",
           "sets": [
             {
-              "reps": [
-                6,
-                4
-              ],
+              "reps": [6, 4],
               "bodyweight": true
             }
           ]
@@ -1973,16 +1471,11 @@
           "name": "Unilateral Cable Rear Delt Fly",
           "sets": [
             {
-              "reps": [
-                8,
-                5
-              ],
+              "reps": [8, 5],
               "lb": 35
             },
             {
-              "reps": [
-                5
-              ],
+              "reps": [5],
               "lb": 30
             }
           ]
@@ -1991,11 +1484,7 @@
           "name": "Double Handle Cable Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                7,
-                6
-              ],
+              "reps": [8, 7, 6],
               "lb": 100
             }
           ]
@@ -2004,11 +1493,7 @@
           "name": "Machine Row",
           "sets": [
             {
-              "reps": [
-                8,
-                7,
-                7
-              ],
+              "reps": [8, 7, 7],
               "lb": 125
             }
           ]
@@ -2023,10 +1508,7 @@
           "name": "Barbell RDL",
           "sets": [
             {
-              "reps": [
-                7,
-                5
-              ],
+              "reps": [7, 5],
               "lb": 245
             }
           ],
@@ -2036,10 +1518,7 @@
           "name": "Unilateral Leg Extension",
           "sets": [
             {
-              "reps": [
-                9,
-                8
-              ],
+              "reps": [9, 8],
               "lb": 90
             }
           ]
@@ -2048,11 +1527,7 @@
           "name": "Smith Machine Calf Raises",
           "sets": [
             {
-              "reps": [
-                11,
-                10,
-                9
-              ],
+              "reps": [11, 10, 9],
               "lb": 295
             }
           ]
@@ -2066,9 +1541,7 @@
           "name": "Incline Cable Fly",
           "sets": [
             {
-              "reps": [
-                9
-              ],
+              "reps": [9],
               "lb": 100
             }
           ]
@@ -2077,10 +1550,7 @@
           "name": "Seated Chest Press",
           "sets": [
             {
-              "reps": [
-                8,
-                7
-              ],
+              "reps": [8, 7],
               "lb": 155
             }
           ]
@@ -2089,10 +1559,7 @@
           "name": "Unilateral Cable Pushdown (handles)",
           "sets": [
             {
-              "reps": [
-                7,
-                6
-              ],
+              "reps": [7, 6],
               "lb": 80
             }
           ]
@@ -2101,10 +1568,7 @@
           "name": "Unilateral DB Skull Crusher",
           "sets": [
             {
-              "reps": [
-                8,
-                5
-              ],
+              "reps": [8, 5],
               "lb": 25
             }
           ]
@@ -2113,11 +1577,7 @@
           "name": "Unilateral Cable Rear Delt Fly",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                8
-              ],
+              "reps": [8, 8, 8],
               "lb": 12.5
             }
           ]
@@ -2126,11 +1586,7 @@
           "name": "Incline DB Lateral Raise",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                7
-              ],
+              "reps": [8, 8, 7],
               "lb": 15,
               "perSide": true
             }
@@ -2146,10 +1602,7 @@
           "name": "JPG",
           "sets": [
             {
-              "reps": [
-                8,
-                6
-              ],
+              "reps": [8, 6],
               "lb": 62.5
             }
           ]
@@ -2158,10 +1611,7 @@
           "name": "DB Bicep Curl",
           "sets": [
             {
-              "reps": [
-                7,
-                6
-              ],
+              "reps": [7, 6],
               "lb": 70
             }
           ]
@@ -2170,10 +1620,7 @@
           "name": "Pullups",
           "sets": [
             {
-              "reps": [
-                7,
-                5
-              ],
+              "reps": [7, 5],
               "bodyweight": true
             }
           ]
@@ -2182,10 +1629,7 @@
           "name": "Double Handle Cable Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                6
-              ],
+              "reps": [8, 6],
               "lb": 47.5
             }
           ]
@@ -2194,21 +1638,15 @@
           "name": "Cable Row",
           "sets": [
             {
-              "reps": [
-                10
-              ],
+              "reps": [10],
               "lb": 92.5
             },
             {
-              "reps": [
-                10
-              ],
+              "reps": [10],
               "lb": 99
             },
             {
-              "reps": [
-                8
-              ],
+              "reps": [8],
               "lb": 100.5
             }
           ]
@@ -2223,10 +1661,7 @@
           "name": "Tricep Pushdown + Press",
           "sets": [
             {
-              "reps": [
-                8,
-                7
-              ],
+              "reps": [8, 7],
               "lb": 67.5
             }
           ],
@@ -2236,10 +1671,7 @@
           "name": "Pec Flies",
           "sets": [
             {
-              "reps": [
-                9,
-                5
-              ],
+              "reps": [9, 5],
               "lb": 135
             }
           ]
@@ -2248,11 +1680,7 @@
           "name": "Cable Lateral Raise",
           "sets": [
             {
-              "reps": [
-                9,
-                9,
-                7
-              ],
+              "reps": [9, 9, 7],
               "lb": 12.5,
               "perSide": true
             }
@@ -2262,10 +1690,7 @@
           "name": "Unilateral DB Skull Crusher",
           "sets": [
             {
-              "reps": [
-                8,
-                6
-              ],
+              "reps": [8, 6],
               "lb": 25
             }
           ]
@@ -2274,10 +1699,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                6,
-                6
-              ],
+              "reps": [6, 6],
               "lb": 155
             }
           ]
@@ -2292,10 +1714,7 @@
           "name": "Tricep Pushdown + Press",
           "sets": [
             {
-              "reps": [
-                6,
-                4
-              ],
+              "reps": [6, 4],
               "lb": 69
             }
           ],
@@ -2305,10 +1724,7 @@
           "name": "Dips",
           "sets": [
             {
-              "reps": [
-                8,
-                5
-              ],
+              "reps": [8, 5],
               "bodyweight": true
             }
           ]
@@ -2317,10 +1733,7 @@
           "name": "Pec Flies",
           "sets": [
             {
-              "reps": [
-                7,
-                4
-              ],
+              "reps": [7, 4],
               "lb": 142.5
             }
           ]
@@ -2329,11 +1742,7 @@
           "name": "Cable Lateral Raise",
           "sets": [
             {
-              "reps": [
-                7,
-                6,
-                4
-              ],
+              "reps": [7, 6, 4],
               "lb": 14,
               "perSide": true
             }
@@ -2343,10 +1752,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                9,
-                8
-              ],
+              "reps": [9, 8],
               "lb": 155
             }
           ]
@@ -2361,16 +1767,11 @@
           "name": "DB Bicep Curl",
           "sets": [
             {
-              "reps": [
-                7,
-                6
-              ],
+              "reps": [7, 6],
               "lb": 70
             },
             {
-              "reps": [
-                7
-              ],
+              "reps": [7],
               "lb": 60
             }
           ]
@@ -2379,11 +1780,7 @@
           "name": "Pullups",
           "sets": [
             {
-              "reps": [
-                8,
-                5,
-                4
-              ],
+              "reps": [8, 5, 4],
               "bodyweight": true
             }
           ]
@@ -2392,10 +1789,7 @@
           "name": "Pullups",
           "sets": [
             {
-              "reps": [
-                9,
-                6
-              ],
+              "reps": [9, 6],
               "bodyweight": true
             }
           ]
@@ -2409,10 +1803,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                5,
-                4
-              ],
+              "reps": [5, 4],
               "lb": 165
             }
           ]
@@ -2426,10 +1817,7 @@
           "name": "DB Bicep Curl",
           "sets": [
             {
-              "reps": [
-                7,
-                5
-              ],
+              "reps": [7, 5],
               "lb": 70
             }
           ]
@@ -2438,16 +1826,11 @@
           "name": "Machine Rear Delt Fly",
           "sets": [
             {
-              "reps": [
-                7,
-                5
-              ],
+              "reps": [7, 5],
               "lb": 157.5
             },
             {
-              "reps": [
-                5
-              ],
+              "reps": [5],
               "lb": 142.5
             }
           ]
@@ -2456,10 +1839,7 @@
           "name": "Unilateral Cable Row",
           "sets": [
             {
-              "reps": [
-                7,
-                6
-              ],
+              "reps": [7, 6],
               "lb": 57.5
             }
           ]
@@ -2468,10 +1848,7 @@
           "name": "Cable Lat Pullover",
           "sets": [
             {
-              "reps": [
-                6,
-                5
-              ],
+              "reps": [6, 5],
               "lb": 52.5
             }
           ]
@@ -2485,10 +1862,7 @@
           "name": "Squat",
           "sets": [
             {
-              "reps": [
-                8,
-                4
-              ],
+              "reps": [8, 4],
               "lb": 195
             }
           ]
@@ -2502,11 +1876,7 @@
           "name": "Smith Machine Calf Raises",
           "sets": [
             {
-              "reps": [
-                9,
-                8,
-                7
-              ],
+              "reps": [9, 8, 7],
               "lb": 305
             }
           ]
@@ -2520,10 +1890,7 @@
           "name": "Tricep Pushdown + Press",
           "sets": [
             {
-              "reps": [
-                6,
-                5
-              ],
+              "reps": [6, 5],
               "lb": 69
             }
           ],
@@ -2533,11 +1900,7 @@
           "name": "Cable Lateral Raise",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                7
-              ],
+              "reps": [8, 8, 7],
               "lb": 14,
               "perSide": true
             }
@@ -2547,10 +1910,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                8,
-                6
-              ],
+              "reps": [8, 6],
               "lb": 165
             }
           ]
@@ -2565,10 +1925,7 @@
           "name": "JPG",
           "sets": [
             {
-              "reps": [
-                9,
-                7
-              ],
+              "reps": [9, 7],
               "lb": 120
             }
           ]
@@ -2577,10 +1934,7 @@
           "name": "DB Bicep Curl",
           "sets": [
             {
-              "reps": [
-                5,
-                3
-              ],
+              "reps": [5, 3],
               "lb": 70
             }
           ]
@@ -2589,10 +1943,7 @@
           "name": "Pullups",
           "sets": [
             {
-              "reps": [
-                9,
-                6
-              ],
+              "reps": [9, 6],
               "bodyweight": true
             }
           ]
@@ -2601,11 +1952,7 @@
           "name": "Unilateral Cable Rear Delt Fly",
           "sets": [
             {
-              "reps": [
-                9,
-                7,
-                6
-              ],
+              "reps": [9, 7, 6],
               "lb": 35
             }
           ]
@@ -2614,11 +1961,7 @@
           "name": "Double Handle Cable Curl",
           "sets": [
             {
-              "reps": [
-                7,
-                6,
-                6
-              ],
+              "reps": [7, 6, 6],
               "lb": 110
             }
           ]
@@ -2627,16 +1970,11 @@
           "name": "Machine Row",
           "sets": [
             {
-              "reps": [
-                6,
-                5
-              ],
+              "reps": [6, 5],
               "lb": 135
             },
             {
-              "reps": [
-                4
-              ],
+              "reps": [4],
               "lb": 125
             }
           ]
@@ -2651,9 +1989,7 @@
           "name": "Barbell RDL",
           "sets": [
             {
-              "reps": [
-                6
-              ],
+              "reps": [6],
               "lb": 255
             }
           ],
@@ -2663,11 +1999,7 @@
           "name": "Smith Machine Calf Raises",
           "sets": [
             {
-              "reps": [
-                10,
-                8,
-                7
-              ],
+              "reps": [10, 8, 7],
               "lb": 305
             }
           ]
@@ -2676,11 +2008,7 @@
           "name": "Pistol Squats",
           "sets": [
             {
-              "reps": [
-                7,
-                5,
-                5
-              ]
+              "reps": [7, 5, 5]
             }
           ]
         },
@@ -2698,10 +2026,7 @@
           "name": "Tricep Pushdown + Press",
           "sets": [
             {
-              "reps": [
-                7,
-                5
-              ],
+              "reps": [7, 5],
               "lb": 69
             }
           ],
@@ -2711,10 +2036,7 @@
           "name": "Incline Cable Fly",
           "sets": [
             {
-              "reps": [
-                9,
-                8
-              ],
+              "reps": [9, 8],
               "lb": 51
             }
           ]
@@ -2723,11 +2045,7 @@
           "name": "Cable Lateral Raise",
           "sets": [
             {
-              "reps": [
-                6,
-                5,
-                5
-              ],
+              "reps": [6, 5, 5],
               "lb": 15.5,
               "perSide": true
             }
@@ -2737,10 +2055,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                4,
-                4
-              ],
+              "reps": [4, 4],
               "lb": 175
             }
           ]
@@ -2749,10 +2064,7 @@
           "name": "Katanas",
           "sets": [
             {
-              "reps": [
-                8,
-                7
-              ],
+              "reps": [8, 7],
               "lb": 38
             }
           ]
@@ -2767,10 +2079,7 @@
           "name": "DB Bicep Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                6
-              ],
+              "reps": [8, 6],
               "lb": 70
             }
           ]
@@ -2779,10 +2088,7 @@
           "name": "Pullups",
           "sets": [
             {
-              "reps": [
-                9,
-                6
-              ],
+              "reps": [9, 6],
               "bodyweight": true
             }
           ]
@@ -2791,11 +2097,7 @@
           "name": "Machine Rear Delt Fly",
           "sets": [
             {
-              "reps": [
-                7,
-                6,
-                5
-              ],
+              "reps": [7, 6, 5],
               "lb": 157.5
             }
           ]
@@ -2804,10 +2106,7 @@
           "name": "Unilateral Cable Row",
           "sets": [
             {
-              "reps": [
-                8,
-                7
-              ],
+              "reps": [8, 7],
               "lb": 57.5
             }
           ]
@@ -2821,11 +2120,7 @@
           "name": "Cable Lateral Raise",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                7
-              ],
+              "reps": [8, 8, 7],
               "lb": 35
             }
           ]
@@ -2840,9 +2135,7 @@
           "name": "Incline Cable Fly",
           "sets": [
             {
-              "reps": [
-                9
-              ],
+              "reps": [9],
               "lb": 110
             }
           ]
@@ -2851,10 +2144,7 @@
           "name": "Seated Chest Press",
           "sets": [
             {
-              "reps": [
-                5,
-                4
-              ],
+              "reps": [5, 4],
               "lb": 175
             }
           ]
@@ -2863,10 +2153,7 @@
           "name": "Unilateral Cable Pushdown (handles)",
           "sets": [
             {
-              "reps": [
-                7,
-                7
-              ],
+              "reps": [7, 7],
               "lb": 80
             }
           ]
@@ -2881,10 +2168,7 @@
           "name": "Pullups",
           "sets": [
             {
-              "reps": [
-                6,
-                5
-              ],
+              "reps": [6, 5],
               "bodyweight": true
             }
           ]
@@ -2893,10 +2177,7 @@
           "name": "Mag Cable Row",
           "sets": [
             {
-              "reps": [
-                6,
-                6
-              ],
+              "reps": [6, 6],
               "lb": 165
             }
           ]
@@ -2905,10 +2186,7 @@
           "name": "Bayesian Curl",
           "sets": [
             {
-              "reps": [
-                7,
-                7
-              ],
+              "reps": [7, 7],
               "lb": 45
             }
           ]
@@ -2917,16 +2195,12 @@
           "name": "Unilateral Lat Pulldown",
           "sets": [
             {
-              "reps": [
-                10
-              ],
+              "reps": [10],
               "lb": 42.5,
               "perSide": true
             },
             {
-              "reps": [
-                10
-              ],
+              "reps": [10],
               "lb": 47.5,
               "perSide": true
             }
@@ -2936,10 +2210,7 @@
           "name": "Unilateral DB Preacher Curl",
           "sets": [
             {
-              "reps": [
-                7,
-                3
-              ],
+              "reps": [7, 3],
               "lb": 25,
               "perSide": true
             }
@@ -2955,15 +2226,11 @@
           "name": "Squat",
           "sets": [
             {
-              "reps": [
-                4
-              ],
+              "reps": [4],
               "lb": 205
             },
             {
-              "reps": [
-                5
-              ],
+              "reps": [5],
               "lb": 185
             }
           ]
@@ -2972,11 +2239,7 @@
           "name": "Seated Leg Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                8
-              ],
+              "reps": [8, 8, 8],
               "lb": 120
             }
           ]
@@ -2985,11 +2248,7 @@
           "name": "Seated Leg Press Calf Raises",
           "sets": [
             {
-              "reps": [
-                9,
-                8,
-                7
-              ],
+              "reps": [9, 8, 7],
               "lb": 250
             }
           ]
@@ -2998,10 +2257,7 @@
           "name": "Bulgarian Split Squats",
           "sets": [
             {
-              "reps": [
-                6,
-                5
-              ],
+              "reps": [6, 5],
               "lb": 40,
               "perSide": true
             }
@@ -3016,10 +2272,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                6,
-                4
-              ],
+              "reps": [6, 4],
               "lb": 175
             }
           ]
@@ -3028,10 +2281,7 @@
           "name": "Unilateral Tricep Pushdown",
           "sets": [
             {
-              "reps": [
-                8,
-                6
-              ],
+              "reps": [8, 6],
               "lb": 45,
               "perSide": true
             }
@@ -3041,11 +2291,7 @@
           "name": "Cable Lateral Raise",
           "sets": [
             {
-              "reps": [
-                8,
-                7,
-                5
-              ],
+              "reps": [8, 7, 5],
               "lb": 35,
               "perSide": true
             }
@@ -3055,10 +2301,7 @@
           "name": "Tricep Pushdown (rope)",
           "sets": [
             {
-              "reps": [
-                9,
-                7
-              ],
+              "reps": [9, 7],
               "lb": 100
             }
           ]
@@ -3067,10 +2310,7 @@
           "name": "Incline Fly",
           "sets": [
             {
-              "reps": [
-                8,
-                6
-              ],
+              "reps": [8, 6],
               "lb": 90
             }
           ]
@@ -3084,10 +2324,7 @@
           "name": "Mag Cable Row",
           "sets": [
             {
-              "reps": [
-                6,
-                5
-              ],
+              "reps": [6, 5],
               "lb": 170
             }
           ]
@@ -3096,10 +2333,7 @@
           "name": "Mag Lat Pulldown",
           "sets": [
             {
-              "reps": [
-                7,
-                5
-              ],
+              "reps": [7, 5],
               "lb": 150
             }
           ]
@@ -3108,10 +2342,7 @@
           "name": "Cable Curl",
           "sets": [
             {
-              "reps": [
-                5,
-                5
-              ],
+              "reps": [5, 5],
               "lb": 52.5
             }
           ]
@@ -3120,10 +2351,7 @@
           "name": "Unilateral DB Preacher Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                6
-              ],
+              "reps": [8, 6],
               "lb": 25,
               "perSide": true
             }
@@ -3134,16 +2362,12 @@
           "name": "Cable Rear Delt Fly",
           "sets": [
             {
-              "reps": [
-                10
-              ],
+              "reps": [10],
               "lb": 25,
               "perSide": true
             },
             {
-              "reps": [
-                10
-              ],
+              "reps": [10],
               "lb": 30,
               "perSide": true
             }
@@ -3153,10 +2377,7 @@
           "name": "Unilateral Row",
           "sets": [
             {
-              "reps": [
-                7,
-                6
-              ],
+              "reps": [7, 6],
               "lb": 80,
               "perSide": true
             }
@@ -3171,10 +2392,7 @@
           "name": "Barbell RDL",
           "sets": [
             {
-              "reps": [
-                7,
-                6
-              ],
+              "reps": [7, 6],
               "lb": 225
             }
           ]
@@ -3183,10 +2401,7 @@
           "name": "Seated Leg Curl",
           "sets": [
             {
-              "reps": [
-                6,
-                5
-              ],
+              "reps": [6, 5],
               "lb": 130
             }
           ]
@@ -3195,16 +2410,11 @@
           "name": "Seated Leg Press Calf Raises",
           "sets": [
             {
-              "reps": [
-                10
-              ],
+              "reps": [10],
               "lb": 315
             },
             {
-              "reps": [
-                8,
-                9
-              ],
+              "reps": [8, 9],
               "lb": 365
             }
           ]
@@ -3213,11 +2423,7 @@
           "name": "Leg Extension",
           "sets": [
             {
-              "reps": [
-                7,
-                6,
-                5
-              ],
+              "reps": [7, 6, 5],
               "lb": 90
             }
           ]
@@ -3231,15 +2437,11 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                5
-              ],
+              "reps": [5],
               "lb": 175
             },
             {
-              "reps": [
-                6
-              ],
+              "reps": [6],
               "lb": 165
             }
           ]
@@ -3248,10 +2450,7 @@
           "name": "Unilateral Tricep Pushdown",
           "sets": [
             {
-              "reps": [
-                8,
-                9
-              ],
+              "reps": [8, 9],
               "lb": 27.5,
               "perSide": true
             }
@@ -3261,16 +2460,12 @@
           "name": "Incline DB Lateral Raise",
           "sets": [
             {
-              "reps": [
-                4
-              ],
+              "reps": [4],
               "lb": 20,
               "perSide": true
             },
             {
-              "reps": [
-                9
-              ],
+              "reps": [9],
               "lb": 15,
               "perSide": true
             }
@@ -3280,10 +2475,7 @@
           "name": "Tricep Pushdown (rope)",
           "sets": [
             {
-              "reps": [
-                7,
-                6
-              ],
+              "reps": [7, 6],
               "lb": 100
             }
           ]
@@ -3292,10 +2484,7 @@
           "name": "Cable Fly",
           "sets": [
             {
-              "reps": [
-                7,
-                6
-              ],
+              "reps": [7, 6],
               "lb": 60
             }
           ]
@@ -3309,10 +2498,7 @@
           "name": "Pullups",
           "sets": [
             {
-              "reps": [
-                8,
-                6
-              ],
+              "reps": [8, 6],
               "bodyweight": true
             }
           ]
@@ -3321,16 +2507,11 @@
           "name": "Mag Cable Row",
           "sets": [
             {
-              "reps": [
-                6,
-                6
-              ],
+              "reps": [6, 6],
               "lb": 165
             },
             {
-              "reps": [
-                4
-              ],
+              "reps": [4],
               "lb": 155
             }
           ]
@@ -3339,9 +2520,7 @@
           "name": "Bayesian Curl",
           "sets": [
             {
-              "reps": [
-                6
-              ],
+              "reps": [6],
               "lb": 45
             }
           ]
@@ -3350,10 +2529,7 @@
           "name": "Machine Arm Curl",
           "sets": [
             {
-              "reps": [
-                7,
-                7
-              ],
+              "reps": [7, 7],
               "lb": 80
             }
           ]
@@ -3362,16 +2538,12 @@
           "name": "Unilateral Lat Pulldown",
           "sets": [
             {
-              "reps": [
-                6
-              ],
+              "reps": [6],
               "lb": 120,
               "perSide": true
             },
             {
-              "reps": [
-                8
-              ],
+              "reps": [8],
               "lb": 100
             }
           ],
@@ -3386,10 +2558,7 @@
           "name": "Squat",
           "sets": [
             {
-              "reps": [
-                8,
-                5
-              ],
+              "reps": [8, 5],
               "lb": 195
             }
           ]
@@ -3398,11 +2567,7 @@
           "name": "Seated Leg Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                6
-              ],
+              "reps": [8, 8, 6],
               "lb": 130
             }
           ]
@@ -3411,11 +2576,7 @@
           "name": "Seated Leg Press Calf Raises",
           "sets": [
             {
-              "reps": [
-                7,
-                6,
-                5
-              ],
+              "reps": [7, 6, 5],
               "lb": 260
             }
           ]
@@ -3424,15 +2585,11 @@
           "name": "Unilateral Leg Extension",
           "sets": [
             {
-              "reps": [
-                5
-              ],
+              "reps": [5],
               "lb": 50
             },
             {
-              "reps": [
-                6
-              ],
+              "reps": [6],
               "lb": 40
             }
           ]
@@ -3446,10 +2603,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                6,
-                4
-              ],
+              "reps": [6, 4],
               "lb": 175
             }
           ]
@@ -3458,11 +2612,7 @@
           "name": "DB Lateral Raise",
           "sets": [
             {
-              "reps": [
-                7,
-                7,
-                6
-              ],
+              "reps": [7, 7, 6],
               "lb": 20,
               "perSide": true
             }
@@ -3472,10 +2622,7 @@
           "name": "Tricep Pushdown (rope)",
           "sets": [
             {
-              "reps": [
-                9,
-                7
-              ],
+              "reps": [9, 7],
               "lb": 100
             }
           ]
@@ -3484,10 +2631,7 @@
           "name": "Cable Fly",
           "sets": [
             {
-              "reps": [
-                7,
-                5
-              ],
+              "reps": [7, 5],
               "lb": 60
             }
           ]
@@ -3496,10 +2640,7 @@
           "name": "Dips",
           "sets": [
             {
-              "reps": [
-                8,
-                7
-              ],
+              "reps": [8, 7],
               "bodyweight": true
             }
           ]
@@ -3513,10 +2654,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                7,
-                3
-              ],
+              "reps": [7, 3],
               "lb": 165
             }
           ],
@@ -3526,15 +2664,11 @@
           "name": "Unilateral Tricep Pushdown",
           "sets": [
             {
-              "reps": [
-                4
-              ],
+              "reps": [4],
               "lb": 45
             },
             {
-              "reps": [
-                6
-              ],
+              "reps": [6],
               "lb": 40
             }
           ],
@@ -3544,11 +2678,7 @@
           "name": "DB Lateral Raise",
           "sets": [
             {
-              "reps": [
-                9,
-                7,
-                8
-              ],
+              "reps": [9, 7, 8],
               "lb": 20,
               "perSide": true
             }
@@ -3558,16 +2688,11 @@
           "name": "Tricep Pushdown (rope)",
           "sets": [
             {
-              "reps": [
-                5
-              ],
+              "reps": [5],
               "lb": 110
             },
             {
-              "reps": [
-                5,
-                4
-              ],
+              "reps": [5, 4],
               "lb": 100
             }
           ],
@@ -3577,10 +2702,7 @@
           "name": "Cable Fly",
           "sets": [
             {
-              "reps": [
-                7,
-                6
-              ],
+              "reps": [7, 6],
               "lb": 50,
               "perSide": true
             }
@@ -3596,10 +2718,7 @@
           "name": "Pullups",
           "sets": [
             {
-              "reps": [
-                9,
-                6
-              ],
+              "reps": [9, 6],
               "bodyweight": true
             }
           ]
@@ -3608,11 +2727,7 @@
           "name": "Mag Cable Row",
           "sets": [
             {
-              "reps": [
-                7,
-                6,
-                5
-              ],
+              "reps": [7, 6, 5],
               "lb": 155
             }
           ]
@@ -3621,10 +2736,7 @@
           "name": "Machine Arm Curl",
           "sets": [
             {
-              "reps": [
-                6,
-                4
-              ],
+              "reps": [6, 4],
               "lb": 85
             }
           ]
@@ -3633,10 +2745,7 @@
           "name": "Rear Delt Fly Machine",
           "sets": [
             {
-              "reps": [
-                8,
-                6
-              ],
+              "reps": [8, 6],
               "lb": 40
             }
           ]
@@ -3645,10 +2754,7 @@
           "name": "Unilateral Lat Pulldown",
           "sets": [
             {
-              "reps": [
-                6,
-                5
-              ],
+              "reps": [6, 5],
               "lb": 62.5,
               "perSide": true
             }
@@ -3658,11 +2764,7 @@
           "name": "Unilateral DB Preacher Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                7,
-                6
-              ],
+              "reps": [8, 7, 6],
               "lb": 25,
               "perSide": true
             }
@@ -3678,10 +2780,7 @@
           "name": "Squat",
           "sets": [
             {
-              "reps": [
-                7,
-                5
-              ],
+              "reps": [7, 5],
               "lb": 195
             }
           ]
@@ -3690,9 +2789,7 @@
           "name": "Seated Leg Curl",
           "sets": [
             {
-              "reps": [
-                7
-              ],
+              "reps": [7],
               "lb": 140
             }
           ]
@@ -3706,21 +2803,15 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                1
-              ],
+              "reps": [1],
               "lb": 185
             },
             {
-              "reps": [
-                3
-              ],
+              "reps": [3],
               "lb": 165
             },
             {
-              "reps": [
-                6
-              ],
+              "reps": [6],
               "lb": 155
             }
           ]
@@ -3729,15 +2820,11 @@
           "name": "Tricep Pushdown (rope)",
           "sets": [
             {
-              "reps": [
-                6
-              ],
+              "reps": [6],
               "lb": 160
             },
             {
-              "reps": [
-                5
-              ],
+              "reps": [5],
               "lb": 150
             }
           ],
@@ -3752,10 +2839,7 @@
           "name": "Pullups",
           "sets": [
             {
-              "reps": [
-                8,
-                5
-              ],
+              "reps": [8, 5],
               "bodyweight": true
             }
           ]
@@ -3764,11 +2848,7 @@
           "name": "Mag Cable Row",
           "sets": [
             {
-              "reps": [
-                6,
-                6,
-                6
-              ],
+              "reps": [6, 6, 6],
               "lb": 155
             }
           ]
@@ -3777,9 +2857,7 @@
           "name": "Machine Arm Curl",
           "sets": [
             {
-              "reps": [
-                5
-              ],
+              "reps": [5],
               "lb": 85
             }
           ],
@@ -3789,11 +2867,7 @@
           "name": "Rear Delt Fly Machine",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                7
-              ],
+              "reps": [8, 8, 7],
               "lb": 40
             }
           ]
@@ -3802,10 +2876,7 @@
           "name": "Unilateral Lat Pulldown",
           "sets": [
             {
-              "reps": [
-                7,
-                6
-              ],
+              "reps": [7, 6],
               "lb": 110
             }
           ]
@@ -3814,10 +2885,7 @@
           "name": "Unilateral DB Preacher Curl",
           "sets": [
             {
-              "reps": [
-                7,
-                4
-              ],
+              "reps": [7, 4],
               "lb": 30,
               "perSide": true
             }
@@ -3832,10 +2900,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                6,
-                3
-              ],
+              "reps": [6, 3],
               "lb": 175
             }
           ]
@@ -3844,17 +2909,12 @@
           "name": "Unilateral Tricep Pushdown",
           "sets": [
             {
-              "reps": [
-                4
-              ],
+              "reps": [4],
               "lb": 50,
               "perSide": true
             },
             {
-              "reps": [
-                4,
-                4
-              ],
+              "reps": [4, 4],
               "lb": 45,
               "perSide": true
             }
@@ -3865,11 +2925,7 @@
           "name": "Incline DB Lateral Raise",
           "sets": [
             {
-              "reps": [
-                4,
-                4,
-                8
-              ],
+              "reps": [4, 4, 8],
               "lb": 20,
               "perSide": true
             }
@@ -3880,15 +2936,11 @@
           "name": "Tricep Pushdown (rope)",
           "sets": [
             {
-              "reps": [
-                4
-              ],
+              "reps": [4],
               "lb": 150
             },
             {
-              "reps": [
-                7
-              ],
+              "reps": [7],
               "lb": 130
             }
           ],
@@ -3898,10 +2950,7 @@
           "name": "Machine Fly",
           "sets": [
             {
-              "reps": [
-                7,
-                4
-              ],
+              "reps": [7, 4],
               "lb": 60
             }
           ]
@@ -3915,10 +2964,7 @@
           "name": "Pullups",
           "sets": [
             {
-              "reps": [
-                6,
-                5
-              ],
+              "reps": [6, 5],
               "bodyweight": true
             }
           ]
@@ -3927,11 +2973,7 @@
           "name": "Mag Cable Row",
           "sets": [
             {
-              "reps": [
-                7,
-                7,
-                4
-              ],
+              "reps": [7, 7, 4],
               "lb": 155
             }
           ]
@@ -3940,11 +2982,7 @@
           "name": "Rear Delt Fly Machine",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                5
-              ],
+              "reps": [8, 8, 5],
               "lb": 45
             }
           ]
@@ -3953,11 +2991,7 @@
           "name": "EZ Bar Preacher Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                5,
-                3
-              ],
+              "reps": [8, 5, 3],
               "lb": 60
             }
           ]
@@ -3971,15 +3005,11 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                3
-              ],
+              "reps": [3],
               "lb": 175
             },
             {
-              "reps": [
-                4
-              ],
+              "reps": [4],
               "lb": 165
             }
           ]
@@ -3988,10 +3018,7 @@
           "name": "DB Lateral Raise",
           "sets": [
             {
-              "reps": [
-                6,
-                5
-              ],
+              "reps": [6, 5],
               "lb": 25,
               "perSide": true
             }
@@ -4001,10 +3028,7 @@
           "name": "Tricep Pushdown (rope)",
           "sets": [
             {
-              "reps": [
-                6,
-                5
-              ],
+              "reps": [6, 5],
               "lb": 67.5
             }
           ],
@@ -4019,10 +3043,7 @@
           "name": "Lat Pulldown",
           "sets": [
             {
-              "reps": [
-                6,
-                4
-              ],
+              "reps": [6, 4],
               "lb": 145
             }
           ]
@@ -4031,10 +3052,7 @@
           "name": "Mag Cable Row",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 135
             }
           ]
@@ -4043,10 +3061,7 @@
           "name": "Machine Arm Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 60
             }
           ]
@@ -4055,10 +3070,7 @@
           "name": "Rear Delt Fly",
           "sets": [
             {
-              "reps": [
-                8,
-                6
-              ],
+              "reps": [8, 6],
               "lb": 40
             }
           ]
@@ -4067,10 +3079,7 @@
           "name": "JPG Lat Pulldown",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 37.5
             }
           ]
@@ -4079,10 +3088,7 @@
           "name": "Unilateral DB Preacher Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                6
-              ],
+              "reps": [8, 6],
               "lb": 15,
               "perSide": true
             }
@@ -4098,9 +3104,7 @@
           "name": "Squat",
           "sets": [
             {
-              "reps": [
-                5
-              ],
+              "reps": [5],
               "lb": 185
             }
           ],
@@ -4110,11 +3114,7 @@
           "name": "Lying Leg Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                7,
-                4
-              ],
+              "reps": [8, 7, 4],
               "lb": 50
             }
           ]
@@ -4123,11 +3123,7 @@
           "name": "Unilateral Leg Extension",
           "sets": [
             {
-              "reps": [
-                7,
-                6,
-                5
-              ],
+              "reps": [7, 6, 5],
               "lb": 50
             }
           ]
@@ -4142,10 +3138,7 @@
           "name": "Squat",
           "sets": [
             {
-              "reps": [
-                7,
-                4
-              ],
+              "reps": [7, 4],
               "lb": 185
             }
           ]
@@ -4154,10 +3147,7 @@
           "name": "Leg Press Calf Raises",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 190
             }
           ]
@@ -4166,10 +3156,7 @@
           "name": "Unilateral Leg Extension",
           "sets": [
             {
-              "reps": [
-                6,
-                6
-              ],
+              "reps": [6, 6],
               "lb": 105
             }
           ]
@@ -4178,10 +3165,7 @@
           "name": "Seated Leg Curl",
           "sets": [
             {
-              "reps": [
-                5,
-                4
-              ],
+              "reps": [5, 4],
               "lb": 135
             }
           ]
@@ -4196,10 +3180,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                6,
-                4
-              ],
+              "reps": [6, 4],
               "lb": 155
             }
           ]
@@ -4208,10 +3189,7 @@
           "name": "Tricep Pushdown + Press",
           "sets": [
             {
-              "reps": [
-                9,
-                6
-              ],
+              "reps": [9, 6],
               "lb": 52.5
             }
           ],
@@ -4221,15 +3199,11 @@
           "name": "Cable Lateral Raise",
           "sets": [
             {
-              "reps": [
-                4
-              ],
+              "reps": [4],
               "lb": 14
             },
             {
-              "reps": [
-                6
-              ],
+              "reps": [6],
               "lb": 12.5
             }
           ]
@@ -4238,10 +3212,7 @@
           "name": "Incline Cable Fly",
           "sets": [
             {
-              "reps": [
-                5,
-                4
-              ],
+              "reps": [5, 4],
               "lb": 54
             }
           ]
@@ -4250,9 +3221,7 @@
           "name": "Unilateral Tricep Pushdown",
           "sets": [
             {
-              "reps": [
-                5
-              ],
+              "reps": [5],
               "lb": 17.5
             }
           ]
@@ -4267,10 +3236,7 @@
           "name": "Pullups",
           "sets": [
             {
-              "reps": [
-                4,
-                3
-              ],
+              "reps": [4, 3],
               "bodyweight": true
             }
           ]
@@ -4279,11 +3245,7 @@
           "name": "Cable Row (LA Fitness)",
           "sets": [
             {
-              "reps": [
-                7,
-                5,
-                4
-              ],
+              "reps": [7, 5, 4],
               "lb": 130
             }
           ]
@@ -4292,11 +3254,7 @@
           "name": "Machine Arm Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                6
-              ],
+              "reps": [8, 8, 6],
               "lb": 70
             }
           ]
@@ -4305,11 +3263,7 @@
           "name": "Rear Delt Fly",
           "sets": [
             {
-              "reps": [
-                6,
-                5,
-                4
-              ],
+              "reps": [6, 5, 4],
               "lb": 115
             }
           ]
@@ -4318,15 +3272,11 @@
           "name": "JPG Lat Pulldown",
           "sets": [
             {
-              "reps": [
-                5
-              ],
+              "reps": [5],
               "lb": 52.5
             },
             {
-              "reps": [
-                4
-              ],
+              "reps": [4],
               "lb": 47.5
             }
           ]
@@ -4335,10 +3285,7 @@
           "name": "Unilateral DB Preacher Curl",
           "sets": [
             {
-              "reps": [
-                4,
-                4
-              ],
+              "reps": [4, 4],
               "lb": 20,
               "perSide": true
             }
@@ -4355,11 +3302,7 @@
           "name": "Leg Press Calf Raises",
           "sets": [
             {
-              "reps": [
-                6,
-                6,
-                3
-              ],
+              "reps": [6, 6, 3],
               "lb": 235
             }
           ]
@@ -4368,9 +3311,7 @@
           "name": "Unilateral Leg Extension",
           "sets": [
             {
-              "reps": [
-                6
-              ],
+              "reps": [6],
               "lb": 135
             }
           ],
@@ -4380,10 +3321,7 @@
           "name": "Seated Leg Curl",
           "sets": [
             {
-              "reps": [
-                6,
-                5
-              ],
+              "reps": [6, 5],
               "lb": 145
             }
           ]
@@ -4398,15 +3336,11 @@
           "name": "Machine Arm Curl",
           "sets": [
             {
-              "reps": [
-                8
-              ],
+              "reps": [8],
               "lb": 80
             },
             {
-              "reps": [
-                4
-              ],
+              "reps": [4],
               "lb": 95
             }
           ]
@@ -4415,10 +3349,7 @@
           "name": "Unilateral Bayesian Curl",
           "sets": [
             {
-              "reps": [
-                6,
-                5
-              ],
+              "reps": [6, 5],
               "lb": 25,
               "perSide": true
             }
@@ -4434,15 +3365,11 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                3
-              ],
+              "reps": [3],
               "lb": 155
             },
             {
-              "reps": [
-                8
-              ],
+              "reps": [8],
               "lb": 135
             }
           ]
@@ -4451,10 +3378,7 @@
           "name": "Tricep Pushdown + Press",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 62.5
             }
           ]
@@ -4463,15 +3387,11 @@
           "name": "Machine Lateral Raise",
           "sets": [
             {
-              "reps": [
-                8
-              ],
+              "reps": [8],
               "lb": 85
             },
             {
-              "reps": [
-                5
-              ],
+              "reps": [5],
               "lb": 95
             }
           ]
@@ -4480,15 +3400,11 @@
           "name": "Pec Deck",
           "sets": [
             {
-              "reps": [
-                3
-              ],
+              "reps": [3],
               "lb": 160
             },
             {
-              "reps": [
-                3
-              ],
+              "reps": [3],
               "lb": 145
             }
           ]
@@ -4503,10 +3419,7 @@
           "name": "Lat Pulldown",
           "sets": [
             {
-              "reps": [
-                8,
-                6
-              ],
+              "reps": [8, 6],
               "lb": 145
             }
           ]
@@ -4515,10 +3428,7 @@
           "name": "Machine Row",
           "sets": [
             {
-              "reps": [
-                6,
-                4
-              ],
+              "reps": [6, 4],
               "lb": 270
             }
           ]
@@ -4527,10 +3437,7 @@
           "name": "Machine Arm Curl",
           "sets": [
             {
-              "reps": [
-                7,
-                6
-              ],
+              "reps": [7, 6],
               "lb": 95
             }
           ]
@@ -4539,10 +3446,7 @@
           "name": "Unilateral Bayesian Curl",
           "sets": [
             {
-              "reps": [
-                7,
-                5
-              ],
+              "reps": [7, 5],
               "lb": 50
             }
           ]
@@ -4551,15 +3455,11 @@
           "name": "Rear Delt Fly",
           "sets": [
             {
-              "reps": [
-                8
-              ],
+              "reps": [8],
               "lb": 115
             },
             {
-              "reps": [
-                5
-              ],
+              "reps": [5],
               "lb": 130
             }
           ]
@@ -4574,10 +3474,7 @@
           "name": "Leg Press Calf Raises",
           "sets": [
             {
-              "reps": [
-                8,
-                6
-              ],
+              "reps": [8, 6],
               "lb": 235
             }
           ]
@@ -4586,10 +3483,7 @@
           "name": "Unilateral Leg Extension",
           "sets": [
             {
-              "reps": [
-                7,
-                7
-              ],
+              "reps": [7, 7],
               "lb": 130
             }
           ]
@@ -4598,10 +3492,7 @@
           "name": "Seated Leg Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 145
             }
           ]
@@ -4616,10 +3507,7 @@
           "name": "Tricep Pushdown + Press",
           "sets": [
             {
-              "reps": [
-                8,
-                7
-              ],
+              "reps": [8, 7],
               "lb": 67.5
             }
           ]
@@ -4628,10 +3516,7 @@
           "name": "Machine Lateral Raise",
           "sets": [
             {
-              "reps": [
-                7,
-                5
-              ],
+              "reps": [7, 5],
               "lb": 95
             }
           ]
@@ -4640,15 +3525,11 @@
           "name": "Incline Smith Bench Press",
           "sets": [
             {
-              "reps": [
-                3
-              ],
+              "reps": [3],
               "lb": 145
             },
             {
-              "reps": [
-                5
-              ],
+              "reps": [5],
               "lb": 135
             }
           ]
@@ -4663,10 +3544,7 @@
           "name": "DB Bench Press",
           "sets": [
             {
-              "reps": [
-                6,
-                5
-              ],
+              "reps": [6, 5],
               "lb": 130
             }
           ]
@@ -4675,10 +3553,7 @@
           "name": "Tricep Pushdown + Press",
           "sets": [
             {
-              "reps": [
-                6,
-                4
-              ],
+              "reps": [6, 4],
               "lb": 72.5
             }
           ]
@@ -4687,10 +3562,7 @@
           "name": "Cable Lateral Raise",
           "sets": [
             {
-              "reps": [
-                5,
-                4
-              ],
+              "reps": [5, 4],
               "lb": 15
             }
           ]
@@ -4699,10 +3571,7 @@
           "name": "Unilateral Overhead Extension",
           "sets": [
             {
-              "reps": [
-                6,
-                5
-              ],
+              "reps": [6, 5],
               "lb": 20,
               "perSide": true
             }
@@ -4718,10 +3587,7 @@
           "name": "Squat",
           "sets": [
             {
-              "reps": [
-                5,
-                4
-              ],
+              "reps": [5, 4],
               "lb": 205
             }
           ]
@@ -4730,11 +3596,7 @@
           "name": "Leg Press Calf Raises",
           "sets": [
             {
-              "reps": [
-                6,
-                5,
-                4
-              ],
+              "reps": [6, 5, 4],
               "lb": 240
             }
           ]
@@ -4743,15 +3605,11 @@
           "name": "Lying Leg Curl",
           "sets": [
             {
-              "reps": [
-                8
-              ],
+              "reps": [8],
               "lb": 55
             },
             {
-              "reps": [
-                4
-              ],
+              "reps": [4],
               "lb": 60
             }
           ]
@@ -4766,11 +3624,7 @@
           "name": "Tricep Pushdown + Press",
           "sets": [
             {
-              "reps": [
-                9,
-                7,
-                8
-              ],
+              "reps": [9, 7, 8],
               "lb": 100
             }
           ]
@@ -4779,11 +3633,7 @@
           "name": "Converging Chest Press",
           "sets": [
             {
-              "reps": [
-                7,
-                7,
-                5
-              ],
+              "reps": [7, 7, 5],
               "lb": 120
             }
           ]
@@ -4792,17 +3642,12 @@
           "name": "DB Lateral Raise",
           "sets": [
             {
-              "reps": [
-                10
-              ],
+              "reps": [10],
               "lb": 20,
               "perSide": true
             },
             {
-              "reps": [
-                7,
-                7
-              ],
+              "reps": [7, 7],
               "lb": 25,
               "perSide": true
             }
@@ -4818,10 +3663,7 @@
           "name": "Unilateral Overhead Extension",
           "sets": [
             {
-              "reps": [
-                6,
-                3
-              ],
+              "reps": [6, 3],
               "lb": 40,
               "perSide": true
             }
@@ -4837,10 +3679,7 @@
           "name": "Squat",
           "sets": [
             {
-              "reps": [
-                7,
-                4
-              ],
+              "reps": [7, 4],
               "lb": 205
             }
           ]
@@ -4849,10 +3688,7 @@
           "name": "Seated Leg Press Calf Raises",
           "sets": [
             {
-              "reps": [
-                6,
-                6
-              ],
+              "reps": [6, 6],
               "lb": 270
             }
           ]
@@ -4861,11 +3697,7 @@
           "name": "Hamstring Curl",
           "sets": [
             {
-              "reps": [
-                4,
-                4,
-                4
-              ],
+              "reps": [4, 4, 4],
               "lb": 60
             }
           ]
@@ -4880,10 +3712,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                8,
-                7
-              ],
+              "reps": [8, 7],
               "lb": 155
             }
           ]
@@ -4892,10 +3721,7 @@
           "name": "Tricep Pushdown (Precor)",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 120
             }
           ]
@@ -4904,16 +3730,11 @@
           "name": "DB Lateral Raise",
           "sets": [
             {
-              "reps": [
-                4,
-                4
-              ],
+              "reps": [4, 4],
               "lb": 60
             },
             {
-              "reps": [
-                8
-              ],
+              "reps": [8],
               "lb": 50
             }
           ]
@@ -4922,10 +3743,7 @@
           "name": "Machine Fly",
           "sets": [
             {
-              "reps": [
-                5,
-                4
-              ]
+              "reps": [5, 4]
             }
           ],
           "notes": "6th level"
@@ -4934,16 +3752,12 @@
           "name": "Unilateral Overhead Extension",
           "sets": [
             {
-              "reps": [
-                3
-              ],
+              "reps": [3],
               "lb": 50,
               "perSide": true
             },
             {
-              "reps": [
-                6
-              ],
+              "reps": [6],
               "lb": 40,
               "perSide": true
             }
@@ -4959,10 +3773,7 @@
           "name": "Black Mag Lat Pulldown",
           "sets": [
             {
-              "reps": [
-                8,
-                6
-              ],
+              "reps": [8, 6],
               "lb": 160
             }
           ]
@@ -4971,15 +3782,11 @@
           "name": "EZ Bar Preacher Curl",
           "sets": [
             {
-              "reps": [
-                8
-              ],
+              "reps": [8],
               "lb": 50
             },
             {
-              "reps": [
-                8
-              ],
+              "reps": [8],
               "lb": 60
             }
           ]
@@ -4988,11 +3795,7 @@
           "name": "Black Mag Cable Row",
           "sets": [
             {
-              "reps": [
-                6,
-                5,
-                5
-              ],
+              "reps": [6, 5, 5],
               "lb": 155
             }
           ]
@@ -5001,17 +3804,12 @@
           "name": "Unilateral JPG",
           "sets": [
             {
-              "reps": [
-                8
-              ],
+              "reps": [8],
               "lb": 52.5,
               "perSide": true
             },
             {
-              "reps": [
-                5,
-                4
-              ],
+              "reps": [5, 4],
               "lb": 62.5,
               "perSide": true
             }
@@ -5021,10 +3819,7 @@
           "name": "Unilateral Bayesian Curl",
           "sets": [
             {
-              "reps": [
-                4,
-                4
-              ],
+              "reps": [4, 4],
               "lb": 50
             }
           ]
@@ -5033,10 +3828,7 @@
           "name": "DB Forearm Curl",
           "sets": [
             {
-              "reps": [
-                9,
-                8
-              ],
+              "reps": [9, 8],
               "lb": 30,
               "perSide": true
             }
@@ -5052,10 +3844,7 @@
           "name": "Barbell RDL",
           "sets": [
             {
-              "reps": [
-                7,
-                4
-              ],
+              "reps": [7, 4],
               "lb": 225
             }
           ]
@@ -5064,10 +3853,7 @@
           "name": "Seated Leg Press Calf Raises",
           "sets": [
             {
-              "reps": [
-                7,
-                6
-              ],
+              "reps": [7, 6],
               "lb": 270
             }
           ]
@@ -5076,10 +3862,7 @@
           "name": "Bulgarian Split Squats",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 80
             }
           ]
@@ -5088,15 +3871,11 @@
           "name": "Hamstring Curl",
           "sets": [
             {
-              "reps": [
-                3
-              ],
+              "reps": [3],
               "lb": 60
             },
             {
-              "reps": [
-                3
-              ],
+              "reps": [3],
               "lb": 50
             }
           ]
@@ -5111,10 +3890,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                6,
-                5
-              ],
+              "reps": [6, 5],
               "lb": 165
             }
           ]
@@ -5123,10 +3899,7 @@
           "name": "Tricep Pushdown (Precor)",
           "sets": [
             {
-              "reps": [
-                7,
-                6
-              ],
+              "reps": [7, 6],
               "lb": 130
             }
           ]
@@ -5135,11 +3908,7 @@
           "name": "DB Lateral Raise",
           "sets": [
             {
-              "reps": [
-                9,
-                7,
-                6
-              ],
+              "reps": [9, 7, 6],
               "lb": 50
             }
           ]
@@ -5148,10 +3917,7 @@
           "name": "Machine Fly",
           "sets": [
             {
-              "reps": [
-                8,
-                5
-              ]
+              "reps": [8, 5]
             }
           ],
           "notes": "6th level"
@@ -5160,10 +3926,7 @@
           "name": "Unilateral Overhead Extension",
           "sets": [
             {
-              "reps": [
-                7,
-                4
-              ],
+              "reps": [7, 4],
               "lb": 40,
               "perSide": true
             }
@@ -5179,10 +3942,7 @@
           "name": "Black Mag Lat Pulldown",
           "sets": [
             {
-              "reps": [
-                7,
-                5
-              ],
+              "reps": [7, 5],
               "lb": 170
             }
           ]
@@ -5191,10 +3951,7 @@
           "name": "EZ Bar Preacher Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 60
             }
           ]
@@ -5203,11 +3960,7 @@
           "name": "Black Mag Cable Row",
           "sets": [
             {
-              "reps": [
-                7,
-                5,
-                5
-              ],
+              "reps": [7, 5, 5],
               "lb": 155
             }
           ]
@@ -5216,10 +3969,7 @@
           "name": "Unilateral JPG",
           "sets": [
             {
-              "reps": [
-                7,
-                5
-              ],
+              "reps": [7, 5],
               "lb": 62.5,
               "perSide": true
             }
@@ -5229,10 +3979,7 @@
           "name": "Unilateral Bayesian Curl",
           "sets": [
             {
-              "reps": [
-                6,
-                5
-              ],
+              "reps": [6, 5],
               "lb": 50
             }
           ]
@@ -5241,10 +3988,7 @@
           "name": "DB Forearm Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                6
-              ],
+              "reps": [8, 6],
               "lb": 35,
               "perSide": true
             }
@@ -5260,10 +4004,7 @@
           "name": "Squat",
           "sets": [
             {
-              "reps": [
-                7,
-                5
-              ],
+              "reps": [7, 5],
               "lb": 205
             }
           ]
@@ -5272,11 +4013,7 @@
           "name": "Seated Leg Press Calf Raises",
           "sets": [
             {
-              "reps": [
-                8,
-                6,
-                3
-              ],
+              "reps": [8, 6, 3],
               "lb": 270
             }
           ]
@@ -5285,10 +4022,7 @@
           "name": "Hamstring Curl",
           "sets": [
             {
-              "reps": [
-                4,
-                4
-              ],
+              "reps": [4, 4],
               "lb": 60
             }
           ]
@@ -5303,10 +4037,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                6,
-                4
-              ],
+              "reps": [6, 4],
               "lb": 165
             }
           ]
@@ -5321,10 +4052,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                7,
-                5
-              ],
+              "reps": [7, 5],
               "lb": 165
             }
           ]
@@ -5333,10 +4061,7 @@
           "name": "Tricep Pushdown (Precor)",
           "sets": [
             {
-              "reps": [
-                6,
-                6
-              ],
+              "reps": [6, 6],
               "lb": 140
             }
           ]
@@ -5345,11 +4070,7 @@
           "name": "DB Lateral Raise",
           "sets": [
             {
-              "reps": [
-                7,
-                5,
-                4
-              ],
+              "reps": [7, 5, 4],
               "lb": 60
             }
           ]
@@ -5358,10 +4079,7 @@
           "name": "Machine Fly",
           "sets": [
             {
-              "reps": [
-                8,
-                5
-              ]
+              "reps": [8, 5]
             }
           ],
           "notes": "6th level"
@@ -5370,10 +4088,7 @@
           "name": "Unilateral Overhead Extension",
           "sets": [
             {
-              "reps": [
-                7,
-                5
-              ],
+              "reps": [7, 5],
               "lb": 40,
               "perSide": true
             }
@@ -5389,10 +4104,7 @@
           "name": "Black Mag Lat Pulldown",
           "sets": [
             {
-              "reps": [
-                8,
-                6
-              ],
+              "reps": [8, 6],
               "lb": 170
             }
           ]
@@ -5401,10 +4113,7 @@
           "name": "EZ Bar Preacher Curl",
           "sets": [
             {
-              "reps": [
-                7,
-                7
-              ],
+              "reps": [7, 7],
               "lb": 70
             }
           ]
@@ -5413,11 +4122,7 @@
           "name": "Black Mag Cable Row",
           "sets": [
             {
-              "reps": [
-                7,
-                7,
-                6
-              ],
+              "reps": [7, 7, 6],
               "lb": 155
             }
           ]
@@ -5426,10 +4131,7 @@
           "name": "Unilateral JPG",
           "sets": [
             {
-              "reps": [
-                6,
-                5
-              ],
+              "reps": [6, 5],
               "lb": 62.5,
               "perSide": true
             }
@@ -5439,10 +4141,7 @@
           "name": "Unilateral Bayesian Curl",
           "sets": [
             {
-              "reps": [
-                7,
-                6
-              ],
+              "reps": [7, 6],
               "lb": 50,
               "perSide": true
             }
@@ -5458,10 +4157,7 @@
           "name": "Barbell RDL",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 225
             }
           ]
@@ -5470,11 +4166,7 @@
           "name": "Seated Leg Press Calf Raises",
           "sets": [
             {
-              "reps": [
-                4,
-                4,
-                4
-              ],
+              "reps": [4, 4, 4],
               "lb": 280
             }
           ]
@@ -5483,11 +4175,7 @@
           "name": "Leg Extension",
           "sets": [
             {
-              "reps": [
-                5,
-                5,
-                5
-              ],
+              "reps": [5, 5, 5],
               "lb": 145
             }
           ]
@@ -5496,16 +4184,11 @@
           "name": "Hamstring Curl",
           "sets": [
             {
-              "reps": [
-                5
-              ],
+              "reps": [5],
               "lb": 65
             },
             {
-              "reps": [
-                5,
-                4
-              ],
+              "reps": [5, 4],
               "lb": 60
             }
           ]
@@ -5520,10 +4203,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                5,
-                4
-              ],
+              "reps": [5, 4],
               "lb": 175
             }
           ]
@@ -5532,10 +4212,7 @@
           "name": "Tricep Pushdown (Precor)",
           "sets": [
             {
-              "reps": [
-                8,
-                7
-              ],
+              "reps": [8, 7],
               "lb": 140
             }
           ]
@@ -5544,11 +4221,7 @@
           "name": "DB Lateral Raise",
           "sets": [
             {
-              "reps": [
-                8,
-                7,
-                7
-              ],
+              "reps": [8, 7, 7],
               "lb": 60
             }
           ]
@@ -5557,10 +4230,7 @@
           "name": "Machine Fly",
           "sets": [
             {
-              "reps": [
-                8,
-                5
-              ]
+              "reps": [8, 5]
             }
           ],
           "notes": "6th level"
@@ -5569,10 +4239,7 @@
           "name": "Unilateral Overhead Extension",
           "sets": [
             {
-              "reps": [
-                8,
-                6
-              ],
+              "reps": [8, 6],
               "lb": 40,
               "perSide": true
             }
@@ -5588,15 +4255,11 @@
           "name": "Black Mag Lat Pulldown",
           "sets": [
             {
-              "reps": [
-                8
-              ],
+              "reps": [8],
               "lb": 175
             },
             {
-              "reps": [
-                3
-              ],
+              "reps": [3],
               "lb": 185
             }
           ]
@@ -5605,10 +4268,7 @@
           "name": "EZ Bar Preacher Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                7
-              ],
+              "reps": [8, 7],
               "lb": 70
             }
           ]
@@ -5617,11 +4277,7 @@
           "name": "Black Mag Cable Row",
           "sets": [
             {
-              "reps": [
-                8,
-                7,
-                6
-              ],
+              "reps": [8, 7, 6],
               "lb": 155
             }
           ]
@@ -5630,10 +4286,7 @@
           "name": "Unilateral JPG",
           "sets": [
             {
-              "reps": [
-                7,
-                5
-              ],
+              "reps": [7, 5],
               "lb": 62.5,
               "perSide": true
             }
@@ -5643,10 +4296,7 @@
           "name": "Unilateral Bayesian Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                6
-              ],
+              "reps": [8, 6],
               "lb": 50,
               "perSide": true
             }
@@ -5662,10 +4312,7 @@
           "name": "Squat",
           "sets": [
             {
-              "reps": [
-                4,
-                2
-              ],
+              "reps": [4, 2],
               "lb": 225
             }
           ]
@@ -5674,11 +4321,7 @@
           "name": "Seated Leg Press Calf Raises",
           "sets": [
             {
-              "reps": [
-                5,
-                5,
-                4
-              ],
+              "reps": [5, 5, 4],
               "lb": 280
             }
           ]
@@ -5692,10 +4335,7 @@
           "name": "Bulgarian Split Squats",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 90
             }
           ]
@@ -5710,10 +4350,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                5,
-                3
-              ],
+              "reps": [5, 3],
               "lb": 175
             }
           ]
@@ -5722,10 +4359,7 @@
           "name": "Tricep Pushdown (Precor)",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 140
             }
           ]
@@ -5734,11 +4368,7 @@
           "name": "DB Lateral Raise",
           "sets": [
             {
-              "reps": [
-                6,
-                6,
-                6
-              ],
+              "reps": [6, 6, 6],
               "lb": 70
             }
           ]
@@ -5747,10 +4377,7 @@
           "name": "Machine Fly",
           "sets": [
             {
-              "reps": [
-                8,
-                7
-              ]
+              "reps": [8, 7]
             }
           ],
           "notes": "6th level"
@@ -5759,10 +4386,7 @@
           "name": "Unilateral Overhead Extension",
           "sets": [
             {
-              "reps": [
-                8,
-                7
-              ],
+              "reps": [8, 7],
               "lb": 40,
               "perSide": true
             }
@@ -5778,10 +4402,7 @@
           "name": "Black Mag Lat Pulldown",
           "sets": [
             {
-              "reps": [
-                6,
-                4
-              ],
+              "reps": [6, 4],
               "lb": 185
             }
           ]
@@ -5796,10 +4417,7 @@
           "name": "Lat Pulldown",
           "sets": [
             {
-              "reps": [
-                8,
-                7
-              ],
+              "reps": [8, 7],
               "lb": 160
             }
           ]
@@ -5808,10 +4426,7 @@
           "name": "Cable Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 50
             }
           ]
@@ -5820,11 +4435,7 @@
           "name": "Machine Row",
           "sets": [
             {
-              "reps": [
-                8,
-                7,
-                6
-              ],
+              "reps": [8, 7, 6],
               "lb": 145
             }
           ]
@@ -5833,10 +4444,7 @@
           "name": "Unilateral DB Preacher Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 25,
               "perSide": true
             }
@@ -5846,10 +4454,7 @@
           "name": "JPG",
           "sets": [
             {
-              "reps": [
-                8,
-                7
-              ],
+              "reps": [8, 7],
               "lb": 63
             }
           ]
@@ -5864,10 +4469,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                6,
-                4
-              ],
+              "reps": [6, 4],
               "lb": 165
             }
           ]
@@ -5876,10 +4478,7 @@
           "name": "Tricep Pushdown",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 67
             }
           ]
@@ -5888,11 +4487,7 @@
           "name": "DB Lateral Raise",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                8
-              ],
+              "reps": [8, 8, 8],
               "lb": 30
             }
           ]
@@ -5901,15 +4496,11 @@
           "name": "Incline Fly",
           "sets": [
             {
-              "reps": [
-                5
-              ],
+              "reps": [5],
               "lb": 66
             },
             {
-              "reps": [
-                7
-              ],
+              "reps": [7],
               "lb": 60
             }
           ]
@@ -5924,15 +4515,11 @@
           "name": "Squat",
           "sets": [
             {
-              "reps": [
-                4
-              ],
+              "reps": [4],
               "lb": 220
             },
             {
-              "reps": [
-                6
-              ],
+              "reps": [6],
               "lb": 200
             }
           ]
@@ -5941,11 +4528,7 @@
           "name": "Leg Press Calf Raises",
           "sets": [
             {
-              "reps": [
-                7,
-                6,
-                6
-              ],
+              "reps": [7, 6, 6],
               "lb": 450
             }
           ]
@@ -5954,11 +4537,7 @@
           "name": "Hamstring Curl",
           "sets": [
             {
-              "reps": [
-                5,
-                5,
-                5
-              ],
+              "reps": [5, 5, 5],
               "lb": 120
             }
           ]
@@ -5967,10 +4546,7 @@
           "name": "Unilateral Leg Extension",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 105
             }
           ]
@@ -5985,10 +4561,7 @@
           "name": "Lat Pulldown",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 160
             }
           ]
@@ -5997,10 +4570,7 @@
           "name": "Cable Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 53
             }
           ]
@@ -6009,11 +4579,7 @@
           "name": "Machine Row",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                7
-              ],
+              "reps": [8, 8, 7],
               "lb": 145
             }
           ]
@@ -6022,10 +4588,7 @@
           "name": "Unilateral DB Preacher Curl",
           "sets": [
             {
-              "reps": [
-                7,
-                8
-              ],
+              "reps": [7, 8],
               "lb": 30,
               "perSide": true
             }
@@ -6035,10 +4598,7 @@
           "name": "JPG",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 63
             }
           ]
@@ -6053,10 +4613,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                7,
-                4
-              ],
+              "reps": [7, 4],
               "lb": 165
             }
           ]
@@ -6065,10 +4622,7 @@
           "name": "Tricep Pushdown",
           "sets": [
             {
-              "reps": [
-                6,
-                6
-              ],
+              "reps": [6, 6],
               "lb": 73
             }
           ]
@@ -6077,11 +4631,7 @@
           "name": "DB Lateral Raise",
           "sets": [
             {
-              "reps": [
-                5,
-                4,
-                3
-              ],
+              "reps": [5, 4, 3],
               "lb": 35
             }
           ]
@@ -6090,10 +4640,7 @@
           "name": "Incline Fly",
           "sets": [
             {
-              "reps": [
-                8,
-                7
-              ],
+              "reps": [8, 7],
               "lb": 60
             }
           ]
@@ -6108,10 +4655,7 @@
           "name": "Squat",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 200
             }
           ]
@@ -6120,11 +4664,7 @@
           "name": "Leg Press Calf Raises",
           "sets": [
             {
-              "reps": [
-                8,
-                7,
-                6
-              ],
+              "reps": [8, 7, 6],
               "lb": 450
             }
           ]
@@ -6133,11 +4673,7 @@
           "name": "Hamstring Curl",
           "sets": [
             {
-              "reps": [
-                7,
-                6,
-                5
-              ],
+              "reps": [7, 6, 5],
               "lb": 120
             }
           ]
@@ -6146,10 +4682,7 @@
           "name": "Unilateral Leg Extension",
           "sets": [
             {
-              "reps": [
-                7,
-                6
-              ],
+              "reps": [7, 6],
               "lb": 120
             }
           ]
@@ -6164,10 +4697,7 @@
           "name": "Lat Pulldown",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 165
             }
           ]
@@ -6176,10 +4706,7 @@
           "name": "Cable Curl",
           "sets": [
             {
-              "reps": [
-                7,
-                5
-              ],
+              "reps": [7, 5],
               "lb": 57
             }
           ]
@@ -6188,11 +4715,7 @@
           "name": "Machine Row",
           "sets": [
             {
-              "reps": [
-                8,
-                7,
-                6
-              ],
+              "reps": [8, 7, 6],
               "lb": 150
             }
           ]
@@ -6201,10 +4724,7 @@
           "name": "Unilateral DB Preacher Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                7
-              ],
+              "reps": [8, 7],
               "lb": 30,
               "perSide": true
             }
@@ -6214,10 +4734,7 @@
           "name": "JPG",
           "sets": [
             {
-              "reps": [
-                8,
-                7
-              ],
+              "reps": [8, 7],
               "lb": 67
             }
           ]
@@ -6232,10 +4749,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                7,
-                5
-              ],
+              "reps": [7, 5],
               "lb": 165
             }
           ]
@@ -6244,10 +4758,7 @@
           "name": "Tricep Pushdown",
           "sets": [
             {
-              "reps": [
-                7,
-                6
-              ],
+              "reps": [7, 6],
               "lb": 73
             }
           ]
@@ -6256,11 +4767,7 @@
           "name": "DB Lateral Raise",
           "sets": [
             {
-              "reps": [
-                6,
-                5,
-                5
-              ],
+              "reps": [6, 5, 5],
               "lb": 35
             }
           ]
@@ -6269,10 +4776,7 @@
           "name": "Incline Fly",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 60
             }
           ]
@@ -6287,10 +4791,7 @@
           "name": "Squat",
           "sets": [
             {
-              "reps": [
-                7,
-                5
-              ],
+              "reps": [7, 5],
               "lb": 215
             }
           ]
@@ -6299,11 +4800,7 @@
           "name": "Leg Press Calf Raises",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                7
-              ],
+              "reps": [8, 8, 7],
               "lb": 450
             }
           ]
@@ -6312,11 +4809,7 @@
           "name": "Hamstring Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                6,
-                5
-              ],
+              "reps": [8, 6, 5],
               "lb": 120
             }
           ]
@@ -6325,10 +4818,7 @@
           "name": "Unilateral Leg Extension",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 120
             }
           ]
@@ -6343,10 +4833,7 @@
           "name": "Lat Pulldown",
           "sets": [
             {
-              "reps": [
-                6,
-                5
-              ],
+              "reps": [6, 5],
               "lb": 175
             }
           ]
@@ -6355,10 +4842,7 @@
           "name": "Cable Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                6
-              ],
+              "reps": [8, 6],
               "lb": 57
             }
           ]
@@ -6367,11 +4851,7 @@
           "name": "Machine Row",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                8
-              ],
+              "reps": [8, 8, 8],
               "lb": 150
             }
           ]
@@ -6380,10 +4860,7 @@
           "name": "Unilateral DB Preacher Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 30,
               "perSide": true
             }
@@ -6393,10 +4870,7 @@
           "name": "JPG",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 67
             }
           ]
@@ -6411,10 +4885,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                7,
-                6
-              ],
+              "reps": [7, 6],
               "lb": 165
             }
           ]
@@ -6423,10 +4894,7 @@
           "name": "Tricep Pushdown",
           "sets": [
             {
-              "reps": [
-                8,
-                6
-              ],
+              "reps": [8, 6],
               "lb": 73
             }
           ]
@@ -6435,11 +4903,7 @@
           "name": "DB Lateral Raise",
           "sets": [
             {
-              "reps": [
-                6,
-                6,
-                5
-              ],
+              "reps": [6, 6, 5],
               "lb": 35
             }
           ]
@@ -6448,10 +4912,7 @@
           "name": "Incline Fly",
           "sets": [
             {
-              "reps": [
-                7,
-                6
-              ],
+              "reps": [7, 6],
               "lb": 66
             }
           ]
@@ -6466,10 +4927,7 @@
           "name": "Squat",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 215
             }
           ]
@@ -6478,11 +4936,7 @@
           "name": "Leg Press Calf Raises",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                8
-              ],
+              "reps": [8, 8, 8],
               "lb": 450
             }
           ]
@@ -6491,11 +4945,7 @@
           "name": "Hamstring Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                7
-              ],
+              "reps": [8, 8, 7],
               "lb": 120
             }
           ]
@@ -6504,10 +4954,7 @@
           "name": "Unilateral Leg Extension",
           "sets": [
             {
-              "reps": [
-                7,
-                6
-              ],
+              "reps": [7, 6],
               "lb": 130
             }
           ]
@@ -6522,10 +4969,7 @@
           "name": "Lat Pulldown",
           "sets": [
             {
-              "reps": [
-                7,
-                6
-              ],
+              "reps": [7, 6],
               "lb": 175
             }
           ]
@@ -6534,10 +4978,7 @@
           "name": "Cable Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 57
             }
           ]
@@ -6546,11 +4987,7 @@
           "name": "Machine Row",
           "sets": [
             {
-              "reps": [
-                7,
-                7,
-                6
-              ],
+              "reps": [7, 7, 6],
               "lb": 160
             }
           ]
@@ -6559,10 +4996,7 @@
           "name": "Unilateral DB Preacher Curl",
           "sets": [
             {
-              "reps": [
-                5,
-                5
-              ],
+              "reps": [5, 5],
               "lb": 35,
               "perSide": true
             }
@@ -6572,10 +5006,7 @@
           "name": "JPG",
           "sets": [
             {
-              "reps": [
-                7,
-                6
-              ],
+              "reps": [7, 6],
               "lb": 70
             }
           ]
@@ -6590,10 +5021,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                8,
-                6
-              ],
+              "reps": [8, 6],
               "lb": 165
             }
           ]
@@ -6602,10 +5030,7 @@
           "name": "Tricep Pushdown",
           "sets": [
             {
-              "reps": [
-                8,
-                6
-              ],
+              "reps": [8, 6],
               "lb": 73
             }
           ]
@@ -6614,11 +5039,7 @@
           "name": "DB Lateral Raise",
           "sets": [
             {
-              "reps": [
-                6,
-                6,
-                6
-              ],
+              "reps": [6, 6, 6],
               "lb": 35
             }
           ]
@@ -6633,10 +5054,7 @@
           "name": "Squat",
           "sets": [
             {
-              "reps": [
-                7,
-                5
-              ],
+              "reps": [7, 5],
               "lb": 225
             }
           ]
@@ -6645,11 +5063,7 @@
           "name": "Leg Press Calf Raises",
           "sets": [
             {
-              "reps": [
-                7,
-                7,
-                7
-              ],
+              "reps": [7, 7, 7],
               "lb": 500
             }
           ]
@@ -6658,11 +5072,7 @@
           "name": "Hamstring Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                7
-              ],
+              "reps": [8, 8, 7],
               "lb": 120
             }
           ]
@@ -6671,10 +5081,7 @@
           "name": "Unilateral Leg Extension",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 130
             }
           ]
@@ -6689,10 +5096,7 @@
           "name": "Lat Pulldown",
           "sets": [
             {
-              "reps": [
-                7,
-                7
-              ],
+              "reps": [7, 7],
               "lb": 175
             }
           ]
@@ -6701,10 +5105,7 @@
           "name": "Cable Curl",
           "sets": [
             {
-              "reps": [
-                6,
-                5
-              ],
+              "reps": [6, 5],
               "lb": 60
             }
           ]
@@ -6713,11 +5114,7 @@
           "name": "Machine Row",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                6
-              ],
+              "reps": [8, 8, 6],
               "lb": 160
             }
           ]
@@ -6726,10 +5123,7 @@
           "name": "Unilateral DB Preacher Curl",
           "sets": [
             {
-              "reps": [
-                5,
-                5
-              ],
+              "reps": [5, 5],
               "lb": 35,
               "perSide": true
             }
@@ -6739,10 +5133,7 @@
           "name": "JPG",
           "sets": [
             {
-              "reps": [
-                8,
-                7
-              ],
+              "reps": [8, 7],
               "lb": 70
             }
           ]
@@ -6757,10 +5148,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                7,
-                5
-              ],
+              "reps": [7, 5],
               "lb": 165
             }
           ]
@@ -6769,10 +5157,7 @@
           "name": "Tricep Pushdown",
           "sets": [
             {
-              "reps": [
-                8,
-                6
-              ],
+              "reps": [8, 6],
               "lb": 73
             }
           ]
@@ -6787,10 +5172,7 @@
           "name": "Squat",
           "sets": [
             {
-              "reps": [
-                8,
-                7
-              ],
+              "reps": [8, 7],
               "lb": 225
             }
           ]
@@ -6799,11 +5181,7 @@
           "name": "Leg Press Calf Raises",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                7
-              ],
+              "reps": [8, 8, 7],
               "lb": 500
             }
           ]
@@ -6812,11 +5190,7 @@
           "name": "Hamstring Curl",
           "sets": [
             {
-              "reps": [
-                7,
-                7,
-                4
-              ],
+              "reps": [7, 7, 4],
               "lb": 130
             }
           ]
@@ -6825,10 +5199,7 @@
           "name": "Unilateral Leg Extension",
           "sets": [
             {
-              "reps": [
-                6,
-                5
-              ],
+              "reps": [6, 5],
               "lb": 150
             }
           ]
@@ -6843,10 +5214,7 @@
           "name": "Lat Pulldown",
           "sets": [
             {
-              "reps": [
-                4,
-                3
-              ],
+              "reps": [4, 3],
               "lb": 190
             }
           ]
@@ -6855,10 +5223,7 @@
           "name": "Cable Curl",
           "sets": [
             {
-              "reps": [
-                6,
-                6
-              ],
+              "reps": [6, 6],
               "lb": 60
             }
           ]
@@ -6867,11 +5232,7 @@
           "name": "Machine Row",
           "sets": [
             {
-              "reps": [
-                6,
-                5,
-                5
-              ],
+              "reps": [6, 5, 5],
               "lb": 175
             }
           ]
@@ -6880,10 +5241,7 @@
           "name": "Unilateral DB Preacher Curl",
           "sets": [
             {
-              "reps": [
-                6,
-                6
-              ],
+              "reps": [6, 6],
               "lb": 35,
               "perSide": true
             }
@@ -6893,9 +5251,7 @@
           "name": "JPG",
           "sets": [
             {
-              "reps": [
-                6
-              ],
+              "reps": [6],
               "lb": 77
             }
           ]
@@ -6910,10 +5266,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                5,
-                3
-              ],
+              "reps": [5, 3],
               "lb": 175
             }
           ]
@@ -6922,10 +5275,7 @@
           "name": "Tricep Pushdown",
           "sets": [
             {
-              "reps": [
-                6,
-                6
-              ],
+              "reps": [6, 6],
               "lb": 77
             }
           ]
@@ -6934,11 +5284,7 @@
           "name": "DB Lateral Raise",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                8
-              ],
+              "reps": [8, 8, 8],
               "lb": 20,
               "perSide": true
             }
@@ -6948,10 +5294,7 @@
           "name": "Incline Fly",
           "sets": [
             {
-              "reps": [
-                6,
-                5
-              ],
+              "reps": [6, 5],
               "lb": 74
             }
           ]
@@ -6960,9 +5303,7 @@
           "name": "Unilateral DB Skull Crusher",
           "sets": [
             {
-              "reps": [
-                8
-              ],
+              "reps": [8],
               "lb": 20
             }
           ]
@@ -6977,10 +5318,7 @@
           "name": "Squat",
           "sets": [
             {
-              "reps": [
-                6,
-                2
-              ],
+              "reps": [6, 2],
               "lb": 235
             }
           ]
@@ -6989,11 +5327,7 @@
           "name": "Leg Press Calf Raises",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                7
-              ],
+              "reps": [8, 8, 7],
               "lb": 500
             }
           ]
@@ -7002,11 +5336,7 @@
           "name": "Hamstring Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                6,
-                5
-              ],
+              "reps": [8, 6, 5],
               "lb": 130
             }
           ]
@@ -7015,10 +5345,7 @@
           "name": "Unilateral Leg Extension",
           "sets": [
             {
-              "reps": [
-                6,
-                5
-              ],
+              "reps": [6, 5],
               "lb": 150
             }
           ]
@@ -7033,10 +5360,7 @@
           "name": "Lat Pulldown",
           "sets": [
             {
-              "reps": [
-                5,
-                4
-              ],
+              "reps": [5, 4],
               "lb": 190
             }
           ]
@@ -7045,10 +5369,7 @@
           "name": "Cable Curl",
           "sets": [
             {
-              "reps": [
-                7,
-                6
-              ],
+              "reps": [7, 6],
               "lb": 60
             }
           ]
@@ -7057,11 +5378,7 @@
           "name": "Machine Row",
           "sets": [
             {
-              "reps": [
-                6,
-                6,
-                5
-              ],
+              "reps": [6, 6, 5],
               "lb": 175
             }
           ]
@@ -7070,10 +5387,7 @@
           "name": "Unilateral DB Preacher Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 35,
               "perSide": true
             }
@@ -7083,10 +5397,7 @@
           "name": "JPG",
           "sets": [
             {
-              "reps": [
-                6,
-                6
-              ],
+              "reps": [6, 6],
               "lb": 77
             }
           ]
@@ -7101,10 +5412,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                5,
-                4
-              ],
+              "reps": [5, 4],
               "lb": 175
             }
           ]
@@ -7113,10 +5421,7 @@
           "name": "Tricep Pushdown",
           "sets": [
             {
-              "reps": [
-                7,
-                7
-              ],
+              "reps": [7, 7],
               "lb": 77
             }
           ]
@@ -7125,10 +5430,7 @@
           "name": "Incline Fly",
           "sets": [
             {
-              "reps": [
-                6,
-                5
-              ],
+              "reps": [6, 5],
               "lb": 74
             }
           ]
@@ -7137,9 +5439,7 @@
           "name": "Unilateral DB Skull Crusher",
           "sets": [
             {
-              "reps": [
-                6
-              ],
+              "reps": [6],
               "lb": 25
             }
           ]
@@ -7154,10 +5454,7 @@
           "name": "Squat",
           "sets": [
             {
-              "reps": [
-                6,
-                4
-              ],
+              "reps": [6, 4],
               "lb": 235
             }
           ]
@@ -7166,11 +5463,7 @@
           "name": "Leg Press Calf Raises",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                8
-              ],
+              "reps": [8, 8, 8],
               "lb": 500
             }
           ]
@@ -7179,11 +5472,7 @@
           "name": "Hamstring Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                7,
-                6
-              ],
+              "reps": [8, 7, 6],
               "lb": 130
             }
           ]
@@ -7192,10 +5481,7 @@
           "name": "Unilateral Leg Extension",
           "sets": [
             {
-              "reps": [
-                6,
-                6
-              ],
+              "reps": [6, 6],
               "lb": 150
             }
           ]
@@ -7210,10 +5496,7 @@
           "name": "Lat Pulldown",
           "sets": [
             {
-              "reps": [
-                5,
-                4
-              ],
+              "reps": [5, 4],
               "lb": 190
             }
           ]
@@ -7222,10 +5505,7 @@
           "name": "Cable Curl",
           "sets": [
             {
-              "reps": [
-                7,
-                7
-              ],
+              "reps": [7, 7],
               "lb": 60
             }
           ]
@@ -7234,11 +5514,7 @@
           "name": "Machine Row",
           "sets": [
             {
-              "reps": [
-                7,
-                7,
-                6
-              ],
+              "reps": [7, 7, 6],
               "lb": 175
             }
           ]
@@ -7247,9 +5523,7 @@
           "name": "Unilateral DB Preacher Curl",
           "sets": [
             {
-              "reps": [
-                5
-              ],
+              "reps": [5],
               "lb": 40,
               "perSide": true
             }
@@ -7259,9 +5533,7 @@
           "name": "Unilateral Lat Pullover",
           "sets": [
             {
-              "reps": [
-                8
-              ],
+              "reps": [8],
               "lb": 23,
               "perSide": true
             }
@@ -7277,10 +5549,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                5,
-                4
-              ],
+              "reps": [5, 4],
               "lb": 175
             }
           ]
@@ -7289,10 +5558,7 @@
           "name": "Unilateral Tricep Pushdown",
           "sets": [
             {
-              "reps": [
-                8,
-                7
-              ],
+              "reps": [8, 7],
               "lb": 27
             }
           ]
@@ -7301,11 +5567,7 @@
           "name": "DB Lateral Raise",
           "sets": [
             {
-              "reps": [
-                4,
-                4,
-                3
-              ],
+              "reps": [4, 4, 3],
               "lb": 25,
               "perSide": true
             }
@@ -7315,10 +5577,7 @@
           "name": "Incline Fly",
           "sets": [
             {
-              "reps": [
-                7,
-                5
-              ],
+              "reps": [7, 5],
               "lb": 74
             }
           ]
@@ -7327,10 +5586,7 @@
           "name": "Unilateral DB Skull Crusher",
           "sets": [
             {
-              "reps": [
-                5,
-                5
-              ],
+              "reps": [5, 5],
               "lb": 25
             }
           ]
@@ -7345,10 +5601,7 @@
           "name": "Squat",
           "sets": [
             {
-              "reps": [
-                6,
-                4
-              ],
+              "reps": [6, 4],
               "lb": 235
             }
           ]
@@ -7357,11 +5610,7 @@
           "name": "Leg Press Calf Raises",
           "sets": [
             {
-              "reps": [
-                5,
-                5,
-                3
-              ],
+              "reps": [5, 5, 3],
               "lb": 550
             }
           ]
@@ -7370,11 +5619,7 @@
           "name": "Hamstring Curl",
           "sets": [
             {
-              "reps": [
-                7,
-                5,
-                3
-              ],
+              "reps": [7, 5, 3],
               "lb": 130
             }
           ]
@@ -7383,10 +5628,7 @@
           "name": "Unilateral Leg Extension",
           "sets": [
             {
-              "reps": [
-                6,
-                5
-              ],
+              "reps": [6, 5],
               "lb": 150
             }
           ]
@@ -7401,10 +5643,7 @@
           "name": "Lat Pulldown",
           "sets": [
             {
-              "reps": [
-                5,
-                2
-              ],
+              "reps": [5, 2],
               "lb": 190
             }
           ]
@@ -7413,10 +5652,7 @@
           "name": "Cable Curl",
           "sets": [
             {
-              "reps": [
-                7,
-                7
-              ],
+              "reps": [7, 7],
               "lb": 60
             }
           ]
@@ -7425,10 +5661,7 @@
           "name": "Machine Row",
           "sets": [
             {
-              "reps": [
-                3,
-                4
-              ],
+              "reps": [3, 4],
               "lb": 175
             }
           ]
@@ -7443,10 +5676,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                5,
-                4
-              ],
+              "reps": [5, 4],
               "lb": 175
             }
           ]
@@ -7455,10 +5685,7 @@
           "name": "Unilateral Tricep Pushdown",
           "sets": [
             {
-              "reps": [
-                7,
-                5
-              ],
+              "reps": [7, 5],
               "lb": 30
             }
           ]
@@ -7467,11 +5694,7 @@
           "name": "DB Lateral Raise",
           "sets": [
             {
-              "reps": [
-                6,
-                6,
-                5
-              ],
+              "reps": [6, 6, 5],
               "lb": 25,
               "perSide": true
             }
@@ -7481,10 +5704,7 @@
           "name": "Incline Fly",
           "sets": [
             {
-              "reps": [
-                6,
-                5
-              ],
+              "reps": [6, 5],
               "lb": 66
             }
           ]
@@ -7504,10 +5724,7 @@
           "name": "Squat",
           "sets": [
             {
-              "reps": [
-                5,
-                2
-              ],
+              "reps": [5, 2],
               "lb": 245
             }
           ]
@@ -7516,11 +5733,7 @@
           "name": "Leg Press Calf Raises",
           "sets": [
             {
-              "reps": [
-                6,
-                6,
-                5
-              ],
+              "reps": [6, 6, 5],
               "lb": 550
             }
           ]
@@ -7529,11 +5742,7 @@
           "name": "Hamstring Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                8
-              ],
+              "reps": [8, 8, 8],
               "lb": 130
             }
           ]
@@ -7542,10 +5751,7 @@
           "name": "Unilateral Leg Extension",
           "sets": [
             {
-              "reps": [
-                7,
-                6
-              ],
+              "reps": [7, 6],
               "lb": 150
             }
           ]
@@ -7560,10 +5766,7 @@
           "name": "Lat Pulldown",
           "sets": [
             {
-              "reps": [
-                6,
-                2
-              ],
+              "reps": [6, 2],
               "lb": 190
             }
           ]
@@ -7572,10 +5775,7 @@
           "name": "Cable Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                7
-              ],
+              "reps": [8, 7],
               "lb": 60
             }
           ]
@@ -7584,11 +5784,7 @@
           "name": "Machine Row",
           "sets": [
             {
-              "reps": [
-                7,
-                6,
-                5
-              ],
+              "reps": [7, 6, 5],
               "lb": 175
             }
           ]
@@ -7597,10 +5793,7 @@
           "name": "Unilateral DB Preacher Curl",
           "sets": [
             {
-              "reps": [
-                6,
-                5
-              ],
+              "reps": [6, 5],
               "lb": 40,
               "perSide": true
             }
@@ -7610,10 +5803,7 @@
           "name": "Unilateral Lat Pullover",
           "sets": [
             {
-              "reps": [
-                10,
-                7
-              ],
+              "reps": [10, 7],
               "lb": 27,
               "perSide": true
             }
@@ -7629,10 +5819,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                5,
-                5
-              ],
+              "reps": [5, 5],
               "lb": 175
             }
           ]
@@ -7641,10 +5828,7 @@
           "name": "Unilateral Tricep Pushdown",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 30
             }
           ]
@@ -7653,10 +5837,7 @@
           "name": "DB Lateral Raise",
           "sets": [
             {
-              "reps": [
-                6,
-                6
-              ],
+              "reps": [6, 6],
               "lb": 25,
               "perSide": true
             }
@@ -7672,10 +5853,7 @@
           "name": "Squat",
           "sets": [
             {
-              "reps": [
-                4,
-                2
-              ],
+              "reps": [4, 2],
               "lb": 245
             }
           ]
@@ -7684,11 +5862,7 @@
           "name": "Leg Press Calf Raises",
           "sets": [
             {
-              "reps": [
-                7,
-                7,
-                5
-              ],
+              "reps": [7, 7, 5],
               "lb": 550
             }
           ]
@@ -7697,11 +5871,7 @@
           "name": "Hamstring Curl",
           "sets": [
             {
-              "reps": [
-                6,
-                5,
-                3
-              ],
+              "reps": [6, 5, 3],
               "lb": 140
             }
           ]
@@ -7710,10 +5880,7 @@
           "name": "Unilateral Leg Extension",
           "sets": [
             {
-              "reps": [
-                7,
-                7
-              ],
+              "reps": [7, 7],
               "lb": 150
             }
           ]
@@ -7728,10 +5895,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                5,
-                3
-              ],
+              "reps": [5, 3],
               "lb": 175
             }
           ]
@@ -7756,10 +5920,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 135
             }
           ]
@@ -7768,10 +5929,7 @@
           "name": "Unilateral Tricep Pushdown",
           "sets": [
             {
-              "reps": [
-                8,
-                6
-              ],
+              "reps": [8, 6],
               "lb": 20
             }
           ]
@@ -7780,11 +5938,7 @@
           "name": "DB Lateral Raise",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                8
-              ],
+              "reps": [8, 8, 8],
               "lb": 20,
               "perSide": true
             }
@@ -7794,10 +5948,7 @@
           "name": "Incline Fly",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 46
             }
           ]
@@ -7806,10 +5957,7 @@
           "name": "DB Skull Crusher",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 20
             }
           ]
@@ -7824,10 +5972,7 @@
           "name": "Lat Pulldown",
           "sets": [
             {
-              "reps": [
-                8,
-                5
-              ],
+              "reps": [8, 5],
               "lb": 160
             }
           ]
@@ -7836,10 +5981,7 @@
           "name": "Cable Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                6
-              ],
+              "reps": [8, 6],
               "lb": 53
             }
           ]
@@ -7848,11 +5990,7 @@
           "name": "Row",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                8
-              ],
+              "reps": [8, 8, 8],
               "lb": 130
             }
           ]
@@ -7861,10 +5999,7 @@
           "name": "Unilateral DB Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 30,
               "perSide": true
             }
@@ -7880,9 +6015,7 @@
           "name": "Squat",
           "sets": [
             {
-              "reps": [
-                8
-              ],
+              "reps": [8],
               "lb": 185
             }
           ]
@@ -7891,11 +6024,7 @@
           "name": "Leg Press Calf Raises",
           "sets": [
             {
-              "reps": [
-                8,
-                7,
-                7
-              ],
+              "reps": [8, 7, 7],
               "lb": 450
             }
           ]
@@ -7904,11 +6033,7 @@
           "name": "Hamstring Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                8
-              ],
+              "reps": [8, 8, 8],
               "lb": 105
             }
           ]
@@ -7917,9 +6042,7 @@
           "name": "Unilateral Leg Extension",
           "sets": [
             {
-              "reps": [
-                8
-              ],
+              "reps": [8],
               "lb": 120
             }
           ]
@@ -7934,10 +6057,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 145
             }
           ]
@@ -7946,10 +6066,7 @@
           "name": "Unilateral Tricep Pushdown",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 20
             }
           ]
@@ -7958,10 +6075,7 @@
           "name": "DB Lateral Raise",
           "sets": [
             {
-              "reps": [
-                10,
-                10
-              ],
+              "reps": [10, 10],
               "lb": 20,
               "perSide": true
             }
@@ -7977,10 +6091,7 @@
           "name": "Lat Pulldown",
           "sets": [
             {
-              "reps": [
-                8,
-                6
-              ],
+              "reps": [8, 6],
               "lb": 160
             }
           ]
@@ -7989,10 +6100,7 @@
           "name": "Cable Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                7
-              ],
+              "reps": [8, 7],
               "lb": 53
             }
           ]
@@ -8001,11 +6109,7 @@
           "name": "Row",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                7
-              ],
+              "reps": [8, 8, 7],
               "lb": 145
             }
           ]
@@ -8014,9 +6118,7 @@
           "name": "Unilateral DB Curl",
           "sets": [
             {
-              "reps": [
-                5
-              ],
+              "reps": [5],
               "lb": 35,
               "perSide": true
             }
@@ -8032,9 +6134,7 @@
           "name": "DB Skull Crusher",
           "sets": [
             {
-              "reps": [
-                6
-              ],
+              "reps": [6],
               "lb": 25
             }
           ]
@@ -8043,10 +6143,7 @@
           "name": "Squat",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 185
             }
           ]
@@ -8055,11 +6152,7 @@
           "name": "Leg Press Calf Raises",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                6
-              ],
+              "reps": [8, 8, 6],
               "lb": 450
             }
           ]
@@ -8068,11 +6161,7 @@
           "name": "Hamstring Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                5
-              ],
+              "reps": [8, 8, 5],
               "lb": 120
             }
           ]
@@ -8081,10 +6170,7 @@
           "name": "Unilateral Leg Extension",
           "sets": [
             {
-              "reps": [
-                8,
-                6
-              ],
+              "reps": [8, 6],
               "lb": 120
             }
           ]
@@ -8099,10 +6185,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                8,
-                7
-              ],
+              "reps": [8, 7],
               "lb": 155
             }
           ]
@@ -8111,10 +6194,7 @@
           "name": "Unilateral Tricep Pushdown",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 23
             }
           ]
@@ -8123,11 +6203,7 @@
           "name": "DB Lateral Raise",
           "sets": [
             {
-              "reps": [
-                10,
-                10,
-                9
-              ],
+              "reps": [10, 10, 9],
               "lb": 20,
               "perSide": true
             }
@@ -8137,10 +6213,7 @@
           "name": "Incline Fly",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 54
             }
           ]
@@ -8155,10 +6228,7 @@
           "name": "Lat Pulldown",
           "sets": [
             {
-              "reps": [
-                8,
-                7
-              ],
+              "reps": [8, 7],
               "lb": 160
             }
           ]
@@ -8167,10 +6237,7 @@
           "name": "Cable Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 53
             }
           ]
@@ -8179,11 +6246,7 @@
           "name": "Row",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                8
-              ],
+              "reps": [8, 8, 8],
               "lb": 145
             }
           ]
@@ -8192,9 +6255,7 @@
           "name": "Unilateral DB Curl",
           "sets": [
             {
-              "reps": [
-                8
-              ],
+              "reps": [8],
               "lb": 35,
               "perSide": true
             }
@@ -8210,10 +6271,7 @@
           "name": "Squat",
           "sets": [
             {
-              "reps": [
-                6,
-                6
-              ],
+              "reps": [6, 6],
               "lb": 195
             }
           ]
@@ -8222,10 +6280,7 @@
           "name": "Leg Press Calf Raises",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 450
             }
           ]
@@ -8234,11 +6289,7 @@
           "name": "Hamstring Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                8
-              ],
+              "reps": [8, 8, 8],
               "lb": 120
             }
           ]
@@ -8247,10 +6298,7 @@
           "name": "Unilateral Leg Extension",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 120
             }
           ]
@@ -8265,10 +6313,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                6,
-                6
-              ],
+              "reps": [6, 6],
               "lb": 160
             }
           ]
@@ -8277,15 +6322,11 @@
           "name": "Unilateral Tricep Pushdown",
           "sets": [
             {
-              "reps": [
-                4
-              ],
+              "reps": [4],
               "lb": 27
             },
             {
-              "reps": [
-                7
-              ],
+              "reps": [7],
               "lb": 23
             }
           ]
@@ -8294,11 +6335,7 @@
           "name": "DB Lateral Raise",
           "sets": [
             {
-              "reps": [
-                10,
-                10,
-                10
-              ],
+              "reps": [10, 10, 10],
               "lb": 20,
               "perSide": true
             }
@@ -8308,10 +6345,7 @@
           "name": "Incline Fly",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 60
             }
           ]
@@ -8320,10 +6354,7 @@
           "name": "DB Skull Crusher",
           "sets": [
             {
-              "reps": [
-                6,
-                5
-              ],
+              "reps": [6, 5],
               "lb": 25
             }
           ]
@@ -8338,10 +6369,7 @@
           "name": "Lat Pulldown",
           "sets": [
             {
-              "reps": [
-                8,
-                5
-              ],
+              "reps": [8, 5],
               "lb": 160
             }
           ]
@@ -8350,10 +6378,7 @@
           "name": "Cable Curl",
           "sets": [
             {
-              "reps": [
-                7,
-                6
-              ],
+              "reps": [7, 6],
               "lb": 57
             }
           ]
@@ -8362,11 +6387,7 @@
           "name": "Row",
           "sets": [
             {
-              "reps": [
-                8,
-                7,
-                6
-              ],
+              "reps": [8, 7, 6],
               "lb": 155
             }
           ]
@@ -8375,10 +6396,7 @@
           "name": "Unilateral DB Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                5
-              ],
+              "reps": [8, 5],
               "lb": 35,
               "perSide": true
             }
@@ -8388,10 +6406,7 @@
           "name": "Unilateral Lat Pullover",
           "sets": [
             {
-              "reps": [
-                10,
-                10
-              ],
+              "reps": [10, 10],
               "lb": 23
             }
           ]
@@ -8406,10 +6421,7 @@
           "name": "Squat",
           "sets": [
             {
-              "reps": [
-                8,
-                6
-              ],
+              "reps": [8, 6],
               "lb": 198
             }
           ]
@@ -8418,11 +6430,7 @@
           "name": "Leg Press Calf Raises",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                7
-              ],
+              "reps": [8, 8, 7],
               "lb": 450
             }
           ]
@@ -8431,11 +6439,7 @@
           "name": "Hamstring Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                5
-              ],
+              "reps": [8, 8, 5],
               "lb": 125
             }
           ]
@@ -8444,10 +6448,7 @@
           "name": "Unilateral Leg Extension",
           "sets": [
             {
-              "reps": [
-                8,
-                7
-              ],
+              "reps": [8, 7],
               "lb": 125
             }
           ]
@@ -8462,10 +6463,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                8,
-                5
-              ],
+              "reps": [8, 5],
               "lb": 159.5
             }
           ]
@@ -8474,10 +6472,7 @@
           "name": "Unilateral Tricep Pushdown",
           "sets": [
             {
-              "reps": [
-                10,
-                6
-              ],
+              "reps": [10, 6],
               "lb": 23
             }
           ]
@@ -8486,11 +6481,7 @@
           "name": "DB Lateral Raise",
           "sets": [
             {
-              "reps": [
-                6,
-                6,
-                4
-              ],
+              "reps": [6, 6, 4],
               "lb": 25,
               "perSide": true
             }
@@ -8500,10 +6491,7 @@
           "name": "Incline Fly",
           "sets": [
             {
-              "reps": [
-                8,
-                6
-              ],
+              "reps": [8, 6],
               "lb": 66
             }
           ]
@@ -8512,10 +6500,7 @@
           "name": "DB Skull Crusher",
           "sets": [
             {
-              "reps": [
-                6,
-                5
-              ],
+              "reps": [6, 5],
               "lb": 25
             }
           ]
@@ -8530,10 +6515,7 @@
           "name": "Lat Pulldown",
           "sets": [
             {
-              "reps": [
-                8,
-                7
-              ],
+              "reps": [8, 7],
               "lb": 160
             }
           ]
@@ -8542,10 +6524,7 @@
           "name": "Cable Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                6
-              ],
+              "reps": [8, 6],
               "lb": 57
             }
           ]
@@ -8554,11 +6533,7 @@
           "name": "Row",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                7
-              ],
+              "reps": [8, 8, 7],
               "lb": 155
             }
           ]
@@ -8567,10 +6542,7 @@
           "name": "Unilateral DB Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 35,
               "perSide": true
             }
@@ -8580,10 +6552,7 @@
           "name": "Unilateral Lat Pullover",
           "sets": [
             {
-              "reps": [
-                10,
-                9
-              ],
+              "reps": [10, 9],
               "lb": 27
             }
           ]
@@ -8598,10 +6567,7 @@
           "name": "Squat",
           "sets": [
             {
-              "reps": [
-                8,
-                8
-              ],
+              "reps": [8, 8],
               "lb": 200
             }
           ]
@@ -8610,11 +6576,7 @@
           "name": "Leg Press Calf Raises",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                7
-              ],
+              "reps": [8, 8, 7],
               "lb": 450
             }
           ]
@@ -8623,11 +6585,7 @@
           "name": "Hamstring Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                6
-              ],
+              "reps": [8, 8, 6],
               "lb": 125
             }
           ]
@@ -8636,10 +6594,7 @@
           "name": "Unilateral Leg Extension",
           "sets": [
             {
-              "reps": [
-                8,
-                7
-              ],
+              "reps": [8, 7],
               "lb": 125
             }
           ]
@@ -8654,10 +6609,7 @@
           "name": "Bench Press",
           "sets": [
             {
-              "reps": [
-                8,
-                5
-              ],
+              "reps": [8, 5],
               "lb": 160
             }
           ]
@@ -8666,10 +6618,7 @@
           "name": "Unilateral Tricep Pushdown",
           "sets": [
             {
-              "reps": [
-                10,
-                7
-              ],
+              "reps": [10, 7],
               "lb": 23
             }
           ]
@@ -8678,11 +6627,7 @@
           "name": "DB Lateral Raise",
           "sets": [
             {
-              "reps": [
-                6,
-                6,
-                5
-              ],
+              "reps": [6, 6, 5],
               "lb": 25,
               "perSide": true
             }
@@ -8692,10 +6637,7 @@
           "name": "Incline Fly",
           "sets": [
             {
-              "reps": [
-                8,
-                7
-              ],
+              "reps": [8, 7],
               "lb": 66
             }
           ]
@@ -8704,10 +6646,7 @@
           "name": "DB Skull Crusher",
           "sets": [
             {
-              "reps": [
-                6,
-                6
-              ],
+              "reps": [6, 6],
               "lb": 25
             }
           ]
@@ -8722,10 +6661,7 @@
           "name": "Lat Pulldown",
           "sets": [
             {
-              "reps": [
-                8,
-                7
-              ],
+              "reps": [8, 7],
               "lb": 160
             }
           ]
@@ -8734,10 +6670,7 @@
           "name": "Cable Curl",
           "sets": [
             {
-              "reps": [
-                8,
-                7
-              ],
+              "reps": [8, 7],
               "lb": 57
             }
           ]
@@ -8746,11 +6679,7 @@
           "name": "Row",
           "sets": [
             {
-              "reps": [
-                8,
-                8,
-                8
-              ],
+              "reps": [8, 8, 8],
               "lb": 155
             }
           ]
@@ -8759,10 +6688,7 @@
           "name": "Unilateral DB Curl",
           "sets": [
             {
-              "reps": [
-                4,
-                4
-              ],
+              "reps": [4, 4],
               "lb": 40,
               "perSide": true
             }
@@ -8772,10 +6698,7 @@
           "name": "Unilateral Lat Pullover",
           "sets": [
             {
-              "reps": [
-                10,
-                10
-              ],
+              "reps": [10, 10],
               "lb": 27
             }
           ]
@@ -8794,24 +6717,17 @@
             {
               "lb": 48.5,
               "perSide": true,
-              "reps": [
-                12,
-                12,
-                12
-              ]
+              "reps": [12, 12, 12]
             }
           ],
-          "notes": "22kg DBs, slow eccentric \u2014 hotel gym max"
+          "notes": "22kg DBs, slow eccentric — hotel gym max"
         },
         {
           "name": "Unilateral Tricep Pushdown",
           "sets": [
             {
               "lb": 26.5,
-              "reps": [
-                10,
-                10
-              ]
+              "reps": [10, 10]
             }
           ],
           "notes": "12kg cable stack; reps approximate ('like normal')"
@@ -8822,11 +6738,7 @@
             {
               "lb": 26.5,
               "perSide": true,
-              "reps": [
-                8,
-                8,
-                8
-              ]
+              "reps": [8, 8, 8]
             }
           ],
           "notes": "12kg DBs"
@@ -8844,10 +6756,7 @@
           "sets": [
             {
               "lb": 160,
-              "reps": [
-                8,
-                8
-              ]
+              "reps": [8, 8]
             }
           ],
           "notes": "rep PR at this weight"
@@ -8857,10 +6766,7 @@
           "sets": [
             {
               "lb": 60,
-              "reps": [
-                5,
-                4
-              ]
+              "reps": [5, 4]
             }
           ],
           "notes": "load PR"
@@ -8870,11 +6776,7 @@
           "sets": [
             {
               "lb": 160,
-              "reps": [
-                8,
-                8,
-                8
-              ]
+              "reps": [8, 8, 8]
             }
           ],
           "notes": "weight PR (prev 155)"
@@ -8885,28 +6787,22 @@
             {
               "lb": 38.6,
               "perSide": true,
-              "reps": [
-                6,
-                6
-              ]
+              "reps": [6, 6]
             }
           ],
-          "notes": "17.5kg DBs \u2014 gym's increments, lighter than usual 40lb"
+          "notes": "17.5kg DBs — gym's increments, lighter than usual 40lb"
         },
         {
           "name": "Unilateral Lat Pullover",
           "sets": [
             {
               "lb": 30,
-              "reps": [
-                10,
-                3
-              ]
+              "reps": [10, 3]
             }
           ]
         }
       ],
-      "notes": "Real gym in Lisbon (via Cade), not the hotel dumbbell/cable setup \u2014 weight stack available."
+      "notes": "Real gym in Lisbon (via Cade), not the hotel dumbbell/cable setup — weight stack available."
     },
     {
       "date": "2026-07-29",
@@ -8917,10 +6813,7 @@
           "sets": [
             {
               "lb": 205,
-              "reps": [
-                8,
-                8
-              ]
+              "reps": [8, 8]
             }
           ],
           "notes": "two clean sets; increase to 215 next session"
@@ -8930,11 +6823,7 @@
           "sets": [
             {
               "lb": 470,
-              "reps": [
-                8,
-                8,
-                6
-              ]
+              "reps": [8, 8, 6]
             }
           ],
           "notes": "jumped from 450 (stuck at 8,8,7 for three sessions) straight to 470"
@@ -8944,11 +6833,7 @@
           "sets": [
             {
               "lb": 125,
-              "reps": [
-                8,
-                8,
-                5
-              ]
+              "reps": [8, 8, 5]
             }
           ]
         },
@@ -8957,16 +6842,13 @@
           "sets": [
             {
               "lb": 125,
-              "reps": [
-                8,
-                8
-              ]
+              "reps": [8, 8]
             }
           ],
-          "notes": "cleaned both sets at 125 \u2014 ready to bump next session"
+          "notes": "cleaned both sets at 125 — ready to bump next session"
         }
       ],
-      "notes": "Trained approximately 5:15\u20136:15pm."
+      "notes": "Trained approximately 5:15–6:15pm."
     },
     {
       "date": "2026-07-30",
@@ -8977,10 +6859,7 @@
           "sets": [
             {
               "lb": 165,
-              "reps": [
-                6,
-                4
-              ]
+              "reps": [6, 4]
             }
           ]
         },
@@ -8989,10 +6868,7 @@
           "sets": [
             {
               "lb": 23,
-              "reps": [
-                10,
-                10
-              ]
+              "reps": [10, 10]
             }
           ]
         },
@@ -9002,11 +6878,7 @@
             {
               "lb": 25,
               "perSide": true,
-              "reps": [
-                7,
-                7,
-                6
-              ]
+              "reps": [7, 7, 6]
             }
           ]
         },
@@ -9015,10 +6887,7 @@
           "sets": [
             {
               "lb": 66,
-              "reps": [
-                8,
-                8
-              ]
+              "reps": [8, 8]
             }
           ]
         },
@@ -9027,10 +6896,7 @@
           "sets": [
             {
               "lb": 25,
-              "reps": [
-                6,
-                6
-              ]
+              "reps": [6, 6]
             }
           ]
         }
@@ -9045,10 +6911,7 @@
           "sets": [
             {
               "lb": 170,
-              "reps": [
-                8,
-                6
-              ]
+              "reps": [8, 6]
             }
           ]
         },
@@ -9057,10 +6920,7 @@
           "sets": [
             {
               "lb": 60,
-              "reps": [
-                6,
-                6
-              ]
+              "reps": [6, 6]
             }
           ]
         },
@@ -9069,11 +6929,7 @@
           "sets": [
             {
               "lb": 170,
-              "reps": [
-                7,
-                6,
-                5
-              ]
+              "reps": [7, 6, 5]
             }
           ]
         },
@@ -9083,10 +6939,7 @@
             {
               "lb": 40,
               "perSide": true,
-              "reps": [
-                6,
-                4
-              ]
+              "reps": [6, 4]
             }
           ]
         },
@@ -9095,10 +6948,7 @@
           "sets": [
             {
               "lb": 30,
-              "reps": [
-                10,
-                8
-              ]
+              "reps": [10, 8]
             }
           ]
         }
@@ -9113,10 +6963,7 @@
           "sets": [
             {
               "lb": 215,
-              "reps": [
-                8,
-                8
-              ]
+              "reps": [8, 8]
             }
           ],
           "notes": "two clean sets; increase to 225 next session"
@@ -9126,11 +6973,7 @@
           "sets": [
             {
               "lb": 470,
-              "reps": [
-                8,
-                8,
-                6
-              ]
+              "reps": [8, 8, 6]
             }
           ]
         },
@@ -9139,11 +6982,7 @@
           "sets": [
             {
               "lb": 125,
-              "reps": [
-                8,
-                8,
-                6
-              ]
+              "reps": [8, 8, 6]
             }
           ]
         },
@@ -9152,10 +6991,7 @@
           "sets": [
             {
               "lb": 130,
-              "reps": [
-                7,
-                6
-              ]
+              "reps": [7, 6]
             }
           ]
         }
@@ -9170,10 +7006,7 @@
           "sets": [
             {
               "lb": 165,
-              "reps": [
-                7,
-                5
-              ]
+              "reps": [7, 5]
             }
           ]
         },
@@ -9182,10 +7015,7 @@
           "sets": [
             {
               "lb": 27,
-              "reps": [
-                5,
-                7
-              ]
+              "reps": [5, 7]
             }
           ]
         },
@@ -9195,11 +7025,7 @@
             {
               "lb": 25,
               "perSide": true,
-              "reps": [
-                8,
-                7,
-                5
-              ]
+              "reps": [8, 7, 5]
             }
           ]
         },
@@ -9208,10 +7034,7 @@
           "sets": [
             {
               "lb": 74,
-              "reps": [
-                7,
-                6
-              ]
+              "reps": [7, 6]
             }
           ]
         },
@@ -9220,10 +7043,7 @@
           "sets": [
             {
               "lb": 25,
-              "reps": [
-                6,
-                6
-              ]
+              "reps": [6, 6]
             }
           ]
         }
@@ -9238,10 +7058,7 @@
           "sets": [
             {
               "lb": 170,
-              "reps": [
-                8,
-                7
-              ]
+              "reps": [8, 7]
             }
           ]
         },
@@ -9250,10 +7067,7 @@
           "sets": [
             {
               "lb": 60,
-              "reps": [
-                7,
-                7
-              ]
+              "reps": [7, 7]
             }
           ]
         },
@@ -9262,11 +7076,7 @@
           "sets": [
             {
               "lb": 170,
-              "reps": [
-                7,
-                6,
-                5
-              ]
+              "reps": [7, 6, 5]
             }
           ]
         },
@@ -9276,10 +7086,7 @@
             {
               "lb": 40,
               "perSide": true,
-              "reps": [
-                6,
-                5
-              ]
+              "reps": [6, 5]
             }
           ]
         },
@@ -9288,10 +7095,7 @@
           "sets": [
             {
               "lb": 30,
-              "reps": [
-                10,
-                10
-              ]
+              "reps": [10, 10]
             }
           ]
         }
@@ -9306,10 +7110,7 @@
           "sets": [
             {
               "lb": 225,
-              "reps": [
-                6,
-                6
-              ]
+              "reps": [6, 6]
             }
           ]
         },
@@ -9318,11 +7119,7 @@
           "sets": [
             {
               "lb": 470,
-              "reps": [
-                8,
-                8,
-                7
-              ]
+              "reps": [8, 8, 7]
             }
           ]
         },
@@ -9331,11 +7128,7 @@
           "sets": [
             {
               "lb": 125,
-              "reps": [
-                8,
-                8,
-                7
-              ]
+              "reps": [8, 8, 7]
             }
           ]
         },
@@ -9344,10 +7137,7 @@
           "sets": [
             {
               "lb": 130,
-              "reps": [
-                8,
-                7
-              ]
+              "reps": [8, 7]
             }
           ]
         }
@@ -9362,10 +7152,7 @@
           "sets": [
             {
               "lb": 165,
-              "reps": [
-                8,
-                6
-              ]
+              "reps": [8, 6]
             }
           ]
         },
@@ -9374,10 +7161,7 @@
           "sets": [
             {
               "lb": 27,
-              "reps": [
-                9,
-                8
-              ]
+              "reps": [9, 8]
             }
           ]
         },
@@ -9387,11 +7171,7 @@
             {
               "lb": 25,
               "perSide": true,
-              "reps": [
-                10,
-                8,
-                6
-              ]
+              "reps": [10, 8, 6]
             }
           ]
         },
@@ -9400,10 +7180,7 @@
           "sets": [
             {
               "lb": 74,
-              "reps": [
-                8,
-                6
-              ]
+              "reps": [8, 6]
             }
           ]
         },
@@ -9412,10 +7189,7 @@
           "sets": [
             {
               "lb": 25,
-              "reps": [
-                8,
-                7
-              ]
+              "reps": [8, 7]
             }
           ]
         }
@@ -9430,10 +7204,7 @@
           "sets": [
             {
               "lb": 170,
-              "reps": [
-                8,
-                7
-              ]
+              "reps": [8, 7]
             }
           ]
         },
@@ -9442,10 +7213,7 @@
           "sets": [
             {
               "lb": 60,
-              "reps": [
-                8,
-                6
-              ]
+              "reps": [8, 6]
             }
           ]
         },
@@ -9454,11 +7222,7 @@
           "sets": [
             {
               "lb": 170,
-              "reps": [
-                7,
-                6,
-                6
-              ]
+              "reps": [7, 6, 6]
             }
           ]
         },
@@ -9468,10 +7232,7 @@
             {
               "lb": 40,
               "perSide": true,
-              "reps": [
-                7,
-                6
-              ]
+              "reps": [7, 6]
             }
           ]
         },
@@ -9480,10 +7241,7 @@
           "sets": [
             {
               "lb": 30,
-              "reps": [
-                7,
-                7
-              ]
+              "reps": [7, 7]
             }
           ]
         }
@@ -9498,10 +7256,7 @@
           "sets": [
             {
               "lb": 225,
-              "reps": [
-                7,
-                6
-              ]
+              "reps": [7, 6]
             }
           ]
         },
@@ -9510,11 +7265,7 @@
           "sets": [
             {
               "lb": 470,
-              "reps": [
-                8,
-                8,
-                8
-              ]
+              "reps": [8, 8, 8]
             }
           ]
         },
@@ -9523,11 +7274,7 @@
           "sets": [
             {
               "lb": 125,
-              "reps": [
-                8,
-                8,
-                8
-              ]
+              "reps": [8, 8, 8]
             }
           ]
         },
@@ -9536,10 +7283,7 @@
           "sets": [
             {
               "lb": 130,
-              "reps": [
-                8,
-                8
-              ]
+              "reps": [8, 8]
             }
           ]
         }
@@ -9554,10 +7298,7 @@
           "sets": [
             {
               "lb": 165,
-              "reps": [
-                7,
-                6
-              ]
+              "reps": [7, 6]
             }
           ]
         },
@@ -9566,10 +7307,7 @@
           "sets": [
             {
               "lb": 27,
-              "reps": [
-                10,
-                10
-              ]
+              "reps": [10, 10]
             }
           ]
         },
@@ -9579,11 +7317,7 @@
             {
               "lb": 25,
               "perSide": true,
-              "reps": [
-                10,
-                9,
-                7
-              ]
+              "reps": [10, 9, 7]
             }
           ]
         },
@@ -9592,10 +7326,7 @@
           "sets": [
             {
               "lb": 74,
-              "reps": [
-                8,
-                7
-              ]
+              "reps": [8, 7]
             }
           ]
         },
@@ -9604,10 +7335,7 @@
           "sets": [
             {
               "lb": 25,
-              "reps": [
-                8,
-                8
-              ]
+              "reps": [8, 8]
             }
           ]
         }

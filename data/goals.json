@@ -2,7 +2,10 @@
   {
     "id": "bench-225",
     "lift": "Bench Press",
-    "target": { "lb": 225, "reps": 1 },
+    "target": {
+      "lb": 225,
+      "reps": 1
+    },
     "deadline": "2026-12-01",
     "notes": "the destination — lean bulk is the vehicle. Deadline advanced after 160×8 on Jul 20 (e1RM ~203). Pace: e1RM 210 by Sep 1, 215 by Oct 1, 220 by Nov 1, 225 by Dec 1. Thanksgiving week is the first test window; attempt only after a clean 205×3 or 210×2. Rep progression: rebuild with 6-8 reps, transition primary work toward 4-6 reps in Sep-Oct, 2-4 reps in Nov, and controlled heavy singles before the test while retaining backoff volume. Stretch: 235 by Jan 15, 2027. The risk window is Oct-Dec (historical layoff season)."
   },
@@ -16,7 +19,10 @@
   {
     "id": "squat-315",
     "lift": "Squat",
-    "target": { "lb": 315, "reps": 1 },
+    "target": {
+      "lb": 315,
+      "reps": 1
+    },
     "deadline": "2027-01-01",
     "notes": "Primary deadline Jan 1, 2027, aligned with reaching ~180 lb on the 0.5 lb/wk lean bulk. Stretch test Dec 1, 2026 only if 285x3 or 295x2 and a clean 305 single are achieved first. Pace by e1RM: regain ~285 by Sep 1, reach ~295 by Oct 1, ~305 by Nov 15, and become 315-ready by Dec 15. Rebuild in the 6-8 rep range, then transition primary work toward 4-6 reps, 2-4 reps, and finally heavy singles while retaining controlled backoff volume."
   }
