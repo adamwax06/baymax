@@ -51,7 +51,7 @@ struct ComingSoonView: View {
 
 struct HomeView: View {
     @StateObject private var engine = SyncEngine()
-    @AppStorage("serverURL") private var serverURL = "http://192.168.86.80:4321"
+    @AppStorage("serverURL") private var serverURL = defaultServerURL
     @Environment(\.colorScheme) private var colorScheme
     @State private var showTypes = false
     @State private var showOps = false

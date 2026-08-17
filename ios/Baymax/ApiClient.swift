@@ -1,5 +1,8 @@
 import Foundation
 
+/// mDNS hostname, not an IP — the Mac's DHCP lease rotates and a hardcoded IP silently breaks sync.
+let defaultServerURL = "http://Adams-MacBook-Air.local:4321"
+
 struct ApiClient {
     let baseURL: URL
 

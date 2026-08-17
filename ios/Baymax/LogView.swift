@@ -6,7 +6,7 @@ import SwiftUI
 // appends and re-imports.
 
 struct LogView: View {
-    @AppStorage("serverURL") private var serverURL = "http://192.168.86.80:4321"
+    @AppStorage("serverURL") private var serverURL = defaultServerURL
     @Environment(\.colorScheme) private var colorScheme
 
     @State private var template: Template?
