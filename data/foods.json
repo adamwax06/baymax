@@ -932,5 +932,52 @@
     },
     "allergyChecked": "2026-07-31",
     "notes": "shellfish — explicitly safe per profile"
+  },
+  {
+    "id": "pasta-dry",
+    "name": "Pasta, wheat, dry (penne/spaghetti)",
+    "weighed": "dry",
+    "store": "traderjoes",
+    "per100g": {
+      "kcal": 371,
+      "protein": 13.0,
+      "fat": 1.5,
+      "carbs": 74.7,
+      "fiber": 3.2,
+      "sodium": 6
+    },
+    "allergyChecked": "2026-08-15",
+    "notes": "per100g from FDC SR values for dry wheat pasta; verify box. MUST be plain wheat pasta - skip 'high-protein'/red-lentil/chickpea pastas (legume allergy)"
+  },
+  {
+    "id": "crushed-tomatoes",
+    "name": "Crushed tomatoes, canned",
+    "weighed": "raw",
+    "store": "traderjoes",
+    "per100g": {
+      "kcal": 32,
+      "protein": 1.6,
+      "fat": 0.3,
+      "carbs": 7.3,
+      "fiber": 1.9,
+      "sodium": 130
+    },
+    "allergyChecked": "2026-08-15",
+    "notes": "plain crushed tomatoes only - no 'with peppers' variants (bell pepper allergy). Sodium varies by brand; check can"
+  },
+  {
+    "id": "cucumber",
+    "name": "Cucumber, raw, with peel",
+    "weighed": "raw",
+    "store": "traderjoes",
+    "per100g": {
+      "kcal": 15,
+      "protein": 0.65,
+      "fat": 0.11,
+      "carbs": 3.63,
+      "fiber": 0.5,
+      "sodium": 2
+    },
+    "allergyChecked": "2026-08-15"
   }
 ]

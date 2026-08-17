@@ -7401,6 +7401,100 @@
         }
       ],
       "notes": "Hotel-equipment pull session. Completed before team dinner."
+    },
+    {
+      "date": "2026-08-15",
+      "type": "legs",
+      "exercises": [
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "lb": 225,
+              "reps": [8, 6]
+            }
+          ]
+        },
+        {
+          "name": "Leg Press Calf Raises",
+          "sets": [
+            {
+              "lb": 490,
+              "reps": [8, 8, 6]
+            }
+          ]
+        },
+        {
+          "name": "Hamstring Curl",
+          "sets": [
+            {
+              "lb": 130,
+              "reps": [8, 8, 8]
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Leg Extension",
+          "sets": [
+            {
+              "lb": 135,
+              "reps": [7, 7]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-08-16",
+      "type": "push",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "lb": 165,
+              "reps": [8, 7]
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Tricep Pushdown",
+          "sets": [
+            {
+              "lb": 30,
+              "reps": [8, 5]
+            }
+          ]
+        },
+        {
+          "name": "DB Lateral Raise",
+          "sets": [
+            {
+              "lb": 25,
+              "perSide": true,
+              "reps": [10, 9, 7]
+            }
+          ]
+        },
+        {
+          "name": "Incline Fly",
+          "sets": [
+            {
+              "lb": 74,
+              "reps": [8, 8]
+            }
+          ]
+        },
+        {
+          "name": "DB Skull Crusher",
+          "sets": [
+            {
+              "lb": 25,
+              "reps": [9, 7]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -10,11 +10,6 @@
     "note": "Dairy-milk containers are visible but are not Adam's available milk. Use 0g in the Aug 11-12 plan."
   },
   {
-    "food": "oat-milk",
-    "asOf": "2026-08-11",
-    "note": "Trader Joe's and Kirkland oat-beverage cartons visible. Adam confirmed the photographed Trader Joe's carton is dated October 12, 2026; its matching ingredient list contains no pea/legume protein, soy isolate, tree nuts, peanuts, fish, or fish oil. Adam used 250g for the Aug 11 top-off; 600g remain planned for Aug 12."
-  },
-  {
     "food": "mozzarella-shredded",
     "asOf": "2026-08-11",
     "note": "Cheese is visible in the fridge drawer; exact type and amount unverified. The Aug 11 plan uses 25g, mapped to the closest registered cheese entry."
@@ -33,11 +28,6 @@
     "food": "white-rice-dry",
     "asOf": "2026-08-11",
     "note": "Large white-rice bag visible in the pantry. Adam already ate rice earlier on Aug 11, so it is excluded from every remaining pre-trip meal."
-  },
-  {
-    "food": "honey",
-    "asOf": "2026-08-11",
-    "note": "Large Kirkland jug visible in the pantry. The Souvla dinner replaced the Aug 11 pre-sleep meal, so the remaining Aug 11-12 plan uses 0g."
   },
   {
     "food": "olive-oil",
@@ -80,11 +70,6 @@
     "note": "Frozen strawberry bag visible. Adam used 165g for the Aug 11 top-off; another 150g remain planned for Aug 12."
   },
   {
-    "food": "chia",
-    "asOf": "2026-08-11",
-    "note": "Seed bag visible in the pantry and previously registered. After the Souvla dinner replaced the Aug 11 pre-sleep meal, 15g remain planned for Aug 12."
-  },
-  {
     "food": "medjool-dates",
     "asOf": "2026-08-11",
     "note": "Tub visible in the pantry. Adam chose oat milk and strawberries instead of dates for the Aug 11 top-off; 8 dates remain planned for Aug 12."
@@ -113,5 +98,40 @@
     "name": "HOLD FOR LABEL CHECK — Panang curry sauce",
     "asOf": "2026-08-11",
     "note": "Visible above the microwave. Do not use until the ingredient and may-contain labels are checked for finned fish/fish sauce, peanuts, tree nuts, and legumes."
+  },
+  {
+    "food": "chicken-breast-cooked",
+    "asOf": "2026-08-15",
+    "note": "Freezer photo 8/15: two large Kirkland boneless skinless breast vacuum packs + two tenderloin bags + Kirkland breaded chunks bag. Well over a week of chicken - buy none."
+  },
+  {
+    "food": "ground-beef-85",
+    "asOf": "2026-08-15",
+    "note": "Freezer photo 8/15: ONE ~1lb pack organic ground beef. Covers ~3 beef dinners (150-175g raw each). Buy none this week; restock next trip."
+  },
+  {
+    "food": "oat-milk",
+    "asOf": "2026-08-15",
+    "note": "Adam reports ~3 cartons on hand. No purchase needed for weeks."
+  },
+  {
+    "food": "chia",
+    "asOf": "2026-08-15",
+    "note": "Adam confirms stocked 8/15."
+  },
+  {
+    "food": "honey",
+    "asOf": "2026-08-15",
+    "note": "Adam confirms stocked 8/15."
+  },
+  {
+    "food": "mango",
+    "asOf": "2026-08-15",
+    "note": "Adam confirmed the freezer bag is frozen mango. Smoothie fruit covered - do not buy."
+  },
+  {
+    "name": "freeze-dried strawberries",
+    "asOf": "2026-08-15",
+    "note": "Bag on hand per Adam 8/15. Not a fresh-berry sub in yogurt bowls (no water weight); fine as a topping."
   }
 ]

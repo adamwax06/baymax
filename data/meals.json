@@ -109,10 +109,10 @@
       },
       {
         "food": "honey",
-        "g": 10
+        "g": 25
       }
     ],
-    "notes": "pre-sleep casein-rich feeding"
+    "notes": "pre-sleep casein-rich feeding; honey bumped 10->25g (8/15) — 10g tasted like nothing, half-portions scale it down too far"
   },
   {
     "id": "rest-scramble",
@@ -153,14 +153,11 @@
         "g": 15
       },
       {
-        "food": "pistachios",
-        "g": 20
-      },
-      {
         "food": "mandarin",
         "count": 2
       }
-    ]
+    ],
+    "notes": "Pistachios removed 8/15 (Adam never liked them)."
   },
   {
     "id": "rest-thigh-bowl",
@@ -248,7 +245,7 @@
       },
       {
         "food": "flour-tortilla",
-        "count": 1
+        "count": 2
       },
       {
         "food": "mozzarella-shredded",
@@ -267,7 +264,7 @@
         "g": 50
       }
     ],
-    "notes": "shredded rotisserie chicken warmed with buffalo sauce; pico on top"
+    "notes": "shredded rotisserie chicken warmed with buffalo sauce; pico on top 8/15: split filling across 2 tortillas quesadilla-style — single wrap was way too thick."
   },
   {
     "id": "focaccia-chicken-melt",
@@ -353,5 +350,55 @@
       }
     ],
     "notes": "No-fruit variant of cocoa-berry-yogurt-bowl for when fruit's out — granola instead, cocoa just a dusting (1g). 7/29 in-the-moment version."
+  },
+  {
+    "id": "beef-bolognese-pasta",
+    "name": "Beef bolognese pasta",
+    "items": [
+      {
+        "food": "ground-beef-85",
+        "g": 150
+      },
+      {
+        "food": "pasta-dry",
+        "g": 120
+      },
+      {
+        "food": "crushed-tomatoes",
+        "g": 200
+      },
+      {
+        "food": "olive-oil",
+        "g": 5
+      }
+    ],
+    "notes": "Added 8/15 for variety; uses freezer beef. Beef raw, pasta dry. Garlic/onion/oregano to taste (untracked). Plain wheat pasta only - no legume-flour pasta"
+  },
+  {
+    "id": "shawarma-chicken-bowl",
+    "name": "Shawarma-spiced chicken rice bowl",
+    "items": [
+      {
+        "food": "chicken-breast-cooked",
+        "g": 200
+      },
+      {
+        "food": "white-rice-dry",
+        "g": 120
+      },
+      {
+        "food": "cucumber",
+        "g": 100
+      },
+      {
+        "food": "greek-yogurt-whole",
+        "g": 60
+      },
+      {
+        "food": "olive-oil",
+        "g": 5
+      }
+    ],
+    "notes": "Added 8/15 - homemade version of the Jay's Grill order Adam likes. Shawarma spice: cumin/coriander/paprika/garlic (paprika is safe; NOT bell pepper). Yogurt + grated garlic + lemon = toum-ish sauce"
   }
 ]

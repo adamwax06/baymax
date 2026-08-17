@@ -1008,14 +1008,14 @@
   },
   {
     "date": "2026-08-13",
-    "kcal": 2545,
-    "protein": 123,
-    "carbs": 284,
-    "fat": 98.5,
+    "kcal": 2665,
+    "protein": 120.5,
+    "carbs": 301,
+    "fat": 109,
     "fiber": 14,
     "caffeineMg": 150,
     "meals": [],
-    "method": "reported-as-eaten+plan-derived restaurant estimate (in progress)",
+    "method": "reported-as-eaten + restaurant menu estimates",
     "deviations": [
       {
         "desc": "Tangaroa Terrace Hawaiian Platter with marinated short rib and jasmine rice, reported eaten before the pull workout. Sides, sauce amount, and whether extra rice was served remain unconfirmed.",
@@ -1035,14 +1035,133 @@
         "caffeineMg": 150
       },
       {
-        "desc": "PLANNED 5:30pm team dinner at Naples Ristorante e Bar: Pollo alla Parmigiana (breaded chicken, tomato sauce, mozzarella and Parmesan) with spaghetti marinara. Midpoint estimate; confirm what was actually eaten after dinner.",
-        "kcal": 1300,
-        "protein": 65,
-        "carbs": 132,
-        "fat": 55,
-        "fiber": 8
+        "desc": "5:30pm team dinner at Naples Ristorante e Bar: chicken penne alfredo with broccoli, reported eaten (replaces the planned chicken parmigiana). Restaurant-portion midpoint; cream sauce volume and chicken weight are the main uncertainty.",
+        "kcal": 1250,
+        "protein": 62,
+        "carbs": 108,
+        "fat": 65,
+        "fiber": 7
+      },
+      {
+        "desc": "Dole Whip (pineapple soft serve) at the Disneyland Hotel tiki bar (Tangaroa Terrace / Trader Sam's) after dinner, reported eaten. Standard swirl serving assumed; a float or larger souvenir cup would be higher.",
+        "kcal": 170,
+        "protein": 0.5,
+        "carbs": 41,
+        "fat": 0.5,
+        "fiber": 1
       }
     ],
-    "notes": "August 13 is in progress. The Hawaiian platter and Monster/Corn Flakes are reported as eaten. Naples chicken parmigiana dinner is plan-derived and must be reconciled after the meal. The current midpoint plan projects 2,545 kcal / 123g protein, roughly 485 kcal and 29g protein below the 3,030 kcal / 152g protein target; restaurant portions create a plausible day range of roughly 2,270-2,820 kcal. At Naples, request a Special Diets-trained Cast Member and verify the chicken breading/fryer, marinara, cheese and pasta against every profile allergy; do not share unverified family-style dishes."
+    "notes": "August 13 closed out as reported: Hawaiian platter, pre-lift Monster + Corn Flakes cup, chicken penne alfredo with broccoli at Naples (not the planned parmigiana), and a Dole Whip at the tiki bar after. Day lands near 2,665 kcal / 121g protein, roughly 365 kcal and 31g protein under the 3,030 kcal / 152g protein target, with fat high (109g vs ~75g) from the alfredo cream sauce. Restaurant portions make the plausible range roughly 2,400-2,950 kcal. No allergy conflicts in the alfredo (dairy, wheat, garlic, broccoli), though cross-contact at a shared kitchen was not independently verified."
+  },
+  {
+    "date": "2026-08-14",
+    "kcal": 2150,
+    "protein": 136,
+    "carbs": 189,
+    "fat": 95,
+    "fiber": 11,
+    "meals": [],
+    "method": "reported-as-eaten + menu-derived restaurant estimate (final)",
+    "deviations": [
+      {
+        "desc": "~12:00pm sweetgreen Chicken Caesar Wrap with extra chicken, reported eaten. Menu-derived midpoint; sweetgreen wrap builds vary by location and dressing amount.",
+        "kcal": 810,
+        "protein": 67,
+        "carbs": 55,
+        "fat": 37,
+        "fiber": 5
+      },
+      {
+        "desc": "Dinner at Jay's Grill: chicken shawarma plate — chicken, rice, naan, garlic sauce (toum), plus a side salad. Reported eaten. Restaurant-portion midpoint; rice volume and toum amount are the main uncertainty (toum is nearly all oil and swings this 150+ kcal either way).",
+        "kcal": 1340,
+        "protein": 69,
+        "carbs": 134,
+        "fat": 58,
+        "fiber": 6
+      }
+    ],
+    "notes": "August 14 final: sweetgreen Chicken Caesar Wrap at lunch, Jay's Grill chicken shawarma plate for dinner, no evening top-off (considered a late DoorDash order ~midnight but went to bed instead). Day closes at ~2,150 kcal / 136g protein — roughly 900 kcal and 16g protein under the 3,050/152 target. Legs day was pushed to Aug 15, so the squat session runs on a lighter fuel day than planned. ALLERGY FLAG carried over: sweetgreen Caesar dressing is conventionally anchovy-based — confirm ingredients before reordering; Jay's side salad may have contained chickpeas/bell peppers. No reactions reported."
+  },
+  {
+    "date": "2026-08-15",
+    "kcal": 4120,
+    "protein": 209,
+    "carbs": 472,
+    "fat": 144,
+    "fiber": 34,
+    "meals": [
+      "cocoa-berry-yogurt-bowl",
+      "butter-chicken-potatoes",
+      "mini-chicken-rice-bowl",
+      "pre-lift-carb",
+      "post-lift-smoothie",
+      "beef-potato-dinner",
+      "half-nightcap"
+    ],
+    "method": "planned-as-eaten + reported condiment deviations (in progress — finalize at day close)",
+    "deviations": [
+      {
+        "desc": "~5g Chick-fil-A honey mustard on the dinner potatoes, reported eaten. Contains refined soybean oil (allergy-safe: refined oil, whole-soy exception) and egg.",
+        "kcal": 11,
+        "protein": 0,
+        "carbs": 1,
+        "fat": 1,
+        "fiber": 0
+      },
+      {
+        "desc": "Small squeeze of sriracha (~5g) on the dinner beef, reported eaten. Hot sauce explicitly allergy-safe.",
+        "kcal": 5,
+        "protein": 0,
+        "carbs": 1,
+        "fat": 0,
+        "fiber": 0
+      },
+      {
+        "desc": "~1:00am (8/16): 2 large slices Papa John's Epic Pepperoni-Stuffed Crust pepperoni pizza, reported eaten (edible-driven late snack). Menu-derived estimate at ~440 kcal/slice; crust stuffing amount is the main uncertainty. Allergy-safe (dough soybean oil is refined — tolerated exception).",
+        "kcal": 880,
+        "protein": 36,
+        "carbs": 84,
+        "fat": 44,
+        "fiber": 4
+      }
+    ],
+    "notes": "First day on the new 3,200 kcal target (retargeted 8/15). Ate the calendar plan: cocoa berry yogurt bowl, butter chicken + potatoes (as eaten), mini chicken rice bowl, pre-lift toast, legs session (squat 225x8,6), post-lift smoothie v5, beef + potato dinner, half nightcap (honey bumped 5g->15g for taste, +30 kcal). Condiment deviations add ~16 kcal — noise. Day closed with a ~1am edible-driven deviation: 2 slices Papa John's Epic Pepperoni-Stuffed Crust (+880 kcal), pushing the day to ~4,120 — roughly 900 over target. One-off; watch the scale trend rather than compensating."
+  },
+  {
+    "date": "2026-08-16",
+    "kcal": 2104,
+    "protein": 145,
+    "carbs": 213,
+    "fat": 74,
+    "fiber": 17,
+    "meals": ["cocoa-berry-yogurt-bowl", "pre-lift-carb"],
+    "method": "reported-as-eaten; restaurant + off-plan items are menu/label-derived estimates",
+    "deviations": [
+      {
+        "desc": "Proposition Chicken 'Flipped' rotisserie chicken sandwich + sage potato chips (DoorDash, ordered 3 — 2 for friends, 1 eaten). Menu-derived estimate.",
+        "kcal": 850,
+        "protein": 45,
+        "carbs": 70,
+        "fat": 40,
+        "fiber": 4
+      },
+      {
+        "desc": "Oat milk 300g, plain (evening).",
+        "kcal": 113,
+        "protein": 3,
+        "carbs": 11,
+        "fat": 6,
+        "fiber": 1
+      },
+      {
+        "desc": "Costco rotisserie chicken, breast meat only no skin, ~200g (evening).",
+        "kcal": 310,
+        "protein": 57,
+        "carbs": 0,
+        "fat": 7,
+        "fiber": 0
+      }
+    ],
+    "notes": "Push day (bench session). Skipped from plan: shawarma bowl (recipe given but not made), post-lift smoothie, beef + sweet potato plate, nightcap (not confirmed eaten by day end). Ate: yogurt bowl, pre-lift toast, then Prop Chicken flipped sandwich at ~7pm + late oat milk and rotisserie breast. ~1,100 under the 3,200 target — roughly cancels 8/15's ~900 pizza overage; two-day average on plan. Protein 145g, acceptable."
   }
 ]
