@@ -7,15 +7,15 @@
     "allergies": [
       "ALL tree nuts EXCEPT pistachio and chestnut (both safe)",
       "peanuts",
-      "finned fish (salmon, tuna, cod, etc.) AND fish oil — including supplements/softgels and fish-oil-fortified products (some milks, juices, 'omega-3' foods). Shellfish IS safe",
-      "legumes: beans, peas, chickpeas, lentils — EXCEPT whole soy (tofu, edamame), which is safe. Watch for hidden pea protein / chickpea flour / lentil flour in protein powders, bars, pastas, and 'high-protein' products",
+      "finned fish (salmon, tuna, cod, etc.) AND fish oil \u2014 including supplements/softgels and fish-oil-fortified products (some milks, juices, 'omega-3' foods). Shellfish IS safe",
+      "legumes: beans, peas, chickpeas, lentils \u2014 EXCEPT whole soy (tofu, edamame), which is safe. Watch for hidden pea protein / chickpea flour / lentil flour in protein powders, bars, pastas, and 'high-protein' products",
       "watermelon",
       "banana",
-      "avocado (the fruit) — refined avocado OIL is tolerated and fine",
-      "bell peppers — SPECIFICALLY bell peppers: jalapeños, chilis, cayenne, paprika, hot sauce, and salsa are all safe"
+      "avocado (the fruit) \u2014 refined avocado OIL is tolerated and fine",
+      "bell peppers \u2014 SPECIFICALLY bell peppers: jalape\u00f1os, chilis, cayenne, paprika, hot sauce, and salsa are all safe"
     ],
     "avoid": [
-      "soy protein isolate/concentrate (common in protein powders and bars) — questionable, not confirmed; whole soy like tofu and edamame is fine"
+      "soy protein isolate/concentrate (common in protein powders and bars) \u2014 questionable, not confirmed; whole soy like tofu and edamame is fine"
     ],
     "explicitlyOk": [
       "pistachios",
@@ -29,10 +29,19 @@
       "kiwi",
       "mango",
       "papaya",
-      "jalapeños/hot sauce/paprika/salsa",
+      "jalape\u00f1os/hot sauce/paprika/salsa",
       "refined avocado oil"
     ],
-    "sharedKitchen": "Adam shares the kitchen — items in the home (almond milk, nut pesto, walnut snacks) may belong to others. Never infer safety from kitchen contents; only profile.diet governs. Cross-contact awareness applies to shared surfaces/utensils.",
-    "note": "Everything in allergies is a medical allergy: when curating data/foods.json (docs/foods.md) or suggesting any food, check 'may contain' / shared-facility warnings for ALL allergy entries — not just ingredient lists. Pea protein is the biggest hidden risk in fitness foods. The avoid list is ingredient-level only."
-  }
+    "sharedKitchen": "Adam shares the kitchen \u2014 items in the home (almond milk, nut pesto, walnut snacks) may belong to others. Never infer safety from kitchen contents; only profile.diet governs. Cross-contact awareness applies to shared surfaces/utensils.",
+    "note": "Everything in allergies is a medical allergy: when curating data/foods.json (docs/foods.md) or suggesting any food, check 'may contain' / shared-facility warnings for ALL allergy entries \u2014 not just ingredient lists. Pea protein is the biggest hidden risk in fitness foods. The avoid list is ingredient-level only."
+  },
+  "supplements": [
+    {
+      "name": "Creatine monohydrate",
+      "doseG": 5,
+      "frequency": "daily",
+      "startDate": "2026-08-21",
+      "note": "Maintenance dose, no loading phase. Timing irrelevant (saturation-based) - consistency is the only thing that matters. Adds ~1-2 lb of intracellular water over the first 1-3 weeks: weigh-ins from 2026-08-21 through ~2026-09-05 are confounded and must not be used for the TDEE recompute."
+    }
+  ]
 }

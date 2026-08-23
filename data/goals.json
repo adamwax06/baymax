@@ -7,14 +7,14 @@
       "reps": 1
     },
     "deadline": "2026-12-01",
-    "notes": "the destination — lean bulk is the vehicle. Deadline advanced after 160×8 on Jul 20 (e1RM ~203). Pace: e1RM 210 by Sep 1, 215 by Oct 1, 220 by Nov 1, 225 by Dec 1. Thanksgiving week is the first test window; attempt only after a clean 205×3 or 210×2. Rep progression: rebuild with 6-8 reps, transition primary work toward 4-6 reps in Sep-Oct, 2-4 reps in Nov, and controlled heavy singles before the test while retaining backoff volume. Stretch: 235 by Jan 15, 2027. The risk window is Oct-Dec (historical layoff season)."
+    "notes": "the destination \u2014 lean bulk is the vehicle. Deadline advanced after 160\u00d78 on Jul 20 (e1RM ~203). Pace: e1RM 210 by Sep 1, 215 by Oct 1, 220 by Nov 1, 225 by Dec 1. Thanksgiving week is the first test window; attempt only after a clean 205\u00d73 or 210\u00d72. Rep progression: rebuild with 6-8 reps, transition primary work toward 4-6 reps in Sep-Oct, 2-4 reps in Nov, and controlled heavy singles before the test while retaining backoff volume. Stretch: 235 by Jan 15, 2027. The risk window is Oct-Dec (historical layoff season)."
   },
   {
     "id": "weight-180",
     "metric": "body_mass",
     "targetLb": 180,
     "ratePerWeekLb": 0.5,
-    "notes": "instrumental to bench-225; keep lean-ish. RETARGETED 8/15: scale flat Jul 15-Aug 15 (76.7->76.5kg) on ~2,950 target; empirical TDEE 2,865 (18 logged days/21d window, observed -0.2 lb/wk). New target 3,200 kcal (~TDEE+335, ~0.65 lb/wk ceiling), protein 150-155g in 4+ feedings, fat ~75g, carbs fill. Recompute ~Sep 1. Prior note (Iraki/Morton split) still governs macro shape."
+    "notes": "instrumental to bench-225; keep lean-ish. RETARGETED 8/15: scale flat Jul 15-Aug 15 (76.7->76.5kg) on ~2,950 target; empirical TDEE 2,865 (18 logged days/21d window, observed -0.2 lb/wk). New target 3,200 kcal (~TDEE+335, ~0.65 lb/wk ceiling), protein 150-155g in 4+ feedings, fat ~75g, carbs fill. Recompute PUSHED to ~Sep 15 (was Sep 1): creatine started 8/21 (5g/day, see profile.supplements) and its ~1-2 lb water gain lands inside the Sep 1 window, which would inflate the apparent surplus and wrongly trigger a calorie cut. Run the recompute on a window starting ~Sep 5, once water has plateaued; ignore the 8/21-8/23 weigh-ins as trend data. Prior note (Iraki/Morton split) still governs macro shape."
   },
   {
     "id": "squat-315",
