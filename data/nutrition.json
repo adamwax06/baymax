@@ -1293,5 +1293,45 @@
    }
   ],
   "notes": "Saturday, legs day - FIRST DAY ON TARGET since the 3,200 retarget on 8/15. Closed at 3,358 kcal / 184g protein across 4 feedings. Woke ~10am. Cocoa yogurt bowl 10:30 (mango swapped in, all fresh fruit was moldy). Chipotle burrito ~12:20 on DoorDash, replacing the planned chicken rice bowl - chicken + extra chicken, no beans (legume), no fajita veggies (bell pepper), no guacamole (avocado); $37.23. Legs 3pm (moved from 5pm for Topgolf). Post-lift smoothie 4:30 made WITHOUT yogurt - ran out after the 300g breakfast bowl - so 200g mango instead, costing 17g protein that the burrito's extra chicken had already covered. Topgolf ~5-10:30, ate nothing there as intended. Dinner ~11:15pm: beef + 360g potato + 110g dry rice + 35g mozzarella + 40g Chick-fil-A honey mustard. Ran late but got eaten - the failure mode from 8/20 and 8/21 did not repeat. Fat came in at ~107g vs the ~75g target; carbs 469g. Acceptable on a day that finally hit calories and protein. GREEK YOGURT AND ALL FRESH FRUIT ARE OUT - restock before tomorrow. WEIGH-IN 8/22: 75.75 kg / 167.0 lb. Trend flat Jul 16-Aug 19 then -1.96 lb Aug 20-22 from the travel deficit. No body-composition data exists (no body fat, lean mass, or waist) - waist tape measurements recommended alongside the morning weigh-in so recomp can actually be verified."
+ },
+ {
+  "date": "2026-08-23",
+  "kcal": 3141,
+  "protein": 180,
+  "carbs": 283,
+  "fat": 141,
+  "fiber": 23,
+  "meals": [
+   "post-lift-smoothie",
+   "beef-bolognese-pasta"
+  ],
+  "method": "reported-as-eaten; RT Rotisserie is a menu-derived estimate, home meals weighed raw/dry",
+  "deviations": [
+   {
+    "desc": "RT Rotisserie rice bowl (lamb + extra chicken, Doug's Fire Ranch instead of garlic aioli) replacing the planned midday meal: rotisserie-fat rice, pickled onions, Napa cabbage, cucumber, radish, seed mix, herbs. Ate the whole bowl. Estimate reuses the 8/10 full-size build (fire ranch is calorically ~= garlic aioli). Plausible range 1,000-1,400 kcal - RT publishes no nutrition or serving weights.",
+    "kcal": 1200,
+    "protein": 62,
+    "carbs": 82,
+    "fat": 69,
+    "fiber": 4
+   },
+   {
+    "desc": "post-lift-smoothie: NO GREEK YOGURT for the second day running (not restocked after 8/22). Omitted the 200g yogurt, mango left at the recipe's 120g rather than bumped to 200 like 8/22. Net delta vs the planned meal.",
+    "kcal": -189,
+    "protein": -17,
+    "carbs": -10,
+    "fat": -8,
+    "fiber": 4
+   },
+   {
+    "desc": "beef-bolognese-pasta scaled up hard as the day's recovery meal: beef 460g raw (vs 150) and STRAINED, pasta 150g dry (vs 120), Rao's Homemade marinara 187g in place of 200g crushed tomatoes, no olive oil (beef fat covered it). Straining is estimated at ~20g fat / ~180 kcal removed; real yield varies. Net delta vs the planned meal.",
+    "kcal": 621,
+    "protein": 61,
+    "carbs": 17,
+    "fat": 30,
+    "fiber": -1
+   }
+  ],
+  "notes": "Sunday, push day - SECOND STRAIGHT DAY ON TARGET. Closed at 3,141 kcal / 180g protein, but on only 3 feedings and badly back-loaded. Trained push ~12:30pm FASTED on a sugared energy drink (bread out of the house); bench 170x7,5 first time at the load, e1RM ~210, hits the Sep 1 pace target 9 days early - see weights.json. Ate the RT Rotisserie bowl and the post-lift smoothie, then NOTHING from roughly 2:30pm to 10:30pm. At 10pm the day stood at ~1,700 kcal / 72g protein; the smoothie ran without yogurt for the second day and contributed only ~10g protein, so protein was the real gap, not calories. Recovery meal ~10:30pm: 460g raw 85/15 beef strained + 150g dry Santa Lucia rigatone penne (plain durum semolina, allergy-verified on the box) + 187g Rao's marinara. Got eaten - the 8/20-8/21 failure mode did not repeat. Fat closed at ~141g vs the ~75g target, driven by the RT bowl's 69g before any cooking; carbs 283g, the lowest in a while with no rice in the house. GREEK YOGURT STILL OUT - two days now, and it has cost 34g of protein across 8/22-8/23. Restock is the single highest-leverage fix. NO RICE in the house either. Weigh-in 8/23 outstanding; per goals.json, ignore 8/21-8/23 weigh-ins as trend data (creatine day 3, water confound). TDEE recompute still ~Sep 15."
  }
 ]
