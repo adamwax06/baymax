@@ -1336,13 +1336,13 @@
  },
  {
   "date": "2026-08-24",
-  "kcal": 1435,
-  "protein": 64,
+  "kcal": 1365,
+  "protein": 58,
   "carbs": 170,
-  "fat": 51,
-  "fiber": 8,
+  "fat": 49,
+  "fiber": 7,
   "meals": [],
-  "method": "in-progress; lunch is a photo-based restaurant estimate",
+  "method": "in-progress; lunch is a photo-based restaurant estimate, parfait is from published brand nutrition data",
   "deviations": [
    {
     "desc": "Restaurant chicken katsu curry (unplanned lunch, photo-estimated): full plate of white rice (~350g cooked), fried panko chicken cutlet (~180g), Japanese curry sauce (~200g), fukujinzuke pickles, plus ~2 spoonfuls of miso soup. Salad untouched. Plausible range 900-1,250 kcal.",
@@ -1353,14 +1353,14 @@
     "fiber": 4
    },
    {
-    "desc": "Proper Food yogurt parfait with strawberry chia compote (unplanned pre-lift snack ~5:15pm, photo-estimated): ~8oz cup, yogurt base + granola layer + strawberry-chia compote. Plausible range 300-450 kcal; Proper Food publishes no macros.",
-    "kcal": 380,
-    "protein": 14,
+    "desc": "Proper Food 'Proper Yogurt Parfait with Strawberry Compote' (unplanned pre-lift snack ~5:15pm). Macros from Proper Food's published Summer 2026 CA nutrition PDF (properfood.com/wp-content/uploads/2015/05/Nutrition_Allergen_CA.pdf), not estimated. 39g of the 50g carbs are sugar. Allergen table lists DAIRY ONLY - no nuts, no gluten.",
+    "kcal": 310,
+    "protein": 8,
     "carbs": 50,
-    "fat": 13,
-    "fiber": 4
+    "fat": 11,
+    "fiber": 3
    }
   ],
-  "notes": "Monday, day in progress - lunch + pre-lift snack. ALLERGY FLAG (lunch): miso soup dashi is almost always bonito (finned fish); only ~2 spoonfuls eaten, but watch for any reaction and skip miso soup at restaurants going forward. Katsu curry roux is wheat-based (fine); salad and dressing skipped. ALLERGY FLAG (snack): Proper Food parfait granola - unverified for tree nuts / shared-facility. Ate it before checking; confirm the granola ingredients with Proper Food before repeating. Pre-lift timing is good (~5:15pm, mostly carbs, low fat) but protein-light at ~14g. Day stands at ~1,435 kcal / 64g protein before the lift - needs ~1,750 kcal / 115g protein tonight to hit 3,200/180."
+  "notes": "Monday, day in progress - lunch + pre-lift snack. ALLERGY FLAG (lunch): miso soup dashi is almost always bonito (finned fish); only ~2 spoonfuls eaten, but watch for any reaction and skip miso soup at restaurants going forward. Katsu curry roux is wheat-based (fine); salad and dressing skipped. Pre-lift parfait is allergy-clear (Proper Food lists dairy as its only allergen) but nearly pure sugar - 39g sugar / 8g protein. Day stands at 1,365 kcal / 58g protein before the lift; needs ~1,835 kcal / 122g protein tonight to hit 3,200/180."
  }
 ]
