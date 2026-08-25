@@ -10004,6 +10004,78 @@
     }
    ],
    "notes": "Push. First bench in 7 days (travel). Trained ~12:30pm FASTED - only a sugared energy drink, no pre-lift carb (bread out of the house). Muscle glycogen full from 8/22's 469g carbs. Creatine day 3 (5g/day, started 8/21) - too early for any real effect. Bench 170 first time: 7,5. Set 1 hit the prediction exactly (e1RM ~210 Epley, hits the Sep 1 pace target 9 days early); set 2 dropped 2 reps instead of the usual 1, which matches his established first-week-at-a-new-load pattern (see 7/30 165 6,4 and 8/03 165 7,5, both consolidating to 8,7 by 8/16). Adam overrode two of my calls and was right on both: kept pushdown at 30 (8,7 vs 8,5 on 8/16 - the 8/16 result was a bad day, not too much load) and jumped incline fly 74->80 unprompted (8,5). Lateral raise 10,10,8 and skull crusher 10,8 are both PRs. 4 of 5 lifts progressed. Set count stayed at Adam's usual 2 on bench - I had prescribed a 3rd and he correctly pushed back on changing load and volume in the same session."
+  },
+  {
+   "date": "2026-08-24",
+   "exercises": [
+    {
+     "name": "Lat Pulldown",
+     "sets": [
+      {
+       "reps": [
+        8,
+        8
+       ],
+       "lb": 170
+      }
+     ],
+     "notes": "PR at this load - previous best at 170 was 8,7 (7/31, 8/4, 8/8)."
+    },
+    {
+     "name": "Cable Curl",
+     "sets": [
+      {
+       "reps": [
+        8,
+        8
+       ],
+       "lb": 60
+      }
+     ],
+     "notes": "PR at this load - previous best at 60 was 8,6 (8/8)."
+    },
+    {
+     "name": "Row",
+     "sets": [
+      {
+       "reps": [
+        7,
+        7,
+        6
+       ],
+       "lb": 170
+      }
+     ],
+     "notes": "Best 170 session yet; prior were 7,6,5 / 7,6,5 / 7,6,6."
+    },
+    {
+     "name": "Unilateral DB Curl",
+     "sets": [
+      {
+       "reps": [
+        8,
+        6
+       ],
+       "lb": 40
+      }
+     ],
+     "notes": "PR at 40s - previous best 7,6 (8/8)."
+    },
+    {
+     "name": "Unilateral Lat Pullover",
+     "sets": [
+      {
+       "reps": [
+        7,
+        7
+       ],
+       "lb": 33
+      }
+     ],
+     "notes": "New load, up from 30s."
+    }
+   ],
+   "notes": "Pull day, moved to 6:15pm. Adam ran his own progression rather than the prescribed one and PR'd on all five movements. The prescription had called for holding 165 on pulldown / 155 on row on the theory that 8/21 was a post-stall reset - it was a DELOAD inside a normal 160->170 July climb, so the caution was wrong and would have cost a PR. Pull is progressing fine on 2 working sets (3 on row); the volume problem is bench-specific."
   }
  ]
 }
