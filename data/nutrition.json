@@ -1336,12 +1336,14 @@
  },
  {
   "date": "2026-08-24",
-  "kcal": 1365,
-  "protein": 58,
-  "carbs": 170,
-  "fat": 49,
-  "fiber": 7,
-  "meals": [],
+  "kcal": 2689,
+  "protein": 155,
+  "carbs": 297,
+  "fat": 94,
+  "fiber": 16,
+  "meals": [
+   "beef-bolognese-pasta"
+  ],
   "method": "in-progress; lunch is a photo-based restaurant estimate, parfait is from published brand nutrition data",
   "deviations": [
    {
@@ -1359,8 +1361,16 @@
     "carbs": 50,
     "fat": 11,
     "fiber": 3
+   },
+   {
+    "desc": "beef-bolognese-pasta scaled to close the day: 400g raw 85/15 beef STRAINED, 150g dry pasta, 200g crushed tomatoes, NO olive oil. Portions solved to hit the 3,200/150-155g target alongside a yogurt-free smoothie. Strain loss estimated at 29% of fat (~13g / ~117 kcal), extrapolated from the 8/23 note; real yield varies.",
+    "kcal": 1324,
+    "protein": 97,
+    "carbs": 127,
+    "fat": 45,
+    "fiber": 9
    }
   ],
-  "notes": "Monday, day in progress - lunch + pre-lift snack. ALLERGY FLAG (lunch): miso soup dashi is almost always bonito (finned fish); only ~2 spoonfuls eaten, but watch for any reaction and skip miso soup at restaurants going forward. Katsu curry roux is wheat-based (fine); salad and dressing skipped. Pre-lift parfait is allergy-clear (Proper Food lists dairy as its only allergen) but nearly pure sugar - 39g sugar / 8g protein. Day stands at 1,365 kcal / 58g protein before the lift; needs ~1,835 kcal / 122g protein tonight to hit 3,200/180."
+  "notes": "Monday, pull day. Lift moved 4:15pm -> 6:15pm around a 5:15pm Proper Food parfait; PR'd all five pull movements (pulldown 170x8,8; row 170x7,7,6 - see weights.json). Dinner ~9pm: bolognese at 400g strained beef / 150g pasta, no oil. PROTEIN TARGET MET at 155g on the bolognese alone. SMOOTHIE NOT YET CONFIRMED - if it was skipped the day closes at 2,689 kcal, 511 under target and below the 30-day mean of 2,892; with it, 3,199 kcal / 166g. Context: bodyweight 76.75 kg today, identical to 2025-08-24, and bench e1RM has sat at 210 for 12 months. Calories are the binding constraint on bench-225, not programming. ALLERGY FLAG (lunch): ~2 spoonfuls of miso soup, dashi is usually bonito."
  }
 ]
