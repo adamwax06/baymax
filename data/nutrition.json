@@ -1336,11 +1336,11 @@
  },
  {
   "date": "2026-08-24",
-  "kcal": 1055,
-  "protein": 50,
-  "carbs": 120,
-  "fat": 38,
-  "fiber": 4,
+  "kcal": 1435,
+  "protein": 64,
+  "carbs": 170,
+  "fat": 51,
+  "fiber": 8,
   "meals": [],
   "method": "in-progress; lunch is a photo-based restaurant estimate",
   "deviations": [
@@ -1351,8 +1351,16 @@
     "carbs": 120,
     "fat": 38,
     "fiber": 4
+   },
+   {
+    "desc": "Proper Food yogurt parfait with strawberry chia compote (unplanned pre-lift snack ~5:15pm, photo-estimated): ~8oz cup, yogurt base + granola layer + strawberry-chia compote. Plausible range 300-450 kcal; Proper Food publishes no macros.",
+    "kcal": 380,
+    "protein": 14,
+    "carbs": 50,
+    "fat": 13,
+    "fiber": 4
    }
   ],
-  "notes": "Monday, day in progress - lunch only so far. ALLERGY FLAG: miso soup dashi is almost always bonito (finned fish); only ~2 spoonfuls eaten, but watch for any reaction and skip miso soup at restaurants going forward. Katsu curry roux is wheat-based (fine); salad and dressing skipped."
+  "notes": "Monday, day in progress - lunch + pre-lift snack. ALLERGY FLAG (lunch): miso soup dashi is almost always bonito (finned fish); only ~2 spoonfuls eaten, but watch for any reaction and skip miso soup at restaurants going forward. Katsu curry roux is wheat-based (fine); salad and dressing skipped. ALLERGY FLAG (snack): Proper Food parfait granola - unverified for tree nuts / shared-facility. Ate it before checking; confirm the granola ingredients with Proper Food before repeating. Pre-lift timing is good (~5:15pm, mostly carbs, low fat) but protein-light at ~14g. Day stands at ~1,435 kcal / 64g protein before the lift - needs ~1,750 kcal / 115g protein tonight to hit 3,200/180."
  }
 ]
