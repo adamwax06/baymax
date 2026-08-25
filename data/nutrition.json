@@ -1336,15 +1336,16 @@
  },
  {
   "date": "2026-08-24",
-  "kcal": 2689,
-  "protein": 155,
-  "carbs": 297,
-  "fat": 94,
-  "fiber": 16,
+  "kcal": 3199,
+  "protein": 166,
+  "carbs": 391,
+  "fat": 107,
+  "fiber": 29,
   "meals": [
-   "beef-bolognese-pasta"
+   "beef-bolognese-pasta",
+   "post-lift-smoothie"
   ],
-  "method": "in-progress; lunch is a photo-based restaurant estimate, parfait is from published brand nutrition data",
+  "method": "reported-as-eaten; lunch is a photo-based restaurant estimate, parfait from published brand nutrition data, home meals weighed raw/dry",
   "deviations": [
    {
     "desc": "Restaurant chicken katsu curry (unplanned lunch, photo-estimated): full plate of white rice (~350g cooked), fried panko chicken cutlet (~180g), Japanese curry sauce (~200g), fukujinzuke pickles, plus ~2 spoonfuls of miso soup. Salad untouched. Plausible range 900-1,250 kcal.",
@@ -1369,8 +1370,16 @@
     "carbs": 127,
     "fat": 45,
     "fiber": 9
+   },
+   {
+    "desc": "post-lift-smoothie run WITHOUT GREEK YOGURT for the third straight day (out since 8/22). Oat milk bumped 200->250g and mango 120->200g to recover some of the lost calories; Adam confirms it blended. Net vs the v5 recipe: -200g yogurt, +50g oat milk, +80g mango.",
+    "kcal": 510,
+    "protein": 11,
+    "carbs": 94,
+    "fat": 13,
+    "fiber": 13
    }
   ],
-  "notes": "Monday, pull day. Lift moved 4:15pm -> 6:15pm around a 5:15pm Proper Food parfait; PR'd all five pull movements (pulldown 170x8,8; row 170x7,7,6 - see weights.json). Dinner ~9pm: bolognese at 400g strained beef / 150g pasta, no oil. PROTEIN TARGET MET at 155g on the bolognese alone. SMOOTHIE NOT YET CONFIRMED - if it was skipped the day closes at 2,689 kcal, 511 under target and below the 30-day mean of 2,892; with it, 3,199 kcal / 166g. Context: bodyweight 76.75 kg today, identical to 2025-08-24, and bench e1RM has sat at 210 for 12 months. Calories are the binding constraint on bench-225, not programming. ALLERGY FLAG (lunch): ~2 spoonfuls of miso soup, dashi is usually bonito."
+  "notes": "Monday, pull day. TARGET HIT: 3,199 kcal / 166g protein on 4 feedings - first clean day in a while and only the 11th of 31 logged days at or above 3,200. Lift moved 4:15pm -> 6:15pm around a 5:15pm Proper Food parfait; PR'd all five pull movements (pulldown 170x8,8; row 170x7,7,6 - see weights.json). Smoothie ran yogurt-free for the THIRD straight day; oat milk and mango were scaled up to compensate, but that is calories not protein - restocking Greek yogurt is still the highest-leverage fix. Dinner ~9pm: 400g strained beef / 150g pasta, no oil; protein target was met on the bolognese alone. Fat closed at 107g vs the ~75g target, driven by 400g of 85/15 - buy 93/7 next restock. CONTEXT: bodyweight 76.75 kg today, identical to 2025-08-24, and bench e1RM has sat at 210 for 12 months while squat went 232 -> 285. Calories are the binding constraint on bench-225, not programming. Days like this one are the fix. ALLERGY FLAG (lunch): ~2 spoonfuls of miso soup, dashi is usually bonito."
  }
 ]
