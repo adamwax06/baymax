@@ -1384,11 +1384,11 @@
   },
   {
     "date": "2026-08-25",
-    "kcal": 2883,
-    "protein": 162,
-    "carbs": 305,
-    "fat": 110,
-    "fiber": 24,
+    "kcal": 3008,
+    "protein": 165,
+    "carbs": 326,
+    "fat": 113,
+    "fiber": 26,
     "meals": [],
     "method": "reported-as-eaten; home meal weighed raw, Chipotle from published per-ingredient nutrition, Sweetgreen from third-party aggregator component data",
     "deviations": [
@@ -1417,14 +1417,14 @@
         "fiber": 14
       },
       {
-        "desc": "One 250g glass of oat milk, ~9:45pm - pure calories to close the gap, negligible protein.",
-        "kcal": 125,
-        "protein": 3,
-        "carbs": 21,
-        "fat": 3,
-        "fiber": 2
+        "desc": "Two 250g glasses of oat milk, ~9:45pm and ~10:15pm - pure calories to close the gap, negligible protein.",
+        "kcal": 250,
+        "protein": 6,
+        "carbs": 42,
+        "fat": 6,
+        "fiber": 4
       }
     ],
-    "notes": "2883 kcal / 162g protein against the 3,200 / 150-155g target. Got full at lunch (left ~1/4 of the Sweetgreen bowl) and again at dinner, so the day was rebuilt around protein-dense picks rather than volume. STILL OUTSTANDING at time of logging: the second half of the Chipotle bowl (~505 kcal / 41g protein) is counted here but not yet eaten."
+    "notes": "3008 kcal / 165g protein against the 3,200 / 150-155g target. Got full at lunch (left ~1/4 of the Sweetgreen bowl) and again at dinner, so the day was rebuilt around protein-dense picks rather than volume. STILL OUTSTANDING at time of logging: the second half of the Chipotle bowl (~505 kcal / 41g protein) is counted here but not yet eaten."
   }
 ]
