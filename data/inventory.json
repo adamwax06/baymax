@@ -10,12 +10,7 @@
     "note": "Dairy-milk containers are visible but are not Adam's available milk. Use 0g in the Aug 11-12 plan."
   },
   {
-    "food": "mozzarella-shredded",
-    "asOf": "2026-08-11",
-    "note": "Cheese is visible in the fridge drawer; exact type and amount unverified. The Aug 11 plan uses 25g, mapped to the closest registered cheese entry."
-  },
-  {
-    "name": "DO NOT USE — spoiled bread",
+    "name": "DO NOT USE \u2014 spoiled bread",
     "asOf": "2026-08-11",
     "note": "Adam reported the bread in the house is bad and will not replace it before the trip. Excluded from all plans."
   },
@@ -70,19 +65,14 @@
     "note": "Frozen strawberry bag visible. Adam used 165g for the Aug 11 top-off; another 150g remain planned for Aug 12."
   },
   {
-    "food": "medjool-dates",
-    "asOf": "2026-08-11",
-    "note": "Tub visible in the pantry. Adam chose oat milk and strawberries instead of dates for the Aug 11 top-off; 8 dates remain planned for Aug 12."
-  },
-  {
     "food": "butter",
     "asOf": "2026-08-11",
     "note": "Butter visible in the fridge drawer; not needed for the Aug 11-12 plan."
   },
   {
-    "name": "pickled jalapeños, ketchup, mayonnaise, mustard, Chick-fil-A sauces, marinara, Alfredo sauce, jam, and other condiments",
+    "name": "pickled jalape\u00f1os, ketchup, mayonnaise, mustard, Chick-fil-A sauces, marinara, Alfredo sauce, jam, and other condiments",
     "asOf": "2026-08-11",
-    "note": "Visible across the fridge door and pantry; not diet-tracked unless explicitly weighed. Jalapeños and hot sauces are safe under the profile's bell-pepper-specific allergy."
+    "note": "Visible across the fridge door and pantry; not diet-tracked unless explicitly weighed. Jalape\u00f1os and hot sauces are safe under the profile's bell-pepper-specific allergy."
   },
   {
     "name": "Kirkland energy drink variety pack",
@@ -90,12 +80,12 @@
     "note": "Visible in the pantry; not included in the meal plan."
   },
   {
-    "name": "DO NOT USE — walnuts, Banza chickpea pasta, and Silk almond milk",
+    "name": "DO NOT USE \u2014 walnuts, Banza chickpea pasta, and Silk almond milk",
     "asOf": "2026-08-11",
     "note": "Visible in the shared kitchen and excluded under Adam's tree-nut and legume allergies. Avoid cross-contact from shared surfaces and utensils."
   },
   {
-    "name": "HOLD FOR LABEL CHECK — Panang curry sauce",
+    "name": "HOLD FOR LABEL CHECK \u2014 Panang curry sauce",
     "asOf": "2026-08-11",
     "note": "Visible above the microwave. Do not use until the ingredient and may-contain labels are checked for finned fish/fish sauce, peanuts, tree nuts, and legumes."
   },
@@ -108,11 +98,6 @@
     "food": "ground-beef-85",
     "asOf": "2026-08-15",
     "note": "Freezer photo 8/15: ONE ~1lb pack organic ground beef. Covers ~3 beef dinners (150-175g raw each). Buy none this week; restock next trip."
-  },
-  {
-    "food": "oat-milk",
-    "asOf": "2026-08-15",
-    "note": "Adam reports ~3 cartons on hand. No purchase needed for weeks."
   },
   {
     "food": "chia",
@@ -133,5 +118,70 @@
     "name": "freeze-dried strawberries",
     "asOf": "2026-08-15",
     "note": "Bag on hand per Adam 8/15. Not a fresh-berry sub in yogurt bowls (no water weight); fine as a topping."
+  },
+  {
+    "food": "mozzarella-shredded",
+    "asOf": "2026-08-26",
+    "note": "Photo 8/26: large TJ's Shredded Mozzarella bag, top fridge shelf, looks unopened/mostly full. Buy none."
+  },
+  {
+    "food": "oat-milk",
+    "asOf": "2026-08-26",
+    "note": "Photo 8/26: TJ's Non-Dairy Oat Beverage carton in the door. Only ONE visible, not the 3 reported 8/15. Nearby Silk Almond is a roommate's and is an allergy exclusion."
+  },
+  {
+    "food": "medjool-dates",
+    "asOf": "2026-08-26",
+    "note": "Photo 8/26: pitted Medjool date tub in the pantry, roughly half full. Buy none."
+  },
+  {
+    "food": "egg",
+    "asOf": "2026-08-26",
+    "note": "Photo 8/26: carton on the top fridge shelf, ~8 eggs visible. Plan needs 3. Buy none."
+  },
+  {
+    "food": "mandarin",
+    "asOf": "2026-08-26",
+    "note": "Photo 8/26: orange net bag of mandarins on the top fridge shelf. Buy none."
+  },
+  {
+    "food": "flour-tortilla",
+    "asOf": "2026-08-26",
+    "note": "Photo 8/26: flour tortilla pack in the pantry, middle shelf. Buy none."
+  },
+  {
+    "food": "cocoa-powder",
+    "asOf": "2026-08-26",
+    "note": "Photo 8/26: Nestle Toll House cocoa tin, pantry top shelf. TJ's does not carry cocoa powder anyway."
+  },
+  {
+    "food": "sweet-potato",
+    "asOf": "2026-08-26",
+    "note": "Photo 8/26: purple net bag of sweet potatoes, pantry bottom shelf. Count unverified; plan needs ~700g."
+  },
+  {
+    "food": "olive-oil",
+    "asOf": "2026-08-26",
+    "note": "Photo 8/26: extra virgin olive oil bottle, pantry top shelf, over half full."
+  },
+  {
+    "name": "Rao's Homemade Marinara",
+    "asOf": "2026-08-26",
+    "note": "Photo 8/26: unopened jar, pantry top shelf. Substitutes for crushed-tomatoes in beef-bolognese-pasta (TJ's store 226 carries no crushed tomatoes)."
+  },
+  {
+    "name": "UNVERIFIED - bread in pantry",
+    "asOf": "2026-08-26",
+    "note": "Photo 8/26: a hand-labeled bread bag on the pantry middle shelf, plus what looks like a sourdough boule. Age unknown and there is a standing 'DO NOT USE - spoiled bread' note from 8/11. Confirm with Adam before planning bread-italian into pre-lift-carb."
+  },
+  {
+    "name": "UNVERIFIED - fridge crisper greens",
+    "asOf": "2026-08-26",
+    "note": "Photo 8/26: crisper drawers are nearly empty; two green plastic bags of unclear contents. Could be spinach or herbs. Plan assumes NO spinach on hand (400g needed)."
+  },
+  {
+    "name": "DO NOT USE - Banza chickpea pasta (roommate's)",
+    "asOf": "2026-08-26",
+    "note": "Photo 8/26: Banza box on the pantry middle shelf. Chickpea = legume allergy. Also a bag of walnuts (pantry top left) and Silk Almond milk (fridge door) - tree nut allergy. Shared kitchen; cross-contact applies."
   }
 ]
