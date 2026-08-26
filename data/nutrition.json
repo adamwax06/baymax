@@ -1384,11 +1384,11 @@
   },
   {
     "date": "2026-08-25",
-    "kcal": 1079,
-    "protein": 66,
-    "carbs": 84,
-    "fat": 54,
-    "fiber": 13,
+    "kcal": 888,
+    "protein": 62,
+    "carbs": 57,
+    "fat": 47,
+    "fiber": 8,
     "meals": [],
     "method": "reported-as-eaten; weighed raw at home, restaurant bowl from third-party aggregator component data",
     "deviations": [
@@ -1401,14 +1401,14 @@
         "fiber": 0
       },
       {
-        "desc": "Sweetgreen custom warm bowl (unplanned lunch): blackened chicken, warm wild rice, shredded kale, roasted broccoli, pickled onions, corn salsa, roasted sweetpotato, green goddess ranch. Component macros from third-party aggregators (fastfoodnutrition.org / fatsecret); sweetgreen does not publish a full nutrition PDF. Chicken logged at 190 kcal / 28g protein for a ~4oz cooked portion - aggregators list 130-150 kcal / 17-20g, which is implausibly low for that weight. If their number is right, the day is ~50 kcal and ~10g protein lower than logged. Green goddess ranch is dairy+egg, no anchovy and no tahini - it is allergy-safe, correcting the earlier caution.",
-        "kcal": 775,
-        "protein": 39,
-        "carbs": 83,
-        "fat": 33,
-        "fiber": 13
+        "desc": "Sweetgreen custom warm bowl (unplanned lunch, ~3/4 eaten): blackened chicken, warm wild rice, shredded kale, roasted broccoli, pickled onions, corn salsa, roasted sweetpotato, green goddess ranch. Photo of leftovers (6pm) shows no chicken and little rice: he picked those out, so the uneaten quarter is almost all kale/broccoli/corn/sweetpotato. Logged as 100% of the chicken, ~80% of the rice, ~75% of the dressing, ~50-60% of the vegetables - NOT a flat 75% haircut, which would have undercounted protein. Component macros from third-party aggregators (fastfoodnutrition.org / fatsecret); sweetgreen publishes no full nutrition PDF. Chicken at 190 kcal / 28g for a ~4oz cooked portion; aggregators say 130-150 / 17-20g, implausibly low. Green goddess ranch is dairy+egg, no anchovy and no tahini - allergy-safe.",
+        "kcal": 584,
+        "protein": 35,
+        "carbs": 56,
+        "fat": 26,
+        "fiber": 8
       }
     ],
-    "notes": "Day in progress. 2121 kcal / 86g protein left against the 3,200 / 150-155g target - protein is the binding constraint tonight."
+    "notes": "Day in progress (6pm). 2312 kcal / 90g protein left against the 3,200 / 150-155g target. Got full at lunch; the gap is unusually large for the hour."
   }
 ]
