@@ -183,5 +183,10 @@
     "food": "cucumber",
     "asOf": "2026-08-26",
     "note": "Adam reports one cucumber on hand 8/26. Wed-Sun plan needs 100g (shawarma-chicken-bowl); covered, buy none."
+  },
+  {
+    "food": "pasta-dry",
+    "asOf": "2026-08-26",
+    "note": "Adam confirms a penne bag in the pantry with enough for the week 8/26. Wed-Sun plan needs 240g across two bolognese meals; buy none. Shape swap from spaghetti is cosmetic."
   }
 ]
