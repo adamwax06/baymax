@@ -1384,13 +1384,13 @@
   },
   {
     "date": "2026-08-25",
-    "kcal": 888,
-    "protein": 62,
-    "carbs": 57,
-    "fat": 47,
-    "fiber": 8,
+    "kcal": 3068,
+    "protein": 155,
+    "carbs": 344,
+    "fat": 115,
+    "fiber": 26,
     "meals": [],
-    "method": "reported-as-eaten; weighed raw at home, restaurant bowl from third-party aggregator component data",
+    "method": "reported-as-eaten; home meal weighed raw, Chipotle from published per-ingredient nutrition, Sweetgreen from third-party aggregator component data",
     "deviations": [
       {
         "desc": "Ad-hoc meal (no planned meal id): 75g raw 85/15 ground beef + 2 large eggs. Cooked-in fat retained (not strained).",
@@ -1407,8 +1407,24 @@
         "carbs": 56,
         "fat": 26,
         "fiber": 8
+      },
+      {
+        "desc": "Chipotle burrito bowl (unplanned dinner, ~7pm): 2x Chipotle Honey Chicken, white rice (extra), roasted chili-corn salsa, fresh tomato salsa, queso blanco, romaine. No beans, no fajita veggies, no guac - all three are allergy exclusions (legume / bell pepper / avocado). Plus a side of chips and a flour tortilla, both eaten in full with the first half of the bowl. Honey chicken is thigh: ~210 kcal / 27g protein per 4oz vs regular chicken's 180 / 32g. Macros from Chipotle's published per-ingredient nutrition, not estimated. Bowl eaten in two sittings (half ~7pm, half ~10pm) after getting full.",
+        "kcal": 1930,
+        "protein": 87,
+        "carbs": 245,
+        "fat": 62,
+        "fiber": 14
+      },
+      {
+        "desc": "2 cups (~500g) oat milk, ~9:45pm - pure calories to close the gap, negligible protein.",
+        "kcal": 250,
+        "protein": 6,
+        "carbs": 42,
+        "fat": 6,
+        "fiber": 4
       }
     ],
-    "notes": "Day in progress (6pm). 2312 kcal / 90g protein left against the 3,200 / 150-155g target. Got full at lunch; the gap is unusually large for the hour."
+    "notes": "3068 kcal / 155g protein against the 3,200 / 150-155g target - protein at the top of the range, calories 132 under. Got full at lunch (left ~1/4 of the Sweetgreen bowl) and again at dinner (split the Chipotle bowl across two sittings), so the day was rebuilt around protein-dense picks rather than volume."
   }
 ]
