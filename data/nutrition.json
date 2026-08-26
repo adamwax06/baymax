@@ -1426,5 +1426,26 @@
       }
     ],
     "notes": "3008 kcal / 165g protein against the 3,200 / 150-155g target - protein 10g over the top of the range, calories 192 under. Everything logged was eaten; day is closed. Got full at lunch (left ~1/4 of the Sweetgreen bowl) and again at dinner (Chipotle split across two sittings ~7pm and ~10:30pm), so the day was rebuilt around protein-dense picks rather than volume."
+  },
+  {
+    "date": "2026-08-26",
+    "kcal": 427,
+    "protein": 28,
+    "carbs": 68,
+    "fat": 6,
+    "fiber": 6,
+    "meals": [],
+    "method": "reported-as-eaten; weighed",
+    "deviations": [
+      {
+        "desc": "Breakfast yogurt bowl: NONFAT greek yogurt 230g, blueberries 150g, Very Berry Granola 30g, honey 25g. Yogurt is nonfat (confirmed from the 8/26 TJ's receipt + lid check) - the two 32oz plain tubs are nonfat, only the 16oz is whole milk.",
+        "kcal": 427,
+        "protein": 28,
+        "carbs": 68,
+        "fat": 6,
+        "fiber": 6
+      }
+    ],
+    "notes": "Day in progress. Legs (squat 235) at 12:30. Planned day ~3,200 / 183P."
   }
 ]
