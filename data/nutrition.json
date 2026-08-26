@@ -1384,10 +1384,10 @@
   },
   {
     "date": "2026-08-25",
-    "kcal": 3068,
-    "protein": 155,
-    "carbs": 344,
-    "fat": 115,
+    "kcal": 3008,
+    "protein": 165,
+    "carbs": 326,
+    "fat": 113,
     "fiber": 26,
     "meals": [],
     "method": "reported-as-eaten; home meal weighed raw, Chipotle from published per-ingredient nutrition, Sweetgreen from third-party aggregator component data",
@@ -1409,11 +1409,11 @@
         "fiber": 8
       },
       {
-        "desc": "Chipotle burrito bowl (unplanned dinner, ~7pm): 2x Chipotle Honey Chicken, white rice (extra), roasted chili-corn salsa, fresh tomato salsa, queso blanco, romaine. No beans, no fajita veggies, no guac - all three are allergy exclusions (legume / bell pepper / avocado). Plus a side of chips and a flour tortilla, both eaten in full with the first half of the bowl. Honey chicken is thigh: ~210 kcal / 27g protein per 4oz vs regular chicken's 180 / 32g. Macros from Chipotle's published per-ingredient nutrition, not estimated. Bowl eaten in two sittings (half ~7pm, half ~10pm) after getting full.",
-        "kcal": 1930,
-        "protein": 87,
-        "carbs": 245,
-        "fat": 62,
+        "desc": "Chipotle burrito bowl (unplanned dinner, ~7pm): 2x regular chicken, white rice (extra), roasted chili-corn salsa, fresh tomato salsa, queso blanco, romaine. No beans, no fajita veggies, no guac - all three are allergy exclusions (legume / bell pepper / avocado). Plus a side of chips and a flour tortilla, both eaten in full with the first half of the bowl. Regular chicken (breast+thigh), 180 kcal / 32g protein per 4oz - the honey chicken quoted earlier in the session was not what he ordered. Macros from Chipotle's published per-ingredient nutrition, not estimated. Bowl eaten in two sittings (half ~7pm, half ~10pm) after getting full.",
+        "kcal": 1870,
+        "protein": 97,
+        "carbs": 227,
+        "fat": 60,
         "fiber": 14
       },
       {
@@ -1425,6 +1425,6 @@
         "fiber": 4
       }
     ],
-    "notes": "3068 kcal / 155g protein against the 3,200 / 150-155g target - protein at the top of the range, calories 132 under. Got full at lunch (left ~1/4 of the Sweetgreen bowl) and again at dinner (split the Chipotle bowl across two sittings), so the day was rebuilt around protein-dense picks rather than volume."
+    "notes": "3008 kcal / 165g protein against the 3,200 / 150-155g target - protein 10g over the top of the range, calories 192 under. Got full at lunch (left ~1/4 of the Sweetgreen bowl) and again at dinner (split the Chipotle bowl across two sittings), so the day was rebuilt around protein-dense picks rather than volume."
   }
 ]
