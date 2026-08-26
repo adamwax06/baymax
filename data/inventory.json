@@ -35,11 +35,6 @@
     "note": "Sriracha bottles and Trader Joe's Sriracha BBQ sauce visible. The Souvla dinner replaced the remaining Aug 11 home meal, so no additional sriracha is planned before the trip."
   },
   {
-    "food": "ground-beef-85",
-    "asOf": "2026-08-11",
-    "note": "Kirkland organic ground-beef packs visible in the freezer; exact lean percentage should be confirmed on the pack. Not needed before the Aug 12 Anaheim flight; leave frozen."
-  },
-  {
     "food": "kirkland-breaded-tenders",
     "asOf": "2026-08-11",
     "note": "Opened bag visible in the freezer. Adam chose oat milk and strawberries instead of the Aug 11 chicken top-off; 240g remain planned for Aug 12. Current registered label is 84g = 140 kcal / 16g protein."
@@ -93,11 +88,6 @@
     "food": "chicken-breast-cooked",
     "asOf": "2026-08-15",
     "note": "Freezer photo 8/15: two large Kirkland boneless skinless breast vacuum packs + two tenderloin bags + Kirkland breaded chunks bag. Well over a week of chicken - buy none."
-  },
-  {
-    "food": "ground-beef-85",
-    "asOf": "2026-08-15",
-    "note": "Freezer photo 8/15: ONE ~1lb pack organic ground beef. Covers ~3 beef dinners (150-175g raw each). Buy none this week; restock next trip."
   },
   {
     "food": "chia",
@@ -183,5 +173,10 @@
     "name": "DO NOT USE - Banza chickpea pasta (roommate's)",
     "asOf": "2026-08-26",
     "note": "Photo 8/26: Banza box on the pantry middle shelf. Chickpea = legume allergy. Also a bag of walnuts (pantry top left) and Silk Almond milk (fridge door) - tree nut allergy. Shared kitchen; cross-contact applies."
+  },
+  {
+    "food": "ground-beef-85",
+    "asOf": "2026-08-26",
+    "note": "Adam reports ~500g in the freezer 8/26. Wed-Sun plan needs 650g (175g x2 rest-beef-plate, 150g x2 bolognese), so buy one 1lb pack; the ~300g surplus refreezes."
   }
 ]
