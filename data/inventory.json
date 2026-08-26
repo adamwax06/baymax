@@ -100,11 +100,6 @@
     "note": "Adam confirms stocked 8/15."
   },
   {
-    "food": "mango",
-    "asOf": "2026-08-15",
-    "note": "Adam confirmed the freezer bag is frozen mango. Smoothie fruit covered - do not buy."
-  },
-  {
     "name": "freeze-dried strawberries",
     "asOf": "2026-08-15",
     "note": "Bag on hand per Adam 8/15. Not a fresh-berry sub in yogurt bowls (no water weight); fine as a topping."
@@ -113,11 +108,6 @@
     "food": "mozzarella-shredded",
     "asOf": "2026-08-26",
     "note": "Photo 8/26: large TJ's Shredded Mozzarella bag, top fridge shelf, looks unopened/mostly full. Buy none."
-  },
-  {
-    "food": "oat-milk",
-    "asOf": "2026-08-26",
-    "note": "Photo 8/26: TJ's Non-Dairy Oat Beverage carton in the door. Only ONE visible, not the 3 reported 8/15. Nearby Silk Almond is a roommate's and is an allergy exclusion."
   },
   {
     "food": "medjool-dates",
@@ -130,11 +120,6 @@
     "note": "Photo 8/26: carton on the top fridge shelf, ~8 eggs visible. Plan needs 3. Buy none."
   },
   {
-    "food": "mandarin",
-    "asOf": "2026-08-26",
-    "note": "Photo 8/26: orange net bag of mandarins on the top fridge shelf. Buy none."
-  },
-  {
     "food": "flour-tortilla",
     "asOf": "2026-08-26",
     "note": "Photo 8/26: flour tortilla pack in the pantry, middle shelf. Buy none."
@@ -143,11 +128,6 @@
     "food": "cocoa-powder",
     "asOf": "2026-08-26",
     "note": "Photo 8/26: Nestle Toll House cocoa tin, pantry top shelf. TJ's does not carry cocoa powder anyway."
-  },
-  {
-    "food": "sweet-potato",
-    "asOf": "2026-08-26",
-    "note": "Photo 8/26: purple net bag of sweet potatoes, pantry bottom shelf. Count unverified; plan needs ~700g."
   },
   {
     "food": "olive-oil",
@@ -175,18 +155,78 @@
     "note": "Photo 8/26: Banza box on the pantry middle shelf. Chickpea = legume allergy. Also a bag of walnuts (pantry top left) and Silk Almond milk (fridge door) - tree nut allergy. Shared kitchen; cross-contact applies."
   },
   {
-    "food": "ground-beef-85",
+    "food": "greek-yogurt-nonfat",
     "asOf": "2026-08-26",
-    "note": "Adam reports ~500g in the freezer 8/26. Wed-Sun plan needs 650g (175g x2 rest-beef-plate, 150g x2 bolognese), so buy one 1lb pack; the ~300g surplus refreezes."
+    "note": "Receipt 8/26: TWO 32oz plain Greek at $5.49 (=1,814g). TJ's sells plain WHOLE only in 16oz, so these are almost certainly NONFAT - 59 kcal/100g vs 95. UNCONFIRMED, check the tub lid. If nonfat, the week loses ~650 kcal and gains protein."
   },
   {
-    "food": "cucumber",
+    "food": "greek-yogurt-whole",
     "asOf": "2026-08-26",
-    "note": "Adam reports one cucumber on hand 8/26. Wed-Sun plan needs 100g (shawarma-chicken-bowl); covered, buy none."
+    "note": "Receipt 8/26: ONE 16oz plain whole milk Greek at $2.99 (453g). Plan wanted 2,360g of whole; the rest of the tubs are the 32oz nonfat."
+  },
+  {
+    "food": "ground-beef-96",
+    "asOf": "2026-08-26",
+    "note": "Receipt 8/26: Ground Beef 96/4, 1lb, $8.99 - NOT the 85/15 planned. 116 kcal/100g vs 215. Plus ~500g of 85/15 already in the freezer. Use the freezer 85/15 first for the calorie-dense meals."
+  },
+  {
+    "name": "ground turkey breast",
+    "asOf": "2026-08-26",
+    "note": "Receipt 8/26: $6.49. Unplanned. Very lean (~120 kcal/100g). Covers a focaccia-melt replacement."
+  },
+  {
+    "name": "natural ground chicken",
+    "asOf": "2026-08-26",
+    "note": "Receipt 8/26: $4.49. Unplanned. ~140-170 kcal/100g depending on fat. Covers a focaccia-melt replacement."
+  },
+  {
+    "food": "mango",
+    "asOf": "2026-08-26",
+    "note": "Receipt 8/26: TWO bags Organic Mango Chunks at $2.99 (frozen). Plus whatever was already in the freezer. Smoothie + tropical bowl fully covered."
+  },
+  {
+    "food": "granola-very-berry",
+    "asOf": "2026-08-26",
+    "note": "Receipt 8/26: Very Berry Granola GF, $3.99. Goes in all 6 yogurt bowls at 30g."
+  },
+  {
+    "food": "bread-sourdough",
+    "asOf": "2026-08-26",
+    "note": "Receipt 8/26: Sourdough Batard $3.49 - the pre-lift toast is unblocked. Also an Oatmeal Gluten Free Roll $3.99."
+  },
+  {
+    "food": "oat-milk",
+    "asOf": "2026-08-26",
+    "note": "Receipt 8/26: one more Oat Beverage $2.99, so ~2 cartons on hand."
+  },
+  {
+    "food": "mandarin",
+    "asOf": "2026-08-26",
+    "note": "Receipt 8/26: Josie's Mandarins 2lb $3.69."
+  },
+  {
+    "food": "blueberries",
+    "asOf": "2026-08-26",
+    "note": "Receipt 8/26: 18oz $5.99 (510g). Plan needs 300g."
+  },
+  {
+    "food": "raspberries",
+    "asOf": "2026-08-26",
+    "note": "Receipt 8/26: 12oz $6.49 (340g). Plan needs 150g."
+  },
+  {
+    "food": "potato",
+    "asOf": "2026-08-26",
+    "note": "Receipt 8/26: 2 russets @ $0.99."
   },
   {
     "food": "pasta-dry",
     "asOf": "2026-08-26",
-    "note": "Adam confirms a penne bag in the pantry with enough for the week 8/26. Wed-Sun plan needs 240g across two bolognese meals; buy none. Shape swap from spaghetti is cosmetic."
+    "note": "Receipt 8/26: Spaghettini #2 $1.29, on top of the pantry penne."
+  },
+  {
+    "name": "NOT BOUGHT 8/26 - focaccia, pico de gallo, baby spinach, rotisserie chicken",
+    "asOf": "2026-08-26",
+    "note": "Receipt 8/26 confirms none of these were purchased. Kills BOTH focaccia chicken melts (Fri lunch, Sat lunch, 888 kcal / 63P each) and removes all spinach (400g planned across 4 meals). Ground turkey breast + ground chicken were bought instead and should absorb those two meal slots."
   }
 ]
