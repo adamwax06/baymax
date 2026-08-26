@@ -50,11 +50,6 @@
     "note": "Kirkland organic boneless skinless chicken thighs visible in the freezer. Not needed before the Aug 12 Anaheim flight; leave frozen."
   },
   {
-    "food": "spinach",
-    "asOf": "2026-08-11",
-    "note": "Two large baby-spinach tubs visible in the fridge. The Aug 11 rice bowl used 80g; Souvla replaced the remaining spinach meal, so none is additionally planned before Disneyland."
-  },
-  {
     "food": "strawberries",
     "asOf": "2026-08-11",
     "note": "Frozen strawberry bag visible. Adam used 165g for the Aug 11 top-off; another 150g remain planned for Aug 12."
@@ -225,8 +220,13 @@
     "note": "Receipt 8/26: Spaghettini #2 $1.29, on top of the pantry penne."
   },
   {
-    "name": "NOT BOUGHT 8/26 - focaccia, pico de gallo, baby spinach, rotisserie chicken",
+    "food": "spinach",
     "asOf": "2026-08-26",
-    "note": "Receipt 8/26 confirms none of these were purchased. Kills BOTH focaccia chicken melts (Fri lunch, Sat lunch, 888 kcal / 63P each) and removes all spinach (400g planned across 4 meals). Ground turkey breast + ground chicken were bought instead and should absorb those two meal slots."
+    "note": "Adam confirms spinach on hand 8/26 (not on the TJ's receipt, so it was already in the fridge - the 8/26 crisper photo was ambiguous). Wed-Sun plan uses ~400g across 4 meals."
+  },
+  {
+    "name": "NOT BOUGHT 8/26 - focaccia, pico de gallo, rotisserie chicken",
+    "asOf": "2026-08-26",
+    "note": "Receipt 8/26 confirms none purchased. Killed BOTH focaccia chicken melts (Fri + Sat lunch). Replaced with a ground chicken sourdough melt and a ground turkey rice bowl from the meat that WAS bought. Spinach turned out to be on hand after all."
   }
 ]
