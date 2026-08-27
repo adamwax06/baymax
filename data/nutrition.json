@@ -1482,24 +1482,24 @@
   },
   {
     "date": "2026-08-27",
-    "kcal": 3125,
-    "protein": 186,
-    "carbs": 393,
-    "fat": 81,
-    "fiber": 36,
+    "kcal": 3220,
+    "protein": 194,
+    "carbs": 383,
+    "fat": 90,
+    "fiber": 37,
     "meals": [],
     "method": "planned",
     "deviations": [
       {
-        "desc": "Breakfast yogurt bowl (as eaten): nonfat greek yogurt 230g, blueberries 150g, Very Berry Granola 30g, honey 25g.",
-        "kcal": 427,
-        "protein": 28,
-        "carbs": 68,
-        "fat": 6,
-        "fiber": 6
+        "desc": "Breakfast cocoa berry granola bowl (as eaten, as planned): nonfat greek yogurt 280g, raspberries 150g, Very Berry Granola 30g, cocoa 1g, honey 15g, chia 15g.",
+        "kcal": 493,
+        "protein": 37,
+        "carbs": 62,
+        "fat": 13,
+        "fiber": 13
       },
       {
-        "desc": "NEMA vanilla latte (as eaten, estimated): ~12oz whole-milk vanilla latte. ESTIMATE - confirm size if it was 16oz (~310 kcal).",
+        "desc": "NEMA vanilla latte (as eaten, UNPLANNED, estimated): ~12oz whole-milk vanilla latte. ESTIMATE - confirm size if it was 16oz (~310 kcal).",
         "kcal": 230,
         "protein": 9,
         "carbs": 30,
@@ -1507,38 +1507,38 @@
         "fiber": 0
       },
       {
-        "desc": "Lunch: chicken bowl WITHOUT rice - no rice in the house. 250g raw ground chicken, 130g dry penne/spaghettini, 180g Rao's marinara, 100g spinach, 20g sriracha.",
-        "kcal": 990,
-        "protein": 67,
-        "carbs": 115,
-        "fat": 30,
-        "fiber": 9
+        "desc": "Lunch: chicken bowl WITHOUT rice - still no rice in the house, and the chicken is the TJ's ground chicken, not the frozen cooked breast. 250g raw ground chicken, 90g dry pasta, 120g Rao's marinara, 100g spinach, 20g sriracha.",
+        "kcal": 818,
+        "protein": 65,
+        "carbs": 83,
+        "fat": 29,
+        "fiber": 7
       },
       {
-        "desc": "Afternoon: sourdough batard 90g + honey 25g + 2 mandarins.",
-        "kcal": 480,
-        "protein": 12,
-        "carbs": 105,
+        "desc": "Pre-lift toast 4:30pm (as planned): sourdough batard 90g, honey 25g, 1 mandarin.",
+        "kcal": 361,
+        "protein": 10,
+        "carbs": 79,
         "fat": 2,
-        "fiber": 6
+        "fiber": 4
       },
       {
-        "desc": "Dinner (rolled from 8/26): 200g raw 96/4 beef, 500g russet potato, 8g butter, 80g spinach.",
-        "kcal": 690,
-        "protein": 54,
-        "carbs": 92,
-        "fat": 16,
-        "fiber": 13
-      },
-      {
-        "desc": "Nightcap: nonfat greek yogurt 250g, blueberries 150g, honey 25g.",
-        "kcal": 310,
+        "desc": "Post-lift smoothie 7:15pm (as planned, whole-milk tub): whole greek yogurt 200g, oat milk 200g, mango 120g, oats 35g, honey 30g, chia 15g.",
+        "kcal": 633,
         "protein": 27,
-        "carbs": 48,
-        "fat": 1,
-        "fiber": 3
+        "carbs": 93,
+        "fat": 21,
+        "fiber": 12
+      },
+      {
+        "desc": "Dinner beef bolognese: 150g raw 96/4 beef, 100g dry pasta (cut from 155g), 200g Rao's marinara, no olive oil. Trimmed to absorb the latte.",
+        "kcal": 685,
+        "protein": 49,
+        "carbs": 88,
+        "fat": 17,
+        "fiber": 6
       }
     ],
-    "notes": "PLANNED. No rice run: pasta is on hand and the two russets go to the rolled-over 96/4 beef dinner. Rice stays on the next TJ's list. Ground chicken (143 kcal/18P per 100g) replaces the frozen cooked breast in the bowl. Latte is the only estimate in the day."
+    "notes": "PLANNED, reconciled to the calendar. PUSH (bench 175) at 5:45pm. Two changes from the calendar plan: (1) the chicken rice bowl becomes ground chicken over pasta - no rice, and the ground chicken replaces the frozen cooked breast, so lunch loses ~9g protein; (2) the unplanned NEMA latte is absorbed by cutting dinner pasta 155->100g and dropping the 5g olive oil. Lands 3,220 / 194P vs 3,200 / 150-155P. Latte is the only estimate in the day. Rice still on the next TJ's list; the two russets stay unused."
   }
 ]
