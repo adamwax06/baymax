@@ -1429,10 +1429,10 @@
   },
   {
     "date": "2026-08-26",
-    "kcal": 3205,
-    "protein": 193,
-    "carbs": 421,
-    "fat": 87,
+    "kcal": 3251,
+    "protein": 170,
+    "carbs": 457,
+    "fat": 85,
     "fiber": 31,
     "meals": [],
     "method": "reported-as-eaten; weighed",
@@ -1470,11 +1470,11 @@
         "fiber": 6
       },
       {
-        "desc": "PLANNED (not yet eaten) - turkey rice bowl replacing both the shawarma bowl and the beef+sweet potato plate: 200g raw ground turkey breast, 40g dry white rice, 150g spinach, sriracha, no added oil.",
-        "kcal": 443,
-        "protein": 59,
-        "carbs": 42,
-        "fat": 5,
+        "desc": "PLANNED (not yet eaten) - turkey rice bowl replacing both the shawarma bowl and the beef+sweet potato plate: 100g raw ground turkey breast, 85g dry white rice (~255g cooked), 150g spinach, sriracha, no added oil. Sized to the REAL protein target (150-155g, goals.json weight-180), not the 188g the original plan happened to total - the pizza's 64g protein already covered most of the day.",
+        "kcal": 489,
+        "protein": 36,
+        "carbs": 78,
+        "fat": 3,
         "fiber": 3
       }
     ],
