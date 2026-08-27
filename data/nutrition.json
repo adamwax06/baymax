@@ -1429,11 +1429,11 @@
   },
   {
     "date": "2026-08-26",
-    "kcal": 3290,
-    "protein": 170,
-    "carbs": 445,
-    "fat": 95,
-    "fiber": 31,
+    "kcal": 3191,
+    "protein": 163,
+    "carbs": 485,
+    "fat": 72,
+    "fiber": 32,
     "meals": [],
     "method": "reported-as-eaten; weighed",
     "deviations": [
@@ -1462,22 +1462,22 @@
         "fiber": 12
       },
       {
-        "desc": "Two slices Costco food court pizza at the harbor officewarming (~mid-afternoon). Assumed cheese slices (1/6 of an 18\" pie) at ~700 kcal / 32P / 71C / 31F each; if they were pepperoni or combo add ~50 kcal and ~5g fat per slice. Wheat + dairy only, no allergy conflict. Displaced the planned shawarma chicken bowl (889/76P) and rest-day beef + sweet potato plate (774/43P), both skipped.",
-        "kcal": 1400,
-        "protein": 64,
-        "carbs": 142,
-        "fat": 62,
-        "fiber": 6
+        "desc": "Two slices of a Costco pie brought to the Harbor officewarming (~5:30pm). Adam describes each slice as about the size of his hand - that is a normal slice, NOT a food-court sixth (which runs longer than a whole hand). So ~350 kcal/slice: a 16\" Kirkland take-and-bake cut into 8, or an 18\" re-cut small. Wheat + dairy only, no allergy conflict. Displaced the planned shawarma chicken bowl and the beef + sweet potato plate.",
+        "kcal": 700,
+        "protein": 34,
+        "carbs": 71,
+        "fat": 31,
+        "fiber": 3
       },
       {
-        "desc": "PLANNED (not yet eaten) - ground CHICKEN rice bowl (the turkey breast is still frozen; the 8/26 ground chicken, 8% fat, is the thawed one): 150g raw ground chicken, 70g dry white rice (~210g cooked), 150g spinach, sriracha, no added oil - the chicken renders enough fat on its own. Sized to the real 150-155g protein target.",
-        "kcal": 528,
-        "protein": 36,
-        "carbs": 66,
-        "fat": 13,
-        "fiber": 3
+        "desc": "PLANNED (not yet eaten) - ground chicken rice bowl (turkey breast still frozen): 225g raw ground chicken 8%, 175g dry white rice (~525g cooked), 150g spinach, sriracha, no added oil, plus 2 mandarins. Big because the pizza came in at 700, not 1,400.",
+        "kcal": 1129,
+        "protein": 59,
+        "carbs": 177,
+        "fat": 21,
+        "fiber": 7
       }
     ],
-    "notes": "Legs (squat 235) at 12:30. Toast + smoothie eaten as planned; 2 slices Costco pizza at the 5-8pm Harbor officewarming displaced BOTH the shawarma bowl and the beef+sweet potato plate. Replaced with one ground chicken rice bowl to land ~3,200 / ~186P without stacking more fat. The 96/4 beef and sweet potato roll to 8/27."
+    "notes": "Legs (squat 235) at 12:30. Toast + smoothie eaten as planned. Two hand-sized slices of a Costco pie (~700 kcal total, NOT food-court sixths) at the Harbor officewarming displaced BOTH the shawarma bowl and the beef+sweet potato plate. Dinner rebuilt as a large ground chicken rice bowl to make up the gap. The 96/4 beef and sweet potato roll to 8/27."
   }
 ]
