@@ -1482,10 +1482,10 @@
   },
   {
     "date": "2026-08-27",
-    "kcal": 3220,
-    "protein": 194,
-    "carbs": 383,
-    "fat": 90,
+    "kcal": 3206,
+    "protein": 188,
+    "carbs": 391,
+    "fat": 88,
     "fiber": 37,
     "meals": [],
     "method": "planned",
@@ -1507,11 +1507,11 @@
         "fiber": 0
       },
       {
-        "desc": "Lunch: chicken bowl WITHOUT rice - still no rice in the house, and the chicken is the TJ's ground chicken, not the frozen cooked breast. 250g raw ground chicken, 90g dry pasta, 120g Rao's marinara, 100g spinach, 20g sriracha.",
-        "kcal": 818,
-        "protein": 65,
-        "carbs": 83,
-        "fat": 29,
+        "desc": "Lunch: chicken bowl WITHOUT rice and WITHOUT sriracha. 228g raw ground chicken (the whole pack), 100g dry pasta (up from 90g to cover the smaller chicken portion), 120g Rao's marinara, 100g spinach.",
+        "kcal": 804,
+        "protein": 59,
+        "carbs": 91,
+        "fat": 26,
         "fiber": 7
       },
       {
@@ -1539,6 +1539,6 @@
         "fiber": 6
       }
     ],
-    "notes": "PLANNED, reconciled to the calendar. PUSH (bench 175) at 5:45pm. Two changes from the calendar plan: (1) the chicken rice bowl becomes ground chicken over pasta - no rice, and the ground chicken replaces the frozen cooked breast, so lunch loses ~9g protein; (2) the unplanned NEMA latte is absorbed by cutting dinner pasta 155->100g and dropping the 5g olive oil. Lands 3,220 / 194P vs 3,200 / 150-155P. Latte is the only estimate in the day. Rice still on the next TJ's list; the two russets stay unused."
+    "notes": "PLANNED, reconciled to the calendar. PUSH (bench 175) at 5:45pm. Two changes from the calendar plan: (1) the chicken rice bowl becomes ground chicken over pasta - no rice, and the ground chicken replaces the frozen cooked breast, so lunch loses ~9g protein; (2) the unplanned NEMA latte is absorbed by cutting dinner pasta 155->100g and dropping the 5g olive oil. Lands 3,206 / 188P vs 3,200 / 150-155P. Latte is the only estimate in the day. Rice still on the next TJ's list; the two russets stay unused. Chicken pack weighed 228g, not 250g, and Adam skipped the sriracha; pasta went 90->100g to compensate."
   }
 ]
