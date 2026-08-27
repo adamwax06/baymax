@@ -1429,10 +1429,10 @@
   },
   {
     "date": "2026-08-26",
-    "kcal": 3251,
+    "kcal": 3290,
     "protein": 170,
-    "carbs": 457,
-    "fat": 85,
+    "carbs": 445,
+    "fat": 95,
     "fiber": 31,
     "meals": [],
     "method": "reported-as-eaten; weighed",
@@ -1470,14 +1470,14 @@
         "fiber": 6
       },
       {
-        "desc": "PLANNED (not yet eaten) - turkey rice bowl replacing both the shawarma bowl and the beef+sweet potato plate: 100g raw ground turkey breast, 85g dry white rice (~255g cooked), 150g spinach, sriracha, no added oil. Sized to the REAL protein target (150-155g, goals.json weight-180), not the 188g the original plan happened to total - the pizza's 64g protein already covered most of the day.",
-        "kcal": 489,
+        "desc": "PLANNED (not yet eaten) - ground CHICKEN rice bowl (the turkey breast is still frozen; the 8/26 ground chicken, 8% fat, is the thawed one): 150g raw ground chicken, 70g dry white rice (~210g cooked), 150g spinach, sriracha, no added oil - the chicken renders enough fat on its own. Sized to the real 150-155g protein target.",
+        "kcal": 528,
         "protein": 36,
-        "carbs": 78,
-        "fat": 3,
+        "carbs": 66,
+        "fat": 13,
         "fiber": 3
       }
     ],
-    "notes": "Legs (squat 235) at 12:30. Toast + smoothie eaten as planned; 2 slices Costco pizza at the 5-8pm Harbor officewarming displaced BOTH the shawarma bowl and the beef+sweet potato plate. Replaced with one lean turkey rice bowl to land ~3,200 / ~186P without stacking more fat. The 96/4 beef and sweet potato roll to 8/27."
+    "notes": "Legs (squat 235) at 12:30. Toast + smoothie eaten as planned; 2 slices Costco pizza at the 5-8pm Harbor officewarming displaced BOTH the shawarma bowl and the beef+sweet potato plate. Replaced with one ground chicken rice bowl to land ~3,200 / ~186P without stacking more fat. The 96/4 beef and sweet potato roll to 8/27."
   }
 ]
