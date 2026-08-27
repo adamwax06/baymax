@@ -1479,5 +1479,66 @@
       }
     ],
     "notes": "CLOSED. Legs (squat 235) at 12:30. Toast + smoothie eaten as planned. Two hand-sized slices of a Costco pie (~700 kcal, NOT food-court sixths - the one real estimate in the day) at the Harbor officewarming displaced BOTH the shawarma bowl and the beef+sweet potato plate; dinner was rebuilt as chicken bolognese over spaghettini because there is no rice in the house. Landed 3,188 / 171P / 79F against 3,200 / 150-155P / ~75F. Everything else weighed. The 96/4 beef and sweet potato roll to 8/27."
+  },
+  {
+    "date": "2026-08-27",
+    "kcal": 3125,
+    "protein": 186,
+    "carbs": 393,
+    "fat": 81,
+    "fiber": 36,
+    "meals": [],
+    "method": "planned",
+    "deviations": [
+      {
+        "desc": "Breakfast yogurt bowl (as eaten): nonfat greek yogurt 230g, blueberries 150g, Very Berry Granola 30g, honey 25g.",
+        "kcal": 427,
+        "protein": 28,
+        "carbs": 68,
+        "fat": 6,
+        "fiber": 6
+      },
+      {
+        "desc": "NEMA vanilla latte (as eaten, estimated): ~12oz whole-milk vanilla latte. ESTIMATE - confirm size if it was 16oz (~310 kcal).",
+        "kcal": 230,
+        "protein": 9,
+        "carbs": 30,
+        "fat": 8,
+        "fiber": 0
+      },
+      {
+        "desc": "Lunch: chicken bowl WITHOUT rice - no rice in the house. 250g raw ground chicken, 130g dry penne/spaghettini, 180g Rao's marinara, 100g spinach, 20g sriracha.",
+        "kcal": 990,
+        "protein": 67,
+        "carbs": 115,
+        "fat": 30,
+        "fiber": 9
+      },
+      {
+        "desc": "Afternoon: sourdough batard 90g + honey 25g + 2 mandarins.",
+        "kcal": 480,
+        "protein": 12,
+        "carbs": 105,
+        "fat": 2,
+        "fiber": 6
+      },
+      {
+        "desc": "Dinner (rolled from 8/26): 200g raw 96/4 beef, 500g russet potato, 8g butter, 80g spinach.",
+        "kcal": 690,
+        "protein": 54,
+        "carbs": 92,
+        "fat": 16,
+        "fiber": 13
+      },
+      {
+        "desc": "Nightcap: nonfat greek yogurt 250g, blueberries 150g, honey 25g.",
+        "kcal": 310,
+        "protein": 27,
+        "carbs": 48,
+        "fat": 1,
+        "fiber": 3
+      }
+    ],
+    "notes": "PLANNED. No rice run: pasta is on hand and the two russets go to the rolled-over 96/4 beef dinner. Rice stays on the next TJ's list. Ground chicken (143 kcal/18P per 100g) replaces the frozen cooked breast in the bowl. Latte is the only estimate in the day."
   }
 ]
