@@ -1429,11 +1429,11 @@
   },
   {
     "date": "2026-08-26",
-    "kcal": 427,
-    "protein": 28,
-    "carbs": 68,
-    "fat": 6,
-    "fiber": 6,
+    "kcal": 3205,
+    "protein": 193,
+    "carbs": 421,
+    "fat": 87,
+    "fiber": 31,
     "meals": [],
     "method": "reported-as-eaten; weighed",
     "deviations": [
@@ -1444,8 +1444,40 @@
         "carbs": 68,
         "fat": 6,
         "fiber": 6
+      },
+      {
+        "desc": "Pre-lift toast (11:45am, as planned): sourdough batard 90g, honey 25g, 1 mandarin.",
+        "kcal": 374,
+        "protein": 11,
+        "carbs": 81,
+        "fat": 2,
+        "fiber": 4
+      },
+      {
+        "desc": "Post-lift smoothie v5 (2pm, as planned): nonfat greek yogurt 200g, oat milk 200g, frozen mango 120g, dry oats 35g, honey 30g, chia 15g.",
+        "kcal": 561,
+        "protein": 31,
+        "carbs": 88,
+        "fat": 12,
+        "fiber": 12
+      },
+      {
+        "desc": "Two slices Costco food court pizza at the harbor officewarming (~mid-afternoon). Assumed cheese slices (1/6 of an 18\" pie) at ~700 kcal / 32P / 71C / 31F each; if they were pepperoni or combo add ~50 kcal and ~5g fat per slice. Wheat + dairy only, no allergy conflict. Displaced the planned shawarma chicken bowl (889/76P) and rest-day beef + sweet potato plate (774/43P), both skipped.",
+        "kcal": 1400,
+        "protein": 64,
+        "carbs": 142,
+        "fat": 62,
+        "fiber": 6
+      },
+      {
+        "desc": "PLANNED (not yet eaten) - turkey rice bowl replacing both the shawarma bowl and the beef+sweet potato plate: 200g raw ground turkey breast, 40g dry white rice, 150g spinach, sriracha, no added oil.",
+        "kcal": 443,
+        "protein": 59,
+        "carbs": 42,
+        "fat": 5,
+        "fiber": 3
       }
     ],
-    "notes": "Day in progress. Legs (squat 235) at 12:30. Planned day ~3,200 / 183P."
+    "notes": "Legs (squat 235) at 12:30. Toast + smoothie eaten as planned; 2 slices Costco pizza at the 5-8pm Harbor officewarming displaced BOTH the shawarma bowl and the beef+sweet potato plate. Replaced with one lean turkey rice bowl to land ~3,200 / ~186P without stacking more fat. The 96/4 beef and sweet potato roll to 8/27."
   }
 ]
