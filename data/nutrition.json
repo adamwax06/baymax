@@ -1488,7 +1488,7 @@
     "fat": 88,
     "fiber": 37,
     "meals": [],
-    "method": "planned",
+    "method": "reported-as-eaten; home meals weighed raw/dry, NEMA latte estimated",
     "deviations": [
       {
         "desc": "Breakfast cocoa berry granola bowl (as eaten, as planned): nonfat greek yogurt 280g, raspberries 150g, Very Berry Granola 30g, cocoa 1g, honey 15g, chia 15g.",
@@ -1539,6 +1539,6 @@
         "fiber": 6
       }
     ],
-    "notes": "PLANNED, reconciled to the calendar. PUSH (bench 175) at 5:45pm. Two changes from the calendar plan: (1) the chicken rice bowl becomes ground chicken over pasta - no rice, and the ground chicken replaces the frozen cooked breast, so lunch loses ~9g protein; (2) the unplanned NEMA latte is absorbed by cutting dinner pasta 155->100g and dropping the 5g olive oil. Lands 3,206 / 188P vs 3,200 / 150-155P. Latte is the only estimate in the day. Rice still on the next TJ's list; the two russets stay unused. Chicken pack weighed 228g, not 250g, and Adam skipped the sriracha; pasta went 90->100g to compensate. Lunch eaten at 91g dry pasta (not 100g): 3,173 / 187P planned for the day."
+    "notes": "CLOSED. Adam confirmed he ate the full plan as written. PUSH (bench 175) at 5:45pm. Two changes from the calendar plan: (1) the chicken rice bowl becomes ground chicken over pasta - no rice, and the ground chicken replaces the frozen cooked breast, so lunch loses ~9g protein; (2) the unplanned NEMA latte is absorbed by cutting dinner pasta 155->100g and dropping the 5g olive oil. Lands 3,206 / 188P vs 3,200 / 150-155P. Latte is the only estimate in the day. Rice still on the next TJ's list; the two russets stay unused. Chicken pack weighed 228g, not 250g, and Adam skipped the sriracha; pasta went 90->100g to compensate. Lunch eaten at 91g dry pasta (not 100g): 3,173 / 187P planned for the day. Day closed as eaten: 3,173 kcal / 187P. Only estimate in the day is the latte."
   }
 ]
