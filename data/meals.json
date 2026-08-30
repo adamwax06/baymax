@@ -47,7 +47,7 @@
         "g": 15
       }
     ],
-    "notes": "v5 (8/3): mango cut 200→120g to fit the blender. v4 (7/21): oat milk cut 250→200g after v3 overflowed. Taste APPROVED at v3. Blend order: liquid+oats+chia first ~30s to grind the chia, then yogurt+fruit. Mango: 120g max; log pineapple swaps at the actual amount. NEVER banana (allergy)"
+    "notes": "v5 (8/3): mango cut 200\u2192120g to fit the blender. v4 (7/21): oat milk cut 250\u2192200g after v3 overflowed. Taste APPROVED at v3. Blend order: liquid+oats+chia first ~30s to grind the chia, then yogurt+fruit. Mango: 120g max; log pineapple swaps at the actual amount. NEVER banana (allergy)"
   },
   {
     "id": "chicken-rice-bowl",
@@ -112,7 +112,7 @@
         "g": 25
       }
     ],
-    "notes": "pre-sleep casein-rich feeding; honey bumped 10->25g (8/15) — 10g tasted like nothing, half-portions scale it down too far"
+    "notes": "pre-sleep casein-rich feeding; honey bumped 10->25g (8/15) \u2014 10g tasted like nothing, half-portions scale it down too far"
   },
   {
     "id": "rest-scramble",
@@ -233,7 +233,7 @@
         "g": 15
       }
     ],
-    "notes": "Adam favorite. Cocoa is just a 1g dusting. Fruit swappable: raspberries, blueberries, or blackberries (all in foods.json) — log whichever was used"
+    "notes": "Adam favorite. Cocoa is just a 1g dusting. Fruit swappable: raspberries, blueberries, or blackberries (all in foods.json) \u2014 log whichever was used"
   },
   {
     "id": "buffalo-chicken-wrap",
@@ -264,7 +264,7 @@
         "g": 50
       }
     ],
-    "notes": "shredded rotisserie chicken warmed with buffalo sauce; pico on top 8/15: split filling across 2 tortillas quesadilla-style — single wrap was way too thick."
+    "notes": "shredded rotisserie chicken warmed with buffalo sauce; pico on top 8/15: split filling across 2 tortillas quesadilla-style \u2014 single wrap was way too thick."
   },
   {
     "id": "focaccia-chicken-melt",
@@ -349,7 +349,7 @@
         "g": 15
       }
     ],
-    "notes": "No-fruit variant of cocoa-berry-yogurt-bowl for when fruit's out — granola instead, cocoa just a dusting (1g). 7/29 in-the-moment version."
+    "notes": "No-fruit variant of cocoa-berry-yogurt-bowl for when fruit's out \u2014 granola instead, cocoa just a dusting (1g). 7/29 in-the-moment version."
   },
   {
     "id": "beef-bolognese-pasta",
@@ -400,5 +400,94 @@
       }
     ],
     "notes": "Added 8/15 - homemade version of the Jay's Grill order Adam likes. Shawarma spice: cumin/coriander/paprika/garlic (paprika is safe; NOT bell pepper). Yogurt + grated garlic + lemon = toum-ish sauce"
+  },
+  {
+    "id": "shrimp-scampi",
+    "name": "Garlic butter shrimp scampi",
+    "items": [
+      {
+        "food": "shrimp-raw",
+        "g": 300
+      },
+      {
+        "food": "pasta-dry",
+        "g": 150
+      },
+      {
+        "food": "butter",
+        "g": 30
+      },
+      {
+        "food": "olive-oil",
+        "g": 10
+      },
+      {
+        "food": "garlic",
+        "g": 15
+      },
+      {
+        "food": "lemon",
+        "count": 1
+      }
+    ],
+    "notes": "~1,125 kcal / 80P. Shrimp weighed raw, pasta dry. Shrimp cooks in ~4 min - salt the pasta water, finish the shrimp in the butter+garlic, toss with a splash of pasta water and the lemon. Shellfish is explicitly safe (profile.explicitlyOk); this is the only non-poultry/beef protein in the rotation."
+  },
+  {
+    "id": "shrimp-fried-rice",
+    "name": "Shrimp fried rice",
+    "items": [
+      {
+        "food": "shrimp-raw",
+        "g": 250
+      },
+      {
+        "food": "white-rice-dry",
+        "g": 130
+      },
+      {
+        "food": "egg",
+        "count": 2
+      },
+      {
+        "food": "carrot",
+        "g": 80
+      },
+      {
+        "food": "scallion",
+        "g": 30
+      },
+      {
+        "food": "soy-sauce",
+        "g": 20
+      },
+      {
+        "food": "sesame-oil",
+        "g": 10
+      }
+    ],
+    "notes": "~960 kcal / 72P. Rice weighed dry - use day-old cooked rice, so run this the night after a rice-bowl day. NO PEAS: the standard recipe uses peas and peas are a legume allergy. Carrot and scallion carry the vegetable instead."
+  },
+  {
+    "id": "gnocchi-skillet",
+    "name": "Chicken thigh + gnocchi skillet",
+    "items": [
+      {
+        "food": "chicken-thigh",
+        "g": 275
+      },
+      {
+        "food": "gnocchi",
+        "g": 250
+      },
+      {
+        "food": "marinara-raos",
+        "g": 150
+      },
+      {
+        "food": "mozzarella-shredded",
+        "g": 40
+      }
+    ],
+    "notes": "~1,075 kcal / 74P. Thigh weighed raw. Brown the gnocchi dry in the pan first (no boiling), then add thigh, sauce, and melt the mozzarella over the top. Calorie-dense with no added oil."
   }
 ]

@@ -13,8 +13,8 @@
       "carbs": 10.7,
       "sodium": 631
     },
-    "allergyChecked": "2026-07-31",
-    "notes": "label: 84g serving = 140kcal/16P/5F/9C. Contains milk, egg, wheat; paprika + celery seed + refined soybean oil all safe per profile. Verify bag's may-contain line on next purchase."
+    "allergyChecked": "2026-08-29",
+    "notes": "label: 84g serving = 140kcal/16P/5F/9C. Contains milk, egg, wheat. RE-VERIFIED 8/29 against the published ingredient list (Costco / OpenFoodFacts, UPC 0196633951786): chicken breast, water, seasoning (sugar, salt, spices incl. paprika + celery seed, chicken fat, spice extractive, canola oil, soybean oil), RICE STARCH, breading (wheat flour, sugar, salt, nonfat dry milk, dried egg whites, baking powder, spice, paprika), set in vegetable oil. No legume binder - rice starch fills the role pea starch plays in most nuggets, which is the usual hidden risk in this category. Paprika/celery seed safe; soybean oil is refined oil, not the soy protein isolate on the avoid list. STILL UNVERIFIED: the bag's 'may contain' / shared-facility line, which is not published online - read it on the physical bag."
   },
   {
     "id": "chicken-thigh",
@@ -1032,5 +1032,141 @@
     },
     "allergyChecked": "2026-08-26",
     "notes": "Bought 8/26. Fattier than the turkey breast; use where calories are needed."
+  },
+  {
+    "id": "gnocchi",
+    "name": "Potato gnocchi, shelf-stable",
+    "store": "traderjoes",
+    "fdcType": "label",
+    "weighed": "raw",
+    "per100g": {
+      "kcal": 172,
+      "protein": 4.0,
+      "fat": 0.5,
+      "carbs": 37.0,
+      "fiber": 2.0,
+      "sodium": 420
+    },
+    "allergyChecked": "2026-08-30",
+    "notes": "ESTIMATE from typical shelf-stable potato gnocchi labels - verify the TJ package. Wheat + potato, no legume/nut. NOT the cauliflower gnocchi (different macros)."
+  },
+  {
+    "id": "carrot",
+    "name": "Carrot, raw",
+    "fdcId": 170393,
+    "fdcType": "SR Legacy",
+    "weighed": "raw",
+    "store": "traderjoes",
+    "per100g": {
+      "kcal": 41,
+      "protein": 0.93,
+      "fat": 0.24,
+      "carbs": 9.58,
+      "fiber": 2.8,
+      "sodium": 69
+    },
+    "allergyChecked": "2026-08-30"
+  },
+  {
+    "id": "scallion",
+    "name": "Scallions / green onions, raw",
+    "fdcId": 170005,
+    "fdcType": "SR Legacy",
+    "weighed": "raw",
+    "store": "traderjoes",
+    "per100g": {
+      "kcal": 32,
+      "protein": 1.83,
+      "fat": 0.19,
+      "carbs": 7.34,
+      "fiber": 2.6,
+      "sodium": 16
+    },
+    "allergyChecked": "2026-08-30"
+  },
+  {
+    "id": "soy-sauce",
+    "name": "Soy sauce",
+    "fdcId": 174278,
+    "fdcType": "SR Legacy",
+    "weighed": "raw",
+    "store": "any",
+    "per100g": {
+      "kcal": 53,
+      "protein": 8.14,
+      "fat": 0.57,
+      "carbs": 4.93,
+      "fiber": 0.8,
+      "sodium": 5493
+    },
+    "allergyChecked": "2026-08-30",
+    "notes": "Fermented whole soy + wheat - SAFE. Adam's avoid list is soy protein isolate/concentrate only. Check for no fish/anchovy in any 'seasoned' variety."
+  },
+  {
+    "id": "sesame-oil",
+    "name": "Sesame oil, toasted",
+    "fdcId": 171026,
+    "fdcType": "SR Legacy",
+    "weighed": "raw",
+    "store": "traderjoes",
+    "per100g": {
+      "kcal": 884,
+      "protein": 0,
+      "fat": 100,
+      "carbs": 0
+    },
+    "allergyChecked": "2026-08-30",
+    "notes": "Sesame is on profile.explicitlyOk."
+  },
+  {
+    "id": "lemon",
+    "name": "Lemon, raw",
+    "fdcId": 167746,
+    "fdcType": "SR Legacy",
+    "weighed": "each",
+    "unitG": 58,
+    "store": "traderjoes",
+    "per100g": {
+      "kcal": 29,
+      "protein": 1.1,
+      "fat": 0.3,
+      "carbs": 9.32,
+      "fiber": 2.8
+    },
+    "allergyChecked": "2026-08-30"
+  },
+  {
+    "id": "garlic",
+    "name": "Garlic, raw",
+    "fdcId": 169230,
+    "fdcType": "SR Legacy",
+    "weighed": "raw",
+    "store": "traderjoes",
+    "per100g": {
+      "kcal": 149,
+      "protein": 6.36,
+      "fat": 0.5,
+      "carbs": 33.06,
+      "fiber": 2.1
+    },
+    "allergyChecked": "2026-08-30"
+  },
+  {
+    "id": "marinara-raos",
+    "name": "Rao's Homemade Marinara",
+    "store": "any",
+    "brand": "Rao's",
+    "fdcType": "label",
+    "weighed": "raw",
+    "per100g": {
+      "kcal": 75,
+      "protein": 1.7,
+      "fat": 5.0,
+      "carbs": 5.0,
+      "fiber": 1.5,
+      "sodium": 330
+    },
+    "allergyChecked": "2026-08-30",
+    "notes": "Label proxy (1/2 cup = 120g = 90 kcal). Used as the sauce in bolognese and the gnocchi skillet; was previously logged ad hoc and never in foods.json."
   }
 ]

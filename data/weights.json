@@ -10078,6 +10078,66 @@
       "notes": "Pull day, moved to 6:15pm. Adam ran his own progression rather than the prescribed one and PR'd on all five movements. The prescription had called for holding 165 on pulldown / 155 on row on the theory that 8/21 was a post-stall reset - it was a DELOAD inside a normal 160->170 July climb, so the caution was wrong and would have cost a PR. Pull is progressing fine on 2 working sets (3 on row); the volume problem is bench-specific."
     },
     {
+      "date": "2026-08-26",
+      "exercises": [
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "lb": 235,
+              "reps": [
+                8,
+                5
+              ]
+            }
+          ],
+          "notes": "First time at 235, up from four sessions at 225. e1RM 297.7 - clears the Sep 1 pace gate of 285. Set 2 dropped 3 reps, the usual first-week-at-a-new-load shape."
+        },
+        {
+          "name": "Leg Press Calf Raises",
+          "sets": [
+            {
+              "lb": 500,
+              "reps": [
+                8,
+                8,
+                5
+              ]
+            }
+          ],
+          "notes": "First time at 500, up from 490x8,8,8."
+        },
+        {
+          "name": "Hamstring Curl",
+          "sets": [
+            {
+              "lb": 135,
+              "reps": [
+                8,
+                8,
+                8
+              ]
+            }
+          ],
+          "notes": "135 complete - converted 8,7,6 (8/22) into 8,8,8. Ready for 140."
+        },
+        {
+          "name": "Unilateral Leg Extension",
+          "sets": [
+            {
+              "lb": 140,
+              "reps": [
+                8,
+                6
+              ]
+            }
+          ],
+          "notes": "New load, up from 135x8,8. Second set CONFIRMED 8/30 from Adam's sheet: 140 for 8,6 (the trailing comma was a real set, not a typo)."
+        }
+      ],
+      "notes": "Legs. BACKFILLED 2026-08-28 from Adam's sheet - the session was never logged, leaving a hole between 8/24 pull and 8/27 push. Apple Watch had recorded the envelope (78.4 min, 695 kcal, 7.58 METs) with no set detail. Four for four progressed. Creatine day 6."
+    },
+    {
       "date": "2026-08-27",
       "exercises": [
         {
@@ -10148,6 +10208,143 @@
         }
       ],
       "notes": "Push. Bench jumped 170->175 only 4 days after the first 170 session: 6,5. That is the expected first-week-at-a-new-load pattern (cf. 7/30 165 6,4, 8/03 165 7,5), so hold 175 until it consolidates to ~8,7. Creatine day 7. Every accessory PR'd: pushdown 8,8 at 30, lateral raise 10,10,10 at 25s, incline fly 8,6 at 80, skull crusher 10,10 at 25s. Skull crusher has been stuck at 25 since 7/08 and finally topped out - next session move to 30s."
+    },
+    {
+      "date": "2026-08-28",
+      "exercises": [
+        {
+          "name": "Lat Pulldown",
+          "sets": [
+            {
+              "lb": 180,
+              "reps": [
+                7,
+                6
+              ]
+            }
+          ],
+          "notes": "Jumped 170->180, past the prescribed 175. e1RM 222 vs 215 at 170x8 - PR despite fewer reps."
+        },
+        {
+          "name": "Cable Curl",
+          "sets": [
+            {
+              "lb": 63,
+              "reps": [
+                8,
+                6
+              ]
+            }
+          ],
+          "notes": "63 not the prescribed 65; 8 on set 1 held."
+        },
+        {
+          "name": "Row",
+          "sets": [
+            {
+              "lb": 175,
+              "reps": [
+                8,
+                8,
+                7
+              ]
+            }
+          ],
+          "notes": "Session of the block. I prescribed HOLDING 170 as incomplete; he added 5 lb and beat 170 on every set. 170 never exceeded 7,7,6 across four sessions."
+        },
+        {
+          "name": "Unilateral DB Curl",
+          "sets": [
+            {
+              "lb": 40,
+              "reps": [
+                8,
+                7
+              ]
+            }
+          ],
+          "notes": "PR at 40s, up from 8,6 on 8/24."
+        },
+        {
+          "name": "Unilateral Lat Pullover",
+          "sets": [
+            {
+              "lb": 33,
+              "reps": [
+                8,
+                8
+              ]
+            }
+          ],
+          "notes": "Held 33 rather than the prescribed 35 and converted 7,7 into 8,8. 35 next."
+        }
+      ],
+      "notes": "Pull, moved to 4:00pm for Chabad in Berkeley. Five for five PRs, second consecutive pull session doing so. Adam again overrode the prescription on row (175 vs the 170 hold I called) and was right - that is three sessions running where my caution would have cost a PR. Creatine day 8: the signature shows up in later-set rep retention - row went 7,6,5 at 170 to 8,8,7 at 175, the per-set dropoff flattening rather than set 1 improving. Prescription policy changed: stop calling holds on pull, let Adam pick the load."
+    },
+    {
+      "date": "2026-08-29",
+      "exercises": [
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "lb": 235,
+              "reps": [
+                7,
+                6
+              ]
+            }
+          ],
+          "notes": "Second session at 235, repeated as prescribed. 13 reps - the same 13 as 8/26 (8,5), redistributed. e1RM 289.8, DOWN from 297.7. Still clears the Sep 1 gate (285); Oct 1 gate is 295. Did NOT earn the jump (target was 8,6 or 8,7) - take 235 a third time. Session was moved 15:00 -> 12:45 off a phone call, ~80g carbs 1.75h out, HRV 41.0 on 8/27."
+        },
+        {
+          "name": "Leg Press Calf Raises",
+          "sets": [
+            {
+              "lb": 500,
+              "reps": [
+                8,
+                8,
+                7
+              ]
+            }
+          ],
+          "notes": "Up from 500x8,8,5 on 8/26. Third set still owes a rep - repeat 500."
+        },
+        {
+          "name": "Hamstring Curl",
+          "sets": [
+            {
+              "lb": 145,
+              "reps": [
+                4
+              ]
+            },
+            {
+              "lb": 140,
+              "reps": [
+                7,
+                5
+              ]
+            }
+          ],
+          "notes": "OVERREACH. Prescription was 140 x 3 x 6-8 after 135x8,8,8. Jumped to 145, failed at 4, dropped to 140 for 7,5 - and only two working sets landed instead of three. Same error as bench: buying load ahead of reps. Next: 140 for three sets, no 145 until 140 is 8,8,8."
+        },
+        {
+          "name": "Unilateral Leg Extension",
+          "sets": [
+            {
+              "lb": 140,
+              "reps": [
+                8,
+                8
+              ]
+            }
+          ],
+          "notes": "140 COMPLETE - converted 8,6 (8/26) into 8,8. Goes to 145."
+        }
+      ],
+      "notes": "Legs. Logged 8/30 from Adam's sheet. Three of four progressed; squat flat at 235 (repeat again, do not jump to 245) and hamstring curl overreached to 145. Creatine day 9. Fuel: pre-lift toast only (382 kcal / ~80g carbs) 1.75h out - the egg scramble had been moved to 16:00."
     }
   ]
 }

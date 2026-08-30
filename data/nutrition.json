@@ -1540,5 +1540,164 @@
       }
     ],
     "notes": "CLOSED. Adam confirmed he ate the full plan as written. PUSH (bench 175) at 5:45pm. Two changes from the calendar plan: (1) the chicken rice bowl becomes ground chicken over pasta - no rice, and the ground chicken replaces the frozen cooked breast, so lunch loses ~9g protein; (2) the unplanned NEMA latte is absorbed by cutting dinner pasta 155->100g and dropping the 5g olive oil. Lands 3,206 / 188P vs 3,200 / 150-155P. Latte is the only estimate in the day. Rice still on the next TJ's list; the two russets stay unused. Chicken pack weighed 228g, not 250g, and Adam skipped the sriracha; pasta went 90->100g to compensate. Lunch eaten at 91g dry pasta (not 100g): 3,173 / 187P planned for the day. Day closed as eaten: 3,173 kcal / 187P. Only estimate in the day is the latte."
+  },
+  {
+    "date": "2026-08-28",
+    "kcal": 3095,
+    "protein": 191,
+    "carbs": 345,
+    "fat": 106,
+    "fiber": 21,
+    "meals": [],
+    "method": "reported-as-eaten; home meals per plan, RT Rotisserie delivery and latte estimated; 12:10am nugget feed attributed to this day by intent, not clock-date",
+    "deviations": [
+      {
+        "desc": "Breakfast yogurt bowl (as planned): NONFAT Greek yogurt 230g, blueberries 150g, Very Berry Granola 30g, honey 25g.",
+        "kcal": 428,
+        "protein": 27,
+        "carbs": 69,
+        "fat": 6,
+        "fiber": 6
+      },
+      {
+        "desc": "NEMA vanilla latte (UNPLANNED, standing 12oz proxy \u2014 Adam confirmed the usual ~190).",
+        "kcal": 190,
+        "protein": 9,
+        "carbs": 20,
+        "fat": 7,
+        "fiber": 0
+      },
+      {
+        "desc": "Pre-lift toast 3:30pm (as planned): sourdough batard 90g, honey 25g, 1 mandarin.",
+        "kcal": 356,
+        "protein": 9,
+        "carbs": 78,
+        "fat": 2,
+        "fiber": 3
+      },
+      {
+        "desc": "RT Rotisserie half chicken, DoorDash ~8:15pm (ESTIMATE \u2014 restaurant, no label).",
+        "kcal": 620,
+        "protein": 70,
+        "carbs": 0,
+        "fat": 35,
+        "fiber": 0
+      },
+      {
+        "desc": "RT Rotisserie fat rice (ESTIMATE \u2014 rice cooked in rotisserie drippings).",
+        "kcal": 400,
+        "protein": 7,
+        "carbs": 55,
+        "fat": 15,
+        "fiber": 1
+      },
+      {
+        "desc": "RT sauces: a little BBQ, a little ranch, the Douglas Fir sour cream (ESTIMATE).",
+        "kcal": 155,
+        "protein": 2,
+        "carbs": 6,
+        "fat": 13,
+        "fiber": 0
+      },
+      {
+        "desc": "Post-lift smoothie v5 (as planned): NONFAT Greek yogurt 200g, oat milk 200g, frozen mango 150g, oats 35g, honey 30g, chia 15g.",
+        "kcal": 579,
+        "protein": 31,
+        "carbs": 95,
+        "fat": 12,
+        "fiber": 10
+      },
+      {
+        "desc": "Kirkland lightly breaded chicken breast chunks 190g + Chick-fil-A sauce 10g, eaten 12:10am (clock-date 8/29, LOGGED TO 8/28 - this was the nightcap that closed 8/28's gap, eaten 17 min after the yogurt version was declined). Ingredients re-verified 8/29: rice starch binder, no legume.",
+        "kcal": 367,
+        "protein": 36,
+        "carbs": 22,
+        "fat": 16,
+        "fiber": 1
+      }
+    ],
+    "notes": "CLOSED AT 3,095 / 191P against a 3,200 / ~200P target - within ~100 kcal, not a floor day. The 367 kcal / 36P Kirkland nugget feed at 12:10am is logged here, not on 8/29: a yogurt nightcap was offered at 11:53pm to close the 468 kcal / 43P gap and declined, and Adam ate the nuggets seventeen minutes later. Same intent, same gap, wrong side of midnight. Three plan meals never happened: lunch (ground chicken melt) was cancelled outright - no ground chicken in the house and Adam skipped lunch entirely; the chicken thigh rice bowl was replaced by RT Rotisserie delivery; and the beef bolognese was dropped because the beef never defrosted. That the day still landed at 3,095 is the nightcap's doing. HRV context: 41.0 on 8/27, the second-lowest in the series. NOTE ON THE FLOOR PATTERN: with the nuggets counted here, 8/28 is NOT one of the sub-2,800 days. The 8/28 review's 'the floor is the problem' read still holds across the window, but this day is no longer an exhibit for it - recount before citing the tally. Ordering was a mess: RT cancelled one submitted order (store-side), and the half-chicken SKU failed to add four times; Adam ordered in the app himself. Weight 170.0 lb this morning, which Adam confirmed as real gain, not creatine water. Training: pull, five PRs."
+  },
+  {
+    "date": "2026-08-29",
+    "kcal": 3199,
+    "protein": 208,
+    "carbs": 424,
+    "fat": 88,
+    "fiber": 27,
+    "meals": [],
+    "method": "reported-as-eaten; post-lift meal and dinner weighed by Adam, pre-lift toast per calendar event, latte at standing proxy, Protein Pints from the tub label (360 kcal/pint CONFIRMED, not the ~500 estimate).",
+    "deviations": [
+      {
+        "desc": "Pre-lift toast 11:00 (as planned, calendar): sourdough batard 100g, honey 25g, 1 mandarin. Carried the ENTIRE carb load for the 12:45 squat session, ~80g carbs 1.75h out.",
+        "kcal": 382,
+        "protein": 10,
+        "carbs": 80,
+        "fat": 3,
+        "fiber": 4
+      },
+      {
+        "desc": "NEMA vanilla latte (UNPLANNED, standing 12oz proxy).",
+        "kcal": 190,
+        "protein": 9,
+        "carbs": 20,
+        "fat": 7,
+        "fiber": 0
+      },
+      {
+        "desc": "Post-lift meal AS EATEN, weighed: ground turkey breast 99/1 raw 150g, dry PASTA 165g, tomato sauce 100g. PLANNED was the turkey RICE bowl (250g turkey, 140g dry rice, spinach, mozzarella, olive oil, sriracha) at 1,012/78P - pasta replaced rice, turkey cut 250->150g. Costs 145 kcal and 19g protein vs plan. Sauce is a Rao's-marinara proxy (~75 kcal/100g), NOT in foods.json.",
+        "kcal": 867,
+        "protein": 59,
+        "carbs": 147,
+        "fat": 7,
+        "fiber": 8
+      },
+      {
+        "desc": "Protein Pints Chocolate ice cream, WHOLE PINT (DoorDash from Safeway, $22.99 all-in, order 9148ef0a). 360 kcal/pint confirmed from the tub label. ~51g total carbs of which ~30g allulose. Ingredients: whole milk, cream, allulose, whey isolate, tapioca syrup, cocoa, egg yolk, guar, monk fruit - no legume, no nut, no fish. Replaced the planned 20:00 tropical yogurt bowl (731/38P) - Adam is tired of mango.",
+        "kcal": 360,
+        "protein": 30,
+        "carbs": 51,
+        "fat": 14,
+        "fiber": 0
+      },
+      {
+        "desc": "Dinner AS EATEN: ground beef 96/4 raw 300g, russet potatoes 700g, mozzarella 40g, butter 35g, 2 eggs. Replaced the planned beef+sweet potato plate (125g 85/15, 350g sweet potato, rice, mozz, butter) at 759/35P. Freezer 85/15 was NOT used - the 96/4 is 115 kcal/100g vs 215, so butter and mozzarella made up the calorie shortfall.",
+        "kcal": 1400,
+        "protein": 100,
+        "carbs": 126,
+        "fat": 57,
+        "fiber": 15
+      }
+    ],
+    "notes": "CLOSED at 3,199 / 208P against 3,200 / 155P - dead on calories, protein 53g over the floor. LEGS (235 repeat) at 12:45, logged to weights.json. The day was rebuilt around the earlier lift: batard+honey+tangerine moved to 11:00 as the pre-lift carb, egg scramble moved to 16:00. The 16:00 scramble never happened as its own meal - 2 of its 4 eggs landed on the dinner plate instead, which is why dinner is 1,400 rather than the planned 759. PROTEIN AT 208 IS 2.7 g/kg, above the ~2.0 the target encodes - not harmful, and it came free with calories Adam needed, but it is not a target to repeat. FAT 88g vs the ~75g target: that is the 35g of butter, a patch for using lean 96/4 beef. The structural fix is the freezer 85/15, where fat comes bundled with the meat instead of added on top. Carbs 424g gross / ~391g net (~5.1 g/kg) - the healthiest part of the day, and well distributed around the lift. No midnight feed required: this is the first day in the recent window that closed on target from planned meals alone."
+  },
+  {
+    "date": "2026-08-30",
+    "kcal": 682,
+    "protein": 47,
+    "carbs": 93,
+    "fat": 15,
+    "fiber": 13,
+    "meals": [],
+    "method": "reported-as-eaten; breakfast bowl weighed by Adam, latte at standing proxy. DAY OPEN. Yogurt assumed NONFAT (calendar plan and every recent bowl) - confirm; whole-milk tub would be +108 kcal / -6P.",
+    "deviations": [
+      {
+        "desc": "NEMA vanilla latte (UNPLANNED, standing 12oz proxy). Third consecutive day.",
+        "kcal": 190,
+        "protein": 9,
+        "carbs": 20,
+        "fat": 7,
+        "fiber": 0
+      },
+      {
+        "desc": "Breakfast bowl AS EATEN, weighed: nonfat Greek yogurt 300g, honey 20g, Very Berry Granola 35g, raspberries 50g, blueberries 50g, chia 10g. PLANNED was 280g yogurt, 150g frozen strawberries, 30g granola, 25g honey, 15g chia, 1 mandarin (533/37P) - fresh berries swapped for frozen strawberries, chia halved. Lands 41 kcal under plan at the same protein.",
+        "kcal": 492,
+        "protein": 38,
+        "carbs": 73,
+        "fat": 8,
+        "fiber": 13
+      }
+    ],
+    "notes": "OPEN at 682 / 47P. REST DAY - no lift on the calendar (last session was legs 8/29). Plan remaining: chicken rice bowl 13:00 (847/74P), beef bolognese 17:00 (996/47P, FREEZER 85/15), cocoa granola yogurt bowl 20:00 (548/37P), oat milk 700g across the evening (263). Following the plan as written lands 3,337 - about 137 OVER, because the unplanned latte is not in the calendar's 3,187 and the lighter breakfast only gives 41 of it back. Simplest absorption: oat milk 700g -> 350g (-132), landing ~3,205. Note the 8/30 bolognese needs the freezer 85/15 that went unused on 8/29 - it has now failed to defrost once already (8/28)."
   }
 ]

@@ -228,5 +228,200 @@
     "name": "NOT BOUGHT 8/26 - focaccia, pico de gallo, rotisserie chicken",
     "asOf": "2026-08-26",
     "note": "Receipt 8/26 confirms none purchased. Killed BOTH focaccia chicken melts (Fri + Sat lunch). Replaced with a ground chicken sourdough melt and a ground turkey rice bowl from the meat that WAS bought. Spinach turned out to be on hand after all."
+  },
+  {
+    "food": "greek-yogurt-nonfat",
+    "asOf": "2026-08-30",
+    "note": "Photo+Adam 8/30: ONE 907g tub left and it is HALF DONE - ~450g remaining. The second 32oz tub from the 8/26 receipt is gone. This is the binding constraint on yogurt bowls: at 280-300g a bowl there is ONE bowl left. Nana does not eat Greek yogurt, so this line does NOT double."
+  },
+  {
+    "food": "greek-yogurt-whole",
+    "asOf": "2026-08-30",
+    "note": "Not visible in the 8/30 fridge photo. The single 16oz whole tub from 8/26 is presumed gone. All yogurt meals are running on nonfat."
+  },
+  {
+    "food": "ground-beef-85",
+    "asOf": "2026-08-30",
+    "note": "CONFIRMED PRESENT 8/30 by Adam - in the freezer, not visible in the photo. This is the pack the 8/28 bolognese failed to defrost for. Move it to the fridge NOW if the 8/30 bolognese is happening."
+  },
+  {
+    "food": "ground-turkey-breast",
+    "asOf": "2026-08-30",
+    "note": "Photo 8/30: white foam tray on the lower fridge shelf is HALF the TJ's ground turkey breast pack - roughly 225g left. The other half went into the 8/29 post-lift pasta (150g)."
+  },
+  {
+    "food": "kirkland-breaded-tenders",
+    "asOf": "2026-08-30",
+    "note": "Photo 8/30: the 'breaded boneless chicken' bag in the freezer is the Costco Kirkland nugget bag (240 kcal/4 pieces). Same bag as the 8/28 12:10am nightcap. Rice-starch binder, no legume - safe."
+  },
+  {
+    "food": "mozzarella-shredded",
+    "asOf": "2026-08-30",
+    "note": "Photo 8/30: 16oz TJ's bag roughly 40-50% left, ~200g. Buy one if the week uses mozzarella in more than two meals."
+  },
+  {
+    "food": "egg",
+    "asOf": "2026-08-30",
+    "note": "Photo 8/30: carton near-full on the top fridge shelf, ~10-12 eggs."
+  },
+  {
+    "food": "butter",
+    "asOf": "2026-08-30",
+    "note": "Photo 8/30: 2-3 pieces in the Philadelphia fresh-box drawer. 8/29 dinner used 35g."
+  },
+  {
+    "food": "spinach",
+    "asOf": "2026-08-30",
+    "note": "Adam 8/30: TWO TO THREE bags on hand. Not a constraint this week - buy none."
+  },
+  {
+    "food": "cucumber",
+    "asOf": "2026-08-30",
+    "note": "Adam 8/30: ONE cucumber. Shawarma bowl needs it; a second cucumber if that meal runs twice."
+  },
+  {
+    "food": "pico",
+    "asOf": "2026-08-30",
+    "note": "Photo 8/30: TWO tubs on the middle fridge shelf - the pico from the buy. Unblocks the buffalo chicken wrap and shrimp tacos."
+  },
+  {
+    "food": "blueberries",
+    "asOf": "2026-08-30",
+    "note": "Photo 8/30: clamshell about half, ~250g."
+  },
+  {
+    "food": "raspberries",
+    "asOf": "2026-08-30",
+    "note": "Photo 8/30: clamshell nearly full, ~300g."
+  },
+  {
+    "food": "mandarin",
+    "asOf": "2026-08-30",
+    "note": "Photo 8/30: mesh bag, ~8-10 left."
+  },
+  {
+    "food": "mango",
+    "asOf": "2026-08-30",
+    "note": "Adam 8/30: TWO FULL BAGS plus one half - ~2.5 bags frozen. Adam said 8/29 he is tired of mango; this is a large standing surplus, so plan mango meals down, not up, and buy none."
+  },
+  {
+    "food": "flour-tortilla",
+    "asOf": "2026-08-30",
+    "note": "Adam 8/30: tortillas on hand. Unblocks wraps and shrimp tacos."
+  },
+  {
+    "food": "oats-dry",
+    "asOf": "2026-08-30",
+    "note": "Photo 8/30: TJ's Rolled Oats bag in the pantry, looks full/unopened."
+  },
+  {
+    "food": "pasta-dry",
+    "asOf": "2026-08-30",
+    "note": "Photo 8/30: Spaghettini bag open, roughly half left (~200-250g). 8/30 bolognese wants 155g - it just about covers it, buy more for the week."
+  },
+  {
+    "food": "medjool-dates",
+    "asOf": "2026-08-30",
+    "note": "Photo 8/30: tub about half, ~150g."
+  },
+  {
+    "food": "olive-oil",
+    "asOf": "2026-08-30",
+    "note": "Photo 8/30: two bottles, Signature Select over half. Buy none."
+  },
+  {
+    "name": "Panang curry sauce (Vitasia) - 2 boxes",
+    "asOf": "2026-08-30",
+    "note": "Photo 8/30: TWO unopened boxes, pantry top shelf. Not in foods.json and not used by any meal. Coconut-based Thai curry - coconut is on Adam's explicitlyOk list. CHECK THE BOX for fish sauce/shrimp paste (common in Thai curry) - shellfish is safe but FINNED FISH IS NOT. Verify before planning a curry night."
+  },
+  {
+    "name": "UNRESOLVED 8/30 - pantry grain + black freezer package",
+    "asOf": "2026-08-30",
+    "note": "Photo 8/30: a bag of loose grain on the pantry bottom shelf (bulgur/couscous/farro?) and a black package in the freezer top drawer, both unidentified. Adam did not name them. Do not plan around either."
+  },
+  {
+    "food": "white-rice-dry",
+    "asOf": "2026-08-30",
+    "note": "STILL OUT as of 8/30 - not in any photo, not bought since. Every rice bowl in the week must either buy rice or swap to pasta. TOP OF THE CART."
+  },
+  {
+    "food": "bread-sourdough",
+    "asOf": "2026-08-30",
+    "note": "Not visible in the 8/30 photos. The 8/26 batard has been eaten down (100g on 8/29). Assume none for planning; buy if pre-lift toast runs this week."
+  },
+  {
+    "food": "greek-yogurt-nonfat",
+    "asOf": "2026-08-30",
+    "note": "Receipt 8/30 (store 226, $175.05, 35 items): SIX 16oz plain Greek at $2.99 = 2,718g. Bought as 6x16oz instead of 3x32oz - same total grams, ~$1.47 more. FAT LEVEL UNKNOWN: TJ prices the 16oz nonfat (#086450) and 16oz WHOLE (#069707) both at $2.99. CHECK A LID. Whole is 95 kcal/100g vs 59 - across 2,718g that is a ~980 kcal swing for the week."
+  },
+  {
+    "food": "white-rice-dry",
+    "asOf": "2026-08-30",
+    "note": "Receipt 8/30: TWO bags Organic Basmati at $4.99 (bought instead of the jasmine on the list). Rice is no longer out - this ends the 8/26-8/30 rice gap. Basmati vs jasmine is macro noise."
+  },
+  {
+    "food": "gnocchi",
+    "asOf": "2026-08-30",
+    "note": "Receipt 8/30: THREE at $1.99 = ~1,362g. Covers gnocchi skillet Tue x2 and Fri x2 (1,000g). Confirm it is the plain potato gnocchi, not a chickpea variant."
+  },
+  {
+    "food": "shrimp-raw",
+    "asOf": "2026-08-30",
+    "note": "Receipt 8/30: FOUR Wild Raw Argentinian Red Shrimp 1lb at $11.99 = $47.96, ~1,814g. Covers scampi Mon (300g) + Thu x2 (600g) + fried rice Sat x2 (500g) = 1,400g, with ~400g spare."
+  },
+  {
+    "food": "chicken-breast-cooked",
+    "asOf": "2026-08-30",
+    "note": "SUPERSEDED 8/30 - see the raw chicken breast note. No frozen cooked breast bites and no shredded rotisserie chicken were bought."
+  },
+  {
+    "name": "Organic chicken breast (raw) - 4 packs",
+    "asOf": "2026-08-30",
+    "note": "Receipt 8/30: FOUR ORGANIC CHICKEN BREAST packs, sold by weight: $14.83 + $14.23 + $13.41 + $14.23 = $56.70. This REPLACES the 4 packs of boneless skinless THIGHS on the list and is the single biggest deviation of the buy. Breast is ~120 kcal/100g raw vs thigh 149 - leaner protein, fewer calories, same problem as the 96/4 beef on 8/29. WEIGH THE PACKS and log the grams; at ~$7/lb this is roughly 3.6kg, well over the 1,650g the week needs. Freeze what is not used within 2 days."
+  },
+  {
+    "food": "ground-chicken",
+    "asOf": "2026-08-30",
+    "note": "Receipt 8/30: one Natural Ground Chicken at $4.49, unplanned. ~92% lean, 143 kcal/100g. Not assigned to a meal yet."
+  },
+  {
+    "food": "marinara-raos",
+    "asOf": "2026-08-30",
+    "note": "Receipt 8/30: ONE Tomato Basil Marinara at $1.99 (TJ's own, not Rao's). With the unopened Rao's jar that is ~2 jars against the ~1,200g the week needs. Macros in foods.json are the Rao's proxy - TJ's tomato basil is typically LOWER fat (~60 kcal/100g vs 75); check the jar."
+  },
+  {
+    "food": "raspberries",
+    "asOf": "2026-08-30",
+    "note": "Receipt 8/30: 12oz at $6.49 (~340g), on top of the ~300g already in the fridge."
+  },
+  {
+    "food": "blueberries",
+    "asOf": "2026-08-30",
+    "note": "Receipt 8/30: Organic 18oz at $7.49 (~510g), on top of the ~250g already in the fridge."
+  },
+  {
+    "food": "carrot",
+    "asOf": "2026-08-30",
+    "note": "Receipt 8/30: Organic Cut & Peeled at $1.99. Fried rice needs 160g."
+  },
+  {
+    "food": "pasta-dry",
+    "asOf": "2026-08-30",
+    "note": "Receipt 8/30: TWO Spaghettini #2 at $1.29 = ~908g, plus the ~200g open bag. Covers scampi (450g) and bolognese (310g)."
+  },
+  {
+    "food": "bread-sourdough",
+    "asOf": "2026-08-30",
+    "note": "Receipt 8/30: TWO Sourdough Batards at $3.49. The list said three - 9 pre-lift toasts x 100g = 900g and two batards is roughly 800g. One toast short by Saturday; not worth a second trip."
+  },
+  {
+    "food": "oat-milk",
+    "asOf": "2026-08-30",
+    "note": "Receipt 8/30: ONE Oat Beverage at $2.99 (the 32oz, not the two 64oz cartons on the list). ~946g against ~2,500g of planned use. THE EVENING OAT MILK IS THE FIRST THING TO DROP - it was already the calorie-absorber, not a fixed meal."
+  },
+  {
+    "name": "NOT BOUGHT 8/30 - eggs, butter, mozzarella, sesame oil, chia, honey",
+    "asOf": "2026-08-30",
+    "note": "Receipt 8/30 confirms none purchased. Consequences: EGGS - week needs ~16 (scramble wraps + fried rice), ~10 on hand, Thursday's double wrap is the one at risk. MOZZARELLA - ~235g needed, ~200g on hand, tight but survivable. BUTTER - 2-3 quarters on hand, scampi wants 90g, fine. SESAME OIL - not bought, so Saturday's fried rice uses olive oil and loses the toasted-sesame character. CHIA and HONEY were never verified in the pantry and were not bought; if either is out, five smoothies and six yogurt bowls lose an ingredient."
   }
 ]
