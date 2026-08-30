@@ -423,5 +423,10 @@
     "name": "NOT BOUGHT 8/30 - eggs, butter, mozzarella, sesame oil, chia, honey",
     "asOf": "2026-08-30",
     "note": "Receipt 8/30 confirms none purchased. Consequences: EGGS - week needs ~16 (scramble wraps + fried rice), ~10 on hand, Thursday's double wrap is the one at risk. MOZZARELLA - ~235g needed, ~200g on hand, tight but survivable. BUTTER - 2-3 quarters on hand, scampi wants 90g, fine. SESAME OIL - not bought, so Saturday's fried rice uses olive oil and loses the toasted-sesame character. CHIA and HONEY were never verified in the pantry and were not bought; if either is out, five smoothies and six yogurt bowls lose an ingredient."
+  },
+  {
+    "food": "greek-yogurt-whole",
+    "asOf": "2026-08-30",
+    "note": "RESOLVED 8/30 by Adam: the six 16oz tubs are WHOLE MILK (#069707), not nonfat. 2,718g of whole at 94.5 kcal/100g. Against the nonfat assumption the week gains ~1,000 kcal and loses ~51g protein: +108 kcal/-5.5P per 300g bowl, +71 kcal/-3.6P per 200g smoothie. This lands ~+180 kcal on lift days and ~+108 on rest days, which almost exactly offsets the oat-milk shortfall (one 32oz bought against ~2,500g planned). Meals in meals.json already reference greek-yogurt-whole, so no meal edits needed. Chia and honey both CONFIRMED on hand - nothing missing there."
   }
 ]
