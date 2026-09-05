@@ -2004,5 +2004,42 @@
       }
     ],
     "notes": "CLOSED at 3062 / 206P. PUSH DAY DID NOT HAPPEN: Adam ate the pre-lift toast at 14:30 as planned, then fell asleep and missed both the 16:00 bench session and 20:15 Chabad. Watch/Eight Sleep data confirms no workout - active energy only 206 kcal all day, no sustained elevated-HR bout after 15:00, HR flat 60-90 resting through 19:30. HRV 44.8 today (2 readings), back to normal baseline after last night's 90.8. Nothing in the data argues against training - this was an unplanned skipped session, not a recovery-driven one. Push (175 x 3 sets) reschedules to the next session unchanged; day treated as a rest day. Dinner at Chez Maman (half roasted chicken + mashed potatoes) closed the day out over target on protein, on target on kcal."
+  },
+  {
+    "date": "2026-09-05",
+    "kcal": 635,
+    "protein": 43,
+    "carbs": 70,
+    "fat": 17,
+    "fiber": 2,
+    "meals": [],
+    "method": "reported-as-eaten. DAY OPEN.",
+    "deviations": [
+      {
+        "desc": "Plain whole-milk Greek yogurt 300g + honey 20g. Push rescheduled for today.",
+        "kcal": 345,
+        "protein": 26,
+        "carbs": 30,
+        "fat": 13,
+        "fiber": 0
+      },
+      {
+        "desc": "Kirkland sparkling orange water. No sugar/calories on the label - treated as 0 kcal.",
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0,
+        "fiber": 0
+      },
+      {
+        "desc": "UNPLANNED: half of a medium Pokebola poke bowl - white rice, mixed greens, 2 shrimp + 1 octopus, radish, edamame, shredded carrot, savory glaze. No published nutrition - PHOTO ESTIMATE for the half portion actually eaten (full bowl estimated ~580/34P, halved).",
+        "kcal": 290,
+        "protein": 17,
+        "carbs": 40,
+        "fat": 4,
+        "fiber": 2
+      }
+    ],
+    "notes": "OPEN at 635 / 43P. Push (175 x 3 sets, rescheduled from 9/4) planned for today."
   }
 ]

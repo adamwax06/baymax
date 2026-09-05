@@ -10559,6 +10559,66 @@
         }
       ],
       "notes": "Legs, 16:00 standing slot, straight off the 15:00 standup. Logged 9/2 evening from Adam's sheet. ZERO LOAD CHANGES that were not earned: squat and calves repeated as prescribed, hamstring curl came back down to 140 for three sets as prescribed, quad extension took the earned jump to 145. SQUAT IS THE HEADLINE: 235 x 8,6, e1RM back to 297.7 (ties the 8/26 peak) after the 8/29 dip to 289.8. Still not 8,7, so 235 repeats a fourth time - exactly the 225 precedent. Fuel: latte ~09:00, yogurt bowl ~09:30, turkey rice bowl (587/46, no oil) ~11:30, toast 14:30 as planned 1.5h out - the better-gapped rerun of the 8/29 conditions, and it moved the second set 6->6 and the first 7->8. Creatine day 13. Training-partner columns (N) in the paste again NOT stored - single-athlete file."
+    },
+    {
+      "date": "2026-09-05",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "lb": 175,
+              "reps": [7.5, 5.5, 3]
+            }
+          ],
+          "notes": "THREE sets landed for the first time at 175 - the third-set goal set on 8/31 (where only two got logged: 7,5). Set 1 was 7.5, partially spotter-assisted on a rep that should not have needed a spot - true unassisted set 1 is closer to 7. Sharp dropoff to 5.5 then 3 says the third set is real fatigue cost, not free volume. Still not the 8,7 needed to move off 175."
+        },
+        {
+          "name": "Unilateral Tricep Pushdown",
+          "sets": [
+            {
+              "lb": 33,
+              "reps": [8, 5]
+            }
+          ],
+          "notes": "8/31 was 33 x 7,7. Set 1 up to 8, set 2 down to 5 - net a wash, not yet the 8,8 needed to move up."
+        },
+        {
+          "name": "DB Lateral Raise",
+          "sets": [
+            {
+              "lb": 30,
+              "reps": [8, 7, 6]
+            }
+          ],
+          "notes": "8/31 first outing at 30s was 7,6,6. Every set up by one rep - clean progress, not yet complete."
+        },
+        {
+          "name": "Incline Fly",
+          "sets": [
+            {
+              "lb": 80,
+              "reps": [8, 7]
+            }
+          ],
+          "notes": "Identical to 8/31 (8,7) - the one-rep-per-session pattern broke. Still not 8,8; repeat 80."
+        },
+        {
+          "name": "DB Skull Crusher",
+          "sets": [
+            {
+              "lb": 30,
+              "reps": [5]
+            },
+            {
+              "lb": 25,
+              "reps": [8]
+            }
+          ],
+          "notes": "8/31 was 30x5, 25x10. Set 1 identical, set 2 down 10->8 - not yet consolidated at 30."
+        }
+      ],
+      "notes": "Push, makeup for the 9/4 session slept through - moved to 15:30 at Adam's request, no separate pre-lift toast (fed off the 300g yogurt+honey and half a Pokebola poke bowl already eaten). Bench finally ran all three prescribed sets, but a spotter helped on a rep in set 1 that should have been unassisted, so the 7.5 overstates true capacity. Everything else held flat or edged up marginally; nothing here argues for a load change next push. Training-partner columns (J) in the paste NOT stored - single-athlete file."
     }
   ]
 }
