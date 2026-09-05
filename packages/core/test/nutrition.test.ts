@@ -50,6 +50,46 @@ describe("HealthClient.nutrition", () => {
 
   afterAll(() => rmSync(dir, { recursive: true, force: true }));
 
+  test("targetKcalOverride pins the target and says so", () => {
+    const goals = join(dir, "goals.json");
+    const base = { id: "weight-180", metric: "body_mass", targetLb: 180, ratePerWeekLb: 0.5 };
+    const client = new HealthClient({ dbPath: join(dir, "test.db") });
+    const computed = client.nutrition({ now: NOW }).targetKcal;
+
+    writeFileSync(goals, JSON.stringify([{ ...base, targetKcalOverride: 3200 }]));
+    const pinned = new HealthClient({ dbPath: join(dir, "test.db") }).nutrition({ now: NOW });
+    expect(pinned.targetKcal).toBe(3200);
+    expect(pinned.notes.join(" ")).toContain(`would say ${computed}`);
+
+    writeFileSync(goals, JSON.stringify([base])); // restore for the other tests
+    client.close();
+  });
+
+  test("floor rule flags days under target-200 and totals the shortfall", () => {
+    const goals = join(dir, "goals.json");
+    const nut = join(dir, "nutrition.json");
+    const base = { id: "weight-180", metric: "body_mass", targetLb: 180, ratePerWeekLb: 0.5 };
+    const iso = (i: number) => new Date(NOW - i * 86_400_000).toISOString().slice(0, 10);
+
+    // 3 short days (2600) among 10 past days, against a pinned 3200 target -> floor 3000.
+    // iso(0) is today and is excluded as unfinished, so days run iso(1)..iso(10).
+    writeFileSync(goals, JSON.stringify([{ ...base, targetKcalOverride: 3200 }]));
+    writeFileSync(nut, JSON.stringify(Array.from({ length: 10 }, (_, i) => ({ date: iso(i + 1), kcal: i < 3 ? 2600 : 3200 }))));
+    const flagged = new HealthClient({ dbPath: join(dir, "test.db") }).nutrition({ now: NOW });
+    const note = flagged.notes.find((n) => n.startsWith("FLOOR:"))!;
+    expect(note).toContain("3 of 10 logged days");
+    expect(note).toContain("under 3000");
+    expect(note).toContain("1800 kcal"); // 3 x 600, the other 7 are exactly on target
+
+    // A low value on TODAY is not a floor day — the day is not over.
+    writeFileSync(nut, JSON.stringify([{ date: iso(0), kcal: 500 }, ...Array.from({ length: 9 }, (_, i) => ({ date: iso(i + 1), kcal: 3200 }))]));
+    const clean = new HealthClient({ dbPath: join(dir, "test.db") }).nutrition({ now: NOW });
+    expect(clean.notes.some((n) => n.startsWith("FLOOR:"))).toBe(false);
+
+    writeFileSync(goals, JSON.stringify([base]));
+    rmSync(nut, { force: true });
+  });
+
   test("seed mode: named formula, targets from profile", () => {
     const client = new HealthClient({ dbPath: join(dir, "test.db") });
     const n = client.nutrition({ now: NOW });

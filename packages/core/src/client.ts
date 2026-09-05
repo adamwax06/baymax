@@ -29,7 +29,17 @@ const profileZ = z
   .object({ birthdate: z.string(), heightIn: z.number(), sex: z.enum(["male", "female"]), activityFactor: z.number() })
   .passthrough();
 const goalsZ = z.array(z.object({}).passthrough());
-const bodyGoalZ = z.object({ metric: z.literal("body_mass"), targetLb: z.number(), ratePerWeekLb: z.number() }).passthrough();
+const bodyGoalZ = z
+  .object({
+    metric: z.literal("body_mass"),
+    targetLb: z.number(),
+    ratePerWeekLb: z.number(),
+    // Pins the calorie target, overriding TDEE+rate. Needed because when the scale is
+    // flat the empirical TDEE collapses to your own average intake, so every missed day
+    // ratchets tomorrow's target down — the estimator chases its own tail.
+    targetKcalOverride: z.number().positive().optional(),
+  })
+  .passthrough();
 const intakeZ = z.array(z.object({ date: z.string().regex(/^\d{4}-\d{2}-\d{2}$/), kcal: z.number().positive() }).passthrough());
 
 function readValidated<T>(path: string, schema: z.ZodType<T>, required: boolean): T | undefined {
@@ -263,11 +273,37 @@ export class HealthClient {
       if (staleDays > 3) notes.push(`last weigh-in is ${staleDays} days old`);
     }
 
+    if (goal.targetKcalOverride) {
+      notes.push(
+        `target pinned at ${goal.targetKcalOverride} by goals.json targetKcalOverride (measured TDEE+rate would say ${targetKcal(tdee, goal.ratePerWeekLb)})`,
+      );
+    }
+
+    const target = goal.targetKcalOverride ?? targetKcal(tdee, goal.ratePerWeekLb);
+
+    // The floor, not the ceiling, is what stalls a bulk: Aug 2026 ran 8 of 24 days under
+    // 2,800 against a 3,200 target and the scale went flat for a month. Surface it.
+    const floorKcal = target - 200;
+    // Today is still being eaten — it is not a short day, it is an unfinished one.
+    // A *past* day left low is fair game: either a real floor day or a log never closed.
+    // Local date, not toISOString() — that returns UTC, which is already tomorrow by evening.
+    const today = new Date(now).toLocaleDateString("en-CA");
+    const closed = logged.filter((e) => e.date < today);
+    const under = closed.filter((e) => e.kcal < floorKcal);
+    if (under.length) {
+      const short = Math.round(closed.reduce((a, e) => a + (target - e.kcal), 0));
+      notes.push(
+        `FLOOR: ${under.length} of ${closed.length} logged days in the last 21 came in under ${floorKcal}` +
+          ` (lowest ${Math.min(...under.map((e) => e.kcal))} on ${under.reduce((a, e) => (e.kcal < a.kcal ? e : a)).date})` +
+          `; cumulative shortfall vs target ${short} kcal ≈ ${(short / 3500).toFixed(1)} lb not built`,
+      );
+    }
+
     return {
       mode,
       method,
       tdee,
-      targetKcal: targetKcal(tdee, goal.ratePerWeekLb),
+      targetKcal: target,
       proteinG: proteinTarget(weightForCalc),
       goal: { targetLb: goal.targetLb, ratePerWeekLb: goal.ratePerWeekLb },
       currentWeightLb,
