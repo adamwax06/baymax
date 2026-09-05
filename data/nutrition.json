@@ -1673,13 +1673,13 @@
   },
   {
     "date": "2026-08-30",
-    "kcal": 682,
-    "protein": 47,
-    "carbs": 93,
-    "fat": 15,
-    "fiber": 13,
+    "kcal": 2621,
+    "protein": 154,
+    "carbs": 319,
+    "fat": 82,
+    "fiber": 22,
     "meals": [],
-    "method": "reported-as-eaten; breakfast bowl weighed by Adam, latte at standing proxy. DAY OPEN. Yogurt assumed NONFAT (calendar plan and every recent bowl) - confirm; whole-milk tub would be +108 kcal / -6P.",
+    "method": "reported-as-eaten, closed retroactively 8/31 from Adam's confirmation that everything but the nightcap was eaten; breakfast bowl weighed, remaining meals per the calendar recipes computed from foods.json, latte at standing proxy, Chick-fil-A sauce estimated.",
     "deviations": [
       {
         "desc": "NEMA vanilla latte (UNPLANNED, standing 12oz proxy). Third consecutive day.",
@@ -1696,8 +1696,313 @@
         "carbs": 73,
         "fat": 8,
         "fiber": 13
+      },
+      {
+        "desc": "Kirkland nuggets + rice 16:30 (as planned): Kirkland breaded chicken nuggets 300g, Chick-fil-A sauce 15g, basmati rice 100g dry, 1 mandarin. Replaced the 13:00 chicken rice bowl, which never happened - no rice in the house until the afternoon TJ run. First rice since 8/26. CFA sauce is an estimate, no foods.json entry.",
+        "kcal": 987,
+        "protein": 65,
+        "carbs": 126,
+        "fat": 26,
+        "fiber": 2
+      },
+      {
+        "desc": "Beef bolognese 18:30 (as planned): FREEZER ground beef 85/15 125g raw, spaghettini 120g dry, marinara 200g, olive oil 10g. The 85/15 finally reached the pan - this dish was scheduled 8/28 and 8/30 and missed once because the pack was frozen solid.",
+        "kcal": 952,
+        "protein": 42,
+        "carbs": 100,
+        "fat": 41,
+        "fiber": 7
+      },
+      {
+        "desc": "NOT EATEN: 21:00 egg scramble wrap (4 eggs, 25g mozzarella, tortilla, 60g spinach) = 554 kcal / 38P. This was the day's last meal and the whole margin. Adam confirmed 8/31 he ate everything else.",
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0,
+        "fiber": 0
       }
     ],
-    "notes": "OPEN at 682 / 47P. REST DAY - no lift on the calendar (last session was legs 8/29). Plan remaining: chicken rice bowl 13:00 (847/74P), beef bolognese 17:00 (996/47P, FREEZER 85/15), cocoa granola yogurt bowl 20:00 (548/37P), oat milk 700g across the evening (263). Following the plan as written lands 3,337 - about 137 OVER, because the unplanned latte is not in the calendar's 3,187 and the lighter breakfast only gives 41 of it back. Simplest absorption: oat milk 700g -> 350g (-132), landing ~3,205. Note the 8/30 bolognese needs the freezer 85/15 that went unused on 8/29 - it has now failed to defrost once already (8/28)."
+    "notes": "CLOSED RETROACTIVELY 8/31 at 2,621 / 154P against 3,200 - 579 UNDER, a floor day. Every planned meal was eaten except the 21:00 egg scramble wrap (554/38P), and that single skipped meal is essentially the entire gap. Protein still landed at 154, right on the 150-155 floor, so this was a calorie miss and not a protein miss.\nREST DAY - no lift (legs 8/29, push 8/31). The day worked around two supply problems and solved both: the 13:00 chicken rice bowl was replaced by nuggets + rice at 16:30 because there was no rice in the house until the afternoon TJ run ($175.05, 35 items), and the beef bolognese finally reached the pan after failing to defrost on 8/28 - the freezer 85/15 was used as intended. The 20:00 cocoa granola yogurt bowl had already been swapped for the egg wrap to honour the one-yogurt-bowl-a-day rule and to protect the six whole-milk tubs that have to cover Mon-Sat.\nTHE PATTERN: this is the third floor day in the window and the mechanism is identical every time - the LAST meal of the day is the one that does not happen. 8/28 closed only because nuggets got eaten at 12:10am. 8/30 had no such rescue. The 8/31 code change (HealthClient.nutrition FLOOR note) exists because of days like this one; with 8/30 now closed the flag reads 7 of 17 logged days under 3,000, ~7,000 kcal cumulative shortfall.\nYOGURT NOTE: the 300g morning bowl came from the last of the NONFAT 907g tub (~450g remaining as of the 8/30 photo), so 492/38P is correct here. The six 16oz WHOLE MILK tubs from the 8/30 receipt start applying 8/31 onward."
+  },
+  {
+    "date": "2026-08-31",
+    "kcal": 3194,
+    "protein": 198,
+    "carbs": 445,
+    "fat": 74,
+    "fiber": 32,
+    "meals": [],
+    "method": "reported-as-eaten; breakfast bowl per calendar recipe computed from foods.json (not weighed); lunch from Proper Food's published Summer 2026 Nutrition_Allergen_CA.pdf. DAY CLOSED.",
+    "deviations": [
+      {
+        "desc": "Yogurt + blueberry granola bowl (as planned, started 10:30 rather than 09:30): WHOLE MILK Greek yogurt 300g, blueberries 150g, Very Berry Granola 30g, honey 20g, chia 15g. Recomputed from foods.json (633) rather than the calendar's rounded 610.",
+        "kcal": 633,
+        "protein": 33,
+        "carbs": 81,
+        "fat": 22,
+        "fiber": 9
+      },
+      {
+        "desc": "Proper Food (100 1st St) Lean & Clean Chicken Hot Plate, ~12:30. UNPLANNED LOCATION - Adam worked from the FiDi WeWork, so the planned 12:30 home ground-chicken wrap (462/36P) did not happen. Macros from Proper Food's PUBLISHED Summer 2026 nutrition PDF, not photo-estimated. Bone broth sauce (15 kcal/1P) not counted. Allergen row is onion+garlic only - no gluten/dairy/egg/nut/fish/soy; legume, avocado and bell pepper are NOT columns in their table and were not verified.",
+        "kcal": 405,
+        "protein": 42,
+        "carbs": 44,
+        "fat": 8,
+        "fiber": 2
+      },
+      {
+        "desc": "Pre-lift toast 14:30 (as planned, moved from 11:00): sourdough batard 100g, honey 25g, 1 mandarin. 1.5h before the 16:00 bench session.",
+        "kcal": 395,
+        "protein": 12,
+        "carbs": 84,
+        "fat": 2,
+        "fiber": 4
+      },
+      {
+        "desc": "Post-lift smoothie 17:30 (as planned, moved from 14:00): WHOLE MILK Greek yogurt 200g, oat milk 200g, frozen mango 120g, oats 35g, honey 30g, chia 15g.",
+        "kcal": 633,
+        "protein": 27,
+        "carbs": 90,
+        "fat": 20,
+        "fiber": 11
+      },
+      {
+        "desc": "Simplified scampi (butter only, no oil/garlic/lemon), 400g raw shrimp + 150g dry pasta + 30g butter = 1,112/100P full batch. Ate ~3/4 then fungus gnats got into it and the rest was thrown out.",
+        "kcal": 834,
+        "protein": 75,
+        "carbs": 84,
+        "fat": 21,
+        "fiber": 4
+      },
+      {
+        "desc": "Late top-off to close the scampi shortfall: sourdough batard 80g + honey 25g.",
+        "kcal": 294,
+        "protein": 9,
+        "carbs": 62,
+        "fat": 1,
+        "fiber": 2
+      }
+    ],
+    "notes": "CLOSED 8/31 at 3,194 / 198P against 3,200 - essentially dead on target after a late bread+honey top-off. PUSH day (bench 175, third set). Day rebuilt twice. FIRST at 10:30 around a 16:00 lift instead of 12:30: toast 11:00->14:30 (before the 15:00 standup), lift 12:30->16:00, smoothie 14:00->17:30, scampi 19:30->20:30, and the 21:30 sourdough+butter+oat milk (493/13P) DELETED to fund a 12:30 lunch - the original plan had no midday meal because the 14:00 smoothie WAS lunch, and moving it left 10:30->17:30 covered by 382 kcal of toast. SECOND when Adam turned out to be at the FiDi WeWork: the planned home ground-chicken wrap became the Proper Food Lean & Clean Chicken Hot Plate, 405/42P. CORRECTION TO THE EARLIER PLAN MATH: the calendar events for this day stated a '3,272 / 191P' total, but the per-meal protein figures on those same events sum to 163P. I carried the 191 as a base while swapping meals, which inflated my in-conversation protein estimates to 214 and then 221 and produced a false warning about repeating the 8/29 overshoot. Recomputed from foods.json the day plans to 3,213 / 195P (~2.5 g/kg) - calories dead on the 3,200 target and protein unremarkable. No cut to the lunch portion was needed. Toast and smoothie both eaten as planned. Remaining: scampi 20:30 (1,147/81) - eat it and the day closes at 3,213/195. THE 450g OF GROUND CHICKEN IS STILL UNASSIGNED - it was bought 8/30 with no meal, and today's wrap was its slot. Place it this week. No latte logged (four consecutive days of one before this would have been the streak); if it happens add 190/9P. LIFT DONE: push at 16:00, bench 175 x 7,5 -> e1RM 215.8, the Oct 1 gate a month early. Only two bench sets logged against three prescribed. Fully fed for once - yogurt 10:30, chicken plate 12:30, toast 1.5h out - and it was the best bench session of the 175 block."
+  },
+  {
+    "date": "2026-09-01",
+    "kcal": 3202,
+    "protein": 171,
+    "carbs": 430,
+    "fat": 90,
+    "fiber": 33,
+    "meals": [],
+    "method": "reported-as-eaten; bowl and skillet per calendar recipes computed from foods.json (not weighed); latte at the standing 190/9P proxy. DAY CLOSED 22:15.",
+    "deviations": [
+      {
+        "desc": "Vanilla latte 11:00. Estimated at the house 16oz whole-milk vanilla latte figure.",
+        "kcal": 190,
+        "protein": 9,
+        "carbs": 24,
+        "fat": 7,
+        "fiber": 0
+      },
+      {
+        "desc": "Yogurt + blueberry granola bowl 11:30 (planned 08:30, moved 3h later - no breakfast before it): WHOLE MILK Greek yogurt 300g, blueberries 150g, Very Berry Granola 30g, honey 20g, chia 15g.",
+        "kcal": 633,
+        "protein": 33,
+        "carbs": 81,
+        "fat": 22,
+        "fiber": 9
+      },
+      {
+        "desc": "Pre-lift toast ~12:00 (planned 15:30, eaten early): sourdough batard 85g, honey 25g, 1 mandarin. CORRECTED 9/1 22:15 from 100g to 85g batard on Adam's weigh-in. This is the day's ONLY bread item - the 15:30 sourdough+butter+oat milk (493/13) that the midday plan moved into the pre-lift slot was NOT eaten.",
+        "kcal": 354,
+        "protein": 10,
+        "carbs": 76,
+        "fat": 2,
+        "fiber": 4
+      },
+      {
+        "desc": "Chicken + gnocchi skillet, ~12:45 (moved from 18:00), eaten as Adam cooked it: chicken breast raw 275g, potato gnocchi 250g, Rao's marinara 150g, shredded mozzarella 40g. First time making this recipe. Recipe is registered for chicken THIGH; breast substitution is ~100 kcal under and ~10P over per portion.",
+        "kcal": 972,
+        "protein": 83,
+        "carbs": 103,
+        "fat": 21,
+        "fiber": 7
+      },
+      {
+        "desc": "Post-lift smoothie ~19:00 (as planned): WHOLE MILK Greek yogurt 200g, oat milk 200g, frozen mango 120g, oats 35g, honey 30g, chia 15g. Confirmed eaten.",
+        "kcal": 633,
+        "protein": 27,
+        "carbs": 90,
+        "fat": 20,
+        "fiber": 12
+      },
+      {
+        "desc": "Late top-off 22:30: sourdough batard 85g, butter 20g, honey 15g. Replaces the planned 493/13 sourdough+butter+oat milk - oat milk dropped, there is ~946g on hand against ~2,500g of planned use this week.",
+        "kcal": 420,
+        "protein": 9,
+        "carbs": 56,
+        "fat": 18,
+        "fiber": 2
+      }
+    ],
+    "notes": "DAY REBUILT TWICE AT ~11:15, around a 17:00 lift. PULL day. FIRST: Adam moved lifting back to the normal ~17:00 slot, so the day re-sequenced - yogurt bowl 08:30->11:30, pre-lift toast 10:45->15:30 (a real 1.5h gap instead of the 45 min the 11:30 lift forced), lift 11:30->17:00, smoothie 13:15->18:30. THE MOVE IS AN UPGRADE, not a compromise - he now goes into pull fed on a bowl AND toast, versus the bowl alone, and the 8/31 evidence says fully-fed is when the good sessions happen. Vanilla latte at 11:00 is the first one actually logged (three prior days it was flagged as unlogged); 190/9P.\nSECOND: dinner out at Chotto Matte was floated and then CANCELLED within the same conversation - Adam decided to cook the chicken + gnocchi skillet immediately instead and take the smoothie later tonight. Net effect: gnocchi 18:00 -> 12:45 (before the 13:45 GOH), smoothie stays 18:30 post-lift, and the 20:30 sourdough+butter+oat milk nightcap was deleted for the restaurant and then RESTORED at 21:00. No Nikkei allergy exposure after all - the ceviche/sushi/dashi guidance is moot for today but worth keeping if Chotto Matte comes back on the calendar.\nPLAN: latte 190/9 + bowl 633/33 + gnocchi 972/83 + toast 382/10 + smoothie 633/27 + bread 493/13 = 3,303 / 175P. That is 103 over the 3,200 target, which is noise against a 5,104 kcal cumulative 21-day shortfall - do not trim it. Protein 175 is the best number in a week. WITHOUT the 21:00 bread the day lands at 2,810 and is short again, so the bread is the load-bearing meal here, not the optional one.\nFIRST TIME MAKING THE GNOCCHI SKILLET: recipe was built for chicken THIGH, Adam bought BREAST (~100 kcal under, ~9g protein over per portion) - the whole-milk yogurt is what covers that. Makes two portions (Nana's).\nMIDDAY UPDATE: dinner-out plan abandoned entirely. Adam cooked and ate the gnocchi skillet at ~12:45 and had the bread item early (~12:00) rather than at 21:00. Smoothie confirmed for later tonight. CORRECTED: the bread item was the PRE-LIFT TOAST (382/10), not the sourdough+butter+oat milk. Day stands at 2,177/135 eaten with the smoothie (633/27) and the sourdough+butter+oat milk (493/13) outstanding - closes at 3,303/175 exactly as planned. CONSEQUENCE: the toast was eaten ~5h before the 17:00 lift instead of 1.5h, and the gnocchi 4h before, so pull would have run on a 4-hour fast. The 493 bread MOVES from 21:00 to 15:30 to become the pre-lift feed rather than the nightcap - same food, same total, right timing. This is the same fully-fed shape that produced the best bench session of the block on 8/31.\nCLOSED 9/1 at 2,782 / 162P against 3,200 - 418 UNDER, a floor day. Protein cleared the 150-155 floor; calories did not. TWO CORRECTIONS at 22:15, both downward: the pre-lift toast was 85g batard not 100g (-28), and the 493/13 sourdough+butter+oat milk was NEVER EATEN. Both the midday plan and the 9/1 lift note recorded that 493 as the 15:30 pre-lift feed - it did not happen, so the lift note's 'fully fed' framing overstates the actual intake by 493 kcal. The pull session still ran on ~2,149 kcal in, which is a large pre-lift feed by any standard, so the fully-fed read on the pulldown PR survives; the number attached to it does not.\nTHIS IS THE PATTERN THE 8/31 FLOOR NOTE NAMED. The deleted-then-restored nightcap has now failed to land twice in three days (8/30 egg scramble wrap 554/38P, 9/1 bread 493/13). Both times it was the day's LAST meal and both times it was the entire gap. The last item of the day is the one that does not get eaten - stop putting the margin there. Move the load-bearing 400-600 kcal into the pre-lift or post-lift slot, where 9/1 shows it actually gets eaten.\nREOPENED AND RE-CLOSED 22:30 at 3,202 / 171P - dead on the 3,200 target after a bread+butter+honey top-off. The 2,782 close above stood for about ten minutes. Protein 171 is the best number in a week."
+  },
+  {
+    "date": "2026-09-02",
+    "kcal": 3505,
+    "protein": 186,
+    "carbs": 459,
+    "fat": 104,
+    "fiber": 33,
+    "meals": [],
+    "method": "reported-as-eaten; bowl, toast and smoothie per calendar recipes computed from foods.json (not weighed); turkey bowl from foods.json with Adam's stated 150g turkey; latte at the standing 190/9P proxy; RT Rotisserie bowl PHOTO-FREE ESTIMATE (no published nutrition). Smoothie CONFIRMED eaten (~21:00). Day closed.",
+    "deviations": [
+      {
+        "desc": "Vanilla latte ~09:00 (unplanned, standing 16oz whole-milk proxy). Fifth day running.",
+        "kcal": 190,
+        "protein": 9,
+        "carbs": 24,
+        "fat": 7,
+        "fiber": 0
+      },
+      {
+        "desc": "Yogurt + blueberry granola bowl ~09:30 (as planned): WHOLE MILK Greek yogurt 300g, blueberries 150g, Very Berry Granola 30g, honey 20g, chia 15g. Recomputed from foods.json (633) rather than the calendar's 610.",
+        "kcal": 633,
+        "protein": 33,
+        "carbs": 81,
+        "fat": 22,
+        "fiber": 9
+      },
+      {
+        "desc": "Turkey rice bowl ~11:30 (planned 13:15 as a chicken rice bowl, eaten ~1.75h early). PROTEIN SWAPPED: 150g TJ's 99/1 ground turkey breast instead of 200g raw chicken breast - the 8/26 ground chicken was ruled out on age, then it turned out he had 300g turkey. Split across two bowls at 150g each; NO oil despite the recommendation. Basmati 100g dry, spinach 80g, sriracha 20g. 60 kcal / 8P under the planned 647/54. The SECOND bowl is in the fridge - Nanda cannot eat turkey - and is tomorrow's lunch.",
+        "kcal": 587,
+        "protein": 46,
+        "carbs": 87,
+        "fat": 5,
+        "fiber": 2
+      },
+      {
+        "desc": "Pre-lift toast 14:30 (as planned, per adherence protocol - not separately confirmed): sourdough batard 100g, honey 25g, 1 mandarin. 1.5h before the 16:00 squat.",
+        "kcal": 382,
+        "protein": 10,
+        "carbs": 82,
+        "fat": 2,
+        "fiber": 4
+      },
+      {
+        "desc": "RT Rotisserie RTR rice bowl, chicken + lamb, red beet tahini, ~17:30-18:00 (UNPLANNED, replaced the beef bolognese \u00d72). The FREEZER 85/15 beef was thrown out - it had gone bad - so the bolognese that was scheduled 8/28, 8/30 and 9/2 is now dead for good. ESTIMATE, no published nutrition: rotisserie-fat rice ~390, chicken ~230/25P, lamb ~280/24P, beet tahini + seeds + pickled veg ~180. Allergens: beet tahini is sesame (explicitly OK); no nut, legume, fish or bell pepper exposure identified on the published menu.",
+        "kcal": 1080,
+        "protein": 61,
+        "carbs": 95,
+        "fat": 48,
+        "fiber": 6
+      },
+      {
+        "desc": "Post-lift smoothie, MOVED 17:30 -> 19:00 -> 21:00 (Adam: 'later'). CONFIRMED EATEN. WHOLE MILK Greek yogurt 200g, oat milk 200g, frozen mango 120g, oats 35g, honey 30g, chia 15g.",
+        "kcal": 633,
+        "protein": 27,
+        "carbs": 90,
+        "fat": 20,
+        "fiber": 12
+      }
+    ],
+    "notes": "LEGS day (squat 235 x 8,6, e1RM back to 297.7). Day rebuilt twice. FIRST at ~11:00: bolognese and smoothie swapped at Adam's request (bolognese 19:00 -> 17:30, smoothie 17:30 -> 19:00) - the right shape, it took the 922 kcal meal off the last slot. SECOND at ~19:30: the bolognese never happened. The 85/15 beef had spoiled and was thrown out; Adam ate an RT Rotisserie chicken + lamb rice bowl instead (~1,080/61P est, +158 kcal / +19P over the bolognese). Smoothie pushed to ~21:00.\nIF THE SMOOTHIE IS EATEN: 3,505 / 186P - 305 over the 3,200 target, the first day over target since 8/29 (3,199). Against an August that ran 224/day under, this is the right side to miss on; no trim was recommended. IF SKIPPED: 2,872 / 159P, a floor day (under 3,000). Protein clears the 150-155 floor either way.\nSUPPLY: 85/15 ground beef GONE (spoiled). The 8/26 ground chicken is 7 days old raw and was flagged do-not-use; Adam did not use it - assume it is also gone or should be. One turkey rice bowl (587/46) in the fridge for 9/3 lunch; 150g raw chicken breast on hand (date unverified - if it is the 8/26 buy, cook or bin it 9/3). Poultry bought 8/26 has now cost one meal and nearly cost two - plan raw ground meat within 2 days of purchase or freeze it on arrival.\nRT Rotisserie added as a known-safe out option: RTR rice bowl + red beet tahini clears every allergy on profile; sauces to AVOID there are not yet checked (chipotle yogurt, garlic aioli probably fine; check the hot sauce and lemon sesame dressing for bell pepper/nut before ordering them)."
+  },
+  {
+    "date": "2026-09-03",
+    "kcal": 2683,
+    "protein": 107,
+    "carbs": 221,
+    "fat": 106,
+    "fiber": 15,
+    "meals": [],
+    "method": "reported-as-eaten, retroactively 9/4; off-plan social day, all three items are estimates (no weights/photos). Yogurt bowl at the usual recipe proxy; burger and pizza are unverified restaurant/product estimates.",
+    "deviations": [
+      {
+        "desc": "Yogurt + blueberry granola bowl, morning (Adam: 'the yogurt bowl' - same as the usual recipe): WHOLE MILK Greek yogurt 300g, blueberries 150g, Very Berry Granola 30g, honey 20g, chia 15g.",
+        "kcal": 633,
+        "protein": 33,
+        "carbs": 81,
+        "fat": 22,
+        "fiber": 9
+      },
+      {
+        "desc": "UNPLANNED: Farmhouse burger, Jay's Grill, lunch. No published nutrition found - PHOTO-FREE ESTIMATE for a bacon/egg/cheese-style burger. Sauce/toppings not itemized - unverified against bell pepper/legume allergies.",
+        "kcal": 850,
+        "protein": 42,
+        "carbs": 50,
+        "fat": 48,
+        "fiber": 3
+      },
+      {
+        "desc": "UNPLANNED: Costco Kirkland Sicilian pepperoni pizza, 2 slices, dinner with friends. No exact product ID in foods.json - ESTIMATE off typical thick-crust take-and-bake pepperoni pizza (~380 kcal/slice).",
+        "kcal": 760,
+        "protein": 32,
+        "carbs": 76,
+        "fat": 36,
+        "fiber": 3
+      },
+      {
+        "desc": "UNPLANNED: red/white wine, ~3-4 glasses (~450-600ml), with dinner. Estimated at ~125 kcal per 150ml glass, midpoint 3.5 glasses.",
+        "kcal": 440,
+        "protein": 0,
+        "carbs": 14,
+        "fat": 0,
+        "fiber": 0
+      }
+    ],
+    "notes": "SOCIAL DAY, no lift logged. Off-plan for lunch and dinner - Adam ate the usual yogurt bowl, then a burger out and pizza + wine with friends at night, none weighed or photographed. Closes at 2,683 / 107P against 3,200 - 517 UNDER, another floor day, and the first day this window to also miss the 150-155 protein floor (107P), since neither the burger nor the pizza carried much protein density. Scale/TDEE read: treat this day as noisy input, not a data point to optimize against - a good time with friends, logged so the trend stays honest, not to be second-guessed."
+  },
+  {
+    "date": "2026-09-04",
+    "kcal": 3062,
+    "protein": 206,
+    "carbs": 320,
+    "fat": 88,
+    "fiber": 20,
+    "meals": [],
+    "method": "reported-as-eaten. DAY CLOSED.",
+    "deviations": [
+      {
+        "desc": "UNPLANNED: small Starbucks latte, morning. Estimated at a short (8oz) 2% latte proxy - no milk type confirmed.",
+        "kcal": 110,
+        "protein": 7,
+        "carbs": 10,
+        "fat": 4,
+        "fiber": 0
+      },
+      {
+        "desc": "Turkey rice bowl (as planned, carried over from 9/2 cooking - the second portion originally meant for 9/3 lunch, skipped that day for the Jay's Grill burger): TJ's 99/1 ground turkey breast 150g, basmati 100g dry, spinach 80g, sriracha 20g, no oil.",
+        "kcal": 587,
+        "protein": 46,
+        "carbs": 87,
+        "fat": 5,
+        "fiber": 2
+      },
+      {
+        "desc": "Yogurt + blueberry granola bowl, 08:30 (as planned): WHOLE MILK Greek yogurt 300g, blueberries 150g, Very Berry Granola 30g, honey 20g, chia 15g. Recomputed from foods.json (633) rather than the calendar's rounded 610.",
+        "kcal": 633,
+        "protein": 33,
+        "carbs": 81,
+        "fat": 22,
+        "fiber": 9
+      },
+      {
+        "desc": "Pre-lift toast, 14:30 (as planned, per adherence protocol - not separately confirmed until now): sourdough batard 100g, honey 25g, 1 mandarin. Eaten even though the 16:00 bench session itself did not happen.",
+        "kcal": 382,
+        "protein": 10,
+        "carbs": 82,
+        "fat": 2,
+        "fiber": 4
+      },
+      {
+        "desc": "Dinner at Chez Maman West, in person, unplanned dine-out: Organic Half Roasted Chicken with mashed potatoes. ESTIMATE, no published nutrition - bone-in half chicken ~700/95P, mashed potatoes ~650/15P.",
+        "kcal": 1350,
+        "protein": 110,
+        "carbs": 60,
+        "fat": 55,
+        "fiber": 5
+      }
+    ],
+    "notes": "CLOSED at 3062 / 206P. PUSH DAY DID NOT HAPPEN: Adam ate the pre-lift toast at 14:30 as planned, then fell asleep and missed both the 16:00 bench session and 20:15 Chabad. Watch/Eight Sleep data confirms no workout - active energy only 206 kcal all day, no sustained elevated-HR bout after 15:00, HR flat 60-90 resting through 19:30. HRV 44.8 today (2 readings), back to normal baseline after last night's 90.8. Nothing in the data argues against training - this was an unplanned skipped session, not a recovery-driven one. Push (175 x 3 sets) reschedules to the next session unchanged; day treated as a rest day. Dinner at Chez Maman (half roasted chicken + mashed potatoes) closed the day out over target on protein, on target on kcal."
   }
 ]

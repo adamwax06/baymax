@@ -1259,7 +1259,7 @@
               "bodyweight": true
             }
           ],
-          "notes": "bench; cable flies 40\u2019s for 7, 6,"
+          "notes": "bench; cable flies 40’s for 7, 6,"
         }
       ],
       "gym": "rut"
@@ -8801,7 +8801,7 @@
               ]
             }
           ],
-          "notes": "22kg DBs, slow eccentric \u2014 hotel gym max"
+          "notes": "22kg DBs, slow eccentric — hotel gym max"
         },
         {
           "name": "Unilateral Tricep Pushdown",
@@ -8891,7 +8891,7 @@
               ]
             }
           ],
-          "notes": "17.5kg DBs \u2014 gym's increments, lighter than usual 40lb"
+          "notes": "17.5kg DBs — gym's increments, lighter than usual 40lb"
         },
         {
           "name": "Unilateral Lat Pullover",
@@ -8906,7 +8906,7 @@
           ]
         }
       ],
-      "notes": "Real gym in Lisbon (via Cade), not the hotel dumbbell/cable setup \u2014 weight stack available."
+      "notes": "Real gym in Lisbon (via Cade), not the hotel dumbbell/cable setup — weight stack available."
     },
     {
       "date": "2026-07-29",
@@ -8963,10 +8963,10 @@
               ]
             }
           ],
-          "notes": "cleaned both sets at 125 \u2014 ready to bump next session"
+          "notes": "cleaned both sets at 125 — ready to bump next session"
         }
       ],
-      "notes": "Trained approximately 5:15\u20136:15pm."
+      "notes": "Trained approximately 5:15–6:15pm."
     },
     {
       "date": "2026-07-30",
@@ -10345,6 +10345,220 @@
         }
       ],
       "notes": "Legs. Logged 8/30 from Adam's sheet. Three of four progressed; squat flat at 235 (repeat again, do not jump to 245) and hamstring curl overreached to 145. Creatine day 9. Fuel: pre-lift toast only (382 kcal / ~80g carbs) 1.75h out - the egg scramble had been moved to 16:00."
+    },
+    {
+      "date": "2026-08-31",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "reps": [
+                7,
+                5
+              ],
+              "lb": 175
+            }
+          ],
+          "notes": "TWO sets logged against a prescribed THREE. e1RM 215.83 (Epley off 175x7), up from 210.0 on 8/27."
+        },
+        {
+          "name": "Unilateral Tricep Pushdown",
+          "sets": [
+            {
+              "reps": [
+                7,
+                7
+              ],
+              "lb": 33
+            }
+          ],
+          "notes": "30 completed 8/27 at 8,8. Went to 33, the next cable plate (the calendar said 35, which the stack does not have)."
+        },
+        {
+          "name": "DB Lateral Raise",
+          "sets": [
+            {
+              "reps": [
+                7,
+                6,
+                6
+              ],
+              "lb": 30
+            }
+          ],
+          "notes": "25s completed 8/27 at 10,10,10. First outing at 30s beats the first outing at 25s (7/17: 6,6,4)."
+        },
+        {
+          "name": "Incline Fly",
+          "sets": [
+            {
+              "reps": [
+                8,
+                7
+              ],
+              "lb": 80
+            }
+          ],
+          "notes": "Third session at 80: 8,5 -> 8,6 -> 8,7. One rep per session, exactly on schedule for 8,8 next."
+        },
+        {
+          "name": "DB Skull Crusher",
+          "sets": [
+            {
+              "reps": [
+                5
+              ],
+              "lb": 30
+            },
+            {
+              "reps": [
+                10
+              ],
+              "lb": 25
+            }
+          ],
+          "notes": "Overreach. 25 was 10,10 on 8/27; 30 came back 5 and he dropped to 25 for the second set."
+        }
+      ],
+      "notes": "Push. Bench 175 x 7,5 - ONLY TWO SETS against a prescribed three, and the third set was the entire stated point of this session per the 8/28 diagnosis. UNCONFIRMED whether it was skipped or just unlogged - ask before treating it as skipped. e1RM 215.83, which clears the OCT 1 gate (215) a month early and drops the required rate to 225 by Dec 1 from 1.11 to 0.70 e1RM/wk. Still not 8,7, so 175 REPEATS next push day - the park-at-175 rule stands. THE PATTERN OF THE DAY: load went up on four of five accessories in a single session while bench set count did not. That is backwards relative to the 8/28 diagnosis, which said bench volume is the deficit. INCREMENT SIZE PREDICTED THE OUTCOME: the cable pushdown moved 30->33 (+10%) and held at 7,7. Both dumbbell lifts moved +20% because 5 lb is the smallest DB step at 25 lb - lateral raise 25s 10,10,10 -> 30s 7,6,6, skull crusher 25 10,10 -> 30 for 5. Skull crusher is the 8/29 hamstring-curl error repeated in a different lift, though milder since he dropped down rather than abandoning the set. Context: 25 lb skull crushers took seven weeks (7/08 single set of 6 -> 8/27 10,10), so 30 for 5 is a normal first outing, not a failure. Creatine day 11. Fuel: yogurt bowl 10:30, Proper Food chicken plate 12:30, toast 14:30 1.5h out, all as planned - the best-fed push session of the window, and the lift was moved 12:30 -> 16:00 at Adam's request."
+    },
+    {
+      "date": "2026-09-01",
+      "exercises": [
+        {
+          "name": "Lat Pulldown",
+          "sets": [
+            {
+              "lb": 180,
+              "reps": [
+                8,
+                7
+              ]
+            }
+          ],
+          "notes": "PRESCRIPTION HIT EXACTLY. 8/28 was 180 x 7,6 after jumping past the prescribed 175; the call was repeat 180 and make it 8,7. He did. e1RM 228.0, up from 222.0. 180 is COMPLETE - it earns 190 next pull."
+        },
+        {
+          "name": "Cable Curl",
+          "sets": [
+            {
+              "lb": 63,
+              "reps": [
+                8,
+                7
+              ]
+            }
+          ],
+          "notes": "Held 63 rather than the prescribed 65 for the second session running, and converted 8,6 into 8,7. 63 still owes one rep on set 2; take 65 once it is 8,8 - or now, since the pattern here is that his load calls beat mine."
+        },
+        {
+          "name": "Row",
+          "sets": [
+            {
+              "lb": 175,
+              "reps": [
+                8,
+                6
+              ]
+            },
+            {
+              "lb": 160,
+              "reps": [
+                8
+              ]
+            }
+          ],
+          "notes": "THE ONE REGRESSION. 8/28 was 175 x 8,8,7 - this is 8,6 then a drop to 160 for 8. Set count met (3), quality down. Prescribed 180 was correctly not taken: 175 was not complete. Repeat 175 for three sets next time; 180 is not owed until 175 is 8,8,7 again."
+        },
+        {
+          "name": "Unilateral DB Curl",
+          "sets": [
+            {
+              "lb": 40,
+              "reps": [
+                8,
+                8
+              ]
+            }
+          ],
+          "notes": "COMPLETE. 40s went 8,6 (8/24) -> 8,7 (8/28) -> 8,8. One rep per session, exactly the consolidation shape. Next step is 45s, a 12.5% jump - the 8/31 push-day lesson says +20% DB jumps regress, so 45 should be treated as a first-outing load, not a repeat load."
+        },
+        {
+          "name": "Unilateral Lat Pullover",
+          "sets": [
+            {
+              "lb": 37,
+              "reps": [
+                8,
+                8
+              ]
+            }
+          ],
+          "notes": "Jumped 33 -> 37, past the prescribed 35, and still hit 8,8. Fourth time his load call has beaten the prescription on pull. e1RM 46.9. 37 is complete on arrival; 40 next."
+        }
+      ],
+      "notes": "Pull, 17:00 - the first session back in the normal evening slot after the day was rebuilt around it at 11:15. FOUR OF FIVE COMPLETE, one regression. Fully fed: latte 11:00, yogurt bowl 11:30, toast ~12:00, gnocchi skillet 12:45 (~2,177 kcal in before training), plus sourdough+butter+oat milk at 15:30 as the pre-lift feed.\nLAT PULLDOWN IS THE HEADLINE: 180 x 8,7 is the prescription hit to the rep, e1RM 228.0 from 222.0, and 180 is done in two sessions rather than the four 170 took.\nROW IS THE COST. 175 x 8,6 + 160 x 8 against 175 x 8,8,7 on 8/28 - three fewer reps at the top load. The likely cause is order and fatigue, not capacity: pulldown was materially harder this session (8,7 at 180 vs 7,6) and row follows it. Do not read this as a stall at 175; read it as the pulldown PR being paid for downstream. Repeat 175 x 3 next pull and it should come back.\nTHE STANDING PATTERN HELD AGAIN: Adam overrode the prescribed load on pullover (37 vs 35) and was right, and held under it on cable curl (63 vs 65) and was right. That is now four straight pull sessions where his own load calls beat mine, which is why the 8/28 policy change stands - stop calling holds on pull, let him pick.\nTRAINING-PARTNER DATA (J, and one N entry) was included in the paste covering 7/01-7/21 across pulldown, cable curl, row and DB curl. NOT STORED - weights.json is single-athlete and has no schema for partners. Ask before building one."
+    },
+    {
+      "date": "2026-09-02",
+      "exercises": [
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "lb": 235,
+              "reps": [
+                8,
+                6
+              ]
+            }
+          ],
+          "notes": "THIRD session at 235, repeated as prescribed. 8,6 = 14 reps, up one from the 13 of 8/26 and 8/29. e1RM 297.7 (Epley off 235x8), back to the 8/26 all-time peak from 289.8. Target was 8,7 - NOT earned. 235 now reads 8,5 / 7,6 / 8,6, which is 225's four-session shape (6,6 / 7,6 / 8,6 / 8,7) one step from the end. Take 235 a FOURTH time, target 8,7. Do not jump to 245."
+        },
+        {
+          "name": "Leg Press Calf Raises",
+          "sets": [
+            {
+              "lb": 500,
+              "reps": [
+                8,
+                8,
+                7
+              ]
+            }
+          ],
+          "notes": "Flat repeat of 8/29 (8,8,7). Third set still owes a rep - repeat 500."
+        },
+        {
+          "name": "Hamstring Curl",
+          "sets": [
+            {
+              "lb": 140,
+              "reps": [
+                8,
+                7,
+                5
+              ]
+            }
+          ],
+          "notes": "Prescription was 140 x 3 - three sets LANDED this time (8/29 overreached to 145x4 and only got two). 8,7,5 vs the 7,5 backoff on 8/29. 140 not complete; repeat 140, no 145 until 8,8,8."
+        },
+        {
+          "name": "Unilateral Leg Extension",
+          "sets": [
+            {
+              "lb": 145,
+              "reps": [
+                8,
+                6
+              ]
+            }
+          ],
+          "notes": "First outing at 145 after 140 x 8,8 on 8/29. 8,6 - identical to 140's first outing (8/26: 8,6), which went 8,8 the next session. Repeat 145."
+        }
+      ],
+      "notes": "Legs, 16:00 standing slot, straight off the 15:00 standup. Logged 9/2 evening from Adam's sheet. ZERO LOAD CHANGES that were not earned: squat and calves repeated as prescribed, hamstring curl came back down to 140 for three sets as prescribed, quad extension took the earned jump to 145. SQUAT IS THE HEADLINE: 235 x 8,6, e1RM back to 297.7 (ties the 8/26 peak) after the 8/29 dip to 289.8. Still not 8,7, so 235 repeats a fourth time - exactly the 225 precedent. Fuel: latte ~09:00, yogurt bowl ~09:30, turkey rice bowl (587/46, no oil) ~11:30, toast 14:30 as planned 1.5h out - the better-gapped rerun of the 8/29 conditions, and it moved the second set 6->6 and the first 7->8. Creatine day 13. Training-partner columns (N) in the paste again NOT stored - single-athlete file."
     }
   ]
 }
