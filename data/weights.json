@@ -2,6 +2,7 @@
   "sessions": [
     {
       "date": "2022-07-04",
+      "type": "push",
       "exercises": [
         {
           "name": "Bench Press",
@@ -75,6 +76,7 @@
     },
     {
       "date": "2022-07-08",
+      "type": "push",
       "exercises": [
         {
           "name": "Bench Press",
@@ -156,6 +158,7 @@
     },
     {
       "date": "2022-07-17",
+      "type": "push",
       "exercises": [
         {
           "name": "Bench Press",
@@ -203,6 +206,7 @@
     },
     {
       "date": "2022-07-22",
+      "type": "push",
       "exercises": [
         {
           "name": "Bench Press",
@@ -268,6 +272,7 @@
     },
     {
       "date": "2022-09-10",
+      "type": "push",
       "exercises": [
         {
           "name": "Bench Press",
@@ -306,6 +311,7 @@
     },
     {
       "date": "2022-09-11",
+      "type": "push",
       "exercises": [
         {
           "name": "Bench Press",
@@ -378,6 +384,7 @@
     },
     {
       "date": "2022-09-17",
+      "type": "push",
       "exercises": [
         {
           "name": "Bench Press",
@@ -455,6 +462,7 @@
     },
     {
       "date": "2022-10-01",
+      "type": "push",
       "exercises": [
         {
           "name": "Bench Press",
@@ -499,6 +507,7 @@
     },
     {
       "date": "2022-10-21",
+      "type": "legs",
       "exercises": [
         {
           "name": "Squat",
@@ -546,6 +555,7 @@
     },
     {
       "date": "2022-11-04",
+      "type": "push",
       "exercises": [
         {
           "name": "Bench Press",
@@ -597,6 +607,7 @@
     },
     {
       "date": "2022-11-13",
+      "type": "pull",
       "exercises": [
         {
           "name": "Row",
@@ -616,6 +627,7 @@
     },
     {
       "date": "2022-12-10",
+      "type": "push",
       "exercises": [
         {
           "name": "Bench Press",
@@ -635,6 +647,7 @@
     },
     {
       "date": "2025-05-22",
+      "type": "legs",
       "exercises": [
         {
           "name": "Squat",
@@ -941,6 +954,7 @@
     },
     {
       "date": "2025-05-30",
+      "type": "legs",
       "exercises": [
         {
           "name": "Squat",
@@ -1074,6 +1088,7 @@
     },
     {
       "date": "2025-06-03",
+      "type": "pull",
       "exercises": [
         {
           "name": "DB Bicep Curl",
@@ -1139,6 +1154,7 @@
     },
     {
       "date": "2025-06-04",
+      "type": "legs",
       "exercises": [
         {
           "name": "Squat",
@@ -1426,6 +1442,7 @@
     },
     {
       "date": "2025-06-10",
+      "type": "push",
       "exercises": [
         {
           "name": "Tricep Pushdown + Press",
@@ -1506,6 +1523,7 @@
     },
     {
       "date": "2025-06-11",
+      "type": "pull",
       "exercises": [
         {
           "name": "JPG",
@@ -1602,6 +1620,7 @@
     },
     {
       "date": "2025-06-15",
+      "type": "legs",
       "exercises": [
         {
           "name": "Squat",
@@ -1625,6 +1644,7 @@
     },
     {
       "date": "2025-06-16",
+      "type": "push",
       "exercises": [
         {
           "name": "Tricep Pushdown + Press",
@@ -1703,6 +1723,7 @@
     },
     {
       "date": "2025-06-17",
+      "type": "pull",
       "exercises": [
         {
           "name": "DB Bicep Curl",
@@ -1932,6 +1953,7 @@
     },
     {
       "date": "2025-06-22",
+      "type": "pull",
       "exercises": [
         {
           "name": "JPG",
@@ -2141,6 +2163,7 @@
     },
     {
       "date": "2025-06-25",
+      "type": "pull",
       "exercises": [
         {
           "name": "JPG",
@@ -2218,6 +2241,7 @@
     },
     {
       "date": "2025-06-27",
+      "type": "push",
       "exercises": [
         {
           "name": "Tricep Pushdown + Press",
@@ -2287,6 +2311,7 @@
     },
     {
       "date": "2025-07-09",
+      "type": "push",
       "exercises": [
         {
           "name": "Tricep Pushdown + Press",
@@ -2356,6 +2381,7 @@
     },
     {
       "date": "2025-07-11",
+      "type": "pull",
       "exercises": [
         {
           "name": "DB Bicep Curl",
@@ -2404,6 +2430,7 @@
     },
     {
       "date": "2025-07-18",
+      "type": "push",
       "exercises": [
         {
           "name": "Bench Press",
@@ -2480,6 +2507,7 @@
     },
     {
       "date": "2025-07-22",
+      "type": "legs",
       "exercises": [
         {
           "name": "Squat",
@@ -2515,6 +2543,7 @@
     },
     {
       "date": "2025-07-23",
+      "type": "push",
       "exercises": [
         {
           "name": "Tricep Pushdown + Press",
@@ -2560,6 +2589,7 @@
     },
     {
       "date": "2025-07-24",
+      "type": "pull",
       "exercises": [
         {
           "name": "JPG",
@@ -2693,6 +2723,7 @@
     },
     {
       "date": "2025-07-31",
+      "type": "push",
       "exercises": [
         {
           "name": "Tricep Pushdown + Press",
@@ -2762,6 +2793,7 @@
     },
     {
       "date": "2025-08-01",
+      "type": "pull",
       "exercises": [
         {
           "name": "DB Bicep Curl",
@@ -2876,6 +2908,7 @@
     },
     {
       "date": "2025-08-21",
+      "type": "pull",
       "exercises": [
         {
           "name": "Pullups",
@@ -2950,6 +2983,7 @@
     },
     {
       "date": "2025-08-22",
+      "type": "legs",
       "exercises": [
         {
           "name": "Squat",
@@ -3011,6 +3045,7 @@
     },
     {
       "date": "2025-08-24",
+      "type": "push",
       "exercises": [
         {
           "name": "Bench Press",
@@ -3226,6 +3261,7 @@
     },
     {
       "date": "2025-08-28",
+      "type": "push",
       "exercises": [
         {
           "name": "Bench Press",
@@ -3304,6 +3340,7 @@
     },
     {
       "date": "2025-08-29",
+      "type": "pull",
       "exercises": [
         {
           "name": "Pullups",
@@ -3381,6 +3418,7 @@
     },
     {
       "date": "2025-09-01",
+      "type": "legs",
       "exercises": [
         {
           "name": "Squat",
@@ -3441,6 +3479,7 @@
     },
     {
       "date": "2025-09-03",
+      "type": "push",
       "exercises": [
         {
           "name": "Bench Press",
@@ -3508,6 +3547,7 @@
     },
     {
       "date": "2025-09-22",
+      "type": "push",
       "exercises": [
         {
           "name": "Bench Press",
@@ -3591,6 +3631,7 @@
     },
     {
       "date": "2025-09-25",
+      "type": "pull",
       "exercises": [
         {
           "name": "Pullups",
@@ -3673,6 +3714,7 @@
     },
     {
       "date": "2025-09-29",
+      "type": "legs",
       "exercises": [
         {
           "name": "Squat",
@@ -3701,6 +3743,7 @@
     },
     {
       "date": "2025-09-30",
+      "type": "push",
       "exercises": [
         {
           "name": "Bench Press",
@@ -3747,6 +3790,7 @@
     },
     {
       "date": "2025-10-05",
+      "type": "pull",
       "exercises": [
         {
           "name": "Pullups",
@@ -3827,6 +3871,7 @@
     },
     {
       "date": "2025-10-14",
+      "type": "push",
       "exercises": [
         {
           "name": "Bench Press",
@@ -3910,6 +3955,7 @@
     },
     {
       "date": "2025-10-16",
+      "type": "pull",
       "exercises": [
         {
           "name": "Pullups",
@@ -3966,6 +4012,7 @@
     },
     {
       "date": "2025-10-18",
+      "type": "push",
       "exercises": [
         {
           "name": "Bench Press",
@@ -9819,6 +9866,7 @@
     },
     {
       "date": "2026-08-21",
+      "type": "pull",
       "exercises": [
         {
           "name": "Lat Pulldown",
@@ -9885,6 +9933,7 @@
     },
     {
       "date": "2026-08-22",
+      "type": "legs",
       "exercises": [
         {
           "name": "Squat",
@@ -9940,6 +9989,7 @@
     },
     {
       "date": "2026-08-23",
+      "type": "push",
       "exercises": [
         {
           "name": "Bench Press",
@@ -10007,6 +10057,7 @@
     },
     {
       "date": "2026-08-24",
+      "type": "pull",
       "exercises": [
         {
           "name": "Lat Pulldown",
@@ -10079,6 +10130,7 @@
     },
     {
       "date": "2026-08-26",
+      "type": "legs",
       "exercises": [
         {
           "name": "Squat",
@@ -10139,6 +10191,7 @@
     },
     {
       "date": "2026-08-27",
+      "type": "push",
       "exercises": [
         {
           "name": "Bench Press",
@@ -10211,6 +10264,7 @@
     },
     {
       "date": "2026-08-28",
+      "type": "pull",
       "exercises": [
         {
           "name": "Lat Pulldown",
@@ -10283,6 +10337,7 @@
     },
     {
       "date": "2026-08-29",
+      "type": "legs",
       "exercises": [
         {
           "name": "Squat",
@@ -10348,6 +10403,7 @@
     },
     {
       "date": "2026-08-31",
+      "type": "push",
       "exercises": [
         {
           "name": "Bench Press",
@@ -10425,6 +10481,7 @@
     },
     {
       "date": "2026-09-01",
+      "type": "pull",
       "exercises": [
         {
           "name": "Lat Pulldown",
@@ -10502,6 +10559,7 @@
     },
     {
       "date": "2026-09-02",
+      "type": "legs",
       "exercises": [
         {
           "name": "Squat",
@@ -10562,13 +10620,18 @@
     },
     {
       "date": "2026-09-05",
+      "type": "push",
       "exercises": [
         {
           "name": "Bench Press",
           "sets": [
             {
               "lb": 175,
-              "reps": [7.5, 5.5, 3]
+              "reps": [
+                7.5,
+                5.5,
+                3
+              ]
             }
           ],
           "notes": "THREE sets landed for the first time at 175 - the third-set goal set on 8/31 (where only two got logged: 7,5). Set 1 was 7.5, partially spotter-assisted on a rep that should not have needed a spot - true unassisted set 1 is closer to 7. Sharp dropoff to 5.5 then 3 says the third set is real fatigue cost, not free volume. Still not the 8,7 needed to move off 175."
@@ -10578,7 +10641,10 @@
           "sets": [
             {
               "lb": 33,
-              "reps": [8, 5]
+              "reps": [
+                8,
+                5
+              ]
             }
           ],
           "notes": "8/31 was 33 x 7,7. Set 1 up to 8, set 2 down to 5 - net a wash, not yet the 8,8 needed to move up."
@@ -10588,7 +10654,11 @@
           "sets": [
             {
               "lb": 30,
-              "reps": [8, 7, 6]
+              "reps": [
+                8,
+                7,
+                6
+              ]
             }
           ],
           "notes": "8/31 first outing at 30s was 7,6,6. Every set up by one rep - clean progress, not yet complete."
@@ -10598,7 +10668,10 @@
           "sets": [
             {
               "lb": 80,
-              "reps": [8, 7]
+              "reps": [
+                8,
+                7
+              ]
             }
           ],
           "notes": "Identical to 8/31 (8,7) - the one-rep-per-session pattern broke. Still not 8,8; repeat 80."
@@ -10608,17 +10681,94 @@
           "sets": [
             {
               "lb": 30,
-              "reps": [5]
+              "reps": [
+                5
+              ]
             },
             {
               "lb": 25,
-              "reps": [8]
+              "reps": [
+                8
+              ]
             }
           ],
           "notes": "8/31 was 30x5, 25x10. Set 1 identical, set 2 down 10->8 - not yet consolidated at 30."
         }
       ],
       "notes": "Push, makeup for the 9/4 session slept through - moved to 15:30 at Adam's request, no separate pre-lift toast (fed off the 300g yogurt+honey and half a Pokebola poke bowl already eaten). Bench finally ran all three prescribed sets, but a spotter helped on a rep in set 1 that should have been unassisted, so the 7.5 overstates true capacity. Everything else held flat or edged up marginally; nothing here argues for a load change next push. Training-partner columns (J) in the paste NOT stored - single-athlete file."
+    },
+    {
+      "date": "2026-09-06",
+      "type": "pull",
+      "exercises": [
+        {
+          "name": "Lat Pulldown",
+          "sets": [
+            {
+              "lb": 180,
+              "reps": [
+                8,
+                7
+              ]
+            }
+          ],
+          "notes": "Repeated 180 x 8,7, matching 9/1 exactly. Still not the 8,8 needed to call it fully complete and earn 190."
+        },
+        {
+          "name": "Cable Curl",
+          "sets": [
+            {
+              "lb": 63,
+              "reps": [
+                8,
+                7
+              ]
+            }
+          ],
+          "notes": "Third session running at 63 x 8,7 - stuck one rep short of 8,8 on set 2. Take 65 next time regardless; the load call pattern says trust him."
+        },
+        {
+          "name": "Row",
+          "sets": [
+            {
+              "lb": 175,
+              "reps": [
+                8,
+                8,
+                7
+              ]
+            }
+          ],
+          "notes": "Recovered the 8/28-level 175 x 8,8,7 after the 9/1 dip (8,6 + 160x8). First session using straps - likely grip assist contributed to the rebound. 175 now complete; 180 is owed next pull."
+        },
+        {
+          "name": "Unilateral DB Curl",
+          "sets": [
+            {
+              "lb": 40,
+              "reps": [
+                8,
+                8
+              ]
+            }
+          ],
+          "notes": "Third straight 40s x 8,8. Fully complete for a while now - 45s (first-outing load) is overdue."
+        },
+        {
+          "name": "Unilateral Lat Pullover",
+          "sets": [
+            {
+              "lb": 37,
+              "reps": [
+                10,
+                8
+              ]
+            }
+          ],
+          "notes": "Up from 37s x 8,8 (9/1) to 10,8 - more total reps at the same load. Getting close to complete; one more clean 10,10 or so and 40 is next."
+        }
+      ],
+      "notes": "Pull, 17:00ish. Adam reported feeling a little tired going in. Despite that, row bounced back to 175 x 8,8,7 (first session with straps) and pullover added reps at 37s. Pulldown and cable curl held flat at prior loads."
     }
   ]
 }

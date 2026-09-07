@@ -2007,11 +2007,11 @@
   },
   {
     "date": "2026-09-05",
-    "kcal": 635,
-    "protein": 43,
-    "carbs": 70,
-    "fat": 17,
-    "fiber": 2,
+    "kcal": 3163,
+    "protein": 184,
+    "carbs": 375,
+    "fat": 94,
+    "fiber": 19,
     "meals": [],
     "method": "reported-as-eaten. DAY OPEN.",
     "deviations": [
@@ -2038,8 +2038,109 @@
         "carbs": 40,
         "fat": 4,
         "fiber": 2
+      },
+      {
+        "desc": "Second half of the same Pokebola bowl, finished later - same estimate as the first half.",
+        "kcal": 290,
+        "protein": 17,
+        "carbs": 40,
+        "fat": 4,
+        "fiber": 2
+      },
+      {
+        "desc": "Post-lift smoothie ~18:40 (as planned): whole milk Greek yogurt 200g, oat milk 200g, frozen mango 120g, oats 35g, honey 30g, chia 15g.",
+        "kcal": 633,
+        "protein": 27,
+        "carbs": 90,
+        "fat": 20,
+        "fiber": 12
+      },
+      {
+        "desc": "Dinner, home-cooked, split evenly with Nanda: chicken breast 607g raw split two ways (303.5g/person), white rice 170g dry, spinach ~100g, panang curry sauce (coconut milk + curry paste). Chicken/rice/spinach computed from foods.json generic values (no exact raw chicken breast product ID on file); panang sauce ESTIMATE (~1.5 cups, no brand/nutrition confirmed) - allergy status of the sauce (peanuts, fish sauce) still UNCONFIRMED, Adam says he's not allergic but profile.json still lists peanuts and finned fish as allergies.",
+        "kcal": 1415,
+        "protein": 86,
+        "carbs": 155,
+        "fat": 45,
+        "fiber": 2
+      },
+      {
+        "desc": "Late-night halal cart snack, ~1/4 of a lamb-over-rice tray (lamb + rice only). No published nutrition - PHOTO/PORTION ESTIMATE off a typical full lamb-and-rice platter (~750/45P), quartered.",
+        "kcal": 190,
+        "protein": 11,
+        "carbs": 20,
+        "fat": 8,
+        "fiber": 1
       }
     ],
-    "notes": "OPEN at 635 / 43P. Push (175 x 3 sets, rescheduled from 9/4) planned for today."
+    "notes": "CLOSED at 3163 / 184P. Push done 15:30-16:45, smoothie + dinner in after, plus a late-night halal snack on top. ~37 kcal short of the 3,200 target, well over the 150-155P protein target."
+  },
+  {
+    "date": "2026-09-06",
+    "kcal": 3101,
+    "protein": 176,
+    "carbs": 348,
+    "fat": 122,
+    "fiber": 12,
+    "meals": [],
+    "method": "reported-as-eaten. DAY OPEN.",
+    "deviations": [
+      {
+        "desc": "Breakfast: whole-milk Greek yogurt 300g, honey 20g, cocoa powder (~5g, unsweetened) stirred in.",
+        "kcal": 356,
+        "protein": 27,
+        "carbs": 34,
+        "fat": 14,
+        "fiber": 2
+      },
+      {
+        "desc": "White Monster (Zero Ultra). Label lists 0 kcal/0g sugar - treated as 0 kcal.",
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0,
+        "fiber": 0
+      },
+      {
+        "desc": "Erik's DeliCafe Gaucho Grinder (roast beef, mozzarella, crispy fried onions, tomato, sprouts, chimichurri, Secret Goo, Dutch crunch roll) with added hot peppers, plus 2 saltines and a small pickle. No published macro breakdown for the Gaucho - calorie figure (1230) is from a nutrition database, macros ESTIMATED off similar Erik's roast beef sandwiches. Hot peppers/jalapenos are explicitly OK per profile.",
+        "kcal": 1290,
+        "protein": 56,
+        "carbs": 129,
+        "fat": 66,
+        "fiber": 5
+      },
+      {
+        "desc": "Half a La Colombe Triple Draft Latte (oat milk, 12 fl oz can). Full can per label: 200 kcal, 8g protein, 27g carbs, 8g fat - halved.",
+        "kcal": 100,
+        "protein": 4,
+        "carbs": 14,
+        "fat": 4,
+        "fiber": 0
+      },
+      {
+        "desc": "Dinner, home-cooked shrimp fried rice, for one: shrimp 240g raw (scaled down from planned 300g), white rice 60g dry, 2 eggs, carrots 80g, spinach 25g (scaled down from planned 60g), soy sauce 20g, ~1 tbsp cooking oil.",
+        "kcal": 770,
+        "protein": 78,
+        "carbs": 59,
+        "fat": 25,
+        "fiber": 4
+      },
+      {
+        "desc": "Oat milk 480g (2 cups) with honey 42g (2 tbsp) stirred in, as an evening top-off.",
+        "kcal": 370,
+        "protein": 6,
+        "carbs": 66,
+        "fat": 12,
+        "fiber": 0
+      },
+      {
+        "desc": "Batard toast, 57g, with honey 20g.",
+        "kcal": 215,
+        "protein": 5,
+        "carbs": 46,
+        "fat": 1,
+        "fiber": 1
+      }
+    ],
+    "notes": "CLOSED at 3101 / 176P. ~99 kcal short of the 3,200 target, well clear of the protein target."
   }
 ]
