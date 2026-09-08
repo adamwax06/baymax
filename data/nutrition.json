@@ -2145,11 +2145,11 @@
   },
   {
     "date": "2026-09-07",
-    "kcal": 356,
-    "protein": 27,
-    "carbs": 34,
-    "fat": 14,
-    "fiber": 2,
+    "kcal": 2061,
+    "protein": 121,
+    "carbs": 216,
+    "fat": 74,
+    "fiber": 16,
     "meals": [],
     "method": "reported-as-eaten. DAY OPEN.",
     "deviations": [
@@ -2160,6 +2160,22 @@
         "carbs": 34,
         "fat": 14,
         "fiber": 2
+      },
+      {
+        "desc": "Chipotle chicken burrito: flour tortilla, white rice, pollo asado, queso blanco, lettuce, salsa roja, salsa verde, roasted chili-corn salsa (estimated from Chipotle's published nutrition guide, standard portions)",
+        "kcal": 955,
+        "protein": 49,
+        "carbs": 127,
+        "fat": 30,
+        "fiber": 8
+      },
+      {
+        "desc": "Dinner at The Grove: Nanda's rib meal with aromatic chicken swapped in for ribs, plus sweet potatoes side (no published macros, ESTIMATED)",
+        "kcal": 750,
+        "protein": 45,
+        "carbs": 55,
+        "fat": 30,
+        "fiber": 6
       }
     ],
     "notes": "Travel day: red-eye SFO -> East Coast departing ~22:00 PT. Log airport/plane food as deviations; 9/8 will be a short day in ET."
