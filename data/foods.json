@@ -1236,5 +1236,23 @@
     },
     "allergyChecked": "2026-09-14",
     "notes": "9/14 receipt: Adam bought 'Large Cooked Shrimp 50-7' (already cooked, 50-70 count/lb) instead of the raw shrimp the plan called for. USDA cooked-shrimp values. Shellfish — explicitly safe. Recipes need re-timing: add near the end of cooking to reheat, don't cook from raw."
+  },
+  {
+    "id": "brookie-caramel-clusters",
+    "name": "Brookie Caramel Clusters (TJ's)",
+    "store": "traderjoes",
+    "fdcType": "estimate",
+    "weighed": "as sold",
+    "unitG": 12,
+    "per100g": {
+      "kcal": 480,
+      "protein": 5,
+      "fat": 24,
+      "carbs": 62,
+      "fiber": 2,
+      "sodium": 200
+    },
+    "allergyChecked": "2026-09-14",
+    "notes": "ESTIMATE — brownie/cookie + caramel cluster snack, no published macros pulled yet. unitG is a rough per-piece weight guess; check the bag for a serving size. Likely contains wheat/dairy/soy, no profile allergy flags expected but not verified — check label for tree nuts before eating."
   }
 ]
