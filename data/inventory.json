@@ -558,5 +558,80 @@
     "food": "pico",
     "asOf": "2026-09-14",
     "note": "Adam confirms 2 tubs already on hand. Week needs ~260g doubled (Friday wrap + Sunday dinner). Buy none."
+  },
+  {
+    "food": "shrimp-cooked",
+    "asOf": "2026-09-14",
+    "note": "Receipt 9/14: bought 'Large Cooked Shrimp 50-7' x3 ($9.99 ea), NOT raw. Already cooked — recipes need re-timing, add near end of cooking to reheat only."
+  },
+  {
+    "food": "greek-yogurt-whole",
+    "asOf": "2026-09-14",
+    "note": "Receipt 9/14: 8x16oz Greek Plain at $2.99 = confirmed bought."
+  },
+  {
+    "food": "blueberries",
+    "asOf": "2026-09-14",
+    "note": "Receipt 9/14: 18oz ($6.99) bought — was told this wasn't in live search, turned out to be in stock. Swapped into 3 nightcaps (Mon/Wed/Fri) instead of mango per Adam's request."
+  },
+  {
+    "food": "raspberries",
+    "asOf": "2026-09-14",
+    "note": "Receipt 9/14: TWO 6oz containers ($3.49 ea) bought. Swapped into 2 nightcaps (Tue/Thu) instead of mango."
+  },
+  {
+    "food": "spinach",
+    "asOf": "2026-09-14",
+    "note": "Receipt 9/14: Adam bought a fresh Organic Baby Spinach bag anyway despite the 'don't buy' note — extra stock, not a problem."
+  },
+  {
+    "food": "mango",
+    "asOf": "2026-09-14",
+    "note": "Receipt 9/14: THREE Mango Chunks bags ($3.49 ea) bought, plus the partial bag already in the freezer. Reserved for smoothies + the two remaining nightcaps (Sat/Sun) once berries run out."
+  },
+  {
+    "food": "chicken-breast-cooked",
+    "asOf": "2026-09-14",
+    "note": "Receipt 9/14: one more Organic Breast pack ($11.27, weighed). Adam is keeping this one in the FRIDGE for today's use (Mon dinner + lunch) and moving the pre-existing freezer pack back to the freezer."
+  },
+  {
+    "name": "Santa Maria Tri-Tip (unplanned)",
+    "asOf": "2026-09-14",
+    "note": "Receipt 9/14: $18.40, not assigned to any meal this week. Freeze it — good candidate to swap in for a future ground-beef dinner."
+  },
+  {
+    "name": "Brookie Caramel Clusters, Foaming Clementine Hand Soap (unplanned)",
+    "asOf": "2026-09-14",
+    "note": "Receipt 9/14: snack + household item, not diet-tracked. Hand soap to the bathroom/kitchen, Brookie clusters are an off-plan snack if eaten — log as a deviation."
+  },
+  {
+    "food": "mushroom",
+    "asOf": "2026-09-14",
+    "note": "Receipt 9/14: THREE 8oz Organic Crimini bags confirmed bought."
+  },
+  {
+    "food": "cucumber",
+    "asOf": "2026-09-14",
+    "note": "Receipt 9/14: THREE Organic English Cucumbers confirmed bought."
+  },
+  {
+    "food": "gnocchi",
+    "asOf": "2026-09-14",
+    "note": "Correctly NOT rebought per the v3 email — 2 packs already on hand covers the week."
+  },
+  {
+    "food": "pasta-dry",
+    "asOf": "2026-09-14",
+    "note": "Correctly NOT rebought — 1.5 packs already on hand covers scampi + bolognese."
+  },
+  {
+    "food": "buffalo-sauce",
+    "asOf": "2026-09-14",
+    "note": "Correctly NOT rebought — 1 bottle already on hand."
+  },
+  {
+    "food": "pico",
+    "asOf": "2026-09-14",
+    "note": "Correctly NOT rebought — 2 tubs already on hand."
   }
 ]
