@@ -1202,5 +1202,22 @@
     },
     "allergyChecked": "2026-09-14",
     "notes": "USDA crimini/white mushroom raw values. No allergy flags per profile."
+  },
+  {
+    "id": "buffalo-chicken-meatballs",
+    "name": "Buffalo Style Chicken Meatballs (TJ's, frozen)",
+    "store": "traderjoes",
+    "fdcType": "estimate",
+    "weighed": "cooked",
+    "per100g": {
+      "kcal": 200,
+      "protein": 13,
+      "fat": 13,
+      "carbs": 7,
+      "fiber": 0.5,
+      "sodium": 550
+    },
+    "allergyChecked": "2026-09-14",
+    "notes": "ESTIMATE, typical breaded/sauced chicken meatball profile. Swapped in for rotisserie chicken (Adam dislikes the smell). CHECK LABEL for pea protein/soy filler in the binder before buying — common hidden legume risk in this category."
   }
 ]
