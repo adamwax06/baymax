@@ -533,5 +533,10 @@
     "food": "white-rice-dry",
     "asOf": "2026-09-14",
     "note": "CORRECTED by Adam 9/14: jasmine rice IS on hand (TJ's). The 9/14 pantry photo missed it / it's stored elsewhere. Overrides the 'OUT 9/14' note - drop rice from the buy list."
+  },
+  {
+    "name": "Household - sponge, not tracked as food",
+    "asOf": "2026-09-14",
+    "note": "Added to the 9/14 TJ's cart at Adam's request (Pop-Up Sponges, non-food)."
   }
 ]
