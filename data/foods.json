@@ -1219,5 +1219,22 @@
     },
     "allergyChecked": "2026-09-14",
     "notes": "ESTIMATE, typical breaded/sauced chicken meatball profile. Swapped in for rotisserie chicken (Adam dislikes the smell). CHECK LABEL for pea protein/soy filler in the binder before buying — common hidden legume risk in this category."
+  },
+  {
+    "id": "shrimp-cooked",
+    "name": "Large Cooked Shrimp 50/70 (TJ's, frozen, tail-on)",
+    "store": "traderjoes",
+    "fdcType": "estimate",
+    "weighed": "cooked",
+    "per100g": {
+      "kcal": 99,
+      "protein": 24,
+      "fat": 0.3,
+      "carbs": 0.2,
+      "fiber": 0,
+      "sodium": 250
+    },
+    "allergyChecked": "2026-09-14",
+    "notes": "9/14 receipt: Adam bought 'Large Cooked Shrimp 50-7' (already cooked, 50-70 count/lb) instead of the raw shrimp the plan called for. USDA cooked-shrimp values. Shellfish — explicitly safe. Recipes need re-timing: add near the end of cooking to reheat, don't cook from raw."
   }
 ]
