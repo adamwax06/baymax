@@ -538,5 +538,25 @@
     "name": "Household - sponge, not tracked as food",
     "asOf": "2026-09-14",
     "note": "Added to the 9/14 TJ's cart at Adam's request (Pop-Up Sponges, non-food)."
+  },
+  {
+    "food": "gnocchi",
+    "asOf": "2026-09-14",
+    "note": "Adam confirms 2 packs (16oz each, ~900g) already on hand. Week needs only 560g doubled for Thursday's skillet. Buy none."
+  },
+  {
+    "food": "pasta-dry",
+    "asOf": "2026-09-14",
+    "note": "Adam confirms 1.5 packs of spaghetti (~680g) already on hand. Week needs 640g doubled (scampi + bolognese). Buy none."
+  },
+  {
+    "food": "buffalo-sauce",
+    "asOf": "2026-09-14",
+    "note": "Adam confirms 1 bottle already on hand. Week needs only 20g for Friday's wrap. Buy none."
+  },
+  {
+    "food": "pico",
+    "asOf": "2026-09-14",
+    "note": "Adam confirms 2 tubs already on hand. Week needs ~260g doubled (Friday wrap + Sunday dinner). Buy none."
   }
 ]
