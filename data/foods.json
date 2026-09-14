@@ -205,7 +205,7 @@
     "fdcType": "SR Legacy",
     "weighed": "raw",
     "store": "any",
-    "notes": "optional buy \u2014 cheap calories+protein without powder",
+    "notes": "optional buy — cheap calories+protein without powder",
     "per100g": {
       "protein": 3.15,
       "fat": 3.25,
@@ -544,7 +544,7 @@
     "fdcType": "SR Legacy",
     "weighed": "raw",
     "store": "costco",
-    "notes": "the one legal nut \u2014 check shared-line warning on the specific bag",
+    "notes": "the one legal nut — check shared-line warning on the specific bag",
     "per100g": {
       "protein": 20.16,
       "fat": 45.32,
@@ -569,7 +569,7 @@
     "fdcType": "SR Legacy",
     "weighed": "dry",
     "store": "any",
-    "notes": "primary ALA (omega-3) source \u2014 already owned, 3lb bag",
+    "notes": "primary ALA (omega-3) source — already owned, 3lb bag",
     "per100g": {
       "protein": 16.54,
       "fat": 30.74,
@@ -689,7 +689,7 @@
     "fdcType": "SR Legacy",
     "weighed": "dry",
     "store": "any",
-    "notes": "plain unsweetened only \u2014 label-check drink mixes for additives",
+    "notes": "plain unsweetened only — label-check drink mixes for additives",
     "per100g": {
       "protein": 19.6,
       "fat": 13.7,
@@ -770,7 +770,7 @@
       "vitC": 0
     },
     "allergyChecked": "2026-07-27",
-    "notes": "Verified label, Pingo Doce Frango Churrasco (Lisbon, 7/27/26): 167kcal/P18.6/F9.8/C2.7 per100g, salt 0.6g/100g. Label 'pode conter' (may-contain/cross-contact): leite, soja, ovo, PEIXE, gluten, aipo, mostarda, casca de frutos secos, AMENDOIM, sesamo, moluscos \u2014 fish/peanut/tree-nut cross-contact warning. Adam ate most of this batch 7/27 with no reaction; avoid rebuying this specific product without re-checking label."
+    "notes": "Verified label, Pingo Doce Frango Churrasco (Lisbon, 7/27/26): 167kcal/P18.6/F9.8/C2.7 per100g, salt 0.6g/100g. Label 'pode conter' (may-contain/cross-contact): leite, soja, ovo, PEIXE, gluten, aipo, mostarda, casca de frutos secos, AMENDOIM, sesamo, moluscos — fish/peanut/tree-nut cross-contact warning. Adam ate most of this batch 7/27 with no reaction; avoid rebuying this specific product without re-checking label."
   },
   {
     "id": "focaccia",
@@ -864,7 +864,7 @@
       "sodium": 300
     },
     "allergyChecked": "2026-07-21",
-    "notes": "Jared haul 7/20. per100g ESTIMATE pending FDC fetch (rate-limited); nutritionally trivial. No bell pepper in TJ pico (tomato/onion/jalapeno/cilantro) \u2014 verify tub label"
+    "notes": "Jared haul 7/20. per100g ESTIMATE pending FDC fetch (rate-limited); nutritionally trivial. No bell pepper in TJ pico (tomato/onion/jalapeno/cilantro) — verify tub label"
   },
   {
     "id": "buffalo-sauce",
@@ -913,7 +913,7 @@
       "sodium": 607
     },
     "allergyChecked": "2026-07-31",
-    "notes": "label: 28g packet = 140kcal/0P/13F/6C/170mg sodium. Soybean oil (refined), egg yolk, honey, mustard, tomato, paprika \u2014 all safe per profile"
+    "notes": "label: 28g packet = 140kcal/0P/13F/6C/170mg sodium. Soybean oil (refined), egg yolk, honey, mustard, tomato, paprika — all safe per profile"
   },
   {
     "id": "shrimp-raw",
@@ -931,7 +931,7 @@
       "sodium": 119
     },
     "allergyChecked": "2026-07-31",
-    "notes": "shellfish \u2014 explicitly safe per profile"
+    "notes": "shellfish — explicitly safe per profile"
   },
   {
     "id": "pasta-dry",
@@ -1168,5 +1168,39 @@
     },
     "allergyChecked": "2026-08-30",
     "notes": "Label proxy (1/2 cup = 120g = 90 kcal). Used as the sauce in bolognese and the gnocchi skillet; was previously logged ad hoc and never in foods.json."
+  },
+  {
+    "id": "pork-shoulder",
+    "name": "Al pastor seasoned diced pork shoulder (TJ's)",
+    "store": "traderjoes",
+    "fdcType": "estimate",
+    "weighed": "raw",
+    "per100g": {
+      "kcal": 253,
+      "protein": 17.5,
+      "fat": 19.5,
+      "carbs": 2.5,
+      "fiber": 0.2,
+      "sodium": 420
+    },
+    "allergyChecked": "2026-09-14",
+    "notes": "ESTIMATE off USDA pork shoulder raw (~269kcal/17.5P/21.9F) with a small carb/sodium bump for the al pastor marinade. No allergy flags per profile. Re-check label if a plain (unseasoned) cut is bought instead."
+  },
+  {
+    "id": "mushroom",
+    "name": "Crimini mushrooms, raw",
+    "store": "traderjoes",
+    "fdcType": "estimate",
+    "weighed": "raw",
+    "per100g": {
+      "kcal": 22,
+      "protein": 3.09,
+      "fat": 0.34,
+      "carbs": 3.26,
+      "fiber": 1.0,
+      "sodium": 5
+    },
+    "allergyChecked": "2026-09-14",
+    "notes": "USDA crimini/white mushroom raw values. No allergy flags per profile."
   }
 ]
