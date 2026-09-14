@@ -10769,6 +10769,129 @@
         }
       ],
       "notes": "Pull, 17:00ish. Adam reported feeling a little tired going in. Despite that, row bounced back to 175 x 8,8,7 (first session with straps) and pullover added reps at 37s. Pulldown and cable curl held flat at prior loads."
+    },
+    {
+      "date": "2026-09-09",
+      "type": "pull",
+      "exercises": [
+        {
+          "name": "Lat Pulldown",
+          "sets": [
+            {
+              "lb": 180,
+              "reps": [
+                8,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cable Curl",
+          "sets": [
+            {
+              "lb": 62.5,
+              "reps": [
+                8,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Row",
+          "sets": [
+            {
+              "lb": 270,
+              "reps": [
+                8,
+                8,
+                6
+              ]
+            }
+          ],
+          "notes": "Plate-loaded row machine (different from usual stack) - not directly comparable to prior lb loads."
+        },
+        {
+          "name": "Unilateral DB Curl",
+          "sets": [
+            {
+              "lb": 42.5,
+              "reps": [
+                6,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Lat Pullover",
+          "sets": [
+            {
+              "lb": 32.5,
+              "reps": [
+                8
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "type": "legs",
+      "exercises": [
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "lb": 235,
+              "reps": [
+                8,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Leg Press Calf Raises",
+          "sets": [
+            {
+              "lb": 500,
+              "reps": [
+                8,
+                8,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hamstring Curl",
+          "sets": [
+            {
+              "lb": 145,
+              "reps": [
+                7,
+                7
+              ]
+            }
+          ],
+          "notes": "Seated variant."
+        },
+        {
+          "name": "Unilateral Leg Extension",
+          "sets": [
+            {
+              "lb": 145,
+              "reps": [
+                8,
+                8
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
