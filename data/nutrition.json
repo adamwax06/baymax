@@ -2145,11 +2145,11 @@
   },
   {
     "date": "2026-09-07",
-    "kcal": 2061,
-    "protein": 121,
-    "carbs": 216,
-    "fat": 74,
-    "fiber": 16,
+    "kcal": 2411,
+    "protein": 129,
+    "carbs": 258,
+    "fat": 90,
+    "fiber": 18,
     "meals": [],
     "method": "reported-as-eaten. DAY OPEN.",
     "deviations": [
@@ -2176,8 +2176,82 @@
         "carbs": 55,
         "fat": 30,
         "fiber": 6
+      },
+      {
+        "desc": "Ghirardelli Cafe hot chocolate (whole milk based, standard size, ESTIMATED)",
+        "kcal": 350,
+        "protein": 8,
+        "carbs": 42,
+        "fat": 16,
+        "fiber": 2
       }
     ],
     "notes": "Travel day: red-eye SFO -> East Coast departing ~22:00 PT. Log airport/plane food as deviations; 9/8 will be a short day in ET."
+  },
+  {
+    "date": "2026-09-08",
+    "kcal": 200,
+    "protein": 14,
+    "carbs": 18,
+    "fat": 12,
+    "fiber": 10,
+    "meals": [],
+    "method": "reported-as-eaten. DAY OPEN.",
+    "deviations": [
+      {
+        "desc": "2x Clio Zero Sugar Mixed Berry Yogurt Bar (42g each), eaten before the red-eye. Label confirms 100 kcal / 0g sugar / 7g protein per bar; fat/carb/fiber ESTIMATED off Clio's typical bar profile (photo didn't capture full panel).",
+        "kcal": 200,
+        "protein": 14,
+        "carbs": 18,
+        "fat": 12,
+        "fiber": 10
+      }
+    ],
+    "notes": "Red-eye night - just the two bars, nothing else. Very low intake day, well under target; expected given travel."
+  },
+  {
+    "date": "2026-09-09",
+    "kcal": 2865,
+    "protein": 135,
+    "carbs": 286,
+    "fat": 128,
+    "fiber": 16,
+    "meals": [],
+    "method": "reported-as-eaten. DAY OPEN.",
+    "deviations": [
+      {
+        "desc": "Breakfast: everything bagel with 3 eggs, plus strawberries and blueberries (ESTIMATED, no receipt/label).",
+        "kcal": 585,
+        "protein": 31,
+        "carbs": 76,
+        "fat": 17,
+        "fiber": 5
+      },
+      {
+        "desc": "Lunch, Wawa Hot Classic hoagie: 5 breaded chicken strips, classic roll, chipotle spread, garlic aioli, 3 American cheese, pickles, sweet peppers, onions (from order receipt; no published Wawa macros, ESTIMATED). Sweet peppers here are Wawa's banana/cherry pepper topping, not bell pepper - safe per profile.",
+        "kcal": 1050,
+        "protein": 45,
+        "carbs": 85,
+        "fat": 55,
+        "fiber": 4
+      },
+      {
+        "desc": "Wawa donut (standard glazed, ESTIMATED) - the rest of the day.",
+        "kcal": 300,
+        "protein": 4,
+        "carbs": 35,
+        "fat": 16,
+        "fiber": 1
+      },
+      {
+        "desc": "Dinner: two chicken skewers (thigh, red onion, zucchini, yellow squash) over white rice, plus a side of grilled zucchini halves (photo, home-cooked, ESTIMATED).",
+        "kcal": 930,
+        "protein": 55,
+        "carbs": 90,
+        "fat": 40,
+        "fiber": 6
+      }
+    ],
+    "notes": "Arrival day, still catching up on East Coast. With dinner in, close to the 3,200/150-155P targets - about 335 kcal and 15-20g protein short. Small top-off (e.g. more rice/dairy) would close it out."
   }
 ]
