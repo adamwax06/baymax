@@ -10,7 +10,7 @@
     "note": "Dairy-milk containers are visible but are not Adam's available milk. Use 0g in the Aug 11-12 plan."
   },
   {
-    "name": "DO NOT USE \u2014 spoiled bread",
+    "name": "DO NOT USE — spoiled bread",
     "asOf": "2026-08-11",
     "note": "Adam reported the bread in the house is bad and will not replace it before the trip. Excluded from all plans."
   },
@@ -60,9 +60,9 @@
     "note": "Butter visible in the fridge drawer; not needed for the Aug 11-12 plan."
   },
   {
-    "name": "pickled jalape\u00f1os, ketchup, mayonnaise, mustard, Chick-fil-A sauces, marinara, Alfredo sauce, jam, and other condiments",
+    "name": "pickled jalapeños, ketchup, mayonnaise, mustard, Chick-fil-A sauces, marinara, Alfredo sauce, jam, and other condiments",
     "asOf": "2026-08-11",
-    "note": "Visible across the fridge door and pantry; not diet-tracked unless explicitly weighed. Jalape\u00f1os and hot sauces are safe under the profile's bell-pepper-specific allergy."
+    "note": "Visible across the fridge door and pantry; not diet-tracked unless explicitly weighed. Jalapeños and hot sauces are safe under the profile's bell-pepper-specific allergy."
   },
   {
     "name": "Kirkland energy drink variety pack",
@@ -70,12 +70,12 @@
     "note": "Visible in the pantry; not included in the meal plan."
   },
   {
-    "name": "DO NOT USE \u2014 walnuts, Banza chickpea pasta, and Silk almond milk",
+    "name": "DO NOT USE — walnuts, Banza chickpea pasta, and Silk almond milk",
     "asOf": "2026-08-11",
     "note": "Visible in the shared kitchen and excluded under Adam's tree-nut and legume allergies. Avoid cross-contact from shared surfaces and utensils."
   },
   {
-    "name": "HOLD FOR LABEL CHECK \u2014 Panang curry sauce",
+    "name": "HOLD FOR LABEL CHECK — Panang curry sauce",
     "asOf": "2026-08-11",
     "note": "Visible above the microwave. Do not use until the ingredient and may-contain labels are checked for finned fish/fish sauce, peanuts, tree nuts, and legumes."
   },
@@ -428,5 +428,105 @@
     "food": "greek-yogurt-whole",
     "asOf": "2026-08-30",
     "note": "RESOLVED 8/30 by Adam: the six 16oz tubs are WHOLE MILK (#069707), not nonfat. 2,718g of whole at 94.5 kcal/100g. Against the nonfat assumption the week gains ~1,000 kcal and loses ~51g protein: +108 kcal/-5.5P per 300g bowl, +71 kcal/-3.6P per 200g smoothie. This lands ~+180 kcal on lift days and ~+108 on rest days, which almost exactly offsets the oat-milk shortfall (one 32oz bought against ~2,500g planned). Meals in meals.json already reference greek-yogurt-whole, so no meal edits needed. Chia and honey both CONFIRMED on hand - nothing missing there."
+  },
+  {
+    "food": "greek-yogurt-whole",
+    "asOf": "2026-09-14",
+    "note": "NONE visible in the 9/14 fridge photos (no tubs on any shelf). Anchors smoothie/nightcap/rest-bowl - top of the buy."
+  },
+  {
+    "food": "white-rice-dry",
+    "asOf": "2026-09-14",
+    "note": "OUT 9/14 - no rice visible in pantry photo. Buy."
+  },
+  {
+    "food": "pasta-dry",
+    "asOf": "2026-09-14",
+    "note": "OUT 9/14 - no pasta/gnocchi visible in pantry photo. Buy."
+  },
+  {
+    "food": "potato",
+    "asOf": "2026-09-14",
+    "note": "OUT 9/14 - not visible in fridge or pantry photos. Buy."
+  },
+  {
+    "food": "butter",
+    "asOf": "2026-09-14",
+    "note": "Not visible in the 9/14 fridge door bin photo (only cheese wedges + cream cheese on that shelf). Buy if beef-potato-dinner is planned."
+  },
+  {
+    "food": "bread-sourdough",
+    "asOf": "2026-09-14",
+    "note": "UNVERIFIED - a tied bread bag is visible on the pantry bottom shelf 9/14 but not identifiable as sourdough; age unknown. Confirm with Adam before using for pre-lift toast."
+  },
+  {
+    "food": "ground-chicken",
+    "asOf": "2026-09-14",
+    "note": "Photo 9/14: one TJ's Ground Chicken (All Natural, 8% fat, 1lb) in the freezer top drawer."
+  },
+  {
+    "food": "shrimp-raw",
+    "asOf": "2026-09-14",
+    "note": "Photo 9/14: one TJ's Wild Argentinian Red Shrimp bag (1lb), freezer top drawer, looks mostly full."
+  },
+  {
+    "food": "chicken-breast-cooked",
+    "asOf": "2026-09-14",
+    "note": "Photo 9/14: one TJ's Organic Free Range Chicken pack in the freezer, plus a small raw chicken pack on the fridge shelf. Modest supply, not a week's worth."
+  },
+  {
+    "food": "mango",
+    "asOf": "2026-09-14",
+    "note": "Photo 9/14: partial frozen bag in the freezer produce drawer. Buy none."
+  },
+  {
+    "food": "strawberries",
+    "asOf": "2026-09-14",
+    "note": "Photo 9/14: frozen organic strawberries bag, freezer produce drawer, looks mostly full."
+  },
+  {
+    "food": "egg",
+    "asOf": "2026-09-14",
+    "note": "Photo 9/14: carton on fridge shelf, roughly 10-12 visible. Buy none."
+  },
+  {
+    "food": "spinach",
+    "asOf": "2026-09-14",
+    "note": "Photo 9/14: one green bag in the crisper drawer, contents unconfirmed but likely spinach per past pattern."
+  },
+  {
+    "food": "mozzarella-shredded",
+    "asOf": "2026-09-14",
+    "note": "Photo 9/14: a shredded mozzarella bag on the top fridge shelf, looks fairly full. Buy none."
+  },
+  {
+    "food": "oat-milk",
+    "asOf": "2026-09-14",
+    "note": "Photo 9/14: one carton in the fridge door. Modest, not a week's worth if used nightly."
+  },
+  {
+    "food": "olive-oil",
+    "asOf": "2026-09-14",
+    "note": "Photo 9/14: two large bottles on the pantry top shelf. Buy none."
+  },
+  {
+    "food": "honey",
+    "asOf": "2026-09-14",
+    "note": "Photo 9/14: amber squeeze bottle visible on the pantry top shelf. Buy none."
+  },
+  {
+    "name": "DO NOT USE - Honey Bunches of Oats with Almonds (roommate's)",
+    "asOf": "2026-09-14",
+    "note": "Photo 9/14: full box on the pantry bottom shelf. Tree nut allergy - not Adam's, shared kitchen, avoid cross-contact."
+  },
+  {
+    "name": "DO NOT USE - Silk Almond milk (roommate's)",
+    "asOf": "2026-09-14",
+    "note": "Photo 9/14: still in the fridge door, two cartons. Tree nut allergy, standing flag since 8/11."
+  },
+  {
+    "name": "DO NOT USE - Clover Sonoma whole milk (roommate's)",
+    "asOf": "2026-09-14",
+    "note": "Photo 9/14: carton in the fridge door top bin. Not Adam's per the 8/11 standing note - use 0g in plans."
   }
 ]
