@@ -2253,5 +2253,66 @@
       }
     ],
     "notes": "Arrival day, still catching up on East Coast. With dinner in, close to the 3,200/150-155P targets - about 335 kcal and 15-20g protein short. Small top-off (e.g. more rice/dairy) would close it out."
+  },
+  {
+    "date": "2026-09-14",
+    "kcal": 3697,
+    "protein": 219,
+    "carbs": 454,
+    "fat": 111,
+    "fiber": 28,
+    "meals": [],
+    "method": "reported-as-eaten. DAY OPEN.",
+    "deviations": [
+      {
+        "desc": "Cocoa raspberry yogurt bowl + 2 Brookie Caramel Clusters (swapped in for the planned eggs+rice breakfast, which never happened): greek yogurt whole 300g, cocoa powder 1g, raspberries 100g, honey 15g, chia 15g, brookie clusters ~24g. Label checked clean for tree nuts.",
+        "kcal": 572,
+        "protein": 32,
+        "carbs": 60,
+        "fat": 24,
+        "fiber": 13
+      },
+      {
+        "desc": "Pre-lift toast + honey + mandarin: sourdough bread 90g, honey 25g, 1 mandarin.",
+        "kcal": 356,
+        "protein": 9,
+        "carbs": 76,
+        "fat": 3,
+        "fiber": 4
+      },
+      {
+        "desc": "Post-lift smoothie: greek yogurt whole 200g, oat milk 200g, mango 120g, oats dry 35g, honey 30g, chia 15g.",
+        "kcal": 633,
+        "protein": 27,
+        "carbs": 90,
+        "fat": 20,
+        "fiber": 12
+      },
+      {
+        "desc": "Shawarma-spiced chicken rice bowl (lunch): chicken breast cooked 200g, white rice 120g dry, cucumber 100g, greek yogurt 60g, olive oil 5g.",
+        "kcal": 890,
+        "protein": 76,
+        "carbs": 103,
+        "fat": 16,
+        "fiber": 1
+      },
+      {
+        "desc": "Bulgogi Rice Bowl, Aria Korean Street Food (DoorDash) - dinner out, replaced the planned chicken rice bowl. Ribeye marinated garlic soy, rice, fried egg, kimchi. No menu-published macros - ESTIMATED off typical bulgogi bowl proportions (~140g ribeye, ~250g rice, 1 egg, kimchi).",
+        "kcal": 815,
+        "protein": 47,
+        "carbs": 72,
+        "fat": 34,
+        "fiber": 1
+      },
+      {
+        "desc": "Yogurt + blueberries nightcap: greek yogurt whole 300g, blueberries 100g, honey 30g.",
+        "kcal": 432,
+        "protein": 27,
+        "carbs": 54,
+        "fat": 14,
+        "fiber": 0
+      }
+    ],
+    "notes": "First push day back from the 9/7-9/9 travel gap. Bench 175x7,6 - best 175 session yet. Breakfast swapped from eggs+rice to a yogurt bowl (never made the eggs+rice). Dinner was DoorDash (Aria Korean Street Food) instead of the planned chicken rice bowl since chicken stock ran low and shared with Nanda (his bulgogi burrito not counted here)."
   }
 ]
