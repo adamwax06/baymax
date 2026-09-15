@@ -633,5 +633,10 @@
     "food": "pico",
     "asOf": "2026-09-14",
     "note": "Correctly NOT rebought — 2 tubs already on hand."
+  },
+  {
+    "food": "chicken-breast-cooked",
+    "asOf": "2026-09-14",
+    "note": "Adam confirms only ~150g left in the fridge after today's lunch (shawarma bowl) + the earlier chicken-rice-bowl portion. Not enough for tonight's dinner or Sunday's repeat chicken-rice-bowl - thaw the freezer pack or buy more before Sunday."
   }
 ]
