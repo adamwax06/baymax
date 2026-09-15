@@ -10892,6 +10892,84 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-09-14",
+      "type": "push",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "lb": 175,
+              "reps": [
+                7,
+                6
+              ]
+            }
+          ],
+          "notes": "9 days off (last push 9/5, travel). Better than the layoff precedent predicted (8/23's 7-day gap dropped to 170x7,5) - 175 held and read 7,6, second-best 175 session after 8/31's 7,5. Still not the 8,7 needed for 180, but closest yet."
+        },
+        {
+          "name": "Unilateral Tricep Pushdown",
+          "sets": [
+            {
+              "lb": 33,
+              "reps": [
+                8,
+                7
+              ]
+            }
+          ],
+          "notes": "Up from 33x8,5 on 9/5. Best set at this load yet - close to complete."
+        },
+        {
+          "name": "DB Lateral Raise",
+          "sets": [
+            {
+              "lb": 30,
+              "reps": [
+                8,
+                8,
+                7
+              ]
+            }
+          ],
+          "notes": "Up from 30sx8,7,6 on 9/5. Best session at 30s - three sets all landing 7+."
+        },
+        {
+          "name": "Incline Fly",
+          "sets": [
+            {
+              "lb": 80,
+              "reps": [
+                8,
+                7
+              ]
+            }
+          ],
+          "notes": "Repeated 80x8,7, matching 9/5 exactly."
+        },
+        {
+          "name": "DB Skull Crusher",
+          "sets": [
+            {
+              "lb": 30,
+              "reps": [
+                5
+              ]
+            },
+            {
+              "lb": 25,
+              "reps": [
+                9
+              ]
+            }
+          ],
+          "notes": "25s up to 9 reps from 8 on 9/5. 30 still capped at 5."
+        }
+      ],
+      "notes": "First push after the 9/7-9/9 travel gap and the flight/schedule disruption. Pre-lift toast+honey eaten as planned; dinner is eating out tonight, log as a deviation."
     }
   ]
 }
