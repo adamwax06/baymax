@@ -2256,11 +2256,11 @@
   },
   {
     "date": "2026-09-14",
-    "kcal": 3697,
-    "protein": 219,
-    "carbs": 454,
-    "fat": 111,
-    "fiber": 28,
+    "kcal": 2226,
+    "protein": 141,
+    "carbs": 271,
+    "fat": 76,
+    "fiber": 18,
     "meals": [],
     "method": "reported-as-eaten. DAY OPEN.",
     "deviations": [
@@ -2273,20 +2273,12 @@
         "fiber": 13
       },
       {
-        "desc": "Pre-lift toast + honey + mandarin: sourdough bread 90g, honey 25g, 1 mandarin.",
+        "desc": "Pre-lift toast + honey + mandarin: sourdough bread 90g, honey 25g, 1 mandarin. Eaten very late, ~8:00pm (well after the actual 4pm lift, not really 'pre-lift' today).",
         "kcal": 356,
         "protein": 9,
         "carbs": 76,
         "fat": 3,
         "fiber": 4
-      },
-      {
-        "desc": "Post-lift smoothie: greek yogurt whole 200g, oat milk 200g, mango 120g, oats dry 35g, honey 30g, chia 15g.",
-        "kcal": 633,
-        "protein": 27,
-        "carbs": 90,
-        "fat": 20,
-        "fiber": 12
       },
       {
         "desc": "Shawarma-spiced chicken rice bowl (lunch): chicken breast cooked 200g, white rice 120g dry, cucumber 100g, greek yogurt 60g, olive oil 5g.",
@@ -2297,22 +2289,14 @@
         "fiber": 1
       },
       {
-        "desc": "Bulgogi Rice Bowl, Aria Korean Street Food (DoorDash) - dinner out, replaced the planned chicken rice bowl. Ribeye marinated garlic soy, rice, fried egg, kimchi. No menu-published macros - ESTIMATED off typical bulgogi bowl proportions (~140g ribeye, ~250g rice, 1 egg, kimchi).",
-        "kcal": 815,
-        "protein": 47,
-        "carbs": 72,
-        "fat": 34,
+        "desc": "HALF of a Bulgogi Rice Bowl, Aria Korean Street Food (DoorDash), eaten ~10:00pm - too much food/MSG, only finished half. Ribeye marinated garlic soy, rice, fried egg, kimchi. Full-bowl ESTIMATE was ~815 kcal/47P; this is half.",
+        "kcal": 408,
+        "protein": 24,
+        "carbs": 36,
+        "fat": 17,
         "fiber": 1
-      },
-      {
-        "desc": "Yogurt + blueberries nightcap: greek yogurt whole 300g, blueberries 100g, honey 30g.",
-        "kcal": 432,
-        "protein": 27,
-        "carbs": 54,
-        "fat": 14,
-        "fiber": 0
       }
     ],
-    "notes": "First push day back from the 9/7-9/9 travel gap. Bench 175x7,6 - best 175 session yet. Breakfast swapped from eggs+rice to a yogurt bowl (never made the eggs+rice). Dinner was DoorDash (Aria Korean Street Food) instead of the planned chicken rice bowl since chicken stock ran low and shared with Nanda (his bulgogi burrito not counted here)."
+    "notes": "First push day back from the 9/7-9/9 travel gap. Bench 175x7,6 - best 175 session yet. Breakfast swapped from eggs+rice to a yogurt bowl. Pre-lift toast eaten very late (~8pm) instead of the planned 2:30pm slot. Post-lift smoothie and the yogurt nightcap were SKIPPED entirely. Dinner was DoorDash (Aria Korean Street Food, split with Nanda) instead of chicken rice bowl, and Adam only finished half the bulgogi bowl - too much food/MSG. Day closes light at 2,226 kcal / 141g protein, well under the 3,200 target - a real shortfall, not a deliberate cut."
   }
 ]
