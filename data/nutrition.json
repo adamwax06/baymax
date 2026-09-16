@@ -2301,23 +2301,55 @@
   },
   {
     "date": "2026-09-15",
-    "kcal": 1022,
-    "protein": 87,
-    "carbs": 117,
-    "fat": 22,
-    "fiber": 3,
+    "kcal": 3248,
+    "protein": 189,
+    "carbs": 405,
+    "fat": 101,
+    "fiber": 30,
     "meals": [],
-    "method": "reported-as-eaten. DAY OPEN.",
+    "method": "reported-as-eaten; plan followed, one reported deviation (scampi shrimp 320g -> 260g). Other four meals logged at planned amounts per the adherence protocol.",
     "deviations": [
       {
-        "desc": "Dinner, home-cooked shrimp fried rice, for one: cooked shrimp 260g (TJ's Large Cooked 50/70, up from the 250g the recipe calls for), white rice 130g dry, 2 eggs, carrot 80g, scallion 30g, soy sauce 20g, sesame oil 10g. No peas (legume allergy) - carrot + scallion carry the veg.",
-        "kcal": 1022,
-        "protein": 87,
-        "carbs": 117,
-        "fat": 22,
-        "fiber": 3
+        "desc": "Yogurt + raspberries nightcap 11:00 (as planned, per adherence protocol): greek yogurt whole 300g, raspberries 100g, honey 30g.",
+        "kcal": 427,
+        "protein": 28,
+        "carbs": 51,
+        "fat": 14,
+        "fiber": 7
+      },
+      {
+        "desc": "Beef + rice bowl with mushroom 12:30 (as planned): ground beef 85/15 175g raw, white rice 100g dry, crimini mushrooms 100g, soy sauce 15g.",
+        "kcal": 776,
+        "protein": 44,
+        "carbs": 84,
+        "fat": 28,
+        "fiber": 1
+      },
+      {
+        "desc": "Pre-lift toast + honey + mandarin 14:30 (as planned, 1.5h before the 16:00 pull): sourdough bread 90g, honey 25g, 1 mandarin. Recomputed from foods.json (367) rather than the calendar's 356.",
+        "kcal": 367,
+        "protein": 10,
+        "carbs": 79,
+        "fat": 2,
+        "fiber": 4
+      },
+      {
+        "desc": "Garlic butter shrimp scampi 19:30. SHRIMP DOWN 320g -> 260g (Adam reported; everything else as planned): cooked shrimp 260g (TJ's Large Cooked 50/70, reheated at the end), pasta 120g dry, butter 30g, olive oil 10g, garlic 15g, 1 lemon. 60 kcal / 14P under the planned 1,105/94.",
+        "kcal": 1045,
+        "protein": 80,
+        "carbs": 101,
+        "fat": 37,
+        "fiber": 6
+      },
+      {
+        "desc": "Post-lift yogurt-oat-mango smoothie 21:30 (v5 recipe, as planned - logged per adherence protocol, not separately confirmed): greek yogurt whole 200g, oat milk 200g, mango 120g, oats 35g dry, honey 30g, chia 15g.",
+        "kcal": 633,
+        "protein": 27,
+        "carbs": 90,
+        "fat": 20,
+        "fiber": 12
       }
     ],
-    "notes": "DAY OPEN - only dinner logged so far. Shrimp fried rice made with the TJ's pre-cooked shrimp (added at the end just to reheat), 260g instead of the recipe's 250g; everything else at recipe amounts. Rest of the day still to log."
+    "notes": "PULL day, 16:00-17:15. Plan run as scheduled; the only deviation Adam reported was 260g of shrimp in the scampi instead of 320g (-60 kcal / -14P). Closes at 3,248 / 189P against the 3,200 target - 48 over, protein well clear of the 150-155 floor. Smoothie was still in its 21:30 slot when this was written; if it gets skipped the day lands at 2,615 / 162P."
   }
 ]
