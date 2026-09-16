@@ -2307,7 +2307,7 @@
     "fat": 101,
     "fiber": 30,
     "meals": [],
-    "method": "reported-as-eaten; plan followed, one reported deviation (scampi shrimp 320g -> 260g). Other four meals logged at planned amounts per the adherence protocol.",
+    "method": "reported-as-eaten; plan followed, one reported deviation (scampi shrimp 320g -> 260g). Smoothie confirmed eaten; the other three meals logged at planned amounts per the adherence protocol.",
     "deviations": [
       {
         "desc": "Yogurt + raspberries nightcap 11:00 (as planned, per adherence protocol): greek yogurt whole 300g, raspberries 100g, honey 30g.",
@@ -2342,7 +2342,7 @@
         "fiber": 6
       },
       {
-        "desc": "Post-lift yogurt-oat-mango smoothie 21:30 (v5 recipe, as planned - logged per adherence protocol, not separately confirmed): greek yogurt whole 200g, oat milk 200g, mango 120g, oats 35g dry, honey 30g, chia 15g.",
+        "desc": "Post-lift yogurt-oat-mango smoothie 21:30 (v5 recipe, as planned - CONFIRMED EATEN): greek yogurt whole 200g, oat milk 200g, mango 120g, oats 35g dry, honey 30g, chia 15g.",
         "kcal": 633,
         "protein": 27,
         "carbs": 90,
@@ -2350,6 +2350,6 @@
         "fiber": 12
       }
     ],
-    "notes": "PULL day, 16:00-17:15. Plan run as scheduled; the only deviation Adam reported was 260g of shrimp in the scampi instead of 320g (-60 kcal / -14P). Closes at 3,248 / 189P against the 3,200 target - 48 over, protein well clear of the 150-155 floor. Smoothie was still in its 21:30 slot when this was written; if it gets skipped the day lands at 2,615 / 162P."
+    "notes": "CLOSED at 3,248 / 189P. PULL day, 16:00-17:15 (Apple Watch logged 15:56-16:46, 344 kcal active) - lift numbers not yet entered in weights.json. Plan run as scheduled; the only deviation was 260g of shrimp in the scampi instead of 320g (-60 kcal / -14P). Smoothie confirmed eaten. 48 over the 3,200 target, protein well clear of the 150-155 floor. First on-target day since 9/6."
   }
 ]
