@@ -10970,6 +10970,79 @@
         }
       ],
       "notes": "First push after the 9/7-9/9 travel gap and the flight/schedule disruption. Pre-lift toast+honey eaten as planned; dinner is eating out tonight, log as a deviation."
+    },
+    {
+      "date": "2026-09-15",
+      "type": "pull",
+      "exercises": [
+        {
+          "name": "Lat Pulldown",
+          "sets": [
+            {
+              "lb": 190,
+              "reps": [
+                6,
+                5
+              ]
+            }
+          ],
+          "notes": "FIRST OUTING at 190, earned by 180 x 8,8 on 9/9. 6,5 is the normal first-outing drop - 170 opened 8,6 (7/31) and 180 opened 7,6 (8/28), both completed within 3-4 sessions. Hold 190."
+        },
+        {
+          "name": "Cable Curl",
+          "sets": [
+            {
+              "lb": 63,
+              "reps": [
+                8,
+                8
+              ]
+            }
+          ],
+          "notes": "COMPLETE at 63 - first 8,8 after four sessions stuck one rep short (8/28 8,6; 9/1 8,7; 9/6 8,7; 9/9 62.5 8,7). 65 next pull."
+        },
+        {
+          "name": "Row",
+          "sets": [
+            {
+              "lb": 175,
+              "reps": [
+                8,
+                8,
+                8
+              ]
+            }
+          ],
+          "notes": "COMPLETE at 175 - first all-8s session, beating 8,8,7 (8/28 and 9/6). Straps still in use. 180 next pull; it was already owed after 9/6."
+        },
+        {
+          "name": "Unilateral DB Curl",
+          "sets": [
+            {
+              "lb": 40,
+              "reps": [
+                9,
+                8
+              ]
+            }
+          ],
+          "notes": "BEST EVER at 40s - 9,8 clears the 8,8 ceiling held on 9/1 and 9/6. 42.5s failed at 6,5 on 9/9, so this is the right way back: retry 42.5 next pull."
+        },
+        {
+          "name": "Unilateral Lat Pullover",
+          "sets": [
+            {
+              "lb": 37,
+              "reps": [
+                10,
+                10
+              ]
+            }
+          ],
+          "notes": "COMPLETE at 37s - first clean 10,10 (was 10,8 on 9/6, 8,8 on 9/1). 40 next pull."
+        }
+      ],
+      "notes": "Pull, 16:00-17:15 (Apple Watch envelope 15:56-16:46, 49.8 min, 345 kcal active). Four of five lifts posted their best-ever session at their load: cable curl, row and pullover all went COMPLETE, and the 40s curl broke its 8,8 ceiling at 9,8. Lat pulldown took the earned jump to 190 and read 6,5, right in line with how 170 and 180 opened. No sign of the 9/7-9/9 travel gap left in the pull numbers. Next pull: 190 pulldown again, 65 cable curl, 180 row, 42.5s DB curl, 40 pullover."
     }
   ]
 }
