@@ -11043,6 +11043,67 @@
         }
       ],
       "notes": "Pull, 16:00-17:15 (Apple Watch envelope 15:56-16:46, 49.8 min, 345 kcal active). Four of five lifts posted their best-ever session at their load: cable curl, row and pullover all went COMPLETE, and the 40s curl broke its 8,8 ceiling at 9,8. Lat pulldown took the earned jump to 190 and read 6,5, right in line with how 170 and 180 opened. No sign of the 9/7-9/9 travel gap left in the pull numbers. Next pull: 190 pulldown again, 65 cable curl, 180 row, 42.5s DB curl, 40 pullover."
+    },
+    {
+      "date": "2026-09-16",
+      "type": "legs",
+      "exercises": [
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "lb": 235,
+              "reps": [
+                8,
+                4
+              ]
+            }
+          ],
+          "notes": "FIFTH session at 235. 12 reps - the LOWEST total of the 235 block (8/26 13, 8/29 13, 9/02 14, 9/11 13, 9/16 12). Set 2 has gone 5,6,6,5,4 while set 1 holds at 8. e1RM 297.7 (flat, off 235x8) - still clears the Oct 1 gate of 295. Target 8,7 not earned for the fourth straight time. Confound: third consecutive training day (9/14 push, 9/15 pull, 9/16 legs) off a 2,226 kcal day on 9/14 and a 03:08 bedtime that night."
+        },
+        {
+          "name": "Leg Press Calf Raises",
+          "sets": [
+            {
+              "lb": 500,
+              "reps": [
+                8,
+                8,
+                6
+              ]
+            }
+          ],
+          "notes": "REGRESSION and a redundant repeat: 9/11 delivered 500x8,8,8, which COMPLETED 500 under the standing rule (repeat until the third set stops owing a rep). 500 should have gone up this session; instead it repeated and lost 2 reps (22 vs 24). Next: 510-520."
+        },
+        {
+          "name": "Hamstring Curl",
+          "sets": [
+            {
+              "lb": 140,
+              "reps": [
+                8,
+                6,
+                5
+              ]
+            }
+          ],
+          "notes": "Third outing at 140 and going backwards: 9/02 was 140x8,7,5 (20 reps), today 19. 9/11 broke the standing rule by jumping to 145 (7,7 seated) before 140 was 8,8,8. 140 is not converting. Recommend dropping to 135 x 3 (was 8,8,8 on 8/26) to rebuild, then 140."
+        },
+        {
+          "name": "Unilateral Leg Extension",
+          "sets": [
+            {
+              "lb": 145,
+              "reps": [
+                8,
+                8
+              ]
+            }
+          ],
+          "notes": "145 COMPLETE - 8,6 (9/02) -> 8,8 (9/11) -> 8,8 (9/16), now twice confirmed. The only lift that did not regress. Goes to 150."
+        }
+      ],
+      "notes": "Legs at 16:00 as scheduled. 3 of 4 lifts regressed vs 9/11; only the leg extension held. Every first set landed 8 and every later set faded, which reads as under-recovery rather than lost strength. Stacked third-in-a-row training day (push 9/14, pull 9/15) behind a 975 kcal shortfall on 9/14 and two late nights (03:08 bedtime 9/14, 00:51 on 9/15; deep sleep 25 min per Watch)."
     }
   ]
 }
