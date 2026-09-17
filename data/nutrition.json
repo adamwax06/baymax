@@ -2354,16 +2354,16 @@
   },
   {
     "date": "2026-09-16",
-    "kcal": 3213,
-    "protein": 184,
-    "carbs": 422,
-    "fat": 89,
-    "fiber": 28.8,
+    "kcal": 3206,
+    "protein": 200,
+    "carbs": 387,
+    "fat": 95,
+    "fiber": 27.9,
     "meals": [],
-    "method": "reported-as-eaten for the first two meals; the remaining four logged at planned amounts per the adherence protocol. DAY OPEN.",
+    "method": "reported-as-eaten for the three deviations (yogurt, half bulgogi, Jay's); toast/smoothie/dinner logged at planned amounts per the adherence protocol. DAY CLOSED.",
     "deviations": [
       {
-        "desc": "Yogurt + cocoa 09:30 (EATEN, reported): greek yogurt whole 300g, honey 30g, cocoa powder 1g. This is the 21:45 yogurt nightcap moved to breakfast, with blueberries skipped (-57 kcal) and 1g cocoa added.",
+        "desc": "Yogurt + cocoa 09:30 (EATEN, reported): greek yogurt whole 300g, honey 30g, cocoa powder 1g. The 21:45 yogurt nightcap moved to breakfast, blueberries skipped (-57 kcal), 1g cocoa added.",
         "kcal": 377,
         "protein": 27,
         "carbs": 40,
@@ -2371,7 +2371,7 @@
         "fiber": 0.4
       },
       {
-        "desc": "HALF of a Bulgogi Rice Bowl, Aria Korean Street Food (DoorDash) 12:30 (EATEN, reported) - the leftover half from 9/14, reheated. Replaced the planned shrimp + rice bowl (882 kcal / 66P), a -474 kcal / -42P swap. Macros carried over from the 9/14 half-bowl estimate.",
+        "desc": "HALF of a Bulgogi Rice Bowl, Aria Korean Street Food 12:30 (EATEN, reported) - the leftover half from 9/14, reheated. Replaced the planned shrimp + rice bowl (882 kcal / 66P). Macros carried from the 9/14 half-bowl estimate.",
         "kcal": 408,
         "protein": 24,
         "carbs": 36,
@@ -2379,7 +2379,15 @@
         "fiber": 1
       },
       {
-        "desc": "Pre-lift toast + honey + mandarin 14:30 (as planned, 1.5h before the 16:00 leg session): sourdough bread 90g, honey 25g, 1 mandarin. Recomputed from foods.json at 367 kcal vs the calendar's 356.",
+        "desc": "UNPLANNED, Jay's Grill lunch ~13:15 (EATEN, reported): Lunch Grilled Chicken Breast $12.99, ordered WITHOUT the hummus that the plate normally includes (chickpea/legume allergy) and without pita. ESTIMATED as ~200g cooked chicken breast + lunch rice portion (~65g dry equivalent); restaurant portion is the main uncertainty. Replaced the 21:45 shrimp + rice bowl, which was cancelled.",
+        "kcal": 570,
+        "protein": 67,
+        "carbs": 52,
+        "fat": 8,
+        "fiber": 0.1
+      },
+      {
+        "desc": "Pre-lift toast + honey + mandarin 14:30 (as planned, 1.5h before the 16:00 legs session): sourdough bread 90g, honey 25g, 1 mandarin. Recomputed from foods.json at 367 kcal vs the calendar's 356.",
         "kcal": 367,
         "protein": 10,
         "carbs": 79,
@@ -2387,7 +2395,7 @@
         "fiber": 3.6
       },
       {
-        "desc": "Post-lift yogurt-oat-mango smoothie 17:30 (as planned): greek yogurt whole 200g, oat milk 200g, mango 120g, oats dry 35g, honey 30g, chia 15g.",
+        "desc": "Post-lift yogurt-oat-mango smoothie 17:30 (as planned per the adherence protocol, not separately reported): greek yogurt whole 200g, oat milk 200g, mango 120g, oats dry 35g, honey 30g, chia 15g.",
         "kcal": 633,
         "protein": 27,
         "carbs": 90,
@@ -2395,22 +2403,14 @@
         "fiber": 11.5
       },
       {
-        "desc": "Beef + potato dinner 19:30 (as planned, beef left at 175g): ground beef 85/15 175g raw, potato 500g, mushrooms 80g, butter 10g.",
+        "desc": "Beef + potato dinner 19:30 (as planned per the adherence protocol, not separately reported; beef left at 175g): ground beef 85/15 175g raw, potato 500g, mushrooms 80g, butter 10g.",
         "kcal": 851,
         "protein": 45,
         "carbs": 90,
         "fat": 35,
         "fiber": 11.3
-      },
-      {
-        "desc": "Shrimp + rice bowl 21:45 (REPLANNED): cooked shrimp 180g, white rice 100g dry, cucumber 100g, sriracha 15g. The skipped 12:30 lunch moved into the freed nightcap slot and scaled down from 220g shrimp / 170g rice to backfill the bulgogi swap without overshooting.",
-        "kcal": 577,
-        "protein": 51,
-        "carbs": 87,
-        "fat": 2,
-        "fiber": 1.0
       }
     ],
-    "notes": "Leg day (squat 235, chasing a clean 8,7). Two unplanned rearrangements that nearly cancel: the yogurt nightcap was pulled forward to 09:30 breakfast (minus blueberries, plus 1g cocoa), and the leftover half bulgogi bowl from 9/14 replaced the planned shrimp lunch. The bulgogi swap alone left a -575 kcal / -43P hole vs the 3,200/175P target; increasing the dinner beef could not cover 43P without a 406g raw patty, so the shrimp bowl was moved to the empty 21:45 slot at 180g shrimp / 100g dry rice instead. Projected close: 3,213 kcal / 184P - both targets met, protein 9g over. Bulgogi was ~40h old; reheated until steaming. Aria's kimchi has caused no reaction (fish-sauce exposure noted on 9/14, tolerated)."
+    "notes": "Legs day (squat 235x8,4 - see weights.json). Two improvised swaps that netted out: the yogurt nightcap was pulled forward to 09:30 breakfast (no blueberries, +1g cocoa) and the leftover 9/14 half bulgogi bowl replaced the planned shrimp lunch, a -474 kcal / -42P hit. Backfilled with an unplanned Jay's Grill lunch chicken breast (~570 kcal / 67P, hummus declined for the chickpea allergy) instead of moving the shrimp bowl to 21:45; the 21:45 slot was cancelled and the 180g of shrimp rolls to 9/17. Day closes 3,206 / 200P against a 3,200 / 175P target - 6 kcal off, 25g protein over, the tightest close of the week. Jay's portion is the main estimate risk."
   }
 ]
