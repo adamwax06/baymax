@@ -2412,5 +2412,66 @@
       }
     ],
     "notes": "Legs day (squat 235x8,4 - see weights.json). Two improvised swaps that netted out: the yogurt nightcap was pulled forward to 09:30 breakfast (no blueberries, +1g cocoa) and the leftover 9/14 half bulgogi bowl replaced the planned shrimp lunch, a -474 kcal / -42P hit. Backfilled with an unplanned Jay's Grill lunch chicken breast (~570 kcal / 67P, hummus declined for the chickpea allergy) instead of moving the shrimp bowl to 21:45; the 21:45 slot was cancelled and the 180g of shrimp rolls to 9/17. Day closes 3,206 / 200P against a 3,200 / 175P target - 6 kcal off, 25g protein over, the tightest close of the week. Jay's portion is the main estimate risk."
+  },
+  {
+    "date": "2026-09-17",
+    "kcal": 3540,
+    "protein": 204,
+    "carbs": 318,
+    "fat": 163,
+    "fiber": 19.7,
+    "meals": [],
+    "method": "reported-as-eaten (all six feedings reported by Adam 9/18); yogurt bowl at planned amounts, everything else re-estimated from the reported portions. DAY CLOSED.",
+    "deviations": [
+      {
+        "desc": "Rest-day yogurt bowl 12:00 (as planned, confirmed good): greek yogurt whole 300g, strawberries 100g, chia 15g, 2 mandarins.",
+        "kcal": 482,
+        "protein": 31,
+        "carbs": 52,
+        "fat": 18.5,
+        "fiber": 8.3
+      },
+      {
+        "desc": "Egg + beef wrap 14:00 (EATEN, reported) - planned was 6 eggs / 30g mozz / 1 tortilla / 30g spinach at 717 kcal / 51P. Actual: 2 eggs, ~100g raw ground beef 85/15, 30g mozzarella, 1 tortilla, 30g spinach. Beef amount is an estimate ('a bit of beef'); -71 kcal, -7P vs plan but +14g fat.",
+        "kcal": 646,
+        "protein": 44,
+        "carbs": 36,
+        "fat": 35.4,
+        "fiber": 2.2
+      },
+      {
+        "desc": "Gnocchi skillet 19:00 (EATEN, reported) - planned 350g ground chicken / 380g gnocchi / 180g marinara / 50g mozz at 1,441 kcal / 93P. Actual: HALF a TJ's ground chicken package (1 lb -> 227g raw) and HALF a gnocchi package (454g -> 227g); marinara + mozzarella assumed at planned 180g/50g (not separately reported). -439 kcal / -28P vs plan.",
+        "kcal": 1002,
+        "protein": 65,
+        "carbs": 97,
+        "fat": 38.2,
+        "fiber": 7.2
+      },
+      {
+        "desc": "UNPLANNED, Nojo Ramen Tavern: HALF an order of chicken karaage (EATEN, reported). ESTIMATED as ~100g fried boneless chicken thigh with potato-starch coating (Adam confirmed the half-of-a-small-app read). No published nutrition from Nojo - pure estimate.",
+        "kcal": 290,
+        "protein": 19,
+        "carbs": 9,
+        "fat": 20,
+        "fiber": 0.3
+      },
+      {
+        "desc": "UNPLANNED: TWO slices of carrot cake with cream cheese frosting (EATEN, reported). ESTIMATED at ~80g per small slice = 160g total at ~375 kcal/100g. NUT CHECK: Adam confirmed the cake was nut-free (carrot cake commonly carries walnuts - tree nut allergy). Biggest single estimate risk of the day and the main fat driver.",
+        "kcal": 600,
+        "protein": 5,
+        "carbs": 78,
+        "fat": 31,
+        "fiber": 1.6
+      },
+      {
+        "desc": "Yogurt nightcap (EATEN, reported) - planned 300g yogurt + 100g raspberries + 30g honey at 427 kcal / 28P. Actual: a WHOLE 16 oz container of whole-milk greek yogurt (453g) + ~30g honey, no raspberries. +92 kcal, +12P vs plan.",
+        "kcal": 519,
+        "protein": 40,
+        "carbs": 46,
+        "fat": 19.9,
+        "fiber": 0.1
+      }
+    ],
+    "notes": "Rest day, no lift. Plan was 3,067 / 202P; day closed 3,540 / 204P - 340 over the 3,200 target, protein dead on. The plan's own structure held (four feedings, all eaten) and the two in-house swaps roughly cancelled: the egg wrap lost 4 eggs and gained ~100g beef (-71 kcal), the gnocchi skillet came in at half-packages instead of the bumped-up 350g/380g (-439 kcal). The overage is entirely the two unplanned items - half karaage at Nojo (~290) and two slices of carrot cake (~600) - plus a 16 oz yogurt nightcap instead of 300g. FAT IS THE REAL OUTLIER: 163g against the ~75g target, more than double, from fried karaage + frosted cake + two whole-milk yogurt servings in one day; carbs came in low at 318g as a result. One high-fat day inside a bulk is noise, not a problem, and a +340 kcal day is the right direction given August averaged 224/day UNDER target. ESTIMATE RISK: the carrot cake (+/- 200 kcal) and the karaage are both unmeasured restaurant/bakery items, and the beef in the wrap was eyeballed. Carrot cake confirmed nut-free by Adam."
   }
 ]
