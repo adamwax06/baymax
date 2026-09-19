@@ -2476,13 +2476,13 @@
   },
   {
     "date": "2026-09-18",
-    "kcal": 2841,
-    "protein": 141,
-    "carbs": 354,
-    "fat": 98,
-    "fiber": 32.9,
+    "kcal": 3273,
+    "protein": 168,
+    "carbs": 407,
+    "fat": 112,
+    "fiber": 33.0,
     "meals": [],
-    "method": "reported-as-eaten (all feedings reported by Adam 9/18, day closed 23:50). Yogurt bowl, toast and smoothie at planned amounts; lunch and dinner re-estimated from photo + reported portions. DAY CLOSED.",
+    "method": "reported-as-eaten (all six feedings reported by Adam 9/18-9/19, day closed 00:05 on 9/19). Yogurt bowl, toast, smoothie and nightcap at planned amounts; lunch and dinner re-estimated from photo + reported portions. DAY CLOSED. CORRECTED: first close at 2,841/141P omitted the nightcap, which was eaten at 23:34.",
     "deviations": [
       {
         "desc": "Yogurt bowl pulled forward 12:30 -> 10:30 and eaten as breakfast; raspberries swapped for strawberries at 55g. Planned 476/30, no material macro change.",
@@ -2525,14 +2525,14 @@
         "fiber": 8.2
       },
       {
-        "desc": "Yogurt + blueberries nightcap 21:45 NOT EATEN (planned 432 kcal / 27P). Reported skipped, no replacement. This is the whole gap between a 3,273 day and a 2,841 day.",
-        "kcal": 0,
-        "protein": 0,
-        "carbs": 0,
-        "fat": 0,
-        "fiber": 0
+        "desc": "Yogurt + blueberries nightcap 23:34 EATEN as planned (greek yogurt whole 300g, blueberries 100g, honey 30g). Initially reported as skipped and logged that way; Adam corrected within the hour - it was eaten inside the day.",
+        "kcal": 432,
+        "protein": 27.1,
+        "carbs": 53.5,
+        "fat": 13.5,
+        "fiber": 0.1
       }
     ],
-    "notes": "Push day. Plan was ~3,762 / 231P as the calendar events read; day closed 2,841 / 141P - 359 UNDER the 3,200 target and, more importantly, BELOW the 150-155g protein goal for the first time in the recent log. TWO CAUSES, both protein-shaped: (1) the shrimp fried rice (90P) became a chicken-meatball pasta (46P) at roughly equal calories - a -43P swap; (2) the skipped yogurt nightcap took another -27P. Either alone would have been absorbed; together they took the day under the floor. The lunch swap (-20P) was real but third in line. FLOOR WATCH: at 2,841 this is a target-200 day and feeds the FLOOR note enforced in HealthClient.nutrition() on 8/31 - the exact failure mode the bench-225 pace analysis named as the binding constraint ('the lever is the floor, not the programming'). One day is not a trend, but it lands four days after 9/14 and two days before the 9/20 bench re-test. FAT: 98g against the ~75g target, driven entirely by the meatballs (44g of the day's 98 in one portion) - much better than 9/17's 163g. CARBS 354g, the healthiest carb day of the week. ESTIMATE RISK: the lunch plate is a pure photo estimate revised three times, and the buffalo meatball per-100g figures in foods.json have never been validated against a label - the meatball bag was never confirmed free of pea protein either, so the legume check on that product is still OPEN."
+    "notes": "Push day. Day closed 3,273 / 168P - 73 OVER the 3,200 target, protein comfortably clear of the 150-155g goal. Six feedings, all eaten. NOT a floor day; the earlier 2,841/141P close was an error from the nightcap being reported skipped and then corrected. Two meals were replaced and roughly cancelled on calories: lunch swapped the planned buffalo meatball wrap (941/48) for a home roast chicken plate (382/28), and dinner swapped the shrimp fried rice (924/90) for a buffalo chicken parm pasta cooked for two with Nanda (993/47). THE REAL COST IS PROTEIN, NOT CALORIES: those two swaps together gave up ~63P at near-identical calories - shrimp is ~24P/100g against the chicken meatballs' 13P/100g, and the meatball pasta is the single biggest protein leak in the week. 168P still clears the goal, but the plan would have delivered 231P. FAT 112g against the ~75g target, 44g of it from one 200g meatball portion - high, though well down from 9/17's 163g. CARBS 407g, the best carb day of the week. ESTIMATE RISK: the lunch plate is a pure photo estimate (IMG_4867) revised three times, and the buffalo meatball per-100g figures in foods.json have never been validated against a label. THE LEGUME CHECK ON THE MEATBALLS IS STILL OPEN - they were eaten 9/18 with no reaction reported, but the bag was never read for pea protein."
   }
 ]
