@@ -1275,7 +1275,7 @@
               "bodyweight": true
             }
           ],
-          "notes": "bench; cable flies 40’s for 7, 6,"
+          "notes": "bench; cable flies 40\u2019s for 7, 6,"
         }
       ],
       "gym": "rut"
@@ -8848,7 +8848,7 @@
               ]
             }
           ],
-          "notes": "22kg DBs, slow eccentric — hotel gym max"
+          "notes": "22kg DBs, slow eccentric \u2014 hotel gym max"
         },
         {
           "name": "Unilateral Tricep Pushdown",
@@ -8938,7 +8938,7 @@
               ]
             }
           ],
-          "notes": "17.5kg DBs — gym's increments, lighter than usual 40lb"
+          "notes": "17.5kg DBs \u2014 gym's increments, lighter than usual 40lb"
         },
         {
           "name": "Unilateral Lat Pullover",
@@ -8953,7 +8953,7 @@
           ]
         }
       ],
-      "notes": "Real gym in Lisbon (via Cade), not the hotel dumbbell/cable setup — weight stack available."
+      "notes": "Real gym in Lisbon (via Cade), not the hotel dumbbell/cable setup \u2014 weight stack available."
     },
     {
       "date": "2026-07-29",
@@ -9010,10 +9010,10 @@
               ]
             }
           ],
-          "notes": "cleaned both sets at 125 — ready to bump next session"
+          "notes": "cleaned both sets at 125 \u2014 ready to bump next session"
         }
       ],
-      "notes": "Trained approximately 5:15–6:15pm."
+      "notes": "Trained approximately 5:15\u20136:15pm."
     },
     {
       "date": "2026-07-30",
@@ -11104,6 +11104,79 @@
         }
       ],
       "notes": "Legs at 16:00 as scheduled. 3 of 4 lifts regressed vs 9/11; only the leg extension held. Every first set landed 8 and every later set faded, which reads as under-recovery rather than lost strength. Stacked third-in-a-row training day (push 9/14, pull 9/15) behind a 975 kcal shortfall on 9/14 and two late nights (03:08 bedtime 9/14, 00:51 on 9/15; deep sleep 25 min per Watch)."
+    },
+    {
+      "date": "2026-09-18",
+      "type": "push",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "lb": 175,
+              "reps": [
+                7,
+                6
+              ]
+            }
+          ],
+          "notes": "SIXTH session at 175 and the THIRD CONSECUTIVE 7,6. e1RM 215.83, IDENTICAL to 8/31, 9/05 (honest) and 9/14 - bench has now been FLAT for four sessions and 18 days. Total reps across the 175 block: 11 (8/27), 12 (8/31), 13+3 (9/05, three sets), 13 (9/14), 13 (9/18). Target 8,7 not earned for the fifth time. The third set was NOT run again (two sets, as on 9/14), so plan item 2 has been withdrawn as well as tested. 175 has now had MORE sessions than the 165 precedent took to consolidate (four sessions / 17 days); this is past the expected middle. Sole lift on the day that did not move - all five accessories completed or advanced."
+        },
+        {
+          "name": "Unilateral Tricep Pushdown",
+          "sets": [
+            {
+              "lb": 33,
+              "reps": [
+                8,
+                8
+              ]
+            }
+          ],
+          "notes": "COMPLETE. 33 goes 7,7 (8/31) -> 8,5 (9/05) -> 8,7 (9/14) -> 8,8. Same 8,8 criterion that graduated 30 -> 33 on 8/27. Next push: 36."
+        },
+        {
+          "name": "DB Lateral Raise",
+          "sets": [
+            {
+              "lb": 30,
+              "reps": [
+                8,
+                8,
+                8
+              ]
+            }
+          ],
+          "notes": "Third straight session of progress at the 30s (7,6,6 -> 8,7,6 -> 8,8,7 -> 8,8,8) and the first time all three sets land. NOT complete under Adam's own precedent: both prior graduations came at 10,10,10 (20s on 7/13, 25s on 8/27), not 8,8,8. HOLD THE 30s. The 8/31 note stands - 30 -> 35 is a +17% step because 5 lb is the smallest DB increment here, and every +20% DB jump in this log has cost reps."
+        },
+        {
+          "name": "Incline Fly",
+          "sets": [
+            {
+              "lb": 80,
+              "reps": [
+                8,
+                8
+              ]
+            }
+          ],
+          "notes": "COMPLETE after five sessions at 80 (8,5 / 8,6 / 8,7 / 8,7 / 8,8). The 8,8 criterion graduated 66 -> 74 and 74 -> 80. Next push: 86."
+        },
+        {
+          "name": "DB Skull Crusher",
+          "sets": [
+            {
+              "lb": 30,
+              "reps": [
+                6,
+                5
+              ]
+            }
+          ],
+          "notes": "First session with BOTH sets at 30 and no 25 lb backoff. 30 previously read 5+25x10 (8/31), 5+25x8 (9/05), 5+25x9 (9/14). Real progress on the lift that has fought the +20% DB jump since 8/31. Repeat 30, target 8,8."
+        }
+      ],
+      "notes": "Push. THE SESSION IN ONE LINE: every accessory moved, bench did not. Pushdown and incline fly both completed their loads, the lateral raise landed all three sets for the first time, and the skull crusher dropped its backoff - while bench turned in its third consecutive 175x7,6. That pattern rules out systemic fatigue, underfueling on the day, or a bad session as the explanation; the problem is specific to the bench stimulus. PARKING HAS NOW BEEN GIVEN A FULL TRIAL: six sessions and 22 days at 175 against the 165 precedent's four sessions and 17 days, with e1RM flat at 215.83 since 8/31. Plan item 1 (park the load) produced +5.8 e1RM in its first four days and nothing in the fourteen since. Plan item 2 (add a third set) was run once on 9/05 and dropped. See goals.json bench-225 STATUS 9/18 for the 9/20 re-test verdict and the recommended move to the 4-6 rep transition."
     }
   ]
 }
