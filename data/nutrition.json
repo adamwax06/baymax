@@ -266,7 +266,7 @@
         "fat": 6
       },
       {
-        "desc": "Octopus, sweet potato, spinach \u2014 Incomum (signature dish, estimated)",
+        "desc": "Octopus, sweet potato, spinach — Incomum (signature dish, estimated)",
         "kcal": 680,
         "protein": 45,
         "carbs": 45,
@@ -308,7 +308,7 @@
         "fat": 0
       }
     ],
-    "notes": "Lisbon day 3. Heavy pastry + alcohol day, all estimated from recall \u2014 treat totals as rough. Agave used as honey-macro proxy."
+    "notes": "Lisbon day 3. Heavy pastry + alcohol day, all estimated from recall — treat totals as rough. Agave used as honey-macro proxy."
   },
   {
     "date": "2026-07-27",
@@ -320,7 +320,7 @@
     "method": "travel estimates + verified label",
     "deviations": [
       {
-        "desc": "Camar\u00e3o (shrimp) bowl, Hygge Kaffe, no cashews (curry couscous, prawns, pineapple, yogurt sauce)",
+        "desc": "Camarão (shrimp) bowl, Hygge Kaffe, no cashews (curry couscous, prawns, pineapple, yogurt sauce)",
         "kcal": 580,
         "protein": 32,
         "carbs": 55,
@@ -348,7 +348,7 @@
         "fat": 47
       }
     ],
-    "notes": "Lisbon day 5 \u2014 pull day at a real gym via Cade (Row + Cable Curl PRs). Kebab dinner + flight meal 1 (bolognese) both landed same Lisbon-local evening/night before the date rolled over."
+    "notes": "Lisbon day 5 — pull day at a real gym via Cade (Row + Cable Curl PRs). Kebab dinner + flight meal 1 (bolognese) both landed same Lisbon-local evening/night before the date rolled over."
   },
   {
     "date": "2026-07-28",
@@ -407,7 +407,7 @@
     "method": "plan-derived+deviations",
     "deviations": [
       {
-        "desc": "Mango yogurt granola bowl (greek-yogurt-whole 250g, mango 170g, granola-very-berry 70g, honey 20g) \u2014 actual portions ran higher than planned",
+        "desc": "Mango yogurt granola bowl (greek-yogurt-whole 250g, mango 170g, granola-very-berry 70g, honey 20g) — actual portions ran higher than planned",
         "kcal": 702,
         "protein": 30,
         "carbs": 106,
@@ -428,7 +428,7 @@
         "fat": 2
       },
       {
-        "desc": "Trader Joe's steamed chicken soup dumplings, 6ct/170g tray (post-lift) \u2014 label macros",
+        "desc": "Trader Joe's steamed chicken soup dumplings, 6ct/170g tray (post-lift) — label macros",
         "kcal": 250,
         "protein": 16,
         "carbs": 29,
@@ -442,21 +442,21 @@
         "fat": 4
       },
       {
-        "desc": "Beef rice skillet, not pasta marinara as planned (ground-beef-96 150g, white-rice-dry 55g \u2014 swapped for pasta, out of stock; mozzarella-shredded 40g; Trader Joe's Sriracha & Roasted Garlic BBQ Sauce 20g \u2014 swapped for marinara, moldy; label macros, not plain sriracha)",
+        "desc": "Beef rice skillet, not pasta marinara as planned (ground-beef-96 150g, white-rice-dry 55g — swapped for pasta, out of stock; mozzarella-shredded 40g; Trader Joe's Sriracha & Roasted Garlic BBQ Sauce 20g — swapped for marinara, moldy; label macros, not plain sriracha)",
         "kcal": 534,
         "protein": 45,
         "carbs": 56,
         "fat": 14
       },
       {
-        "desc": "Vanilla latte, NEMA building machine, ~12:00pm (estimated \u2014 no label, sized like a 12oz/tall)",
+        "desc": "Vanilla latte, NEMA building machine, ~12:00pm (estimated — no label, sized like a 12oz/tall)",
         "kcal": 190,
         "protein": 9,
         "carbs": 30,
         "fat": 5
       }
     ],
-    "notes": "Legs lift day (done, 5-6pm \u2014 Squat 205x8,8, Leg Press Calf Raises 470x8,8,6, Hamstring Curl 125x8,8,5, Unilateral Leg Extension 125x8,8, all per weights.json). Full day logged. Dinner improvised: no pasta (rice sub), moldy marinara (sriracha sub) \u2014 discard that marinara jar."
+    "notes": "Legs lift day (done, 5-6pm — Squat 205x8,8, Leg Press Calf Raises 470x8,8,6, Hamstring Curl 125x8,8,5, Unilateral Leg Extension 125x8,8, all per weights.json). Full day logged. Dinner improvised: no pasta (rice sub), moldy marinara (sriracha sub) — discard that marinara jar."
   },
   {
     "date": "2026-07-30",
@@ -468,14 +468,14 @@
     "method": "plan-derived+deviations",
     "deviations": [
       {
-        "desc": "Egg scramble wrap (4 eggs 200g, mozzarella-shredded 25g, flour tortilla \u00d71 64g, spinach 60g)",
+        "desc": "Egg scramble wrap (4 eggs 200g, mozzarella-shredded 25g, flour tortilla ×1 64g, spinach 60g)",
         "kcal": 566,
         "protein": 38,
         "carbs": 37,
         "fat": 29
       },
       {
-        "desc": "Kirkland Signature Sparkling Energy Drink, sugar-free, mango/tropical \u2014 label macros",
+        "desc": "Kirkland Signature Sparkling Energy Drink, sugar-free, mango/tropical — label macros",
         "kcal": 10,
         "protein": 0,
         "carbs": 1,
@@ -489,7 +489,7 @@
         "fat": 2
       },
       {
-        "desc": "Cocoa date oat bowl, post-lift (estimated: oats-dry 60g, cocoa-powder 8g, 3 medjool dates \u2014 correct amounts if off)",
+        "desc": "Cocoa date oat bowl, post-lift (estimated: oats-dry 60g, cocoa-powder 8g, 3 medjool dates — correct amounts if off)",
         "kcal": 444,
         "protein": 11,
         "carbs": 99,
@@ -503,21 +503,21 @@
         "fat": 5
       },
       {
-        "desc": "Doppio Zero Fettuccine Oxtail (estimated \u2014 homemade egg fettuccine, braised oxtail, Chianti reduction, Parmesan; no published nutrition)",
+        "desc": "Doppio Zero Fettuccine Oxtail (estimated — homemade egg fettuccine, braised oxtail, Chianti reduction, Parmesan; no published nutrition)",
         "kcal": 1000,
         "protein": 48,
         "carbs": 90,
         "fat": 45
       },
       {
-        "desc": "Doppio Zero Polpettine small plate (estimated \u2014 meatballs in spicy tomato sauce with grilled bread; no published nutrition)",
+        "desc": "Doppio Zero Polpettine small plate (estimated — meatballs in spicy tomato sauce with grilled bread; no published nutrition)",
         "kcal": 600,
         "protein": 32,
         "carbs": 40,
         "fat": 32
       },
       {
-        "desc": "Salt & Straw Chocolate Gooey Brownie ice cream, small portion (shop estimate 110\u2013190 kcal; logged at midpoint; macros estimated)",
+        "desc": "Salt & Straw Chocolate Gooey Brownie ice cream, small portion (shop estimate 110–190 kcal; logged at midpoint; macros estimated)",
         "kcal": 150,
         "protein": 2,
         "carbs": 19,
@@ -536,21 +536,21 @@
     "method": "plan-derived+deviations",
     "deviations": [
       {
-        "desc": "Kirkland breaded chicken filets 330g (kirkland-breaded-tenders macros) + Chick-fil-A sauce packet 28g \u2014 replaced planned grilled breast 200g + sriracha 20g in chicken rice bowl; rice/spinach not yet reported",
+        "desc": "Kirkland breaded chicken filets 330g (kirkland-breaded-tenders macros) + Chick-fil-A sauce packet 28g — replaced planned grilled breast 200g + sriracha 20g in chicken rice bowl; rice/spinach not yet reported",
         "kcal": 691,
         "protein": 63,
         "carbs": 41,
         "fat": 33
       },
       {
-        "desc": "Nojo Ramen Tavern dinner out w/ parents (replaced beef+potato dinner): Tan-Tan Spicy Miso Paitan (spicy ground chicken, toasted sesame, arugula, green onion, dashi egg, spice bomb \u2014 menu confirms sesame-based, no peanut) + 3 of 5pc gyoza (cabbage/pork/chicken/nira/garlic) + 3 edamame pods \u2014 estimated from menu ingredients + published tantanmen counts (bowl ~750, range 600-900)",
+        "desc": "Nojo Ramen Tavern dinner out w/ parents (replaced beef+potato dinner): Tan-Tan Spicy Miso Paitan (spicy ground chicken, toasted sesame, arugula, green onion, dashi egg, spice bomb — menu confirms sesame-based, no peanut) + 3 of 5pc gyoza (cabbage/pork/chicken/nira/garlic) + 3 edamame pods — estimated from menu ingredients + published tantanmen counts (bowl ~750, range 600-900)",
         "kcal": 935,
         "protein": 48,
         "carbs": 100,
         "fat": 38
       }
     ],
-    "notes": "Full day logged. Morning per calendar (scramble 786, latte 250 est 16oz, pre-lift toast 309); pull lift done 2:30-4pm; tender bowl as-eaten 1,172 (330g filets + 130g rice dry + CFA packet, confirmed rice eaten); Nojo Ramen Tavern dinner out 935 est. Nightcap cancelled to offset. ~165 over the 3,285 planned day. Ground beef NOT cooked \u2014 freeze it or it's trash."
+    "notes": "Full day logged. Morning per calendar (scramble 786, latte 250 est 16oz, pre-lift toast 309); pull lift done 2:30-4pm; tender bowl as-eaten 1,172 (330g filets + 130g rice dry + CFA packet, confirmed rice eaten); Nojo Ramen Tavern dinner out 935 est. Nightcap cancelled to offset. ~165 over the 3,285 planned day. Ground beef NOT cooked — freeze it or it's trash."
   },
   {
     "date": "2026-08-01",
@@ -564,7 +564,7 @@
     "method": "as-eaten (verified label + restaurant/drink estimates)",
     "deviations": [
       {
-        "desc": "Nature Valley Double Chocolate Peanut-Free Chewy Granola Bar, 1 bar (25g) \u2014 UPC 016000345874, verified physical label",
+        "desc": "Nature Valley Double Chocolate Peanut-Free Chewy Granola Bar, 1 bar (25g) — UPC 016000345874, verified physical label",
         "kcal": 100,
         "protein": 2,
         "carbs": 19,
@@ -688,7 +688,7 @@
     "method": "calendar-plan-derived+deviations",
     "deviations": [
       {
-        "desc": "Vanilla latte, NEMA building machine, ~11:45am (estimated \u2014 no label, sized like a 12oz/tall; same estimate as 7/29)",
+        "desc": "Vanilla latte, NEMA building machine, ~11:45am (estimated — no label, sized like a 12oz/tall; same estimate as 7/29)",
         "kcal": 190,
         "protein": 9,
         "carbs": 30,
@@ -702,7 +702,7 @@
         "fat": 7
       }
     ],
-    "notes": "Projected full day from the 8/3 calendar under the plan-is-intake adherence protocol. Calendar base corrected to 3,325 kcal / 189g protein after the smoothie mango was reduced 200\u2192120g; added the latte and removed 80g spinach (~18 kcal / 2.3g protein). Remaining calendar meals are assumed unless Adam reports another deviation. Carb/fat totals are approximate because the customized calendar events store calories/protein, not full macros, and the latte has no label."
+    "notes": "Projected full day from the 8/3 calendar under the plan-is-intake adherence protocol. Calendar base corrected to 3,325 kcal / 189g protein after the smoothie mango was reduced 200→120g; added the latte and removed 80g spinach (~18 kcal / 2.3g protein). Remaining calendar meals are assumed unless Adam reports another deviation. Carb/fat totals are approximate because the customized calendar events store calories/protein, not full macros, and the latte has no label."
   },
   {
     "date": "2026-08-04",
@@ -1077,7 +1077,7 @@
         "fiber": 5
       },
       {
-        "desc": "Dinner at Jay's Grill: chicken shawarma plate \u2014 chicken, rice, naan, garlic sauce (toum), plus a side salad. Reported eaten. Restaurant-portion midpoint; rice volume and toum amount are the main uncertainty (toum is nearly all oil and swings this 150+ kcal either way).",
+        "desc": "Dinner at Jay's Grill: chicken shawarma plate — chicken, rice, naan, garlic sauce (toum), plus a side salad. Reported eaten. Restaurant-portion midpoint; rice volume and toum amount are the main uncertainty (toum is nearly all oil and swings this 150+ kcal either way).",
         "kcal": 1340,
         "protein": 69,
         "carbs": 134,
@@ -1085,7 +1085,7 @@
         "fiber": 6
       }
     ],
-    "notes": "August 14 final: sweetgreen Chicken Caesar Wrap at lunch, Jay's Grill chicken shawarma plate for dinner, no evening top-off (considered a late DoorDash order ~midnight but went to bed instead). Day closes at ~2,150 kcal / 136g protein \u2014 roughly 900 kcal and 16g protein under the 3,050/152 target. Legs day was pushed to Aug 15, so the squat session runs on a lighter fuel day than planned. ALLERGY FLAG carried over: sweetgreen Caesar dressing is conventionally anchovy-based \u2014 confirm ingredients before reordering; Jay's side salad may have contained chickpeas/bell peppers. No reactions reported."
+    "notes": "August 14 final: sweetgreen Chicken Caesar Wrap at lunch, Jay's Grill chicken shawarma plate for dinner, no evening top-off (considered a late DoorDash order ~midnight but went to bed instead). Day closes at ~2,150 kcal / 136g protein — roughly 900 kcal and 16g protein under the 3,050/152 target. Legs day was pushed to Aug 15, so the squat session runs on a lighter fuel day than planned. ALLERGY FLAG carried over: sweetgreen Caesar dressing is conventionally anchovy-based — confirm ingredients before reordering; Jay's side salad may have contained chickpeas/bell peppers. No reactions reported."
   },
   {
     "date": "2026-08-15",
@@ -1103,7 +1103,7 @@
       "beef-potato-dinner",
       "half-nightcap"
     ],
-    "method": "planned-as-eaten + reported condiment deviations (in progress \u2014 finalize at day close)",
+    "method": "planned-as-eaten + reported condiment deviations (in progress — finalize at day close)",
     "deviations": [
       {
         "desc": "~5g Chick-fil-A honey mustard on the dinner potatoes, reported eaten. Contains refined soybean oil (allergy-safe: refined oil, whole-soy exception) and egg.",
@@ -1122,7 +1122,7 @@
         "fiber": 0
       },
       {
-        "desc": "~1:00am (8/16): 2 large slices Papa John's Epic Pepperoni-Stuffed Crust pepperoni pizza, reported eaten (edible-driven late snack). Menu-derived estimate at ~440 kcal/slice; crust stuffing amount is the main uncertainty. Allergy-safe (dough soybean oil is refined \u2014 tolerated exception).",
+        "desc": "~1:00am (8/16): 2 large slices Papa John's Epic Pepperoni-Stuffed Crust pepperoni pizza, reported eaten (edible-driven late snack). Menu-derived estimate at ~440 kcal/slice; crust stuffing amount is the main uncertainty. Allergy-safe (dough soybean oil is refined — tolerated exception).",
         "kcal": 880,
         "protein": 36,
         "carbs": 84,
@@ -1130,7 +1130,7 @@
         "fiber": 4
       }
     ],
-    "notes": "First day on the new 3,200 kcal target (retargeted 8/15). Ate the calendar plan: cocoa berry yogurt bowl, butter chicken + potatoes (as eaten), mini chicken rice bowl, pre-lift toast, legs session (squat 225x8,6), post-lift smoothie v5, beef + potato dinner, half nightcap (honey bumped 5g->15g for taste, +30 kcal). Condiment deviations add ~16 kcal \u2014 noise. Day closed with a ~1am edible-driven deviation: 2 slices Papa John's Epic Pepperoni-Stuffed Crust (+880 kcal), pushing the day to ~4,120 \u2014 roughly 900 over target. One-off; watch the scale trend rather than compensating."
+    "notes": "First day on the new 3,200 kcal target (retargeted 8/15). Ate the calendar plan: cocoa berry yogurt bowl, butter chicken + potatoes (as eaten), mini chicken rice bowl, pre-lift toast, legs session (squat 225x8,6), post-lift smoothie v5, beef + potato dinner, half nightcap (honey bumped 5g->15g for taste, +30 kcal). Condiment deviations add ~16 kcal — noise. Day closed with a ~1am edible-driven deviation: 2 slices Papa John's Epic Pepperoni-Stuffed Crust (+880 kcal), pushing the day to ~4,120 — roughly 900 over target. One-off; watch the scale trend rather than compensating."
   },
   {
     "date": "2026-08-16",
@@ -1146,7 +1146,7 @@
     "method": "reported-as-eaten; restaurant + off-plan items are menu/label-derived estimates",
     "deviations": [
       {
-        "desc": "Proposition Chicken 'Flipped' rotisserie chicken sandwich + sage potato chips (DoorDash, ordered 3 \u2014 2 for friends, 1 eaten). Menu-derived estimate.",
+        "desc": "Proposition Chicken 'Flipped' rotisserie chicken sandwich + sage potato chips (DoorDash, ordered 3 — 2 for friends, 1 eaten). Menu-derived estimate.",
         "kcal": 850,
         "protein": 45,
         "carbs": 70,
@@ -1170,7 +1170,7 @@
         "fiber": 0
       }
     ],
-    "notes": "Push day (bench session). Skipped from plan: shawarma bowl (recipe given but not made), post-lift smoothie, beef + sweet potato plate, nightcap (not confirmed eaten by day end). Ate: yogurt bowl, pre-lift toast, then Prop Chicken flipped sandwich at ~7pm + late oat milk and rotisserie breast. ~1,100 under the 3,200 target \u2014 roughly cancels 8/15's ~900 pizza overage; two-day average on plan. Protein 145g, acceptable."
+    "notes": "Push day (bench session). Skipped from plan: shawarma bowl (recipe given but not made), post-lift smoothie, beef + sweet potato plate, nightcap (not confirmed eaten by day end). Ate: yogurt bowl, pre-lift toast, then Prop Chicken flipped sandwich at ~7pm + late oat milk and rotisserie breast. ~1,100 under the 3,200 target — roughly cancels 8/15's ~900 pizza overage; two-day average on plan. Protein 145g, acceptable."
   },
   {
     "date": "2026-08-17",
@@ -1184,7 +1184,7 @@
       "shawarma-chicken-bowl",
       "post-lift-smoothie"
     ],
-    "method": "planned-as-eaten + reported deviations (in progress \u2014 finalize at day close)",
+    "method": "planned-as-eaten + reported deviations (in progress — finalize at day close)",
     "deviations": [
       {
         "desc": "rest-scramble swap: 84g sourdough instead of the flour tortilla + 60g spinach; eggs and mozzarella as planned. Net delta vs the planned meal.",
@@ -1195,7 +1195,7 @@
         "fiber": -2
       },
       {
-        "desc": "Vanilla latte early afternoon, size/milk unreported \u2014 estimated as a 16oz (grande) 2% vanilla latte.",
+        "desc": "Vanilla latte early afternoon, size/milk unreported — estimated as a 16oz (grande) 2% vanilla latte.",
         "kcal": 250,
         "protein": 12,
         "carbs": 37,
@@ -1560,7 +1560,7 @@
         "fiber": 6
       },
       {
-        "desc": "NEMA vanilla latte (UNPLANNED, standing 12oz proxy \u2014 Adam confirmed the usual ~190).",
+        "desc": "NEMA vanilla latte (UNPLANNED, standing 12oz proxy — Adam confirmed the usual ~190).",
         "kcal": 190,
         "protein": 9,
         "carbs": 20,
@@ -1576,7 +1576,7 @@
         "fiber": 3
       },
       {
-        "desc": "RT Rotisserie half chicken, DoorDash ~8:15pm (ESTIMATE \u2014 restaurant, no label).",
+        "desc": "RT Rotisserie half chicken, DoorDash ~8:15pm (ESTIMATE — restaurant, no label).",
         "kcal": 620,
         "protein": 70,
         "carbs": 0,
@@ -1584,7 +1584,7 @@
         "fiber": 0
       },
       {
-        "desc": "RT Rotisserie fat rice (ESTIMATE \u2014 rice cooked in rotisserie drippings).",
+        "desc": "RT Rotisserie fat rice (ESTIMATE — rice cooked in rotisserie drippings).",
         "kcal": 400,
         "protein": 7,
         "carbs": 55,
@@ -1889,7 +1889,7 @@
         "fiber": 4
       },
       {
-        "desc": "RT Rotisserie RTR rice bowl, chicken + lamb, red beet tahini, ~17:30-18:00 (UNPLANNED, replaced the beef bolognese \u00d72). The FREEZER 85/15 beef was thrown out - it had gone bad - so the bolognese that was scheduled 8/28, 8/30 and 9/2 is now dead for good. ESTIMATE, no published nutrition: rotisserie-fat rice ~390, chicken ~230/25P, lamb ~280/24P, beet tahini + seeds + pickled veg ~180. Allergens: beet tahini is sesame (explicitly OK); no nut, legume, fish or bell pepper exposure identified on the published menu.",
+        "desc": "RT Rotisserie RTR rice bowl, chicken + lamb, red beet tahini, ~17:30-18:00 (UNPLANNED, replaced the beef bolognese ×2). The FREEZER 85/15 beef was thrown out - it had gone bad - so the bolognese that was scheduled 8/28, 8/30 and 9/2 is now dead for good. ESTIMATE, no published nutrition: rotisserie-fat rice ~390, chicken ~230/25P, lamb ~280/24P, beet tahini + seeds + pickled veg ~180. Allergens: beet tahini is sesame (explicitly OK); no nut, legume, fish or bell pepper exposure identified on the published menu.",
         "kcal": 1080,
         "protein": 61,
         "carbs": 95,
@@ -2534,5 +2534,42 @@
       }
     ],
     "notes": "Push day. Day closed 3,273 / 168P - 73 OVER the 3,200 target, protein comfortably clear of the 150-155g goal. Six feedings, all eaten. NOT a floor day; the earlier 2,841/141P close was an error from the nightcap being reported skipped and then corrected. Two meals were replaced and roughly cancelled on calories: lunch swapped the planned buffalo meatball wrap (941/48) for a home roast chicken plate (382/28), and dinner swapped the shrimp fried rice (924/90) for a buffalo chicken parm pasta cooked for two with Nanda (993/47). THE REAL COST IS PROTEIN, NOT CALORIES: those two swaps together gave up ~63P at near-identical calories - shrimp is ~24P/100g against the chicken meatballs' 13P/100g, and the meatball pasta is the single biggest protein leak in the week. 168P still clears the goal, but the plan would have delivered 231P. FAT 112g against the ~75g target, 44g of it from one 200g meatball portion - high, though well down from 9/17's 163g. CARBS 407g, the best carb day of the week. ESTIMATE RISK: the lunch plate is a pure photo estimate (IMG_4867) revised three times, and the buffalo meatball per-100g figures in foods.json have never been validated against a label. THE LEGUME CHECK ON THE MEATBALLS IS STILL OPEN - they were eaten 9/18 with no reaction reported, but the bag was never read for pea protein."
+  },
+  {
+    "date": "2026-09-19",
+    "kcal": 3125,
+    "protein": 147,
+    "carbs": 203,
+    "fat": 191,
+    "fiber": 13.0,
+    "meals": [],
+    "method": "reported-as-eaten + photo estimate (IMG_4873 flan, IMG_4874 crab madame), reported by Adam 9/20. ALL SIX PLANNED FEEDINGS WERE REPLACED OR SKIPPED - none of the planned toast, smoothie or nightcap was eaten. Restaurant day, two meals out, no weighed amounts: every number here is an estimate and the dinner is the loosest one in the log. DAY CLOSED.",
+    "deviations": [
+      {
+        "desc": "Morning: small slice of flan with caramel (IMG_4873), eaten in place of the day's first planned feeding. PHOTO-ESTIMATED at ~80g - a single small bar, caramel glaze, pale crumble on top. Adam confirmed the crumble was not an allergy concern; not identified further.",
+        "kcal": 140,
+        "protein": 3.5,
+        "carbs": 20.0,
+        "fat": 5.0,
+        "fiber": 0.0
+      },
+      {
+        "desc": "Brunch at Peacock Pansy: crab madame + crispy potatoes (IMG_4874), REPLACING the planned pork + potato bowl (810 kcal / 44P). PHOTO-ESTIMATED as toasted bread ~80g, crab ~100g, mornay/bechamel ~120g, grated hard cheese ~30g, one fried egg, and a large side of crispy fried potatoes ~180g. Finished. +290 kcal and roughly flat on protein vs plan, but ~+45g fat. ALLERGY: crab is shellfish, which is SAFE; no finned fish, no nuts, no bell pepper on the plate.",
+        "kcal": 1100,
+        "protein": 45.0,
+        "carbs": 88.0,
+        "fat": 63.0,
+        "fiber": 6.0
+      },
+      {
+        "desc": "Dinner at House of Prime Rib, King Henry cut, REPLACING the planned beef bolognese (967 kcal / 53P) AND absorbing the skipped smoothie and nightcap. Adam ate roughly 1/2-3/4 of the prime rib and mashed potatoes - logged at 0.6. ESTIMATED: prime rib ~330g cooked edible meat off a ~550g King Henry portion (940 kcal, 79P, 69F); mashed potatoes ~120g (210); the spinning-bowl salad with dressing (295, ~25g fat, almost all of it dressing); ~100g of the bread loaf with butter (365); a little of the Yorkshire pudding, logged as half (75). No creamed spinach. THE WHOLE DAY'S PROTEIN IS EFFECTIVELY THIS MEAL.",
+        "kcal": 1885,
+        "protein": 98.0,
+        "carbs": 95.0,
+        "fat": 123.0,
+        "fiber": 7.0
+      }
+    ],
+    "notes": "Pull day PLANNED, NOT TRAINED - Adam missed the 16:00 pull session. No entry in weights.json for 9/19; the pull block (lat pulldown, row, cable curl, unilateral DB curl, lat pullover) goes untouched this week and the 'load off Tuesday's outcome' call rolls forward to the next pull day.\n\nDay closed 3,125 / 147P - 75 UNDER the 3,200 target and 3g under the bottom of the 150-155P goal. THE CALORIE NUMBER IS MISLEADINGLY GOOD. Two restaurant meals landed almost exactly on a target the plan was going to hit anyway, and everything else about the day's composition is off: FAT 191g against a ~75g target - 2.5x, the highest fat day in the log, well past 9/17's 163g - and CARBS 203g against the plan's ~400g, the lowest carb day of the week. Fat supplied 55% of calories. Three feedings instead of six, with 62% of the day's calories and 67% of its protein in one 1,885 kcal dinner.\n\nPROTEIN MISSED THE FLOOR AGAIN, AND FOR THE SECOND TIME IN A WEEK THE CAUSE IS MEAL REPLACEMENT, NOT APPETITE. 9/18 gave up ~63P to two swaps; 9/19 gave up the smoothie's 27P and the nightcap's 27P outright by skipping them. A 79P slab of prime rib nearly covered a whole day's target on its own and the day still came in under - that is how much of the protein plan lives in the yogurt feedings. The plan would have delivered 160P.\n\nESTIMATE RISK IS HIGH AND CONCENTRATED IN THE DINNER. The King Henry's edible weight, the 0.6 fraction, and the salad dressing are all unmeasured; the dinner could plausibly run 300 kcal either side of 1,885, and the fat figure moves most. The brunch is a pure photo estimate. Do not treat 3,125/147P as precise - treat the shape (very high fat, low carb, protein short) as the finding, because that shape holds under any reasonable version of these estimates.\n\nTwo missed protein days and a missed session in a week where bench is flat for 18 days. Nothing here explains the flat bench on its own - 9/18 was a good fueling day and the bench still did not move - but the trailing average is the standing concern, and 9/19 does not help it."
   }
 ]
