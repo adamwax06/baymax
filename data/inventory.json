@@ -638,5 +638,15 @@
     "food": "chicken-breast-cooked",
     "asOf": "2026-09-14",
     "note": "Adam confirms only ~150g left in the fridge after today's lunch (shawarma bowl) + the earlier chicken-rice-bowl portion. Not enough for tonight's dinner or Sunday's repeat chicken-rice-bowl - thaw the freezer pack or buy more before Sunday."
+  },
+  {
+    "food": "pork-shoulder",
+    "asOf": "2026-09-20",
+    "note": "NEVER BOUGHT - Adam flagged 9/20. Pork shoulder (al pastor seasoned) was planned into TWO meals this week (9/19 pork + potato bowl, 9/20 pork + rice bowl) but is not on the 9/14 TJ's receipt and has never appeared in a fridge/freezer photo. The 9/20 dinner was swapped to the cooked shrimp on hand. DO NOT plan pork again until a receipt or photo confirms it."
+  },
+  {
+    "food": "shrimp-cooked",
+    "asOf": "2026-09-20",
+    "note": "~850g left after tonight's 250g bowl (was ~1,100g after the 9/15 scampi). Already cooked - reheat only, add at the end."
   }
 ]
