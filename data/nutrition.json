@@ -2571,5 +2571,26 @@
       }
     ],
     "notes": "Pull day PLANNED, NOT TRAINED - Adam missed the 16:00 pull session. No entry in weights.json for 9/19; the pull block (lat pulldown, row, cable curl, unilateral DB curl, lat pullover) goes untouched this week and the 'load off Tuesday's outcome' call rolls forward to the next pull day.\n\nDay closed 3,125 / 147P - 75 UNDER the 3,200 target and 3g under the bottom of the 150-155P goal. THE CALORIE NUMBER IS MISLEADINGLY GOOD. Two restaurant meals landed almost exactly on a target the plan was going to hit anyway, and everything else about the day's composition is off: FAT 191g against a ~75g target - 2.5x, the highest fat day in the log, well past 9/17's 163g - and CARBS 203g against the plan's ~400g, the lowest carb day of the week. Fat supplied 55% of calories. Three feedings instead of six, with 62% of the day's calories and 67% of its protein in one 1,885 kcal dinner.\n\nPROTEIN MISSED THE FLOOR AGAIN, AND FOR THE SECOND TIME IN A WEEK THE CAUSE IS MEAL REPLACEMENT, NOT APPETITE. 9/18 gave up ~63P to two swaps; 9/19 gave up the smoothie's 27P and the nightcap's 27P outright by skipping them. A 79P slab of prime rib nearly covered a whole day's target on its own and the day still came in under - that is how much of the protein plan lives in the yogurt feedings. The plan would have delivered 160P.\n\nESTIMATE RISK IS HIGH AND CONCENTRATED IN THE DINNER. The King Henry's edible weight, the 0.6 fraction, and the salad dressing are all unmeasured; the dinner could plausibly run 300 kcal either side of 1,885, and the fat figure moves most. The brunch is a pure photo estimate. Do not treat 3,125/147P as precise - treat the shape (very high fat, low carb, protein short) as the finding, because that shape holds under any reasonable version of these estimates.\n\nTwo missed protein days and a missed session in a week where bench is flat for 18 days. Nothing here explains the flat bench on its own - 9/18 was a good fueling day and the bench still did not move - but the trailing average is the standing concern, and 9/19 does not help it."
+  },
+  {
+    "date": "2026-09-20",
+    "kcal": 203,
+    "protein": 9.5,
+    "carbs": 23.0,
+    "fat": 7.7,
+    "fiber": 2.0,
+    "meals": [],
+    "method": "reported-as-eaten. DAY OPEN - one feeding logged so far.",
+    "deviations": [
+      {
+        "desc": "10:15 greek yogurt ~100g + honey + cocoa powder, REPLACING the planned 09:00 rest-day egg scramble (717 kcal / 51P). Adam reported '~100g' yogurt; honey and cocoa were not quantified and are ESTIMATED at 20g and 5g. Leaves the morning ~515 kcal and ~42P short of plan, which the leftover prime rib at 11:00 is set up to cover.",
+        "kcal": 203,
+        "protein": 9.5,
+        "carbs": 23.0,
+        "fat": 7.7,
+        "fiber": 2.0
+      }
+    ],
+    "notes": "DAY OPEN. Planned as a rest day; a makeup pull session was added at 16:15 after 9/19's was missed. Plan revised twice this morning: the scramble was skipped (above), and the 19:00 pork + rice bowl was swapped to a shrimp + rice bowl because the pork was never bought - it was planned into two meals this week off no receipt and no kitchen photo. Revised day projects to ~3,148 kcal / 207P / ~107g fat."
   }
 ]
