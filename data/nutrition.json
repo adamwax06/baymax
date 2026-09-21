@@ -2574,11 +2574,11 @@
   },
   {
     "date": "2026-09-20",
-    "kcal": 203,
-    "protein": 9.5,
-    "carbs": 23.0,
-    "fat": 7.7,
-    "fiber": 2.0,
+    "kcal": 770,
+    "protein": 45.0,
+    "carbs": 49.0,
+    "fat": 42.7,
+    "fiber": 4.0,
     "meals": [],
     "method": "reported-as-eaten. DAY OPEN - one feeding logged so far.",
     "deviations": [
@@ -2589,8 +2589,16 @@
         "carbs": 23.0,
         "fat": 7.7,
         "fiber": 2.0
+      },
+      {
+        "desc": "11:15 leftover House of Prime Rib, PARTIAL. Planned as the full doggy bag (~780 kcal / 55P, est. 220g rib + 80g mash); Adam ate 'a good bit' of the rib, finished the Yorkshire pudding (the half carried home from 9/19), the mash that was on it, and a little corn. ESTIMATED at ~130g rib, ~40g mash, the remaining half Yorkshire pudding, ~50g corn. Called it 'kind of mid' - reheated leftovers, not worth re-buying enthusiasm for. The remaining ~90g rib + 40g mash were THROWN OUT later that day - Adam called the reheated rib 'kind of mid' and did not want it again. Nothing further comes from this meal. Corn is new (not on the 9/19 plate) and is allergy-clean.",
+        "kcal": 567,
+        "protein": 35.5,
+        "carbs": 26.0,
+        "fat": 35.0,
+        "fiber": 2.0
       }
     ],
-    "notes": "DAY OPEN. Planned as a rest day; a makeup pull session was added at 16:15 after 9/19's was missed. Plan revised twice this morning: the scramble was skipped (above), and the 19:00 pork + rice bowl was swapped to a shrimp + rice bowl because the pork was never bought - it was planned into two meals this week off no receipt and no kitchen photo. Revised day projects to ~3,148 kcal / 207P / ~107g fat."
+    "notes": "DAY OPEN. Planned as a rest day; a makeup pull was added at 16:15 after 9/19's was missed, then meals reshuffled twice around it. Three plan changes so far: the 09:00 egg scramble was skipped (yogurt instead), the rest-day yogurt bowl was replaced by the 14:30 pre-lift toast because the plan had stacked 700g of greek yogurt into one day, and the 19:00 pork + rice bowl became shrimp + rice - the pork was never bought, planned into two meals off no receipt and no kitchen photo. RUNNING TOTAL 770 kcal / 45P at 11:15. With the toast (356/9P), shrimp bowl (1,248/85P) and nightcap (435/27P) still to come the day projects to ~2,809 / 166P - PROTEIN FINE, CALORIES ~390 SHORT of the 3,200 target because the rib came in ~215 kcal under the full doggy bag. Easiest fix is at dinner, not by adding a feeding. ESTIMATE QUALITY IS POOR ON THE RIB: 'a good bit' of an already-estimated leftover portion, off a King Henry whose edible weight was never measured. Two estimates stacked."
   }
 ]
