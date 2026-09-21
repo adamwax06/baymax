@@ -2574,13 +2574,13 @@
   },
   {
     "date": "2026-09-20",
-    "kcal": 770,
-    "protein": 45.0,
-    "carbs": 49.0,
-    "fat": 42.7,
-    "fiber": 4.0,
+    "kcal": 2609,
+    "protein": 183.6,
+    "carbs": 299.0,
+    "fat": 78.2,
+    "fiber": 13.5,
     "meals": [],
-    "method": "reported-as-eaten. DAY OPEN - one feeding logged so far.",
+    "method": "reported-as-eaten, five feedings, all reported by Adam through the day and at close. DAY CLOSED. Rib portion and fried-rice share are ESTIMATES ('a good bit' of an already-estimated leftover; ~60% of a two-person batch); the toast and nightcap were at planned amounts.",
     "deviations": [
       {
         "desc": "10:15 greek yogurt ~100g + honey + cocoa powder, REPLACING the planned 09:00 rest-day egg scramble (717 kcal / 51P). Adam reported '~100g' yogurt; honey and cocoa were not quantified and are ESTIMATED at 20g and 5g. Leaves the morning ~515 kcal and ~42P short of plan, which the leftover prime rib at 11:00 is set up to cover.",
@@ -2597,8 +2597,32 @@
         "carbs": 26.0,
         "fat": 35.0,
         "fiber": 2.0
+      },
+      {
+        "desc": "14:30 pre-lift toast EATEN AT FULL PORTION as planned (sourdough 90g, honey 25g, 1 mandarin). Bread was fine - the 9/14 'unverified' flag on the pantry bag is cleared. This was the day's main carb feed: before it Adam was at ~49g carbs on the back of 9/19's 203g, the week's lowest. Ate it on the explicit reasoning that the rib gave protein and fat but nothing usable for a 16:15 session.",
+        "kcal": 356,
+        "protein": 9.0,
+        "carbs": 79.0,
+        "fat": 1.9,
+        "fiber": 3.6
+      },
+      {
+        "desc": "19:00 shrimp fried rice, cooked for two, Adam took ~60% as planned. REPLACED the planned pork + rice bowl (1,532 / 71P) - the pork was never bought. Full batch: cooked shrimp 600g, jasmine rice 220g dry, carrot 150g, crimini 200g, soy sauce 50g, sesame oil 10g, olive oil 15g. TWO IN-FLIGHT CHANGES: no egg (carton confirmed empty mid-cook, mushrooms raised to 200g to compensate) and rice cut 420g -> 220g dry at Adam's call, which is the single reason the day finished under target. ALLERGY: peas deliberately omitted (legume); no bell pepper; fermented soy sauce is fine under the profile.",
+        "kcal": 1048,
+        "protein": 102.6,
+        "carbs": 118.0,
+        "fat": 20.6,
+        "fiber": 3.9
+      },
+      {
+        "desc": "21:45 yogurt + mango nightcap EATEN as planned (greek yogurt whole 300g, mango 100g, honey 30g - 10:1 yogurt:honey per Adam's standing rule). This was the last of the greek yogurt bought 9/14.",
+        "kcal": 435,
+        "protein": 27.0,
+        "carbs": 53.0,
+        "fat": 13.0,
+        "fiber": 2.0
       }
     ],
-    "notes": "DAY OPEN. Planned as a rest day; a makeup pull was added at 16:15 after 9/19's was missed, then meals reshuffled twice around it. Three plan changes so far: the 09:00 egg scramble was skipped (yogurt instead), the rest-day yogurt bowl was replaced by the 14:30 pre-lift toast because the plan had stacked 700g of greek yogurt into one day, and the 19:00 pork + rice bowl became shrimp + rice - the pork was never bought, planned into two meals off no receipt and no kitchen photo. RUNNING TOTAL 770 kcal / 45P at 11:15. With the toast (356/9P), shrimp bowl (1,248/85P) and nightcap (435/27P) still to come the day projects to ~2,809 / 166P - PROTEIN FINE, CALORIES ~390 SHORT of the 3,200 target because the rib came in ~215 kcal under the full doggy bag. Easiest fix is at dinner, not by adding a feeding. ESTIMATE QUALITY IS POOR ON THE RIB: 'a good bit' of an already-estimated leftover portion, off a King Henry whose edible weight was never measured. Two estimates stacked."
+    "notes": "PULL DAY, TRAINED - makeup for the session missed 9/19, run 16:15 after the standup. All five lifts tracked their prescriptions; DB curl completed 40 at 10,10. See weights.json.\n\nDay closed 2,609 / 184P - 591 UNDER the 3,200 target, protein well clear of the 150-155 goal. Six feedings planned, five eaten: the 20:30 gnocchi top-up was added to close the gap and Adam could not stomach it, so the gap stayed open. THE SHORTFALL IS ONE DECISION: rice cut 420g -> 220g dry at dinner (-590 kcal on the full batch). That was the right call on volume - 420g dry is ~1,150g cooked for two - but nothing replaced the calories, and the 90g of prime rib held back as the planned top-up was thrown out instead.\n\nTHIS IS THE BEST-COMPOSED DAY IN WEEKS AND THE NUMBER THAT MATTERS IS FAT: 78g against the ~75g target, after 191g (9/19), 163g (9/17) and 112g (9/18). It is the first day at target fat since the 9/15 Rythm panel showed ApoB 94.6 -> 101 and total cholesterol crossing out of range. It got there WITHOUT cutting protein (184P) or calories from protein - the mechanism was swapping pork shoulder and mozzarella-heavy dishes for shrimp, and it cost nothing in satiety or training. That is the proof that the ApoB problem is a composition fix, not an intake cut. CARBS 299g, up from 9/19's 203g, and the pre-lift toast supplied 79g of it.\n\nCONTEXT: trailing average since 8/31 is ~2,860 kcal against the 3,200 target. Today adds to that shortfall, but the scale is separately running ABOVE target rate (~0.8-1.1 lb/wk against 0.5), so the two signals still disagree - which is exactly what the 9/27 TDEE recompute is for. A genuinely-eaten 2,609 logged honestly is better input to that recompute than a forced 3,200.\n\nESTIMATE RISK: the 11:15 rib is the loosest entry - 'a good bit' of a leftover that was itself estimated off an unmeasured King Henry. The fried-rice share is a clean recipe calculation but the 60% split is eyeballed. Toast and nightcap are exact."
   }
 ]
