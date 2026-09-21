@@ -648,5 +648,15 @@
     "food": "shrimp-cooked",
     "asOf": "2026-09-20",
     "note": "~850g left after tonight's 250g bowl (was ~1,100g after the 9/15 scampi). Already cooked - reheat only, add at the end."
+  },
+  {
+    "food": "egg",
+    "asOf": "2026-09-20",
+    "note": "OUT - Adam confirmed 9/20 while cooking. The 9/14 photo showed 10-12 and none were logged as eaten since, so the count was wrong or they went to someone else in the shared kitchen. Forced the egg out of the 9/20 shrimp fried rice. HIGH PRIORITY on Monday's buy: eggs anchor the rest-day scramble (6/meal) and fried rice, and they are the obvious second protein anchor now that greek yogurt is capped at ~400g/day."
+  },
+  {
+    "food": "soy-sauce",
+    "asOf": "2026-09-20",
+    "note": "UNVERIFIED - never itemized in inventory, only covered by the 8/11 'other condiments' catch-all. Fried rice has been a recurring meal since August so it is probably on hand, but confirm. Allergy note: ordinary fermented soy sauce is FINE (whole soy); the profile's avoid list is soy protein isolate/concentrate only. Contains wheat."
   }
 ]
