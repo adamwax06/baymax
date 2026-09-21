@@ -11226,14 +11226,14 @@
           "name": "Unilateral DB Curl",
           "sets": [
             {
-              "lb": 45,
+              "lb": 40,
               "reps": [
                 10,
                 10
               ]
             }
           ],
-          "notes": "FLAGGED - DOES NOT FIT THE CURVE. Prescription was retry 42.5. Adam reports 45s for 10,10. Against history this is implausible in five days: 42.5s failed at 6,5 on 9/09, and 40s went 9,8 on 9/15. This claims +2.5 lb over the weight that failed AND +5 reps over it, and +5 lb / +1-2 reps over last session's best-ever. Every prior DB step (30->35, 35->40, 40->42.5) cost reps immediately. LIKELY EXPLANATIONS to check before trusting it: a different implement or machine, kg-vs-lb dumbbells (a 17.5 kg pair was logged 7/27, = 38.5 lb), shortened ROM, or body english. DO NOT PRESCRIBE OFF THIS NUMBER until confirmed - if 45 is not real, the next session will fail hard and cost a week."
+          "notes": "CORRECTED - first logged as 45s, Adam confirmed 40s. Removes the anomaly entirely and the curve is clean: 40s went 8,8 (9/01), 8,8 (9/06), 9,8 (9/15), 10,10 (9/20). COMPLETE at 40. 42.5 IS NOW GENUINELY EARNED. The 9/09 failure at 42.5 (6,5) came when 40s were only worth 8,8 - Adam bought the load ahead of the reps, the same error the goals file diagnoses on bench. Since then 40 has added four reps, so this is the right time to retake it. NEXT PULL: 42.5, target 8,8; if it comes back under 7,6 drop to 40 and finish the job there."
         },
         {
           "name": "Unilateral Lat Pullover",
@@ -11249,7 +11249,7 @@
           "notes": "First outing at 40, earned by 37 x 10,10 on 9/15. 10,8 is AHEAD of 37's pace (37 opened 8,8 on 9/01, reached 10,10 by 9/15). REPEAT 40, target 10,10."
         }
       ],
-      "notes": "Makeup for the pull session missed 9/19. Moved 16:15 after the standup; fueled by the 14:30 toast, 1h45 out. FOUR OF FIVE LIFTS BEHAVED EXACTLY AS PRESCRIBED - pulldown consolidating at 190, row landing 2 of 3 sets at a new load, cable curl taking the normal first-outing drop at 67, pullover opening ahead of pace at 40. The DB curl is the outlier and is flagged above; treat it as unverified. NEXT PULL: hold 190, repeat 180, repeat 67, repeat 40, and confirm what the 45s actually were."
+      "notes": "Makeup for the pull session missed 9/19. Moved to 16:15 after the standup; fueled by the 14:30 toast, 1h45 out. ALL FIVE LIFTS TRACKED THEIR PRESCRIPTIONS - pulldown consolidating at 190, row landing 2 of 3 sets at a new load, cable curl taking the normal first-outing drop at 67, pullover opening ahead of pace at 40, and the DB curl COMPLETING 40 at 10,10. A clean session, and notable given it came the day after a missed lift and a 191g-fat restaurant day. (The DB curl was first reported as 45s and flagged as implausible; Adam corrected it to 40s within the hour. The flag was right to raise - 45 would have broken the curve - and the correction resolves it.) NEXT PULL: hold 190, repeat 180, repeat 67, repeat 40 on the pullover, and TAKE 42.5 on the DB curl."
     }
   ]
 }
