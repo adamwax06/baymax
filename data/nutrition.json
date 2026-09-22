@@ -2624,5 +2624,71 @@
       }
     ],
     "notes": "PULL DAY, TRAINED - makeup for the session missed 9/19, run 16:15 after the standup. All five lifts tracked their prescriptions; DB curl completed 40 at 10,10. See weights.json.\n\nDay closed 2,609 / 184P - 591 UNDER the 3,200 target, protein well clear of the 150-155 goal. Six feedings planned, five eaten: the 20:30 gnocchi top-up was added to close the gap and Adam could not stomach it, so the gap stayed open. THE SHORTFALL IS ONE DECISION: rice cut 420g -> 220g dry at dinner (-590 kcal on the full batch). That was the right call on volume - 420g dry is ~1,150g cooked for two - but nothing replaced the calories, and the 90g of prime rib held back as the planned top-up was thrown out instead.\n\nTHIS IS THE BEST-COMPOSED DAY IN WEEKS AND THE NUMBER THAT MATTERS IS FAT: 78g against the ~75g target, after 191g (9/19), 163g (9/17) and 112g (9/18). It is the first day at target fat since the 9/15 Rythm panel showed ApoB 94.6 -> 101 and total cholesterol crossing out of range. It got there WITHOUT cutting protein (184P) or calories from protein - the mechanism was swapping pork shoulder and mozzarella-heavy dishes for shrimp, and it cost nothing in satiety or training. That is the proof that the ApoB problem is a composition fix, not an intake cut. CARBS 299g, up from 9/19's 203g, and the pre-lift toast supplied 79g of it.\n\nCONTEXT: trailing average since 8/31 is ~2,860 kcal against the 3,200 target. Today adds to that shortfall, but the scale is separately running ABOVE target rate (~0.8-1.1 lb/wk against 0.5), so the two signals still disagree - which is exactly what the 9/27 TDEE recompute is for. A genuinely-eaten 2,609 logged honestly is better input to that recompute than a forced 3,200.\n\nESTIMATE RISK: the 11:15 rib is the loosest entry - 'a good bit' of a leftover that was itself estimated off an unmeasured King Henry. The fried-rice share is a clean recipe calculation but the 60% split is eyeballed. Toast and nightcap are exact."
+  },
+  {
+    "date": "2026-09-21",
+    "kcal": 2279,
+    "protein": 173.4,
+    "carbs": 274.4,
+    "fat": 58.0,
+    "fiber": 11.5,
+    "meals": [],
+    "method": "reported-as-eaten. DAY CLOSED. Home meals at calendar amounts (computed from foods.json); the Chipotle bowl is an ESTIMATE.",
+    "deviations": [
+      {
+        "desc": "11:45 greek yogurt 145g + honey 14g, EATEN as reported (the last of the yogurt; 10:1 ratio). Computed from foods.json.",
+        "kcal": 179.6,
+        "protein": 12.8,
+        "carbs": 18.4,
+        "fat": 6.4,
+        "fiber": 0.0
+      },
+      {
+        "desc": "12:10 pre-lift toast at planned amounts (bread 90g, honey 25g, 1 mandarin) - replaced the dropped shrimp fried rice. Computed from foods.json.",
+        "kcal": 355.7,
+        "protein": 9.3,
+        "carbs": 75.6,
+        "fat": 2.7,
+        "fiber": 3.5
+      },
+      {
+        "desc": "15:45 post-lift chicken rice bowl at planned amounts (cooked chicken breast 200g, jasmine rice 130g dry, spinach 60g, olive oil 8g, sriracha ~20g). Computed from foods.json.",
+        "kcal": 913.7,
+        "protein": 73.3,
+        "carbs": 110.4,
+        "fat": 16.9,
+        "fiber": 2.0
+      },
+      {
+        "desc": "Chipotle burrito bowl REPLACING both the Chabad Yom Kippur break-fast (budgeted ~1,000 / 45P) and the optional nightcap. Same picks as the previous burritos but pollo asado as the meat: 2x pollo asado, white rice, queso blanco, fresh tomato salsa, roasted chili-corn salsa, romaine. No tortilla (bowl). No beans / fajita veggies / guac (legume / bell pepper / avocado). ESTIMATED from the 8/22 double-chicken burrito entry (1,120 / 85P) minus the flour tortilla, pollo asado treated as ~equal to regular chicken. 'Same picks' incl. double meat is ASSUMED.",
+        "kcal": 830,
+        "protein": 78,
+        "carbs": 70,
+        "fat": 32,
+        "fiber": 6
+      }
+    ],
+    "notes": "LEGS day (squat 255 x 3 slotted 13:35). Closed ~2,280 / 173P - ~920 under the 3,200 target, protein well clear. Chipotle replaced the Chabad break-fast and the nightcap, so the budgeted ~1,250 kcal from those two became ~830. Yogurt ran out today."
+  },
+  {
+    "date": "2026-09-22",
+    "kcal": 920,
+    "protein": 52,
+    "carbs": 78,
+    "fat": 45,
+    "fiber": 4,
+    "meals": [],
+    "method": "reported-as-eaten. DAY OPEN.",
+    "deviations": [
+      {
+        "desc": "Proposition Chicken Flipped Chicken Sandwich (DoorDash, ordered ~13:25, ate 1 of 3): slow-roasted rotisserie chicken, hearth-baked roll, mayo, spicy slaw, sage potato chips side. No published macros - ESTIMATED at ~150g chicken, ~100g roll, ~15g mayo, ~60g slaw, ~40g chips. Slaw ingredients unverified for bell pepper; Adam ordered without changes. Order total $65.84 for all three.",
+        "kcal": 920,
+        "protein": 52,
+        "carbs": 78,
+        "fat": 45,
+        "fiber": 4
+      }
+    ],
+    "notes": "PUSH day (bench 190 x 3 at 16:00). Which planned meal the sandwich replaces is not yet reported - likely the 12:30 gnocchi skillet."
   }
 ]
