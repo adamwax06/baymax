@@ -658,5 +658,285 @@
     "food": "soy-sauce",
     "asOf": "2026-09-20",
     "note": "UNVERIFIED - never itemized in inventory, only covered by the 8/11 'other condiments' catch-all. Fried rice has been a recurring meal since August so it is probably on hand, but confirm. Allergy note: ordinary fermented soy sauce is FINE (whole soy); the profile's avoid list is soy protein isolate/concentrate only. Contains wheat."
+  },
+  {
+    "asOf": "2026-09-21",
+    "note": "OUT — ZERO. No tubs anywhere in the 9/21 fridge photos. Corroborated two ways: the 9/20 nightcap calendar event states \"this is the last yogurt in the house\", and a consumption ledger of all [baymax] events 9/14-9/20 closes at -28g against the 8x16oz bought 9/14 (3,632g bought vs 3,660g eaten across 15 feedings). TOP OF THE BUY LIST — anchors 11 of the week 9/21-9/27 feedings.",
+    "food": "greek-yogurt-whole"
+  },
+  {
+    "asOf": "2026-09-21",
+    "note": "OUT — ZERO, re-confirmed 9/21 (no carton in any photo). Note the ledger FAILED here: only 6 of the 10-12 seen on 9/14 were ever logged eaten, so ~5 went unrecorded (shared kitchen). This is the standing proof that inventory is a cache, not a ledger.",
+    "food": "egg"
+  },
+  {
+    "asOf": "2026-09-21",
+    "note": "ON HAND, well over half — large amber jug, pantry top shelf. OVERRIDES a 9/21 ledger prediction that it was spent (515g used since 9/14); that estimate wrongly assumed a squeeze bottle. Week needs 472g. Do not buy.",
+    "food": "honey"
+  },
+  {
+    "asOf": "2026-09-21",
+    "note": "OUT — Adam confirmed 9/21. Needed for Friday 9/25 garlic butter shrimp scampi (30g) and the beef+potato dinner (10g). BUY.",
+    "food": "butter"
+  },
+  {
+    "asOf": "2026-09-21",
+    "note": "ON HAND — Adam confirmed 9/21. Week needs 105g. Do not buy. (Smoothie v4 rule: grind the chia first.)",
+    "food": "chia"
+  },
+  {
+    "asOf": "2026-09-21",
+    "note": "ON HAND, plentiful — Adam confirmed 9/21 (\"a lot of rice\"), consistent with the large clear pantry bag. Week needs 510g. Do not buy.",
+    "food": "white-rice-dry"
+  },
+  {
+    "asOf": "2026-09-21",
+    "note": "ON HAND — Adam confirmed 9/21, clearing the 9/20 UNVERIFIED flag. Safe per foods.json: fermented whole soy + wheat, not the soy protein isolate on the avoid list. Still avoid \"seasoned\" variants, which can carry anchovy.",
+    "food": "soy-sauce"
+  },
+  {
+    "asOf": "2026-09-21",
+    "note": "~500g left, NOT the ~850g the 9/20 note claimed. That note assumed a 250g portion, but the 9/20 fried rice recipe called 600g for the two-person batch. Ledger: 1,362g bought 9/14 - 260g (9/15 scampi) - 600g (9/20 fried rice) = ~502g.",
+    "food": "shrimp-cooked"
+  },
+  {
+    "asOf": "2026-09-21",
+    "note": "ON HAND — the 1lb (454g) TJ Wild Argentinian Red Shrimp bag is still in the freezer top drawer (9/21 photo). Needed to cover the week: 500g cooked + 454g raw vs 800g planned. MOVE IT TO THE FRIDGE TO THAW.",
+    "food": "shrimp-raw"
+  },
+  {
+    "asOf": "2026-09-21",
+    "note": "ON HAND — still in the freezer 9/21, unassigned since 9/14. Assigned to the Sun 9/27 beef + potato dinner. Not a substitute for the bolognese, which needs GROUND beef.",
+    "name": "Santa Maria Tri-Tip"
+  },
+  {
+    "asOf": "2026-09-21",
+    "note": "ON HAND, bag looks full (9/21 top fridge shelf). Week needs 180g. Do not buy.",
+    "food": "mozzarella-shredded"
+  },
+  {
+    "asOf": "2026-09-21",
+    "note": "ON HAND — red mesh citrus bag, top fridge shelf 9/21. Week needs ~11. Do not buy.",
+    "food": "mandarin"
+  },
+  {
+    "asOf": "2026-09-21",
+    "note": "ON HAND — bag visible on the middle pantry shelf 9/21. Do not buy.",
+    "food": "flour-tortilla"
+  },
+  {
+    "asOf": "2026-09-21",
+    "note": "ONE loaf on hand (bagged boule, bottom pantry shelf 9/21) and confirmed good on 9/20. Week needs 800g of toast, which one boule will not cover. Buy 1 more.",
+    "food": "bread-sourdough"
+  },
+  {
+    "asOf": "2026-09-21",
+    "note": "~146g by ledger (946mL carton 9/14, 800g used across four smoothies). One carton visible in the door 9/21 but the level is unreadable. Week needs 800g. BUY 2.",
+    "food": "oat-milk"
+  },
+  {
+    "asOf": "2026-09-21",
+    "note": "Not visible in any 9/21 photo. 775g was consumed 9/16-9/19 despite the 9/14 OUT flag, so the flag was wrong then and the stock is now unknown. Week needs 400g. BUY.",
+    "food": "potato"
+  },
+  {
+    "asOf": "2026-09-21",
+    "note": "Not visible 9/21; 270g used 9/18-9/20 with no purchase ever recorded. Week needs 160g. BUY.",
+    "food": "carrot"
+  },
+  {
+    "asOf": "2026-09-21",
+    "note": "Not visible 9/21. Week needs 370g for two bolognese servings. BUY.",
+    "food": "crushed-tomatoes"
+  },
+  {
+    "asOf": "2026-09-21",
+    "note": "Not visible in the 9/21 freezer photos; 525g consumed 9/15-9/19 with no purchase recorded. Week needs 428g. BUY 1 lb.",
+    "food": "ground-beef-85"
+  },
+  {
+    "asOf": "2026-09-21",
+    "note": "None on hand. Ground chicken is down to ~104g (454g bag, 350g used 9/17), not enough for the Tue 9/22 gnocchi skillet. BUY 1 pack.",
+    "food": "chicken-thigh"
+  },
+  {
+    "asOf": "2026-09-21",
+    "note": "One TJ Organic Free Range pack in the freezer 9/21. Week needs 600g incl. the focaccia melt (rotisserie chicken swapped out — Adam dislikes the smell). Buy 1 more pack.",
+    "food": "chicken-breast-cooked"
+  },
+  {
+    "asOf": "2026-09-21",
+    "note": "~254g by ledger; something green in the crisper 9/21 but unconfirmed. Week needs 440g. Buy 1 bag.",
+    "food": "spinach"
+  },
+  {
+    "asOf": "2026-09-21",
+    "note": "~230g by ledger (680g on hand 9/14, 450g used across scampi/buffalo-parm/bolognese). A yellow spaghettini box is visible 9/21. Week needs 372g. Buy 1 box.",
+    "food": "pasta-dry"
+  },
+  {
+    "asOf": "2026-09-21",
+    "note": "~240g by ledger (900g on hand, 380g used 9/17 + 280g used 9/20). At least one pack visible 9/21. Week needs 250g — effectively dead even.",
+    "food": "gnocchi"
+  },
+  {
+    "asOf": "2026-09-21",
+    "note": "~682g — 3+ bags in the freezer produce drawer 9/21. Week needs 480g. Do not buy.",
+    "food": "mango"
+  },
+  {
+    "asOf": "2026-09-21",
+    "note": "~245g, bag present in the freezer drawer 9/21. Do not buy.",
+    "food": "strawberries"
+  },
+  {
+    "asOf": "2026-09-21",
+    "note": "~410g by ledger (510g bought 9/14, 100g used 9/18). Week needs 280g. Do not buy.",
+    "food": "blueberries"
+  },
+  {
+    "asOf": "2026-09-21",
+    "note": "~40g by ledger — effectively out (340g bought, 300g used across three nightcaps). Optional rebuy.",
+    "food": "raspberries"
+  },
+  {
+    "asOf": "2026-09-21",
+    "note": "~301g by ledger (681g bought 9/14, 380g used). Do not buy.",
+    "food": "mushroom"
+  },
+  {
+    "asOf": "2026-09-21",
+    "note": "2 visible on the middle fridge shelf 9/21. Do not buy.",
+    "food": "cucumber"
+  },
+  {
+    "asOf": "2026-09-21",
+    "note": "STILL UNVERIFIED as of 9/21 — not resolved in the photos and not confirmed by Adam. Fried rice fallback stands: salt + extra sriracha.",
+    "food": "sesame-oil"
+  },
+  {
+    "asOf": "2026-09-21",
+    "note": "HAZARD, seen 9/21 on the middle pantry shelf DIRECTLY BESIDE the spaghettini Adam is meant to use. Chickpea = legume allergy. Flagged in the 9/18 recipe; recording it as a standing wrong-box risk.",
+    "name": "DO NOT USE — Banza chickpea pasta (roommate’s)"
+  },
+  {
+    "asOf": "2026-09-21",
+    "note": "HAZARD, pantry TOP shelf 9/21, open/clipped, on the shared shelf above Adam’s oils. Tree nut allergy — cross-contact risk on shared surfaces.",
+    "name": "DO NOT USE — open bag of nuts (roommate’s)"
+  },
+  {
+    "asOf": "2026-09-21",
+    "note": "Still two cartons in the fridge door 9/21. Tree nut allergy. Standing flag since 8/11.",
+    "name": "DO NOT USE — Silk almond milk (roommate’s)"
+  },
+  {
+    "asOf": "2026-09-21",
+    "note": "Still in the door top bin 9/21. Not Adam’s; use 0g in plans.",
+    "name": "DO NOT USE — Clover Sonoma whole milk (roommate’s)"
+  },
+  {
+    "food": "greek-yogurt-whole",
+    "asOf": "2026-09-23",
+    "note": "Receipt 9/23: 7× Greek Plain 16oz ($2.99) = ~3,178g. Week needs ~2,800g at the 400g/day cap. Fridge."
+  },
+  {
+    "food": "egg",
+    "asOf": "2026-09-23",
+    "note": "Receipt 9/23: 2 dozen Large Cage Free Brown ($4.49 ea) = 24 eggs — not the 4 dozen on the doubled list. Shared kitchen, eggs have vanished before (see 9/21)."
+  },
+  {
+    "food": "butter",
+    "asOf": "2026-09-23",
+    "note": "Receipt 9/23: ONE Euro Style Cultured Butter ($4.99, ~250g) — not the 2 on the list, not the salted quarters. Week needs ~40g (tri-tip 10g, scampi 30g). Fridge."
+  },
+  {
+    "food": "oat-milk",
+    "asOf": "2026-09-23",
+    "note": "Receipt 9/23: 2 @ $2.99 — size not on the receipt; the $2.99 price suggests the 32oz/946mL carton, so ~1,890g total vs 800g needed. Shelf-stable until opened."
+  },
+  {
+    "food": "honey",
+    "asOf": "2026-09-23",
+    "note": "Receipt 9/23: Mostly Mesquite Honey ($7.49) bought on top of the big jug (over half full 9/21). Honey is not a constraint for weeks."
+  },
+  {
+    "food": "ground-beef-85",
+    "asOf": "2026-09-23",
+    "note": "Receipt 9/23: 2× Organic Grass Fed Ground Beef 1lb ($8.99) = ~908g; macros proxied by ground-beef-85. Thu bolognese 175g + Sat 150g (+ Nanda). One lb in the fridge for Thu, one in the FREEZER — move it to the fridge Thursday night for Saturday."
+  },
+  {
+    "food": "pasta-dry",
+    "asOf": "2026-09-23",
+    "note": "Receipt 9/23: Linguine #8 + Spaghettini #2 (1 lb each, plain wheat) on top of ~230g = ~1,140g. Banza chickpea box still on the shelf — never use it."
+  },
+  {
+    "food": "spinach",
+    "asOf": "2026-09-23",
+    "note": "Receipt 9/23: 2× Organic Baby Spinach 6oz ($1.99) = 340g, plus whatever survived from 9/21 (~254g by ledger, unconfirmed). Fridge."
+  },
+  {
+    "food": "potato",
+    "asOf": "2026-09-23",
+    "note": "Receipt 9/23: 2× Dutch Yellow 1.5lb ($3.79) = ~1,360g. Tri-tip tonight takes 400g. Pantry, not fridge."
+  },
+  {
+    "food": "chicken-breast-cooked",
+    "asOf": "2026-09-23",
+    "note": "Receipt 9/23: one Organic Breast pack, weighed ($16.62, roughly 2 lb raw). Fridge — covers today's 12:30 bowl and Thursday's shawarma bowl. Raw poultry: cook by Friday or freeze."
+  },
+  {
+    "name": "Organic chicken tenders (raw)",
+    "asOf": "2026-09-23",
+    "note": "Receipt 9/23: $8.91 (~1 lb), unplanned. FREEZER. Assigned to the Sat 9/26 sourdough chicken melt — move to the fridge Thursday night."
+  },
+  {
+    "food": "chicken-thigh",
+    "asOf": "2026-09-23",
+    "note": "Receipt 9/23: 2 packs ($9.29, $9.59, ~2 lb total). The Tue gnocchi skillet they were for never happened. FREEZER — for Sunday's chicken + rice dinner (move to fridge Friday night) and next week."
+  },
+  {
+    "name": "CHECK LABEL — Dark Chocolate Bark (raspberry quinoa)",
+    "asOf": "2026-09-23",
+    "note": "Receipt 9/23: $5.49, unplanned, bought instead of granola. Quinoa is not a legume (safe), but chocolate barks often carry tree-nut/peanut may-contain warnings. Don't eat until the label is checked against profile.json."
+  },
+  {
+    "food": "granola-very-berry",
+    "asOf": "2026-09-23",
+    "note": "NOT bought 9/23. Wed/Fri cocoa granola bowls run without granola (or use the bark only if its label passes)."
+  },
+  {
+    "food": "bread-sourdough",
+    "asOf": "2026-09-23",
+    "note": "Receipt 9/23: 2× Sourdough Bread sliced 24oz ($3.69) = ~1,360g, plus whatever is left of the 9/21 boule. Keep one loaf out, FREEZE the other."
+  },
+  {
+    "food": "raspberries",
+    "asOf": "2026-09-23",
+    "note": "Receipt 9/23: 12oz ($6.49) = ~340g. Fridge; use within ~3 days."
+  },
+  {
+    "food": "blueberries",
+    "asOf": "2026-09-23",
+    "note": "Receipt 9/23: 18oz ($6.99) = ~510g fresh, on top of the older stock (~410g by 9/21 ledger — check it for mold). Fridge."
+  },
+  {
+    "food": "carrot",
+    "asOf": "2026-09-23",
+    "note": "Receipt 9/23: Shredded Carrots 10oz ($1.29) = ~283g — not the 24oz cut & peeled. Week needs 160g. Fridge."
+  },
+  {
+    "food": "mandarin",
+    "asOf": "2026-09-23",
+    "note": "Receipt 9/23: Josie's 2lb bag ($3.69) on top of the 9/21 red mesh bag."
+  },
+  {
+    "food": "crushed-tomatoes",
+    "asOf": "2026-09-23",
+    "note": "NOT bought 9/23 — store 226 doesn't carry them (known since 8/26; the list shouldn't have had them). Thu + Sat bolognese swapped to marinara. Confirm the Rao's / TJ Tomato Basil jar is still in the pantry."
+  },
+  {
+    "food": "focaccia",
+    "asOf": "2026-09-23",
+    "note": "NOT bought 9/23. Sat melt switched to sourdough 160g."
   }
 ]

@@ -48,7 +48,7 @@
     "potassium": 2514.6,
     "sodium": 4336.4,
     "zinc": 9.4,
-    "vitD": 3.0,
+    "vitD": 3,
     "vitC": 130.9,
     "ala": 2.7,
     "meals": [],
@@ -2480,7 +2480,7 @@
     "protein": 168,
     "carbs": 407,
     "fat": 112,
-    "fiber": 33.0,
+    "fiber": 33,
     "meals": [],
     "method": "reported-as-eaten (all six feedings reported by Adam 9/18-9/19, day closed 00:05 on 9/19). Yogurt bowl, toast, smoothie and nightcap at planned amounts; lunch and dinner re-estimated from photo + reported portions. DAY CLOSED. CORRECTED: first close at 2,841/141P omitted the nightcap, which was eaten at 23:34.",
     "deviations": [
@@ -2504,7 +2504,7 @@
         "desc": "Pre-lift toast 14:30 as planned (sourdough 90g, honey 25g, 1 mandarin). Kept despite the potatoes at lunch because the lunch plate came in small.",
         "kcal": 367,
         "protein": 10.5,
-        "carbs": 79.0,
+        "carbs": 79,
         "fat": 1.9,
         "fiber": 3.6
       },
@@ -2520,7 +2520,7 @@
         "desc": "Dinner 18:15 REPLACED the planned shrimp fried rice (924 kcal / 90P) - Nanda's pick, cooked for two. Buffalo chicken parm pasta: whole ~340g package of TJ's buffalo chicken meatballs, 200g dry spaghettini, 300g marinara, 45g mozzarella, 10g olive oil, carrot+cucumber side. ADAM'S SHARE ESTIMATED at ~200g meatballs, 90g dry pasta, half the sauce/cheese/veg. -69 kcal but -43P vs plan: chicken meatballs are 13P/100g against shrimp's ~24P, and that single swap is most of the day's protein shortfall. Meatball macros in foods.json are themselves an ESTIMATE, not a label.",
         "kcal": 993,
         "protein": 46.5,
-        "carbs": 99.0,
+        "carbs": 99,
         "fat": 44.4,
         "fiber": 8.2
       },
@@ -2541,7 +2541,7 @@
     "protein": 147,
     "carbs": 203,
     "fat": 191,
-    "fiber": 13.0,
+    "fiber": 13,
     "meals": [],
     "method": "reported-as-eaten + photo estimate (IMG_4873 flan, IMG_4874 crab madame), reported by Adam 9/20. ALL SIX PLANNED FEEDINGS WERE REPLACED OR SKIPPED - none of the planned toast, smoothie or nightcap was eaten. Restaurant day, two meals out, no weighed amounts: every number here is an estimate and the dinner is the loosest one in the log. DAY CLOSED.",
     "deviations": [
@@ -2549,25 +2549,25 @@
         "desc": "Morning: small slice of flan with caramel (IMG_4873), eaten in place of the day's first planned feeding. PHOTO-ESTIMATED at ~80g - a single small bar, caramel glaze, pale crumble on top. Adam confirmed the crumble was not an allergy concern; not identified further.",
         "kcal": 140,
         "protein": 3.5,
-        "carbs": 20.0,
-        "fat": 5.0,
-        "fiber": 0.0
+        "carbs": 20,
+        "fat": 5,
+        "fiber": 0
       },
       {
         "desc": "Brunch at Peacock Pansy: crab madame + crispy potatoes (IMG_4874), REPLACING the planned pork + potato bowl (810 kcal / 44P). PHOTO-ESTIMATED as toasted bread ~80g, crab ~100g, mornay/bechamel ~120g, grated hard cheese ~30g, one fried egg, and a large side of crispy fried potatoes ~180g. Finished. +290 kcal and roughly flat on protein vs plan, but ~+45g fat. ALLERGY: crab is shellfish, which is SAFE; no finned fish, no nuts, no bell pepper on the plate.",
         "kcal": 1100,
-        "protein": 45.0,
-        "carbs": 88.0,
-        "fat": 63.0,
-        "fiber": 6.0
+        "protein": 45,
+        "carbs": 88,
+        "fat": 63,
+        "fiber": 6
       },
       {
         "desc": "Dinner at House of Prime Rib, King Henry cut, REPLACING the planned beef bolognese (967 kcal / 53P) AND absorbing the skipped smoothie and nightcap. Adam ate roughly 1/2-3/4 of the prime rib and mashed potatoes - logged at 0.6. ESTIMATED: prime rib ~330g cooked edible meat off a ~550g King Henry portion (940 kcal, 79P, 69F); mashed potatoes ~120g (210); the spinning-bowl salad with dressing (295, ~25g fat, almost all of it dressing); ~100g of the bread loaf with butter (365); a little of the Yorkshire pudding, logged as half (75). No creamed spinach. THE WHOLE DAY'S PROTEIN IS EFFECTIVELY THIS MEAL.",
         "kcal": 1885,
-        "protein": 98.0,
-        "carbs": 95.0,
-        "fat": 123.0,
-        "fiber": 7.0
+        "protein": 98,
+        "carbs": 95,
+        "fat": 123,
+        "fiber": 7
       }
     ],
     "notes": "Pull day PLANNED, NOT TRAINED - Adam missed the 16:00 pull session. No entry in weights.json for 9/19; the pull block (lat pulldown, row, cable curl, unilateral DB curl, lat pullover) goes untouched this week and the 'load off Tuesday's outcome' call rolls forward to the next pull day.\n\nDay closed 3,125 / 147P - 75 UNDER the 3,200 target and 3g under the bottom of the 150-155P goal. THE CALORIE NUMBER IS MISLEADINGLY GOOD. Two restaurant meals landed almost exactly on a target the plan was going to hit anyway, and everything else about the day's composition is off: FAT 191g against a ~75g target - 2.5x, the highest fat day in the log, well past 9/17's 163g - and CARBS 203g against the plan's ~400g, the lowest carb day of the week. Fat supplied 55% of calories. Three feedings instead of six, with 62% of the day's calories and 67% of its protein in one 1,885 kcal dinner.\n\nPROTEIN MISSED THE FLOOR AGAIN, AND FOR THE SECOND TIME IN A WEEK THE CAUSE IS MEAL REPLACEMENT, NOT APPETITE. 9/18 gave up ~63P to two swaps; 9/19 gave up the smoothie's 27P and the nightcap's 27P outright by skipping them. A 79P slab of prime rib nearly covered a whole day's target on its own and the day still came in under - that is how much of the protein plan lives in the yogurt feedings. The plan would have delivered 160P.\n\nESTIMATE RISK IS HIGH AND CONCENTRATED IN THE DINNER. The King Henry's edible weight, the 0.6 fraction, and the salad dressing are all unmeasured; the dinner could plausibly run 300 kcal either side of 1,885, and the fat figure moves most. The brunch is a pure photo estimate. Do not treat 3,125/147P as precise - treat the shape (very high fat, low carb, protein short) as the finding, because that shape holds under any reasonable version of these estimates.\n\nTwo missed protein days and a missed session in a week where bench is flat for 18 days. Nothing here explains the flat bench on its own - 9/18 was a good fueling day and the bench still did not move - but the trailing average is the standing concern, and 9/19 does not help it."
@@ -2576,7 +2576,7 @@
     "date": "2026-09-20",
     "kcal": 2609,
     "protein": 183.6,
-    "carbs": 299.0,
+    "carbs": 299,
     "fat": 78.2,
     "fiber": 13.5,
     "meals": [],
@@ -2586,23 +2586,23 @@
         "desc": "10:15 greek yogurt ~100g + honey + cocoa powder, REPLACING the planned 09:00 rest-day egg scramble (717 kcal / 51P). Adam reported '~100g' yogurt; honey and cocoa were not quantified and are ESTIMATED at 20g and 5g. Leaves the morning ~515 kcal and ~42P short of plan, which the leftover prime rib at 11:00 is set up to cover.",
         "kcal": 203,
         "protein": 9.5,
-        "carbs": 23.0,
+        "carbs": 23,
         "fat": 7.7,
-        "fiber": 2.0
+        "fiber": 2
       },
       {
         "desc": "11:15 leftover House of Prime Rib, PARTIAL. Planned as the full doggy bag (~780 kcal / 55P, est. 220g rib + 80g mash); Adam ate 'a good bit' of the rib, finished the Yorkshire pudding (the half carried home from 9/19), the mash that was on it, and a little corn. ESTIMATED at ~130g rib, ~40g mash, the remaining half Yorkshire pudding, ~50g corn. Called it 'kind of mid' - reheated leftovers, not worth re-buying enthusiasm for. The remaining ~90g rib + 40g mash were THROWN OUT later that day - Adam called the reheated rib 'kind of mid' and did not want it again. Nothing further comes from this meal. Corn is new (not on the 9/19 plate) and is allergy-clean.",
         "kcal": 567,
         "protein": 35.5,
-        "carbs": 26.0,
-        "fat": 35.0,
-        "fiber": 2.0
+        "carbs": 26,
+        "fat": 35,
+        "fiber": 2
       },
       {
         "desc": "14:30 pre-lift toast EATEN AT FULL PORTION as planned (sourdough 90g, honey 25g, 1 mandarin). Bread was fine - the 9/14 'unverified' flag on the pantry bag is cleared. This was the day's main carb feed: before it Adam was at ~49g carbs on the back of 9/19's 203g, the week's lowest. Ate it on the explicit reasoning that the rib gave protein and fat but nothing usable for a 16:15 session.",
         "kcal": 356,
-        "protein": 9.0,
-        "carbs": 79.0,
+        "protein": 9,
+        "carbs": 79,
         "fat": 1.9,
         "fiber": 3.6
       },
@@ -2610,17 +2610,17 @@
         "desc": "19:00 shrimp fried rice, cooked for two, Adam took ~60% as planned. REPLACED the planned pork + rice bowl (1,532 / 71P) - the pork was never bought. Full batch: cooked shrimp 600g, jasmine rice 220g dry, carrot 150g, crimini 200g, soy sauce 50g, sesame oil 10g, olive oil 15g. TWO IN-FLIGHT CHANGES: no egg (carton confirmed empty mid-cook, mushrooms raised to 200g to compensate) and rice cut 420g -> 220g dry at Adam's call, which is the single reason the day finished under target. ALLERGY: peas deliberately omitted (legume); no bell pepper; fermented soy sauce is fine under the profile.",
         "kcal": 1048,
         "protein": 102.6,
-        "carbs": 118.0,
+        "carbs": 118,
         "fat": 20.6,
         "fiber": 3.9
       },
       {
         "desc": "21:45 yogurt + mango nightcap EATEN as planned (greek yogurt whole 300g, mango 100g, honey 30g - 10:1 yogurt:honey per Adam's standing rule). This was the last of the greek yogurt bought 9/14.",
         "kcal": 435,
-        "protein": 27.0,
-        "carbs": 53.0,
-        "fat": 13.0,
-        "fiber": 2.0
+        "protein": 27,
+        "carbs": 53,
+        "fat": 13,
+        "fiber": 2
       }
     ],
     "notes": "PULL DAY, TRAINED - makeup for the session missed 9/19, run 16:15 after the standup. All five lifts tracked their prescriptions; DB curl completed 40 at 10,10. See weights.json.\n\nDay closed 2,609 / 184P - 591 UNDER the 3,200 target, protein well clear of the 150-155 goal. Six feedings planned, five eaten: the 20:30 gnocchi top-up was added to close the gap and Adam could not stomach it, so the gap stayed open. THE SHORTFALL IS ONE DECISION: rice cut 420g -> 220g dry at dinner (-590 kcal on the full batch). That was the right call on volume - 420g dry is ~1,150g cooked for two - but nothing replaced the calories, and the 90g of prime rib held back as the planned top-up was thrown out instead.\n\nTHIS IS THE BEST-COMPOSED DAY IN WEEKS AND THE NUMBER THAT MATTERS IS FAT: 78g against the ~75g target, after 191g (9/19), 163g (9/17) and 112g (9/18). It is the first day at target fat since the 9/15 Rythm panel showed ApoB 94.6 -> 101 and total cholesterol crossing out of range. It got there WITHOUT cutting protein (184P) or calories from protein - the mechanism was swapping pork shoulder and mozzarella-heavy dishes for shrimp, and it cost nothing in satiety or training. That is the proof that the ApoB problem is a composition fix, not an intake cut. CARBS 299g, up from 9/19's 203g, and the pre-lift toast supplied 79g of it.\n\nCONTEXT: trailing average since 8/31 is ~2,860 kcal against the 3,200 target. Today adds to that shortfall, but the scale is separately running ABOVE target rate (~0.8-1.1 lb/wk against 0.5), so the two signals still disagree - which is exactly what the 9/27 TDEE recompute is for. A genuinely-eaten 2,609 logged honestly is better input to that recompute than a forced 3,200.\n\nESTIMATE RISK: the 11:15 rib is the loosest entry - 'a good bit' of a leftover that was itself estimated off an unmeasured King Henry. The fried-rice share is a clean recipe calculation but the 60% split is eyeballed. Toast and nightcap are exact."
@@ -2630,7 +2630,7 @@
     "kcal": 2279,
     "protein": 173.4,
     "carbs": 274.4,
-    "fat": 58.0,
+    "fat": 58,
     "fiber": 11.5,
     "meals": [],
     "method": "reported-as-eaten. DAY CLOSED. Home meals at calendar amounts (computed from foods.json); the Chipotle bowl is an ESTIMATE.",
@@ -2641,7 +2641,7 @@
         "protein": 12.8,
         "carbs": 18.4,
         "fat": 6.4,
-        "fiber": 0.0
+        "fiber": 0
       },
       {
         "desc": "12:10 pre-lift toast at planned amounts (bread 90g, honey 25g, 1 mandarin) - replaced the dropped shrimp fried rice. Computed from foods.json.",
@@ -2657,7 +2657,7 @@
         "protein": 73.3,
         "carbs": 110.4,
         "fat": 16.9,
-        "fiber": 2.0
+        "fiber": 2
       },
       {
         "desc": "Chipotle burrito bowl REPLACING both the Chabad Yom Kippur break-fast (budgeted ~1,000 / 45P) and the optional nightcap. Same picks as the previous burritos but pollo asado as the meat: 2x pollo asado, white rice, queso blanco, fresh tomato salsa, roasted chili-corn salsa, romaine. No tortilla (bowl). No beans / fajita veggies / guac (legume / bell pepper / avocado). ESTIMATED from the 8/22 double-chicken burrito entry (1,120 / 85P) minus the flour tortilla, pollo asado treated as ~equal to regular chicken. 'Same picks' incl. double meat is ASSUMED.",
@@ -2690,5 +2690,42 @@
       }
     ],
     "notes": "PUSH day (bench 190 x 3 at 16:00). Which planned meal the sandwich replaces is not yet reported - likely the 12:30 gnocchi skillet."
+  },
+  {
+    "date": "2026-09-23",
+    "kcal": 2445.7,
+    "protein": 139.9,
+    "carbs": 321.6,
+    "fat": 64.2,
+    "fiber": 6.2,
+    "meals": [],
+    "method": "reported-as-eaten. DAY OPEN.",
+    "deviations": [
+      {
+        "desc": "~11:00 breakfast yogurt bowl (replaces the planned cocoa granola bowl — no granola in the house): greek yogurt 300g, honey 30g, cocoa ~3g (\"a bit\"), blueberries 50g. Computed from foods.json.",
+        "kcal": 410.3,
+        "protein": 27.4,
+        "carbs": 48,
+        "fat": 13.7,
+        "fiber": 1.2
+      },
+      {
+        "desc": "~13:15 black truffle fried rice, takeout from a Ghirardelli Square restaurant (name not given) — REPLACED the planned 12:30 chicken rice bowl (848 / 74P). Photo: rice with scrambled egg, scallion, mushroom, and modest chunks of roast meat (chicken/pork). No published macros — ESTIMATED as a ~450g takeout box eaten whole: ~900 kcal / 35P / 115C / 33F. Protein is the uncertain part.",
+        "kcal": 900,
+        "protein": 35,
+        "carbs": 115,
+        "fat": 33,
+        "fiber": 3
+      },
+      {
+        "desc": "~18:00 post-lift chicken rice bowl REPLACING the smoothie (no pre-lift toast today): cooked chicken breast 200g, jasmine rice 190g dry (planned 130g — accidental overpour), spinach 60g, olive oil 8g, sriracha ~20g. Computed from foods.json.",
+        "kcal": 1135.4,
+        "protein": 77.5,
+        "carbs": 158.6,
+        "fat": 17.5,
+        "fiber": 2
+      }
+    ],
+    "notes": "PULL day (16:00). 300g yogurt at breakfast, so the post-lift smoothie drops to 100g yogurt to hold the ~400g/day cap. TJ haul this morning (see inventory.json 9/23). Lunch was takeout truffle fried rice instead of the chicken bowl, so protein runs ~40g behind plan; tri-tip bumped to 250g cooked to claw some back. Pre-lift toast skipped; smoothie replaced by the chicken bowl (190g rice), and the planned nightcap cut to offset the extra rice."
   }
 ]

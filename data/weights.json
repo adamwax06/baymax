@@ -11250,6 +11250,133 @@
         }
       ],
       "notes": "Makeup for the pull session missed 9/19. Moved to 16:15 after the standup; fueled by the 14:30 toast, 1h45 out. ALL FIVE LIFTS TRACKED THEIR PRESCRIPTIONS - pulldown consolidating at 190, row landing 2 of 3 sets at a new load, cable curl taking the normal first-outing drop at 67, pullover opening ahead of pace at 40, and the DB curl COMPLETING 40 at 10,10. A clean session, and notable given it came the day after a missed lift and a 191g-fat restaurant day. (The DB curl was first reported as 45s and flagged as implausible; Adam corrected it to 40s within the hour. The flag was right to raise - 45 would have broken the curve - and the correction resolves it.) NEXT PULL: hold 190, repeat 180, repeat 67, repeat 40 on the pullover, and TAKE 42.5 on the DB curl."
+    },
+    {
+      "date": "2026-09-21",
+      "type": "legs",
+      "exercises": [
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "lb": 255,
+              "reps": [
+                4
+              ]
+            },
+            {
+              "lb": 235,
+              "reps": [
+                7,
+                6
+              ]
+            }
+          ],
+          "notes": "First heavy single-set at 255 (4 reps, prescribed triple), then 235 backoff 7,6 = 13 — best set-2 since 9/02."
+        },
+        {
+          "name": "Leg Press Calf Raises",
+          "sets": [
+            {
+              "lb": 540,
+              "reps": [
+                7,
+                6,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hamstring Curl",
+          "sets": [
+            {
+              "lb": 140,
+              "reps": [
+                8,
+                8
+              ]
+            }
+          ],
+          "notes": "Third set blank in the source note — logged as two sets."
+        }
+      ],
+      "notes": "No leg extension listed for this session."
+    },
+    {
+      "date": "2026-09-23",
+      "type": "push",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "lb": 190,
+              "reps": [
+                4
+              ]
+            },
+            {
+              "lb": 175,
+              "reps": [
+                8,
+                5
+              ]
+            }
+          ],
+          "notes": "First outing at 190: 4 reps (prescribed triple — beat it). Backoff 175 x 8 is the first 8 at 175 in seven sessions. e1RM 221.7 off 175x8 — first move off the 215.8 plateau since 8/31."
+        },
+        {
+          "name": "Unilateral Tricep Pushdown",
+          "sets": [
+            {
+              "lb": 33,
+              "reps": [
+                8
+              ]
+            }
+          ],
+          "notes": "Second set blank in the source note — logged as one set."
+        },
+        {
+          "name": "DB Lateral Raise",
+          "sets": [
+            {
+              "lb": 30,
+              "reps": [
+                10,
+                10,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Incline Fly",
+          "sets": [
+            {
+              "lb": 80,
+              "reps": [
+                8,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "name": "DB Skull Crusher",
+          "sets": [
+            {
+              "lb": 30,
+              "reps": [
+                6
+              ]
+            }
+          ],
+          "notes": "Second set blank in the source note — logged as one set."
+        }
+      ],
+      "notes": "Push done on Wednesday (calendar had pull); Tuesday push was skipped. No pre-lift toast — lunch was ~13:15 takeout fried rice."
     }
   ]
 }
