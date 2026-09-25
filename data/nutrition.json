@@ -2699,7 +2699,7 @@
     "fat": 64.2,
     "fiber": 6.2,
     "meals": [],
-    "method": "reported-as-eaten. DAY OPEN.",
+    "method": "reported-as-eaten. DAY CLOSED.",
     "deviations": [
       {
         "desc": "~11:00 breakfast yogurt bowl (replaces the planned cocoa granola bowl — no granola in the house): greek yogurt 300g, honey 30g, cocoa ~3g (\"a bit\"), blueberries 50g. Computed from foods.json.",
@@ -2726,6 +2726,51 @@
         "fiber": 2
       }
     ],
-    "notes": "PULL day (16:00). 300g yogurt at breakfast, so the post-lift smoothie drops to 100g yogurt to hold the ~400g/day cap. TJ haul this morning (see inventory.json 9/23). Lunch was takeout truffle fried rice instead of the chicken bowl, so protein runs ~40g behind plan; tri-tip bumped to 250g cooked to claw some back. Pre-lift toast skipped; smoothie replaced by the chicken bowl (190g rice), and the planned nightcap cut to offset the extra rice."
+    "notes": "PULL day (16:00). 300g yogurt at breakfast, so the post-lift smoothie drops to 100g yogurt to hold the ~400g/day cap. TJ haul this morning (see inventory.json 9/23). Lunch was takeout truffle fried rice instead of the chicken bowl, so protein runs ~40g behind plan; tri-tip bumped to 250g cooked to claw some back. Pre-lift toast skipped; smoothie replaced by the chicken bowl (190g rice), and the planned nightcap cut to offset the extra rice. DAY CLOSED ~2,446 / 140P — tri-tip was not thawed and Adam was too tired at 22:45 for the replacement egg dinner or nightcap. ~750 under target."
+  },
+  {
+    "date": "2026-09-24",
+    "kcal": 2980.2,
+    "protein": 186.0,
+    "carbs": 368.0,
+    "fat": 93.2,
+    "fiber": 22.3,
+    "meals": [],
+    "method": "reported-as-eaten. DAY CLOSED. Home meals from foods.json; Chipotle and tri-tip are ESTIMATES.",
+    "deviations": [
+      {
+        "desc": "~09:30 morning yogurt bowl as planned: greek yogurt 250g, blueberries 100g, honey 25g (10:1), chia 15g. Computed from foods.json (whole-milk greek yogurt).",
+        "kcal": 442.6,
+        "protein": 25.2,
+        "carbs": 53.4,
+        "fat": 15.9,
+        "fiber": 5.2
+      },
+      {
+        "desc": "~lunch Chipotle burrito REPLACING the planned 12:30 garlic butter shrimp scampi (~1,000 / 70P). Steak + pollo asado (double meat, one of each), flour tortilla, white rice, queso blanco, fresh tomato salsa, roasted chili-corn salsa, romaine — Adam's 'normal toppings', ASSUMED to match the 8/22 burrito. No beans / fajita veggies / guac (legume / bell pepper / avocado). ESTIMATED from the 8/22 double-chicken burrito (1,120 / 85P) with one chicken portion swapped for steak (-30 kcal / -11P per Chipotle's published 4oz values).",
+        "kcal": 1090,
+        "protein": 74,
+        "carbs": 119,
+        "fat": 39,
+        "fiber": 6
+      },
+      {
+        "desc": "~19:30 Santa Maria tri-tip dinner, split with a partner: 590g raw TJ tri-tip and 680g Dutch yellow potatoes (air-fried, skin on) between two. Adam's half: tri-tip 295g raw (~220g cooked), potatoes 340g, crimini 80g, butter 10g (mushrooms/butter at plan amounts, assumed). Potatoes/mushrooms/butter from foods.json; tri-tip ESTIMATED at ~170 kcal / 21P / 9F / 1C per 100g raw (marinated, no foods.json entry).",
+        "kcal": 854,
+        "protein": 71.6,
+        "carbs": 65.3,
+        "fat": 35.7,
+        "fiber": 7.9
+      },
+      {
+        "desc": "~21:00 honey toast (evening carb top-up toward 3,200): sourdough 140g, honey 70g. Computed from foods.json.",
+        "kcal": 593.6,
+        "protein": 15.2,
+        "carbs": 130.3,
+        "fat": 2.6,
+        "fiber": 3.2
+      }
+    ],
+    "notes": "PULL day (moved from rest; see weights.json 9/24). Chipotle replaced the shrimp scampi at lunch; the 15:00 toast was skipped. The cooked shrimp is still in the fridge, so eat it tomorrow or toss it. Dinner is the tri-tip split with a partner (590g raw roast / 680g potatoes between two; Adam's half ~220g cooked + 340g potatoes, ~850 / 70P est). Fruit nightcap replaced by a honey toast (140g sourdough + 70g honey). DAY CLOSED ~2,980 / 186P / 368C / 93F: about 220 under target, protein well clear, fat ~18g over the ~75g target (Chipotle + tri-tip)."
   }
 ]

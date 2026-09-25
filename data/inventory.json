@@ -938,5 +938,15 @@
     "food": "focaccia",
     "asOf": "2026-09-23",
     "note": "NOT bought 9/23. Sat melt switched to sourdough 160g."
+  },
+  {
+    "name": "Santa Maria Tri-Tip",
+    "asOf": "2026-09-23",
+    "note": "Was NOT thawed for Wed dinner (never moved to the fridge Monday). Moved to the FRIDGE Wed night — Thu 9/24 dinner. Wed dinner became an egg scramble + sourdough."
+  },
+  {
+    "food": "ground-beef-85",
+    "asOf": "2026-09-23",
+    "note": "Both 1 lb packs now in the FREEZER (the fridge pack was frozen Wed night once Thu dinner became the tri-tip; Thu bolognese dropped). Move one to the fridge Thu night for Sat bolognese."
   }
 ]

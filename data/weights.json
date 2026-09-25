@@ -11377,6 +11377,79 @@
         }
       ],
       "notes": "Push done on Wednesday (calendar had pull); Tuesday push was skipped. No pre-lift toast — lunch was ~13:15 takeout fried rice."
+    },
+    {
+      "date": "2026-09-24",
+      "type": "pull",
+      "exercises": [
+        {
+          "name": "Lat Pulldown",
+          "sets": [
+            {
+              "lb": 190,
+              "reps": [
+                8,
+                6
+              ]
+            }
+          ],
+          "notes": "Third session at 190. 8,6 = 14 reps, up from 13 (9/20) and 11 (9/15). First set is now complete. HOLD 190, target 8,8."
+        },
+        {
+          "name": "Row",
+          "sets": [
+            {
+              "lb": 180,
+              "reps": [
+                8,
+                8,
+                8
+              ]
+            }
+          ],
+          "notes": "COMPLETE at 180 on the second outing (8,8,6 on 9/20), faster than 175 took (three sessions). NEXT: 185."
+        },
+        {
+          "name": "Cable Curl",
+          "sets": [
+            {
+              "lb": 67,
+              "reps": [
+                8,
+                7
+              ]
+            }
+          ],
+          "notes": "Dated '08/24' in the source note, which is a typo for 09/24 (it follows 09/20). 8,7 = 15, up from 7,6. REPEAT 67, target 8,8."
+        },
+        {
+          "name": "Unilateral DB Curl",
+          "sets": [
+            {
+              "lb": 45,
+              "reps": [
+                5,
+                5
+              ]
+            }
+          ],
+          "notes": "Prescribed 42.5; Adam logged 45s x 5,5 and skipped a step. 5,5 is the normal shape of a load bought ahead of the reps (42.5 opened 6,5 on 9/09). Unconfirmed, since 45 was once mis-reported (9/20). NEXT: 42.5, target 8,8."
+        },
+        {
+          "name": "Unilateral Lat Pullover",
+          "sets": [
+            {
+              "lb": 43,
+              "reps": [
+                7,
+                7
+              ]
+            }
+          ],
+          "notes": "Jumped to 43 after 40 x 10,8 (prescribed repeat 40 for 10,10). 7,7 is a first-outing drop similar to 33 opening 7,7 on 8/24. REPEAT 43, target 10,10 (or 8,8 first)."
+        }
+      ],
+      "notes": "Pull on Thursday, which the calendar had as a rest day. Fueled by the Chipotle steak + pollo asado burrito at lunch; the 15:00 toast was skipped. Row completed 180; pulldown and cable curl each added a rep; DB curl and pullover both jumped load ahead of the prescription."
     }
   ]
 }
