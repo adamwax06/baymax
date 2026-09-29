@@ -948,5 +948,40 @@
     "food": "ground-beef-85",
     "asOf": "2026-09-23",
     "note": "Both 1 lb packs now in the FREEZER (the fridge pack was frozen Wed night once Thu dinner became the tri-tip; Thu bolognese dropped). Move one to the fridge Thu night for Sat bolognese."
+  },
+  {
+    "food": "greek-yogurt-whole",
+    "asOf": "2026-09-28",
+    "note": "Adam counted 4 unopened 16oz tubs (~1,800g). The 9/29-10/4 plan uses ~1,750g: 200g bowls (250g Fri) + 100g smoothies on the 5 lift days, no nightcaps."
+  },
+  {
+    "food": "chicken-breast-cooked",
+    "asOf": "2026-09-28",
+    "note": "The ~400g raw left from the 9/23 pack is FROZEN (Adam confirmed). Move to the fridge Thu 10/1 night, cook the whole pack Fri lunch."
+  },
+  {
+    "food": "marinara-raos",
+    "asOf": "2026-09-28",
+    "note": "One full jar on hand (~680g, Adam confirmed). Plan: Tue bolognese batch 340g, Sat gnocchi 150g, Sun bolognese ~170g, which uses up the jar."
+  },
+  {
+    "food": "egg",
+    "asOf": "2026-09-28",
+    "note": "~12 left (Adam's estimate), not the ~20 the ledger implied. Plan uses 6 (Sun wrap) and keeps 6 as a buffer."
+  },
+  {
+    "food": "chicken-thigh",
+    "asOf": "2026-09-28",
+    "note": "One pack thawed in the fridge (Mon dinner never happened), so it must be cooked Tue 9/29. The second pack is frozen; move it Thu night for Sat."
+  },
+  {
+    "food": "ground-beef-85",
+    "asOf": "2026-09-28",
+    "note": "~200g left of the thawed pound after the 9/28 dinner (cook Tue in the bolognese). One more 1lb pack frozen; move it Fri night for Sun."
+  },
+  {
+    "food": "potato",
+    "asOf": "2026-09-28",
+    "note": "Effectively OUT: ~660g went into the 9/28 dinner, on top of the 680g tri-tip split on 9/24."
   }
 ]
