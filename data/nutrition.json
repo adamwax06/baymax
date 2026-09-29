@@ -2731,8 +2731,8 @@
   {
     "date": "2026-09-24",
     "kcal": 2980.2,
-    "protein": 186.0,
-    "carbs": 368.0,
+    "protein": 186,
+    "carbs": 368,
     "fat": 93.2,
     "fiber": 22.3,
     "meals": [],
@@ -2787,7 +2787,7 @@
         "desc": "~morning greek yogurt 300g + honey 30g. Computed from foods.json.",
         "kcal": 374.7,
         "protein": 26.4,
-        "carbs": 39.0,
+        "carbs": 39,
         "fat": 13.2,
         "fiber": 0.1
       },
@@ -2813,7 +2813,7 @@
         "protein": 13.2,
         "carbs": 19.5,
         "fat": 6.6,
-        "fiber": 0.0
+        "fiber": 0
       }
     ],
     "notes": "REST (legs skipped, back pain; also skipped 9/25). Yogurt 450g, over the 400g cap. The suggested 120g sourdough + 40g honey toast was never confirmed eaten, so it is not logged."
@@ -2822,7 +2822,7 @@
     "date": "2026-09-27",
     "kcal": 2984.7,
     "protein": 171.4,
-    "carbs": 311.0,
+    "carbs": 311,
     "fat": 118.2,
     "fiber": 9.1,
     "meals": [],
@@ -2856,7 +2856,7 @@
         "desc": "~midnight nightcap greek yogurt 300g + honey 30g (planned blueberries/chia skipped). Computed from foods.json.",
         "kcal": 374.7,
         "protein": 26.4,
-        "carbs": 39.0,
+        "carbs": 39,
         "fat": 13.2,
         "fiber": 0.1
       }
@@ -2877,7 +2877,7 @@
         "desc": "~dinner greek yogurt 300g + honey 30g (10:1; honey amount ASSUMED from the ratio). Computed from foods.json.",
         "kcal": 374.7,
         "protein": 26.4,
-        "carbs": 39.0,
+        "carbs": 39,
         "fat": 13.2,
         "fiber": 0.1
       },
@@ -2899,5 +2899,28 @@
       }
     ],
     "notes": "LEGS was on the calendar for 16:00. The planned yogurt bowl, lunch, toast and smoothie were all skipped; everything came at dinner (yogurt + an oversized beef/potato plate + Wingstop), replacing the chicken thigh + rice bowl. Fat ~168g against the 75g target, protein ~139g (short of the ~177g plan). The beef earmarked for Tuesday's bolognese: ~200g left, not ~280g. Chicken thighs are still uncooked."
+  },
+  {
+    "date": "2026-09-29",
+    "kcal": 1344,
+    "protein": 78,
+    "carbs": 166,
+    "fat": 40,
+    "calcium": 352.5,
+    "iron": 3.6,
+    "magnesium": 172.3,
+    "potassium": 1293.8,
+    "sodium": 547.9,
+    "zinc": 7.1,
+    "vitD": 0,
+    "vitC": 12.4,
+    "fiber": 6.2,
+    "ala": 2.7,
+    "meals": [
+      "blueberry-yogurt-bowl",
+      "shawarma-thigh-bowl"
+    ],
+    "method": "reported-as-eaten. OPEN (through lunch).",
+    "notes": "9:00 blueberry yogurt bowl and 12:30 shawarma chicken thigh rice bowl (250g raw thigh), both eaten as planned. Whole thawed thigh pack cooked; ~225g boxed for Wednesday lunch."
   }
 ]

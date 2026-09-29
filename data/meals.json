@@ -402,6 +402,56 @@
     "notes": "Added 8/15 - homemade version of the Jay's Grill order Adam likes. Shawarma spice: cumin/coriander/paprika/garlic (paprika is safe; NOT bell pepper). Yogurt + grated garlic + lemon = toum-ish sauce"
   },
   {
+    "id": "blueberry-yogurt-bowl",
+    "name": "Blueberry yogurt bowl",
+    "items": [
+      {
+        "food": "greek-yogurt-whole",
+        "g": 200
+      },
+      {
+        "food": "blueberries",
+        "g": 100
+      },
+      {
+        "food": "honey",
+        "g": 20
+      },
+      {
+        "food": "chia",
+        "g": 15
+      }
+    ],
+    "notes": "Added 9/29. 10:1 yogurt:honey. Smaller 200g yogurt breakfast to stretch the tubs."
+  },
+  {
+    "id": "shawarma-thigh-bowl",
+    "name": "Shawarma chicken thigh rice bowl",
+    "items": [
+      {
+        "food": "chicken-thigh",
+        "g": 250
+      },
+      {
+        "food": "white-rice-dry",
+        "g": 140
+      },
+      {
+        "food": "cucumber",
+        "g": 100
+      },
+      {
+        "food": "olive-oil",
+        "g": 5
+      },
+      {
+        "food": "sriracha",
+        "g": 15
+      }
+    ],
+    "notes": "Added 9/29. Thigh weighed raw, rice dry. Spice per 250g thigh: 1 tsp cumin, 1 tsp paprika (safe; NOT bell pepper), 1/2 tsp garlic powder, 1/2 tsp turmeric, 3/4 tsp salt, lemon juice. Sear 5-6 min a side to 175F."
+  },
+  {
     "id": "shrimp-scampi",
     "name": "Garlic butter shrimp scampi",
     "items": [
