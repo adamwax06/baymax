@@ -2902,25 +2902,26 @@
   },
   {
     "date": "2026-09-29",
-    "kcal": 1344,
-    "protein": 78,
-    "carbs": 166,
-    "fat": 40,
-    "calcium": 352.5,
-    "iron": 3.6,
-    "magnesium": 172.3,
-    "potassium": 1293.8,
-    "sodium": 547.9,
-    "zinc": 7.1,
+    "kcal": 1700,
+    "protein": 87,
+    "carbs": 241,
+    "fat": 43,
+    "calcium": 481,
+    "iron": 6.9,
+    "magnesium": 206.7,
+    "potassium": 1564.4,
+    "sodium": 1106.8,
+    "zinc": 7.9,
     "vitD": 0,
-    "vitC": 12.4,
-    "fiber": 6.2,
-    "ala": 2.7,
+    "vitC": 36.1,
+    "fiber": 9.8,
+    "ala": 2.8,
     "meals": [
       "blueberry-yogurt-bowl",
-      "shawarma-thigh-bowl"
+      "shawarma-thigh-bowl",
+      "pre-lift-carb"
     ],
-    "method": "reported-as-eaten. OPEN (through lunch).",
-    "notes": "9:00 blueberry yogurt bowl and 12:30 shawarma chicken thigh rice bowl (250g raw thigh), both eaten as planned. Whole thawed thigh pack cooked; ~225g boxed for Wednesday lunch."
+    "method": "reported-as-eaten. OPEN (through pre-lift toast).",
+    "notes": "9:00 blueberry yogurt bowl, 12:30 shawarma chicken thigh rice bowl (250g raw thigh), ~15:30 pre-lift toast + honey + mandarin (an hour late; sourdough logged via the bread-italian meal, ~12 kcal diff), all as planned. Whole thawed thigh pack cooked; ~225g boxed for Wednesday lunch."
   }
 ]
