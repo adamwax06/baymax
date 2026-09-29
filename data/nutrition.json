@@ -2865,16 +2865,16 @@
   },
   {
     "date": "2026-09-28",
-    "kcal": 1506.9,
-    "protein": 89.2,
-    "carbs": 167.4,
-    "fat": 53.7,
-    "fiber": 14.0,
+    "kcal": 3223.9,
+    "protein": 139.4,
+    "carbs": 274.5,
+    "fat": 168.2,
+    "fiber": 15.5,
     "meals": [],
-    "method": "reported-as-eaten. OPEN.",
+    "method": "reported-as-eaten. OPEN (through dinner). Wingstop from the published PDF; fries and ranch amounts ESTIMATED from photos.",
     "deviations": [
       {
-        "desc": "~morning greek yogurt 300g + honey 30g (10:1; honey amount ASSUMED from the ratio). Computed from foods.json.",
+        "desc": "~dinner greek yogurt 300g + honey 30g (10:1; honey amount ASSUMED from the ratio). Computed from foods.json.",
         "kcal": 374.7,
         "protein": 26.4,
         "carbs": 39.0,
@@ -2882,14 +2882,22 @@
         "fiber": 0.1
       },
       {
-        "desc": "~lunch beef + potato plate, bigger than planned (plan: beef 175g / potato 350g / spinach 80g / butter 5g / mozz 20g, ~760 / 43P): ground beef 250g (2/3 of the thawed pound, ASSUMED raw weight), golden potatoes ~660g (2/3 of the bag), mozzarella 12g, Chick-fil-A Honey Mustard (confirmed) ~1 packet (28g label: 50 kcal / 12C). No spinach/butter reported. Computed from foods.json (beef proxied by ground-beef-85).",
+        "desc": "~dinner beef + potato plate, bigger than planned (plan: beef 175g / potato 350g / spinach 80g / butter 5g / mozz 20g, ~760 / 43P): ground beef 250g (2/3 of the thawed pound, ASSUMED raw weight), golden potatoes ~660g (2/3 of the bag), mozzarella 12g, Chick-fil-A Honey Mustard (confirmed) ~1 packet (28g label: 50 kcal / 12C). No spinach/butter reported. Computed from foods.json (beef proxied by ground-beef-85).",
         "kcal": 1132.2,
         "protein": 62.8,
         "carbs": 128.4,
         "fat": 40.5,
         "fiber": 13.9
+      },
+      {
+        "desc": "~dinner Wingstop (photos), Wingstop's official nutrition PDF (s3 WSR18-0009 guide): 11 boneless, 3 Original Hot (80 kcal/4P/6C/4.5F each) + 8 dry-rub pieces with Lemon Pepper as the stand-in (110/4P/6C/7F each); seasoned fries ~100g ESTIMATED from the photo (scaled from the 191g regular: 500/8P/69C/21F); ranch 1 cup 85g (320/1P/2C/34F, full cup ASSUMED); celery + carrot sticks ~15 kcal. Fat is ~115g, mostly ranch + breading.",
+        "kcal": 1717,
+        "protein": 50.2,
+        "carbs": 107.1,
+        "fat": 114.5,
+        "fiber": 1.5
       }
     ],
-    "notes": "LEGS day (16:00). Lunch ran ~370 kcal over plan (more beef + potatoes). 300g yogurt at breakfast leaves ~100g of the 400g cap for the smoothie. Uses the beef earmarked for Tuesday's bolognese: ~200g left, not ~280g."
+    "notes": "LEGS was on the calendar for 16:00. The planned yogurt bowl, lunch, toast and smoothie were all skipped; everything came at dinner (yogurt + an oversized beef/potato plate + Wingstop), replacing the chicken thigh + rice bowl. Fat ~168g against the 75g target, protein ~139g (short of the ~177g plan). The beef earmarked for Tuesday's bolognese: ~200g left, not ~280g. Chicken thighs are still uncooked."
   }
 ]
