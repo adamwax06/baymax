@@ -90,6 +90,25 @@ describe("HealthClient.nutrition", () => {
     rmSync(nut, { force: true });
   });
 
+  test("tracker grades eating at the floor, never today, and blanks unlogged days", () => {
+    const goals = join(dir, "goals.json");
+    const nut = join(dir, "nutrition.json");
+    const base = { id: "weight-180", metric: "body_mass", targetLb: 180, ratePerWeekLb: 0.5 };
+    const iso = (i: number) => new Date(NOW - i * 86_400_000).toLocaleDateString("en-CA");
+    writeFileSync(goals, JSON.stringify([{ ...base, targetKcalOverride: 3200 }]));
+    writeFileSync(nut, JSON.stringify([{ date: iso(0), kcal: 3500 }, { date: iso(1), kcal: 3900 }, { date: iso(2), kcal: 2999 }]));
+    const days = new HealthClient({ dbPath: join(dir, "test.db") }).tracker({ weeks: 2, now: NOW });
+    const at = (i: number) => days.find((d) => d.date === iso(i))!;
+    expect(new Date(days[0]!.date + "T12:00").getDay()).toBe(0); // Sunday-aligned
+    expect(days.at(-1)!.date).toBe(iso(0));
+    expect(at(0).ate).toBeNull(); // today: unfinished
+    expect(at(1).ate).toBe(true); // way over is fine
+    expect(at(2).ate).toBe(false); // 1 under the 3000 floor
+    expect(at(3).ate).toBeNull(); // not logged
+    writeFileSync(goals, JSON.stringify([base]));
+    rmSync(nut, { force: true });
+  });
+
   test("seed mode: named formula, targets from profile", () => {
     const client = new HealthClient({ dbPath: join(dir, "test.db") });
     const n = client.nutrition({ now: NOW });

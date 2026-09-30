@@ -19,6 +19,7 @@ import type {
   SleepNight,
   SourceSummary,
   StatusResult,
+  TrackerDay,
   TrendResult,
   WorkoutRow,
 } from "./types.ts";
@@ -208,6 +209,35 @@ export class HealthClient {
         buckets: steps.buckets,
       },
     };
+  }
+
+  /**
+   * GitHub-style habit grid: one cell per day, Sunday-aligned so the client can
+   * chunk by 7. level = lifted + ate (kcal >= target-200; over is fine on a bulk).
+   * Today's eating is never graded — the day isn't over.
+   */
+  tracker(opts: { weeks?: number; now?: number } = {}): TrackerDay[] {
+    const now = opts.now ?? Date.now();
+    const intake = readValidated(join(this.dataDir, "nutrition.json"), intakeZ, false) ?? [];
+    const kcalByDate = new Map(intake.map((e) => [e.date, e.kcal]));
+    // ponytail: grades all history against today's target; stamp per-day targets if that ever misleads.
+    let floor: number | null = null;
+    try {
+      floor = this.nutrition({ now }).targetKcal - 200;
+    } catch {} // no goal/weigh-ins — only lifts get graded
+    const cursor = new Date(now);
+    cursor.setHours(12, 0, 0, 0);
+    const today = cursor.toLocaleDateString("en-CA");
+    cursor.setDate(cursor.getDate() - cursor.getDay() - 7 * ((opts.weeks ?? 20) - 1));
+    const lifted = new Set(this.lifts({ days: Math.ceil((now - cursor.getTime()) / 86_400_000) + 1, now }).map((l) => l.date));
+    const days: TrackerDay[] = [];
+    for (; ; cursor.setDate(cursor.getDate() + 1)) {
+      const date = cursor.toLocaleDateString("en-CA");
+      const kcal = kcalByDate.get(date) ?? null;
+      const ate = date === today || kcal === null || floor === null ? null : kcal >= floor;
+      days.push({ date, lifted: lifted.has(date), kcal, ate, level: (lifted.has(date) ? 1 : 0) + (ate ? 1 : 0) });
+      if (date === today) return days;
+    }
   }
 
   /**

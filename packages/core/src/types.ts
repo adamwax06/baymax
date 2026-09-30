@@ -99,6 +99,14 @@ export interface OverviewResult {
   steps: { dailyAvg: number | null; buckets: TrendBucket[] };
 }
 
+export interface TrackerDay {
+  date: string;
+  lifted: boolean;
+  kcal: number | null;
+  ate: boolean | null; // null = not logged, no target, or today (unfinished)
+  level: number; // 0-2: lifted + ate
+}
+
 export interface NutritionResult {
   /** "seed" = Mifflin-St Jeor estimate; "empirical" = solved from your own intake + scale data. */
   mode: "seed" | "empirical";

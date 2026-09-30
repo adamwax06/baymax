@@ -72,6 +72,9 @@ export function createApp(db: BaymaxDb, options: { dataDir?: string; dbPath?: st
     return c.json(healthClient().overview());
   });
 
+  // Home habit grid: lifted / ate-at-floor per day, last 20 weeks.
+  app.get("/v1/tracker", (c) => c.json(healthClient().tracker()));
+
   // The app's Today card: calorie/protein targets + what's logged for today.
   app.get("/v1/today", (c) => {
     const path = join(dataDir, "nutrition.json");

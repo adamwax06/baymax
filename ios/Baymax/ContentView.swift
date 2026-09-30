@@ -64,6 +64,7 @@ struct HomeView: View {
                 greeting
                 sectionHeading("Today's Summary")
                 summaryTiles
+                trackerCard
                 syncBlock
                 dataCard
                 opsCard
@@ -212,6 +213,36 @@ struct HomeView: View {
             caption: "workouts / 7d",
             progress: nil
         )
+    }
+
+    // MARK: habit grid
+
+    /// GitHub-style: light red = lifted or ate at floor, full red = both. Sunday-aligned columns.
+    private var trackerCard: some View {
+        let weeks = stride(from: 0, to: engine.tracker.count, by: 7).map { Array(engine.tracker[$0..<min($0 + 7, engine.tracker.count)]) }
+        let both30 = engine.tracker.suffix(30).filter { $0.level == 2 }.count
+        return VStack(alignment: .leading, spacing: 10) {
+            HStack {
+                Text("Lift + Eat").font(.caption.weight(.semibold)).foregroundStyle(.secondary)
+                Spacer()
+                Text("\(both30) both / 30d").font(.caption2.monospaced()).foregroundStyle(.tertiary)
+            }
+            HStack(alignment: .top, spacing: 3) {
+                ForEach(weeks.indices, id: \.self) { w in
+                    VStack(spacing: 3) {
+                        ForEach(weeks[w], id: \.date) { day in
+                            RoundedRectangle(cornerRadius: 2.5)
+                                .fill(day.level == 2 ? AnyShapeStyle(Palette.red) : day.level == 1 ? AnyShapeStyle(Palette.red.opacity(0.35)) : AnyShapeStyle(.quaternary))
+                                .aspectRatio(1, contentMode: .fit)
+                                .accessibilityLabel("\(day.date): \(day.lifted ? "lifted" : "no lift"), \(day.kcal.map { "\(Int($0)) kcal" } ?? "no intake logged")")
+                        }
+                    }
+                    .frame(maxWidth: .infinity)
+                }
+            }
+        }
+        .padding(14)
+        .glassEffect(.regular, in: .rect(cornerRadius: 22))
     }
 
     private func tile(icon: String, label: String, value: String, unit: String, caption: String, progress: Double?) -> some View {
