@@ -983,5 +983,15 @@
     "food": "potato",
     "asOf": "2026-09-28",
     "note": "Effectively OUT: ~660g went into the 9/28 dinner, on top of the 680g tri-tip split on 9/24."
+  },
+  {
+    "food": "kirkland-shrimp-cocktail",
+    "asOf": "2026-09-29",
+    "note": "Costco 9/29: one Kirkland shrimp cocktail tray (~1.5-1.75 lb) with a sauce cup and lemons. Already cooked, eat cold. Refrigerated deli tray, so eat within ~3 days (by Thu 10/1)."
+  },
+  {
+    "food": "just-bare-chunks",
+    "asOf": "2026-09-29",
+    "note": "Costco 9/29: one Just Bare lightly breaded chicken chunks bag (4 lb, ~1,814g, ASSUMED the standard size), frozen. Fully cooked, air-fry from frozen. Not assigned to a meal yet."
   }
 ]

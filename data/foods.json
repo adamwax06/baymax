@@ -857,7 +857,7 @@
     "weighed": "raw",
     "per100g": {
       "kcal": 25,
-      "protein": 1.0,
+      "protein": 1,
       "fat": 0.2,
       "carbs": 5.5,
       "fiber": 1.2,
@@ -940,7 +940,7 @@
     "store": "traderjoes",
     "per100g": {
       "kcal": 371,
-      "protein": 13.0,
+      "protein": 13,
       "fat": 1.5,
       "carbs": 74.7,
       "fiber": 3.2,
@@ -1011,8 +1011,8 @@
     "weighed": "raw",
     "per100g": {
       "kcal": 120,
-      "protein": 24.0,
-      "fat": 2.0,
+      "protein": 24,
+      "fat": 2,
       "carbs": 0
     },
     "allergyChecked": "2026-08-26",
@@ -1026,8 +1026,8 @@
     "weighed": "raw",
     "per100g": {
       "kcal": 143,
-      "protein": 18.0,
-      "fat": 8.0,
+      "protein": 18,
+      "fat": 8,
       "carbs": 0
     },
     "allergyChecked": "2026-08-26",
@@ -1041,10 +1041,10 @@
     "weighed": "raw",
     "per100g": {
       "kcal": 172,
-      "protein": 4.0,
+      "protein": 4,
       "fat": 0.5,
-      "carbs": 37.0,
-      "fiber": 2.0,
+      "carbs": 37,
+      "fiber": 2,
       "sodium": 420
     },
     "allergyChecked": "2026-08-30",
@@ -1161,8 +1161,8 @@
     "per100g": {
       "kcal": 75,
       "protein": 1.7,
-      "fat": 5.0,
-      "carbs": 5.0,
+      "fat": 5,
+      "carbs": 5,
       "fiber": 1.5,
       "sodium": 330
     },
@@ -1197,7 +1197,7 @@
       "protein": 3.09,
       "fat": 0.34,
       "carbs": 3.26,
-      "fiber": 1.0,
+      "fiber": 1,
       "sodium": 5
     },
     "allergyChecked": "2026-09-14",
@@ -1254,5 +1254,60 @@
     },
     "allergyChecked": "2026-09-14",
     "notes": "ESTIMATE — brownie/cookie + caramel cluster snack, no published macros pulled yet. unitG is a rough per-piece weight guess; check the bag for a serving size. Likely contains wheat/dairy/soy, no profile allergy flags expected but not verified — check label for tree nuts before eating."
+  },
+  {
+    "id": "kirkland-shrimp-cocktail",
+    "name": "Shrimp Cocktail tray shrimp, cooked, tail-on (Kirkland, refrigerated)",
+    "brand": "Kirkland Signature",
+    "store": "costco",
+    "fdcType": "estimate",
+    "weighed": "cooked",
+    "per100g": {
+      "kcal": 99,
+      "protein": 24,
+      "fat": 0.3,
+      "carbs": 0.2,
+      "fiber": 0,
+      "sodium": 250
+    },
+    "allergyChecked": "2026-09-29",
+    "notes": "Costco deli tray #11159, 1.5-1.75 lb at $9.99/lb. Shrimp ingredients: shrimp, water, salt. No shrimp-only label panel online, so USDA cooked-shrimp values (same as shrimp-cooked). Weigh the shrimp with tails on and it slightly overstates the meat. Shellfish, explicitly safe."
+  },
+  {
+    "id": "cocktail-sauce-kirkland",
+    "name": "Cocktail sauce (cup in the Kirkland shrimp cocktail tray)",
+    "brand": "Kirkland Signature",
+    "store": "costco",
+    "fdcType": "estimate",
+    "weighed": "each",
+    "per100g": {
+      "kcal": 124,
+      "protein": 1.4,
+      "fat": 0.9,
+      "carbs": 28,
+      "fiber": 1.5,
+      "sodium": 980
+    },
+    "allergyChecked": "2026-09-29",
+    "notes": "Generic USDA cocktail-sauce values (no Kirkland panel found). Ingredients online: water, HFCS, tomato paste, vinegar, horseradish prep (soybean oil), salt, corn starch, onion, garlic, preservatives, caramel color, natural/artificial flavors, spice. NO Worcestershire/anchovy/fish listed. Caveats: one retailer lists a shared facility that handles fish, tree nuts and peanuts, and \"natural flavors\"/\"spice\" are unnamed. Two online versions disagree, so the physical tray label wins."
+  },
+  {
+    "id": "just-bare-chunks",
+    "name": "Lightly Breaded Chicken Breast Chunks (Just Bare, frozen, fully cooked)",
+    "brand": "Just Bare",
+    "store": "costco",
+    "fdcType": "label",
+    "weighed": "cooked",
+    "per100g": {
+      "kcal": 190.5,
+      "protein": 19,
+      "fat": 8.3,
+      "carbs": 10.7,
+      "fiber": 0,
+      "sodium": 643
+    },
+    "packageG": 1814,
+    "allergyChecked": "2026-09-29",
+    "notes": "Costco #1450796, 4 lb bag. Label per 84g (about 4 pieces): 160 kcal, 16P, 9C, 7F, 540mg sodium. Ingredients: chicken breast, water, seasoning (sugar, salt, spices incl. paprika + celery seed, chicken fat, canola/soybean oil), rice starch; breading: wheat flour, sugar, salt, nonfat dry milk, dried egg white, baking powder, spice, paprika. No legumes, pea, nuts, fish or bell pepper; paprika is explicitly safe. Contains milk, egg, wheat. Air fry ~400F 10-12 min."
   }
 ]
