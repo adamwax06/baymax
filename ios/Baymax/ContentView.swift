@@ -4,13 +4,6 @@ import SwiftUI
 // palette from the hand-drawn icon: Baymax red, ink, warm paper. Numbers stay
 // monospaced; SF Symbols only; red carries progress and alerts.
 
-enum Palette {
-    static let red = Color(red: 0.953, green: 0.286, blue: 0.231) // #F3493B
-    static let redBright = Color(red: 0.996, green: 0.145, blue: 0.090) // #FE2517
-    static let ink = Color(red: 0.067, green: 0.039, blue: 0.035) // #110A09
-    static let paper = Color(red: 0.984, green: 0.969, blue: 0.953) // #FBF7F3
-}
-
 struct ContentView: View {
     @AppStorage("selectedTab") private var selectedTab = 0 // reopen where you left off
 
@@ -217,9 +210,7 @@ struct HomeView: View {
 
     // MARK: habit grid
 
-    /// GitHub-style: light red = lifted or ate at floor, full red = both. Sunday-aligned columns.
     private var trackerCard: some View {
-        let weeks = stride(from: 0, to: engine.tracker.count, by: 7).map { Array(engine.tracker[$0..<min($0 + 7, engine.tracker.count)]) }
         let both30 = engine.tracker.suffix(30).filter { $0.level == 2 }.count
         return VStack(alignment: .leading, spacing: 10) {
             HStack {
@@ -227,19 +218,7 @@ struct HomeView: View {
                 Spacer()
                 Text("\(both30) both / 30d").font(.caption2.monospaced()).foregroundStyle(.tertiary)
             }
-            HStack(alignment: .top, spacing: 3) {
-                ForEach(weeks.indices, id: \.self) { w in
-                    VStack(spacing: 3) {
-                        ForEach(weeks[w], id: \.date) { day in
-                            RoundedRectangle(cornerRadius: 2.5)
-                                .fill(day.level == 2 ? AnyShapeStyle(Palette.red) : day.level == 1 ? AnyShapeStyle(Palette.red.opacity(0.35)) : AnyShapeStyle(.quaternary))
-                                .aspectRatio(1, contentMode: .fit)
-                                .accessibilityLabel("\(day.date): \(day.lifted ? "lifted" : "no lift"), \(day.kcal.map { "\(Int($0)) kcal" } ?? "no intake logged")")
-                        }
-                    }
-                    .frame(maxWidth: .infinity)
-                }
-            }
+            TrackerGrid(days: engine.tracker).frame(height: 120)
         }
         .padding(14)
         .glassEffect(.regular, in: .rect(cornerRadius: 22))

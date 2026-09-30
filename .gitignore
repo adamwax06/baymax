@@ -15,5 +15,7 @@ data/*
 ios/*.xcodeproj/
 ios/Signing.xcconfig
 ios/Baymax/Info.plist
+ios/BaymaxWidget/Info.plist
 ios/Baymax/Baymax.entitlements
+ios/BaymaxWidget/BaymaxWidget.entitlements
 tmp/

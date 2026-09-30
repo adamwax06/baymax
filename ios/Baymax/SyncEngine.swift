@@ -1,4 +1,5 @@
 import Foundation
+import WidgetKit
 import HealthKit
 
 @MainActor
@@ -29,13 +30,6 @@ final class SyncEngine: ObservableObject {
 
     @Published var overview: OverviewStatus?
     @Published var tracker: [TrackerDay] = []
-
-    struct TrackerDay: Decodable {
-        let date: String
-        let lifted: Bool
-        let kcal: Double?
-        let level: Int
-    }
 
     struct OverviewStatus: Decodable {
         struct Weight: Decodable {
@@ -77,7 +71,11 @@ final class SyncEngine: ObservableObject {
             overview = try? JSONDecoder().decode(OverviewStatus.self, from: data)
         }
         if let (data, _) = try? await URLSession.shared.data(from: base.appendingPathComponent("v1/tracker")) {
-            tracker = (try? JSONDecoder().decode([TrackerDay].self, from: data)) ?? []
+            if let days = try? JSONDecoder().decode([TrackerDay].self, from: data) {
+                tracker = days
+                if let trackerCache { try? data.write(to: trackerCache) }
+                WidgetCenter.shared.reloadAllTimelines()
+            }
         }
     }
 
