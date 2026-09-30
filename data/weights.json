@@ -11450,6 +11450,58 @@
         }
       ],
       "notes": "Pull on Thursday, which the calendar had as a rest day. Fueled by the Chipotle steak + pollo asado burrito at lunch; the 15:00 toast was skipped. Row completed 180; pulldown and cable curl each added a rep; DB curl and pullover both jumped load ahead of the prescription."
+    },
+    {
+      "date": "2026-09-29",
+      "type": "legs",
+      "exercises": [
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "lb": 255,
+              "reps": [
+                4
+              ]
+            },
+            {
+              "lb": 235,
+              "reps": [
+                8,
+                2
+              ]
+            }
+          ],
+          "notes": "Top set 255x4 (plan was 235x5 after the back layoff), then 235x8 (best set-1 backoff since 9/02, ties it) and a 2-rep second backoff."
+        },
+        {
+          "name": "Leg Press Calf Raises",
+          "sets": [
+            {
+              "lb": 540,
+              "reps": [
+                7,
+                7,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hamstring Curl",
+          "sets": [
+            {
+              "lb": 145,
+              "reps": [
+                8,
+                7
+              ]
+            }
+          ],
+          "notes": "Third set not done."
+        }
+      ],
+      "notes": "First session back after the back pain (skipped Fri/Sat/Mon). Unilateral Leg Extension skipped: back of the knee hurts."
     }
   ]
 }
