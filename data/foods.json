@@ -1309,5 +1309,33 @@
     "packageG": 1814,
     "allergyChecked": "2026-09-29",
     "notes": "Costco #1450796, 4 lb bag. Label per 84g (about 4 pieces): 160 kcal, 16P, 9C, 7F, 540mg sodium. Ingredients: chicken breast, water, seasoning (sugar, salt, spices incl. paprika + celery seed, chicken fat, canola/soybean oil), rice starch; breading: wheat flour, sugar, salt, nonfat dry milk, dried egg white, baking powder, spice, paprika. No legumes, pea, nuts, fish or bell pepper; paprika is explicitly safe. Contains milk, egg, wheat. Air fry ~400F 10-12 min."
+  },
+  {
+    "id": "crab-cooked",
+    "name": "Crab meat, cooked, picked (homemade gift, likely Dungeness)",
+    "weighed": "cooked",
+    "fdcType": "estimate",
+    "per100g": {
+      "kcal": 110,
+      "protein": 22.3,
+      "carbs": 1,
+      "fat": 1.2
+    },
+    "allergyChecked": "2026-09-29",
+    "notes": "Friend-made, no label. Macros from USDA Dungeness crab, cooked. Shellfish is safe. Adam OK'd the contents 9/29."
+  },
+  {
+    "id": "flan-homemade",
+    "name": "Flan with caramel, homemade (gift)",
+    "weighed": "cooked",
+    "fdcType": "estimate",
+    "per100g": {
+      "kcal": 200,
+      "protein": 5,
+      "carbs": 32,
+      "fat": 6
+    },
+    "allergyChecked": "2026-09-29",
+    "notes": "Friend-made, no label. Generic egg/milk/sugar caramel custard estimate. Adam OK'd the contents 9/29."
   }
 ]

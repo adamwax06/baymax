@@ -2902,26 +2902,27 @@
   },
   {
     "date": "2026-09-29",
-    "kcal": 1700,
-    "protein": 87,
-    "carbs": 241,
-    "fat": 43,
-    "calcium": 481,
-    "iron": 6.9,
-    "magnesium": 206.7,
-    "potassium": 1564.4,
-    "sodium": 1106.8,
-    "zinc": 7.9,
-    "vitD": 0,
-    "vitC": 36.1,
-    "fiber": 9.8,
-    "ala": 2.8,
+    "kcal": 3455,
+    "protein": 222,
+    "carbs": 424,
+    "fat": 98,
+    "calcium": 1067.7,
+    "iron": 13.0,
+    "magnesium": 363.3,
+    "potassium": 2644.1,
+    "sodium": 3626.6,
+    "zinc": 16.6,
+    "vitD": 3.2,
+    "vitC": 80.2,
+    "fiber": 28.0,
+    "ala": 5.6,
     "meals": [
       "blueberry-yogurt-bowl",
       "shawarma-thigh-bowl",
-      "pre-lift-carb"
+      "pre-lift-carb",
+      "post-lift-smoothie"
     ],
-    "method": "reported-as-eaten. OPEN (through pre-lift toast).",
-    "notes": "9:00 blueberry yogurt bowl, 12:30 shawarma chicken thigh rice bowl (250g raw thigh), ~15:30 pre-lift toast + honey + mandarin (an hour late; sourdough logged via the bread-italian meal, ~12 kcal diff), all as planned. Whole thawed thigh pack cooked; ~225g boxed for Wednesday lunch."
+    "method": "reported-as-eaten. DAY CLOSED.",
+    "notes": "9:00 blueberry yogurt bowl, 12:30 shawarma chicken thigh rice bowl (250g raw thigh), ~15:30 pre-lift toast + honey + mandarin (an hour late; sourdough logged via the bread-italian meal, ~12 kcal diff), all as planned. Whole thawed thigh pack cooked; ~225g boxed for Wednesday lunch. Stray shrimp from the Kirkland tray (~13g) + ~10g cocktail sauce ≈ 23 kcal / 3P, eaten before tonight's planned 150g. Post-lift smoothie as calendared (the stretch variant): yogurt 100g, oat milk 250g, mango 120g, oats 40g, honey 30g, chia 15g. Shrimp cocktail as calendared: 150g tray shrimp + 30g Kirkland cocktail sauce. Shrimp cocktail round 2 (~21:45): another 150g + 30g sauce. Tonight's bolognese pasta cut to 80g to offset. ~22:30 bolognese: Adam weighed the leftover beef at 213g (not the ~80g estimated from the Nanda split). He cooked all of it with 340g Rao's as a 2-portion sauce, ate half with 80g spaghetti + 30g mozzarella, and boxed half the sauce (~107g beef + 170g marinara) for Thu 10/1."
   }
 ]

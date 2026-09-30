@@ -77,6 +77,23 @@ Daily logging flows (what to touch, and whether an import is needed):
   "Write Nutrition → Health" remains as a manual retry
 - **Goal/profile change** → edit `data/goals.json` / `data/profile.json` — live, no import
 
+Meal calendar events (Google Calendar, `adam@usetaiga.com`, description
+starts with `[baymax]`) are the day's plan — Adam cooks from them:
+- Every meal event lists each ingredient with grams (from `data/meals.json`)
+  plus method and allergy notes.
+- The **last meal of every day** ends with a `⚠️ BEFORE BED:` line saying
+  what to move from the freezer to the fridge for the coming days (or
+  "nothing to thaw tonight"). When a replan changes which frozen food a
+  later meal uses, fix that line too.
+- **No same dish on consecutive days** — leftovers skip at least a day
+  (Tue batch → Thu, not Wed). Daily fixtures (yogurt bowl, pre-lift
+  toast, smoothie) are exempt.
+- **One of each meat per day** — never chicken at lunch and dinner (thigh,
+  breast, and breaded chunks all count as chicken).
+- Every perishable in `data/inventory.json` (deli trays, gifts, thawed
+  packs) gets a named meal slot before its use-by date, visible in the
+  event title.
+
 ## Data model (frozen — extend via the registry, not the schema)
 
 ```sql

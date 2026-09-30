@@ -956,8 +956,8 @@
   },
   {
     "food": "chicken-breast-cooked",
-    "asOf": "2026-09-28",
-    "note": "The ~400g raw left from the 9/23 pack is FROZEN (Adam confirmed). Move to the fridge Thu 10/1 night, cook the whole pack Fri lunch."
+    "asOf": "2026-09-29",
+    "note": "The ~400g raw left from the 9/23 pack is FROZEN. Move it Sat 10/3 night and cook it all Sun dinner (250g), boxing ~150g for Tue."
   },
   {
     "food": "marinara-raos",
@@ -971,13 +971,13 @@
   },
   {
     "food": "chicken-thigh",
-    "asOf": "2026-09-28",
-    "note": "One pack thawed in the fridge (Mon dinner never happened), so it must be cooked Tue 9/29. The second pack is frozen; move it Thu night for Sat."
+    "asOf": "2026-09-29",
+    "note": "Pack 1 (thawed) is cooked Tue 9/29: lunch, plus ~225g boxed for Thu 10/1 lunch. Pack 2 is frozen; move it Thu night, cook it Sat dinner, and box ~200g for Mon."
   },
   {
     "food": "ground-beef-85",
-    "asOf": "2026-09-28",
-    "note": "~200g left of the thawed pound after the 9/28 dinner (cook Tue in the bolognese). One more 1lb pack frozen; move it Fri night for Sun."
+    "asOf": "2026-09-29",
+    "note": "Adam weighed the thawed pound's leftover at 213g on 9/29 (the ~80g estimate from the Nanda split was wrong). All of it gets cooked 9/29 as a 2-portion bolognese sauce: half tonight, half boxed for Thu 10/1 dinner. Second 1lb pack frozen: move it Thu night, brown it all Sat lunch (200g), and box ~250g for Mon dinner."
   },
   {
     "food": "potato",
@@ -987,11 +987,21 @@
   {
     "food": "kirkland-shrimp-cocktail",
     "asOf": "2026-09-29",
-    "note": "Costco 9/29: one Kirkland shrimp cocktail tray (~1.5-1.75 lb) with a sauce cup and lemons. Already cooked, eat cold. Refrigerated deli tray, so eat within ~3 days (by Thu 10/1)."
+    "note": "Costco 9/29: one Kirkland shrimp cocktail tray (~1.5-1.75 lb) with a sauce cup and lemons. Cooked, deli-refrigerated, must be gone by Thu 10/1. Plan: 150g Tue cocktail, ~300g Wed fried rice, and the rest as Thu's 18:30 cocktail."
   },
   {
     "food": "just-bare-chunks",
     "asOf": "2026-09-29",
-    "note": "Costco 9/29: one Just Bare lightly breaded chicken chunks bag (4 lb, ~1,814g, ASSUMED the standard size), frozen. Fully cooked, air-fry from frozen. Not assigned to a meal yet."
+    "note": "Costco 9/29: one Just Bare lightly breaded chicken chunks bag (4 lb, ~1,814g, ASSUMED the standard size), frozen. Fully cooked, air-fry from frozen. Plan: 200g Wed 9/30 hot honey sandwich; the rest is for next week."
+  },
+  {
+    "food": "crab-cooked",
+    "asOf": "2026-09-29",
+    "note": "A friend gave ~350g (est., unweighed) of picked cooked crab. Adam OK'd it for allergies 9/29. Plan: all of it in Fri 10/2's crab melt."
+  },
+  {
+    "food": "flan-homemade",
+    "asOf": "2026-09-29",
+    "note": "A friend gave homemade flan in caramel (unweighed). Adam OK'd it for allergies 9/29. Plan: 150g Fri 10/2 afternoon, 150g Sat 10/3 pre-lift, and finish any extra Sat."
   }
 ]
