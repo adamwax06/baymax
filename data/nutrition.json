@@ -2924,5 +2924,66 @@
     ],
     "method": "reported-as-eaten. DAY CLOSED.",
     "notes": "9:00 blueberry yogurt bowl, 12:30 shawarma chicken thigh rice bowl (250g raw thigh), ~15:30 pre-lift toast + honey + mandarin (an hour late; sourdough logged via the bread-italian meal, ~12 kcal diff), all as planned. Whole thawed thigh pack cooked; ~225g boxed for Wednesday lunch. Stray shrimp from the Kirkland tray (~13g) + ~10g cocktail sauce ≈ 23 kcal / 3P, eaten before tonight's planned 150g. Post-lift smoothie as calendared (the stretch variant): yogurt 100g, oat milk 250g, mango 120g, oats 40g, honey 30g, chia 15g. Shrimp cocktail as calendared: 150g tray shrimp + 30g Kirkland cocktail sauce. Shrimp cocktail round 2 (~21:45): another 150g + 30g sauce. Tonight's bolognese pasta cut to 80g to offset. ~22:30 bolognese: Adam weighed the leftover beef at 213g (not the ~80g estimated from the Nanda split). He cooked all of it with 340g Rao's as a 2-portion sauce, ate half with 80g spaghetti + 30g mozzarella, and boxed half the sauce (~107g beef + 170g marinara) for Thu 10/1."
+  },
+  {
+    "date": "2026-09-30",
+    "kcal": 3570.8,
+    "protein": 172.3,
+    "carbs": 430.2,
+    "fat": 130.7,
+    "fiber": 14.8,
+    "meals": [
+      "blueberry-yogurt-bowl"
+    ],
+    "method": "reported-as-eaten. DAY CLOSED (smoothie + fried rice skipped for sushi out; midnight shrimp cocktail + flan).",
+    "deviations": [
+      {
+        "desc": "lunch Chick-fil-A with friends (confirmed order, macros from memory of CFA's published nutrition): grilled chicken sandwich ~390/28P, 8-ct grilled nuggets ~130/25P, medium waffle fries ~420/5P, 2 Chick-fil-A sauces ~280. Replaced the planned lunch.",
+        "kcal": 1220,
+        "protein": 58,
+        "carbs": 102,
+        "fat": 65
+      },
+      {
+        "desc": "~pre-lift toast only ~1/3 eaten (Adam: 'half, prob more like 1/3'): the loaf had mold, so it was tossed. 1/3 of the plan ASSUMED for all three items: sourdough 30g (via bread-italian), honey 8g, mandarin 29g.",
+        "protein": 3.1,
+        "fat": 0.9,
+        "carbs": 24.9,
+        "kcal": 117.4,
+        "fiber": 1.2
+      },
+      {
+        "desc": "~1 Kirkland cocktail shrimp (~15g ASSUMED) + ~8g cocktail sauce, pre-lift snack ~18:15.",
+        "kcal": 24.8,
+        "protein": 3.7,
+        "fat": 0.1,
+        "carbs": 2.3,
+        "fiber": 0.1
+      },
+      {
+        "desc": "~20:30 sushi dinner out after the lift, PHOTO ESTIMATE (restaurant unknown, all assumed eaten by Adam): edamame bowl ~120/11P, 2 inari ~250/6P, 6 pan-fried gyoza + soy dip ~295/12P, asparagus tempura maki ~5pc ~300/6P (Adam confirmed asparagus, not green bean), California roll 8pc with the avocado picked out ~300/9P, scallop hand roll w/ spicy mayo ~200/12P. Replaced the post-lift smoothie and the shrimp fried rice. ALLERGY: avocado removed by hand; the California roll's crab salad (likely imitation crab = pollock) and tobiko (flying-fish roe) are finned fish, not cleared.",
+        "kcal": 1465,
+        "protein": 56,
+        "carbs": 210,
+        "fat": 43,
+        "fiber": 8
+      },
+      {
+        "desc": "~00:00 (10/1) shrimp cocktail top-up for protein: ~100g Kirkland tray shrimp (ASSUMED, ~6-7 shrimp) + ~20g cocktail sauce.",
+        "kcal": 123.8,
+        "protein": 24.3,
+        "carbs": 5.8,
+        "fat": 0.5,
+        "fiber": 0.3
+      },
+      {
+        "desc": "~00:00 (10/1) one slice of the gifted homemade flan, ~120g ASSUMED.",
+        "kcal": 240,
+        "protein": 6,
+        "carbs": 38.4,
+        "fat": 7.2
+      }
+    ],
+    "notes": "9:30 blueberry yogurt bowl as planned. 12:30 Chick-fil-A replaced lunch, so the shrimp fried rice moved to dinner (one meat per day). Pre-lift toast mostly skipped because the loaf was moldy (tossed; inventory updated). Push moved from 16:30 to 18:30. ~20:30 sushi out replaced the smoothie + fried rice; shrimp stays in inventory. Midnight shrimp cocktail (~100g) + flan slice (~120g) to cover protein."
   }
 ]

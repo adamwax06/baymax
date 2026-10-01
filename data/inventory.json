@@ -986,8 +986,8 @@
   },
   {
     "food": "kirkland-shrimp-cocktail",
-    "asOf": "2026-09-29",
-    "note": "Costco 9/29: one Kirkland shrimp cocktail tray (~1.5-1.75 lb) with a sauce cup and lemons. Cooked, deli-refrigerated, must be gone by Thu 10/1. Plan: 150g Tue cocktail, ~300g Wed fried rice, and the rest as Thu's 18:30 cocktail."
+    "asOf": "2026-10-01",
+    "note": "Costco 9/29 tray (~680-790g). Eaten so far: ~313g on 9/29, ~115g on 9/30 (the Wed fried rice did NOT happen). ~250-360g left plus some sauce. Use-by Thu 10/1 (today): it all needs a meal today."
   },
   {
     "food": "just-bare-chunks",
@@ -1001,7 +1001,12 @@
   },
   {
     "food": "flan-homemade",
-    "asOf": "2026-09-29",
-    "note": "A friend gave homemade flan in caramel (unweighed). Adam OK'd it for allergies 9/29. Plan: 150g Fri 10/2 afternoon, 150g Sat 10/3 pre-lift, and finish any extra Sat."
+    "asOf": "2026-10-01",
+    "note": "Homemade flan in caramel, a gift (unweighed). Adam OK'd it for allergies 9/29. ~120g slice eaten at midnight 9/30. Rest still planned for 150g Fri 10/2 + 150g Sat 10/3."
+  },
+  {
+    "food": "bread-sourdough",
+    "asOf": "2026-09-30",
+    "note": "MOLDY 9/30: Adam found mold partway through the pre-lift toast. Loaf tossed. No bread on hand; buy a fresh batard before planning more toast."
   }
 ]

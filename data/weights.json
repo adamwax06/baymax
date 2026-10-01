@@ -11502,6 +11502,83 @@
         }
       ],
       "notes": "First session back after the back pain (skipped Fri/Sat/Mon). Unilateral Leg Extension skipped: back of the knee hurts."
+    },
+    {
+      "date": "2026-09-30",
+      "type": "push",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "lb": 185,
+              "reps": [
+                1
+              ]
+            },
+            {
+              "lb": 205,
+              "reps": [
+                1
+              ]
+            },
+            {
+              "lb": 215,
+              "reps": [
+                1
+              ]
+            },
+            {
+              "lb": 155,
+              "reps": [
+                8,
+                8
+              ]
+            }
+          ],
+          "notes": "First heavy singles. The 185 was loaded missing a 25 on one side (lopsided bar), which shook him. 215x1 was a grinder — heaviest tested single in the log (prior best 185x1 on 2025-09-30). Backoff dropped to 155 x 8,8 because the lat felt off."
+        },
+        {
+          "name": "Unilateral Tricep Pushdown",
+          "sets": [
+            {
+              "lb": 37,
+              "reps": [
+                7,
+                7
+              ]
+            }
+          ],
+          "notes": "First outing at 37 (up from 33)."
+        },
+        {
+          "name": "DB Lateral Raise",
+          "sets": [
+            {
+              "lb": 30,
+              "reps": [
+                10,
+                10,
+                10
+              ]
+            }
+          ],
+          "notes": "10,10,10 at the 30s, the same mark that graduated the 20s and 25s."
+        },
+        {
+          "name": "Incline Fly",
+          "sets": [
+            {
+              "lb": 80,
+              "reps": [
+                8
+              ]
+            }
+          ],
+          "notes": "One set only."
+        }
+      ],
+      "notes": "Lat felt strange on one side, so the backoff stayed light. No skull crushers in the source note."
     }
   ]
 }
