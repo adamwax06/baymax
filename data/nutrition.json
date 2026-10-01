@@ -2985,5 +2985,26 @@
       }
     ],
     "notes": "9:30 blueberry yogurt bowl as planned. 12:30 Chick-fil-A replaced lunch, so the shrimp fried rice moved to dinner (one meat per day). Pre-lift toast mostly skipped because the loaf was moldy (tossed; inventory updated). Push moved from 16:30 to 18:30. ~20:30 sushi out replaced the smoothie + fried rice; shrimp stays in inventory. Midnight shrimp cocktail (~100g) + flan slice (~120g) to cover protein."
+  },
+  {
+    "date": "2026-10-01",
+    "kcal": 119.3,
+    "protein": 26.0,
+    "carbs": 3.0,
+    "fat": 0.4,
+    "fiber": 0.2,
+    "meals": [],
+    "method": "reported-as-eaten. OPEN (through the 11:30 shrimp). 9:30 yogurt bowl not yet confirmed. Pending: toast 14:45, smoothie 17:30, shawarma thigh bowl 18:30, bolognese 20:15, rest of the shrimp tray.",
+    "deviations": [
+      {
+        "desc": "~11:30 shrimp cocktail as an early lunch: 108g Kirkland tray shrimp + 10g cocktail sauce (Adam's numbers). Swapped with the shawarma thigh bowl, which moved to 18:30.",
+        "kcal": 119.3,
+        "protein": 26.0,
+        "carbs": 3.0,
+        "fat": 0.4,
+        "fiber": 0.2
+      }
+    ],
+    "notes": "Shrimp cocktail moved from 18:30 to 11:30 lunch; shawarma thigh bowl moved to 18:30 and bolognese to 20:15. Sourdough batard DoorDashed from Bi-Rite (~11:35) after the 9/30 moldy loaf."
   }
 ]
