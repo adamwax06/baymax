@@ -11579,6 +11579,79 @@
         }
       ],
       "notes": "Lat felt strange on one side, so the backoff stayed light. No skull crushers in the source note."
+    },
+    {
+      "date": "2026-10-01",
+      "type": "pull",
+      "exercises": [
+        {
+          "name": "Lat Pulldown",
+          "sets": [
+            {
+              "lb": 190,
+              "reps": [
+                8,
+                6
+              ]
+            }
+          ],
+          "notes": "Fourth session at 190, same 8,6 as 9/24."
+        },
+        {
+          "name": "Row",
+          "sets": [
+            {
+              "lb": 185,
+              "reps": [
+                8,
+                8,
+                7
+              ]
+            }
+          ],
+          "notes": "First outing at 185, one rep short of complete (8,8,8)."
+        },
+        {
+          "name": "Cable Curl",
+          "sets": [
+            {
+              "lb": 67,
+              "reps": [
+                8,
+                7
+              ]
+            }
+          ],
+          "notes": "Same as 9/24."
+        },
+        {
+          "name": "Unilateral DB Curl",
+          "sets": [
+            {
+              "lb": 45,
+              "reps": [
+                6,
+                5
+              ]
+            }
+          ],
+          "notes": "Up a rep from 5,5 on 9/24."
+        },
+        {
+          "name": "Unilateral Lat Pullover",
+          "sets": [
+            {
+              "lb": 43,
+              "reps": [
+                8,
+                6
+              ]
+            }
+          ],
+          "notes": "Same 14 total as 7,7 on 9/24."
+        }
+      ],
+      "notes": "Thursday pull, the third day of the Tue/Wed/Thu cluster. Bolognese moved to 12:30 lunch for fuel."
     }
   ]
 }
