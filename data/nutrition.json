@@ -2907,14 +2907,14 @@
     "carbs": 424,
     "fat": 98,
     "calcium": 1067.7,
-    "iron": 13.0,
+    "iron": 13,
     "magnesium": 363.3,
     "potassium": 2644.1,
     "sodium": 3626.6,
     "zinc": 16.6,
     "vitD": 3.2,
     "vitC": 80.2,
-    "fiber": 28.0,
+    "fiber": 28,
     "ala": 5.6,
     "meals": [
       "blueberry-yogurt-bowl",
@@ -2988,23 +2988,86 @@
   },
   {
     "date": "2026-10-01",
-    "kcal": 119.3,
-    "protein": 26.0,
-    "carbs": 3.0,
-    "fat": 0.4,
-    "fiber": 0.2,
-    "meals": [],
-    "method": "reported-as-eaten. OPEN (through the 11:30 shrimp). 9:30 yogurt bowl not yet confirmed. Pending: toast 14:45, smoothie 17:30, shawarma thigh bowl 18:30, bolognese 20:15, rest of the shrimp tray.",
+    "kcal": 3071.4,
+    "protein": 160.8,
+    "carbs": 358.9,
+    "fat": 109.1,
+    "fiber": 5.4,
+    "meals": [
+      "blueberry-yogurt-bowl"
+    ],
+    "method": "reported-as-eaten. DAY CLOSED. Yogurt bowl and smoothie ASSUMED per plan (not confirmed).",
     "deviations": [
       {
         "desc": "~11:30 shrimp cocktail as an early lunch: 108g Kirkland tray shrimp + 10g cocktail sauce (Adam's numbers). Swapped with the shawarma thigh bowl, which moved to 18:30.",
         "kcal": 119.3,
-        "protein": 26.0,
-        "carbs": 3.0,
+        "protein": 26,
+        "carbs": 3,
         "fat": 0.4,
         "fiber": 0.2
+      },
+      {
+        "desc": "12:30 beef bolognese per the calendar: Tuesday boxed sauce (~107g beef raw + 170g marinara) + 120g dry pasta + 30g mozzarella (calendar figures).",
+        "kcal": 920,
+        "protein": 43,
+        "carbs": 105,
+        "fat": 33
+      },
+      {
+        "desc": "15:45 pre-lift toast per the calendar: 90g TJ sourdough + 25g honey + 1 mandarin (calendar figures). Rest of the shrimp tray NOT reported eaten.",
+        "kcal": 367,
+        "protein": 10,
+        "carbs": 78,
+        "fat": 3
+      },
+      {
+        "desc": "19:15 post-lift smoothie, calendar version (100g yogurt, 250g oat milk, 120g mango, 40g oats, 30g honey, 15g chia). ASSUMED eaten (not confirmed).",
+        "kcal": 575,
+        "protein": 20,
+        "carbs": 88,
+        "fat": 16
+      },
+      {
+        "desc": "~19:30 Fogo de Chao picanha plate (friend treat), PHOTO ESTIMATE of what was eaten: ~140g cooked picanha ~350/34P, ~half the mashed potatoes ~190/3P, a few asparagus spears ~20/1P, ~2 pao de queijo ASSUMED ~150/3P. Left over (boxed for Sat 10/3 lunch): ~90g picanha, ~125g mash, most of the asparagus, chimichurri.",
+        "kcal": 710,
+        "protein": 41,
+        "carbs": 38,
+        "fat": 43
       }
     ],
-    "notes": "Shrimp cocktail moved from 18:30 to 11:30 lunch; shawarma thigh bowl moved to 18:30 and bolognese to 20:15. Sourdough batard DoorDashed from Bi-Rite (~11:35) after the 9/30 moldy loaf."
+    "notes": "Shrimp cocktail moved from 18:30 to 11:30 lunch; shawarma thigh bowl moved to 18:30 and bolognese to 20:15. Sourdough batard DoorDashed from Bi-Rite (~11:35) after the 9/30 moldy loaf. Shawarma thigh bowl replaced by Fogo de Chao (friend treat); Adam felt overfull, leftovers boxed for Sat 10/3 lunch. Flan skipped and tossed (made ~9/19, ~12 days old)."
+  },
+  {
+    "date": "2026-10-02",
+    "kcal": 1744,
+    "protein": 89,
+    "carbs": 179,
+    "fat": 76,
+    "meals": [],
+    "method": "reported-as-eaten. OPEN (through the 18:30 toast). Pending: bigger shrimp scampi ~19:45 (200g pasta, 40g butter, ~1,400/88P). Not going to Chabad.",
+    "deviations": [
+      {
+        "desc": "9:30 rest-day yogurt bowl per the calendar: 250g greek yogurt + 80g frozen strawberries + 25g honey + 15g chia (calendar figures; carbs/fat derived). Confirmed by Adam.",
+        "kcal": 410,
+        "protein": 25,
+        "carbs": 42,
+        "fat": 16
+      },
+      {
+        "desc": "~14:00 Arbor (Hayes St) cheeseburger instead of the shawarma thigh bowl. PHOTO ESTIMATE, no published nutrition: ~6oz Niman grass-fed patty ~370/34P, ~2 slices cheddar ~160/10P, large sesame brioche bun ~280/8P, sherry-chili onions ~60, Arbor sauce ~80, little gem + pickle. No bacon visible, no fries assumed.",
+        "kcal": 940,
+        "protein": 53,
+        "carbs": 54,
+        "fat": 57
+      },
+      {
+        "desc": "~18:30 toast (late, after the burger lunch): 100g TJ sourdough (Adam: 100g, not the planned 90g) + 25g honey + 1 mandarin. Calendar figures + 10g sourdough at 272 kcal/100g.",
+        "kcal": 394,
+        "protein": 11,
+        "carbs": 83,
+        "fat": 3
+      }
+    ],
+    "notes": "Shawarma thigh bowl replaced by an Arbor cheeseburger; the boxed thighs (cooked Tue 9/29) went uneaten."
   }
 ]

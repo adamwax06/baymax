@@ -11652,6 +11652,25 @@
         }
       ],
       "notes": "Thursday pull, the third day of the Tue/Wed/Thu cluster. Bolognese moved to 12:30 lunch for fuel."
+    },
+    {
+      "date": "2026-10-02",
+      "type": "push",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "lb": 205,
+              "reps": [
+                1
+              ]
+            }
+          ],
+          "notes": "Unplanned rest-day singles after a ~10 min treadmill walk; warmups not reported. 205x1 clean. Then FAILED 225 (not logged as a set so it can't feed e1RM; sticking point not reported). Adam says he's fine, no injury."
+        }
+      ],
+      "notes": "Unplanned evening session on a scheduled rest day, two days after the 9/30 215x1 grinder. Second near-max bench day in three days."
     }
   ]
 }
