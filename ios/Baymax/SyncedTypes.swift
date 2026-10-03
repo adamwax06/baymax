@@ -44,6 +44,8 @@ enum SyncedTypes {
         (.bodyMassIndex, .count()),
         (.runningSpeed, HKUnit.meter().unitDivided(by: .second())),
         (.runningPower, .watt()),
+        (.headphoneAudioExposure, .decibelAWeightedSoundPressureLevel()),
+        (.environmentalAudioExposure, .decibelAWeightedSoundPressureLevel()),
     ]
 
     static let categories: [HKCategoryTypeIdentifier] = [

@@ -84,6 +84,8 @@ export const METRICS: readonly MetricDef[] = [
   { name: "bmi", hkType: "HKQuantityTypeIdentifierBodyMassIndex", kind: "quantity", unit: "count", aggregation: "latest", description: "Body mass index" },
   { name: "running_speed", hkType: "HKQuantityTypeIdentifierRunningSpeed", kind: "quantity", unit: "m/s", aggregation: "avg", description: "Running speed (m/s), recorded during running workouts" },
   { name: "running_power", hkType: "HKQuantityTypeIdentifierRunningPower", kind: "quantity", unit: "W", aggregation: "avg", description: "Running power (watts), recorded during running workouts" },
+  { name: "headphone_audio", hkType: "HKQuantityTypeIdentifierHeadphoneAudioExposure", kind: "quantity", unit: "dBASPL", aggregation: "avg", description: "Headphone audio level (dBA) from AirPods/Beats; WHO safe-listening guideline is 80 dBA for ~40 h/week, each +3 dB halves it" },
+  { name: "environmental_audio", hkType: "HKQuantityTypeIdentifierEnvironmentalAudioExposure", kind: "quantity", unit: "dBASPL", aggregation: "avg", description: "Ambient noise level (dBA) measured by the Watch microphone" },
   { name: "sleep", hkType: SLEEP_TYPE, kind: "category", unit: null, aggregation: "sleep", description: "Sleep stages from sleep trackers (Eight Sleep, Watch, …). Queried as noon-to-noon nights, reported per source (never merged)", categoryValues: SLEEP_VALUES },
   { name: "high_heart_rate_events", hkType: "HKCategoryTypeIdentifierHighHeartRateEvent", kind: "category", unit: null, aggregation: "sum", description: "High heart rate notifications (event count)" },
   { name: "low_heart_rate_events", hkType: "HKCategoryTypeIdentifierLowHeartRateEvent", kind: "category", unit: null, aggregation: "sum", description: "Low heart rate notifications (event count)" },
