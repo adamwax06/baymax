@@ -1000,11 +1000,6 @@
     "note": "10/1: TWO loaves. (1) A full TJ's sourdough loaf found in the freezer (Adam), thawing 10/1 for this week: 90g Thu toast, 160g Fri crab melt, 90g Fri toast, 90g Sat pre-lift toast, 90g Sun toast, plus spare. Weight unknown, likely ~680g. (2) A Firebrand sourdough batard (18 oz, ~510g) DoorDashed from Bi-Rite 10/1 (ordered before the freezer loaf turned up). Slice and freeze it for next week."
   },
   {
-    "food": "fogo-leftovers",
-    "asOf": "2026-10-01",
-    "note": "Fogo de Chao box from 10/1 dinner, cooked, fridge: ~90g picanha, ~125g mashed potatoes, most of the asparagus, chimichurri cup. ~485 kcal / 27P. Planned: Sat 10/3 lunch (beef marinara over the mash). Toss if not eaten by Sun 10/4."
-  },
-  {
     "food": "chicken-thigh",
     "asOf": "2026-10-01",
     "note": "Pack 1 boxed portion (~225g raw weight, cooked 9/29) skipped Thu, now Fri 10/2 lunch, its last safe day. Pack 2 moves to the fridge Thu night for Sat dinner (box ~200g for Mon)."
@@ -1013,5 +1008,60 @@
     "food": "shrimp-raw",
     "asOf": "2026-10-01",
     "note": "TJ red shrimp bag (454g, frozen, presence assumed from 9/21 + 9/30 notes). Moving to the fridge Thu night; 300g goes to Fri 10/2 scampi dinner, ~150g left."
+  },
+  {
+    "asOf": "2026-10-04",
+    "food": "greek-yogurt-whole",
+    "note": "OUT - no tubs in the 10/4 fridge photos (today's bowl finished the last). Costco run Mon 10/5."
+  },
+  {
+    "asOf": "2026-10-04",
+    "food": "chicken-breast-cooked",
+    "note": "Raw breast pack on the middle fridge shelf 10/4 (Adam: the last one he pulled, recently). Cook all of it Sun dinner: 250g tonight, rest boxed for Wed lunch."
+  },
+  {
+    "asOf": "2026-10-04",
+    "food": "chicken-thigh",
+    "note": "Pack 2 in the fridge (Adam 10/4), moved ~Thu 10/1 night, so cook it Sun 10/4 night at the latest. Cooked: Mon dinner 250g, Tue lunch ~200g."
+  },
+  {
+    "asOf": "2026-10-04",
+    "food": "ground-beef-85",
+    "note": "1 lb in the fridge (Adam 10/4), moved ~Thu 10/1 night, so brown all of it Sun 10/4 night. Cooked: Mon lunch ~225g, Tue dinner ~229g."
+  },
+  {
+    "asOf": "2026-10-04",
+    "food": "shrimp-raw",
+    "note": "Fridge leftover (~150g from the scampi bag, thawed since Thu) TOSSED 10/4. One more full 16oz TJ red shrimp bag (454g) frozen in the freezer drawer."
+  },
+  {
+    "asOf": "2026-10-04",
+    "food": "chipotle-chicken-costco",
+    "note": "Freezer 10/4: one pack of Costco chipotle chicken (Adam). The household Same-Day 'buy it again' list has 'Grilled Chipotle Seasoned Chicken, 2 lb' (Kirkland: ~100 kcal/16P per 85g; chicken, salt, sugar, smoked paprika, paprika, chipotle, chili; no bell pepper listed, paprika is explicitly safe), so it's probably that, not Del Real. Confirm on the pack. Fully cooked: thaw in the fridge, then 3-4 days."
+  },
+  {
+    "asOf": "2026-10-04",
+    "food": "just-bare-chunks",
+    "note": "Freezer 10/4: Just Bare breaded chicken chunks bag(s) present."
+  },
+  {
+    "asOf": "2026-10-04",
+    "food": "ground-chicken",
+    "note": "Freezer 10/4: one TJ's ground chicken 1 lb (8% fat) present."
+  },
+  {
+    "asOf": "2026-10-04",
+    "food": "bread-sourdough",
+    "note": "Freezer 10/4: Firebrand sourdough batard still frozen; TJ's loaf in use in the fridge."
+  },
+  {
+    "asOf": "2026-10-04",
+    "food": "mango",
+    "note": "Freezer 10/4: 2+ TJ's mango chunk bags."
+  },
+  {
+    "asOf": "2026-10-04",
+    "food": "not-adams",
+    "note": "10/4 photos: Fairlife Nutrition Plan shakes (~17, not his / doesn't digest them), Silk almond milk (tree nut), green pesto jar (likely nuts), two yellow/white tubes (dog food), a red-sauce deli tub (unknown). Never plan any of these."
   }
 ]

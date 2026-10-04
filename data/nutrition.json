@@ -3039,12 +3039,12 @@
   },
   {
     "date": "2026-10-02",
-    "kcal": 1744,
-    "protein": 89,
-    "carbs": 179,
-    "fat": 76,
+    "kcal": 3633,
+    "protein": 185,
+    "carbs": 384,
+    "fat": 149,
     "meals": [],
-    "method": "reported-as-eaten. OPEN (through the 18:30 toast). Pending: bigger shrimp scampi ~19:45 (200g pasta, 40g butter, ~1,400/88P). Not going to Chabad.",
+    "method": "reported-as-eaten. DAY CLOSED. Scampi as planned + ~half pint Cherry Garcia, both reported 10/4.",
     "deviations": [
       {
         "desc": "9:30 rest-day yogurt bowl per the calendar: 250g greek yogurt + 80g frozen strawberries + 25g honey + 15g chia (calendar figures; carbs/fat derived). Confirmed by Adam.",
@@ -3066,8 +3066,109 @@
         "protein": 11,
         "carbs": 83,
         "fat": 3
+      },
+      {
+        "desc": "~19:45 bigger shrimp scampi per the calendar, eaten as planned (Adam, reported 10/4): 300g TJ red shrimp raw + 200g dry linguine + 40g butter + 10g olive oil + 15g garlic + juice of 1 lemon (~50g). foods.json per-100g.",
+        "kcal": 1409,
+        "protein": 88,
+        "carbs": 159,
+        "fat": 47
+      },
+      {
+        "desc": "Late night after the scampi: ~half a pint of Ben & Jerry's Cherry Garcia (Adam: 'like half'). ~960 kcal/pint (240 per 1/2 cup), so ~480.",
+        "kcal": 480,
+        "protein": 8,
+        "carbs": 46,
+        "fat": 26
       }
     ],
     "notes": "Shawarma thigh bowl replaced by an Arbor cheeseburger; the boxed thighs (cooked Tue 9/29) went uneaten."
+  },
+  {
+    "date": "2026-10-03",
+    "kcal": 2840,
+    "protein": 124,
+    "carbs": 305,
+    "fat": 125,
+    "meals": [],
+    "method": "reported-as-eaten (10/4, from recall). DAY CLOSED. Mostly off-plan; restaurant items are estimates.",
+    "deviations": [
+      {
+        "desc": "Morning yogurt bowl, smaller than planned: 150g whole greek yogurt + 15g honey (Adam). No strawberries/chia reported.",
+        "kcal": 188,
+        "protein": 13,
+        "carbs": 20,
+        "fat": 7
+      },
+      {
+        "desc": "Wooly Pig (Dogpatch) 'David's Fried Chicken' sandwich instead of the beef-marinara lunch: curry-spiced fried chicken, cabbage-apple slaw, tomato, cilantro-lime dressing, garlic-butter brioche (menu). PHOTO ESTIMATE (IMG_4961): ~180g fried chicken ~430/32P, brioche ~330/9P, slaw+dressing ~120. No published nutrition.",
+        "kcal": 890,
+        "protein": 42,
+        "carbs": 73,
+        "fat": 47
+      },
+      {
+        "desc": "Bowl of shrimp chips (prawn crackers) served with the sandwich, ~40g, ASSUMED all eaten (photo).",
+        "kcal": 210,
+        "protein": 1,
+        "carbs": 27,
+        "fat": 11
+      },
+      {
+        "desc": "HEYTEA grape slush, small size, reduced ('mild') sugar. Estimate, no cheese foam reported.",
+        "kcal": 210,
+        "protein": 1,
+        "carbs": 52,
+        "fat": 0
+      },
+      {
+        "desc": "~16:00 Fogo de Chao leftovers eaten on their own (no beef marinara): ~90g picanha, ~125g mash, asparagus, chimichurri (inventory estimate ~485/27P).",
+        "kcal": 485,
+        "protein": 27,
+        "carbs": 24,
+        "fat": 31
+      },
+      {
+        "desc": "Dinner: gnocchi dal mare at Divino, Sausalito (house gnocchi + shrimp, mussels, clams, maybe calamari, white wine-garlic sauce; all shellfish, safe). ESTIMATE: ~300g gnocchi ~450/12P, ~150g shellfish ~150/27P, ~25g butter/oil ~225. No bread or wine reported.",
+        "kcal": 837,
+        "protein": 40,
+        "carbs": 104,
+        "fat": 29
+      },
+      {
+        "desc": "5mg THC edible (gummy-size, ~20 kcal assumed).",
+        "kcal": 20,
+        "protein": 0,
+        "carbs": 5,
+        "fat": 0
+      }
+    ],
+    "notes": "Off-plan social day out (Dogpatch, then Sausalito). Planned beef marinara lunch, pre-lift toast, smoothie and honey-sriracha thigh dinner all skipped; legs SKIPPED (right side of the lower back still off). Fogo leftovers used on their last good day. Yogurt 150g, not the planned 200g."
+  },
+  {
+    "date": "2026-10-04",
+    "kcal": 1194,
+    "protein": 78,
+    "carbs": 125,
+    "fat": 44,
+    "meals": [],
+    "method": "reported-as-eaten. OPEN. bb.q wings replaced the egg-wrap lunch (Adam). Dinner switched to beef marinara pasta (lunch was chicken).",
+    "deviations": [
+      {
+        "desc": "9:30 yogurt bowl per the calendar, ASSUMED eaten (not confirmed): 200g whole greek yogurt + 80g frozen strawberries + 20g honey + 15g chia.",
+        "kcal": 349,
+        "protein": 21,
+        "carbs": 39,
+        "fat": 14
+      },
+      {
+        "desc": "Football Sunday bb.q Chicken (friend's order), PHOTO IMG_4983, estimated from bb.q's published nutrition PDF: 2 Golden Original boneless pieces (~106/6.5P each), 4 glazed boneless pieces (Soy Garlic + Galbi, ~84/9P each), ~1/3 serving Kimchi Fried Rice (Adam confirmed kimchi) (890/25P per serving). ALLERGY: bb.q's July 2026 allergen list says Golden Original + Secret Sauce CONTAIN PEANUT and Kimchi Fried Rice CONTAINS FISH; Adam reported feeling fine.",
+        "kcal": 845,
+        "protein": 57,
+        "carbs": 86,
+        "fat": 30
+      }
+    ],
+    "notes": "Deload push day. bb.q plate eaten during football; allergen warning given, no reaction reported at the time."
   }
 ]
