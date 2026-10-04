@@ -1063,5 +1063,10 @@
     "asOf": "2026-10-04",
     "food": "not-adams",
     "note": "10/4 photos: Fairlife Nutrition Plan shakes (~17, not his / doesn't digest them), Silk almond milk (tree nut), green pesto jar (likely nuts), two yellow/white tubes (dog food), a red-sauce deli tub (unknown). Never plan any of these."
+  },
+  {
+    "asOf": "2026-10-04",
+    "food": "costco-sameday-order",
+    "note": "Costco Same-Day order #21331001638462448 placed 10/4, $125.20 (Standard, arriving 3:08-4:33pm, left at the door): 3x Green Mountain Creamery 2% plain organic Greek 2 lb (~2,720g; use foods.json greek-yogurt-whole as proxy until the label is photographed), Kirkland organic ground beef 3x1.34 lb (~1,820g, freeze 2 packs), organic baby spinach 1 lb, gold potatoes 10 lb, cocktail cucumbers 1.5 lb, seedless lemons 3 lb, Kirkland organic frozen strawberries 4 lb, Native coconut-vanilla body wash 2-pack."
   }
 ]

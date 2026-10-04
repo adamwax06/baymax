@@ -1337,5 +1337,23 @@
     },
     "allergyChecked": "2026-09-29",
     "notes": "Friend-made, no label. Generic egg/milk/sugar caramel custard estimate. Adam OK'd the contents 9/29."
+  },
+  {
+    "id": "chipotle-chicken-kirkland",
+    "name": "Grilled Chipotle Seasoned Chicken (Kirkland, fully cooked, sliced)",
+    "brand": "Kirkland Signature",
+    "store": "costco",
+    "fdcType": "label",
+    "weighed": "cooked",
+    "per100g": {
+      "kcal": 118,
+      "protein": 18.8,
+      "carbs": 3.5,
+      "fat": 2.9,
+      "sodium": 1240
+    },
+    "packageG": 907,
+    "allergyChecked": "2026-10-04",
+    "notes": "Costco #1446716, 2 lb. Label per 85g: 100 kcal, 16P, 3C, 2.5F (Open Food Facts 0196633849465 / 16338494). Ingredients: chicken, water, salt, sugar, maltodextrin, smoked paprika, paprika, corn starch, chipotle pepper powder, chili pepper, dehydrated onion, spices, citric acid, yeast extract. No legume, nut, fish or bell pepper; paprika is explicitly safe. Confirm on the pack Adam has."
   }
 ]
