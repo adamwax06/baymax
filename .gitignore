@@ -8,6 +8,7 @@ data/*
 !data/profile.json
 !data/foods.json
 !data/meals.json
+!data/costco-catalog.json
 !data/clinical/
 !data/clinical/.gitignore
 !data/clinical/README.md
