@@ -3147,28 +3147,46 @@
   },
   {
     "date": "2026-10-04",
-    "kcal": 1194,
-    "protein": 78,
-    "carbs": 125,
-    "fat": 44,
+    "kcal": 1987,
+    "protein": 144,
+    "carbs": 126,
+    "fat": 96,
     "meals": [],
-    "method": "reported-as-eaten. OPEN. bb.q wings replaced the egg-wrap lunch (Adam). Dinner switched to beef marinara pasta (lunch was chicken).",
+    "method": "reported-as-eaten (10/5). DAY CLOSED. No breakfast (yogurt was out); bb.q wings replaced the egg-wrap lunch; Chez Maman half chicken + mash replaced the beef marinara pasta dinner. Restaurant items are estimates.",
     "deviations": [
-      {
-        "desc": "9:30 yogurt bowl per the calendar, ASSUMED eaten (not confirmed): 200g whole greek yogurt + 80g frozen strawberries + 20g honey + 15g chia.",
-        "kcal": 349,
-        "protein": 21,
-        "carbs": 39,
-        "fat": 14
-      },
       {
         "desc": "Football Sunday bb.q Chicken (friend's order), PHOTO IMG_4983, estimated from bb.q's published nutrition PDF: 2 Golden Original boneless pieces (~106/6.5P each), 4 glazed boneless pieces (Soy Garlic + Galbi, ~84/9P each), ~1/3 serving Kimchi Fried Rice (Adam confirmed kimchi) (890/25P per serving). ALLERGY: bb.q's July 2026 allergen list says Golden Original + Secret Sauce CONTAIN PEANUT and Kimchi Fried Rice CONTAINS FISH; Adam reported feeling fine.",
         "kcal": 845,
         "protein": 57,
         "carbs": 86,
         "fat": 30
+      },
+      {
+        "desc": "Chez Maman takeout dinner instead of the beef marinara pasta: half roasted chicken (~300g edible meat+skin, ~717/81P) + bistro mashed potatoes (~250g, butter/cream, ~375/6P) + jus (~50). Estimate; no published nutrition.",
+        "kcal": 1142,
+        "protein": 87,
+        "carbs": 40,
+        "fat": 66
       }
     ],
-    "notes": "Deload push day. bb.q plate eaten during football; allergen warning given, no reaction reported at the time."
+    "notes": "Deload push day planned but SKIPPED (no workout). bb.q plate eaten during football; allergen warning given, no reaction reported. Asleep ~11pm."
+  },
+  {
+    "date": "2026-10-05",
+    "kcal": 250,
+    "protein": 18,
+    "carbs": 26,
+    "fat": 9,
+    "meals": [],
+    "method": "reported-as-eaten. OPEN.",
+    "deviations": [
+      {
+        "desc": "9:30 yogurt bowl, just yogurt + honey (Adam: no strawberries, no chia): 200g greek yogurt (Green Mountain 2%, greek-yogurt-whole proxy) + 20g honey.",
+        "kcal": 250,
+        "protein": 18,
+        "carbs": 26,
+        "fat": 9
+      }
+    ]
   }
 ]
