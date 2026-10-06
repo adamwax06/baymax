@@ -646,6 +646,668 @@
       ]
     },
     {
+      "date": "2023-07-01",
+      "type": "push",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "lb": 135,
+              "reps": [
+                4,
+                3,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shoulder Press",
+          "sets": [
+            {
+              "lb": 105,
+              "reps": [
+                8,
+                7,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Lat Raise",
+          "sets": [
+            {
+              "lb": 65,
+              "reps": [
+                10,
+                7,
+                5
+              ]
+            }
+          ],
+          "notes": "Written as 'Lat raise: 65'; equipment unknown (likely a machine or cable)."
+        },
+        {
+          "name": "Dips",
+          "sets": [
+            {
+              "bodyweight": true,
+              "reps": [
+                5,
+                4,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Tricep Pushdown",
+          "sets": [
+            {
+              "lb": 35,
+              "reps": [
+                6,
+                5,
+                5
+              ]
+            }
+          ]
+        }
+      ],
+      "notes": "From the Apple Note 'Weights' dated 2023-07-01: a single undated snapshot of the latest numbers, so the actual session dates (probably the week before) are unknown."
+    },
+    {
+      "date": "2023-07-01",
+      "type": "pull",
+      "exercises": [
+        {
+          "name": "Low Row",
+          "sets": [
+            {
+              "lb": 150,
+              "reps": [
+                8,
+                7,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Lat Pulldown",
+          "sets": [
+            {
+              "lb": 120,
+              "reps": [
+                7,
+                7,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Incline Curl",
+          "sets": [
+            {
+              "lb": 25,
+              "reps": [
+                9,
+                8,
+                7
+              ],
+              "perSide": true
+            }
+          ],
+          "notes": "Written as 'Curls(incline): 25's'."
+        }
+      ],
+      "notes": "From the Apple Note 'Weights' dated 2023-07-01: a single undated snapshot of the latest numbers, so the actual session dates (probably the week before) are unknown."
+    },
+    {
+      "date": "2023-07-01",
+      "type": "legs",
+      "exercises": [
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "lb": 155,
+              "reps": [
+                8,
+                8,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Calf Raises",
+          "sets": [
+            {
+              "lb": 135,
+              "reps": [
+                8,
+                8,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Leg Extension",
+          "sets": [
+            {
+              "lb": 150,
+              "reps": [
+                10,
+                10,
+                10
+              ]
+            }
+          ],
+          "notes": "Written as 'Quad Ext'."
+        },
+        {
+          "name": "Hamstring Curl",
+          "sets": [
+            {
+              "lb": 110,
+              "reps": [
+                10,
+                10,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Walking Lunges",
+          "sets": [
+            {
+              "lb": 80,
+              "reps": [
+                16,
+                16,
+                16
+              ]
+            }
+          ],
+          "notes": "Load convention unknown (total vs per hand)."
+        }
+      ],
+      "notes": "From the Apple Note 'Weights' dated 2023-07-01: a single undated snapshot of the latest numbers, so the actual session dates (probably the week before) are unknown."
+    },
+    {
+      "date": "2025-04-29",
+      "type": "push",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "lb": 155,
+              "reps": [
+                5,
+                3
+              ]
+            }
+          ],
+          "notes": "Written '155 for 5|2, 3|2': read as rest-pause (5+2, then 3+2). Only the first segment of each set is logged."
+        },
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "lb": 175,
+              "reps": [
+                1
+              ]
+            }
+          ],
+          "notes": "The note's 'PRs: BENCH: 175 for 1'. Date unknown, on or before 4/29/25."
+        },
+        {
+          "name": "Machine Bench Press",
+          "sets": [
+            {
+              "lb": 110,
+              "reps": [
+                7,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Tricep Pushdown (FTS Glide)",
+          "sets": [
+            {
+              "lb": 60,
+              "reps": [
+                12
+              ]
+            },
+            {
+              "lb": 70,
+              "reps": [
+                12,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Tricep Pushdown (Precor)",
+          "sets": [
+            {
+              "lb": 90,
+              "reps": [
+                12,
+                12,
+                12
+              ]
+            }
+          ]
+        },
+        {
+          "name": "DB Tricep Extension",
+          "sets": [
+            {
+              "lb": 15,
+              "reps": [
+                10
+              ]
+            }
+          ],
+          "notes": "Written as 'DB 15 for 10' under pushdowns; exact movement unknown."
+        },
+        {
+          "name": "DB Lateral Raise",
+          "sets": [
+            {
+              "lb": 30,
+              "reps": [
+                15,
+                15,
+                16
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Incline DB Press",
+          "sets": [
+            {
+              "lb": 90,
+              "reps": [
+                10,
+                9,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "name": "DB Skull Crusher",
+          "sets": [
+            {
+              "lb": 15,
+              "reps": [
+                10
+              ]
+            }
+          ]
+        }
+      ],
+      "notes": "From the Apple Note '5 Day College Splits' (last edited 2025-04-29): a snapshot of the latest numbers per exercise, so actual session dates (spring 2025) are unknown. BW 167.2."
+    },
+    {
+      "date": "2025-04-29",
+      "type": "pull",
+      "exercises": [
+        {
+          "name": "Machine Row",
+          "sets": [
+            {
+              "lb": 145,
+              "reps": [
+                8,
+                8,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cable Curl",
+          "sets": [
+            {
+              "lb": 37.5,
+              "reps": [
+                9,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cable Curl (FTS Glide)",
+          "sets": [
+            {
+              "lb": 80,
+              "reps": [
+                12,
+                11
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Lat Pulldown",
+          "sets": [
+            {
+              "lb": 110,
+              "reps": [
+                10,
+                10,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "name": "DB Bicep Curl",
+          "sets": [
+            {
+              "lb": 20,
+              "reps": [
+                10,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Lat Pulldown",
+          "sets": [
+            {
+              "lb": 32.5,
+              "reps": [
+                10,
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Rear Delt Fly",
+          "sets": [
+            {
+              "reps": [
+                7,
+                5
+              ]
+            }
+          ],
+          "notes": "Load written as '4th level' (machine pin setting), not in lb."
+        }
+      ],
+      "notes": "From the Apple Note '5 Day College Splits' (last edited 2025-04-29): a snapshot of the latest numbers per exercise, so actual session dates (spring 2025) are unknown. BW 167.2."
+    },
+    {
+      "date": "2025-04-29",
+      "type": "legs",
+      "exercises": [
+        {
+          "name": "Front Squat",
+          "sets": [
+            {
+              "lb": 135,
+              "reps": [
+                8,
+                8,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hip Thrust (Machine)",
+          "sets": [
+            {
+              "lb": 90,
+              "reps": [
+                10
+              ]
+            },
+            {
+              "lb": 110,
+              "reps": [
+                10
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Leg Extension",
+          "sets": [
+            {
+              "lb": 90,
+              "reps": [
+                7
+              ]
+            },
+            {
+              "lb": 75,
+              "reps": [
+                10,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Calf Raises",
+          "sets": [
+            {
+              "reps": [
+                11,
+                10,
+                12,
+                9
+              ]
+            }
+          ],
+          "notes": "Load written as '6 plates'."
+        },
+        {
+          "name": "Lying Leg Curl",
+          "sets": [
+            {
+              "lb": 40,
+              "reps": [
+                10,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Seated Leg Curl",
+          "sets": [
+            {
+              "lb": 110,
+              "reps": [
+                10,
+                10,
+                8
+              ]
+            }
+          ]
+        }
+      ],
+      "notes": "From the Apple Note '5 Day College Splits' (last edited 2025-04-29): a snapshot of the latest numbers per exercise, so actual session dates (spring 2025) are unknown. BW 163.8."
+    },
+    {
+      "date": "2025-04-29",
+      "type": "upper",
+      "exercises": [
+        {
+          "name": "Incline DB Press",
+          "sets": [
+            {
+              "lb": 110,
+              "reps": [
+                8,
+                8,
+                8,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Barbell Row",
+          "sets": [
+            {
+              "lb": 135,
+              "reps": [
+                8,
+                8,
+                7,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Machine Row",
+          "sets": [
+            {
+              "lb": 160,
+              "reps": [
+                8,
+                8,
+                7,
+                7
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Lat Pulldown",
+          "sets": [
+            {
+              "lb": 130,
+              "reps": [
+                10,
+                10,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Tricep Pushdown",
+          "sets": [
+            {
+              "lb": 70,
+              "reps": [
+                12,
+                12,
+                9
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bicep Curl",
+          "sets": [
+            {
+              "lb": 50,
+              "reps": [
+                10,
+                6,
+                5
+              ]
+            }
+          ],
+          "notes": "Equipment unknown."
+        }
+      ],
+      "notes": "From the Apple Note '5 Day College Splits' (last edited 2025-04-29): a snapshot of the latest numbers per exercise, so actual session dates (spring 2025) are unknown. BW 169."
+    },
+    {
+      "date": "2025-04-29",
+      "type": "lower",
+      "exercises": [
+        {
+          "name": "Deadlift",
+          "sets": [
+            {
+              "lb": 185,
+              "reps": [
+                6,
+                6
+              ]
+            },
+            {
+              "lb": 205,
+              "reps": [
+                6,
+                6
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Lunges",
+          "sets": [
+            {
+              "lb": 70,
+              "reps": [
+                10,
+                10,
+                10
+              ]
+            }
+          ],
+          "notes": "Load convention unknown (total vs per hand)."
+        },
+        {
+          "name": "Hamstring Curl",
+          "sets": [
+            {
+              "reps": [
+                10,
+                8,
+                6
+              ]
+            }
+          ],
+          "notes": "Load written as '2nd level + 10'."
+        },
+        {
+          "name": "Seated Calf Raises",
+          "sets": [
+            {
+              "lb": 150,
+              "reps": [
+                12,
+                10,
+                10,
+                12
+              ]
+            }
+          ]
+        }
+      ],
+      "notes": "From the Apple Note '5 Day College Splits' (last edited 2025-04-29): a snapshot of the latest numbers per exercise, so actual session dates (spring 2025) are unknown. Leg press listed with no numbers. BW 163.4."
+    },
+    {
       "date": "2025-05-22",
       "type": "legs",
       "exercises": [
