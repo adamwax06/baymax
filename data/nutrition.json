@@ -3173,12 +3173,12 @@
   },
   {
     "date": "2026-10-05",
-    "kcal": 1718,
-    "protein": 88,
-    "carbs": 259,
-    "fat": 39,
+    "kcal": 3368,
+    "protein": 172,
+    "carbs": 444,
+    "fat": 103,
     "meals": [],
-    "method": "reported-as-eaten. OPEN.",
+    "method": "reported-as-eaten. DAY CLOSED. Lunch/dinner replanned 10/5 (thighs + old beef tossed); push moved here from 10/4.",
     "deviations": [
       {
         "desc": "9:30 yogurt bowl, just yogurt + honey (Adam: no strawberries, no chia): 200g greek yogurt (Green Mountain 2%, greek-yogurt-whole proxy) + 20g honey.",
@@ -3200,6 +3200,34 @@
         "protein": 10,
         "carbs": 78,
         "fat": 2
+      },
+      {
+        "desc": "Post-lift smoothie per the calendar: 100g greek yogurt + 250g oat milk + 120g frozen mango + 40g oats + 30g honey. No chia (ASSUMED out, since the morning bowl skipped it).",
+        "kcal": 503,
+        "protein": 17,
+        "carbs": 84,
+        "fat": 13
+      },
+      {
+        "desc": "Pre-dinner snack: 100g Crazy Cuizine Mandarin Orange Chicken (Costco, Nanda made it). Label per 140g: 260 kcal / 13P / 35C / 7F. Contains egg, milk, soy, wheat; breading has <2% isolated soy protein (profile avoid list, questionable).",
+        "kcal": 186,
+        "protein": 9,
+        "carbs": 25,
+        "fat": 5
+      },
+      {
+        "desc": "20:00 beef & potatoes per the calendar: ~165g cooked beef (≈230g raw, Costco 85/15 browned whole tonight; the rest, ~270g cooked, boxed for Tue lunch) + 350g gold potatoes + 60g spinach + 8g butter + 25g mozzarella.",
+        "kcal": 911,
+        "protein": 58,
+        "carbs": 65,
+        "fat": 46
+      },
+      {
+        "desc": "A bit of Chick-fil-A Honey Mustard on the potatoes, logged as 1 packet (CFA published: 50 kcal, 0g fat, ~11g carbs). Amount ASSUMED.",
+        "kcal": 50,
+        "protein": 0,
+        "carbs": 11,
+        "fat": 0
       }
     ]
   }
