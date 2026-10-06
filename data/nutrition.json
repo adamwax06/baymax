@@ -3173,10 +3173,10 @@
   },
   {
     "date": "2026-10-05",
-    "kcal": 250,
-    "protein": 18,
-    "carbs": 26,
-    "fat": 9,
+    "kcal": 1718,
+    "protein": 88,
+    "carbs": 259,
+    "fat": 39,
     "meals": [],
     "method": "reported-as-eaten. OPEN.",
     "deviations": [
@@ -3186,6 +3186,20 @@
         "protein": 18,
         "carbs": 26,
         "fat": 9
+      },
+      {
+        "desc": "12:30 honey-sriracha chicken chunk rice bowl per the (replanned) calendar: 250g Just Bare chunks + 140g dry jasmine rice + 100g cucumber + 5g oil + 10g honey + 15g sriracha + 15g soy. Confirmed by Adam.",
+        "kcal": 1105,
+        "protein": 60,
+        "carbs": 155,
+        "fat": 28
+      },
+      {
+        "desc": "Pre-lift toast per the calendar: 90g TJ's sourdough + 25g honey + 1 mandarin (~80g). Confirmed by Adam.",
+        "kcal": 363,
+        "protein": 10,
+        "carbs": 78,
+        "fat": 2
       }
     ]
   }

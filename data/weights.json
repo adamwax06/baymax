@@ -11671,6 +11671,71 @@
         }
       ],
       "notes": "Unplanned evening session on a scheduled rest day, two days after the 9/30 215x1 grinder. Second near-max bench day in three days."
+    },
+    {
+      "date": "2026-10-05",
+      "type": "push",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "lb": 165,
+              "reps": [
+                8,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Tricep Pushdown",
+          "sets": [
+            {
+              "lb": 33,
+              "reps": [
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "name": "DB Lateral Raise",
+          "sets": [
+            {
+              "lb": 30,
+              "reps": [
+                8,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Incline Fly",
+          "sets": [
+            {
+              "lb": 66,
+              "reps": [
+                8
+              ]
+            }
+          ],
+          "notes": "Went lighter than the 72 prescribed."
+        },
+        {
+          "name": "DB Skull Crusher",
+          "sets": [
+            {
+              "lb": 25,
+              "reps": [
+                8
+              ]
+            }
+          ]
+        }
+      ],
+      "notes": "Deload push, moved from Sun 10/4 (skipped). Done exactly to the deload prescription except a lighter incline fly. Back felt fine (Adam)."
     }
   ]
 }
