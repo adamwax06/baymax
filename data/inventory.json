@@ -1088,5 +1088,25 @@
     "food": "just-bare-chunks",
     "asOf": "2026-10-05",
     "note": "Assigned: 250g Mon 10/5 lunch, 200g Wed 10/7 dinner (air-fry from frozen)."
+  },
+  {
+    "asOf": "2026-10-07",
+    "food": "shrimp-raw",
+    "note": "300g of the TJ's red shrimp moved to the fridge Tue 10/6 night (Adam confirmed). Cook it as scampi Wed 10/7 dinner. ~150g stays frozen."
+  },
+  {
+    "asOf": "2026-10-07",
+    "food": "ground-beef-costco",
+    "note": "Pack 2 moved to the fridge Tue 10/6 night (Adam confirmed). Brown it whole Thu 10/8 lunch: ~300g raw for the bolognese, then freeze the cooked extra. Pack 3 stays frozen for Sat 10/10."
+  },
+  {
+    "asOf": "2026-10-07",
+    "food": "chicken-breast-cooked",
+    "note": "NONE in the fridge (Adam 10/7). The 10/4 raw pack was never cooked (Chez Maman replaced Sun dinner) and is gone. Wed lunch and Thu quesadillas now use Just Bare chunks."
+  },
+  {
+    "asOf": "2026-10-07",
+    "name": "Crazy Cuizine Mandarin Orange Chicken (cooked)",
+    "note": "Leftover in the fridge, made by Nanda Mon 10/5. Finished at Wed 10/7 lunch (~250g)."
   }
 ]

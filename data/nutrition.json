@@ -3230,5 +3230,52 @@
         "fat": 0
       }
     ]
+  },
+  {
+    "date": "2026-10-06",
+    "kcal": 3383,
+    "protein": 176,
+    "carbs": 397,
+    "fat": 122,
+    "meals": [],
+    "method": "reported-as-eaten (10/7). DAY CLOSED. Adam confirmed he ate everything on the 10/6 calendar. Jay's pita replaced the beef-bowl lunch, so the beef moved to dinner and the buffalo wraps were dropped.",
+    "deviations": [
+      {
+        "desc": "9:30 yogurt bowl, just yogurt + honey: 200g greek yogurt (Green Mountain 2%, greek-yogurt-whole proxy) + 20g honey.",
+        "kcal": 250,
+        "protein": 18,
+        "carbs": 26,
+        "fat": 9
+      },
+      {
+        "desc": "12:30 Jay's Grill spicy chicken pita (standard custom wrap: spicy grilled chicken, rice, veggies, spicy garlic sauce), replacing the beef bowl. ESTIMATE, no published nutrition.",
+        "kcal": 950,
+        "protein": 50,
+        "carbs": 100,
+        "fat": 39
+      },
+      {
+        "desc": "Pre-lift toast at 19:15 per the calendar: 90g TJ's sourdough + 25g honey + 1 mandarin (~80g).",
+        "kcal": 363,
+        "protein": 10,
+        "carbs": 78,
+        "fat": 2
+      },
+      {
+        "desc": "21:30 post-lift soy-honey beef rice bowl per the calendar: Monday's whole beef box (~270g cooked, ≈380g raw Costco 85/15) + 120g dry jasmine rice + 40g spinach + 15g soy + 10g honey + 10g sriracha.",
+        "kcal": 1317,
+        "protein": 81,
+        "carbs": 109,
+        "fat": 59
+      },
+      {
+        "desc": "23:15 late smoothie per the calendar: 100g greek yogurt + 250g oat milk + 120g frozen mango + 40g oats + 30g honey. No chia (ASSUMED out, as on 10/5).",
+        "kcal": 503,
+        "protein": 17,
+        "carbs": 84,
+        "fat": 13
+      }
+    ],
+    "notes": "Napped through the 16:00 slot; deload pull at ~20:30. Before bed: moved one frozen Costco beef pack (Thu lunch) and 300g of TJ's red shrimp (Wed) to the fridge."
   }
 ]
