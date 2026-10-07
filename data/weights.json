@@ -12398,6 +12398,71 @@
         }
       ],
       "notes": "Deload push, moved from Sun 10/4 (skipped). Done exactly to the deload prescription except a lighter incline fly. Back felt fine (Adam)."
+    },
+    {
+      "date": "2026-10-06",
+      "type": "pull",
+      "exercises": [
+        {
+          "name": "Lat Pulldown",
+          "sets": [
+            {
+              "lb": 170,
+              "reps": [
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Row",
+          "sets": [
+            {
+              "lb": 165,
+              "reps": [
+                8,
+                8,
+                8
+              ]
+            }
+          ],
+          "notes": "Three sets, one more than the deload prescription."
+        },
+        {
+          "name": "Cable Curl",
+          "sets": [
+            {
+              "lb": 60,
+              "reps": [
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Unilateral DB Curl",
+          "sets": [
+            {
+              "lb": 40,
+              "reps": [
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Lat Pullover",
+          "sets": [
+            {
+              "lb": 37,
+              "reps": [
+                8
+              ]
+            }
+          ]
+        }
+      ],
+      "notes": "Deload pull, moved from Mon 10/5 and done at ~20:30 after a nap through the 16:00 slot."
     }
   ]
 }
