@@ -3280,12 +3280,12 @@
   },
   {
     "date": "2026-10-07",
-    "kcal": 3003,
-    "protein": 180,
-    "carbs": 373,
-    "fat": 89,
+    "kcal": 2640,
+    "protein": 170,
+    "carbs": 295,
+    "fat": 87,
     "meals": [],
-    "method": "reported-as-eaten. DAY CLOSED. Replanned through the day: orange chicken + chunks lunch split in two, scampi moved to a late dinner. The yogurt nightcap was SKIPPED because the scampi ran to 22:21 and the fasted Rhythm blood test is on 10/8.",
+    "method": "reported-as-eaten. Replanned through the day: orange chicken + chunks lunch split in two, scampi moved to a late dinner. The post-lift toast was NOT eaten (logged in error, then corrected). Late toast + yogurt pending.",
     "deviations": [
       {
         "desc": "9:30 yogurt bowl, just yogurt + honey: 200g greek yogurt (Green Mountain 2%, greek-yogurt-whole proxy) + 20g honey.",
@@ -3314,13 +3314,6 @@
         "protein": 6,
         "carbs": 72,
         "fat": 1
-      },
-      {
-        "desc": "18:30 post-lift toast per the calendar: 90g TJ's sourdough + 25g honey + 1 mandarin (~80g).",
-        "kcal": 363,
-        "protein": 10,
-        "carbs": 78,
-        "fat": 2
       },
       {
         "desc": "22:21 shrimp scampi per the calendar (Adam confirmed amounts): 300g raw TJ's red shrimp + 150g dry pasta + 30g butter + 10g olive oil + 15g garlic + 1 lemon.",
