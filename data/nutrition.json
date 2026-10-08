@@ -3277,5 +3277,59 @@
       }
     ],
     "notes": "Napped through the 16:00 slot; deload pull at ~20:30. Before bed: moved one frozen Costco beef pack (Thu lunch) and 300g of TJ's red shrimp (Wed) to the fridge."
+  },
+  {
+    "date": "2026-10-07",
+    "kcal": 3003,
+    "protein": 180,
+    "carbs": 373,
+    "fat": 89,
+    "meals": [],
+    "method": "reported-as-eaten. DAY CLOSED. Replanned through the day: orange chicken + chunks lunch split in two, scampi moved to a late dinner. The yogurt nightcap was SKIPPED because the scampi ran to 22:21 and the fasted Rhythm blood test is on 10/8.",
+    "deviations": [
+      {
+        "desc": "9:30 yogurt bowl, just yogurt + honey: 200g greek yogurt (Green Mountain 2%, greek-yogurt-whole proxy) + 20g honey.",
+        "kcal": 250,
+        "protein": 18,
+        "carbs": 26,
+        "fat": 9
+      },
+      {
+        "desc": "13:45 Crazy Cuizine Mandarin Orange Chicken 176g, weighed (the rest of the box; Nanda made it 10/5). Label per 140g: 260 kcal / 13P / 35C / 7F. Replaced the shrimp scampi lunch (scampi moved to dinner).",
+        "kcal": 327,
+        "protein": 16,
+        "carbs": 44,
+        "fat": 9
+      },
+      {
+        "desc": "~14:45 Just Bare breaded chicken chunks 250g, air fried, + 20g Chick-fil-A sauce. Replaced the buffalo chicken wraps: no cooked breast on hand.",
+        "kcal": 576,
+        "protein": 48,
+        "carbs": 31,
+        "fat": 30
+      },
+      {
+        "desc": "~16:20 white rice 90g dry, eaten on its own before legs (the second half of the split lunch).",
+        "kcal": 333,
+        "protein": 6,
+        "carbs": 72,
+        "fat": 1
+      },
+      {
+        "desc": "18:30 post-lift toast per the calendar: 90g TJ's sourdough + 25g honey + 1 mandarin (~80g).",
+        "kcal": 363,
+        "protein": 10,
+        "carbs": 78,
+        "fat": 2
+      },
+      {
+        "desc": "22:21 shrimp scampi per the calendar (Adam confirmed amounts): 300g raw TJ's red shrimp + 150g dry pasta + 30g butter + 10g olive oil + 15g garlic + 1 lemon.",
+        "kcal": 1154,
+        "protein": 82,
+        "carbs": 122,
+        "fat": 38
+      }
+    ],
+    "notes": "Deload legs at ~17:00 (squat 205x5 beltless; back felt fine). Last food 22:21, fasting for the 10/8 Rhythm test."
   }
 ]
