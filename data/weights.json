@@ -12463,6 +12463,49 @@
         }
       ],
       "notes": "Deload pull, moved from Mon 10/5 and done at ~20:30 after a nap through the 16:00 slot."
+    },
+    {
+      "date": "2026-10-07",
+      "type": "legs",
+      "exercises": [
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "lb": 205,
+              "reps": [
+                5
+              ]
+            }
+          ],
+          "notes": "No belt. Deload cap (205x5, one working set); back gate passed."
+        },
+        {
+          "name": "Hamstring Curl",
+          "sets": [
+            {
+              "lb": 135,
+              "reps": [
+                8,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Leg Extension",
+          "sets": [
+            {
+              "lb": 130,
+              "reps": [
+                8
+              ]
+            }
+          ],
+          "notes": "Back in after skipping it 9/29 (back-of-knee pain)."
+        }
+      ],
+      "notes": "Deload legs, moved from Tue 10/6. Started ~17:00 after a late split lunch. Calf raises not done."
     }
   ]
 }
