@@ -3324,5 +3324,52 @@
       }
     ],
     "notes": "Deload legs at ~17:00 (squat 205x5 beltless; back felt fine). Last food 22:21, fasting for the 10/8 Rhythm test."
+  },
+  {
+    "date": "2026-10-08",
+    "kcal": 2070,
+    "protein": 87,
+    "carbs": 194,
+    "fat": 102,
+    "meals": [],
+    "method": "reported-as-eaten. DAY OPEN. Rhythm test done fasted; lunch was a taqueria order instead of the bolognese; napped 17:19-20:17 through the push slot.",
+    "deviations": [
+      {
+        "desc": "~11:00 yogurt bowl, just yogurt + honey, right after the Rhythm test: 200g greek yogurt + 20g honey.",
+        "kcal": 250,
+        "protein": 18,
+        "carbs": 26,
+        "fat": 9
+      },
+      {
+        "desc": "~16:00 Taqueria Cazadores steak quesadilla (large flour tortilla, cheese, steak, sour cream/pico on the side), whole thing, PHOTO-ESTIMATED (IMG_5007). Replaced the beef bolognese lunch.",
+        "kcal": 1250,
+        "protein": 65,
+        "carbs": 80,
+        "fat": 70
+      },
+      {
+        "desc": "~16:00 the orange salsa that came with it (~30g, estimated).",
+        "kcal": 50,
+        "protein": 0,
+        "carbs": 2,
+        "fat": 5
+      },
+      {
+        "desc": "~16:00 the side of tortilla chips (~70g, estimated).",
+        "kcal": 350,
+        "protein": 4,
+        "carbs": 42,
+        "fat": 18
+      },
+      {
+        "desc": "~16:00 Jarritos pineapple, 370ml bottle.",
+        "kcal": 170,
+        "protein": 0,
+        "carbs": 44,
+        "fat": 0
+      }
+    ],
+    "notes": "Toast and post-lift smoothie skipped (napped). Beef pack thawed Tue night still uncooked as of 20:45."
   }
 ]
