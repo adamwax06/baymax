@@ -3327,12 +3327,12 @@
   },
   {
     "date": "2026-10-08",
-    "kcal": 2070,
-    "protein": 87,
-    "carbs": 194,
-    "fat": 102,
+    "kcal": 3043,
+    "protein": 149,
+    "carbs": 315,
+    "fat": 128,
     "meals": [],
-    "method": "reported-as-eaten. DAY OPEN. Rhythm test done fasted; lunch was a taqueria order instead of the bolognese; napped 17:19-20:17 through the push slot.",
+    "method": "reported-as-eaten. DAY CLOSED. Rhythm test done fasted; lunch was a taqueria order instead of the bolognese; napped 17:19-20:17 through the push slot, pushed at 21:00, replanned dinner to a chicken chunk rice bowl.",
     "deviations": [
       {
         "desc": "~11:00 yogurt bowl, just yogurt + honey, right after the Rhythm test: 200g greek yogurt + 20g honey.",
@@ -3368,8 +3368,22 @@
         "protein": 0,
         "carbs": 44,
         "fat": 0
+      },
+      {
+        "desc": "~22:00 chicken chunk rice bowl per the replanned calendar: 200g Just Bare breaded chunks (air fried) + 90g dry jasmine rice + 10g sriracha. Replaced the chicken quesadillas (already had a quesadilla at lunch).",
+        "kcal": 723,
+        "protein": 44,
+        "carbs": 95,
+        "fat": 17
+      },
+      {
+        "desc": "Yogurt nightcap per the calendar: 200g greek yogurt + 20g honey. ASSUMED eaten (Adam: did exactly what was planned).",
+        "kcal": 250,
+        "protein": 18,
+        "carbs": 26,
+        "fat": 9
       }
     ],
-    "notes": "Toast and post-lift smoothie skipped (napped). Beef pack thawed Tue night still uncooked as of 20:45."
+    "notes": "Toast and post-lift smoothie skipped (napped). Push at ~21:00. Browned the whole beef pack (thawed Tue night) for Sat lunch + Sun dinner; chipotle chicken moved to the fridge for Fri dinner (both per plan, assumed done)."
   }
 ]

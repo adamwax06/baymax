@@ -12506,6 +12506,72 @@
         }
       ],
       "notes": "Deload legs, moved from Tue 10/6. Started ~17:00 after a late split lunch. Calf raises not done. Back felt fine (Adam)."
+    },
+    {
+      "date": "2026-10-08",
+      "type": "push",
+      "exercises": [
+        {
+          "name": "Bench Press",
+          "sets": [
+            {
+              "lb": 165,
+              "reps": [
+                8,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Tricep Pushdown",
+          "sets": [
+            {
+              "lb": 33,
+              "reps": [
+                8,
+                8
+              ]
+            }
+          ],
+          "notes": "Two sets, one more than the deload prescription."
+        },
+        {
+          "name": "DB Lateral Raise",
+          "sets": [
+            {
+              "lb": 30,
+              "reps": [
+                8,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Incline Fly",
+          "sets": [
+            {
+              "lb": 72,
+              "reps": [
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "name": "DB Skull Crusher",
+          "sets": [
+            {
+              "lb": 25,
+              "reps": [
+                8
+              ]
+            }
+          ]
+        }
+      ],
+      "notes": "Deload push at ~21:00 after a nap (17:19-20:17) through the 16:00 slot. Done to the prescription except an extra pushdown set."
     }
   ]
 }
