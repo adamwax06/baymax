@@ -3327,12 +3327,12 @@
   },
   {
     "date": "2026-10-08",
-    "kcal": 2793,
-    "protein": 131,
-    "carbs": 289,
-    "fat": 119,
+    "kcal": 3230,
+    "protein": 163,
+    "carbs": 335,
+    "fat": 135,
     "meals": [],
-    "method": "reported-as-eaten. DAY OPEN. Rhythm test done fasted; lunch was a taqueria order instead of the bolognese; napped 17:19-20:17 through the push slot, pushed at 21:00.",
+    "method": "reported-as-eaten. DAY CLOSED. Rhythm test done fasted; lunch was a taqueria order instead of the bolognese; napped 17:19-20:17 through the push slot, pushed at 21:00, replanned dinner to a chicken chunk rice bowl, upsized nightcap.",
     "deviations": [
       {
         "desc": "~11:00 yogurt bowl, just yogurt + honey, right after the Rhythm test: 200g greek yogurt + 20g honey.",
@@ -3375,8 +3375,15 @@
         "protein": 44,
         "carbs": 95,
         "fat": 17
+      },
+      {
+        "desc": "~23:45 yogurt nightcap, upsized by Adam to hit 3,200: 350g greek yogurt + 35g honey (10:1). 550g yogurt for the day, over the usual ~400g cap by choice.",
+        "kcal": 437,
+        "protein": 32,
+        "carbs": 46,
+        "fat": 16
       }
     ],
-    "notes": "Toast and post-lift smoothie skipped (napped). Push at ~21:00. Browned the whole beef pack (thawed Tue night) for Sat lunch + Sun dinner, and moved the chipotle chicken to the fridge for Fri dinner. Yogurt nightcap still pending."
+    "notes": "Toast and post-lift smoothie skipped (napped). Push at ~21:00. Browned the whole beef pack (thawed Tue night) for Sat lunch + Sun dinner, and moved the chipotle chicken to the fridge for Fri dinner."
   }
 ]
