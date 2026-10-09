@@ -3327,10 +3327,10 @@
   },
   {
     "date": "2026-10-08",
-    "kcal": 2070,
-    "protein": 87,
-    "carbs": 194,
-    "fat": 102,
+    "kcal": 2793,
+    "protein": 131,
+    "carbs": 289,
+    "fat": 119,
     "meals": [],
     "method": "reported-as-eaten. DAY OPEN. Rhythm test done fasted; lunch was a taqueria order instead of the bolognese; napped 17:19-20:17 through the push slot, pushed at 21:00.",
     "deviations": [
@@ -3368,8 +3368,15 @@
         "protein": 0,
         "carbs": 44,
         "fat": 0
+      },
+      {
+        "desc": "~22:45 chicken chunk rice bowl per the replanned calendar: 200g Just Bare breaded chunks (air fried) + 90g dry jasmine rice + 10g sriracha. Replaced the chicken quesadillas (already had a quesadilla at lunch).",
+        "kcal": 723,
+        "protein": 44,
+        "carbs": 95,
+        "fat": 17
       }
     ],
-    "notes": "Toast and post-lift smoothie skipped (napped). Push at ~21:00. As of ~22:35 nothing eaten since lunch; the dinner (chicken chunk rice bowl), the nightcap and the beef browning are still to do."
+    "notes": "Toast and post-lift smoothie skipped (napped). Push at ~21:00. Browned the whole beef pack (thawed Tue night) for Sat lunch + Sun dinner, and moved the chipotle chicken to the fridge for Fri dinner. Yogurt nightcap still pending."
   }
 ]
