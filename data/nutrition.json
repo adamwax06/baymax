@@ -3388,10 +3388,10 @@
   },
   {
     "date": "2026-10-09",
-    "kcal": 1385,
-    "protein": 59,
-    "carbs": 129,
-    "fat": 71,
+    "kcal": 1375,
+    "protein": 60,
+    "carbs": 121,
+    "fat": 72,
     "meals": [],
     "method": "reported-as-eaten. DAY OPEN.",
     "deviations": [
@@ -3403,25 +3403,25 @@
         "fat": 0
       },
       {
-        "desc": "Lunch at the Uber office cafe (Bon Appetit Management Co. catering, 'L6 Deep Ellum' station): chicken makhani plate with brown-basmati pea pulao, methi paratha, cucumber-onion raita. Posted per 12.8oz plate: 580 kcal / 31P / 55C / 27F; Adam's plate (2 paratha pieces, generous raita) logged as ~1.2 servings (IMG_5011/5012). Pulao contains peas (legume); Adam picked them out.",
+        "desc": "Lunch at the Uber office cafe (Bon Appetit Management Co. catering, 'L6 Deep Ellum' station): chicken makhani plate with brown-basmati pea pulao, methi paratha, cucumber-onion raita. Posted per 12.8oz plate (menu screen + uberbayarea.cafebonappetit.com): 580 kcal / 31P / 55C / 27F; Adam's plate (2 paratha pieces, generous raita) logged as ~1.2 servings (IMG_5011/5012). Pulao contains peas (legume); Adam picked them out.",
         "kcal": 700,
         "protein": 37,
         "carbs": 66,
         "fat": 32
       },
       {
-        "desc": "Lunch dessert: one Bakery 350 mini tres leches cake with cinnamon chantilly + mango (no posted macros, PHOTO-ESTIMATED, IMG_5013).",
+        "desc": "Lunch dessert: one Bakery 350 mini tres leches cake with cinnamon chantilly + mango. The cafe site posts no nutrition for it, so PHOTO-ESTIMATED (IMG_5013).",
         "kcal": 280,
         "protein": 4,
         "carbs": 34,
         "fat": 14
       },
       {
-        "desc": "Half a bagel (~50g) with egg salad (~80g) and one slice cheddar (~21g), PHOTO-ESTIMATED (IMG_5014).",
-        "kcal": 405,
-        "protein": 18,
-        "carbs": 29,
-        "fat": 25
+        "desc": "Half a Bageletto jalapeno cheddar bagel (posted whole 3oz: 210 / 8P / 41C / 1F) + one egg salad serving (posted 220 / 11P / <1C / 19F) + one cheddar slice (posted 1oz: 70 / 4P / 0C / 6F). Cafe-posted values from uberbayarea.cafebonappetit.com (IMG_5014).",
+        "kcal": 395,
+        "protein": 19,
+        "carbs": 21,
+        "fat": 26
       }
     ],
     "notes": "Breakfast skipped; lunch at the Uber office cafe."
