@@ -3456,10 +3456,10 @@
   },
   {
     "date": "2026-10-10",
-    "kcal": 1479,
-    "protein": 87,
-    "carbs": 135,
-    "fat": 64,
+    "kcal": 864,
+    "protein": 52,
+    "carbs": 80,
+    "fat": 37,
     "meals": [],
     "method": "reported-as-eaten. DAY OPEN. Woke at noon; the day was shifted ~2.5h.",
     "deviations": [
@@ -3471,11 +3471,11 @@
         "fat": 9
       },
       {
-        "desc": "~14:30 beef & crispy gnocchi (Adam's swap for the beef + potatoes): the last ~180g of Thursday's browned beef (cooked weight; USDA 85% pan-browned ~250 kcal / 25.9P / 15.6F per 100g) + 250g TJ's shelf-stable potato gnocchi (half the pack, browned in butter; Nanda ate the other half) + 10g butter (his half of 20g) + ~250g marinara (Adam: 'like 250g'; Rao's macros as proxy) + 60g spinach + 25g mozzarella. Finishes the beef.",
-        "kcal": 1229,
-        "protein": 69,
-        "carbs": 109,
-        "fat": 55
+        "desc": "~14:30 beef & crispy gnocchi (Adam's swap for the beef + potatoes): the last ~180g of Thursday's browned beef (cooked weight; USDA 85% pan-browned ~250 kcal / 25.9P / 15.6F per 100g) + 250g TJ's shelf-stable potato gnocchi (half the pack, browned in butter; Nanda ate the other half) + 10g butter (his half of 20g) + ~250g marinara (Adam: 'like 250g'; Rao's macros as proxy) + 60g spinach + 25g mozzarella. Adam ate HALF (felt full); the other half went in the fridge, so the beef is not finished. Values below are half the plate.",
+        "kcal": 614,
+        "protein": 34,
+        "carbs": 54,
+        "fat": 28
       }
     ],
     "notes": "Rest day. Gnocchi lunch replaced beef + potatoes."
