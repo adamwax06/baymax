@@ -140,8 +140,13 @@ for (const sourceDir of sourceDirs) {
 
   if (providerSlug === "rythm-health") {
     const archives = manifest.files.filter((file) => file.kind === "rythm-csv-archive");
-    if (archives.length === 0) throw new Error("The Rythm manifest has no rythm-csv-archive file");
+    const csvs = manifest.files.filter((file) => file.kind === "rythm-csv");
+    if (archives.length + csvs.length === 0) throw new Error("The Rythm manifest has no rythm-csv-archive or rythm-csv file");
     labAcquisitions += 1;
+    for (const csv of csvs) {
+      labResults.push(...parseRythmLabCsv(readFileSync(join(sourceDir, csv.path), "utf8"), sources.get(csv.path)!, basename(csv.path)));
+      csvMembers += 1;
+    }
     for (const archive of archives) {
       const absolutePath = join(sourceDir, archive.path);
       const source = sources.get(archive.path)!;
