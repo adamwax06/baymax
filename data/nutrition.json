@@ -3388,10 +3388,10 @@
   },
   {
     "date": "2026-10-09",
-    "kcal": 1375,
-    "protein": 60,
-    "carbs": 121,
-    "fat": 72,
+    "kcal": 2485,
+    "protein": 140,
+    "carbs": 209,
+    "fat": 118,
     "meals": [],
     "method": "reported-as-eaten. DAY OPEN.",
     "deviations": [
@@ -3422,6 +3422,13 @@
         "protein": 19,
         "carbs": 21,
         "fat": 26
+      },
+      {
+        "desc": "~21:00 beef rice bowl per the replanned calendar: 250g Costco ground beef browned Thu 10/8 (cooked weight; USDA 85% pan-browned crumbles ~250 kcal / 25.9P / 15.6F per 100g) + 100g dry jasmine rice + 100g cocktail cucumbers + 30g mozzarella + 10g sriracha. Replaced the chipotle chicken bowl (lunch was chicken).",
+        "kcal": 1110,
+        "protein": 80,
+        "carbs": 88,
+        "fat": 46
       }
     ],
     "notes": "Breakfast skipped; lunch at the Uber office cafe."
