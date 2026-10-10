@@ -85,6 +85,11 @@ starts with `[baymax]`) are the day's plan — Adam cooks from them:
   what to move from the freezer to the fridge for the coming days (or
   "nothing to thaw tonight"). When a replan changes which frozen food a
   later meal uses, fix that line too.
+- **Dinner carries the supplements**: every day's dinner event gets
+  `+ 💊 creatine & D3` in the title and a `💊 TAKE WITH THIS MEAL:` line
+  (creatine 5g + D3 2,000 IU; doses in `data/profile.json`). D3 needs the
+  fat in a real meal, so if dinner moves or is skipped, move the line to
+  the next real meal, not the nightcap.
 - **No same dish on consecutive days** — leftovers skip at least a day
   (Tue batch → Thu, not Wed). Daily fixtures (yogurt bowl, pre-lift
   toast, smoothie) are exempt.
