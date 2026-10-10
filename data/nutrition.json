@@ -3385,5 +3385,45 @@
       }
     ],
     "notes": "Toast and post-lift smoothie skipped (napped). Push at ~21:00. Browned the whole beef pack (thawed Tue night) for Sat lunch + Sun dinner, and moved the chipotle chicken to the fridge for Fri dinner."
+  },
+  {
+    "date": "2026-10-09",
+    "kcal": 1385,
+    "protein": 59,
+    "carbs": 129,
+    "fat": 71,
+    "meals": [],
+    "method": "reported-as-eaten. DAY OPEN.",
+    "deviations": [
+      {
+        "desc": "Breakfast SKIPPED.",
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0
+      },
+      {
+        "desc": "Lunch at the Uber office cafe (Bon Appetit Management Co. catering, 'L6 Deep Ellum' station): chicken makhani plate with brown-basmati pea pulao, methi paratha, cucumber-onion raita. Posted per 12.8oz plate: 580 kcal / 31P / 55C / 27F; Adam's plate (2 paratha pieces, generous raita) logged as ~1.2 servings (IMG_5011/5012). Pulao contains peas (legume); Adam ate it.",
+        "kcal": 700,
+        "protein": 37,
+        "carbs": 66,
+        "fat": 32
+      },
+      {
+        "desc": "Lunch dessert: one Bakery 350 mini tres leches cake with cinnamon chantilly + mango (no posted macros, PHOTO-ESTIMATED, IMG_5013).",
+        "kcal": 280,
+        "protein": 4,
+        "carbs": 34,
+        "fat": 14
+      },
+      {
+        "desc": "Half a bagel (~50g) with egg salad (~80g) and one slice cheddar (~21g), PHOTO-ESTIMATED (IMG_5014).",
+        "kcal": 405,
+        "protein": 18,
+        "carbs": 29,
+        "fat": 25
+      }
+    ],
+    "notes": "Breakfast skipped; lunch at the Uber office cafe."
   }
 ]
