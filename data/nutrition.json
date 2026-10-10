@@ -3388,12 +3388,12 @@
   },
   {
     "date": "2026-10-09",
-    "kcal": 2485,
-    "protein": 140,
-    "carbs": 209,
-    "fat": 118,
+    "kcal": 4133,
+    "protein": 198,
+    "carbs": 449,
+    "fat": 168,
     "meals": [],
-    "method": "reported-as-eaten. DAY OPEN.",
+    "method": "reported-as-eaten. DAY CLOSED. Breakfast skipped, Uber cafe lunch, pull skipped (would have been a 5th day in a row), beef bowl dinner, then 2 slices of Papa John's late.",
     "deviations": [
       {
         "desc": "Breakfast SKIPPED.",
@@ -3424,13 +3424,34 @@
         "fat": 26
       },
       {
+        "desc": "~19:00 pre-lift toast per the calendar (Adam: 'I think' he ate it): 90g sourdough + 25g honey + 1 mandarin. The pull was skipped anyway.",
+        "kcal": 367,
+        "protein": 10,
+        "carbs": 79,
+        "fat": 2
+      },
+      {
         "desc": "~21:00 beef rice bowl per the replanned calendar: 250g Costco ground beef browned Thu 10/8 (cooked weight; USDA 85% pan-browned crumbles ~250 kcal / 25.9P / 15.6F per 100g) + 100g dry jasmine rice + 100g cocktail cucumbers + 30g mozzarella + 10g sriracha. Replaced the chipotle chicken bowl (lunch was chicken).",
         "kcal": 1110,
         "protein": 80,
         "carbs": 88,
         "fat": 46
+      },
+      {
+        "desc": "~22:30 yogurt-oat-mango smoothie per the calendar (Adam: 'I think'): 100g greek yogurt + 250g oat milk + 120g frozen mango + 40g oats + 30g honey + 15g chia.",
+        "kcal": 576,
+        "protein": 20,
+        "carbs": 90,
+        "fat": 17
+      },
+      {
+        "desc": "Late night: 2 slices of Papa John's Epic Stuffed Crust (large), minus half of one slice's crust edge. Topping unconfirmed, so logged as pepperoni (what he got 8/16). Third-party copies of PJ's data: ~390 kcal / 16P / 40C / 17F per slice; the half crust edge left is ESTIMATED at ~75 kcal / 4P / 9C / 3F. Allergy-safe per 8/16 (refined soybean oil tolerated).",
+        "kcal": 705,
+        "protein": 28,
+        "carbs": 71,
+        "fat": 31
       }
     ],
-    "notes": "Breakfast skipped; lunch at the Uber office cafe."
+    "notes": "Breakfast skipped; lunch at the Uber office cafe. The 300g chipotle chicken share that was meant to be refrozen stayed in the fridge (Adam will use it instead)."
   }
 ]
