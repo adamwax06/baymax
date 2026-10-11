@@ -85,7 +85,7 @@
             },
             {
               "food": "mango",
-              "g": 120
+              "g": 60
             },
             {
               "food": "oats-dry",
@@ -98,10 +98,19 @@
             {
               "food": "chia",
               "g": 15
+            },
+            {
+              "food": "raspberries",
+              "g": 30
+            },
+            {
+              "food": "blackberries",
+              "g": 30
             }
           ],
           "time": "17:45",
-          "status": "planned"
+          "status": "planned",
+          "gcal": "8fa35qcobju1seueddpe3as20g"
         },
         {
           "slot": "dinner",
@@ -235,7 +244,7 @@
             },
             {
               "food": "mango",
-              "g": 120
+              "g": 60
             },
             {
               "food": "oats-dry",
@@ -248,6 +257,14 @@
             {
               "food": "chia",
               "g": 15
+            },
+            {
+              "food": "raspberries",
+              "g": 30
+            },
+            {
+              "food": "blackberries",
+              "g": 30
             }
           ],
           "time": "17:45",
@@ -374,7 +391,7 @@
             },
             {
               "food": "mango",
-              "g": 120
+              "g": 60
             },
             {
               "food": "oats-dry",
@@ -387,6 +404,14 @@
             {
               "food": "chia",
               "g": 15
+            },
+            {
+              "food": "raspberries",
+              "g": 30
+            },
+            {
+              "food": "blackberries",
+              "g": 30
             }
           ],
           "time": "17:45",
@@ -538,7 +563,7 @@
             },
             {
               "food": "mango",
-              "g": 120
+              "g": 60
             },
             {
               "food": "oats-dry",
@@ -551,6 +576,14 @@
             {
               "food": "chia",
               "g": 15
+            },
+            {
+              "food": "raspberries",
+              "g": 25
+            },
+            {
+              "food": "blackberries",
+              "g": 25
             }
           ],
           "time": "17:45",
