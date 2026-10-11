@@ -80,6 +80,9 @@ Daily logging flows (what to touch, and whether an import is needed):
   IS the intake record. Every normal
   app sync mirrors the full logged snapshot through today into Apple Health;
   "Write Nutrition → Health" remains as a manual retry
+- **Shopping** → Costco Same-Day (Instacart) by default: match `bun run plan
+  groceries` to Kirkland/Costco SKUs in `data/costco-sameday.json`; Trader
+  Joe's (`bun run tj`) only for gaps
 - **Groceries / kitchen changes** → `bun run kitchen buy|count|move|share|toss`
   (receipts, photo checks, thawing, Nanda eating something, spoilage). Never
   edit `inventory.json` by hand; `kitchen undo <id>` reverses a mistake
