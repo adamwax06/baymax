@@ -3456,10 +3456,10 @@
   },
   {
     "date": "2026-10-10",
-    "kcal": 864,
-    "protein": 52,
-    "carbs": 80,
-    "fat": 37,
+    "kcal": 2229,
+    "protein": 111,
+    "carbs": 230,
+    "fat": 94,
     "meals": [],
     "method": "reported-as-eaten. DAY OPEN. Woke at noon; the day was shifted ~2.5h.",
     "deviations": [
@@ -3476,6 +3476,27 @@
         "protein": 34,
         "carbs": 54,
         "fat": 28
+      },
+      {
+        "desc": "~20:00 Dumpling Story dinner (replaced the chipotle chicken quesadillas): dan dan noodles, two helpings off the shared order (thick wheat noodles, minced pork, sesame/chili sauce, a bok choy half; IMG_5028/5029). No published nutrition, so PHOTO-ESTIMATED at ~80% of an order. Dan dan often contains peanuts (allergy); not confirmed either way.",
+        "kcal": 700,
+        "protein": 25,
+        "carbs": 90,
+        "fat": 26
+      },
+      {
+        "desc": "Dumpling Story: 5 pork dumplings (assumed the pan-fried juicy pork bao). ESTIMATED ~100 kcal / 5P each.",
+        "kcal": 500,
+        "protein": 25,
+        "carbs": 45,
+        "fat": 25
+      },
+      {
+        "desc": "Dumpling Story: 3 chicken xiao long bao (IMG_5030; shared basket of 6). ESTIMATED ~55 kcal / 3P each.",
+        "kcal": 165,
+        "protein": 9,
+        "carbs": 15,
+        "fat": 6
       }
     ],
     "notes": "Rest day. Gnocchi lunch replaced beef + potatoes. Creatine + D3 taken with the gnocchi lunch."
