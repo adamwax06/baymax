@@ -20,13 +20,14 @@ Apple Events.
 1. Scope: ask how many days if not stated (default a week). Meals live in
    `data/meals.json` (ingredient refs by food id + grams), foods in
    `data/foods.json`.
-2. Aggregate grams per food across the planned meals, subtract what's on hand
-   in `data/inventory.json` (treat entries as estimates — an `asOf` older
-   than ~a week or an UNVERIFIED note means confirm with Adam, don't trust
-   silently), then convert the remainder to purchasable units using the
-   package size from the `tj` search result (round up).
-   After a haul: when Adam sends a receipt photo, update `inventory.json`
-   from it (overwrite amounts, set `asOf`) — it's a snapshot, not a ledger.
+2. Get the need from the plan: `bun run plan groceries` (plan need minus
+   what's on hand; "never counted" foods mean ask Adam, don't assume out).
+   Lots marked `~` are estimates — if the last count is over ~a week old,
+   ask for a fridge photo and `bun run kitchen count` first. Convert the
+   remainder to purchasable units using the package size from the `tj`
+   search result (round up).
+   After a haul: log each receipt line with `bun run kitchen buy <food>
+   <grams> --where … --source receipt` (docs/kitchen.md).
 3. Search each item with `bun run tj`. Not everything maps 1:1 — pick the
    closest product and say so. Items with no match go in a "not at TJ's"
    section, don't silently drop them.

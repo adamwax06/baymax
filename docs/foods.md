@@ -8,7 +8,7 @@ foods.json (ingredients, per-100g)
    ↑ referenced by id
 meals.json (recipe book: food × grams)
    ↑ referenced by id
-mealplan.json (planned: days composing meals — future file)
+mealplan.json (planned days: slots → meal + exact items; docs/kitchen.md)
 nutrition.json (actual: today just {date, kcal}; may later log meal refs)
 ```
 

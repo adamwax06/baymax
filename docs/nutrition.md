@@ -16,10 +16,11 @@ tool output; the model coaches, the code computes.
   uses the `body_mass` goal: `targetLb` + `ratePerWeekLb`.
 - `data/foods.json` + `data/meals.json` — the ingredient registry and recipe
   book (empty until the staples list lands); model in docs/foods.md.
-- `data/nutrition.json` — daily intake, one entry per day. Written by
-  `bun run intake <mealId>...` (idempotent per date), which sums the planned
-  meals' full nutrient profile — macros, fiber, and every micro present in
-  foods.json:
+- `data/nutrition.json` — daily intake, one entry per day. Home meals are
+  written by `bun run plan eat` as `deviations` entries carrying exact
+  `items` (food + grams), which also drive kitchen stock (docs/kitchen.md);
+  restaurant meals are hand-written entries with macros only. Older entries
+  (before Oct 2026) used plan-derived totals with `meals` ids:
 
 ```json
 [

@@ -38,10 +38,11 @@ data/clinical/normalized/labs.json ───────────────
 | `docs/nutrition.md` | The nutrition loop: `data/profile.json` (who Adam is — **includes binding allergy list**), `data/goals.json` (targets), `data/nutrition.json` (daily kcal log) → adaptive TDEE-based calorie/protein targets via `health nutrition` / `health_nutrition` |
 | `docs/goals.md` | Goal flavors (lift / body weight / run), the e1RM pacing convention, and the "am I on pace?" recipe |
 | `docs/foods.md` | Data model for `data/foods.json` (per-100g ingredient registry, FDC provenance, `weighed` state) and `data/meals.json` (recipe book) — totals always derived, never stored |
+| `docs/kitchen.md` | Kitchen + meal plan: exact append-only kitchen events (`bun run kitchen`) → lots with use-by dates; `data/mealplan.json` drafted from meals.json + on-hand (`bun run plan`), eaten slots write exact items to nutrition.json, which subtracts stock |
 | `docs/onboarding.md` | Adopting baymax with your own data: what to personalize, routing live data into Apple Health, backfilling history (the bodyweight backfill is the reusable template) |
 | `docs/clinical.md` | Local-only clinical archive, provider PDF/CSV parsers, general lab history, reviewed scan values, normalized HealthKit payload, and idempotent iPhone backfill |
 | `docs/doordash.md` | Adam's DoorDash CLI (`dd-cli`) access — chat-driven ordering flow, allergy cross-check, known upstream gaps (no macro data, missing apt number on `address list`) |
-| `data/` | `baymax.db` (gitignored, local-only) plus seven committed JSON files: weights, goals, nutrition, profile, foods, meals, inventory (kitchen on-hand snapshot for grocery lists — a cache of reality, updated on hauls/fridge audits, never a ledger). Located next to the DB, so `BAYMAX_DB` relocates both. (Weigh-ins live in Apple Health, not a file) |
+| `data/` | `baymax.db` (gitignored, local-only) plus eight committed JSON files: weights, goals, nutrition, profile, foods, meals, mealplan (planned days, docs/kitchen.md), and inventory (append-only kitchen events — counts, buys, thaws, tosses — that `bun run kitchen` replays into lots on hand; docs/kitchen.md). Located next to the DB, so `BAYMAX_DB` relocates both. (Weigh-ins live in Apple Health, not a file) |
 
 ## Commands
 
@@ -53,8 +54,8 @@ bun run seed [--reset]          # fixture data (60 days: watch, iphone, strava, 
 bun run dev                     # ingest server on 0.0.0.0:4321 (prints the LAN URL for the app)
 bun run health <cmd>            # or `cd apps/cli && bun link` for a global `health`
 bun run import                  # import weights.json (gym log) into the DB (docs/weights.md)
-bun run intake <mealId>...      # log a day's plan-derived intake to nutrition.json (docs/nutrition.md)
-bun run plan [--days 3] [--rest dates] # draft days from meals.json (fixed slots + 2 random mains) + grocery list (docs/foods.md)
+bun run kitchen show           # what's on hand, per lot, with use-by dates (docs/kitchen.md)
+bun run plan show|eat|groceries|calendar  # the meal plan: draft, swap, eat, shop, render events (docs/kitchen.md)
 bun run clinical:import [--check] # parse/validate local clinical records + general labs
 bun run tj <search terms>       # Trader Joe's product/price search at Adam's store (via Chrome; /tj skill)
 sqlite3 data/baymax.db          # raw SQL (CLI has no query subcommand on purpose)
@@ -71,11 +72,17 @@ Daily logging flows (what to touch, and whether an import is needed):
   arrives on the next Baymax phone sync
 - **Gym session** → the app's Log tab (prefills last session; queues offline at
   the gym and auto-imports on save) — or hand-edit `data/weights.json` + `bun run import`
-- **Food eaten** → `bun run intake <mealIds>` writes the plan-derived day to
-  `data/nutrition.json` (live, no import). Protocol: Adam eats the planned
-  meals and reports deviations — the plan IS the intake record. Every normal
+- **Food eaten** → `bun run plan eat <date> <slot>` (with `--fraction`,
+  `--set food=g`, `--add food=g` for deviations) writes exact items to
+  `data/nutrition.json`, which also subtracts them from the kitchen.
+  Restaurant food is a hand-written `deviations` entry (macros, no items).
+  Protocol: Adam eats the planned meals and reports deviations — the plan
+  IS the intake record. Every normal
   app sync mirrors the full logged snapshot through today into Apple Health;
   "Write Nutrition → Health" remains as a manual retry
+- **Groceries / kitchen changes** → `bun run kitchen buy|count|move|share|toss`
+  (receipts, photo checks, thawing, Nanda eating something, spoilage). Never
+  edit `inventory.json` by hand; `kitchen undo <id>` reverses a mistake
 - **Goal/profile change** → edit `data/goals.json` / `data/profile.json` — live, no import
 
 Meal calendar events (Google Calendar, `adam@usetaiga.com`, description
@@ -96,9 +103,12 @@ starts with `[baymax]`) are the day's plan — Adam cooks from them:
   toast, smoothie) are exempt.
 - **One of each meat per day** — never chicken at lunch and dinner (thigh,
   breast, and breaded chunks all count as chicken).
-- Every perishable in `data/inventory.json` (deli trays, gifts, thawed
-  packs) gets a named meal slot before its use-by date, visible in the
-  event title.
+- Every perishable lot (`bun run kitchen show --expiring 3`: deli trays,
+  gifts, thawed packs) gets a named meal slot before its use-by date,
+  visible in the event title. `plan check` warns when one doesn't.
+- Events are rendered by `bun run plan calendar <date> --json` (recipe,
+  grams, 💊 on dinner, the computed before-bed thaw line), then pushed via
+  gcal; store the event id with `plan gcal <date> <slot> <id>`.
 
 ## Data model (frozen — extend via the registry, not the schema)
 

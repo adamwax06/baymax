@@ -1,0 +1,536 @@
+{
+  "days": [
+    {
+      "date": "2026-10-11",
+      "lift": true,
+      "slots": [
+        {
+          "slot": "breakfast",
+          "meal": "yogurt-honey-bowl",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "honey",
+              "g": 20
+            }
+          ],
+          "time": "11:45",
+          "status": "planned"
+        },
+        {
+          "slot": "lunch",
+          "meal": "chipotle-chicken-burritos",
+          "items": [
+            {
+              "food": "chipotle-chicken-kirkland",
+              "g": 457
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 100
+            },
+            {
+              "food": "flour-tortilla",
+              "count": 2
+            },
+            {
+              "food": "mozzarella-shredded",
+              "g": 40
+            },
+            {
+              "food": "spinach",
+              "g": 30
+            }
+          ],
+          "time": "13:00",
+          "status": "planned"
+        },
+        {
+          "slot": "pre-lift",
+          "meal": "pre-lift-carb",
+          "items": [
+            {
+              "food": "bread-sourdough",
+              "g": 90
+            },
+            {
+              "food": "honey",
+              "g": 25
+            },
+            {
+              "food": "mandarin",
+              "count": 1
+            }
+          ],
+          "time": "14:45",
+          "status": "planned"
+        },
+        {
+          "slot": "post-lift",
+          "meal": "post-lift-smoothie",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "oat-milk",
+              "g": 200
+            },
+            {
+              "food": "mango",
+              "g": 120
+            },
+            {
+              "food": "oats-dry",
+              "g": 35
+            },
+            {
+              "food": "honey",
+              "g": 30
+            },
+            {
+              "food": "chia",
+              "g": 15
+            }
+          ],
+          "time": "17:45",
+          "status": "planned"
+        },
+        {
+          "slot": "dinner",
+          "meal": "soy-honey-shrimp-bowl",
+          "items": [
+            {
+              "food": "shrimp-raw",
+              "g": 300
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 100
+            },
+            {
+              "food": "cucumber",
+              "g": 100
+            },
+            {
+              "food": "butter",
+              "g": 10
+            },
+            {
+              "food": "soy-sauce",
+              "g": 15
+            },
+            {
+              "food": "honey",
+              "g": 10
+            },
+            {
+              "food": "sriracha",
+              "g": 10
+            }
+          ],
+          "time": "19:00",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "lift": true,
+      "slots": [
+        {
+          "slot": "breakfast",
+          "meal": "yogurt-honey-bowl",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "honey",
+              "g": 20
+            }
+          ],
+          "time": "09:30",
+          "status": "planned"
+        },
+        {
+          "slot": "lunch",
+          "meal": "shrimp-fried-rice",
+          "items": [
+            {
+              "food": "shrimp-raw",
+              "g": 250
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 150
+            },
+            {
+              "food": "egg",
+              "count": 2
+            },
+            {
+              "food": "carrot",
+              "g": 80
+            },
+            {
+              "food": "scallion",
+              "g": 30
+            },
+            {
+              "food": "soy-sauce",
+              "g": 20
+            },
+            {
+              "food": "sesame-oil",
+              "g": 10
+            }
+          ],
+          "time": "12:30",
+          "status": "planned"
+        },
+        {
+          "slot": "pre-lift",
+          "meal": "pre-lift-carb",
+          "items": [
+            {
+              "food": "bread-sourdough",
+              "g": 90
+            },
+            {
+              "food": "honey",
+              "g": 25
+            },
+            {
+              "food": "mandarin",
+              "count": 1
+            }
+          ],
+          "time": "14:45",
+          "status": "planned"
+        },
+        {
+          "slot": "post-lift",
+          "meal": "post-lift-smoothie",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "oat-milk",
+              "g": 200
+            },
+            {
+              "food": "mango",
+              "g": 120
+            },
+            {
+              "food": "oats-dry",
+              "g": 35
+            },
+            {
+              "food": "honey",
+              "g": 30
+            },
+            {
+              "food": "chia",
+              "g": 15
+            }
+          ],
+          "time": "17:45",
+          "status": "planned"
+        },
+        {
+          "slot": "dinner",
+          "meal": "chipotle-chicken-quesadillas",
+          "items": [
+            {
+              "food": "chipotle-chicken-kirkland",
+              "g": 300
+            },
+            {
+              "food": "flour-tortilla",
+              "count": 2
+            },
+            {
+              "food": "mozzarella-shredded",
+              "g": 50
+            },
+            {
+              "food": "spinach",
+              "g": 30
+            }
+          ],
+          "time": "19:30",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "lift": true,
+      "slots": [
+        {
+          "slot": "breakfast",
+          "meal": "yogurt-honey-bowl",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "honey",
+              "g": 20
+            }
+          ],
+          "time": "09:30",
+          "status": "planned"
+        },
+        {
+          "slot": "lunch",
+          "meal": "beef-bolognese-pasta",
+          "items": [
+            {
+              "food": "ground-beef-85",
+              "g": 230
+            },
+            {
+              "food": "pasta-dry",
+              "g": 110
+            },
+            {
+              "food": "marinara-raos",
+              "g": 200
+            },
+            {
+              "food": "olive-oil",
+              "g": 5
+            }
+          ],
+          "time": "12:30",
+          "status": "planned"
+        },
+        {
+          "slot": "pre-lift",
+          "meal": "pre-lift-carb",
+          "items": [
+            {
+              "food": "bread-sourdough",
+              "g": 90
+            },
+            {
+              "food": "honey",
+              "g": 25
+            },
+            {
+              "food": "mandarin",
+              "count": 1
+            }
+          ],
+          "time": "14:45",
+          "status": "planned"
+        },
+        {
+          "slot": "post-lift",
+          "meal": "post-lift-smoothie",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "oat-milk",
+              "g": 200
+            },
+            {
+              "food": "mango",
+              "g": 120
+            },
+            {
+              "food": "oats-dry",
+              "g": 35
+            },
+            {
+              "food": "honey",
+              "g": 30
+            },
+            {
+              "food": "chia",
+              "g": 15
+            }
+          ],
+          "time": "17:45",
+          "status": "planned"
+        },
+        {
+          "slot": "dinner",
+          "meal": "chicken-chunk-rice-bowl",
+          "items": [
+            {
+              "food": "just-bare-chunks",
+              "g": 250
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 90
+            },
+            {
+              "food": "cucumber",
+              "g": 100
+            },
+            {
+              "food": "sriracha",
+              "g": 10
+            }
+          ],
+          "time": "19:30",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "lift": true,
+      "slots": [
+        {
+          "slot": "breakfast",
+          "meal": "yogurt-honey-bowl",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "honey",
+              "g": 20
+            }
+          ],
+          "time": "09:30",
+          "status": "planned"
+        },
+        {
+          "slot": "lunch",
+          "meal": "beef-rice-bowl",
+          "items": [
+            {
+              "food": "ground-beef-85",
+              "g": 300
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 80
+            },
+            {
+              "food": "cucumber",
+              "g": 100
+            },
+            {
+              "food": "mozzarella-shredded",
+              "g": 30
+            },
+            {
+              "food": "sriracha",
+              "g": 10
+            }
+          ],
+          "time": "12:30",
+          "status": "planned"
+        },
+        {
+          "slot": "pre-lift",
+          "meal": "pre-lift-carb",
+          "items": [
+            {
+              "food": "bread-sourdough",
+              "g": 90
+            },
+            {
+              "food": "honey",
+              "g": 25
+            },
+            {
+              "food": "mandarin",
+              "count": 1
+            }
+          ],
+          "time": "14:45",
+          "status": "planned"
+        },
+        {
+          "slot": "post-lift",
+          "meal": "post-lift-smoothie",
+          "items": [
+            {
+              "food": "greek-yogurt-whole",
+              "g": 200
+            },
+            {
+              "food": "oat-milk",
+              "g": 200
+            },
+            {
+              "food": "mango",
+              "g": 120
+            },
+            {
+              "food": "oats-dry",
+              "g": 35
+            },
+            {
+              "food": "honey",
+              "g": 30
+            },
+            {
+              "food": "chia",
+              "g": 15
+            }
+          ],
+          "time": "17:45",
+          "status": "planned"
+        },
+        {
+          "slot": "dinner",
+          "meal": "honey-garlic-chicken-bowl",
+          "items": [
+            {
+              "food": "ground-chicken",
+              "g": 300
+            },
+            {
+              "food": "white-rice-dry",
+              "g": 110
+            },
+            {
+              "food": "soy-sauce",
+              "g": 20
+            },
+            {
+              "food": "honey",
+              "g": 15
+            },
+            {
+              "food": "garlic",
+              "g": 10
+            },
+            {
+              "food": "sesame-oil",
+              "g": 5
+            },
+            {
+              "food": "cucumber",
+              "g": 100
+            }
+          ],
+          "time": "19:30",
+          "status": "planned"
+        }
+      ]
+    }
+  ]
+}

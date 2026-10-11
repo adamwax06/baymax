@@ -16,7 +16,7 @@ calories toward your goals. No cloud, no accounts.
 Watch / Strava / Eight Sleep / weigh-ins → Apple Health ⇄ iPhone app ─┐
 gym log (app Log tab or hand-edited JSON) ──────── bun run import ────┤→ SQLite → SDK → CLI + MCP
 food · goals · profile · inventory (JSON, read live) ─────────────────┘
-        ↑ plan-derived intake (bun run intake) mirrors back into Apple Health
+        ↑ intake logged from the meal plan (bun run plan eat) mirrors back into Apple Health
 clinical exports → local parser ┬→ reviewed writable quantities → Apple Health ↗
                                 └→ general lab history → SDK → CLI + MCP
 ```

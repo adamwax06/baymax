@@ -8,6 +8,7 @@ data/*
 !data/profile.json
 !data/foods.json
 !data/meals.json
+!data/mealplan.json
 !data/costco-catalog.json
 !data/costco-sameday.json
 !data/clinical/

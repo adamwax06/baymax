@@ -36,7 +36,12 @@
       "sodium": 62.33,
       "zinc": 1.35
     },
-    "allergyChecked": "2026-07-16"
+    "allergyChecked": "2026-07-16",
+    "shelfLife": {
+      "fridgeDays": 2,
+      "thawedDays": 2,
+      "freezerDays": 270
+    }
   },
   {
     "id": "chicken-breast-cooked",
@@ -86,7 +91,12 @@
       "vitC": 0,
       "ala": 0.04
     },
-    "allergyChecked": "2026-07-16"
+    "allergyChecked": "2026-07-16",
+    "shelfLife": {
+      "fridgeDays": 2,
+      "thawedDays": 2,
+      "freezerDays": 120
+    }
   },
   {
     "id": "egg",
@@ -112,7 +122,10 @@
       "vitC": 0,
       "ala": 0.04
     },
-    "allergyChecked": "2026-07-16"
+    "allergyChecked": "2026-07-16",
+    "shelfLife": {
+      "fridgeDays": 28
+    }
   },
   {
     "id": "greek-yogurt-whole",
@@ -135,7 +148,10 @@
       "zinc": 0.47,
       "vitD": 0
     },
-    "allergyChecked": "2026-07-16"
+    "allergyChecked": "2026-07-16",
+    "shelfLife": {
+      "fridgeDays": 10
+    }
   },
   {
     "id": "greek-yogurt-nonfat",
@@ -196,7 +212,11 @@
       "vitC": 0,
       "ala": 0.07
     },
-    "allergyChecked": "2026-07-16"
+    "allergyChecked": "2026-07-16",
+    "shelfLife": {
+      "fridgeDays": 10,
+      "freezerDays": 180
+    }
   },
   {
     "id": "whole-milk",
@@ -243,7 +263,10 @@
       "sodium": 0.46,
       "zinc": 1.35
     },
-    "allergyChecked": "2026-07-16"
+    "allergyChecked": "2026-07-16",
+    "shelfLife": {
+      "pantryDays": 730
+    }
   },
   {
     "id": "oats-dry",
@@ -267,7 +290,10 @@
       "vitD": 0,
       "vitC": 0
     },
-    "allergyChecked": "2026-07-16"
+    "allergyChecked": "2026-07-16",
+    "shelfLife": {
+      "pantryDays": 365
+    }
   },
   {
     "id": "potato",
@@ -291,7 +317,10 @@
       "vitD": 0,
       "vitC": 19.7
     },
-    "allergyChecked": "2026-07-16"
+    "allergyChecked": "2026-07-16",
+    "shelfLife": {
+      "pantryDays": 21
+    }
   },
   {
     "id": "sweet-potato",
@@ -367,7 +396,11 @@
     },
     "allergyChecked": "2026-07-16",
     "unitG": 64,
-    "notes": "TJ Organic 8ct bag: 510g/8 = 64g each"
+    "notes": "TJ Organic 8ct bag: 510g/8 = 64g each",
+    "shelfLife": {
+      "pantryDays": 14,
+      "fridgeDays": 30
+    }
   },
   {
     "id": "honey",
@@ -391,7 +424,10 @@
       "vitD": 0,
       "vitC": 0.5
     },
-    "allergyChecked": "2026-07-16"
+    "allergyChecked": "2026-07-16",
+    "shelfLife": {
+      "pantryDays": 730
+    }
   },
   {
     "id": "mandarin",
@@ -416,7 +452,11 @@
       "vitD": 0,
       "vitC": 26.7
     },
-    "allergyChecked": "2026-07-16"
+    "allergyChecked": "2026-07-16",
+    "shelfLife": {
+      "fridgeDays": 14,
+      "pantryDays": 7
+    }
   },
   {
     "id": "strawberries",
@@ -438,7 +478,13 @@
       "zinc": 0.11,
       "vitC": 59.62
     },
-    "allergyChecked": "2026-07-16"
+    "allergyChecked": "2026-07-16",
+    "shelfLife": {
+      "freezerDays": 270,
+      "thawedDays": 2,
+      "fridgeDays": 4,
+      "fromFrozen": true
+    }
   },
   {
     "id": "blueberries",
@@ -484,7 +530,12 @@
       "vitD": 0,
       "vitC": 36.4
     },
-    "allergyChecked": "2026-07-16"
+    "allergyChecked": "2026-07-16",
+    "shelfLife": {
+      "freezerDays": 270,
+      "thawedDays": 2,
+      "fromFrozen": true
+    }
   },
   {
     "id": "olive-oil",
@@ -509,7 +560,10 @@
       "vitD": 0,
       "vitC": 0
     },
-    "allergyChecked": "2026-07-16"
+    "allergyChecked": "2026-07-16",
+    "shelfLife": {
+      "pantryDays": 365
+    }
   },
   {
     "id": "butter",
@@ -535,7 +589,11 @@
       "vitC": 0,
       "ala": 0.32
     },
-    "allergyChecked": "2026-07-16"
+    "allergyChecked": "2026-07-16",
+    "shelfLife": {
+      "fridgeDays": 60,
+      "freezerDays": 270
+    }
   },
   {
     "id": "pistachios",
@@ -585,7 +643,10 @@
       "vitC": 1.6,
       "ala": 17.83
     },
-    "allergyChecked": "2026-07-16"
+    "allergyChecked": "2026-07-16",
+    "shelfLife": {
+      "pantryDays": 365
+    }
   },
   {
     "id": "spinach",
@@ -609,7 +670,10 @@
       "vitD": 0,
       "vitC": 28.1
     },
-    "allergyChecked": "2026-07-16"
+    "allergyChecked": "2026-07-16",
+    "shelfLife": {
+      "fridgeDays": 5
+    }
   },
   {
     "id": "sriracha",
@@ -632,7 +696,11 @@
       "zinc": 0.24,
       "vitC": 26.9
     },
-    "allergyChecked": "2026-07-16"
+    "allergyChecked": "2026-07-16",
+    "shelfLife": {
+      "fridgeDays": 180,
+      "pantryDays": 180
+    }
   },
   {
     "id": "raspberries",
@@ -745,7 +813,11 @@
       "vitD": 1.21
     },
     "allergyChecked": "2026-08-11",
-    "notes": "Carton: 240mL = 90kcal/2P/5F/9C/1g fiber. Matching current ingredient list contains oats and sunflower oil but no tree nuts, peanuts, pea/legume protein, soy isolate, fish, or fish oil. Adam confirmed the photographed carton is dated October 12, 2026."
+    "notes": "Carton: 240mL = 90kcal/2P/5F/9C/1g fiber. Matching current ingredient list contains oats and sunflower oil but no tree nuts, peanuts, pea/legume protein, soy isolate, fish, or fish oil. Adam confirmed the photographed carton is dated October 12, 2026.",
+    "shelfLife": {
+      "fridgeDays": 10,
+      "pantryDays": 180
+    }
   },
   {
     "id": "rotisserie-chicken",
@@ -864,7 +936,10 @@
       "sodium": 300
     },
     "allergyChecked": "2026-07-21",
-    "notes": "Jared haul 7/20. per100g ESTIMATE pending FDC fetch (rate-limited); nutritionally trivial. No bell pepper in TJ pico (tomato/onion/jalapeno/cilantro) — verify tub label"
+    "notes": "Jared haul 7/20. per100g ESTIMATE pending FDC fetch (rate-limited); nutritionally trivial. No bell pepper in TJ pico (tomato/onion/jalapeno/cilantro) — verify tub label",
+    "shelfLife": {
+      "fridgeDays": 5
+    }
   },
   {
     "id": "buffalo-sauce",
@@ -931,7 +1006,12 @@
       "sodium": 119
     },
     "allergyChecked": "2026-07-31",
-    "notes": "shellfish — explicitly safe per profile"
+    "notes": "shellfish — explicitly safe per profile",
+    "shelfLife": {
+      "fridgeDays": 2,
+      "thawedDays": 2,
+      "freezerDays": 180
+    }
   },
   {
     "id": "pasta-dry",
@@ -947,7 +1027,10 @@
       "sodium": 6
     },
     "allergyChecked": "2026-08-15",
-    "notes": "per100g from FDC SR values for dry wheat pasta; verify box. MUST be plain wheat pasta - skip 'high-protein'/red-lentil/chickpea pastas (legume allergy)"
+    "notes": "per100g from FDC SR values for dry wheat pasta; verify box. MUST be plain wheat pasta - skip 'high-protein'/red-lentil/chickpea pastas (legume allergy)",
+    "shelfLife": {
+      "pantryDays": 365
+    }
   },
   {
     "id": "crushed-tomatoes",
@@ -978,7 +1061,10 @@
       "fiber": 0.5,
       "sodium": 2
     },
-    "allergyChecked": "2026-08-15"
+    "allergyChecked": "2026-08-15",
+    "shelfLife": {
+      "fridgeDays": 7
+    }
   },
   {
     "id": "bread-sourdough",
@@ -1001,7 +1087,14 @@
       "sodium": 602,
       "zinc": 0.87
     },
-    "allergyChecked": "2026-08-17"
+    "allergyChecked": "2026-08-17",
+    "shelfLife": {
+      "pantryDays": 4,
+      "fridgeDays": 7,
+      "freezerDays": 90,
+      "thawedDays": 3,
+      "fromFrozen": true
+    }
   },
   {
     "id": "ground-turkey-breast",
@@ -1031,7 +1124,12 @@
       "carbs": 0
     },
     "allergyChecked": "2026-08-26",
-    "notes": "Bought 8/26. Fattier than the turkey breast; use where calories are needed."
+    "notes": "Bought 8/26. Fattier than the turkey breast; use where calories are needed.",
+    "shelfLife": {
+      "fridgeDays": 2,
+      "thawedDays": 2,
+      "freezerDays": 120
+    }
   },
   {
     "id": "gnocchi",
@@ -1048,7 +1146,10 @@
       "sodium": 420
     },
     "allergyChecked": "2026-08-30",
-    "notes": "ESTIMATE from typical shelf-stable potato gnocchi labels - verify the TJ package. Wheat + potato, no legume/nut. NOT the cauliflower gnocchi (different macros)."
+    "notes": "ESTIMATE from typical shelf-stable potato gnocchi labels - verify the TJ package. Wheat + potato, no legume/nut. NOT the cauliflower gnocchi (different macros).",
+    "shelfLife": {
+      "pantryDays": 180
+    }
   },
   {
     "id": "carrot",
@@ -1065,7 +1166,10 @@
       "fiber": 2.8,
       "sodium": 69
     },
-    "allergyChecked": "2026-08-30"
+    "allergyChecked": "2026-08-30",
+    "shelfLife": {
+      "fridgeDays": 21
+    }
   },
   {
     "id": "scallion",
@@ -1082,7 +1186,10 @@
       "fiber": 2.6,
       "sodium": 16
     },
-    "allergyChecked": "2026-08-30"
+    "allergyChecked": "2026-08-30",
+    "shelfLife": {
+      "fridgeDays": 7
+    }
   },
   {
     "id": "soy-sauce",
@@ -1100,7 +1207,10 @@
       "sodium": 5493
     },
     "allergyChecked": "2026-08-30",
-    "notes": "Fermented whole soy + wheat - SAFE. Adam's avoid list is soy protein isolate/concentrate only. Check for no fish/anchovy in any 'seasoned' variety."
+    "notes": "Fermented whole soy + wheat - SAFE. Adam's avoid list is soy protein isolate/concentrate only. Check for no fish/anchovy in any 'seasoned' variety.",
+    "shelfLife": {
+      "pantryDays": 365
+    }
   },
   {
     "id": "sesame-oil",
@@ -1116,7 +1226,10 @@
       "carbs": 0
     },
     "allergyChecked": "2026-08-30",
-    "notes": "Sesame is on profile.explicitlyOk."
+    "notes": "Sesame is on profile.explicitlyOk.",
+    "shelfLife": {
+      "pantryDays": 180
+    }
   },
   {
     "id": "lemon",
@@ -1133,7 +1246,10 @@
       "carbs": 9.32,
       "fiber": 2.8
     },
-    "allergyChecked": "2026-08-30"
+    "allergyChecked": "2026-08-30",
+    "shelfLife": {
+      "fridgeDays": 21
+    }
   },
   {
     "id": "garlic",
@@ -1149,7 +1265,10 @@
       "carbs": 33.06,
       "fiber": 2.1
     },
-    "allergyChecked": "2026-08-30"
+    "allergyChecked": "2026-08-30",
+    "shelfLife": {
+      "pantryDays": 30
+    }
   },
   {
     "id": "marinara-raos",
@@ -1167,7 +1286,11 @@
       "sodium": 330
     },
     "allergyChecked": "2026-08-30",
-    "notes": "Label proxy (1/2 cup = 120g = 90 kcal). Used as the sauce in bolognese and the gnocchi skillet; was previously logged ad hoc and never in foods.json."
+    "notes": "Label proxy (1/2 cup = 120g = 90 kcal). Used as the sauce in bolognese and the gnocchi skillet; was previously logged ad hoc and never in foods.json.",
+    "shelfLife": {
+      "pantryDays": 365,
+      "fridgeDays": 7
+    }
   },
   {
     "id": "pork-shoulder",
@@ -1308,7 +1431,13 @@
     },
     "packageG": 1814,
     "allergyChecked": "2026-09-29",
-    "notes": "Costco #1450796, 4 lb bag. Label per 84g (about 4 pieces): 160 kcal, 16P, 9C, 7F, 540mg sodium. Ingredients: chicken breast, water, seasoning (sugar, salt, spices incl. paprika + celery seed, chicken fat, canola/soybean oil), rice starch; breading: wheat flour, sugar, salt, nonfat dry milk, dried egg white, baking powder, spice, paprika. No legumes, pea, nuts, fish or bell pepper; paprika is explicitly safe. Contains milk, egg, wheat. Air fry ~400F 10-12 min."
+    "notes": "Costco #1450796, 4 lb bag. Label per 84g (about 4 pieces): 160 kcal, 16P, 9C, 7F, 540mg sodium. Ingredients: chicken breast, water, seasoning (sugar, salt, spices incl. paprika + celery seed, chicken fat, canola/soybean oil), rice starch; breading: wheat flour, sugar, salt, nonfat dry milk, dried egg white, baking powder, spice, paprika. No legumes, pea, nuts, fish or bell pepper; paprika is explicitly safe. Contains milk, egg, wheat. Air fry ~400F 10-12 min.",
+    "shelfLife": {
+      "fridgeDays": 3,
+      "thawedDays": 3,
+      "freezerDays": 180,
+      "fromFrozen": true
+    }
   },
   {
     "id": "crab-cooked",
@@ -1354,6 +1483,11 @@
     },
     "packageG": 907,
     "allergyChecked": "2026-10-04",
-    "notes": "Costco #1446716, 2 lb. Label per 85g: 100 kcal, 16P, 3C, 2.5F (Open Food Facts 0196633849465 / 16338494). Ingredients: chicken, water, salt, sugar, maltodextrin, smoked paprika, paprika, corn starch, chipotle pepper powder, chili pepper, dehydrated onion, spices, citric acid, yeast extract. No legume, nut, fish or bell pepper; paprika is explicitly safe. Confirm on the pack Adam has."
+    "notes": "Costco #1446716, 2 lb. Label per 85g: 100 kcal, 16P, 3C, 2.5F (Open Food Facts 0196633849465 / 16338494). Ingredients: chicken, water, salt, sugar, maltodextrin, smoked paprika, paprika, corn starch, chipotle pepper powder, chili pepper, dehydrated onion, spices, citric acid, yeast extract. No legume, nut, fish or bell pepper; paprika is explicitly safe. Confirm on the pack Adam has.",
+    "shelfLife": {
+      "fridgeDays": 4,
+      "thawedDays": 3,
+      "freezerDays": 90
+    }
   }
 ]
