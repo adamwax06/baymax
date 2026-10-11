@@ -6,7 +6,8 @@
 //
 // usage: bun run costco show                       # what's in the cart
 //        bun run costco cart [--from d] [--dry-run]  # add `plan groceries` (Buy list) to the cart, idempotent
-//        bun run costco add <food> <packs>           # one SKU by hand
+//        bun run costco add <food> <packs>           # one SKU by hand (only raises)
+//        bun run costco set <food> <packs>           # exact quantity, 0 removes
 // Checkout is not automated yet: the cart is filled, Adam (or the agent, after
 // he confirms the total) places the order.
 
@@ -58,12 +59,12 @@ end tell`;
 
 export const readCart = () => inChrome<CartItem[]>("return await items();");
 
-/** Set absolute quantities; never lowers what's already in the cart. */
-export function setCart(want: CartItem[]) {
+/** Set absolute quantities. By default never lowers what's in the cart; `exact` sets it as given (0 removes). */
+export function setCart(want: CartItem[], exact = false) {
   const updates = JSON.stringify(want.map((w) => ({ itemId: `items_74-${w.productId}`, quantity: w.quantity, quantityType: "each", trackingParams: {} })));
   return inChrome<CartItem[]>(`
 const have=Object.fromEntries((await items()).map(i=>[i.productId,i.quantity]));
-const cartItemUpdates=${updates}.filter(u=>(have[u.itemId.slice(9)]??0)<u.quantity);
+const cartItemUpdates=${updates}.filter(u=>${exact}?(have[u.itemId.slice(9)]??0)!==u.quantity:(have[u.itemId.slice(9)]??0)<u.quantity);
 if(cartItemUpdates.length){const r=await m('UpdateCartItemsMutation',{cartItemUpdates,cartType:'grocery',requestTimestamp:Date.now(),cartId});
   if(r.data?.updateCartItems?.__typename!=='CartsCartItemUpdateSuccessResponse')return {error:JSON.stringify(r).slice(0,500)};}
 return await items();`);
@@ -92,9 +93,9 @@ if (import.meta.main) {
 
   if (!cmd || cmd === "show") {
     print(readCart());
-  } else if (cmd === "cart" || cmd === "add") {
+  } else if (cmd === "cart" || cmd === "add" || cmd === "set") {
     let want: CartItem[] = [];
-    if (cmd === "add") {
+    if (cmd !== "cart") {
       const f = foods.get(rest[0]!) as (Food & { costco?: CostcoSku }) | undefined;
       if (!f?.costco) throw new Error(`${rest[0]} has no Costco SKU in foods.json (add a costco: {id, g, name})`);
       want = [{ productId: f.costco.id, quantity: Number(rest[1] ?? 1) }];
@@ -110,7 +111,7 @@ if (import.meta.main) {
       }
     }
     if (dry) print(want);
-    else print(setCart(want));
+    else print(setCart(want, cmd === "set"));
   } else {
     console.error(`unknown command "${cmd}" (see the header of scripts/costco.ts)`);
     process.exit(1);

@@ -93,7 +93,8 @@ each run, so redeploys don't break it). Foods map to SKUs with `foods.json → c
 ```bash
 bun run costco show                  # cart contents + catalog-price estimate
 bun run costco cart [--dry-run]      # plan groceries (Buy list) → packs → cart; never lowers a quantity, safe to rerun
-bun run costco add honey 1
+bun run costco add honey 1           # only raises a quantity
+bun run costco set grapes 0          # exact quantity; 0 removes
 ```
 Never-counted foods and foods without a SKU are skipped and listed. **Checkout isn't automated yet.**
 The cart is filled, then Adam taps checkout (or the agent clicks through after he OKs the total).
