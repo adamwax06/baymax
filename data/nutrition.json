@@ -3456,12 +3456,12 @@
   },
   {
     "date": "2026-10-10",
-    "kcal": 2229,
-    "protein": 111,
-    "carbs": 230,
-    "fat": 94,
+    "kcal": 3904,
+    "protein": 135,
+    "carbs": 440,
+    "fat": 180,
     "meals": [],
-    "method": "reported-as-eaten. DAY OPEN. Woke at noon; the day was shifted ~2.5h.",
+    "method": "reported-as-eaten. DAY CLOSED. Woke at noon; lunch split in two (second half never eaten, still in the fridge); quesadillas replaced by Dumpling Story; late-night cookies + ice cream while high. Nightcap skipped.",
     "deviations": [
       {
         "desc": "~12:10 yogurt bowl per the calendar (moved from 9:30, woke at noon), just yogurt + honey: 200g greek yogurt + 20g honey.",
@@ -3497,6 +3497,27 @@
         "protein": 9,
         "carbs": 15,
         "fat": 6
+      },
+      {
+        "desc": "Late night with friends (high): 3 Insomnia Cookies, flavors not given. Third-party copies of their data: Chocolate Chunk ~250 kcal / 3P / 35C / 12F per 57g cookie (company publishes no full panel). Several Insomnia flavors contain nuts/peanuts: flavors unconfirmed.",
+        "kcal": 750,
+        "protein": 9,
+        "carbs": 105,
+        "fat": 36
+      },
+      {
+        "desc": "Late night: half a pint of Ben & Jerry's Chocolate Chip Cookie Dough. Label: 370 kcal / 6P / 42C / 20F per 2/3 cup, 3 servings per pint.",
+        "kcal": 555,
+        "protein": 9,
+        "carbs": 63,
+        "fat": 30
+      },
+      {
+        "desc": "Late night: a third of a friend's ice cream, product unknown. ESTIMATED as a third of a premium pint.",
+        "kcal": 370,
+        "protein": 6,
+        "carbs": 42,
+        "fat": 20
       }
     ],
     "notes": "Rest day. Gnocchi lunch replaced beef + potatoes. Creatine + D3 taken with the gnocchi lunch."
