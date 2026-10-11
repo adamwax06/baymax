@@ -405,6 +405,16 @@
       "to": "freezer",
       "source": "chat",
       "note": "refrozen 10/11 (thawed 10/8); burritos not eaten"
+    },
+    {
+      "id": "k41",
+      "at": "2026-10-11T16:25",
+      "type": "move",
+      "food": "chipotle-chicken-kirkland",
+      "g": 457,
+      "to": "fridge",
+      "source": "chat",
+      "note": "tonight's burritos (the refrozen bag)"
     }
   ],
   "legacy": [
