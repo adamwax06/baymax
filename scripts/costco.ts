@@ -8,8 +8,7 @@
 //        bun run costco cart [--from d] [--dry-run]  # add `plan groceries` (Buy list) to the cart, idempotent
 //        bun run costco add <food> <packs>           # one SKU by hand (only raises)
 //        bun run costco set <food> <packs>           # exact quantity, 0 removes
-// Checkout is not automated yet: the cart is filled, Adam (or the agent, after
-// he confirms the total) places the order.
+//        bun run costco checkout --max 150 [--dry-run]  # click through checkout; places only if total ≤ cap
 
 import { type Food, compute, load, today, totals } from "./kitchen";
 import { groceries, type PlanDay } from "./plan";
@@ -25,8 +24,9 @@ const H={};{const c=performance.getEntriesByType('resource').map(e=>e.name).find
 const ext=op=>({persistedQuery:{version:1,sha256Hash:H[op]}});
 const q=async(op,v)=>(await fetch('/graphql?operationName='+op+'&variables='+encodeURIComponent(JSON.stringify(v))+'&extensions='+encodeURIComponent(JSON.stringify(ext(op))))).json();
 const m=async(op,v)=>(await fetch('/graphql?operationName='+op,{method:'POST',headers:{'content-type':'application/json'},credentials:'include',body:JSON.stringify({operationName:op,variables:v,extensions:ext(op)})})).json();
-const cartId=(await q('CartSwitcherSingleRetailerCartIds',{})).data.userCarts.carts.find(c=>c.retailerId==='5').id;
-const items=async()=>(await q('CartData',{id:cartId})).data.userCart.cartItemCollection.cartItems.map(i=>({productId:i.basketProduct.productId,quantity:i.quantity}));`;
+// No active cart (e.g. right after an order) is normal: reads return [], and the mutation creates one.
+const cartId=((await q('CartSwitcherSingleRetailerCartIds',{})).data?.userCarts?.carts??[]).find(c=>c.retailerId==='5')?.id;
+const items=async()=>cartId?((await q('CartData',{id:cartId})).data?.userCart?.cartItemCollection?.cartItems??[]).map(i=>({productId:i.basketProduct.productId,quantity:i.quantity})):[];`;
 
 /** Run an async JS body in a Same-Day tab; the body's return value comes back as JSON. */
 export function inChrome<T>(body: string): T {
@@ -68,6 +68,56 @@ const cartItemUpdates=${updates}.filter(u=>${exact}?(have[u.itemId.slice(9)]??0)
 if(cartItemUpdates.length){const r=await m('UpdateCartItemsMutation',{cartItemUpdates,cartType:'grocery',requestTimestamp:Date.now(),cartId});
   if(r.data?.updateCartItems?.__typename!=='CartsCartItemUpdateSuccessResponse')return {error:JSON.stringify(r).slice(0,500)};}
 return await items();`);
+}
+
+/** Run one sync JS expression in the Same-Day tab (optionally navigating first) and return its string result. */
+function step(js: string, url = "", wait = 0): string {
+  const file = `/tmp/baymax-costco-step-${process.pid}.js`;
+  require("node:fs").writeFileSync(file, js);
+  const as = `
+set js to read POSIX file "${file}" as «class utf8»
+tell application "Google Chrome"
+  set t to missing value
+  repeat with x in tabs of window 1
+    if URL of x starts with "https://sameday.costco.com" then set t to x
+  end repeat
+  if t is missing value then set t to make new tab at end of tabs of window 1 with properties {URL:"${STORE}"}
+  if "${url}" is not "" then set URL of t to "${url}"
+  delay ${wait}
+  return execute t javascript js
+end tell`;
+  return Bun.spawnSync(["osascript", "-"], { stdin: Buffer.from(as) }).stdout.toString().trim();
+}
+const click = (re: string) =>
+  `(()=>{const b=[...document.querySelectorAll('button,a')].find(b=>${re}.test(((b.getAttribute('aria-label')||'')+' '+(b.innerText||'')).trim()));if(!b)return 'missing';b.click();return 'ok'})()`;
+
+/**
+ * Click through checkout exactly like a person: cart drawer → Go to checkout → past the upsell
+ * aisle → read the total → Place order only if total ≤ maxTotal. Uses the saved address,
+ * payment and tip; delivery is whatever Instacart preselects (Standard).
+ */
+export function checkout(maxTotal: number, dry = false) {
+  const sleep = (s: number) => Bun.sleepSync(s * 1000);
+  if (step(click("/^View Cart/i"), STORE, 9) !== "ok") throw new Error("no cart button (empty cart, or logged out?)");
+  sleep(4);
+  if (step(click("/go to checkout/i")) !== "ok") throw new Error("no Go to checkout button");
+  sleep(10);
+  if (step("location.href").includes("checkout_aisle")) {
+    step(click("/^continue to checkout/i"));
+    sleep(12);
+  }
+  const page = step("document.body.innerText");
+  const total = Number(/your price \$([\d.,]+)/.exec(page)?.[1]?.replace(",", "") ?? /Total\s*\$([\d.,]+)/.exec(page)?.[1]?.replace(",", ""));
+  const window = /Standard\s*([^\n]+)/.exec(page)?.[1] ?? "?";
+  if (!total) throw new Error("couldn't read the checkout total; not placing");
+  if (total > maxTotal) throw new Error(`total $${total} is over the $${maxTotal} cap; not placing (checkout page left open)`);
+  if (dry) return { placed: false, total, window };
+  const placed = step(`(()=>{if(!document.body.innerText.includes('$${total.toFixed(2)}'))return 'changed';const b=[...document.querySelectorAll('button')].find(b=>(b.innerText||'').trim()==='Place order');if(!b)return 'missing';b.click();return 'ok'})()`);
+  if (placed !== "ok") throw new Error(`not placed (${placed})`);
+  sleep(15);
+  const url = step("location.href");
+  if (!url.includes("/orders/")) throw new Error(`clicked Place order but no confirmation page (${url})`);
+  return { placed: true, total, window, order: /orders\/(\d+)/.exec(url)?.[1] };
 }
 
 if (import.meta.main) {
@@ -112,6 +162,10 @@ if (import.meta.main) {
     }
     if (dry) print(want);
     else print(setCart(want, cmd === "set"));
+  } else if (cmd === "checkout") {
+    const max = Number(flag("--max") ?? NaN);
+    if (!(max > 0)) throw new Error("checkout needs --max <dollars> (the spend cap)");
+    console.log(JSON.stringify(checkout(max, dry)));
   } else {
     console.error(`unknown command "${cmd}" (see the header of scripts/costco.ts)`);
     process.exit(1);

@@ -1,6 +1,6 @@
 import { expect, test } from "bun:test";
 import { join } from "node:path";
-import { check, mulberry32, planDays } from "./plan";
+import { calendar, check, mulberry32, planDays } from "./plan";
 
 const root = join(import.meta.dir, "..");
 const meals = await Bun.file(join(root, "data/meals.json")).json();
@@ -54,4 +54,16 @@ test("food on hand beats food to buy", () => {
 test("every plannable food has been allergy-checked", () => {
   for (const m of meals.filter((m: any) => m.slot))
     for (const it of m.items) expect(foods.get(it.food)?.allergyChecked, `${m.id}: ${it.food}`).toBeTruthy();
+});
+
+test("thaw line counts today's meals eating from the freezer", () => {
+  const shrimp = (g: number) => [{ food: "shrimp-raw", g }];
+  const slot = (s: string, items: any[]) => ({ slot: s, meal: "soy-honey-shrimp-bowl", items, time: "19:00", status: "planned" as const });
+  const days = [
+    { date: "2026-10-11", lift: true, slots: [slot("dinner", shrimp(300))] },
+    { date: "2026-10-12", lift: true, slots: [slot("lunch", shrimp(250))] },
+  ];
+  const lots = [{ id: "k1", food: "shrimp-raw", where: "freezer" as const, g: 907, since: "2026-10-11" }];
+  const last = calendar(days, "2026-10-11", byId, foods, lots).at(-1)!;
+  expect(last.description).toContain("move 250g Shrimp");
 });

@@ -290,6 +290,111 @@
       "where": "pantry",
       "source": "chat",
       "note": "out since 9/14; the Banza is not Adam's (chickpea)"
+    },
+    {
+      "id": "k29",
+      "at": "2026-10-11T11:48",
+      "type": "count",
+      "food": "carrot",
+      "g": 300,
+      "where": "fridge",
+      "est": true,
+      "source": "chat",
+      "note": "Adam: has carrots (amount not given)"
+    },
+    {
+      "id": "k30",
+      "at": "2026-10-11T14:00",
+      "type": "buy",
+      "food": "greek-yogurt-whole",
+      "g": 907,
+      "where": "fridge",
+      "source": "costco-sameday order 21390832587477192"
+    },
+    {
+      "id": "k31",
+      "at": "2026-10-11T14:00",
+      "type": "buy",
+      "food": "honey",
+      "g": 1361,
+      "where": "pantry",
+      "source": "costco-sameday order 21390832587477192"
+    },
+    {
+      "id": "k32",
+      "at": "2026-10-11T14:00",
+      "type": "buy",
+      "food": "shrimp-raw",
+      "g": 907,
+      "where": "freezer",
+      "source": "costco-sameday order 21390832587477192"
+    },
+    {
+      "id": "k33",
+      "at": "2026-10-11T14:00",
+      "type": "buy",
+      "food": "ground-beef-85",
+      "g": 608,
+      "where": "fridge",
+      "source": "costco-sameday order 21390832587477192",
+      "note": "1 of 3 packs; brown it whole Tue: half Tue lunch, half Wed dinner"
+    },
+    {
+      "id": "k34",
+      "at": "2026-10-11T14:00",
+      "type": "buy",
+      "food": "ground-beef-85",
+      "g": 1215,
+      "where": "freezer",
+      "source": "costco-sameday order 21390832587477192",
+      "note": "2 of 3 packs, frozen on arrival"
+    },
+    {
+      "id": "k35",
+      "at": "2026-10-11T14:00",
+      "type": "buy",
+      "food": "kirkland-shrimp-cocktail",
+      "g": 725,
+      "where": "fridge",
+      "est": true,
+      "source": "costco-sameday order 21390832587477192"
+    },
+    {
+      "id": "k36",
+      "at": "2026-10-11T14:00",
+      "type": "buy",
+      "food": "cocktail-sauce-kirkland",
+      "g": 80,
+      "where": "fridge",
+      "est": true,
+      "source": "costco-sameday order 21390832587477192"
+    },
+    {
+      "id": "k37",
+      "at": "2026-10-11T14:00",
+      "type": "buy",
+      "food": "raspberries",
+      "g": 340,
+      "where": "fridge",
+      "source": "costco-sameday order 21390832587477192"
+    },
+    {
+      "id": "k38",
+      "at": "2026-10-11T14:00",
+      "type": "buy",
+      "food": "blackberries",
+      "g": 340,
+      "where": "fridge",
+      "source": "costco-sameday order 21390832587477192"
+    },
+    {
+      "id": "k39",
+      "at": "2026-10-11T14:00",
+      "type": "buy",
+      "food": "grapes",
+      "g": 1361,
+      "where": "fridge",
+      "source": "costco-sameday order 21390832587477192"
     }
   ],
   "legacy": [

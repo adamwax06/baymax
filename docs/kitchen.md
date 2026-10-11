@@ -96,19 +96,22 @@ bun run costco cart [--dry-run]      # plan groceries (Buy list) → packs → c
 bun run costco add honey 1           # only raises a quantity
 bun run costco set grapes 0          # exact quantity; 0 removes
 ```
-Never-counted foods and foods without a SKU are skipped and listed. **Checkout isn't automated yet.**
-The cart is filled, then Adam taps checkout (or the agent clicks through after he OKs the total).
-When the order arrives, log each line with `kitchen buy … --source costco`.
+Never-counted foods and foods without a SKU are skipped and listed.
+
+`bun run costco checkout --max <dollars> [--dry-run]` clicks through checkout the way a person does:
+cart drawer → Go to checkout → past the upsell aisle → read the total → **Place order only if
+total ≤ cap**. It uses the saved address, card and tip, plus the preselected Standard window. First
+real order: 10/11/2026, #21390832587477192, $118.23. Log each delivered line with
+`kitchen buy … --source costco-sameday`, and fix any substitutions with `undo` + `buy`.
 
 ## Autopilot (runbook for a scheduled task)
 Run nightly (~21:00) as a Codex Scheduled task against this repo (AGENTS.md → Automations):
 1. `bun run plan show`. Mark known trips/eating-out days with `plan away` (check the calendar for travel).
 2. Make sure the next 3 non-away days are planned: `plan draft --from <first unplanned> --days N --write`. If `plan check` reports errors, redraft with another seed. Read the warnings and give expiring lots a slot (`plan swap`).
 3. For each new or changed day, render `plan calendar <date> --json` and create or update the gcal events. Meals are `transparent`; reuse `slot.gcal` ids, then `plan gcal` new ones.
-4. `bun run costco cart` for the window. If anything was added, message Adam the cart summary and total so he can check out.
+4. `bun run costco cart` for the window. If anything was added, `bun run costco checkout --max 150`, then `kitchen buy` each line at the delivery window and message Adam the order and total. Over the cap, it stops at checkout and asks him.
 5. If the last photo count is over ~7 days old, ask Adam for fridge/freezer/pantry photos and `kitchen count` from them.
 
 ## Not built yet
-- Autonomous checkout (needs the InitializeCheckout/FinalizeCheckout variables, captured from one real checkout) plus a spend cap.
 - Morning check-in and auto-redraft when a slot is skipped.
 - Receipt ingestion straight from email (today the agent reads the photo and runs `kitchen buy`).

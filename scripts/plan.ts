@@ -166,10 +166,11 @@ export function calendar(days: PlanDay[], date: string, meals: Map<string, Meal>
     for (const it of next.slots.filter((s) => s.status === "planned").flatMap((s) => s.items)) need.set(it.food, (need.get(it.food) ?? 0) + grams(it, foods));
     for (const [food, g] of need) {
       if (foods.get(food)!.shelfLife?.fromFrozen) continue;
-      // Fridge/pantry stock left after today's still-planned meals eat from it.
+      // Today's still-planned meals eat the fridge/pantry first, then the freezer (as compute() does).
       const later = d.slots.filter((s) => s.status === "planned").flatMap((s) => s.items).filter((it) => it.food === food).reduce((s, it) => s + grams(it, foods), 0);
-      const thawed = lots.filter((l) => l.food === food && l.where !== "freezer").reduce((s, l) => s + l.g, 0) - later;
-      const frozen = lots.filter((l) => l.food === food && l.where === "freezer").reduce((s, l) => s + l.g, 0);
+      const out = lots.filter((l) => l.food === food && l.where !== "freezer").reduce((s, l) => s + l.g, 0);
+      const thawed = Math.max(0, out - later);
+      const frozen = lots.filter((l) => l.food === food && l.where === "freezer").reduce((s, l) => s + l.g, 0) - Math.max(0, later - out);
       if (thawed < g && frozen > 0) thaw.push(`move ${Math.round(Math.min(frozen, g - thawed))}g ${foods.get(food)!.name} from the freezer to the fridge`);
     }
   }
