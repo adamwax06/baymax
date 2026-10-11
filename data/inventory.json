@@ -415,6 +415,24 @@
       "to": "fridge",
       "source": "chat",
       "note": "tonight's burritos (the refrozen bag)"
+    },
+    {
+      "id": "k42",
+      "at": "2026-10-11T16:25",
+      "type": "undo",
+      "ref": "k41",
+      "source": "chat"
+    },
+    {
+      "id": "k43",
+      "at": "2026-10-11T16:25",
+      "type": "move",
+      "food": "chipotle-chicken-kirkland",
+      "g": 457,
+      "to": "fridge",
+      "lot": "k40",
+      "source": "chat",
+      "note": "tonight's burritos (the refrozen bag)"
     }
   ],
   "legacy": [
