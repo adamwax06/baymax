@@ -3456,12 +3456,12 @@
   },
   {
     "date": "2026-10-10",
-    "kcal": 4279,
-    "protein": 140,
-    "carbs": 493,
-    "fat": 198,
+    "kcal": 4893,
+    "protein": 174,
+    "carbs": 547,
+    "fat": 226,
     "meals": [],
-    "method": "reported-as-eaten. DAY CLOSED. Woke at noon; lunch split in two (second half never eaten, still in the fridge); quesadillas replaced by Dumpling Story; late-night cookies + ice cream while high. Nightcap skipped.",
+    "method": "reported-as-eaten. DAY CLOSED. Woke at noon; lunch split in two (second half eaten late night); quesadillas replaced by Dumpling Story; late-night cookies + ice cream while high. Nightcap skipped.",
     "deviations": [
       {
         "desc": "~12:10 yogurt bowl per the calendar (moved from 9:30, woke at noon), just yogurt + honey: 200g greek yogurt + 20g honey.",
@@ -3518,6 +3518,13 @@
         "protein": 6,
         "carbs": 42,
         "fat": 20
+      },
+      {
+        "desc": "Late night: the fridge half of the beef & crispy gnocchi (same plate as lunch, 614 kcal half). Finishes the Thursday beef.",
+        "kcal": 614,
+        "protein": 34,
+        "carbs": 54,
+        "fat": 28
       }
     ],
     "notes": "Rest day. Gnocchi lunch replaced beef + potatoes. Creatine + D3 taken with the gnocchi lunch."
