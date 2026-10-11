@@ -54,6 +54,7 @@ bun run dev                     # ingest server on 0.0.0.0:4321 (prints the LAN 
 bun run health <cmd>            # or `cd apps/cli && bun link` for a global `health`
 bun run import                  # import weights.json (gym log) into the DB (docs/weights.md)
 bun run intake <mealId>...      # log a day's plan-derived intake to nutrition.json (docs/nutrition.md)
+bun run plan [--days 3] [--rest dates] # draft days from meals.json (fixed slots + 2 random mains) + grocery list (docs/foods.md)
 bun run clinical:import [--check] # parse/validate local clinical records + general labs
 bun run tj <search terms>       # Trader Joe's product/price search at Adam's store (via Chrome; /tj skill)
 sqlite3 data/baymax.db          # raw SQL (CLI has no query subcommand on purpose)

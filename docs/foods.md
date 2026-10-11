@@ -74,6 +74,14 @@ never-store-deriveables rule as the rest of the platform.
 - **`items[].food`** must be a `foods.json` id; **`g`** is grams in that
   food's `weighed` state. Unit foods may use `{ "food": "egg", "count": 3 }`
   instead of `g`.
+- **`slot`** (optional) makes a meal plannable by `bun run plan`:
+  `breakfast` | `pre-lift` | `post-lift` | `nightcap` are the fixed daily
+  slots (one meal each); `main` meals fill lunch and dinner at random.
+  Meals without a slot stay in the book for history/intake but are never
+  planned. **`meat`** (`chicken` | `beef` | `shrimp` | …) drives the
+  one-of-each-meat-per-day rule. **`try: true`** marks a new recipe; the
+  planner picks it less often until it's eaten and kept (then drop the flag)
+  or disliked (then drop the slot).
 - Meals are reusable units — the plan and (eventually) the intake log
   reference them by id. A one-off meal can live inline in the plan; only
   repeated meals earn an entry here.
