@@ -15,6 +15,7 @@
     "clinical:import": "bun scripts/import-clinical.ts",
     "tj": "bun scripts/tj.ts",
     "kitchen": "bun scripts/kitchen.ts",
+    "costco": "bun scripts/costco.ts",
     "plan": "bun scripts/plan.ts",
     "health": "bun apps/cli/src/index.ts",
     "test": "bun test",

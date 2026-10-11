@@ -18,7 +18,8 @@
             }
           ],
           "time": "11:45",
-          "status": "planned"
+          "status": "planned",
+          "gcal": "3ob46bdbevdqt1u3c38hcvgoq0"
         },
         {
           "slot": "lunch",
@@ -46,7 +47,8 @@
             }
           ],
           "time": "13:00",
-          "status": "planned"
+          "status": "planned",
+          "gcal": "iga7nb24r97hj5f2jv6ajtqcug"
         },
         {
           "slot": "pre-lift",
@@ -134,7 +136,8 @@
             }
           ],
           "time": "19:00",
-          "status": "planned"
+          "status": "planned",
+          "gcal": "pagr8lh2uqqqerrprnv28kkud4"
         }
       ]
     },
@@ -156,7 +159,8 @@
             }
           ],
           "time": "09:30",
-          "status": "planned"
+          "status": "planned",
+          "gcal": "qabrt5qot8skhdldfh45tse398"
         },
         {
           "slot": "lunch",
@@ -192,7 +196,8 @@
             }
           ],
           "time": "12:30",
-          "status": "planned"
+          "status": "planned",
+          "gcal": "ml7bqcm03cp7g50ccoa548d7l0"
         },
         {
           "slot": "pre-lift",
@@ -212,7 +217,8 @@
             }
           ],
           "time": "14:45",
-          "status": "planned"
+          "status": "planned",
+          "gcal": "vo91s6snqsais70lupfuvjg2lg"
         },
         {
           "slot": "post-lift",
@@ -244,7 +250,8 @@
             }
           ],
           "time": "17:45",
-          "status": "planned"
+          "status": "planned",
+          "gcal": "it5s9ok90lj987jiv809jm90q8"
         },
         {
           "slot": "dinner",
@@ -268,7 +275,8 @@
             }
           ],
           "time": "19:30",
-          "status": "planned"
+          "status": "planned",
+          "gcal": "s6vm9lf82je3eci1ljavvvs5sk"
         }
       ]
     },
@@ -290,7 +298,8 @@
             }
           ],
           "time": "09:30",
-          "status": "planned"
+          "status": "planned",
+          "gcal": "eo3tmvddbl75v1ob8fgl9um8mg"
         },
         {
           "slot": "lunch",
@@ -318,7 +327,8 @@
             }
           ],
           "time": "12:30",
-          "status": "planned"
+          "status": "planned",
+          "gcal": "roqs4rmdf91o4ggk254r00f2bs"
         },
         {
           "slot": "pre-lift",
@@ -338,7 +348,8 @@
             }
           ],
           "time": "14:45",
-          "status": "planned"
+          "status": "planned",
+          "gcal": "pc4eui47j8sf9ncq897c9rv0h0"
         },
         {
           "slot": "post-lift",
@@ -370,7 +381,8 @@
             }
           ],
           "time": "17:45",
-          "status": "planned"
+          "status": "planned",
+          "gcal": "qndh4vj60ps5rnr42tm1u3u924"
         },
         {
           "slot": "dinner",
@@ -394,7 +406,8 @@
             }
           ],
           "time": "19:30",
-          "status": "planned"
+          "status": "planned",
+          "gcal": "iea01b4qh942joohacl8b52n90"
         }
       ]
     },
@@ -416,7 +429,8 @@
             }
           ],
           "time": "09:30",
-          "status": "planned"
+          "status": "planned",
+          "gcal": "bi2n9rdfu6ioc2ljtuq2j4g6ng"
         },
         {
           "slot": "lunch",
@@ -452,7 +466,8 @@
             }
           ],
           "time": "12:30",
-          "status": "planned"
+          "status": "planned",
+          "gcal": "grnlgt40bapthb48ir79rumiq4"
         },
         {
           "slot": "pre-lift",
@@ -472,7 +487,8 @@
             }
           ],
           "time": "14:45",
-          "status": "planned"
+          "status": "planned",
+          "gcal": "g77p4ohmd9bnetnsl2l19v3uuk"
         },
         {
           "slot": "post-lift",
@@ -504,7 +520,8 @@
             }
           ],
           "time": "17:45",
-          "status": "planned"
+          "status": "planned",
+          "gcal": "fpju9dahvsmimfkkieg3fucrtk"
         },
         {
           "slot": "dinner",
@@ -528,9 +545,34 @@
             }
           ],
           "time": "19:30",
-          "status": "planned"
+          "status": "planned",
+          "gcal": "eqme46bjvg9tvc4j5n4n1u290s"
         }
       ]
+    },
+    {
+      "date": "2026-10-15",
+      "lift": false,
+      "slots": [],
+      "away": "Tahoe trip"
+    },
+    {
+      "date": "2026-10-16",
+      "lift": false,
+      "slots": [],
+      "away": "Tahoe trip"
+    },
+    {
+      "date": "2026-10-17",
+      "lift": false,
+      "slots": [],
+      "away": "Tahoe trip"
+    },
+    {
+      "date": "2026-10-18",
+      "lift": false,
+      "slots": [],
+      "away": "Tahoe trip"
     }
   ]
 }

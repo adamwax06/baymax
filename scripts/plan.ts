@@ -9,13 +9,14 @@
 //        bun run plan show|check [--from d]
 //        bun run plan swap <date> <slot> <mealId> | scale <date> <slot> <food> <g> | time <date> <slot> <HH:MM>
 //        bun run plan eat <date> <slot|mealId> [--fraction 0.5] [--set food=g ...] [--add food=g ...] [--note ..]
+//        bun run plan away <date>... [--note ..]   (trips: no meals planned or bought)
 //        bun run plan skip <date> <slot> | groceries [--from d] | calendar <date> [--json] | gcal <date> <slot> <eventId>
 
 import { join } from "node:path";
 import { type Food, type Item, type Lot, type Meal, compute, grams, load, macro, now, today, totals } from "./kitchen";
 
 export type Slot = { slot: string; meal: string; items: Item[]; time: string; status: "planned" | "eaten" | "skipped"; fraction?: number; gcal?: string };
-export type PlanDay = { date: string; lift: boolean; slots: Slot[] };
+export type PlanDay = { date: string; lift: boolean; slots: Slot[]; away?: string };
 type Opts = { dates: string[]; rest: Set<string>; kcal: number; protein: number; rand: () => number; onHand?: Map<string, number>; expiring?: Set<string>; yesterday?: string[] };
 
 const TIMES = {
@@ -105,7 +106,7 @@ export function check(days: PlanDay[], meals: Map<string, Meal>, foods: Map<stri
   const warnings: string[] = [];
   let prev: string[] = [];
   const sorted = [...days].sort((a, b) => a.date.localeCompare(b.date));
-  for (const d of sorted) {
+  for (const d of sorted.filter((d) => !d.away)) {
     const mains = d.slots.filter((s) => s.status !== "skipped" && meals.get(s.meal)?.slot === "main");
     const meats = mains.map((s) => meals.get(s.meal)!.meat).filter(Boolean);
     if (new Set(meats).size < meats.length) errors.push(`${d.date}: same meat twice (${meats.join(", ")})`);
@@ -226,6 +227,7 @@ if (import.meta.main) {
   };
   const printDay = (d: PlanDay) => {
     const items = dayItems(d);
+    if (d.away) return console.log(`\n${d.date} away (${d.away})`);
     console.log(`\n${d.date} (${d.lift ? "lift" : "rest"}) ${Math.round(macro(items, foods, "kcal"))} kcal / ${Math.round(macro(items, foods, "protein"))}P`);
     for (const s of d.slots) {
       const m = meals.get(s.meal);
@@ -243,11 +245,12 @@ if (import.meta.main) {
   if (cmd === "draft") {
     const from = flag("--from") ?? today();
     const n = Number(flag("--days") ?? 3);
+    const away = new Set(plan.days.filter((d) => d.away).map((d) => d.date));
     const dates = Array.from({ length: n }, (_, i) => {
       const d = new Date(`${from}T12:00:00`);
       d.setDate(d.getDate() + i);
       return d.toLocaleDateString("sv-SE");
-    });
+    }).filter((d) => !away.has(d));
     const seed = Number(flag("--seed") ?? Date.now() % 1e9);
     const horizon = dates.at(-1)!;
     // Stock left once already-planned meals before the draft (e.g. the rest of today) have eaten.
@@ -255,7 +258,7 @@ if (import.meta.main) {
     for (const it of plan.days.filter((d) => d.date >= today() && d.date < from).flatMap((d) => d.slots.filter((s) => s.status === "planned").flatMap((s) => s.items)))
       stock.set(it.food, (stock.get(it.food) ?? 0) - grams(it, foods));
     const expiring = new Set(lots.filter((l) => l.useBy && l.useBy >= from && l.useBy <= horizon && l.where !== "freezer").map((l) => l.food));
-    const before = plan.days.filter((d) => d.date < from).at(-1);
+    const before = plan.days.filter((d) => d.date < from && !d.away).at(-1);
     const yesterday = before?.slots.filter((s) => meals.get(s.meal)?.slot === "main").map((s) => s.meal);
     const drafted = planDays(mealList, foods, { dates, rest: new Set((flag("--rest") ?? "").split(",").filter(Boolean)), kcal, protein, rand: mulberry32(seed), onHand: stock, expiring, yesterday });
     const write = rest.includes("--write");
@@ -296,6 +299,12 @@ if (import.meta.main) {
     day(rest[0]).slots.sort((a, b) => a.time.localeCompare(b.time));
     await save();
     printDay(day(rest[0]));
+  } else if (cmd === "away") {
+    // Trip/eating-out days: no slots, so draft skips them and groceries ignore them.
+    const note = flag("--note") ?? "away";
+    for (const date of rest) plan.days = [...plan.days.filter((d) => d.date !== date), { date, lift: false, slots: [], away: note }];
+    await save();
+    console.log(`away: ${rest.join(", ")} (${note})`);
   } else if (cmd === "gcal") {
     slotOf(day(rest[0]), rest[1]).gcal = rest[2];
     await save();

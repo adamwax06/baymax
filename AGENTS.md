@@ -56,6 +56,7 @@ bun run health <cmd>            # or `cd apps/cli && bun link` for a global `hea
 bun run import                  # import weights.json (gym log) into the DB (docs/weights.md)
 bun run kitchen show           # what's on hand, per lot, with use-by dates (docs/kitchen.md)
 bun run plan show|eat|groceries|calendar  # the meal plan: draft, swap, eat, shop, render events (docs/kitchen.md)
+bun run costco show|cart       # Costco Same-Day cart via logged-in Chrome, filled from plan groceries (docs/kitchen.md)
 bun run clinical:import [--check] # parse/validate local clinical records + general labs
 bun run tj <search terms>       # Trader Joe's product/price search at Adam's store (via Chrome; /tj skill)
 sqlite3 data/baymax.db          # raw SQL (CLI has no query subcommand on purpose)

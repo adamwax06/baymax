@@ -62,6 +62,7 @@ bun run plan scale 2026-10-11 lunch chipotle-chicken-kirkland 457
 bun run plan time 2026-10-11 lunch 13:00
 bun run plan eat 2026-10-11 lunch [--fraction 0.5] [--set marinara-raos=250] [--add honey=10]
 bun run plan eat 2026-10-11 snack --add greek-yogurt-whole=150     # ad hoc, no slot
+bun run plan away 2026-10-15 2026-10-16 --note "Tahoe trip"         # no meals planned or bought
 bun run plan skip 2026-10-11 nightcap
 bun run plan groceries                                             # need minus on hand
 bun run plan calendar 2026-10-12 --json                            # events to push
@@ -84,6 +85,29 @@ It reports **warnings** for:
 
 The calendar render puts the 💊 line on dinner. The before-bed line lists freezer food the next day needs, skipping `fromFrozen` foods and counting the rest of today's planned meals.
 
+## Costco Same-Day (Instacart)
+Groceries default to Costco Same-Day. `bun run costco` runs Instacart's own persisted GraphQL
+inside Adam's logged-in Chrome (hashes are read from the site's operation-hashes chunk
+each run, so redeploys don't break it). Foods map to SKUs with `foods.json → costco { id, g, name }`.
+
+```bash
+bun run costco show                  # cart contents + catalog-price estimate
+bun run costco cart [--dry-run]      # plan groceries (Buy list) → packs → cart; never lowers a quantity, safe to rerun
+bun run costco add honey 1
+```
+Never-counted foods and foods without a SKU are skipped and listed. **Checkout isn't automated yet.**
+The cart is filled, then Adam taps checkout (or the agent clicks through after he OKs the total).
+When the order arrives, log each line with `kitchen buy … --source costco`.
+
+## Autopilot (runbook for a scheduled task)
+Run nightly (~21:00) as a Codex Scheduled task against this repo (AGENTS.md → Automations):
+1. `bun run plan show`. Mark known trips/eating-out days with `plan away` (check the calendar for travel).
+2. Make sure the next 3 non-away days are planned: `plan draft --from <first unplanned> --days N --write`. If `plan check` reports errors, redraft with another seed. Read the warnings and give expiring lots a slot (`plan swap`).
+3. For each new or changed day, render `plan calendar <date> --json` and create or update the gcal events. Meals are `transparent`; reuse `slot.gcal` ids, then `plan gcal` new ones.
+4. `bun run costco cart` for the window. If anything was added, message Adam the cart summary and total so he can check out.
+5. If the last photo count is over ~7 days old, ask Adam for fridge/freezer/pantry photos and `kitchen count` from them.
+
 ## Not built yet
-- Morning check-in automation; auto-redraft when a slot is skipped.
+- Autonomous checkout (needs the InitializeCheckout/FinalizeCheckout variables, captured from one real checkout) plus a spend cap.
+- Morning check-in and auto-redraft when a slot is skipped.
 - Receipt ingestion straight from email (today the agent reads the photo and runs `kitchen buy`).

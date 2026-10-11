@@ -96,6 +96,11 @@
       "fridgeDays": 2,
       "thawedDays": 2,
       "freezerDays": 120
+    },
+    "costco": {
+      "id": "2750656",
+      "g": 1823,
+      "name": "Kirkland Signature Organic Ground Beef, 1.34 lbs, 3-count"
     }
   },
   {
@@ -151,6 +156,11 @@
     "allergyChecked": "2026-07-16",
     "shelfLife": {
       "fridgeDays": 10
+    },
+    "costco": {
+      "id": "3073373",
+      "g": 907,
+      "name": "Green Mountain Creamery 2% Plain Organic Greek Yogurt, 2 lbs"
     }
   },
   {
@@ -427,6 +437,11 @@
     "allergyChecked": "2026-07-16",
     "shelfLife": {
       "pantryDays": 730
+    },
+    "costco": {
+      "id": "19682495",
+      "g": 1361,
+      "name": "Kirkland Signature 100% U.S. Raw Unfiltered Honey, 3 lbs"
     }
   },
   {
@@ -593,6 +608,11 @@
     "shelfLife": {
       "fridgeDays": 60,
       "freezerDays": 270
+    },
+    "costco": {
+      "id": "32528",
+      "g": 1814,
+      "name": "Kirkland Signature Salted Sweet Cream Butter, 16 oz, 4-count"
     }
   },
   {
@@ -1011,6 +1031,11 @@
       "fridgeDays": 2,
       "thawedDays": 2,
       "freezerDays": 180
+    },
+    "costco": {
+      "id": "21142655",
+      "g": 907,
+      "name": "Kirkland Signature Farm-Raised Raw Shrimp, Peeled, Deveined, 31-40-count, 2 lbs"
     }
   },
   {
@@ -1169,6 +1194,11 @@
     "allergyChecked": "2026-08-30",
     "shelfLife": {
       "fridgeDays": 21
+    },
+    "costco": {
+      "id": "20027559",
+      "g": 1814,
+      "name": "Organic Peeled Carrots, 2 lbs, 2-count"
     }
   },
   {
@@ -1268,6 +1298,11 @@
     "allergyChecked": "2026-08-30",
     "shelfLife": {
       "pantryDays": 30
+    },
+    "costco": {
+      "id": "19232678",
+      "g": 1361,
+      "name": "Kirkland Signature Minced California Garlic, 48 oz"
     }
   },
   {
@@ -1437,6 +1472,11 @@
       "thawedDays": 3,
       "freezerDays": 180,
       "fromFrozen": true
+    },
+    "costco": {
+      "id": "21963889",
+      "g": 1814,
+      "name": "Just Bare Lightly Breaded Chicken Breast Chunks, 4 lbs"
     }
   },
   {
@@ -1488,6 +1528,11 @@
       "fridgeDays": 4,
       "thawedDays": 3,
       "freezerDays": 90
+    },
+    "costco": {
+      "id": "120233576",
+      "g": 907,
+      "name": "Grilled Chipotle Seasoned Chicken, 2 lb"
     }
   }
 ]
