@@ -6,55 +6,47 @@
       "slots": [
         {
           "slot": "lunch",
-          "meal": "chipotle-chicken-burritos",
+          "meal": "shrimp-cocktail",
           "items": [
             {
-              "food": "chipotle-chicken-kirkland",
-              "g": 457
+              "food": "kirkland-shrimp-cocktail",
+              "g": 300
             },
             {
-              "food": "white-rice-dry",
-              "g": 100
-            },
-            {
-              "food": "flour-tortilla",
-              "count": 2
-            },
-            {
-              "food": "mozzarella-shredded",
+              "food": "cocktail-sauce-kirkland",
               "g": 40
-            },
-            {
-              "food": "spinach",
-              "g": 30
             }
           ],
-          "time": "13:00",
-          "status": "planned",
+          "time": "14:40",
+          "status": "eaten",
           "gcal": "iga7nb24r97hj5f2jv6ajtqcug"
         },
         {
           "slot": "breakfast",
-          "meal": "yogurt-honey-bowl",
+          "meal": "cocoa-berry-yogurt-bowl",
           "items": [
             {
               "food": "greek-yogurt-whole",
               "g": 200
             },
             {
+              "food": "cocoa-powder",
+              "g": 1
+            },
+            {
+              "food": "raspberries",
+              "g": 75
+            },
+            {
               "food": "honey",
               "g": 20
             },
             {
-              "food": "raspberries",
-              "g": 50
-            },
-            {
               "food": "blackberries",
-              "g": 50
+              "g": 75
             }
           ],
-          "time": "14:10",
+          "time": "15:20",
           "status": "planned",
           "gcal": "3ob46bdbevdqt1u3c38hcvgoq0"
         },
@@ -75,8 +67,9 @@
               "count": 1
             }
           ],
-          "time": "14:45",
-          "status": "planned"
+          "time": "15:30",
+          "status": "planned",
+          "gcal": "3kpqe6n8a6jsgui1m0bb65b2uo"
         },
         {
           "slot": "post-lift",
@@ -112,35 +105,27 @@
         },
         {
           "slot": "dinner",
-          "meal": "soy-honey-shrimp-bowl",
+          "meal": "chipotle-chicken-burritos",
           "items": [
             {
-              "food": "shrimp-raw",
-              "g": 300
+              "food": "chipotle-chicken-kirkland",
+              "g": 457
             },
             {
               "food": "white-rice-dry",
               "g": 100
             },
             {
-              "food": "cucumber",
-              "g": 100
+              "food": "flour-tortilla",
+              "count": 2
             },
             {
-              "food": "butter",
-              "g": 10
+              "food": "mozzarella-shredded",
+              "g": 40
             },
             {
-              "food": "soy-sauce",
-              "g": 15
-            },
-            {
-              "food": "honey",
-              "g": 10
-            },
-            {
-              "food": "sriracha",
-              "g": 10
+              "food": "spinach",
+              "g": 30
             }
           ],
           "time": "19:00",
@@ -439,11 +424,11 @@
           "items": [
             {
               "food": "kirkland-shrimp-cocktail",
-              "g": 300
+              "g": 200
             },
             {
               "food": "cocktail-sauce-kirkland",
-              "g": 40
+              "g": 20
             }
           ],
           "time": "21:30",
@@ -603,11 +588,11 @@
           "items": [
             {
               "food": "kirkland-shrimp-cocktail",
-              "g": 425
+              "g": 225
             },
             {
               "food": "cocktail-sauce-kirkland",
-              "g": 40
+              "g": 20
             }
           ],
           "time": "21:30",

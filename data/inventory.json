@@ -395,6 +395,16 @@
       "g": 1361,
       "where": "fridge",
       "source": "costco-sameday order 21390832587477192"
+    },
+    {
+      "id": "k40",
+      "at": "2026-10-11T14:20",
+      "type": "move",
+      "food": "chipotle-chicken-kirkland",
+      "g": 457,
+      "to": "freezer",
+      "source": "chat",
+      "note": "refrozen 10/11 (thawed 10/8); burritos not eaten"
     }
   ],
   "legacy": [

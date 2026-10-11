@@ -3528,5 +3528,37 @@
       }
     ],
     "notes": "Rest day. Gnocchi lunch replaced beef + potatoes. Creatine + D3 taken with the gnocchi lunch."
+  },
+  {
+    "date": "2026-10-11",
+    "kcal": 347,
+    "protein": 73,
+    "carbs": 12,
+    "fat": 1,
+    "meals": [],
+    "method": "reported-as-eaten. DAY OPEN.",
+    "deviations": [
+      {
+        "desc": "14:48 Shrimp cocktail per the plan: 300g Shrimp Cocktail tray shrimp, cooked, tail-on (Kirkland, refrigerated) + 40g Cocktail sauce (cup in the Kirkland shrimp cocktail tray). shrimp cocktail replaced the burritos (chicken refrozen)",
+        "at": "2026-10-11T14:48",
+        "items": [
+          {
+            "food": "kirkland-shrimp-cocktail",
+            "g": 300,
+            "at": "2026-10-11T14:48"
+          },
+          {
+            "food": "cocktail-sauce-kirkland",
+            "g": 40,
+            "at": "2026-10-11T14:48"
+          }
+        ],
+        "kcal": 347,
+        "protein": 73,
+        "carbs": 12,
+        "fat": 1
+      }
+    ],
+    "notes": ""
   }
 ]
