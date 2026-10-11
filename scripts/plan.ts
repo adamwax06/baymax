@@ -40,11 +40,13 @@ export function planDays(meals: Meal[], foods: Map<string, Food>, opts: Opts): P
   const used = new Map<string, number>();
   const days: PlanDay[] = [];
   let yesterday = new Set(opts.yesterday ?? []);
-  // Share of a meal's grams already in the kitchen, and whether it uses something about to expire.
+  // Kitchen first: the share of a meal's protein already on hand (so the meat counts, not the
+  // tortillas) outweighs variety (rand <= 3); anything about to expire outweighs all but the hard rules.
   const pantryFit = (m: Meal) => {
-    const g = m.items.reduce((s, it) => s + grams(it, foods), 0);
-    const have = m.items.reduce((s, it) => s + Math.min(grams(it, foods), stock.get(it.food) ?? 0), 0);
-    return (g ? have / g : 0) + (m.items.some((it) => opts.expiring?.has(it.food) && (stock.get(it.food) ?? 0) > 0) ? 1.5 : 0);
+    const p = (it: Item, g: number) => ((foods.get(it.food)!.per100g.protein ?? 0) * g) / 100;
+    const need = m.items.reduce((s, it) => s + p(it, grams(it, foods)), 0);
+    const have = m.items.reduce((s, it) => s + p(it, Math.min(grams(it, foods), Math.max(0, stock.get(it.food) ?? 0))), 0);
+    return (need ? 6 * (have / need) : 0) + (m.items.some((it) => opts.expiring?.has(it.food) && (stock.get(it.food) ?? 0) > 0) ? 10 : 0);
   };
 
   for (const date of opts.dates) {
@@ -248,10 +250,14 @@ if (import.meta.main) {
     });
     const seed = Number(flag("--seed") ?? Date.now() % 1e9);
     const horizon = dates.at(-1)!;
-    const expiring = new Set(lots.filter((l) => l.useBy && l.useBy <= horizon && l.where !== "freezer").map((l) => l.food));
+    // Stock left once already-planned meals before the draft (e.g. the rest of today) have eaten.
+    const stock = new Map(onHand);
+    for (const it of plan.days.filter((d) => d.date >= today() && d.date < from).flatMap((d) => d.slots.filter((s) => s.status === "planned").flatMap((s) => s.items)))
+      stock.set(it.food, (stock.get(it.food) ?? 0) - grams(it, foods));
+    const expiring = new Set(lots.filter((l) => l.useBy && l.useBy >= from && l.useBy <= horizon && l.where !== "freezer").map((l) => l.food));
     const before = plan.days.filter((d) => d.date < from).at(-1);
     const yesterday = before?.slots.filter((s) => meals.get(s.meal)?.slot === "main").map((s) => s.meal);
-    const drafted = planDays(mealList, foods, { dates, rest: new Set((flag("--rest") ?? "").split(",").filter(Boolean)), kcal, protein, rand: mulberry32(seed), onHand, expiring, yesterday });
+    const drafted = planDays(mealList, foods, { dates, rest: new Set((flag("--rest") ?? "").split(",").filter(Boolean)), kcal, protein, rand: mulberry32(seed), onHand: stock, expiring, yesterday });
     const write = rest.includes("--write");
     if (write) {
       plan.days = [...plan.days.filter((d) => !dates.includes(d.date)), ...drafted];

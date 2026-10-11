@@ -68,7 +68,7 @@ bun run plan calendar 2026-10-12 --json                            # events to p
 bun run plan gcal 2026-10-12 dinner <eventId>
 ```
 
-`draft` picks two mains a day at random. It prefers food already on hand, especially lots about to expire, picks new (`try`) meals less often, and flexes rice/pasta to land near the kcal target. It knows yesterday's mains from the plan.
+`draft` picks two mains a day, **kitchen first**: the share of a meal's protein already on hand (after meals already planned before the draft) outweighs variety, and a fridge or pantry lot about to expire outweighs everything except the hard rules. Randomness only breaks ties. New (`try`) meals come up less often, rice/pasta flex to land near the kcal target, and it knows yesterday's mains from the plan.
 
 ## Rules enforced in code
 `plan check` (and every draft) reports **errors** for:

@@ -38,7 +38,17 @@ test("expiring food on hand gets planned first", () => {
     const [d] = planDays(meals, foods, { ...opts(seed), dates: ["2026-10-12"], onHand, expiring: new Set(["ground-chicken"]) });
     if (d!.slots.some((s) => s.items.some((it) => it.food === "ground-chicken"))) hits++;
   }
-  expect(hits).toBeGreaterThan(40);
+  expect(hits).toBe(50);
+});
+
+test("food on hand beats food to buy", () => {
+  const onHand = new Map([["just-bare-chunks", 2500], ["white-rice-dry", 2000], ["cucumber", 500], ["sriracha", 300]]);
+  let hits = 0;
+  for (let seed = 1; seed <= 50; seed++) {
+    const [d] = planDays(meals, foods, { ...opts(seed), dates: ["2026-10-12"], onHand });
+    if (d!.slots.some((s) => s.meal === "chicken-chunk-rice-bowl")) hits++;
+  }
+  expect(hits).toBeGreaterThan(45);
 });
 
 test("every plannable food has been allergy-checked", () => {

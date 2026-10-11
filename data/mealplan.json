@@ -294,23 +294,27 @@
         },
         {
           "slot": "lunch",
-          "meal": "beef-bolognese-pasta",
+          "meal": "beef-rice-bowl",
           "items": [
             {
               "food": "ground-beef-85",
-              "g": 230
+              "g": 300
             },
             {
-              "food": "pasta-dry",
-              "g": 110
+              "food": "white-rice-dry",
+              "g": 90
             },
             {
-              "food": "marinara-raos",
-              "g": 200
+              "food": "cucumber",
+              "g": 100
             },
             {
-              "food": "olive-oil",
-              "g": 5
+              "food": "mozzarella-shredded",
+              "g": 30
+            },
+            {
+              "food": "sriracha",
+              "g": 10
             }
           ],
           "time": "12:30",
@@ -416,27 +420,35 @@
         },
         {
           "slot": "lunch",
-          "meal": "beef-rice-bowl",
+          "meal": "honey-garlic-chicken-bowl",
           "items": [
             {
-              "food": "ground-beef-85",
+              "food": "ground-chicken",
               "g": 300
             },
             {
               "food": "white-rice-dry",
-              "g": 80
+              "g": 140
+            },
+            {
+              "food": "soy-sauce",
+              "g": 20
+            },
+            {
+              "food": "honey",
+              "g": 15
+            },
+            {
+              "food": "garlic",
+              "g": 10
+            },
+            {
+              "food": "sesame-oil",
+              "g": 5
             },
             {
               "food": "cucumber",
               "g": 100
-            },
-            {
-              "food": "mozzarella-shredded",
-              "g": 30
-            },
-            {
-              "food": "sriracha",
-              "g": 10
             }
           ],
           "time": "12:30",
@@ -496,35 +508,23 @@
         },
         {
           "slot": "dinner",
-          "meal": "honey-garlic-chicken-bowl",
+          "meal": "beef-potato-dinner",
           "items": [
             {
-              "food": "ground-chicken",
-              "g": 300
+              "food": "ground-beef-85",
+              "g": 230
             },
             {
-              "food": "white-rice-dry",
-              "g": 110
+              "food": "potato",
+              "g": 400
             },
             {
-              "food": "soy-sauce",
-              "g": 20
+              "food": "spinach",
+              "g": 80
             },
             {
-              "food": "honey",
-              "g": 15
-            },
-            {
-              "food": "garlic",
-              "g": 10
-            },
-            {
-              "food": "sesame-oil",
-              "g": 5
-            },
-            {
-              "food": "cucumber",
-              "g": 100
+              "food": "butter",
+              "g": 8
             }
           ],
           "time": "19:30",
