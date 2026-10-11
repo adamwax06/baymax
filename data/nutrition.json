@@ -3531,10 +3531,10 @@
   },
   {
     "date": "2026-10-11",
-    "kcal": 347,
-    "protein": 73,
-    "carbs": 12,
-    "fat": 1,
+    "kcal": 670,
+    "protein": 93,
+    "carbs": 55,
+    "fat": 11,
     "meals": [],
     "method": "reported-as-eaten. DAY OPEN.",
     "deviations": [
@@ -3557,6 +3557,41 @@
         "protein": 73,
         "carbs": 12,
         "fat": 1
+      },
+      {
+        "desc": "15:42 Cocoa berry yogurt bowl per the plan: 200g Greek yogurt, plain, whole milk + 1g Cocoa powder, unsweetened + 75g Raspberries + 20g Honey + 75g Blackberries.",
+        "at": "2026-10-11T15:42",
+        "items": [
+          {
+            "food": "greek-yogurt-whole",
+            "g": 200,
+            "at": "2026-10-11T15:42"
+          },
+          {
+            "food": "cocoa-powder",
+            "g": 1,
+            "at": "2026-10-11T15:42"
+          },
+          {
+            "food": "raspberries",
+            "g": 75,
+            "at": "2026-10-11T15:42"
+          },
+          {
+            "food": "honey",
+            "g": 20,
+            "at": "2026-10-11T15:42"
+          },
+          {
+            "food": "blackberries",
+            "g": 75,
+            "at": "2026-10-11T15:42"
+          }
+        ],
+        "kcal": 323,
+        "protein": 20,
+        "carbs": 43,
+        "fat": 10
       }
     ],
     "notes": ""
