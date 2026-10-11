@@ -559,7 +559,7 @@
   },
   {
     "id": "yogurt-honey-bowl",
-    "name": "Morning yogurt bowl",
+    "name": "Morning yogurt bowl + berries",
     "slot": "breakfast",
     "items": [
       {
@@ -569,9 +569,17 @@
       {
         "food": "honey",
         "g": 20
+      },
+      {
+        "food": "raspberries",
+        "g": 50
+      },
+      {
+        "food": "blackberries",
+        "g": 50
       }
     ],
-    "notes": "Just yogurt + honey, 10:1. Nothing else."
+    "notes": "Yogurt + honey (10:1) with ~100g fresh berries on top. Rotate the berries with what's in the fridge: raspberries, blackberries, blueberries, strawberries."
   },
   {
     "id": "chipotle-chicken-burritos",

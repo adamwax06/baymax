@@ -156,6 +156,14 @@
             {
               "food": "honey",
               "g": 20
+            },
+            {
+              "food": "raspberries",
+              "g": 50
+            },
+            {
+              "food": "blackberries",
+              "g": 50
             }
           ],
           "time": "09:30",
@@ -295,6 +303,14 @@
             {
               "food": "honey",
               "g": 20
+            },
+            {
+              "food": "raspberries",
+              "g": 50
+            },
+            {
+              "food": "blackberries",
+              "g": 50
             }
           ],
           "time": "09:30",
@@ -443,6 +459,14 @@
             {
               "food": "honey",
               "g": 20
+            },
+            {
+              "food": "raspberries",
+              "g": 50
+            },
+            {
+              "food": "blackberries",
+              "g": 50
             }
           ],
           "time": "09:30",

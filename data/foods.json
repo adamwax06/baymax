@@ -499,6 +499,11 @@
       "thawedDays": 2,
       "fridgeDays": 4,
       "fromFrozen": true
+    },
+    "costco": {
+      "id": "18876359",
+      "g": 907,
+      "name": "Strawberries, 2 lbs"
     }
   },
   {
@@ -521,7 +526,15 @@
       "zinc": 0.09,
       "vitC": 8.06
     },
-    "allergyChecked": "2026-07-16"
+    "allergyChecked": "2026-07-16",
+    "costco": {
+      "id": "241999",
+      "g": 510,
+      "name": "Blueberries, 18 oz"
+    },
+    "shelfLife": {
+      "fridgeDays": 7
+    }
   },
   {
     "id": "mango",
@@ -744,7 +757,15 @@
       "vitD": 0,
       "vitC": 26.2
     },
-    "allergyChecked": "2026-07-19"
+    "allergyChecked": "2026-07-19",
+    "costco": {
+      "id": "18848244",
+      "g": 340,
+      "name": "Raspberries, 12 oz"
+    },
+    "shelfLife": {
+      "fridgeDays": 4
+    }
   },
   {
     "id": "blackberries",
@@ -768,7 +789,15 @@
       "vitD": 0,
       "vitC": 21
     },
-    "allergyChecked": "2026-07-19"
+    "allergyChecked": "2026-07-19",
+    "costco": {
+      "id": "18848359",
+      "g": 340,
+      "name": "Organic Blackberries, 12 oz"
+    },
+    "shelfLife": {
+      "fridgeDays": 4
+    }
   },
   {
     "id": "cocoa-powder",
@@ -1545,5 +1574,81 @@
       "g": 907,
       "name": "Grilled Chipotle Seasoned Chicken, 2 lb"
     }
+  },
+  {
+    "id": "grapes",
+    "name": "Grapes, red or black seedless, raw",
+    "store": "costco",
+    "fdcType": "estimate",
+    "weighed": "raw",
+    "per100g": {
+      "kcal": 69,
+      "protein": 0.72,
+      "carbs": 18.1,
+      "fat": 0.16,
+      "fiber": 0.9
+    },
+    "allergyChecked": "2026-10-11",
+    "shelfLife": {
+      "fridgeDays": 10
+    },
+    "costco": {
+      "id": "26366827",
+      "g": 1361,
+      "name": "Black Seedless Grapes, 3 lbs"
+    },
+    "notes": "USDA-style raw fruit values. Not on profile.diet allergies (kiwi is explicitlyOk)."
+  },
+  {
+    "id": "kiwi-gold",
+    "name": "Gold kiwifruit, raw",
+    "store": "costco",
+    "fdcType": "estimate",
+    "weighed": "raw",
+    "per100g": {
+      "kcal": 63,
+      "protein": 1.0,
+      "carbs": 15.8,
+      "fat": 0.3,
+      "fiber": 1.4
+    },
+    "allergyChecked": "2026-10-11",
+    "shelfLife": {
+      "fridgeDays": 21,
+      "pantryDays": 5
+    },
+    "costco": {
+      "id": "20644740",
+      "g": 1361,
+      "name": "Gold Kiwi, 3 lbs"
+    },
+    "notes": "USDA-style raw fruit values. Not on profile.diet allergies (kiwi is explicitlyOk).",
+    "unitG": 85
+  },
+  {
+    "id": "apple",
+    "name": "Apple, raw, with skin",
+    "store": "costco",
+    "fdcType": "estimate",
+    "weighed": "raw",
+    "per100g": {
+      "kcal": 52,
+      "protein": 0.26,
+      "carbs": 13.8,
+      "fat": 0.17,
+      "fiber": 2.4
+    },
+    "allergyChecked": "2026-10-11",
+    "shelfLife": {
+      "fridgeDays": 30,
+      "pantryDays": 7
+    },
+    "costco": {
+      "id": "26365798",
+      "g": 1814,
+      "name": "Organic Honeycrisp Apples, 4 lbs"
+    },
+    "notes": "USDA-style raw fruit values. Not on profile.diet allergies (kiwi is explicitlyOk).",
+    "unitG": 200
   }
 ]
