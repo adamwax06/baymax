@@ -898,5 +898,22 @@
       }
     ],
     "notes": "Beef raw: smash thin patties onto each tortilla, beef side down in a hot dry pan 3 min, flip, cheese on, fold, 1-2 min. Pico + sriracha to dip. Check the pico label for bell pepper."
+  },
+  {
+    "id": "shrimp-cocktail",
+    "name": "Shrimp cocktail",
+    "slot": "snack",
+    "meat": "shrimp",
+    "items": [
+      {
+        "food": "kirkland-shrimp-cocktail",
+        "g": 300
+      },
+      {
+        "food": "cocktail-sauce-kirkland",
+        "g": 40
+      }
+    ],
+    "notes": "Adam's favorite (\"that shit is just fire\"). Kirkland deli tray, straight from the fridge with the cocktail sauce and lemon. Counts as shrimp for the one-meat rule. An opened tray lasts ~3 days."
   }
 ]

@@ -1429,7 +1429,15 @@
       "sodium": 250
     },
     "allergyChecked": "2026-09-29",
-    "notes": "Costco deli tray #11159, 1.5-1.75 lb at $9.99/lb. Shrimp ingredients: shrimp, water, salt. No shrimp-only label panel online, so USDA cooked-shrimp values (same as shrimp-cooked). Weigh the shrimp with tails on and it slightly overstates the meat. Shellfish, explicitly safe."
+    "notes": "Costco deli tray #11159, 1.5-1.75 lb at $9.99/lb. Shrimp ingredients: shrimp, water, salt. No shrimp-only label panel online, so USDA cooked-shrimp values (same as shrimp-cooked). Weigh the shrimp with tails on and it slightly overstates the meat. Shellfish, explicitly safe.",
+    "shelfLife": {
+      "fridgeDays": 3
+    },
+    "costco": {
+      "id": "50059371",
+      "g": 725,
+      "name": "Kirkland Signature Shrimp Cocktail with Cocktail Sauce & Lemon (~1.6 lb)"
+    }
   },
   {
     "id": "cocktail-sauce-kirkland",
@@ -1447,7 +1455,10 @@
       "sodium": 980
     },
     "allergyChecked": "2026-09-29",
-    "notes": "Generic USDA cocktail-sauce values (no Kirkland panel found). Ingredients online: water, HFCS, tomato paste, vinegar, horseradish prep (soybean oil), salt, corn starch, onion, garlic, preservatives, caramel color, natural/artificial flavors, spice. NO Worcestershire/anchovy/fish listed. Caveats: one retailer lists a shared facility that handles fish, tree nuts and peanuts, and \"natural flavors\"/\"spice\" are unnamed. Two online versions disagree, so the physical tray label wins."
+    "notes": "Generic USDA cocktail-sauce values (no Kirkland panel found). Ingredients online: water, HFCS, tomato paste, vinegar, horseradish prep (soybean oil), salt, corn starch, onion, garlic, preservatives, caramel color, natural/artificial flavors, spice. NO Worcestershire/anchovy/fish listed. Caveats: one retailer lists a shared facility that handles fish, tree nuts and peanuts, and \"natural flavors\"/\"spice\" are unnamed. Two online versions disagree, so the physical tray label wins.",
+    "shelfLife": {
+      "fridgeDays": 14
+    }
   },
   {
     "id": "just-bare-chunks",

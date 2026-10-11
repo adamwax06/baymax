@@ -7,6 +7,7 @@
 //
 // usage: bun run plan draft [--from YYYY-MM-DD] [--days 3] [--rest d1,d2] [--seed N] [--write]
 //        bun run plan show|check [--from d]
+//        bun run plan add <date> <slot> <mealId> [--time HH:MM]   (extra slot, e.g. a snack)
 //        bun run plan swap <date> <slot> <mealId> | scale <date> <slot> <food> <g> | time <date> <slot> <HH:MM>
 //        bun run plan eat <date> <slot|mealId> [--fraction 0.5] [--set food=g ...] [--add food=g ...] [--note ..]
 //        bun run plan away <date>... [--note ..]   (trips: no meals planned or bought)
@@ -108,7 +109,7 @@ export function check(days: PlanDay[], meals: Map<string, Meal>, foods: Map<stri
   const sorted = [...days].sort((a, b) => a.date.localeCompare(b.date));
   for (const d of sorted.filter((d) => !d.away)) {
     const mains = d.slots.filter((s) => s.status !== "skipped" && meals.get(s.meal)?.slot === "main");
-    const meats = mains.map((s) => meals.get(s.meal)!.meat).filter(Boolean);
+    const meats = d.slots.filter((s) => s.status !== "skipped").map((s) => meals.get(s.meal)?.meat).filter(Boolean);
     if (new Set(meats).size < meats.length) errors.push(`${d.date}: same meat twice (${meats.join(", ")})`);
     for (const s of mains) if (prev.includes(s.meal)) errors.push(`${d.date}: ${s.meal} was also yesterday`);
     prev = mains.map((s) => s.meal);
@@ -282,6 +283,17 @@ if (import.meta.main) {
     Object.assign(s, { meal: m.id, items: m.items, status: "planned", fraction: undefined });
     await save();
     printDay(day(rest[0]));
+    report();
+  } else if (cmd === "add") {
+    // An extra slot (snack, second dessert, ...) on top of the drafted day.
+    const d = day(rest[0]);
+    const m = meals.get(rest[2]!);
+    if (!m) throw new Error(`unknown meal "${rest[2]}" (see data/meals.json)`);
+    if (d.slots.some((s) => s.slot === rest[1])) throw new Error(`${d.date} already has a "${rest[1]}" slot (swap it instead)`);
+    d.slots.push({ slot: rest[1]!, meal: m.id, items: m.items, time: flag("--time") ?? "21:30", status: "planned" });
+    d.slots.sort((a, b) => a.time.localeCompare(b.time));
+    await save();
+    printDay(d);
     report();
   } else if (cmd === "scale") {
     const s = slotOf(day(rest[0]), rest[1]);

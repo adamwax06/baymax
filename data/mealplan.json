@@ -311,7 +311,7 @@
             },
             {
               "food": "white-rice-dry",
-              "g": 90
+              "g": 60
             },
             {
               "food": "cucumber",
@@ -394,7 +394,7 @@
             },
             {
               "food": "white-rice-dry",
-              "g": 90
+              "g": 60
             },
             {
               "food": "cucumber",
@@ -408,6 +408,23 @@
           "time": "19:30",
           "status": "planned",
           "gcal": "iea01b4qh942joohacl8b52n90"
+        },
+        {
+          "slot": "snack",
+          "meal": "shrimp-cocktail",
+          "items": [
+            {
+              "food": "kirkland-shrimp-cocktail",
+              "g": 300
+            },
+            {
+              "food": "cocktail-sauce-kirkland",
+              "g": 40
+            }
+          ],
+          "time": "21:30",
+          "status": "planned",
+          "gcal": "o7i0uleitoukl4vbca5v9ln704"
         }
       ]
     },
@@ -442,7 +459,7 @@
             },
             {
               "food": "white-rice-dry",
-              "g": 140
+              "g": 70
             },
             {
               "food": "soy-sauce",
@@ -533,7 +550,7 @@
             },
             {
               "food": "potato",
-              "g": 400
+              "g": 300
             },
             {
               "food": "spinach",
@@ -547,6 +564,23 @@
           "time": "19:30",
           "status": "planned",
           "gcal": "eqme46bjvg9tvc4j5n4n1u290s"
+        },
+        {
+          "slot": "snack",
+          "meal": "shrimp-cocktail",
+          "items": [
+            {
+              "food": "kirkland-shrimp-cocktail",
+              "g": 425
+            },
+            {
+              "food": "cocktail-sauce-kirkland",
+              "g": 40
+            }
+          ],
+          "time": "21:30",
+          "status": "planned",
+          "gcal": "i86ak6ds65lthqr4boe8rf290k"
         }
       ]
     },
