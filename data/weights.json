@@ -12572,6 +12572,61 @@
         }
       ],
       "notes": "Deload push at ~21:00 after a nap (17:19-20:17) through the 16:00 slot. Done to the prescription except an extra pushdown set. Back felt fine (Adam)."
+    },
+    {
+      "date": "2026-10-11",
+      "type": "legs",
+      "exercises": [
+        {
+          "name": "Squat",
+          "sets": [
+            {
+              "lb": 235,
+              "reps": [
+                5,
+                5
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Leg Press Calf Raises",
+          "sets": [
+            {
+              "lb": 540,
+              "reps": [
+                8,
+                6,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Hamstring Curl",
+          "sets": [
+            {
+              "lb": 145,
+              "reps": [
+                8,
+                8
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Unilateral Leg Extension",
+          "sets": [
+            {
+              "lb": 145,
+              "reps": [
+                8,
+                8
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
